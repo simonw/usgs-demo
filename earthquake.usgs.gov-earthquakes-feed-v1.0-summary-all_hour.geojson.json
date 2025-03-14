@@ -1,64 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741847598000,
+    "generated": 1741934025000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 12
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.98,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1741847058390,
-        "updated": 1741847156414,
+        "mag": 0.77,
+        "place": "6 km NNW of The Geysers, CA",
+        "time": 1741933386720,
+        "updated": 1741933484727,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75147951",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75147951.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75148436",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75148436.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
+        "sig": 9,
         "net": "nc",
-        "code": "75147951",
-        "ids": ",nc75147951,",
+        "code": "75148436",
+        "ids": ",nc75148436,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.00405,
+        "nst": 20,
+        "dmin": 0.01308,
         "rms": 0.03,
-        "gap": 59,
+        "gap": 54,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 7 km NW of The Geysers, CA"
+        "title": "M 0.8 - 6 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.826164245605,
-          38.8121681213379,
-          1.91999995708466
+          -122.800163269043,
+          38.820499420166,
+          2.76999998092651
         ]
       },
-      "id": "nc75147951"
+      "id": "nc75148436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "55 km ENE of Palca, Peru",
+        "time": 1741932371668,
+        "updated": 1741933588040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pyrr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pyrr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000pyrr",
+        "ids": ",us6000pyrr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 1.132,
+        "rms": 0.78,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 55 km ENE of Palca, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4701,
+          -17.596,
+          157.977
+        ]
+      },
+      "id": "us6000pyrr"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.8,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1741846982540,
-        "updated": 1741847076703,
+        "place": "23 km SE of Chickaloon, Alaska",
+        "time": 1741932332164,
+        "updated": 1741932464802,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75147946",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75147946.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253ctu2qo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253ctu2qo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,436 +106,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 10,
-        "net": "nc",
-        "code": "75147946",
-        "ids": ",nc75147946,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.005585,
-        "rms": 0.02,
-        "gap": 70,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.826332092285,
-          38.8139991760254,
-          1.70000004768372
-        ]
-      },
-      "id": "nc75147946"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.06,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1741846416310,
-        "updated": 1741846511543,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75147941",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75147941.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75147941",
-        "ids": ",nc75147941,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.009511,
-        "rms": 0.01,
-        "gap": 90,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.82250213623,
-          38.8168334960938,
-          2.42000007629395
-        ]
-      },
-      "id": "nc75147941"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.67,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1741845980090,
-        "updated": 1741847537617,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75147936",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75147936.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75147936",
-        "ids": ",nc75147936,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.004713,
-        "rms": 0.01,
-        "gap": 92,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.796333312988,
-          38.837833404541,
-          1.73000001907349
-        ]
-      },
-      "id": "nc75147936"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.16,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1741845845370,
-        "updated": 1741846936550,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75147931",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75147931.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "nc",
-        "code": "75147931",
-        "ids": ",nc75147931,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.003711,
-        "rms": 0.02,
-        "gap": 50,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 7 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.805335998535,
-          38.8236656188965,
-          1.5
-        ]
-      },
-      "id": "nc75147931"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "52 km NW of Toyah, Texas",
-        "time": 1741845743762,
-        "updated": 1741846614807,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025faer",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025faer.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2025faer",
-        "ids": ",tx2025faer,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 52 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.19,
-          31.649,
-          4.8832
-        ]
-      },
-      "id": "tx2025faer"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.37,
-        "place": "0 km SE of Indios, Puerto Rico",
-        "time": 1741845594350,
-        "updated": 1741846099550,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71475618",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71475618.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "pr",
-        "code": "71475618",
-        "ids": ",pr71475618,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.05327,
-        "rms": 0.16,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 0 km SE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8146666666667,
-          17.9876666666667,
-          14.02
-        ]
-      },
-      "id": "pr71475618"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "1 km S of Indios, Puerto Rico",
-        "time": 1741845244000,
-        "updated": 1741846131560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71475613",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71475613.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "pr",
-        "code": "71475613",
-        "ids": ",pr71475613,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.0495,
-        "rms": 0.13,
-        "gap": 182,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 1 km S of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.818,
-          17.985,
-          15.35
-        ]
-      },
-      "id": "pr71475613"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "71 km ESE of Denali National Park, Alaska",
-        "time": 1741844940363,
-        "updated": 1741845081180,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253b5ynp0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253b5ynp0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
         "net": "ak",
-        "code": "0253b5ynp0",
-        "ids": ",ak0253b5ynp0,",
+        "code": "0253ctu2qo",
+        "ids": ",ak0253ctu2qo,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.68,
+        "rms": 0.3,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 71 km ESE of Denali National Park, Alaska"
+        "title": "M 0.8 - 23 km SE of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.502,
-          63.2131,
-          122.3
+          -148.1125,
+          61.6727,
+          20.2
         ]
       },
-      "id": "ak0253b5ynp0"
+      "id": "ak0253ctu2qo"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.71,
-        "place": "8 km NNW of The Geysers, CA",
-        "time": 1741844592980,
-        "updated": 1741846038446,
+        "mag": 0.49,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1741931978120,
+        "updated": 1741933636132,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75147921",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75147921.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75148431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75148431.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
+        "sig": 4,
         "net": "nc",
-        "code": "75147921",
-        "ids": ",nc75147921,",
+        "code": "75148431",
+        "ids": ",nc75148431,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.002473,
+        "rms": 0.03,
+        "gap": 79,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.5 - 6 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.788330078125,
+          38.836498260498,
+          1.8400000333786
+        ]
+      },
+      "id": "nc75148431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.75,
+        "place": "2 km NNW of The Geysers, CA",
+        "time": 1741930914830,
+        "updated": 1741931837937,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75148426",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75148426.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75148426",
+        "ids": ",nc75148426,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 10,
-        "dmin": 0.01594,
-        "rms": 0.01,
-        "gap": 74,
+        "dmin": 0.01605,
+        "rms": 0.02,
+        "gap": 77,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 8 km NNW of The Geysers, CA"
+        "title": "M 0.8 - 2 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.81566619873,
-          38.8281669616699,
-          2.00999999046326
+          -122.76782989502,
+          38.7898330688477,
+          2.03999996185303
         ]
       },
-      "id": "nc75147921"
+      "id": "nc75148426"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.23,
-        "place": "3 km SSE of Indios, Puerto Rico",
-        "time": 1741844305610,
-        "updated": 1741845684700,
+        "mag": 1.45,
+        "place": "4 km SE of Loma Linda, CA",
+        "time": 1741930880390,
+        "updated": 1741931537470,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71475608",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71475608.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "pr",
-        "code": "71475608",
-        "ids": ",pr71475608,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.07341,
-        "rms": 0.16,
-        "gap": 203,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km SSE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8025,
-          17.9678333333333,
-          15.17
-        ]
-      },
-      "id": "pr71475608"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.62,
-        "place": "7 km S of Idyllwild, CA",
-        "time": 1741844071340,
-        "updated": 1741844339658,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41078776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41078776.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41079312",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41079312.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
+        "sig": 32,
         "net": "ci",
-        "code": "41078776",
-        "ids": ",ci41078776,",
+        "code": "41079312",
+        "ids": ",ci41079312,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.0333,
-        "rms": 0.14,
-        "gap": 84,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 75,
+        "dmin": 0.08955,
+        "rms": 0.16,
+        "gap": 37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 7 km S of Idyllwild, CA"
+        "title": "M 1.5 - 4 km SE of Loma Linda, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7171667,
-          33.681,
-          15.54
+          -117.2315,
+          34.0226667,
+          11.78
         ]
       },
-      "id": "ci41078776"
+      "id": "ci41079312"
     }
   ],
   "bbox": [
-    -150.502,
-    17.967833333333,
-    1.5,
-    -66.8025,
-    63.2131,
-    122.3
+    -148.1125,
+    -17.596,
+    1.8400000333786,
+    -69.4701,
+    61.6727,
+    157.977
   ]
 }
