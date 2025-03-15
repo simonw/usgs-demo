@@ -1,261 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741934025000,
+    "generated": 1742020365000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.77,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1741933386720,
-        "updated": 1741933484727,
+        "mag": 1.75,
+        "place": "33 km ENE of Coso Junction, CA",
+        "time": 1742019052600,
+        "updated": 1742019259403,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75148436",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75148436.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41079952",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41079952.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75148436",
-        "ids": ",nc75148436,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.01308,
-        "rms": 0.03,
-        "gap": 54,
-        "magType": "md",
+        "sig": 47,
+        "net": "ci",
+        "code": "41079952",
+        "ids": ",ci41079952,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.1633,
+        "rms": 0.15,
+        "gap": 58,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 6 km NNW of The Geysers, CA"
+        "title": "M 1.8 - 33 km ENE of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.800163269043,
-          38.820499420166,
-          2.76999998092651
+          -117.5901667,
+          36.1061667,
+          0.5
         ]
       },
-      "id": "nc75148436"
+      "id": "ci41079952"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "55 km ENE of Palca, Peru",
-        "time": 1741932371668,
-        "updated": 1741933588040,
+        "mag": 2.51,
+        "place": "4 km W of San Juan Bautista, CA",
+        "time": 1742018379700,
+        "updated": 1742019793151,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pyrr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pyrr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75149016",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75149016.geojson",
+        "felt": 2,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "nc",
+        "code": "75149016",
+        "ids": ",nc75149016,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 62,
+        "dmin": 0.03816,
+        "rms": 0.18,
+        "gap": 47,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km W of San Juan Bautista, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.580497741699,
+          36.8361663818359,
+          5.46000003814697
+        ]
+      },
+      "id": "nc75149016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2380988597869873,
+        "place": "6 km WSW of Shelton, Washington",
+        "time": 1742017666470,
+        "updated": 1742017813990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62073267",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62073267.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 77,
+        "net": "uw",
+        "code": "62073267",
+        "ids": ",uw62073267,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": null,
+        "rms": 0.0599999987,
+        "gap": 41,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 6 km WSW of Shelton, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1865005493164,
+          47.20066833496094,
+          35.0099983215332
+        ]
+      },
+      "id": "uw62073267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.19,
+        "place": "7 km NNW of Idyllwild, CA",
+        "time": 1742017208320,
+        "updated": 1742017867120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41079936",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41079936.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ci",
+        "code": "41079936",
+        "ids": ",ci41079936,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 100,
+        "dmin": 0.05595,
+        "rms": 0.19,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 7 km NNW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7426667,
+          33.7976667,
+          12.03
+        ]
+      },
+      "id": "ci41079936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Pagan region, Northern Mariana Islands",
+        "time": 1742017192119,
+        "updated": 1742018142040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pyzx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pyzx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
+        "sig": 354,
         "net": "us",
-        "code": "6000pyrr",
-        "ids": ",us6000pyrr,",
+        "code": "6000pyzx",
+        "ids": ",us6000pyzx,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 1.132,
-        "rms": 0.78,
-        "gap": 97,
+        "nst": 97,
+        "dmin": 3.604,
+        "rms": 0.67,
+        "gap": 119,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.3 - 55 km ENE of Palca, Peru"
+        "title": "M 4.8 - Pagan region, Northern Mariana Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -69.4701,
-          -17.596,
-          157.977
+          145.7735,
+          18.8646,
+          175.695
         ]
       },
-      "id": "us6000pyrr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "23 km SE of Chickaloon, Alaska",
-        "time": 1741932332164,
-        "updated": 1741932464802,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253ctu2qo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253ctu2qo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ak",
-        "code": "0253ctu2qo",
-        "ids": ",ak0253ctu2qo,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.3,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 23 km SE of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.1125,
-          61.6727,
-          20.2
-        ]
-      },
-      "id": "ak0253ctu2qo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.49,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1741931978120,
-        "updated": 1741933636132,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75148431",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75148431.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "nc",
-        "code": "75148431",
-        "ids": ",nc75148431,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.002473,
-        "rms": 0.03,
-        "gap": 79,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.5 - 6 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.788330078125,
-          38.836498260498,
-          1.8400000333786
-        ]
-      },
-      "id": "nc75148431"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1741930914830,
-        "updated": 1741931837937,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75148426",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75148426.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75148426",
-        "ids": ",nc75148426,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.01605,
-        "rms": 0.02,
-        "gap": 77,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.76782989502,
-          38.7898330688477,
-          2.03999996185303
-        ]
-      },
-      "id": "nc75148426"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.45,
-        "place": "4 km SE of Loma Linda, CA",
-        "time": 1741930880390,
-        "updated": 1741931537470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41079312",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41079312.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 32,
-        "net": "ci",
-        "code": "41079312",
-        "ids": ",ci41079312,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 75,
-        "dmin": 0.08955,
-        "rms": 0.16,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 4 km SE of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.2315,
-          34.0226667,
-          11.78
-        ]
-      },
-      "id": "ci41079312"
+      "id": "us6000pyzx"
     }
   ],
   "bbox": [
-    -148.1125,
-    -17.596,
-    1.8400000333786,
-    -69.4701,
-    61.6727,
-    157.977
+    -123.18650054932,
+    18.8646,
+    0.5,
+    145.7735,
+    47.200668334961,
+    175.695
   ]
 }
