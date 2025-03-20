@@ -1,104 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742366076000,
+    "generated": 1742452413000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.56,
-        "place": "10 km WNW of Cobb, CA",
-        "time": 1742365668300,
-        "updated": 1742365762608,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75151467",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75151467.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 5,
-        "net": "nc",
-        "code": "75151467",
-        "ids": ",nc75151467,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.004902,
-        "rms": 0.01,
-        "gap": 95,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.6 - 10 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.832336425781,
-          38.8428344726562,
-          1.25
-        ]
-      },
-      "id": "nc75151467"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "43 km SSW of Cantwell, Alaska",
-        "time": 1742365481310,
-        "updated": 1742365595208,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253l3mwir",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253l3mwir.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "0253l3mwir",
-        "ids": ",ak0253l3mwir,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.49,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 43 km SSW of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.3781,
-          63.0536,
-          70.8
-        ]
-      },
-      "id": "ak0253l3mwir"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.7,
-        "place": "54 km N of Petersville, Alaska",
-        "time": 1742364581973,
-        "updated": 1742364709683,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1742451290786,
+        "updated": 1742452035958,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253l3jotx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253l3jotx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025fmzp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025fmzp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,196 +26,236 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 44,
+        "net": "tx",
+        "code": "2025fmzp",
+        "ids": ",tx2025fmzp,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 55 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.394,
+          31.674,
+          6.2758
+        ]
+      },
+      "id": "tx2025fmzp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "46 km E of Pedro Bay, Alaska",
+        "time": 1742451033884,
+        "updated": 1742451189984,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253mr38f0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253mr38f0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
         "net": "ak",
-        "code": "0253l3jotx",
-        "ids": ",ak0253l3jotx,",
+        "code": "0253mr38f0",
+        "ids": ",ak0253mr38f0,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.47,
+        "rms": 1.46,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 54 km N of Petersville, Alaska"
+        "title": "M 3.0 - 46 km E of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.6947,
-          62.9843,
-          104.7
+          -153.2787,
+          59.7694,
+          6.3
         ]
       },
-      "id": "ak0253l3jotx"
+      "id": "ak0253mr38f0"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.71,
-        "place": "3 km NNE of Pinnacles, CA",
-        "time": 1742364511360,
-        "updated": 1742365636624,
+        "mag": 5.2,
+        "place": "70 km SSE of Adak, Alaska",
+        "time": 1742450830959,
+        "updated": 1742452225779,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75151457",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75151457.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pzxa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pzxa.geojson",
+        "felt": 2,
+        "cdi": 2.8,
+        "mmi": 3.58,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 417,
+        "net": "us",
+        "code": "6000pzxa",
+        "ids": ",us6000pzxa,ak0253mr2jhs,",
+        "sources": ",us,ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 92,
+        "dmin": 0.798,
+        "rms": 0.71,
+        "gap": 145,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 70 km SSE of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.2056,
+          51.3026,
+          35
+        ]
+      },
+      "id": "us6000pzxa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.81,
+        "place": "3 km ENE of The Geysers, CA",
+        "time": 1742450712210,
+        "updated": 1742452038404,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75151927",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75151927.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 45,
+        "sig": 10,
         "net": "nc",
-        "code": "75151457",
-        "ids": ",nc75151457,",
+        "code": "75151927",
+        "ids": ",nc75151927,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.0111,
+        "rms": 0.02,
+        "gap": 88,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 3 km ENE of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.724334716797,
+          38.7886657714844,
+          1.73000001907349
+        ]
+      },
+      "id": "nc75151927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1742449891556,
+        "updated": 1742450650795,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025fmyy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025fmyy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "tx",
+        "code": "2025fmyy",
+        "ids": ",us6000pzx9,tx2025fmyy,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 58,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.409,
+          31.67,
+          7.843
+        ]
+      },
+      "id": "tx2025fmyy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.33,
+        "place": "9 km ESE of Angwin, CA",
+        "time": 1742449351600,
+        "updated": 1742451440335,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75151922",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75151922.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 27,
+        "net": "nc",
+        "code": "75151922",
+        "ids": ",nc75151922,",
         "sources": ",nc,",
         "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.03946,
-        "rms": 0.17,
-        "gap": 62,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 3 km NNE of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.139663696289,
-          36.5574989318848,
-          7.13000011444092
-        ]
-      },
-      "id": "nc75151457"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.67,
-        "place": "10 km WNW of Cobb, CA",
-        "time": 1742364074010,
-        "updated": 1742365038557,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75151452",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75151452.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75151452",
-        "ids": ",nc75151452,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.005077,
-        "rms": 0.02,
-        "gap": 86,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 10 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.830665588379,
-          38.8419990539551,
-          1.12999999523163
-        ]
-      },
-      "id": "nc75151452"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.09,
-        "place": "15 km N of Ocotillo Wells, CA",
-        "time": 1742363406160,
-        "updated": 1742363540975,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41083152",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41083152.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "ci",
-        "code": "41083152",
-        "ids": ",ci41083152,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.1505,
-        "rms": 0.23,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 15 km N of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.1116638,
-          33.2739983,
-          6.03
-        ]
-      },
-      "id": "ci41083152"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "13 km S of Reno, Nevada",
-        "time": 1742363015175,
-        "updated": 1742363128907,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00894809",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00894809.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nn",
-        "code": "00894809",
-        "ids": ",nn00894809,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
         "nst": 10,
-        "dmin": 0.044,
-        "rms": 0.0898,
-        "gap": 113.38,
-        "magType": "ml",
+        "dmin": 0.07012,
+        "rms": 0.03,
+        "gap": 98,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 13 km S of Reno, Nevada"
+        "title": "M 1.3 - 9 km ESE of Angwin, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.8156,
-          39.4104,
-          6.4
+          -122.341499328613,
+          38.5673332214355,
+          1.03999996185303
         ]
       },
-      "id": "nn00894809"
+      "id": "nc75151922"
     }
   ],
   "bbox": [
-    -150.6947,
-    33.2739983,
-    1.1299999952316,
-    -116.1116638,
-    63.0536,
-    104.7
+    -176.2056,
+    31.67,
+    1.039999961853,
+    -104.394,
+    59.7694,
+    35
   ]
 }
