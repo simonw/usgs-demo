@@ -1,184 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742711531000,
+    "generated": 1742798068000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1742710411136,
-        "updated": 1742710889845,
+        "mag": 1.4,
+        "place": "45 km WNW of Ninilchik, Alaska",
+        "time": 1742797692629,
+        "updated": 1742797796896,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025fsmb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025fsmb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253tdcfn2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253tdcfn2.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025fsmb",
-        "ids": ",tx2025fsmb,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1,
-        "rms": 0,
-        "gap": 137,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.406,
-          31.682,
-          4.2778
-        ]
-      },
-      "id": "tx2025fsmb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.67,
-        "place": "5 km NNW of The Geysers, CA",
-        "time": 1742709919940,
-        "updated": 1742710937797,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75153637",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75153637.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 43,
-        "net": "nc",
-        "code": "75153637",
-        "ids": ",nc75153637,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.007423,
-        "rms": 0.04,
-        "gap": 33,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 5 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.78800201416,
-          38.818000793457,
-          1.5
-        ]
-      },
-      "id": "nc75153637"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.91,
-        "place": "2 km NW of Orocovis, Puerto Rico",
-        "time": 1742709072830,
-        "updated": 1742710437200,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71477193",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71477193.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 130,
-        "net": "pr",
-        "code": "71477193",
-        "ids": ",pr71477193,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.08436,
-        "rms": 0.2,
-        "gap": 83,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 2 km NW of Orocovis, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4031666666667,
-          18.2431666666667,
-          34.8
-        ]
-      },
-      "id": "pr71477193"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "9 km WSW of Big Lake, Alaska",
-        "time": 1742709027055,
-        "updated": 1742709173701,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253rpceep",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253rpceep.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 30,
         "net": "ak",
-        "code": "0253rpceep",
-        "ids": ",ak0253rpceep,",
+        "code": "0253tdcfn2",
+        "ids": ",ak0253tdcfn2,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.64,
+        "rms": 0.13,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 9 km WSW of Big Lake, Alaska"
+        "title": "M 1.4 - 45 km WNW of Ninilchik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.1245,
-          61.4992,
-          51.4
+          -152.349,
+          60.2746,
+          76.8
         ]
       },
-      "id": "ak0253rpceep"
+      "id": "ak0253tdcfn2"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.78,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1742708047040,
-        "updated": 1742709135595,
+        "mag": 0.75,
+        "place": "3 km NW of The Geysers, CA",
+        "time": 1742797329250,
+        "updated": 1742797428017,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75153632",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75153632.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75154317",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75154317.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -187,35 +67,355 @@
         "tsunami": 0,
         "sig": 9,
         "net": "nc",
-        "code": "75153632",
-        "ids": ",nc75153632,",
+        "code": "75154317",
+        "ids": ",nc75154317,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.01571,
-        "rms": 0.01,
-        "gap": 72,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.01805,
+        "rms": 0.02,
+        "gap": 109,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 6 km WNW of Cobb, CA"
+        "title": "M 0.8 - 3 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.787498474121,
-          38.8228340148926,
-          1.6599999666214
+          -122.780334472656,
+          38.7915000915527,
+          2.21000003814697
         ]
       },
-      "id": "nc75153632"
+      "id": "nc75154317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "24 km NE of Thermal, CA",
+        "time": 1742797172900,
+        "updated": 1742797420069,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40908543",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40908543.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "40908543",
+        "ids": ",ci40908543,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.1174,
+        "rms": 0.21,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 24 km NE of Thermal, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.9463333,
+          33.7773333,
+          0.76
+        ]
+      },
+      "id": "ci40908543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "20 km NNE of Yerington, Nevada",
+        "time": 1742796940958,
+        "updated": 1742797087713,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00895019",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00895019.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "nn",
+        "code": "00895019",
+        "ids": ",nn00895019,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.029,
+        "rms": 0.1348,
+        "gap": 63.64999999999998,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 20 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0704,
+          39.1528,
+          6.5
+        ]
+      },
+      "id": "nn00895019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.46,
+        "place": "15 km ENE of Indio, CA",
+        "time": 1742796689790,
+        "updated": 1742797340550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40908535",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40908535.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 33,
+        "net": "ci",
+        "code": "40908535",
+        "ids": ",ci40908535,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 60,
+        "dmin": 0.1215,
+        "rms": 0.16,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 15 km ENE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.0761667,
+          33.7858333,
+          1.98
+        ]
+      },
+      "id": "ci40908535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "22 km NNE of Yerington, Nevada",
+        "time": 1742795782623,
+        "updated": 1742795913658,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00895018",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00895018.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nn",
+        "code": "00895018",
+        "ids": ",nn00895018,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.019,
+        "rms": 0.1443,
+        "gap": 126.82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 22 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0232,
+          39.1545,
+          4.8
+        ]
+      },
+      "id": "nn00895018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "62 km NNE of Petersville, Alaska",
+        "time": 1742795745697,
+        "updated": 1742795916434,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253tcwux5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253tcwux5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "0253tcwux5",
+        "ids": ",ak0253tcwux5,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.38,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 62 km NNE of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.4718,
+          63.0434,
+          29.1
+        ]
+      },
+      "id": "ak0253tcwux5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "14 km NW of Furnace Creek, California",
+        "time": 1742795647528,
+        "updated": 1742795775374,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00895016",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00895016.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nn",
+        "code": "00895016",
+        "ids": ",nn00895016,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.204,
+        "rms": 0.2587,
+        "gap": 220.19,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 14 km NW of Furnace Creek, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.9446,
+          36.5568,
+          1.5
+        ]
+      },
+      "id": "nn00895016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "12 km NE of Little Lake, CA",
+        "time": 1742794660400,
+        "updated": 1742794921203,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40908527",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40908527.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ci",
+        "code": "40908527",
+        "ids": ",ci40908527,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.03857,
+        "rms": 0.16,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 12 km NE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.812,
+          36.018,
+          1.45
+        ]
+      },
+      "id": "ci40908527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.22,
+        "place": "6 km SW of Idyllwild, CA",
+        "time": 1742794579360,
+        "updated": 1742795229080,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40908519",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40908519.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 23,
+        "net": "ci",
+        "code": "40908519",
+        "ids": ",ci40908519,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 62,
+        "dmin": 0.04392,
+        "rms": 0.17,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 6 km SW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7625,
+          33.7018333,
+          15.82
+        ]
+      },
+      "id": "ci40908519"
     }
   ],
   "bbox": [
-    -150.1245,
-    18.243166666667,
-    1.5,
-    -66.403166666667,
-    61.4992,
-    51.4
+    -152.349,
+    33.7018333,
+    0.76,
+    -115.9463333,
+    63.0434,
+    76.8
   ]
 }
