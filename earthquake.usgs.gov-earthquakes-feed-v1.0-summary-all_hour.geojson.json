@@ -1,144 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742884448000,
+    "generated": 1742970882000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "18 km SSE of Anchorage, Alaska",
-        "time": 1742883488517,
-        "updated": 1742884346083,
+        "mag": 1.3,
+        "place": "2 km SW of Knik, Alaska",
+        "time": 1742969605681,
+        "updated": 1742969735439,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253v0tmnn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253v0tmnn.geojson",
-        "felt": 76,
-        "cdi": 4.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253wobxw8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253wobxw8.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 153,
+        "sig": 26,
         "net": "ak",
-        "code": "0253v0tmnn",
-        "ids": ",ak0253v0tmnn,",
+        "code": "0253wobxw8",
+        "ids": ",ak0253wobxw8,",
         "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.39,
+        "rms": 0.45,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 18 km SSE of Anchorage, Alaska"
+        "title": "M 1.3 - 2 km SW of Knik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.7663,
-          61.0694,
-          35.1
+          -149.7574,
+          61.4458,
+          41.8
         ]
       },
-      "id": "ak0253v0tmnn"
+      "id": "ak0253wobxw8"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.27,
-        "place": "6 km SSW of Littlerock, CA",
-        "time": 1742883432740,
-        "updated": 1742883562615,
+        "mag": 1.32,
+        "place": "4 km NNW of The Geysers, CA",
+        "time": 1742969435190,
+        "updated": 1742969630630,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40909399",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40909399.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75155452",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75155452.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 25,
-        "net": "ci",
-        "code": "40909399",
-        "ids": ",ci40909399,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.04128,
-        "rms": 0.12,
-        "gap": 44,
-        "magType": "ml",
+        "sig": 27,
+        "net": "nc",
+        "code": "75155452",
+        "ids": ",nc75155452,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.008717,
+        "rms": 0.02,
+        "gap": 71,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 6 km SSW of Littlerock, CA"
+        "title": "M 1.3 - 4 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.0008316,
-          34.4661674,
-          8.64
+          -122.776496887207,
+          38.8051681518555,
+          3.25
         ]
       },
-      "id": "ci40909399"
+      "id": "nc75155452"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.86,
-        "place": "8 km SSW of Pearblossom, CA",
-        "time": 1742882484760,
-        "updated": 1742882787079,
+        "mag": 0.27,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1742969095320,
+        "updated": 1742970742795,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40909383",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40909383.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75155447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75155447.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "40909383",
-        "ids": ",ci40909383,",
-        "sources": ",ci,",
+        "sig": 1,
+        "net": "nc",
+        "code": "75155447",
+        "ids": ",nc75155447,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.01636,
-        "rms": 0.16,
-        "gap": 61,
-        "magType": "ml",
+        "nst": 8,
+        "dmin": 0.01245,
+        "rms": 0.02,
+        "gap": 121,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.9 - 8 km SSW of Pearblossom, CA"
+        "title": "M 0.3 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9376667,
-          34.4416667,
-          10.86
+          -122.825500488281,
+          38.8209991455078,
+          2.54999995231628
         ]
       },
-      "id": "ci40909383"
+      "id": "nc75155447"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.8,
-        "place": "15 km NE of Ridgecrest, CA",
-        "time": 1742882351230,
-        "updated": 1742882557903,
+        "mag": 0.79,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1742967952820,
+        "updated": 1742969236620,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40909375",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40909375.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75155437",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75155437.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,156 +146,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 10,
-        "net": "ci",
-        "code": "40909375",
-        "ids": ",ci40909375,",
-        "sources": ",ci,",
+        "net": "nc",
+        "code": "75155437",
+        "ids": ",nc75155437,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.1084,
-        "rms": 0.14,
-        "gap": 66,
-        "magType": "ml",
+        "nst": 18,
+        "dmin": 0.009809,
+        "rms": 0.02,
+        "gap": 60,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 15 km NE of Ridgecrest, CA"
+        "title": "M 0.8 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.5691667,
-          35.727,
-          9.88
+          -122.821830749512,
+          38.8168334960938,
+          2.25
         ]
       },
-      "id": "ci40909375"
+      "id": "nc75155437"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.53,
-        "place": "21 km ESE of Anza, CA",
-        "time": 1742881995400,
-        "updated": 1742882212777,
+        "mag": 1.35,
+        "place": "20 km ESE of Little Lake, CA",
+        "time": 1742967599160,
+        "updated": 1742967807150,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40909367",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40909367.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40910567",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40910567.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
+        "sig": 28,
         "net": "ci",
-        "code": "40909367",
-        "ids": ",ci40909367,",
+        "code": "40910567",
+        "ids": ",ci40910567,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.1137,
-        "rms": 0.06,
-        "gap": 105,
+        "nst": 25,
+        "dmin": 0.06858,
+        "rms": 0.15,
+        "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 21 km ESE of Anza, CA"
+        "title": "M 1.4 - 20 km ESE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4696667,
-          33.4688333,
-          6.25
+          -117.7073333,
+          35.8588333,
+          8.77
         ]
       },
-      "id": "ci40909367"
+      "id": "ci40910567"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.91,
-        "place": "10 km S of Searles Valley, CA",
-        "time": 1742881702230,
-        "updated": 1742881914788,
+        "mag": 0.87,
+        "place": "9 km NNW of Cabazon, CA",
+        "time": 1742967318280,
+        "updated": 1742967562892,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40909359",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40909359.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40910559",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40910559.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
+        "sig": 12,
         "net": "ci",
-        "code": "40909359",
-        "ids": ",ci40909359,",
+        "code": "40910559",
+        "ids": ",ci40910559,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.01776,
-        "rms": 0.14,
-        "gap": 70,
+        "nst": 39,
+        "dmin": 0.1494,
+        "rms": 0.13,
+        "gap": 41,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 10 km S of Searles Valley, CA"
+        "title": "M 0.9 - 9 km NNW of Cabazon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.4168333,
-          35.682,
-          6.49
+          -116.8205,
+          33.9963333,
+          17.31
         ]
       },
-      "id": "ci40909359"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.27,
-        "place": "10 km SSW of Valle Vista, CA",
-        "time": 1742881522730,
-        "updated": 1742881662731,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40909351",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40909351.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "ci",
-        "code": "40909351",
-        "ids": ",ci40909351,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.06707,
-        "rms": 0.18,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 10 km SSW of Valle Vista, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.9304962,
-          33.6626663,
-          15.72
-        ]
-      },
-      "id": "ci40909351"
+      "id": "ci40910559"
     }
   ],
   "bbox": [
-    -149.7663,
-    33.4688333,
-    6.25,
-    -116.4696667,
-    61.0694,
-    35.1
+    -149.7574,
+    33.9963333,
+    2.25,
+    -116.8205,
+    61.4458,
+    41.8
   ]
 }
