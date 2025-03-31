@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1743316393000,
+    "generated": 1743402874000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 11
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "0 km E of Fishhook, Alaska",
-        "time": 1743316262661,
-        "updated": 1743316375343,
+        "mag": 1.92,
+        "place": "26 km S of Malibu, CA",
+        "time": 1743402459990,
+        "updated": 1743402736583,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02543al4ze",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02543al4ze.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40913431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40913431.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 57,
+        "net": "ci",
+        "code": "40913431",
+        "ids": ",ci40913431,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.2376,
+        "rms": 0.45,
+        "gap": 197,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 26 km S of Malibu, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8173333,
+          33.7663333,
+          -0.19
+        ]
+      },
+      "id": "ci40913431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "38 km NW of Mentasta Lake, Alaska",
+        "time": 1743402277605,
+        "updated": 1743402371008,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02544y325s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02544y325s.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,435 +67,155 @@
         "tsunami": 0,
         "sig": 19,
         "net": "ak",
-        "code": "02543al4ze",
-        "ids": ",ak02543al4ze,",
+        "code": "02544y325s",
+        "ids": ",ak02544y325s,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.34,
+        "rms": 0.39,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 0 km E of Fishhook, Alaska"
+        "title": "M 1.1 - 38 km NW of Mentasta Lake, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.2201,
-          61.7433,
-          19.4
+          -144.3818,
+          63.1286,
+          0
         ]
       },
-      "id": "ak02543al4ze"
+      "id": "ak02544y325s"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.9,
-        "place": "8 km S of Borrego Springs, CA",
-        "time": 1743315871950,
-        "updated": 1743316232901,
+        "mag": 1.3,
+        "place": "54 km SSE of Denali National Park, Alaska",
+        "time": 1743400712831,
+        "updated": 1743400848616,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40912903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40912903.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02544xowj7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02544xowj7.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "40912903",
-        "ids": ",ci40912903,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.09331,
-        "rms": 0.2,
-        "gap": 32,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 8 km S of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3773333,
-          33.1808333,
-          12.48
-        ]
-      },
-      "id": "ci40912903"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.4,
-        "place": "30 km SSW of South Van Horn, Alaska",
-        "time": 1743315735251,
-        "updated": 1743315864023,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02543aj8gt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02543aj8gt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
+        "sig": 26,
         "net": "ak",
-        "code": "02543aj8gt",
-        "ids": ",ak02543aj8gt,",
+        "code": "02544xowj7",
+        "ids": ",ak02544xowj7,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 1.73,
+        "rms": 0.46,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 30 km SSW of South Van Horn, Alaska"
+        "title": "M 1.3 - 54 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.9897,
-          64.5527,
-          7.6
+          -151.4201,
+          63.0732,
+          3.2
         ]
       },
-      "id": "ak02543aj8gt"
+      "id": "ak02544xowj7"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.85,
-        "place": "12 km SSE of Anza, CA",
-        "time": 1743315647220,
-        "updated": 1743315930051,
+        "mag": 1.4,
+        "place": "54 km SSE of Denali National Park, Alaska",
+        "time": 1743399542701,
+        "updated": 1743399701279,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40912895",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40912895.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02544xkrlq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02544xkrlq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "40912895",
-        "ids": ",ci40912895,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 50,
-        "dmin": 0.02168,
-        "rms": 0.17,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 12 km SSE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6183333,
-          33.4581667,
-          10.11
-        ]
-      },
-      "id": "ci40912895"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "12 km SW of Furnace Creek, California",
-        "time": 1743315363653,
-        "updated": 1743315536051,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00895354",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00895354.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "nn",
-        "code": "00895354",
-        "ids": ",nn00895354,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.281,
-        "rms": 0.3059,
-        "gap": 160.1,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 12 km SW of Furnace Creek, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.9405,
-          36.3621,
-          10.9
-        ]
-      },
-      "id": "nn00895354"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.27,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1743315060740,
-        "updated": 1743315188830,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75157602",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75157602.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75157602",
-        "ids": ",nc75157602,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.003507,
-        "rms": 0.02,
-        "gap": 68,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.3 - 7 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.813667297363,
-          38.8255004882812,
-          2.1800000667572
-        ]
-      },
-      "id": "nc75157602"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "12 km W of Big Lake, Alaska",
-        "time": 1743314868590,
-        "updated": 1743314964900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02543ag3cb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02543ag3cb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
+        "sig": 30,
         "net": "ak",
-        "code": "02543ag3cb",
-        "ids": ",ak02543ag3cb,",
+        "code": "02544xkrlq",
+        "ids": ",ak02544xkrlq,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.77,
+        "rms": 0.91,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 12 km W of Big Lake, Alaska"
+        "title": "M 1.4 - 54 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.1857,
-          61.5198,
-          70.7
+          -151.3502,
+          63.0801,
+          0
         ]
       },
-      "id": "ak02543ag3cb"
+      "id": "ak02544xkrlq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "47 km WNW of Toyah, Texas",
-        "time": 1743314812953,
-        "updated": 1743315372005,
+        "mag": 4.5,
+        "place": "25 km SW of Tambolaka, Indonesia",
+        "time": 1743399515732,
+        "updated": 1743402504040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025gfgj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025gfgj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pnz6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pnz6.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2025gfgj",
-        "ids": ",tx2025gfgj,",
-        "sources": ",tx,",
+        "sig": 312,
+        "net": "us",
+        "code": "7000pnz6",
+        "ids": ",us7000pnz6,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 75,
-        "magType": "ml",
+        "nst": 39,
+        "dmin": 1.223,
+        "rms": 0.71,
+        "gap": 56,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.5 - 47 km WNW of Toyah, Texas"
+        "title": "M 4.5 - 25 km SW of Tambolaka, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.212,
-          31.548,
-          3.5011
+          119.0602,
+          -9.5801,
+          68.789
         ]
       },
-      "id": "tx2025gfgj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "45 km NW of Toyah, Texas",
-        "time": 1743313823098,
-        "updated": 1743314711441,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025gffv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025gffv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025gffv",
-        "ids": ",tx2025gffv,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 45 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.185,
-          31.549,
-          4.145
-        ]
-      },
-      "id": "tx2025gffv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "14 km WNW of Ferry, Alaska",
-        "time": 1743313739254,
-        "updated": 1743313862264,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02543a3gx1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02543a3gx1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "02543a3gx1",
-        "ids": ",ak02543a3gx1,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.55,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 14 km WNW of Ferry, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.3787,
-          64.0749,
-          14.7
-        ]
-      },
-      "id": "ak02543a3gx1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.98,
-        "place": "3 km W of Cobb, CA",
-        "time": 1743313078740,
-        "updated": 1743313203465,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75157587",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75157587.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "nc",
-        "code": "75157587",
-        "ids": ",nc75157587,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01276,
-        "rms": 0.02,
-        "gap": 167,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 3 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.761497497559,
-          38.8133316040039,
-          1.80999994277954
-        ]
-      },
-      "id": "nc75157587"
+      "id": "us7000pnz6"
     }
   ],
   "bbox": [
-    -150.1857,
-    31.548,
-    1.8099999427795,
-    -104.185,
-    64.5527,
-    70.7
+    -151.4201,
+    -9.5801,
+    -0.19,
+    119.0602,
+    63.1286,
+    68.789
   ]
 }
