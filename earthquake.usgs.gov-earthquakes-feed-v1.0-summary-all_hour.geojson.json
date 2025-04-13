@@ -1,53 +1,501 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744439592000,
+    "generated": 1744525990000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 1
+    "count": 12
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "48 km WNW of Nanwalek, Alaska",
-        "time": 1744438608625,
-        "updated": 1744438725223,
+        "mag": 2.1,
+        "place": "9 km SE of Clam Gulch, Alaska",
+        "time": 1744525709701,
+        "updated": 1744525855008,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254oshj7i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254oshj7i.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254qg3eu2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254qg3eu2.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
+        "sig": 68,
         "net": "ak",
-        "code": "0254oshj7i",
-        "ids": ",ak0254oshj7i,",
+        "code": "0254qg3eu2",
+        "ids": ",ak0254qg3eu2,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.31,
+        "rms": 0.37,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 48 km WNW of Nanwalek, Alaska"
+        "title": "M 2.1 - 9 km SE of Clam Gulch, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.6452,
-          59.5814,
-          80.2
+          -151.2596,
+          60.1767,
+          36.9
         ]
       },
-      "id": "ak0254oshj7i"
+      "id": "ak0254qg3eu2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.69,
+        "place": "7 km S of Las Flores, CA",
+        "time": 1744525192190,
+        "updated": 1744525407434,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40924679",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40924679.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ci",
+        "code": "40924679",
+        "ids": ",ci40924679,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 61,
+        "dmin": 0.1153,
+        "rms": 0.19,
+        "gap": 121,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 7 km S of Las Flores, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.6321667,
+          33.9715,
+          13.29
+        ]
+      },
+      "id": "ci40924679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "18 km WNW of Mentone, Texas",
+        "time": 1744524893797,
+        "updated": 1744525267463,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025hevr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025hevr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "tx",
+        "code": "2025hevr",
+        "ids": ",tx2025hevr,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 184,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 18 km WNW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.78,
+          31.774,
+          4.864
+        ]
+      },
+      "id": "tx2025hevr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1744524578380,
+        "updated": 1744524674442,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75164421",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75164421.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75164421",
+        "ids": ",nc75164421,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.003544,
+        "rms": 0.01,
+        "gap": 115,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 10 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.839164733887,
+          38.8406677246094,
+          1.92999994754791
+        ]
+      },
+      "id": "nc75164421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.77,
+        "place": "6 km NNW of The Geysers, CA",
+        "time": 1744524434290,
+        "updated": 1744524529526,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75164416",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75164416.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75164416",
+        "ids": ",nc75164416,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.004392,
+        "rms": 0.03,
+        "gap": 69,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 6 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.805000305176,
+          38.8214988708496,
+          3.3199999332428
+        ]
+      },
+      "id": "nc75164416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.37,
+        "place": "7 km SE of Valle Vista, CA",
+        "time": 1744524325370,
+        "updated": 1744524537344,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40924663",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40924663.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ci",
+        "code": "40924663",
+        "ids": ",ci40924663,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.07687,
+        "rms": 0.16,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 7 km SE of Valle Vista, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8356667,
+          33.7096667,
+          13.8
+        ]
+      },
+      "id": "ci40924663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "13 km E of Cloverdale, CA",
+        "time": 1744524137690,
+        "updated": 1744525637158,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75164411",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75164411.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75164411",
+        "ids": ",nc75164411,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.006124,
+        "rms": 0.02,
+        "gap": 91,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 13 km E of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.877830505371,
+          38.8424987792969,
+          2.54999995231628
+        ]
+      },
+      "id": "nc75164411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "18 km WNW of Cantwell, Alaska",
+        "time": 1744524123763,
+        "updated": 1744524276288,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254qfxs7s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254qfxs7s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "0254qfxs7s",
+        "ids": ",ak0254qfxs7s,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 18 km WNW of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.2806,
+          63.4631,
+          95.4
+        ]
+      },
+      "id": "ak0254qfxs7s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.55,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1744523790460,
+        "updated": 1744525039083,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75164406",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75164406.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "nc",
+        "code": "75164406",
+        "ids": ",nc75164406,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 6,
+        "dmin": 0.009939,
+        "rms": 0,
+        "gap": 97,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.6 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.807662963867,
+          38.8331680297852,
+          2.23000001907349
+        ]
+      },
+      "id": "nc75164406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.51,
+        "place": "5 km N of Fontana, CA",
+        "time": 1744522792680,
+        "updated": 1744523450010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40924647",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40924647.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ci",
+        "code": "40924647",
+        "ids": ",ci40924647,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 89,
+        "dmin": 0.04067,
+        "rms": 0.17,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 5 km N of Fontana, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4533333,
+          34.1385,
+          8.2
+        ]
+      },
+      "id": "ci40924647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "126 km SSE of Sanana, Indonesia",
+        "time": 1744522771610,
+        "updated": 1744524826040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q5qm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q5qm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000q5qm",
+        "ids": ",us6000q5qm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 3.824,
+        "rms": 1.02,
+        "gap": 90,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 126 km SSE of Sanana, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.3252,
+          -3.145,
+          10
+        ]
+      },
+      "id": "us6000q5qm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.65,
+        "place": "22 km N of Ridgecrest, CA",
+        "time": 1744522733130,
+        "updated": 1744522938977,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40924631",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40924631.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "40924631",
+        "ids": ",ci40924631,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.09808,
+        "rms": 0.18,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 22 km N of Ridgecrest, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6453333,
+          35.822,
+          7.17
+        ]
+      },
+      "id": "ci40924631"
     }
+  ],
+  "bbox": [
+    -151.2596,
+    -3.145,
+    1.9299999475479,
+    126.3252,
+    63.4631,
+    95.4
   ]
 }
