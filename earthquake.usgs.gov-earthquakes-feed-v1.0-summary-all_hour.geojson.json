@@ -1,224 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1744871668000,
+    "generated": 1744958080000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9320656061172485,
-        "place": "1 km ESE of Buckley, Washington",
-        "time": 1744871485280,
-        "updated": 1744871627870,
+        "mag": 1.52,
+        "place": "2 km WSW of Julian, CA",
+        "time": 1744957199030,
+        "updated": 1744957833170,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62093251",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62093251.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40931815",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40931815.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 57,
-        "net": "uw",
-        "code": "62093251",
-        "ids": ",uw62093251,",
-        "sources": ",uw,",
-        "types": ",origin,phase-data,",
-        "nst": 61,
-        "dmin": null,
-        "rms": 0.140000001,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 1 km ESE of Buckley, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.00616455078125,
-          47.154998779296875,
-          17.4899997711182
-        ]
-      },
-      "id": "uw62093251"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "39 km SSW of Skwentna, Alaska",
-        "time": 1744871481783,
-        "updated": 1744871626526,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254x29fci",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254x29fci.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "0254x29fci",
-        "ids": ",ak0254x29fci,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.38,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 39 km SSW of Skwentna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.5435,
-          61.6459,
-          72
-        ]
-      },
-      "id": "ak0254x29fci"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "21 km NNE of Yerington, Nevada",
-        "time": 1744871461527,
-        "updated": 1744871594342,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00896336",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00896336.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "nn",
-        "code": "00896336",
-        "ids": ",nn00896336,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.019,
-        "rms": 0.1299,
-        "gap": 115.71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 21 km NNE of Yerington, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.056,
-          39.1557,
-          7.2
-        ]
-      },
-      "id": "nn00896336"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.39,
-        "place": "14 km E of Little Lake, CA",
-        "time": 1744870097080,
-        "updated": 1744870300595,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40930895",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40930895.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
+        "sig": 36,
         "net": "ci",
-        "code": "40930895",
-        "ids": ",ci40930895,",
+        "code": "40931815",
+        "ids": ",ci40931815,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.06543,
-        "rms": 0.09,
-        "gap": 122,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 63,
+        "dmin": 0.02584,
+        "rms": 0.21,
+        "gap": 21,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 14 km E of Little Lake, CA"
+        "title": "M 1.5 - 2 km WSW of Julian, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.7478333,
-          35.9166667,
-          8.26
+          -116.6238333,
+          33.0675,
+          14.39
         ]
       },
-      "id": "ci40930895"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.14,
-        "place": "2 km SW of Tallaboa, Puerto Rico",
-        "time": 1744870035110,
-        "updated": 1744870789250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71479308",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71479308.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 70,
-        "net": "pr",
-        "code": "71479308",
-        "ids": ",pr71479308,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.06862,
-        "rms": 0.25,
-        "gap": 183,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km SW of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7306666666667,
-          17.983,
-          11.81
-        ]
-      },
-      "id": "pr71479308"
+      "id": "ci40931815"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.3,
-        "place": "46 km E of Pedro Bay, Alaska",
-        "time": 1744869835032,
-        "updated": 1744869982038,
+        "place": "43 km E of Pedro Bay, Alaska",
+        "time": 1744957132561,
+        "updated": 1744957307660,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254x23hv3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254x23hv3.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254ypq1wo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254ypq1wo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,155 +67,195 @@
         "tsunami": 0,
         "sig": 81,
         "net": "ak",
-        "code": "0254x23hv3",
-        "ids": ",ak0254x23hv3,",
+        "code": "0254ypq1wo",
+        "ids": ",ak0254ypq1wo,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.26,
+        "rms": 0.68,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 46 km E of Pedro Bay, Alaska"
+        "title": "M 2.3 - 43 km E of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.2799,
-          59.7603,
-          121.3
+          -153.3498,
+          59.8513,
+          122.2
         ]
       },
-      "id": "ak0254x23hv3"
+      "id": "ak0254ypq1wo"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.82,
-        "place": "9 km SW of Morongo Valley, CA",
-        "time": 1744868364590,
-        "updated": 1744868573682,
+        "mag": 1.6,
+        "place": "36 km SE of Mina, Nevada",
+        "time": 1744956457165,
+        "updated": 1744956630523,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40930887",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40930887.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00896403",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00896403.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "40930887",
-        "ids": ",ci40930887,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.04847,
-        "rms": 0.19,
-        "gap": 46,
+        "sig": 39,
+        "net": "nn",
+        "code": "00896403",
+        "ids": ",nn00896403,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.172,
+        "rms": 0.2789,
+        "gap": 95.96000000000001,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 9 km SW of Morongo Valley, CA"
+        "title": "M 1.6 - 36 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.6448333,
-          33.99,
-          13.74
+          -117.7666,
+          38.203,
+          6.9
         ]
       },
-      "id": "ci40930887"
+      "id": "nn00896403"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.76,
-        "place": "9 km SW of Morongo Valley, CA",
-        "time": 1744868283910,
-        "updated": 1744868955640,
+        "mag": 0.26,
+        "place": "4 km NNW of The Geysers, CA",
+        "time": 1744956021180,
+        "updated": 1744956117842,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40930879",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40930879.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75167391",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75167391.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
-        "net": "ci",
-        "code": "40930879",
-        "ids": ",ci40930879,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 77,
-        "dmin": 0.05114,
-        "rms": 0.16,
-        "gap": 31,
-        "magType": "ml",
+        "sig": 1,
+        "net": "nc",
+        "code": "75167391",
+        "ids": ",nc75167391,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.004885,
+        "rms": 0.02,
+        "gap": 105,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 9 km SW of Morongo Valley, CA"
+        "title": "M 0.3 - 4 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.654,
-          33.9875,
-          12.79
+          -122.782836914062,
+          38.808666229248,
+          1.50999999046326
         ]
       },
-      "id": "ci40930879"
+      "id": "nc75167391"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.62,
-        "place": "2 km SW of Julian, CA",
-        "time": 1744868088070,
-        "updated": 1744868719550,
+        "mag": 0.22,
+        "place": "8 km NNW of The Geysers, CA",
+        "time": 1744955545190,
+        "updated": 1744955642300,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40930871",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40930871.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75167386",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75167386.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 40,
-        "net": "ci",
-        "code": "40930871",
-        "ids": ",ci40930871,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 65,
-        "dmin": 0.02629,
-        "rms": 0.19,
-        "gap": 28,
-        "magType": "ml",
+        "sig": 1,
+        "net": "nc",
+        "code": "75167386",
+        "ids": ",nc75167386,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.007143,
+        "rms": 0.02,
+        "gap": 78,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.6 - 2 km SW of Julian, CA"
+        "title": "M 0.2 - 8 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.6175,
-          33.0606667,
-          13.06
+          -122.815170288086,
+          38.8293342590332,
+          1.86000001430511
         ]
       },
-      "id": "ci40930871"
+      "id": "nc75167386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "46 km E of Stevens Village, Alaska",
+        "time": 1744954809089,
+        "updated": 1744954977884,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0254yp98p8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0254yp98p8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "ak",
+        "code": "0254yp98p8",
+        "ids": ",ak0254yp98p8,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.32,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 46 km E of Stevens Village, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0669,
+          66.0333,
+          14.1
+        ]
+      },
+      "id": "ak0254yp98p8"
     }
   ],
   "bbox": [
-    -153.2799,
-    17.983,
-    7.2,
-    -66.730666666667,
-    61.6459,
-    121.3
+    -153.3498,
+    33.0675,
+    1.5099999904633,
+    -116.6238333,
+    66.0333,
+    122.2
   ]
 }
