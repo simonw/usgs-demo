@@ -1,381 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745130816000,
+    "generated": 1745217279000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.12,
-        "place": "8 km WSW of Niland, CA",
-        "time": 1745130474410,
-        "updated": 1745130693835,
+        "mag": 1.9,
+        "place": "8 km NNE of Cantwell, Alaska",
+        "time": 1745216507421,
+        "updated": 1745216625484,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40934023",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40934023.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02553ocq52",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02553ocq52.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "ci",
-        "code": "40934023",
-        "ids": ",ci40934023,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.03766,
-        "rms": 0.17,
-        "gap": 45,
+        "sig": 56,
+        "net": "ak",
+        "code": "02553ocq52",
+        "ids": ",ak02553ocq52,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.35,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km WSW of Niland, CA"
+        "title": "M 1.9 - 8 km NNE of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.5918333,
-          33.2106667,
-          3.45
+          -148.8995,
+          63.4665,
+          94.2
         ]
       },
-      "id": "ci40934023"
+      "id": "ak02553ocq52"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "8 km NE of Kisarazu, Japan",
-        "time": 1745129467877,
-        "updated": 1745130569040,
+        "mag": 2.07,
+        "place": "2 km SW of Pāhala, Hawaii",
+        "time": 1745213720890,
+        "updated": 1745213938650,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q7ck",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q7ck.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74657367",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74657367.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000q7ck",
-        "ids": ",us6000q7ck,",
-        "sources": ",us,",
+        "sig": 66,
+        "net": "hv",
+        "code": "74657367",
+        "ids": ",hv74657367,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 1.822,
-        "rms": 0.87,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 8 km NE of Kisarazu, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.9978,
-          35.437,
-          87.785
-        ]
-      },
-      "id": "us6000q7ck"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.22,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1745129032630,
-        "updated": 1745129128957,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75168561",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75168561.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75168561",
-        "ids": ",nc75168561,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01162,
-        "rms": 0.02,
-        "gap": 134,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.2 - 7 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.803001403809,
-          38.844165802002,
-          1.9099999666214
-        ]
-      },
-      "id": "nc75168561"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.27,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1745128834460,
-        "updated": 1745128929551,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75168551",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75168551.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75168551",
-        "ids": ",nc75168551,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.001209,
-        "rms": 0.01,
-        "gap": 80,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.3 - 10 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.836166381836,
-          38.8375015258789,
-          1.89999997615814
-        ]
-      },
-      "id": "nc75168551"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
-        "place": "4 km NNE of Mountain View Acres, CA",
-        "time": 1745128210670,
-        "updated": 1745130649660,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40934007",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40934007.geojson",
-        "felt": 118,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 146,
-        "net": "ci",
-        "code": "40934007",
-        "ids": ",ci40934007,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 117,
-        "dmin": 0.03199,
-        "rms": 0.18,
-        "gap": 32,
+        "nst": 55,
+        "dmin": 0.04794,
+        "rms": 0.140000001,
+        "gap": 81,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 4 km NNE of Mountain View Acres, CA"
+        "title": "M 2.1 - 2 km SW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.3358333,
-          34.529,
-          9.06
+          -155.496505737305,
+          19.1908340454102,
+          32.189998626709
         ]
       },
-      "id": "ci40934007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "94 km E of Finschhafen, Papua New Guinea",
-        "time": 1745128028543,
-        "updated": 1745130766040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000q7cj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000q7cj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000q7cj",
-        "ids": ",us6000q7cj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 4.177,
-        "rms": 0.75,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 94 km E of Finschhafen, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.6965,
-          -6.5582,
-          30.792
-        ]
-      },
-      "id": "us6000q7cj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.07,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1745128013090,
-        "updated": 1745128109056,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75168541",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75168541.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75168541",
-        "ids": ",nc75168541,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.006896,
-        "rms": 0.03,
-        "gap": 43,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.808334350586,
-          38.8301658630371,
-          0.550000011920929
-        ]
-      },
-      "id": "nc75168541"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.76,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1745127898320,
-        "updated": 1745127994458,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75168536",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75168536.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75168536",
-        "ids": ",nc75168536,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.0119,
-        "rms": 0.02,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 7 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.807662963867,
-          38.8351669311523,
-          2.09999990463257
-        ]
-      },
-      "id": "nc75168536"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1745127267770,
-        "updated": 1745127364139,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75168531",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75168531.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "nc",
-        "code": "75168531",
-        "ids": ",nc75168531,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.01358,
-        "rms": 0.03,
-        "gap": 79,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.767997741699,
-          38.7886657714844,
-          1.92999994754791
-        ]
-      },
-      "id": "nc75168531"
+      "id": "hv74657367"
     }
   ],
   "bbox": [
-    -122.83616638184,
-    -6.5582,
-    0.55000001192093,
-    148.6965,
-    38.844165802002,
-    87.785
+    -155.49650573731,
+    19.19083404541,
+    32.189998626709,
+    -148.8995,
+    63.4665,
+    94.2
   ]
 }
