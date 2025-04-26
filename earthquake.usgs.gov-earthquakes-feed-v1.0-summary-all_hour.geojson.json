@@ -1,181 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745562868000,
+    "generated": 1745649195000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.65,
-        "place": "22 km SE of Santa Margarita, CA",
-        "time": 1745561761530,
-        "updated": 1745561856668,
+        "mag": 1.9,
+        "place": "13 km S of Chenega, Alaska",
+        "time": 1745648768370,
+        "updated": 1745648934879,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75171121",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75171121.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255by2g6b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255by2g6b.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 42,
+        "sig": 56,
+        "net": "ak",
+        "code": "0255by2g6b",
+        "ids": ",ak0255by2g6b,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.6,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 13 km S of Chenega, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9796,
+          59.9474,
+          10.1
+        ]
+      },
+      "id": "ak0255by2g6b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.38,
+        "place": "12 km SSW of Borrego Springs, CA",
+        "time": 1745648710490,
+        "updated": 1745648930108,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41134776",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41134776.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ci",
+        "code": "41134776",
+        "ids": ",ci41134776,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.07739,
+        "rms": 0.17,
+        "gap": 139,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 12 km SSW of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4218333,
+          33.1536667,
+          9.22
+        ]
+      },
+      "id": "ci41134776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.17,
+        "place": "17 km ENE of Alum Rock, CA",
+        "time": 1745648357110,
+        "updated": 1745648451734,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75171706",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75171706.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 21,
         "net": "nc",
-        "code": "75171121",
-        "ids": ",nc75171121,",
+        "code": "75171706",
+        "ids": ",nc75171706,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 13,
-        "dmin": 0.02278,
+        "dmin": 0.09143,
         "rms": 0.07,
-        "gap": 98,
+        "gap": 84,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 22 km SE of Santa Margarita, CA"
+        "title": "M 1.2 - 17 km ENE of Alum Rock, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.415832519531,
-          35.2700004577637,
-          2.88000011444092
+          -121.687835693359,
+          37.4688339233398,
+          7.03000020980835
         ]
       },
-      "id": "nc75171121"
+      "id": "nc75171706"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.3,
-        "place": "52 km N of Chickaloon, Alaska",
-        "time": 1745560611888,
-        "updated": 1745560726680,
+        "mag": 1.2,
+        "place": "30 km NNW of Chickaloon, Alaska",
+        "time": 1745648040258,
+        "updated": 1745648132679,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255aa46xe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255aa46xe.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255bxzuyh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255bxzuyh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 81,
+        "sig": 22,
         "net": "ak",
-        "code": "0255aa46xe",
-        "ids": ",ak0255aa46xe,",
+        "code": "0255bxzuyh",
+        "ids": ",ak0255bxzuyh,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.78,
+        "rms": 0.4,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 52 km N of Chickaloon, Alaska"
+        "title": "M 1.2 - 30 km NNW of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.4352,
-          62.2638,
-          15.8
+          -148.6509,
+          62.0577,
+          37.5
         ]
       },
-      "id": "ak0255aa46xe"
+      "id": "ak0255bxzuyh"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "42 km WNW of Clam Gulch, Alaska",
-        "time": 1745559444436,
-        "updated": 1745559520439,
+        "mag": 1.68,
+        "place": "5 km E of Oakhurst, CA",
+        "time": 1745647187240,
+        "updated": 1745648239373,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255aa026z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255aa026z.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75171701",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75171701.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "0255aa026z",
-        "ids": ",ak0255aa026z,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.16,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 42 km WNW of Clam Gulch, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.0984,
-          60.3813,
-          68.6
-        ]
-      },
-      "id": "ak0255aa026z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.45,
-        "place": "7 km NE of Alum Rock, CA",
-        "time": 1745559406670,
-        "updated": 1745560339514,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75171106",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75171106.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 32,
+        "sig": 43,
         "net": "nc",
-        "code": "75171106",
-        "ids": ",nc75171106,",
+        "code": "75171701",
+        "ids": ",nc75171701,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.02913,
+        "nst": 5,
+        "dmin": 0.1401,
         "rms": 0.05,
-        "gap": 121,
+        "gap": 216,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 7 km NE of Alum Rock, CA"
+        "title": "M 1.7 - 5 km E of Oakhurst, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.794830322266,
-          37.421501159668,
-          3.14000010490417
+          -119.599830627441,
+          37.3390007019043,
+          26.3099994659424
         ]
       },
-      "id": "nc75171106"
+      "id": "nc75171701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.16,
+        "place": "4 km WSW of Anza, CA",
+        "time": 1745646409150,
+        "updated": 1745647043670,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41134768",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41134768.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 21,
+        "net": "ci",
+        "code": "41134768",
+        "ids": ",ci41134768,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 56,
+        "dmin": 0.02596,
+        "rms": 0.19,
+        "gap": 31,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 4 km WSW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.714,
+          33.5481667,
+          2.45
+        ]
+      },
+      "id": "ci41134768"
     }
   ],
   "bbox": [
-    -152.0984,
-    35.270000457764,
-    2.8800001144409,
-    -120.41583251953,
-    62.2638,
-    68.6
+    -148.6509,
+    33.1536667,
+    2.45,
+    -116.4218333,
+    62.0577,
+    37.5
   ]
 }
