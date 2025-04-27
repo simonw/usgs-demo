@@ -1,261 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745649195000,
+    "generated": 1745735611000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "13 km S of Chenega, Alaska",
-        "time": 1745648768370,
-        "updated": 1745648934879,
+        "mag": 0.81,
+        "place": "3 km  of The Geysers, CA",
+        "time": 1745735427530,
+        "updated": 1745735525677,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255by2g6b",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255by2g6b.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75172371",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75172371.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "0255by2g6b",
-        "ids": ",ak0255by2g6b,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.6,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 13 km S of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.9796,
-          59.9474,
-          10.1
-        ]
-      },
-      "id": "ak0255by2g6b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.38,
-        "place": "12 km SSW of Borrego Springs, CA",
-        "time": 1745648710490,
-        "updated": 1745648930108,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41134776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41134776.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "41134776",
-        "ids": ",ci41134776,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.07739,
-        "rms": 0.17,
-        "gap": 139,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 12 km SSW of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4218333,
-          33.1536667,
-          9.22
-        ]
-      },
-      "id": "ci41134776"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.17,
-        "place": "17 km ENE of Alum Rock, CA",
-        "time": 1745648357110,
-        "updated": 1745648451734,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75171706",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75171706.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
+        "sig": 10,
         "net": "nc",
-        "code": "75171706",
-        "ids": ",nc75171706,",
+        "code": "75172371",
+        "ids": ",nc75172371,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.09143,
-        "rms": 0.07,
-        "gap": 84,
+        "nst": 10,
+        "dmin": 0.007415,
+        "rms": 0.02,
+        "gap": 106,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.2 - 17 km ENE of Alum Rock, CA"
+        "title": "M 0.8 - 3 km  of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.687835693359,
-          37.4688339233398,
-          7.03000020980835
+          -122.768836975098,
+          38.8026657104492,
+          1.64999997615814
         ]
       },
-      "id": "nc75171706"
+      "id": "nc75172371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.54,
+        "place": "5 km N of Stroud, Oklahoma",
+        "time": 1745734037157,
+        "updated": 1745734449665,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025iekm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025iekm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "ok",
+        "code": "2025iekm",
+        "ids": ",ok2025iekm,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.1340415329,
+        "rms": 0.2343458458,
+        "gap": 49.46902466,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 5 km N of Stroud, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.65505219,
+          35.80096817,
+          3.608200312
+        ]
+      },
+      "id": "ok2025iekm"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.2,
-        "place": "30 km NNW of Chickaloon, Alaska",
-        "time": 1745648040258,
-        "updated": 1745648132679,
+        "place": "10 km E of Pala, CA",
+        "time": 1745733938420,
+        "updated": 1745734568910,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255bxzuyh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255bxzuyh.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41136208",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41136208.geojson",
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 22,
+        "net": "ci",
+        "code": "41136208",
+        "ids": ",ci41136208,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 69,
+        "dmin": 0.05001,
+        "rms": 0.24,
+        "gap": 20,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 10 km E of Pala, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.9743333,
+          33.3753333,
+          8
+        ]
+      },
+      "id": "ci41136208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.73,
+        "place": "7 km NNW of The Geysers, CA",
+        "time": 1745733896090,
+        "updated": 1745733990755,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75172366",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75172366.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75172366",
+        "ids": ",nc75172366,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.00218,
+        "rms": 0.01,
+        "gap": 69,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 7 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.80933380127,
+          38.8255004882812,
+          2.92000007629395
+        ]
+      },
+      "id": "nc75172366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.14,
+        "place": "17 km SSW of La Jolla, CA",
+        "time": 1745733851070,
+        "updated": 1745734078179,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41136200",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41136200.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 20,
+        "net": "ci",
+        "code": "41136200",
+        "ids": ",ci41136200,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.2056,
+        "rms": 0.19,
+        "gap": 200,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 17 km SSW of La Jolla, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3741667,
+          32.7178333,
+          14.13
+        ]
+      },
+      "id": "ci41136200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.22,
+        "place": "8 km WNW of Cobb, CA",
+        "time": 1745733362510,
+        "updated": 1745733460484,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75172361",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75172361.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75172361",
+        "ids": ",nc75172361,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01464,
+        "rms": 0.01,
+        "gap": 94,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.2 - 8 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816497802734,
+          38.8371658325195,
+          1.70000004768372
+        ]
+      },
+      "id": "nc75172361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "15 km E of Nabesna, Alaska",
+        "time": 1745732284565,
+        "updated": 1745732417443,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255dl2xd4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255dl2xd4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
         "net": "ak",
-        "code": "0255bxzuyh",
-        "ids": ",ak0255bxzuyh,",
+        "code": "0255dl2xd4",
+        "ids": ",ak0255dl2xd4,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.4,
+        "rms": 0.52,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 30 km NNW of Chickaloon, Alaska"
+        "title": "M 1.6 - 15 km E of Nabesna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.6509,
-          62.0577,
-          37.5
+          -142.7168,
+          62.3642,
+          13.3
         ]
       },
-      "id": "ak0255bxzuyh"
+      "id": "ak0255dl2xd4"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.68,
-        "place": "5 km E of Oakhurst, CA",
-        "time": 1745647187240,
-        "updated": 1745648239373,
+        "mag": 0.9,
+        "place": "28 km N of Benton, California",
+        "time": 1745732057327,
+        "updated": 1745732220096,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75171701",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75171701.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00896847",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00896847.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 43,
-        "net": "nc",
-        "code": "75171701",
-        "ids": ",nc75171701,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 5,
-        "dmin": 0.1401,
-        "rms": 0.05,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 5 km E of Oakhurst, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.599830627441,
-          37.3390007019043,
-          26.3099994659424
-        ]
-      },
-      "id": "nc75171701"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.16,
-        "place": "4 km WSW of Anza, CA",
-        "time": 1745646409150,
-        "updated": 1745647043670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41134768",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41134768.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "41134768",
-        "ids": ",ci41134768,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 56,
-        "dmin": 0.02596,
-        "rms": 0.19,
-        "gap": 31,
+        "sig": 12,
+        "net": "nn",
+        "code": "00896847",
+        "ids": ",nn00896847,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.174,
+        "rms": 0.5381,
+        "gap": 102.28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 4 km WSW of Anza, CA"
+        "title": "M 0.9 - 28 km N of Benton, California"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.714,
-          33.5481667,
-          2.45
+          -118.4814,
+          38.0784,
+          15.4
         ]
       },
-      "id": "ci41134768"
+      "id": "nn00896847"
     }
   ],
   "bbox": [
-    -148.6509,
-    33.1536667,
-    2.45,
-    -116.4218333,
-    62.0577,
-    37.5
+    -142.7168,
+    32.7178333,
+    1.6499999761581,
+    -96.65505219,
+    62.3642,
+    15.4
   ]
 }
