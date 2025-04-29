@@ -1,221 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745822108000,
+    "generated": 1745908468000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "25 km SE of Skwentna, Alaska",
-        "time": 1745821478637,
-        "updated": 1745821575279,
+        "mag": 0.81,
+        "place": "3 km NW of Calimesa, CA",
+        "time": 1745907778390,
+        "updated": 1745907985586,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255f94s2f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255f94s2f.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41139232",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41139232.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "0255f94s2f",
-        "ids": ",ak0255f94s2f,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.34,
-        "gap": null,
+        "sig": 10,
+        "net": "ci",
+        "code": "41139232",
+        "ids": ",ci41139232,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.09714,
+        "rms": 0.13,
+        "gap": 82,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 25 km SE of Skwentna, Alaska"
+        "title": "M 0.8 - 3 km NW of Calimesa, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.0798,
-          61.8201,
-          65.2
+          -117.0741667,
+          34.0111667,
+          16.35
         ]
       },
-      "id": "ak0255f94s2f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "30 km N of Four Mile Road, Alaska",
-        "time": 1745820693614,
-        "updated": 1745820865839,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255f91zdd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255f91zdd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "0255f91zdd",
-        "ids": ",ak0255f91zdd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.4,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 30 km N of Four Mile Road, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.1774,
-          64.8744,
-          15.1
-        ]
-      },
-      "id": "ak0255f91zdd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.04,
-        "place": "3 km WNW of Cobb, CA",
-        "time": 1745818853470,
-        "updated": 1745820439379,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75173051",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75173051.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75173051",
-        "ids": ",nc75173051,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.009098,
-        "rms": 0.02,
-        "gap": 128,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 3 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.762168884277,
-          38.8236656188965,
-          2.22000002861023
-        ]
-      },
-      "id": "nc75173051"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.55,
-        "place": "13 km NW of The Geysers, CA",
-        "time": 1745818833110,
-        "updated": 1745819837313,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75173046",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75173046.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 37,
-        "net": "nc",
-        "code": "75173046",
-        "ids": ",nc75173046,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.005731,
-        "rms": 0.04,
-        "gap": 140,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 13 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.875,
-          38.8428344726562,
-          1.99000000953674
-        ]
-      },
-      "id": "nc75173046"
+      "id": "ci41139232"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.9,
-        "place": "6 km WSW of Lindsay, Texas",
-        "time": 1745818754241,
-        "updated": 1745819574169,
+        "place": "13 km NE of Silver Springs, Alaska",
+        "time": 1745907366472,
+        "updated": 1745907741281,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025igfb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025igfb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255gwmccn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255gwmccn.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "0255gwmccn",
+        "ids": ",ak0255gwmccn,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.07,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 13 km NE of Silver Springs, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.1393,
+          62.0936,
+          7.7
+        ]
+      },
+      "id": "ak0255gwmccn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.74,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1745906705450,
+        "updated": 1745907737822,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75173516",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75173516.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2025igfb",
-        "ids": ",tx2025igfb,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 156,
-        "magType": "ml",
+        "sig": 8,
+        "net": "nc",
+        "code": "75173516",
+        "ids": ",nc75173516,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.01051,
+        "rms": 0.01,
+        "gap": 50,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 6 km WSW of Lindsay, Texas"
+        "title": "M 0.7 - 7 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.6,
-          31.356,
-          7.3721
+          -122.801170349121,
+          38.8321647644043,
+          2.17000007629395
         ]
       },
-      "id": "tx2025igfb"
+      "id": "nc75173516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "49 km N of Chickaloon, Alaska",
+        "time": 1745905603456,
+        "updated": 1745907151358,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255gw7f2x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255gw7f2x.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "0255gw7f2x",
+        "ids": ",ak0255gw7f2x,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 49 km N of Chickaloon, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.3822,
+          62.2411,
+          23.9
+        ]
+      },
+      "id": "ak0255gw7f2x"
     }
   ],
   "bbox": [
-    -151.0798,
-    31.356,
-    1.9900000095367,
-    -103.6,
-    64.8744,
-    65.2
+    -148.3822,
+    34.0111667,
+    2.170000076294,
+    -117.0741667,
+    62.2411,
+    23.9
   ]
 }
