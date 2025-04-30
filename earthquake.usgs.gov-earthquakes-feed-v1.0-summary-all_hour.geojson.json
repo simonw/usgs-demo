@@ -1,24 +1,264 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1745908468000,
+    "generated": 1745994868000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.81,
-        "place": "3 km NW of Calimesa, CA",
-        "time": 1745907778390,
-        "updated": 1745907985586,
+        "mag": 2.2,
+        "place": "112 km SE of Yakutat, Alaska",
+        "time": 1745994579139,
+        "updated": 1745994714559,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41139232",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41139232.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255ik8jo9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255ik8jo9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "0255ik8jo9",
+        "ids": ",ak0255ik8jo9,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.05,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 112 km SE of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -138.0791,
+          58.9869,
+          0
+        ]
+      },
+      "id": "ak0255ik8jo9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.99,
+        "place": "15 km W of Johannesburg, CA",
+        "time": 1745994322220,
+        "updated": 1745994534884,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41140224",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41140224.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 61,
+        "net": "ci",
+        "code": "41140224",
+        "ids": ",ci41140224,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 48,
+        "dmin": 0.09333,
+        "rms": 0.22,
+        "gap": 36,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 15 km W of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7988333,
+          35.3526667,
+          6.03
+        ]
+      },
+      "id": "ci41140224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.66,
+        "place": "5 km WSW of Anza, CA",
+        "time": 1745994293760,
+        "updated": 1745994512005,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41140216",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41140216.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "ci",
+        "code": "41140216",
+        "ids": ",ci41140216,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.03692,
+        "rms": 0.14,
+        "gap": 27,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 5 km WSW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.72,
+          33.5313333,
+          5.17
+        ]
+      },
+      "id": "ci41140216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "8 km NE of Balmorhea, Texas",
+        "time": 1745994092923,
+        "updated": 1745994443589,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ijxo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ijxo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2025ijxo",
+        "ids": ",tx2025ijxo,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 8 km NE of Balmorhea, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.687,
+          31.039,
+          3.5899
+        ]
+      },
+      "id": "tx2025ijxo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "1 km E of The Geysers, CA",
+        "time": 1745992813970,
+        "updated": 1745994736479,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75173986",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75173986.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75173986",
+        "ids": ",nc75173986,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.02025,
+        "rms": 0.03,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 1 km E of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.739166259766,
+          38.7784996032715,
+          0.879999995231628
+        ]
+      },
+      "id": "nc75173986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "30 km SSW of La Tirana, Chile",
+        "time": 1745992735428,
+        "updated": 1745994690529,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pw16",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pw16.geojson",
+        "felt": 4,
+        "cdi": 3.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 273,
+        "net": "us",
+        "code": "7000pw16",
+        "ids": ",us7000pw16,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.427,
+        "rms": 0.77,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 30 km SSW of La Tirana, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.7708,
+          -20.5858,
+          21.323
+        ]
+      },
+      "id": "us7000pw16"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.82,
+        "place": "8 km WNW of Kernville, CA",
+        "time": 1745992435950,
+        "updated": 1745992648028,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41140208",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41140208.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,155 +267,155 @@
         "tsunami": 0,
         "sig": 10,
         "net": "ci",
-        "code": "41139232",
-        "ids": ",ci41139232,",
+        "code": "41140208",
+        "ids": ",ci41140208,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.09714,
-        "rms": 0.13,
-        "gap": 82,
+        "nst": 15,
+        "dmin": 0.05819,
+        "rms": 0.17,
+        "gap": 86,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 3 km NW of Calimesa, CA"
+        "title": "M 0.8 - 8 km WNW of Kernville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.0741667,
-          34.0111667,
-          16.35
+          -118.5095,
+          35.781,
+          5.49
         ]
       },
-      "id": "ci41139232"
+      "id": "ci41140208"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "13 km NE of Silver Springs, Alaska",
-        "time": 1745907366472,
-        "updated": 1745907741281,
+        "mag": 1.02,
+        "place": "12 km NE of Little Lake, CA",
+        "time": 1745992252560,
+        "updated": 1745992465418,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255gwmccn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255gwmccn.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "0255gwmccn",
-        "ids": ",ak0255gwmccn,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.07,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 13 km NE of Silver Springs, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -145.1393,
-          62.0936,
-          7.7
-        ]
-      },
-      "id": "ak0255gwmccn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1745906705450,
-        "updated": 1745907737822,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75173516",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75173516.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41140200",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41140200.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75173516",
-        "ids": ",nc75173516,",
-        "sources": ",nc,",
+        "sig": 16,
+        "net": "ci",
+        "code": "41140200",
+        "ids": ",ci41140200,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.01051,
-        "rms": 0.01,
-        "gap": 50,
-        "magType": "md",
+        "nst": 21,
+        "dmin": 0.03579,
+        "rms": 0.15,
+        "gap": 68,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 7 km WNW of Cobb, CA"
+        "title": "M 1.0 - 12 km NE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.801170349121,
-          38.8321647644043,
-          2.17000007629395
+          -117.802,
+          36.0053333,
+          1.19
         ]
       },
-      "id": "nc75173516"
+      "id": "ci41140200"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "49 km N of Chickaloon, Alaska",
-        "time": 1745905603456,
-        "updated": 1745907151358,
+        "mag": 1.41,
+        "place": "14 km SE of Mammoth Lakes, CA",
+        "time": 1745991966270,
+        "updated": 1745993536343,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255gw7f2x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255gw7f2x.geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75173981",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75173981.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "0255gw7f2x",
-        "ids": ",ak0255gw7f2x,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.64,
-        "gap": null,
-        "magType": "ml",
+        "sig": 31,
+        "net": "nc",
+        "code": "75173981",
+        "ids": ",nc75173981,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.03851,
+        "rms": 0.03,
+        "gap": 175,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 49 km N of Chickaloon, Alaska"
+        "title": "M 1.4 - 14 km SE of Mammoth Lakes, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.3822,
-          62.2411,
-          23.9
+          -118.857330322266,
+          37.558666229248,
+          3.73000001907349
         ]
       },
-      "id": "ak0255gw7f2x"
+      "id": "nc75173981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "33 km WNW of Fry, Greece",
+        "time": 1745991383985,
+        "updated": 1745993381040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pw15",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pw15.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000pw15",
+        "ids": ",us7000pw15,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 1.382,
+        "rms": 1.32,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 33 km WNW of Fry, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5653,
+          35.4778,
+          10
+        ]
+      },
+      "id": "us7000pw15"
     }
   ],
   "bbox": [
-    -148.3822,
-    34.0111667,
-    2.170000076294,
-    -117.0741667,
-    62.2411,
-    23.9
+    -138.0791,
+    -20.5858,
+    0,
+    26.5653,
+    58.9869,
+    21.323
   ]
 }
