@@ -1,381 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746081314000,
+    "generated": 1746167648000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.68,
-        "place": "10 km WNW of Cobb, CA",
-        "time": 1746080306270,
-        "updated": 1746081138363,
+        "mag": 2,
+        "place": "37 km W of Four Mile Road, Alaska",
+        "time": 1746167435521,
+        "updated": 1746167546975,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75174386",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75174386.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255lvbg3k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255lvbg3k.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75174386",
-        "ids": ",nc75174386,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.006238,
-        "rms": 0.01,
-        "gap": 166,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 10 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.830833435059,
-          38.8436660766602,
-          1.4099999666214
-        ]
-      },
-      "id": "nc75174386"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "67 km E of Ugashik, Alaska",
-        "time": 1746080155699,
-        "updated": 1746080237104,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255k7oxf5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255k7oxf5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
+        "sig": 62,
         "net": "ak",
-        "code": "0255k7oxf5",
-        "ids": ",ak0255k7oxf5,",
+        "code": "0255lvbg3k",
+        "ids": ",ak0255lvbg3k,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.8,
+        "rms": 0.63,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 67 km E of Ugashik, Alaska"
+        "title": "M 2.0 - 37 km W of Four Mile Road, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.2885,
-          57.6279,
-          143.3
+          -149.9055,
+          64.63,
+          12.1
         ]
       },
-      "id": "ak0255k7oxf5"
+      "id": "ak0255lvbg3k"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.12,
-        "place": "17 km ESE of Anza, CA",
-        "time": 1746079975710,
-        "updated": 1746080185823,
+        "mag": 0.36,
+        "place": "22 km ESE of Anza, CA",
+        "time": 1746166661640,
+        "updated": 1746166943590,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41141336",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41141336.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41142672",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41142672.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 0,
+        "sig": 2,
         "net": "ci",
-        "code": "41141336",
-        "ids": ",ci41141336,",
+        "code": "41142672",
+        "ids": ",ci41142672,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.07636,
-        "rms": 0.17,
-        "gap": 50,
+        "nst": 19,
+        "dmin": 0.1249,
+        "rms": 0.11,
+        "gap": 108,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.1 - 17 km ESE of Anza, CA"
+        "title": "M 0.4 - 22 km ESE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.512,
-          33.4825,
-          13.2
+          -116.4538333,
+          33.4795,
+          11.67
         ]
       },
-      "id": "ci41141336"
+      "id": "ci41142672"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.93,
-        "place": "3 km WNW of Independence, Utah",
-        "time": 1746079878960,
-        "updated": 1746081303145,
+        "mag": 2.2,
+        "place": "13 km S of Bertsch-Oceanview, CA",
+        "time": 1746166604200,
+        "updated": 1746167245857,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80106731",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uu80106731.geojson",
-        "felt": 188,
-        "cdi": 4,
-        "mmi": 3.941,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 313,
-        "net": "uu",
-        "code": "80106731",
-        "ids": ",uu80106731,us7000pwb4,",
-        "sources": ",uu,us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 49,
-        "dmin": 0.2758,
-        "rms": 0.29,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.9 - 3 km WNW of Independence, Utah"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.296666666667,
-          40.3168333333333,
-          11.33
-        ]
-      },
-      "id": "uu80106731"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "11 km N of Ridgeway, Alaska",
-        "time": 1746079649123,
-        "updated": 1746079765209,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255k7n5n4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255k7n5n4.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75175091",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75175091.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "0255k7n5n4",
-        "ids": ",ak0255k7n5n4,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.25,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 11 km N of Ridgeway, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.0464,
-          60.6334,
-          56.8
-        ]
-      },
-      "id": "ak0255k7n5n4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "20 km NW of Malango, Solomon Islands",
-        "time": 1746079471930,
-        "updated": 1746080165040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwb3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pwb3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000pwb3",
-        "ids": ",us7000pwb3,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.347,
-        "rms": 1.47,
-        "gap": 80,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 20 km NW of Malango, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.6111,
-          -9.5409,
-          41.946
-        ]
-      },
-      "id": "us7000pwb3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.78,
-        "place": "4 km NNW of The Geysers, CA",
-        "time": 1746079143130,
-        "updated": 1746079938123,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75174381",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75174381.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
+        "sig": 74,
         "net": "nc",
-        "code": "75174381",
-        "ids": ",nc75174381,",
-        "sources": ",nc,",
+        "code": "75175091",
+        "ids": ",nc75175091,uw62091762,",
+        "sources": ",nc,uw,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.008507,
-        "rms": 0.03,
-        "gap": 122,
+        "nst": 10,
+        "dmin": 0.09453,
+        "rms": 0.13,
+        "gap": 184,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 4 km NNW of The Geysers, CA"
+        "title": "M 2.2 - 13 km S of Bertsch-Oceanview, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.785667419434,
-          38.8040008544922,
-          -0.119999997317791
+          -124.12833404541,
+          41.6370010375977,
+          -0.980000019073486
         ]
       },
-      "id": "nc75174381"
+      "id": "nc75175091"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "4 km WSW of Lindsay, Texas",
-        "time": 1746078536484,
-        "updated": 1746078951902,
+        "mag": 2.23,
+        "place": "21 km ESE of Anza, CA",
+        "time": 1746166552200,
+        "updated": 1746167217880,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ilrz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ilrz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41142664",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41142664.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2025ilrz",
-        "ids": ",tx2025ilrz,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 127,
+        "sig": 77,
+        "net": "ci",
+        "code": "41142664",
+        "ids": ",ci41142664,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 96,
+        "dmin": 0.1157,
+        "rms": 0.19,
+        "gap": 25,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 4 km WSW of Lindsay, Texas"
+        "title": "M 2.2 - 21 km ESE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.585,
-          31.359,
-          4.6741
+          -116.4658333,
+          33.4746667,
+          11.38
         ]
       },
-      "id": "tx2025ilrz"
+      "id": "ci41142664"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.13,
-        "place": "5 km WSW of Anza, CA",
-        "time": 1746077929880,
-        "updated": 1746078152215,
+        "mag": 0.6,
+        "place": "22 km ESE of Anza, CA",
+        "time": 1746166500310,
+        "updated": 1746166711485,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41141328",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41141328.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41142656",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41142656.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 0,
+        "sig": 6,
         "net": "ci",
-        "code": "41141328",
-        "ids": ",ci41141328,",
+        "code": "41142656",
+        "ids": ",ci41142656,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 22,
-        "dmin": 0.03413,
-        "rms": 0.14,
-        "gap": 38,
+        "dmin": 0.1276,
+        "rms": 0.21,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.1 - 5 km WSW of Anza, CA"
+        "title": "M 0.6 - 22 km ESE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7181667,
-          33.5351667,
-          5.14
+          -116.4515,
+          33.4741667,
+          10.67
         ]
       },
-      "id": "ci41141328"
+      "id": "ci41142656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.38,
+        "place": "3 km WSW of Indios, Puerto Rico",
+        "time": 1746165151980,
+        "updated": 1746167116300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71481118",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71481118.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 87,
+        "net": "pr",
+        "code": "71481118",
+        "ids": ",pr71481118,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.02404,
+        "rms": 0.13,
+        "gap": 183,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 3 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8443333333333,
+          17.98,
+          13.94
+        ]
+      },
+      "id": "pr71481118"
     }
   ],
   "bbox": [
-    -156.2885,
-    -9.5409,
-    -0.11999999731779,
-    159.6111,
-    60.6334,
-    143.3
+    -149.9055,
+    17.98,
+    -0.98000001907349,
+    -66.844333333333,
+    64.63,
+    13.94
   ]
 }
