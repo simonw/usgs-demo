@@ -1,261 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746167648000,
+    "generated": 1746253989000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2,
-        "place": "37 km W of Four Mile Road, Alaska",
-        "time": 1746167435521,
-        "updated": 1746167546975,
+        "mag": 1.2,
+        "place": "15 km NE of Yerington, Nevada",
+        "time": 1746252699141,
+        "updated": 1746252833433,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255lvbg3k",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255lvbg3k.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897162",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897162.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
+        "sig": 22,
+        "net": "nn",
+        "code": "00897162",
+        "ids": ",nn00897162,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.078,
+        "rms": 0.1339,
+        "gap": 110.97999999999999,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 15 km NE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0542,
+          39.0914,
+          9.8
+        ]
+      },
+      "id": "nn00897162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.72,
+        "place": "15 km SE of Julian, CA",
+        "time": 1746251981470,
+        "updated": 1746252188571,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41143672",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41143672.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "41143672",
+        "ids": ",ci41143672,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.05616,
+        "rms": 0.14,
+        "gap": 62,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 15 km SE of Julian, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4676667,
+          33.0011667,
+          9.16
+        ]
+      },
+      "id": "ci41143672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.98,
+        "place": "9 km WNW of Cobb, CA",
+        "time": 1746251760300,
+        "updated": 1746252735149,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75175781",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75175781.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nc",
+        "code": "75175781",
+        "ids": ",nc75175781,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.009624,
+        "rms": 0.03,
+        "gap": 66,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 9 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.823501586914,
+          38.8408317565918,
+          1.6599999666214
+        ]
+      },
+      "id": "nc75175781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.35,
+        "place": "16 km W of Johannesburg, CA",
+        "time": 1746251607860,
+        "updated": 1746251839677,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41143664",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41143664.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "ci",
+        "code": "41143664",
+        "ids": ",ci41143664,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 37,
+        "dmin": 0.0942,
+        "rms": 0.19,
+        "gap": 37,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 16 km W of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8043333,
+          35.3555,
+          7.04
+        ]
+      },
+      "id": "ci41143664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.12,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1746251401060,
+        "updated": 1746252438109,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75175776",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75175776.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75175776",
+        "ids": ",nc75175776,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.0104,
+        "rms": 0.02,
+        "gap": 61,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.821334838867,
+          38.8178329467773,
+          2.26999998092651
+        ]
+      },
+      "id": "nc75175776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "2 km NE of The Geysers, CA",
+        "time": 1746250891820,
+        "updated": 1746252437209,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75175771",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75175771.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75175771",
+        "ids": ",nc75175771,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.01003,
+        "rms": 0.03,
+        "gap": 94,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 2 km NE of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.738670349121,
+          38.7931671142578,
+          1.11000001430511
+        ]
+      },
+      "id": "nc75175771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "30 km WNW of Nanwalek, Alaska",
+        "time": 1746250886727,
+        "updated": 1746251035736,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255nibp6o",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255nibp6o.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
         "net": "ak",
-        "code": "0255lvbg3k",
-        "ids": ",ak0255lvbg3k,",
+        "code": "0255nibp6o",
+        "ids": ",ak0255nibp6o,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.63,
+        "rms": 0.37,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 37 km W of Four Mile Road, Alaska"
+        "title": "M 2.1 - 30 km WNW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.9055,
-          64.63,
-          12.1
+          -152.3823,
+          59.4986,
+          80.9
         ]
       },
-      "id": "ak0255lvbg3k"
+      "id": "ak0255nibp6o"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.36,
-        "place": "22 km ESE of Anza, CA",
-        "time": 1746166661640,
-        "updated": 1746166943590,
+        "mag": 1.4,
+        "place": "2 km NE of The Geysers, CA",
+        "time": 1746250853120,
+        "updated": 1746251540018,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41142672",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41142672.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75175766",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75175766.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "41142672",
-        "ids": ",ci41142672,",
-        "sources": ",ci,",
+        "sig": 30,
+        "net": "nc",
+        "code": "75175766",
+        "ids": ",nc75175766,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
-        "dmin": 0.1249,
-        "rms": 0.11,
-        "gap": 108,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 22 km ESE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4538333,
-          33.4795,
-          11.67
-        ]
-      },
-      "id": "ci41142672"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "13 km S of Bertsch-Oceanview, CA",
-        "time": 1746166604200,
-        "updated": 1746167245857,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75175091",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75175091.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "nc",
-        "code": "75175091",
-        "ids": ",nc75175091,uw62091762,",
-        "sources": ",nc,uw,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.09453,
-        "rms": 0.13,
-        "gap": 184,
+        "dmin": 0.0108,
+        "rms": 0.02,
+        "gap": 95,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.2 - 13 km S of Bertsch-Oceanview, CA"
+        "title": "M 1.4 - 2 km NE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.12833404541,
-          41.6370010375977,
-          -0.980000019073486
+          -122.739501953125,
+          38.7938346862793,
+          1.13999998569489
         ]
       },
-      "id": "nc75175091"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.23,
-        "place": "21 km ESE of Anza, CA",
-        "time": 1746166552200,
-        "updated": 1746167217880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41142664",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41142664.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 77,
-        "net": "ci",
-        "code": "41142664",
-        "ids": ",ci41142664,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 96,
-        "dmin": 0.1157,
-        "rms": 0.19,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 21 km ESE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4658333,
-          33.4746667,
-          11.38
-        ]
-      },
-      "id": "ci41142664"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.6,
-        "place": "22 km ESE of Anza, CA",
-        "time": 1746166500310,
-        "updated": 1746166711485,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41142656",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41142656.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41142656",
-        "ids": ",ci41142656,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.1276,
-        "rms": 0.21,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 22 km ESE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4515,
-          33.4741667,
-          10.67
-        ]
-      },
-      "id": "ci41142656"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "3 km WSW of Indios, Puerto Rico",
-        "time": 1746165151980,
-        "updated": 1746167116300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71481118",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71481118.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "pr",
-        "code": "71481118",
-        "ids": ",pr71481118,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.02404,
-        "rms": 0.13,
-        "gap": 183,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 3 km WSW of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8443333333333,
-          17.98,
-          13.94
-        ]
-      },
-      "id": "pr71481118"
+      "id": "nc75175766"
     }
   ],
   "bbox": [
-    -149.9055,
-    17.98,
-    -0.98000001907349,
-    -66.844333333333,
-    64.63,
-    13.94
+    -152.3823,
+    33.0011667,
+    1.1100000143051,
+    -116.4676667,
+    59.4986,
+    80.9
   ]
 }
