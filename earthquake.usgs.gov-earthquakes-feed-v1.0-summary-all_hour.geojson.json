@@ -1,24 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746253989000,
+    "generated": 1746340435000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "15 km NE of Yerington, Nevada",
-        "time": 1746252699141,
-        "updated": 1746252833433,
+        "mag": 1.65,
+        "place": "16 km W of Johannesburg, CA",
+        "time": 1746339641670,
+        "updated": 1746340410438,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897162",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897162.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41144504",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41144504.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 42,
+        "net": "ci",
+        "code": "41144504",
+        "ids": ",ci41144504,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 41,
+        "dmin": 0.09162,
+        "rms": 0.18,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 16 km W of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8115,
+          35.3548333,
+          7.68
+        ]
+      },
+      "id": "ci41144504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "14 km NE of Borrego Springs, CA",
+        "time": 1746339431710,
+        "updated": 1746339644608,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41144496",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41144496.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ci",
+        "code": "41144496",
+        "ids": ",ci41144496,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.03658,
+        "rms": 0.19,
+        "gap": 105,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 14 km NE of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.272,
+          33.3436667,
+          11.43
+        ]
+      },
+      "id": "ci41144496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.76,
+        "place": "6 km NNW of The Geysers, CA",
+        "time": 1746338962160,
+        "updated": 1746339738758,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75176221",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75176221.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75176221",
+        "ids": ",nc75176221,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.009041,
+        "rms": 0.01,
+        "gap": 59,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 6 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.798500061035,
+          38.8235015869141,
+          2.82999992370605
+        ]
+      },
+      "id": "nc75176221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "62 km WNW of Rachel, Nevada",
+        "time": 1746338441747,
+        "updated": 1746338587842,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897202",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897202.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,315 +147,75 @@
         "tsunami": 0,
         "sig": 22,
         "net": "nn",
-        "code": "00897162",
-        "ids": ",nn00897162,",
+        "code": "00897202",
+        "ids": ",nn00897202,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
         "nst": 9,
-        "dmin": 0.078,
-        "rms": 0.1339,
-        "gap": 110.97999999999999,
+        "dmin": 0.652,
+        "rms": 0.498,
+        "gap": 332.56000000000006,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 15 km NE of Yerington, Nevada"
+        "title": "M 1.2 - 62 km WNW of Rachel, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0542,
-          39.0914,
-          9.8
+          -116.4048,
+          37.8605,
+          4.9
         ]
       },
-      "id": "nn00897162"
+      "id": "nn00897202"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.72,
-        "place": "15 km SE of Julian, CA",
-        "time": 1746251981470,
-        "updated": 1746252188571,
+        "mag": 1.08,
+        "place": "3 km WSW of Anderson Springs, CA",
+        "time": 1746337807560,
+        "updated": 1746340037788,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41143672",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41143672.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75176216",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75176216.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41143672",
-        "ids": ",ci41143672,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.05616,
-        "rms": 0.14,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 15 km SE of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4676667,
-          33.0011667,
-          9.16
-        ]
-      },
-      "id": "ci41143672"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.98,
-        "place": "9 km WNW of Cobb, CA",
-        "time": 1746251760300,
-        "updated": 1746252735149,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75175781",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75175781.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
+        "sig": 18,
         "net": "nc",
-        "code": "75175781",
-        "ids": ",nc75175781,",
+        "code": "75176216",
+        "ids": ",nc75176216,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.009624,
-        "rms": 0.03,
-        "gap": 66,
+        "nst": 11,
+        "dmin": 0.004659,
+        "rms": 0.04,
+        "gap": 115,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 9 km WNW of Cobb, CA"
+        "title": "M 1.1 - 3 km WSW of Anderson Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.823501586914,
-          38.8408317565918,
-          1.6599999666214
+          -122.72200012207,
+          38.7574996948242,
+          1.03999996185303
         ]
       },
-      "id": "nc75175781"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.35,
-        "place": "16 km W of Johannesburg, CA",
-        "time": 1746251607860,
-        "updated": 1746251839677,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41143664",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41143664.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41143664",
-        "ids": ",ci41143664,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.0942,
-        "rms": 0.19,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 16 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8043333,
-          35.3555,
-          7.04
-        ]
-      },
-      "id": "ci41143664"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.12,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1746251401060,
-        "updated": 1746252438109,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75175776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75175776.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "nc",
-        "code": "75175776",
-        "ids": ",nc75175776,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.0104,
-        "rms": 0.02,
-        "gap": 61,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.821334838867,
-          38.8178329467773,
-          2.26999998092651
-        ]
-      },
-      "id": "nc75175776"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "2 km NE of The Geysers, CA",
-        "time": 1746250891820,
-        "updated": 1746252437209,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75175771",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75175771.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "nc",
-        "code": "75175771",
-        "ids": ",nc75175771,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.01003,
-        "rms": 0.03,
-        "gap": 94,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 2 km NE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.738670349121,
-          38.7931671142578,
-          1.11000001430511
-        ]
-      },
-      "id": "nc75175771"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "30 km WNW of Nanwalek, Alaska",
-        "time": 1746250886727,
-        "updated": 1746251035736,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255nibp6o",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255nibp6o.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "0255nibp6o",
-        "ids": ",ak0255nibp6o,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.37,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 30 km WNW of Nanwalek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.3823,
-          59.4986,
-          80.9
-        ]
-      },
-      "id": "ak0255nibp6o"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "2 km NE of The Geysers, CA",
-        "time": 1746250853120,
-        "updated": 1746251540018,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75175766",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75175766.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "nc",
-        "code": "75175766",
-        "ids": ",nc75175766,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.0108,
-        "rms": 0.02,
-        "gap": 95,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 2 km NE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.739501953125,
-          38.7938346862793,
-          1.13999998569489
-        ]
-      },
-      "id": "nc75175766"
+      "id": "nc75176216"
     }
   ],
   "bbox": [
-    -152.3823,
-    33.0011667,
-    1.1100000143051,
-    -116.4676667,
-    59.4986,
-    80.9
+    -122.79850006103,
+    33.3436667,
+    1.039999961853,
+    -116.272,
+    38.823501586914,
+    11.43
   ]
 }
