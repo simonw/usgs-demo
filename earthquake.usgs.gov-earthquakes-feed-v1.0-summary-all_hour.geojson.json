@@ -1,144 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746340435000,
+    "generated": 1746426909000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.65,
-        "place": "16 km W of Johannesburg, CA",
-        "time": 1746339641670,
-        "updated": 1746340410438,
+        "mag": 1.8,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1746425554849,
+        "updated": 1746426500598,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41144504",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41144504.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 42,
-        "net": "ci",
-        "code": "41144504",
-        "ids": ",ci41144504,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.09162,
-        "rms": 0.18,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 16 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8115,
-          35.3548333,
-          7.68
-        ]
-      },
-      "id": "ci41144504"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "14 km NE of Borrego Springs, CA",
-        "time": 1746339431710,
-        "updated": 1746339644608,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41144496",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41144496.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025itas",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025itas.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "ci",
-        "code": "41144496",
-        "ids": ",ci41144496,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.03658,
-        "rms": 0.19,
-        "gap": 105,
+        "sig": 50,
+        "net": "tx",
+        "code": "2025itas",
+        "ids": ",tx2025itas,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 14 km NE of Borrego Springs, CA"
+        "title": "M 1.8 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.272,
-          33.3436667,
-          11.43
+          -104.415,
+          31.672,
+          6.6707
         ]
       },
-      "id": "ci41144496"
+      "id": "tx2025itas"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.76,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1746338962160,
-        "updated": 1746339738758,
+        "mag": 1.19,
+        "place": "20 km NE of Thermal, CA",
+        "time": 1746423660590,
+        "updated": 1746423903976,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75176221",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75176221.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75176221",
-        "ids": ",nc75176221,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.009041,
-        "rms": 0.01,
-        "gap": 59,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 6 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.798500061035,
-          38.8235015869141,
-          2.82999992370605
-        ]
-      },
-      "id": "nc75176221"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "62 km WNW of Rachel, Nevada",
-        "time": 1746338441747,
-        "updated": 1746338587842,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897202",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897202.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41144888",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41144888.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,76 +66,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 22,
-        "net": "nn",
-        "code": "00897202",
-        "ids": ",nn00897202,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.652,
-        "rms": 0.498,
-        "gap": 332.56000000000006,
+        "net": "ci",
+        "code": "41144888",
+        "ids": ",ci41144888,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 40,
+        "dmin": 0.0933,
+        "rms": 0.17,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 62 km WNW of Rachel, Nevada"
+        "title": "M 1.2 - 20 km NE of Thermal, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4048,
-          37.8605,
-          4.9
+          -115.9698333,
+          33.7471667,
+          5.3
         ]
       },
-      "id": "nn00897202"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.08,
-        "place": "3 km WSW of Anderson Springs, CA",
-        "time": 1746337807560,
-        "updated": 1746340037788,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75176216",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75176216.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75176216",
-        "ids": ",nc75176216,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.004659,
-        "rms": 0.04,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 3 km WSW of Anderson Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.72200012207,
-          38.7574996948242,
-          1.03999996185303
-        ]
-      },
-      "id": "nc75176216"
+      "id": "ci41144888"
     }
   ],
   "bbox": [
-    -122.79850006103,
-    33.3436667,
-    1.039999961853,
-    -116.272,
-    38.823501586914,
-    11.43
+    -115.9698333,
+    31.672,
+    5.3,
+    -104.415,
+    33.7471667,
+    6.6707
   ]
 }
