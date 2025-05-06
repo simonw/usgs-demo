@@ -1,101 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746426909000,
+    "generated": 1746513300000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 2
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1746425554849,
-        "updated": 1746426500598,
+        "mag": 1.9,
+        "place": "22 km NNW of Willow, Alaska",
+        "time": 1746512461370,
+        "updated": 1746512551837,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025itas",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025itas.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255shetzt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255shetzt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2025itas",
-        "ids": ",tx2025itas,",
-        "sources": ",tx,",
+        "sig": 56,
+        "net": "ak",
+        "code": "0255shetzt",
+        "ids": ",ak0255shetzt,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 70,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.48,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 55 km S of Whites City, New Mexico"
+        "title": "M 1.9 - 22 km NNW of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.415,
-          31.672,
-          6.6707
+          -150.2419,
+          61.9285,
+          53.3
         ]
       },
-      "id": "tx2025itas"
+      "id": "ak0255shetzt"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.19,
-        "place": "20 km NE of Thermal, CA",
-        "time": 1746423660590,
-        "updated": 1746423903976,
+        "mag": 1.1,
+        "place": "67 km WNW of Tyonek, Alaska",
+        "time": 1746512435393,
+        "updated": 1746512549380,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41144888",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41144888.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255sheowj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255sheowj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "ci",
-        "code": "41144888",
-        "ids": ",ci41144888,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.0933,
-        "rms": 0.17,
-        "gap": 63,
+        "sig": 19,
+        "net": "ak",
+        "code": "0255sheowj",
+        "ids": ",ak0255sheowj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.17,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 20 km NE of Thermal, CA"
+        "title": "M 1.1 - 67 km WNW of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.9698333,
-          33.7471667,
-          5.3
+          -152.3644,
+          61.2025,
+          117.4
         ]
       },
-      "id": "ci41144888"
+      "id": "ak0255sheowj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "13 km ENE of Yerington, Nevada",
+        "time": 1746511089158,
+        "updated": 1746511218283,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897263",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897263.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nn",
+        "code": "00897263",
+        "ids": ",nn00897263,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.12,
+        "rms": 0.1459,
+        "gap": 96.23000000000002,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 13 km ENE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.031,
+          39.0486,
+          10.4
+        ]
+      },
+      "id": "nn00897263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.11,
+        "place": "5 km S of Volcano, Hawaii",
+        "time": 1746510557080,
+        "updated": 1746510737250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74666507",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74666507.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "hv",
+        "code": "74666507",
+        "ids": ",hv74666507,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.01846,
+        "rms": 0.379999995,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 5 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.234832763672,
+          19.3955001831055,
+          -1.03999996185303
+        ]
+      },
+      "id": "hv74666507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.43,
+        "place": "5 km SSW of Idyllwild, CA",
+        "time": 1746510307610,
+        "updated": 1746510952820,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41145624",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41145624.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "ci",
+        "code": "41145624",
+        "ids": ",ci41145624,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 81,
+        "dmin": null,
+        "rms": 0.21,
+        "gap": 17,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 5 km SSW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7328333,
+          33.6998333,
+          17.76
+        ]
+      },
+      "id": "ci41145624"
     }
   ],
   "bbox": [
-    -115.9698333,
-    31.672,
-    5.3,
-    -104.415,
-    33.7471667,
-    6.6707
+    -155.23483276367,
+    19.395500183106,
+    -1.039999961853,
+    -116.7328333,
+    61.9285,
+    117.4
   ]
 }
