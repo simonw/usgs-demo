@@ -1,221 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746513300000,
+    "generated": 1746599662000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "22 km NNW of Willow, Alaska",
-        "time": 1746512461370,
-        "updated": 1746512551837,
+        "mag": 1.2,
+        "place": "13 km NW of Virginia City, Nevada",
+        "time": 1746599335056,
+        "updated": 1746599444074,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255shetzt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255shetzt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897320",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897320.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "0255shetzt",
-        "ids": ",ak0255shetzt,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.48,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 22 km NNW of Willow, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.2419,
-          61.9285,
-          53.3
-        ]
-      },
-      "id": "ak0255shetzt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "67 km WNW of Tyonek, Alaska",
-        "time": 1746512435393,
-        "updated": 1746512549380,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255sheowj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255sheowj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "0255sheowj",
-        "ids": ",ak0255sheowj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.17,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 67 km WNW of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.3644,
-          61.2025,
-          117.4
-        ]
-      },
-      "id": "ak0255sheowj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "13 km ENE of Yerington, Nevada",
-        "time": 1746511089158,
-        "updated": 1746511218283,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897263",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897263.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
+        "sig": 22,
         "net": "nn",
-        "code": "00897263",
-        "ids": ",nn00897263,",
+        "code": "00897320",
+        "ids": ",nn00897320,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.12,
-        "rms": 0.1459,
-        "gap": 96.23000000000002,
+        "nst": 17,
+        "dmin": 0.026,
+        "rms": 0.151,
+        "gap": 104.82000000000001,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 13 km ENE of Yerington, Nevada"
+        "title": "M 1.2 - 13 km NW of Virginia City, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.031,
-          39.0486,
-          10.4
+          -119.7397,
+          39.4072,
+          6.5
         ]
       },
-      "id": "nn00897263"
+      "id": "nn00897320"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.11,
-        "place": "5 km S of Volcano, Hawaii",
-        "time": 1746510557080,
-        "updated": 1746510737250,
+        "mag": 0.61,
+        "place": "2 km SSW of Julian, CA",
+        "time": 1746598828380,
+        "updated": 1746599040222,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74666507",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74666507.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41146456",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41146456.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
-        "net": "hv",
-        "code": "74666507",
-        "ids": ",hv74666507,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.01846,
-        "rms": 0.379999995,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 5 km S of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.234832763672,
-          19.3955001831055,
-          -1.03999996185303
-        ]
-      },
-      "id": "hv74666507"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.43,
-        "place": "5 km SSW of Idyllwild, CA",
-        "time": 1746510307610,
-        "updated": 1746510952820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41145624",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41145624.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 31,
+        "sig": 6,
         "net": "ci",
-        "code": "41145624",
-        "ids": ",ci41145624,",
+        "code": "41146456",
+        "ids": ",ci41146456,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 81,
-        "dmin": null,
-        "rms": 0.21,
-        "gap": 17,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.02169,
+        "rms": 0.19,
+        "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 5 km SSW of Idyllwild, CA"
+        "title": "M 0.6 - 2 km SSW of Julian, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7328333,
-          33.6998333,
-          17.76
+          -116.6101667,
+          33.062,
+          12.28
         ]
       },
-      "id": "ci41145624"
+      "id": "ci41146456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "7 km E of Big Lake, Alaska",
+        "time": 1746597455185,
+        "updated": 1746597577064,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255u4kj9q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255u4kj9q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "0255u4kj9q",
+        "ids": ",ak0255u4kj9q,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.35,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 7 km E of Big Lake, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.814,
+          61.5263,
+          34.2
+        ]
+      },
+      "id": "ak0255u4kj9q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "102 km E of Modisi, Indonesia",
+        "time": 1746596402334,
+        "updated": 1746597957040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pxmz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pxmz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000pxmz",
+        "ids": ",us7000pxmz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.173,
+        "rms": 1.04,
+        "gap": 52,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 102 km E of Modisi, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.3567,
+          0.3836,
+          64.627
+        ]
+      },
+      "id": "us7000pxmz"
     }
   ],
   "bbox": [
-    -155.23483276367,
-    19.395500183106,
-    -1.039999961853,
-    -116.7328333,
-    61.9285,
-    117.4
+    -149.814,
+    0.3836,
+    6.5,
+    125.3567,
+    61.5263,
+    64.627
   ]
 }
