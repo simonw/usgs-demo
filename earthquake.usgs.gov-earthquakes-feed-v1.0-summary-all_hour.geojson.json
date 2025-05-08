@@ -1,181 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746599662000,
+    "generated": 1746686105000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "13 km NW of Virginia City, Nevada",
-        "time": 1746599335056,
-        "updated": 1746599444074,
+        "mag": 1.43,
+        "place": "12 km NW of Anza, CA",
+        "time": 1746685941520,
+        "updated": 1746686066694,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897320",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897320.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41147512",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41147512.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "nn",
-        "code": "00897320",
-        "ids": ",nn00897320,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.026,
-        "rms": 0.151,
-        "gap": 104.82000000000001,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 13 km NW of Virginia City, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.7397,
-          39.4072,
-          6.5
-        ]
-      },
-      "id": "nn00897320"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.61,
-        "place": "2 km SSW of Julian, CA",
-        "time": 1746598828380,
-        "updated": 1746599040222,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41146456",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41146456.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
+        "sig": 31,
         "net": "ci",
-        "code": "41146456",
-        "ids": ",ci41146456,",
+        "code": "41147512",
+        "ids": ",ci41147512,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.02169,
-        "rms": 0.19,
-        "gap": 46,
+        "nst": 52,
+        "dmin": 0.062,
+        "rms": 0.17,
+        "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 2 km SSW of Julian, CA"
+        "title": "M 1.4 - 12 km NW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.6101667,
-          33.062,
-          12.28
+          -116.7731705,
+          33.6198349,
+          15.72
         ]
       },
-      "id": "ci41146456"
+      "id": "ci41147512"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2,
-        "place": "7 km E of Big Lake, Alaska",
-        "time": 1746597455185,
-        "updated": 1746597577064,
+        "mag": 0.86,
+        "place": "4 km NE of Fontana, CA",
+        "time": 1746685666190,
+        "updated": 1746685889163,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255u4kj9q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255u4kj9q.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41147504",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41147504.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
+        "sig": 11,
+        "net": "ci",
+        "code": "41147504",
+        "ids": ",ci41147504,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 45,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 4 km NE of Fontana, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4325,
+          34.1256667,
+          6.48
+        ]
+      },
+      "id": "ci41147504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.55,
+        "place": "4 km NE of Fontana, CA",
+        "time": 1746685470370,
+        "updated": 1746685688147,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41147496",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41147496.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 37,
+        "net": "ci",
+        "code": "41147496",
+        "ids": ",ci41147496,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 98,
+        "dmin": null,
+        "rms": 0.2,
+        "gap": 31,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 4 km NE of Fontana, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.434,
+          34.1275,
+          6.85
+        ]
+      },
+      "id": "ci41147496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.22,
+        "place": "2 km NE of Willits, CA",
+        "time": 1746684956590,
+        "updated": 1746685937275,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75178246",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75178246.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 23,
+        "net": "nc",
+        "code": "75178246",
+        "ids": ",nc75178246,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 6,
+        "dmin": 0.04577,
+        "rms": 0.09,
+        "gap": 199,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.2 - 2 km NE of Willits, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.338836669922,
+          39.423168182373,
+          6.80999994277954
+        ]
+      },
+      "id": "nc75178246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "70 km WNW of Ninilchik, Alaska",
+        "time": 1746684650486,
+        "updated": 1746685324040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255vsf9vy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255vsf9vy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
         "net": "ak",
-        "code": "0255u4kj9q",
-        "ids": ",ak0255u4kj9q,",
+        "code": "0255vsf9vy",
+        "ids": ",us7000pxvw,ak0255vsf9vy,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.5,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 70 km WNW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.8891,
+          60.2266,
+          124.1
+        ]
+      },
+      "id": "ak0255vsf9vy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "58 km NW of Rampart, Alaska",
+        "time": 1746684229139,
+        "updated": 1746684355354,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0255vsdrs1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0255vsdrs1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "0255vsdrs1",
+        "ids": ",ak0255vsdrs1,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.35,
+        "rms": 0.55,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 7 km E of Big Lake, Alaska"
+        "title": "M 1.9 - 58 km NW of Rampart, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.814,
-          61.5263,
-          34.2
+          -151.1331,
+          65.8426,
+          3.4
         ]
       },
-      "id": "ak0255u4kj9q"
+      "id": "ak0255vsdrs1"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "102 km E of Modisi, Indonesia",
-        "time": 1746596402334,
-        "updated": 1746597957040,
+        "mag": 0.78,
+        "place": "6 km NW of Rialto, CA",
+        "time": 1746684148330,
+        "updated": 1746684403041,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pxmz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pxmz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41147488",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41147488.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "ci",
+        "code": "41147488",
+        "ids": ",ci41147488,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.04962,
+        "rms": 0.16,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 6 km NW of Rialto, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4166667,
+          34.1436667,
+          4.9
+        ]
+      },
+      "id": "ci41147488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "5 km SSE of Bajandas, Puerto Rico",
+        "time": 1746682799020,
+        "updated": 1746684065640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71481663",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71481663.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000pxmz",
-        "ids": ",us7000pxmz,",
-        "sources": ",us,",
+        "sig": 92,
+        "net": "pr",
+        "code": "71481663",
+        "ids": ",pr71481663,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 1.173,
-        "rms": 1.04,
-        "gap": 52,
-        "magType": "mb",
+        "nst": 12,
+        "dmin": 0.07985,
+        "rms": 0.28,
+        "gap": 140,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.7 - 102 km E of Modisi, Indonesia"
+        "title": "M 2.5 - 5 km SSE of Bajandas, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.3567,
-          0.3836,
-          64.627
+          -65.7578333333333,
+          18.1095,
+          10.25
         ]
       },
-      "id": "us7000pxmz"
+      "id": "pr71481663"
     }
   ],
   "bbox": [
-    -149.814,
-    0.3836,
-    6.5,
-    125.3567,
-    61.5263,
-    64.627
+    -152.8891,
+    18.1095,
+    3.4,
+    -65.757833333333,
+    65.8426,
+    124.1
   ]
 }
