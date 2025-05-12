@@ -1,104 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1746945253000,
+    "generated": 1747031668000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.87,
-        "place": "12 km S of Fern Forest, Hawaii",
-        "time": 1746944854190,
-        "updated": 1746945060130,
+        "mag": 0.77,
+        "place": "3 km NW of The Geysers, CA",
+        "time": 1747031026830,
+        "updated": 1747031124534,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74670442",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74670442.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75180116",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75180116.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 54,
-        "net": "hv",
-        "code": "74670442",
-        "ids": ",hv74670442,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.03485,
-        "rms": 0.270000011,
-        "gap": 112,
-        "magType": "ml",
+        "sig": 9,
+        "net": "nc",
+        "code": "75180116",
+        "ids": ",nc75180116,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.007359,
+        "rms": 0.02,
+        "gap": 93,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 12 km S of Fern Forest, Hawaii"
+        "title": "M 0.8 - 3 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.120330810547,
-          19.3501663208008,
-          3.38000011444092
+          -122.778503417969,
+          38.7929992675781,
+          1.48000001907349
         ]
       },
-      "id": "hv74670442"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "10 km NE of Aguanga, CA",
-        "time": 1746944837900,
-        "updated": 1746945045849,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41150712",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41150712.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41150712",
-        "ids": ",ci41150712,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 46,
-        "dmin": 0.02761,
-        "rms": 0.21,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 10 km NE of Aguanga, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7761667,
-          33.4971667,
-          9.29
-        ]
-      },
-      "id": "ci41150712"
+      "id": "nc75180116"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.9,
-        "place": "25 km SSW of Westbrook, Texas",
-        "time": 1746944714449,
-        "updated": 1746945252564,
+        "place": "44 km WNW of Nanwalek, Alaska",
+        "time": 1747030841037,
+        "updated": 1747030912935,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025jeas",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025jeas.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02562emsav",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02562emsav.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,196 +66,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 56,
-        "net": "tx",
-        "code": "2025jeas",
-        "ids": ",tx2025jeas,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "02562emsav",
+        "ids": ",ak02562emsav,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.2,
-        "rms": 0.4,
-        "gap": 117,
-        "magType": "mlv",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.15,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 25 km SSW of Westbrook, Texas"
+        "title": "M 1.9 - 44 km WNW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.075,
-          32.127,
-          2.4257
+          -152.6823,
+          59.4375,
+          77
         ]
       },
-      "id": "tx2025jeas"
+      "id": "ak02562emsav"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.91,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1746944637560,
-        "updated": 1746944863146,
+        "mag": 0.29,
+        "place": "8 km WNW of Cobb, CA",
+        "time": 1747028647200,
+        "updated": 1747030037364,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41150704",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41150704.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75180111",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75180111.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
+        "sig": 1,
+        "net": "nc",
+        "code": "75180111",
+        "ids": ",nc75180111,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.01393,
+        "rms": 0.02,
+        "gap": 72,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.3 - 8 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.808166503906,
+          38.8388328552246,
+          1.91999995708466
+        ]
+      },
+      "id": "nc75180111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.59,
+        "place": "13 km SE of Anza, CA",
+        "time": 1747028635780,
+        "updated": 1747028844384,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41151280",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41151280.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
         "net": "ci",
-        "code": "41150704",
-        "ids": ",ci41150704,",
+        "code": "41151280",
+        "ids": ",ci41151280,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.06973,
-        "rms": 0.21,
-        "gap": 95,
+        "nst": 32,
+        "dmin": 0.03464,
+        "rms": 0.11,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 17 km WSW of Johannesburg, CA"
+        "title": "M 0.6 - 13 km SE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8113333,
-          35.3313333,
-          5.65
+          -116.5701667,
+          33.4726667,
+          10.94
         ]
       },
-      "id": "ci41150704"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "58 km NNW of Glacier View, Alaska",
-        "time": 1746944533655,
-        "updated": 1746944672613,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02560r3t4l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02560r3t4l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "02560r3t4l",
-        "ids": ",ak02560r3t4l,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.91,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 58 km NNW of Glacier View, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.0721,
-          62.2952,
-          33.1
-        ]
-      },
-      "id": "ak02560r3t4l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "42 km WNW of Ninilchik, Alaska",
-        "time": 1746944174945,
-        "updated": 1746944294822,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02560r2ixi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02560r2ixi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "02560r2ixi",
-        "ids": ",ak02560r2ixi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.39,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 42 km WNW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.3282,
-          60.2506,
-          75.7
-        ]
-      },
-      "id": "ak02560r2ixi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "16 km ENE of Yerington, Nevada",
-        "time": 1746941908736,
-        "updated": 1746942040728,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897480",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897480.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "nn",
-        "code": "00897480",
-        "ids": ",nn00897480,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.143,
-        "rms": 0.3529,
-        "gap": 95.47,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 16 km ENE of Yerington, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.9947,
-          39.0555,
-          6.5
-        ]
-      },
-      "id": "nn00897480"
+      "id": "ci41151280"
     }
   ],
   "bbox": [
-    -155.12033081055,
-    19.350166320801,
-    2.4257,
-    -101.075,
-    62.2952,
-    75.7
+    -152.6823,
+    33.4726667,
+    1.4800000190735,
+    -116.5701667,
+    59.4375,
+    77
   ]
 }
