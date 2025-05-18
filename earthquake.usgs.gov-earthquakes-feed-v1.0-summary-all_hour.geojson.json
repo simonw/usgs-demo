@@ -1,264 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747463623000,
+    "generated": 1747550023000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.71,
-        "place": "9 km ESE of Boonville, CA",
-        "time": 1747463149700,
-        "updated": 1747463248654,
+        "mag": 1.8,
+        "place": "75 km E of Ugashik, Alaska",
+        "time": 1747549552887,
+        "updated": 1747549743479,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75183342",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75183342.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256cbvyrc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256cbvyrc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 45,
-        "net": "nc",
-        "code": "75183342",
-        "ids": ",nc75183342,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.3773,
-        "rms": 0.24,
-        "gap": 215,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 9 km ESE of Boonville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.26782989502,
-          39.0046653747559,
-          4.32999992370605
-        ]
-      },
-      "id": "nc75183342"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1747461722080,
-        "updated": 1747462640725,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75183337",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75183337.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75183337",
-        "ids": ",nc75183337,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.01031,
-        "rms": 0.01,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.801834106445,
-          38.8333320617676,
-          1.37000000476837
-        ]
-      },
-      "id": "nc75183337"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "31 km S of Bunkerville, Nevada",
-        "time": 1747461288545,
-        "updated": 1747463463798,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzss",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzss.geojson",
-        "felt": 11,
-        "cdi": 3.1,
-        "mmi": 3.706,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 226,
-        "net": "us",
-        "code": "7000pzss",
-        "ids": ",us7000pzss,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 38,
-        "dmin": 0.839,
-        "rms": 0.55,
-        "gap": 45,
-        "magType": "mwr",
-        "type": "earthquake",
-        "title": "M 3.8 - 31 km S of Bunkerville, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.0653,
-          36.4922,
-          8.742
-        ]
-      },
-      "id": "us7000pzss"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "8 km SE of Maria Antonia, Puerto Rico",
-        "time": 1747461154660,
-        "updated": 1747461975410,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71482623",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71482623.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 76,
-        "net": "pr",
-        "code": "71482623",
-        "ids": ",pr71482623,",
-        "sources": ",pr,",
+        "sig": 50,
+        "net": "ak",
+        "code": "0256cbvyrc",
+        "ids": ",ak0256cbvyrc,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.05818,
-        "rms": 0.18,
-        "gap": 224,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 8 km SE of Maria Antonia, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.8433333333333,
-          17.919,
-          16.42
-        ]
-      },
-      "id": "pr71482623"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.56,
-        "place": "37 km W of Petrolia, CA",
-        "time": 1747461076570,
-        "updated": 1747463239791,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75183327",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75183327.geojson",
-        "felt": 2,
-        "cdi": 2.2,
-        "mmi": 2.433,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 195,
-        "net": "nc",
-        "code": "75183327",
-        "ids": ",nc75183327,us7000pzsr,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 53,
-        "dmin": 0.2883,
-        "rms": 0.22,
-        "gap": 247,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.55,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 37 km W of Petrolia, CA"
+        "title": "M 1.8 - 75 km E of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.719169616699,
-          40.2999992370605,
-          -0.119999997317791
+          -156.1549,
+          57.6215,
+          92.9
         ]
       },
-      "id": "nc75183327"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.51,
-        "place": "9 km E of Anza, CA",
-        "time": 1747461031810,
-        "updated": 1747461256447,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41154880",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41154880.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41154880",
-        "ids": ",ci41154880,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.03467,
-        "rms": 0.1,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 9 km E of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5716667,
-          33.556,
-          14.61
-        ]
-      },
-      "id": "ci41154880"
+      "id": "ak0256cbvyrc"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.3,
-        "place": "17 km SSW of Searles Valley, CA",
-        "time": 1747460821840,
-        "updated": 1747461029424,
+        "place": "43 km W of Nanwalek, Alaska",
+        "time": 1747548808847,
+        "updated": 1747548892941,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41154872",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41154872.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256cbtcb8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256cbtcb8.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,116 +66,236 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 26,
-        "net": "ci",
-        "code": "41154872",
-        "ids": ",ci41154872,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.05804,
-        "rms": 0.15,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 17 km SSW of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.4808333,
-          35.6303333,
-          8.7
-        ]
-      },
-      "id": "ci41154872"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "73 km NE of Tonopah, Nevada",
-        "time": 1747460709901,
-        "updated": 1747460879301,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00897706",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00897706.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "nn",
-        "code": "00897706",
-        "ids": ",nn00897706,",
-        "sources": ",nn,",
+        "net": "ak",
+        "code": "0256cbtcb8",
+        "ids": ",ak0256cbtcb8,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.651,
-        "rms": 0.2216,
-        "gap": 206.37,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.09,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 73 km NE of Tonopah, Nevada"
+        "title": "M 1.3 - 43 km W of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5357,
-          38.4395,
-          1
+          -152.6888,
+          59.3212,
+          73.5
         ]
       },
-      "id": "nn00897706"
+      "id": "ak0256cbtcb8"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "south of the Fiji Islands",
-        "time": 1747460411886,
-        "updated": 1747461313040,
+        "mag": 4.4,
+        "place": "35 km S of Jurm, Afghanistan",
+        "time": 1747548797014,
+        "updated": 1747549763040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzsq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzsq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzz5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzz5.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 298,
         "net": "us",
-        "code": "7000pzsq",
-        "ids": ",us7000pzsq,",
+        "code": "7000pzz5",
+        "ids": ",us7000pzz5,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 6.021,
-        "rms": 0.71,
-        "gap": 69,
+        "nst": 60,
+        "dmin": 2.227,
+        "rms": 0.64,
+        "gap": 78,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - south of the Fiji Islands"
+        "title": "M 4.4 - 35 km S of Jurm, Afghanistan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.9184,
-          -23.5362,
-          531.059
+          70.7716,
+          36.5497,
+          214.261
         ]
       },
-      "id": "us7000pzsq"
+      "id": "us7000pzz5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1747548692231,
+        "updated": 1747549376377,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025jqun",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025jqun.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2025jqun",
+        "ids": ",tx2025jqun,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 55 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.404,
+          31.672,
+          5.7167
+        ]
+      },
+      "id": "tx2025jqun"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1747548013594,
+        "updated": 1747548751199,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025jquc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025jquc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2025jquc",
+        "ids": ",tx2025jquc,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.409,
+          31.671,
+          4.7238
+        ]
+      },
+      "id": "tx2025jquc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "47 km NE of Livengood, Alaska",
+        "time": 1747547936550,
+        "updated": 1747548027003,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256cbhm2f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256cbhm2f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "0256cbhm2f",
+        "ids": ",ak0256cbhm2f,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 47 km NE of Livengood, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8528,
+          65.8374,
+          7.8
+        ]
+      },
+      "id": "ak0256cbhm2f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.72,
+        "place": "11 km SE of Anza, CA",
+        "time": 1747546688580,
+        "updated": 1747546915228,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41155432",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41155432.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "41155432",
+        "ids": ",ci41155432,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.01621,
+        "rms": 0.15,
+        "gap": 45,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 11 km SE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5828333,
+          33.4938333,
+          6.14
+        ]
+      },
+      "id": "ci41155432"
     }
   ],
   "bbox": [
-    -124.7191696167,
-    -23.5362,
-    -0.11999999731779,
-    179.9184,
-    40.29999923706,
-    531.059
+    -156.1549,
+    31.671,
+    4.7238,
+    70.7716,
+    65.8374,
+    214.261
   ]
 }
