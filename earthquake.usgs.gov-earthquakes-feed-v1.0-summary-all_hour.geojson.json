@@ -1,301 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747550023000,
+    "generated": 1747636519000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "75 km E of Ugashik, Alaska",
-        "time": 1747549552887,
-        "updated": 1747549743479,
+        "mag": 1.42,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1747636108610,
+        "updated": 1747636320336,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256cbvyrc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256cbvyrc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41156096",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41156096.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "0256cbvyrc",
-        "ids": ",ak0256cbvyrc,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.55,
-        "gap": null,
+        "sig": 31,
+        "net": "ci",
+        "code": "41156096",
+        "ids": ",ci41156096,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 41,
+        "dmin": 0.06945,
+        "rms": 0.21,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 75 km E of Ugashik, Alaska"
+        "title": "M 1.4 - 17 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.1549,
-          57.6215,
-          92.9
+          -117.8126667,
+          35.3315,
+          7.21
         ]
       },
-      "id": "ak0256cbvyrc"
+      "id": "ci41156096"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "43 km W of Nanwalek, Alaska",
-        "time": 1747548808847,
-        "updated": 1747548892941,
+        "mag": 0.99,
+        "place": "4 km NNW of The Geysers, CA",
+        "time": 1747635496100,
+        "updated": 1747635594284,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256cbtcb8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256cbtcb8.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75184262",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75184262.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "0256cbtcb8",
-        "ids": ",ak0256cbtcb8,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.09,
-        "gap": null,
-        "magType": "ml",
+        "sig": 15,
+        "net": "nc",
+        "code": "75184262",
+        "ids": ",nc75184262,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.009964,
+        "rms": 0.06,
+        "gap": 79,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 43 km W of Nanwalek, Alaska"
+        "title": "M 1.0 - 4 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.6888,
-          59.3212,
-          73.5
+          -122.781997680664,
+          38.8033332824707,
+          -0.0799999982118607
         ]
       },
-      "id": "ak0256cbtcb8"
+      "id": "nc75184262"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "35 km S of Jurm, Afghanistan",
-        "time": 1747548797014,
-        "updated": 1747549763040,
+        "mag": 1.9,
+        "place": "57 km E of Pedro Bay, Alaska",
+        "time": 1747634572128,
+        "updated": 1747634662427,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzz5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000pzz5.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256dzadqr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256dzadqr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "0256dzadqr",
+        "ids": ",ak0256dzadqr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.28,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 57 km E of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.0908,
+          59.7528,
+          100.7
+        ]
+      },
+      "id": "ak0256dzadqr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.12,
+        "place": "5 km ENE of Honaunau-Napoopoo, Hawaii",
+        "time": 1747633806620,
+        "updated": 1747634002020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74675987",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74675987.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "hv",
+        "code": "74675987",
+        "ids": ",hv74675987,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.114,
+        "rms": 0.360000014,
+        "gap": 217,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 5 km ENE of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.821334838867,
+          19.4825000762939,
+          4.84000015258789
+        ]
+      },
+      "id": "hv74675987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.46,
+        "place": "6 km WSW of Anza, CA",
+        "time": 1747633743290,
+        "updated": 1747633970812,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41156080",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41156080.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "ci",
+        "code": "41156080",
+        "ids": ",ci41156080,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.03453,
+        "rms": 0.15,
+        "gap": 33,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 6 km WSW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.728,
+          33.5316667,
+          4.29
+        ]
+      },
+      "id": "ci41156080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "Kermadec Islands, New Zealand",
+        "time": 1747633711702,
+        "updated": 1747635360040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q040",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q040.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 432,
         "net": "us",
-        "code": "7000pzz5",
-        "ids": ",us7000pzz5,",
+        "code": "7000q040",
+        "ids": ",us7000q040,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 2.227,
-        "rms": 0.64,
-        "gap": 78,
-        "magType": "mb",
+        "nst": 62,
+        "dmin": 1.081,
+        "rms": 1.35,
+        "gap": 61,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.4 - 35 km S of Jurm, Afghanistan"
+        "title": "M 5.3 - Kermadec Islands, New Zealand"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          70.7716,
-          36.5497,
-          214.261
+          -177.2789,
+          -30.1691,
+          10
         ]
       },
-      "id": "us7000pzz5"
+      "id": "us7000q040"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1747548692231,
-        "updated": 1747549376377,
+        "mag": 1.99,
+        "place": "1 km NNW of Lake View Terrace, CA",
+        "time": 1747633309340,
+        "updated": 1747633926430,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025jqun",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025jqun.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41156064",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41156064.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025jqun",
-        "ids": ",tx2025jqun,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.404,
-          31.672,
-          5.7167
-        ]
-      },
-      "id": "tx2025jqun"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1747548013594,
-        "updated": 1747548751199,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025jquc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025jquc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2025jquc",
-        "ids": ",tx2025jquc,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.409,
-          31.671,
-          4.7238
-        ]
-      },
-      "id": "tx2025jquc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "47 km NE of Livengood, Alaska",
-        "time": 1747547936550,
-        "updated": 1747548027003,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256cbhm2f",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256cbhm2f.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "0256cbhm2f",
-        "ids": ",ak0256cbhm2f,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.16,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 47 km NE of Livengood, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.8528,
-          65.8374,
-          7.8
-        ]
-      },
-      "id": "ak0256cbhm2f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.72,
-        "place": "11 km SE of Anza, CA",
-        "time": 1747546688580,
-        "updated": 1747546915228,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41155432",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41155432.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
+        "sig": 61,
         "net": "ci",
-        "code": "41155432",
-        "ids": ",ci41155432,",
+        "code": "41156064",
+        "ids": ",ci41156064,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.01621,
-        "rms": 0.15,
-        "gap": 45,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 54,
+        "dmin": 0.01811,
+        "rms": 0.23,
+        "gap": 78,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 11 km SE of Anza, CA"
+        "title": "M 2.0 - 1 km NNW of Lake View Terrace, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5828333,
-          33.4938333,
-          6.14
+          -118.3666667,
+          34.2793333,
+          8.36
         ]
       },
-      "id": "ci41155432"
+      "id": "ci41156064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.19,
+        "place": "3 km NE of Pacoima, CA",
+        "time": 1747633308960,
+        "updated": 1747633989270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41156072",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41156072.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ci",
+        "code": "41156072",
+        "ids": ",ci41156072,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.02427,
+        "rms": 0.16,
+        "gap": 67,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 3 km NE of Pacoima, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4011688,
+          34.2840004,
+          8.37
+        ]
+      },
+      "id": "ci41156072"
     }
   ],
   "bbox": [
-    -156.1549,
-    31.671,
-    4.7238,
-    70.7716,
-    65.8374,
-    214.261
+    -177.2789,
+    -30.1691,
+    -0.079999998211861,
+    -116.728,
+    59.7528,
+    100.7
   ]
 }
