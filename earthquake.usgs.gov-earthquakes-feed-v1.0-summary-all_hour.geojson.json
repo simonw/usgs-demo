@@ -1,104 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1747809257000,
+    "generated": 1747895698000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1747809059600,
-        "updated": 1747809156681,
+        "mag": 0.76,
+        "place": "18 km ENE of Little Lake, CA",
+        "time": 1747895482760,
+        "updated": 1747895694457,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75184386",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75184386.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75184386",
-        "ids": ",nc75184386,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.003237,
-        "rms": 0.04,
-        "gap": 105,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 6 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.790336608887,
-          38.8351669311523,
-          2.15000009536743
-        ]
-      },
-      "id": "nc75184386"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "18 km SE of Naalehu, Hawaii",
-        "time": 1747808463780,
-        "updated": 1747808709760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74677377",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74677377.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "74677377",
-        "ids": ",hv74677377,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 0.1948,
-        "rms": 0.289999992,
-        "gap": 259,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 18 km SE of Naalehu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.45133972168,
-          18.9598331451416,
-          21.2900009155273
-        ]
-      },
-      "id": "hv74677377"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "16 km N of Ocotillo Wells, CA",
-        "time": 1747807071900,
-        "updated": 1747807287828,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40971815",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40971815.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40972639",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40972639.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -107,115 +27,315 @@
         "tsunami": 0,
         "sig": 9,
         "net": "ci",
-        "code": "40971815",
-        "ids": ",ci40971815,",
+        "code": "40972639",
+        "ids": ",ci40972639,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.1234,
-        "rms": 0.23,
-        "gap": 40,
+        "nst": 14,
+        "dmin": 0.03114,
+        "rms": 0.11,
+        "gap": 114,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 16 km N of Ocotillo Wells, CA"
+        "title": "M 0.8 - 18 km ENE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.1328333,
-          33.2876667,
-          1.91
+          -117.7285,
+          36.0161667,
+          1.38
         ]
       },
-      "id": "ci40971815"
+      "id": "ci40972639"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9706733226776123,
-        "place": "14 km SW of Packwood, Washington",
-        "time": 1747806663870,
-        "updated": 1747808085053,
+        "mag": 0.71,
+        "place": "11 km NE of Cabazon, CA",
+        "time": 1747895219880,
+        "updated": 1747895424424,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62113736",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62113736.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 60,
-        "net": "uw",
-        "code": "62113736",
-        "ids": ",uw62113736,",
-        "sources": ",uw,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 58,
-        "dmin": null,
-        "rms": 0.150000006,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 14 km SW of Packwood, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.81283569335938,
-          46.52483367919922,
-          3.00999999046326
-        ]
-      },
-      "id": "uw62113736"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.05,
-        "place": "4 km WNW of Cobb, CA",
-        "time": 1747805740320,
-        "updated": 1747808839128,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75184371",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75184371.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40972631",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40972631.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75184371",
-        "ids": ",nc75184371,",
-        "sources": ",nc,",
+        "sig": 8,
+        "net": "ci",
+        "code": "40972631",
+        "ids": ",ci40972631,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.007514,
-        "rms": 0.02,
-        "gap": 176,
-        "magType": "md",
+        "nst": 32,
+        "dmin": 0.06682,
+        "rms": 0.15,
+        "gap": 76,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 4 km WNW of Cobb, CA"
+        "title": "M 0.7 - 11 km NE of Cabazon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.764999389648,
-          38.8240013122559,
-          1.74000000953674
+          -116.6926667,
+          33.9828333,
+          17.4
         ]
       },
-      "id": "nc75184371"
+      "id": "ci40972631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.83,
+        "place": "9 km NW of The Geysers, CA",
+        "time": 1747895048770,
+        "updated": 1747895145018,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75184796",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75184796.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "nc",
+        "code": "75184796",
+        "ids": ",nc75184796,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.005966,
+        "rms": 0.01,
+        "gap": 108,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 9 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.842666625977,
+          38.8230018615723,
+          2.15000009536743
+        ]
+      },
+      "id": "nc75184796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.63,
+        "place": "8 km SSW of Idyllwild, CA",
+        "time": 1747893883600,
+        "updated": 1747894156283,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40972615",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40972615.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "40972615",
+        "ids": ",ci40972615,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.05332,
+        "rms": 0.15,
+        "gap": 113,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 8 km SSW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7483333,
+          33.6701667,
+          15.86
+        ]
+      },
+      "id": "ci40972615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.66,
+        "place": "9 km SSW of Idyllwild, CA",
+        "time": 1747893437090,
+        "updated": 1747893649273,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40972607",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40972607.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "ci",
+        "code": "40972607",
+        "ids": ",ci40972607,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.06191,
+        "rms": 0.14,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 9 km SSW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7543333,
+          33.6631667,
+          14.89
+        ]
+      },
+      "id": "ci40972607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "16 km NNW of Ninilchik, Alaska",
+        "time": 1747893347054,
+        "updated": 1747893424334,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256ixmc5t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256ixmc5t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "ak",
+        "code": "0256ixmc5t",
+        "ids": ",ak0256ixmc5t,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.16,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 16 km NNW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.7961,
+          60.1813,
+          66
+        ]
+      },
+      "id": "ak0256ixmc5t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "27 km NE of Ambunti, Papua New Guinea",
+        "time": 1747892499522,
+        "updated": 1747893604040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q0ql",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q0ql.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000q0ql",
+        "ids": ",us7000q0ql,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 2.767,
+        "rms": 0.73,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 27 km NE of Ambunti, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0112,
+          -4.0572,
+          88.762
+        ]
+      },
+      "id": "us7000q0ql"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.44,
+        "place": "5 km SSW of Indios, Puerto Rico",
+        "time": 1747892418570,
+        "updated": 1747893228180,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71483208",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71483208.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71483208",
+        "ids": ",pr71483208,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.05281,
+        "rms": 0.17,
+        "gap": 196,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 5 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8318333333333,
+          17.9475,
+          14.8
+        ]
+      },
+      "id": "pr71483208"
     }
   ],
   "bbox": [
-    -155.45133972168,
-    18.959833145142,
-    1.7400000095367,
-    -116.1328333,
-    46.524833679199,
-    21.290000915527
+    -151.7961,
+    -4.0572,
+    1.38,
+    143.0112,
+    60.1813,
+    88.762
   ]
 }
