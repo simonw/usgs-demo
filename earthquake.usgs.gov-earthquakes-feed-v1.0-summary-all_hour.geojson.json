@@ -1,264 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748327697000,
+    "generated": 1748414097000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "57 km SSW of Goldfield, Nevada",
-        "time": 1748326962902,
-        "updated": 1748327095971,
+        "mag": 3.25,
+        "place": "81 km NW of San Antonio, Puerto Rico",
+        "time": 1748411614510,
+        "updated": 1748413307530,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898036",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898036.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71483783",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71483783.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 6,
-        "net": "nn",
-        "code": "00898036",
-        "ids": ",nn00898036,",
-        "sources": ",nn,",
+        "sig": 162,
+        "net": "pr",
+        "code": "71483783",
+        "ids": ",pr71483783,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.156,
-        "rms": 0.1763,
-        "gap": 287.34,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 57 km SSW of Goldfield, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.4189,
-          37.2083,
-          8.3
-        ]
-      },
-      "id": "nn00898036"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "52 km WNW of Ninilchik, Alaska",
-        "time": 1748326920242,
-        "updated": 1748327104318,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256r7pbzs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256r7pbzs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "0256r7pbzs",
-        "ids": ",ak0256r7pbzs,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.63,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 52 km WNW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.5737,
-          60.1894,
-          103.8
-        ]
-      },
-      "id": "ak0256r7pbzs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.73,
-        "place": "3 km SSE of Pacifica, CA",
-        "time": 1748326498050,
-        "updated": 1748326594868,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75187111",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75187111.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 46,
-        "net": "nc",
-        "code": "75187111",
-        "ids": ",nc75187111,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.03131,
-        "rms": 0.03,
-        "gap": 89,
+        "nst": 12,
+        "dmin": 0.7412,
+        "rms": 0.53,
+        "gap": 209,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 3 km SSE of Pacifica, CA"
+        "title": "M 3.3 - 81 km NW of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.463500976562,
-          37.5924987792969,
-          9.25
+          -67.6918333333333,
+          18.9666666666667,
+          9.58
         ]
       },
-      "id": "nc75187111"
+      "id": "pr71483783"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "53 km ENE of Pedro Bay, Alaska",
-        "time": 1748326497648,
-        "updated": 1748326610670,
+        "mag": 0.36,
+        "place": "7 km WSW of Anza, CA",
+        "time": 1748411573460,
+        "updated": 1748411805329,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256r7nqp0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256r7nqp0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "0256r7nqp0",
-        "ids": ",ak0256r7nqp0,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.27,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 53 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.1807,
-          59.9105,
-          106.2
-        ]
-      },
-      "id": "ak0256r7nqp0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1748326455050,
-        "updated": 1748326549849,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75187106",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75187106.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75187106",
-        "ids": ",nc75187106,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.0103,
-        "rms": 0.01,
-        "gap": 88,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.803337097168,
-          38.8366661071777,
-          2.10999989509583
-        ]
-      },
-      "id": "nc75187106"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.81,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1748325253520,
-        "updated": 1748326638886,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75187096",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75187096.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75187096",
-        "ids": ",nc75187096,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.01327,
-        "rms": 0.02,
-        "gap": 79,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 6 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.811996459961,
-          38.8055000305176,
-          2.80999994277954
-        ]
-      },
-      "id": "nc75187096"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.4,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1748324504850,
-        "updated": 1748326036822,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75187091",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75187091.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40978215",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40978215.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,36 +66,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 2,
-        "net": "nc",
-        "code": "75187091",
-        "ids": ",nc75187091,",
-        "sources": ",nc,",
+        "net": "ci",
+        "code": "40978215",
+        "ids": ",ci40978215,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.005497,
-        "rms": 0.01,
-        "gap": 150,
-        "magType": "md",
+        "nst": 18,
+        "dmin": 0.03992,
+        "rms": 0.13,
+        "gap": 45,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 6 km NNW of The Geysers, CA"
+        "title": "M 0.4 - 7 km WSW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.803169250488,
-          38.8223342895508,
-          3.13000011444092
+          -116.7445,
+          33.5258333,
+          2.42
         ]
       },
-      "id": "nc75187091"
+      "id": "ci40978215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "36 km NNW of Valdez, Alaska",
+        "time": 1748411074199,
+        "updated": 1748411195882,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256sus197",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256sus197.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "ak",
+        "code": "0256sus197",
+        "ids": ",ak0256sus197,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.85,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 36 km NNW of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.7136,
+          61.4025,
+          11.9
+        ]
+      },
+      "id": "ak0256sus197"
     }
   ],
   "bbox": [
-    -153.1807,
-    37.2083,
-    2.1099998950958,
-    -117.4189,
-    60.1894,
-    106.2
+    -146.7136,
+    18.966666666667,
+    2.42,
+    -67.691833333333,
+    61.4025,
+    11.9
   ]
 }
