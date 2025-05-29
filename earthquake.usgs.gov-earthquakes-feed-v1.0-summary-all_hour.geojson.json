@@ -1,141 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748414097000,
+    "generated": 1748500468000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.25,
-        "place": "81 km NW of San Antonio, Puerto Rico",
-        "time": 1748411614510,
-        "updated": 1748413307530,
+        "mag": 2.72,
+        "place": "91 km SSW of Alberto Oviedo Mota, B.C., MX",
+        "time": 1748500282660,
+        "updated": 1748500423229,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71483783",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71483783.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40979415",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40979415.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 114,
+        "net": "ci",
+        "code": "40979415",
+        "ids": ",ci40979415,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.179,
+        "rms": 0.18,
+        "gap": 106,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 91 km SSW of Alberto Oviedo Mota, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6220016,
+          31.505167,
+          7.96
+        ]
+      },
+      "id": "ci40979415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "36 km NNE of Petersville, Alaska",
+        "time": 1748499935134,
+        "updated": 1748500057705,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256uisqtl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256uisqtl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "0256uisqtl",
+        "ids": ",ak0256uisqtl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.34,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 36 km NNE of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.5475,
+          62.8112,
+          71.1
+        ]
+      },
+      "id": "ak0256uisqtl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1748499300927,
+        "updated": 1748499486424,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025kkwx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025kkwx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "tx",
+        "code": "2025kkwx",
+        "ids": ",tx2025kkwx,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 81,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 58 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.431,
+          31.647,
+          4.1719
+        ]
+      },
+      "id": "tx2025kkwx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.72,
+        "place": "6 km NNW of The Geysers, CA",
+        "time": 1748499062090,
+        "updated": 1748500338071,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75188056",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75188056.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75188056",
+        "ids": ",nc75188056,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 8,
+        "dmin": 0.008439,
+        "rms": 0.03,
+        "gap": 111,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 6 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.799331665039,
+          38.8224983215332,
+          3.00999999046326
+        ]
+      },
+      "id": "nc75188056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.81,
+        "place": "6 km SE of Redlands, CA",
+        "time": 1748498600460,
+        "updated": 1748498811252,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40979407",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40979407.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "40979407",
+        "ids": ",ci40979407,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.03124,
+        "rms": 0.21,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 6 km SE of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1423333,
+          34.0165,
+          4.14
+        ]
+      },
+      "id": "ci40979407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.55,
+        "place": "7 km SSW of Calimesa, CA",
+        "time": 1748498221050,
+        "updated": 1748500369316,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40979399",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40979399.geojson",
+        "felt": 6,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "ci",
+        "code": "40979399",
+        "ids": ",ci40979399,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 131,
+        "dmin": 0.07128,
+        "rms": 0.2,
+        "gap": 16,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 7 km SSW of Calimesa, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0888333,
+          33.9328333,
+          13.93
+        ]
+      },
+      "id": "ci40979399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Prince Edward Islands region",
+        "time": 1748497512131,
+        "updated": 1748498874040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgkp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgkp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 162,
-        "net": "pr",
-        "code": "71483783",
-        "ids": ",pr71483783,",
-        "sources": ",pr,",
+        "sig": 326,
+        "net": "us",
+        "code": "6000qgkp",
+        "ids": ",us6000qgkp,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.7412,
-        "rms": 0.53,
-        "gap": 209,
-        "magType": "md",
+        "nst": 20,
+        "dmin": 9.929,
+        "rms": 0.39,
+        "gap": 127,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.3 - 81 km NW of San Antonio, Puerto Rico"
+        "title": "M 4.6 - Prince Edward Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.6918333333333,
-          18.9666666666667,
-          9.58
+          38.1411,
+          -44.17,
+          10
         ]
       },
-      "id": "pr71483783"
+      "id": "us6000qgkp"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.36,
-        "place": "7 km WSW of Anza, CA",
-        "time": 1748411573460,
-        "updated": 1748411805329,
+        "mag": 1.4,
+        "place": "5 km W of Nenana, Alaska",
+        "time": 1748497385789,
+        "updated": 1748497538610,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40978215",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40978215.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256uib3ua",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256uib3ua.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "40978215",
-        "ids": ",ci40978215,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.03992,
-        "rms": 0.13,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 7 km WSW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7445,
-          33.5258333,
-          2.42
-        ]
-      },
-      "id": "ci40978215"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "36 km NNW of Valdez, Alaska",
-        "time": 1748411074199,
-        "updated": 1748411195882,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256sus197",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256sus197.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
+        "sig": 30,
         "net": "ak",
-        "code": "0256sus197",
-        "ids": ",ak0256sus197,",
+        "code": "0256uib3ua",
+        "ids": ",ak0256uib3ua,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.85,
+        "rms": 0.8,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 36 km NNW of Valdez, Alaska"
+        "title": "M 1.4 - 5 km W of Nenana, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.7136,
-          61.4025,
-          11.9
+          -149.2203,
+          64.5647,
+          3
         ]
       },
-      "id": "ak0256sus197"
+      "id": "ak0256uib3ua"
     }
   ],
   "bbox": [
-    -146.7136,
-    18.966666666667,
-    2.42,
-    -67.691833333333,
-    61.4025,
-    11.9
+    -150.5475,
+    -44.17,
+    3,
+    38.1411,
+    64.5647,
+    71.1
   ]
 }
