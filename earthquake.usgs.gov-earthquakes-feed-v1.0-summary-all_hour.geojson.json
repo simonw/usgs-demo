@@ -1,24 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748586894000,
+    "generated": 1748673254000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "6 km NNW of Willow, Alaska",
-        "time": 1748586102777,
-        "updated": 1748586257701,
+        "mag": 1.6,
+        "place": "9 km NE of Susitna, Alaska",
+        "time": 1748673108355,
+        "updated": 1748673239447,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256w6b91h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256w6b91h.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256xtwr4j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256xtwr4j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "0256xtwr4j",
+        "ids": ",ak0256xtwr4j,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.54,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 9 km NE of Susitna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.389,
+          61.6092,
+          35.1
+        ]
+      },
+      "id": "ak0256xtwr4j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.52,
+        "place": "15 km ENE of Thousand Palms, CA",
+        "time": 1748672599760,
+        "updated": 1748673243710,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40981655",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40981655.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "ci",
+        "code": "40981655",
+        "ids": ",ci40981655,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 67,
+        "dmin": 0.07182,
+        "rms": 0.16,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 15 km ENE of Thousand Palms, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2448333,
+          33.885,
+          5.36
+        ]
+      },
+      "id": "ci40981655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "24 km SSE of Nelchina, Alaska",
+        "time": 1748672275409,
+        "updated": 1748672389851,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256xttrn8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256xttrn8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "0256xttrn8",
+        "ids": ",ak0256xttrn8,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.73,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 24 km SSE of Nelchina, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.6619,
+          61.779,
+          20
+        ]
+      },
+      "id": "ak0256xttrn8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.81,
+        "place": "16 km WSW of Johannesburg, CA",
+        "time": 1748670881770,
+        "updated": 1748671092958,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40981647",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40981647.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "40981647",
+        "ids": ",ci40981647,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.07607,
+        "rms": 0.26,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 16 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8051667,
+          35.336,
+          11.56
+        ]
+      },
+      "id": "ci40981647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.74,
+        "place": "2 km NNE of Palomar Observatory, CA",
+        "time": 1748670599950,
+        "updated": 1748670849551,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40981639",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40981639.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "40981639",
+        "ids": ",ci40981639,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.02262,
+        "rms": 0.21,
+        "gap": 27,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 2 km NNE of Palomar Observatory, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8583333,
+          33.376,
+          9.72
+        ]
+      },
+      "id": "ci40981639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "50 km SSW of Cantwell, Alaska",
+        "time": 1748670304107,
+        "updated": 1748670415280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256xte84q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256xte84q.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,275 +227,35 @@
         "tsunami": 0,
         "sig": 44,
         "net": "ak",
-        "code": "0256w6b91h",
-        "ids": ",ak0256w6b91h,",
+        "code": "0256xte84q",
+        "ids": ",ak0256xte84q,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.79,
+        "rms": 0.62,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 6 km NNW of Willow, Alaska"
+        "title": "M 1.7 - 50 km SSW of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.0823,
-          61.802,
-          29
+          -149.4008,
+          62.9881,
+          30.9
         ]
       },
-      "id": "ak0256w6b91h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "69 km E of Lime Village, Alaska",
-        "time": 1748585673598,
-        "updated": 1748585779553,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256w69qbj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256w69qbj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "0256w69qbj",
-        "ids": ",ak0256w69qbj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.26,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 69 km E of Lime Village, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.1535,
-          61.2537,
-          6.6
-        ]
-      },
-      "id": "ak0256w69qbj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.66,
-        "place": "10 km NE of Aguanga, CA",
-        "time": 1748584687080,
-        "updated": 1748584894169,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40980655",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40980655.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "40980655",
-        "ids": ",ci40980655,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.02018,
-        "rms": 0.11,
-        "gap": 97,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 10 km NE of Aguanga, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7848333,
-          33.4988333,
-          6.92
-        ]
-      },
-      "id": "ci40980655"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "46 km NW of Toyah, Texas",
-        "time": 1748584146529,
-        "updated": 1748584370222,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025kmrv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025kmrv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2025kmrv",
-        "ids": ",tx2025kmrv,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 98,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 46 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.193,
-          31.555,
-          4.4396
-        ]
-      },
-      "id": "tx2025kmrv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.57,
-        "place": "11 km SSW of Redway, CA",
-        "time": 1748583718290,
-        "updated": 1748585538487,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75188531",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75188531.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 38,
-        "net": "nc",
-        "code": "75188531",
-        "ids": ",nc75188531,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 6,
-        "dmin": 0.0184,
-        "rms": 0.06,
-        "gap": 207,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 11 km SSW of Redway, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.825836181641,
-          40.0224990844727,
-          16.6900005340576
-        ]
-      },
-      "id": "nc75188531"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "10 km NE of Cabazon, CA",
-        "time": 1748583467000,
-        "updated": 1748583675463,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40980647",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40980647.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "40980647",
-        "ids": ",ci40980647,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.07345,
-        "rms": 0.14,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 10 km NE of Cabazon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7065,
-          33.9833333,
-          8.35
-        ]
-      },
-      "id": "ci40980647"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.2,
-        "place": "southwest of Africa",
-        "time": 1748583398354,
-        "updated": 1748584984457,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qgts",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qgts.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 591,
-        "net": "us",
-        "code": "6000qgts",
-        "ids": ",us6000qgts,",
-        "sources": ",us,",
-        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 60,
-        "dmin": 19.162,
-        "rms": 0.87,
-        "gap": 51,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.2 - southwest of Africa"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.1611,
-          -53.3145,
-          10
-        ]
-      },
-      "id": "us6000qgts"
+      "id": "ak0256xte84q"
     }
   ],
   "bbox": [
-    -154.1535,
-    -53.3145,
-    4.4396,
-    9.1611,
-    61.802,
-    29
+    -150.389,
+    33.376,
+    5.36,
+    -116.2448333,
+    62.9881,
+    35.1
   ]
 }
