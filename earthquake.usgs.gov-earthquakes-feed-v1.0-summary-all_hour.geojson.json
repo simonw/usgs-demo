@@ -1,144 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748673254000,
+    "generated": 1748759678000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "9 km NE of Susitna, Alaska",
-        "time": 1748673108355,
-        "updated": 1748673239447,
+        "mag": -0.3,
+        "place": "44 km WNW of Indian Springs, Nevada",
+        "time": 1748759159728,
+        "updated": 1748759257448,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256xtwr4j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256xtwr4j.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898338",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898338.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "0256xtwr4j",
-        "ids": ",ak0256xtwr4j,",
-        "sources": ",ak,",
+        "sig": 0,
+        "net": "nn",
+        "code": "00898338",
+        "ids": ",nn00898338,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.54,
-        "gap": null,
+        "nst": 11,
+        "dmin": 0.031,
+        "rms": 0.2366,
+        "gap": 107.27,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 9 km NE of Susitna, Alaska"
+        "title": "M -0.3 - 44 km WNW of Indian Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.389,
-          61.6092,
-          35.1
+          -116.0916,
+          36.7896,
+          6
         ]
       },
-      "id": "ak0256xtwr4j"
+      "id": "nn00898338"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.52,
-        "place": "15 km ENE of Thousand Palms, CA",
-        "time": 1748672599760,
-        "updated": 1748673243710,
+        "mag": 2.09,
+        "place": "4 km WNW of Kingfisher, Oklahoma",
+        "time": 1748758637965,
+        "updated": 1748759138905,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40981655",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40981655.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025kqjk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025kqjk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 36,
-        "net": "ci",
-        "code": "40981655",
-        "ids": ",ci40981655,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 67,
-        "dmin": 0.07182,
-        "rms": 0.16,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 15 km ENE of Thousand Palms, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.2448333,
-          33.885,
-          5.36
-        ]
-      },
-      "id": "ci40981655"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "24 km SSE of Nelchina, Alaska",
-        "time": 1748672275409,
-        "updated": 1748672389851,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256xttrn8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256xttrn8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "0256xttrn8",
-        "ids": ",ak0256xttrn8,",
-        "sources": ",ak,",
+        "sig": 67,
+        "net": "ok",
+        "code": "2025kqjk",
+        "ids": ",ok2025kqjk,",
+        "sources": ",ok,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.73,
-        "gap": null,
+        "nst": 21,
+        "dmin": 0.07919454575,
+        "rms": 1.484619228,
+        "gap": 104.6556702,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 24 km SSE of Nelchina, Alaska"
+        "title": "M 2.1 - 4 km WNW of Kingfisher, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.6619,
-          61.779,
-          20
+          -97.97241974,
+          35.87601471,
+          5.361059189
         ]
       },
-      "id": "ak0256xttrn8"
+      "id": "ok2025kqjk"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.81,
-        "place": "16 km WSW of Johannesburg, CA",
-        "time": 1748670881770,
-        "updated": 1748671092958,
+        "mag": 0.79,
+        "place": "8 km NNW of The Geysers, CA",
+        "time": 1748758300500,
+        "updated": 1748759237723,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40981647",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40981647.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189436",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189436.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,116 +106,276 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 10,
-        "net": "ci",
-        "code": "40981647",
-        "ids": ",ci40981647,",
-        "sources": ",ci,",
+        "net": "nc",
+        "code": "75189436",
+        "ids": ",nc75189436,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.07607,
-        "rms": 0.26,
-        "gap": 90,
-        "magType": "ml",
+        "nst": 15,
+        "dmin": 0.008362,
+        "rms": 0.01,
+        "gap": 65,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 16 km WSW of Johannesburg, CA"
+        "title": "M 0.8 - 8 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8051667,
-          35.336,
-          11.56
+          -122.817169189453,
+          38.8296661376953,
+          1.73000001907349
         ]
       },
-      "id": "ci40981647"
+      "id": "nc75189436"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.74,
-        "place": "2 km NNE of Palomar Observatory, CA",
-        "time": 1748670599950,
-        "updated": 1748670849551,
+        "mag": 0.68,
+        "place": "13 km S of Big Bear Lake, CA",
+        "time": 1748757634960,
+        "updated": 1748757844919,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40981639",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40981639.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40982231",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40982231.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
+        "sig": 7,
         "net": "ci",
-        "code": "40981639",
-        "ids": ",ci40981639,",
+        "code": "40982231",
+        "ids": ",ci40982231,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 43,
-        "dmin": 0.02262,
+        "nst": 22,
+        "dmin": 0.03794,
+        "rms": 0.12,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 13 km S of Big Bear Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.9156667,
+          34.1276667,
+          5.95
+        ]
+      },
+      "id": "ci40982231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "4 km N of Dover, Oklahoma",
+        "time": 1748757527267,
+        "updated": 1748758414953,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025kqiu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025kqiu.geojson",
+        "felt": 2,
+        "cdi": 3.3,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 139,
+        "net": "ok",
+        "code": "2025kqiu",
+        "ids": ",ok2025kqiu,us6000qh7b,",
+        "sources": ",ok,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 98,
+        "dmin": 0.09192025661,
+        "rms": 0.6373380721,
+        "gap": 37.36593628,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 4 km N of Dover, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.91573334,
+          36.02517319,
+          1.452193499
+        ]
+      },
+      "id": "ok2025kqiu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.46,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1748757499270,
+        "updated": 1748757711316,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40982223",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40982223.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 33,
+        "net": "ci",
+        "code": "40982223",
+        "ids": ",ci40982223,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 40,
+        "dmin": 0.06241,
         "rms": 0.21,
-        "gap": 27,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 2 km NNE of Palomar Observatory, CA"
+        "title": "M 1.5 - 17 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.8583333,
-          33.376,
-          9.72
+          -117.8078333,
+          35.3216667,
+          6.93
         ]
       },
-      "id": "ci40981639"
+      "id": "ci40982223"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "50 km SSW of Cantwell, Alaska",
-        "time": 1748670304107,
-        "updated": 1748670415280,
+        "mag": 2.7,
+        "place": "27 km ESE of Denali National Park, Alaska",
+        "time": 1748757226247,
+        "updated": 1748759500040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256xte84q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256xte84q.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256zgzdld",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256zgzdld.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
+        "sig": 112,
         "net": "ak",
-        "code": "0256xte84q",
-        "ids": ",ak0256xte84q,",
+        "code": "0256zgzdld",
+        "ids": ",us6000qh79,ak0256zgzdld,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.95,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 27 km ESE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.1872,
+          63.4897,
+          0
+        ]
+      },
+      "id": "ak0256zgzdld"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.57,
+        "place": "15 km S of Volcano, Hawaii",
+        "time": 1748756873850,
+        "updated": 1748759232040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74685492",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74685492.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "hv",
+        "code": "74685492",
+        "ids": ",us6000qh78,hv74685492,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.02359,
+        "rms": 0.159999996,
+        "gap": 104,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 15 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.214340209961,
+          19.3028335571289,
+          6.15000009536743
+        ]
+      },
+      "id": "hv74685492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "57 km E of Kobuk, Alaska",
+        "time": 1748756763700,
+        "updated": 1748756981958,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256zgxsb6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256zgxsb6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "0256zgxsb6",
+        "ids": ",ak0256zgxsb6,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.62,
+        "rms": 0.55,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 50 km SSW of Cantwell, Alaska"
+        "title": "M 2.0 - 57 km E of Kobuk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.4008,
-          62.9881,
-          30.9
+          -155.5619,
+          66.9421,
+          0
         ]
       },
-      "id": "ak0256xte84q"
+      "id": "ak0256zgxsb6"
     }
   ],
   "bbox": [
-    -150.389,
-    33.376,
-    5.36,
-    -116.2448333,
-    62.9881,
-    35.1
+    -155.5619,
+    19.302833557129,
+    0,
+    -97.91573334,
+    66.9421,
+    6.93
   ]
 }
