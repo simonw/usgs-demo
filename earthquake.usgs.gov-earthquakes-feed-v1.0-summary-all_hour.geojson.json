@@ -1,381 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748759678000,
+    "generated": 1748846130000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": -0.3,
-        "place": "44 km WNW of Indian Springs, Nevada",
-        "time": 1748759159728,
-        "updated": 1748759257448,
+        "mag": 0.75,
+        "place": "2 km NNW of The Geysers, CA",
+        "time": 1748845748930,
+        "updated": 1748845846843,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898338",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898338.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189936",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189936.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 0,
-        "net": "nn",
-        "code": "00898338",
-        "ids": ",nn00898338,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.031,
-        "rms": 0.2366,
-        "gap": 107.27,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M -0.3 - 44 km WNW of Indian Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.0916,
-          36.7896,
-          6
-        ]
-      },
-      "id": "nn00898338"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.09,
-        "place": "4 km WNW of Kingfisher, Oklahoma",
-        "time": 1748758637965,
-        "updated": 1748759138905,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025kqjk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025kqjk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 67,
-        "net": "ok",
-        "code": "2025kqjk",
-        "ids": ",ok2025kqjk,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.07919454575,
-        "rms": 1.484619228,
-        "gap": 104.6556702,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 4 km WNW of Kingfisher, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.97241974,
-          35.87601471,
-          5.361059189
-        ]
-      },
-      "id": "ok2025kqjk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.79,
-        "place": "8 km NNW of The Geysers, CA",
-        "time": 1748758300500,
-        "updated": 1748759237723,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189436",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189436.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
+        "sig": 9,
         "net": "nc",
-        "code": "75189436",
-        "ids": ",nc75189436,",
+        "code": "75189936",
+        "ids": ",nc75189936,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.008362,
-        "rms": 0.01,
-        "gap": 65,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.01006,
+        "rms": 0.03,
+        "gap": 86,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 8 km NNW of The Geysers, CA"
+        "title": "M 0.8 - 2 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.817169189453,
-          38.8296661376953,
-          1.73000001907349
+          -122.767333984375,
+          38.7924995422363,
+          2.35999989509583
         ]
       },
-      "id": "nc75189436"
+      "id": "nc75189936"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.68,
-        "place": "13 km S of Big Bear Lake, CA",
-        "time": 1748757634960,
-        "updated": 1748757844919,
+        "mag": 0.58,
+        "place": "3 km N of The Geysers, CA",
+        "time": 1748845720000,
+        "updated": 1748845816919,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40982231",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40982231.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189931",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189931.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "40982231",
-        "ids": ",ci40982231,",
-        "sources": ",ci,",
+        "sig": 5,
+        "net": "nc",
+        "code": "75189931",
+        "ids": ",nc75189931,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.002567,
+        "rms": 0.1,
+        "gap": 101,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.6 - 3 km N of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.756500244141,
+          38.8011665344238,
+          9.72000026702881
+        ]
+      },
+      "id": "nc75189931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "4 km NW of Cobb, CA",
+        "time": 1748845692110,
+        "updated": 1748845788182,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189926",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189926.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nc",
+        "code": "75189926",
+        "ids": ",nc75189926,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.01418,
+        "rms": 0.24,
+        "gap": 151,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 4 km NW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.76000213623,
+          38.836498260498,
+          -0.509999990463257
+        ]
+      },
+      "id": "nc75189926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.86,
+        "place": "8 km NE of Alum Rock, CA",
+        "time": 1748844264320,
+        "updated": 1748845336160,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189911",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189911.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "nc",
+        "code": "75189911",
+        "ids": ",nc75189911,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.03794,
-        "rms": 0.12,
-        "gap": 70,
-        "magType": "ml",
+        "nst": 28,
+        "dmin": 0.04313,
+        "rms": 0.06,
+        "gap": 44,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 13 km S of Big Bear Lake, CA"
+        "title": "M 1.9 - 8 km NE of Alum Rock, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.9156667,
-          34.1276667,
-          5.95
+          -121.767501831055,
+          37.4160003662109,
+          5.3600001335144
         ]
       },
-      "id": "ci40982231"
+      "id": "nc75189911"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "4 km N of Dover, Oklahoma",
-        "time": 1748757527267,
-        "updated": 1748758414953,
+        "mag": 0.76,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1748843380990,
+        "updated": 1748844439076,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025kqiu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025kqiu.geojson",
-        "felt": 2,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 139,
-        "net": "ok",
-        "code": "2025kqiu",
-        "ids": ",ok2025kqiu,us6000qh7b,",
-        "sources": ",ok,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 98,
-        "dmin": 0.09192025661,
-        "rms": 0.6373380721,
-        "gap": 37.36593628,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 4 km N of Dover, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.91573334,
-          36.02517319,
-          1.452193499
-        ]
-      },
-      "id": "ok2025kqiu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.46,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1748757499270,
-        "updated": 1748757711316,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40982223",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40982223.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189906",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189906.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 33,
-        "net": "ci",
-        "code": "40982223",
-        "ids": ",ci40982223,",
-        "sources": ",ci,",
+        "sig": 9,
+        "net": "nc",
+        "code": "75189906",
+        "ids": ",nc75189906,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.06241,
-        "rms": 0.21,
-        "gap": 54,
-        "magType": "ml",
+        "nst": 9,
+        "dmin": 0.01328,
+        "rms": 0.01,
+        "gap": 120,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 17 km WSW of Johannesburg, CA"
+        "title": "M 0.8 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8078333,
-          35.3216667,
-          6.93
+          -122.851997375488,
+          38.8223342895508,
+          2.11999988555908
         ]
       },
-      "id": "ci40982223"
+      "id": "nc75189906"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "27 km ESE of Denali National Park, Alaska",
-        "time": 1748757226247,
-        "updated": 1748759500040,
+        "mag": 1.1,
+        "place": "34 km WSW of Ackerly, Texas",
+        "time": 1748842802218,
+        "updated": 1748844013560,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256zgzdld",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256zgzdld.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ksee",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ksee.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "0256zgzdld",
-        "ids": ",us6000qh79,ak0256zgzdld,",
-        "sources": ",us,ak,",
+        "sig": 19,
+        "net": "tx",
+        "code": "2025ksee",
+        "ids": ",tx2025ksee,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.95,
-        "gap": null,
+        "nst": 18,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 81,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 27 km ESE of Denali National Park, Alaska"
+        "title": "M 1.1 - 34 km WSW of Ackerly, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.1872,
-          63.4897,
-          0
+          -102.053,
+          32.397,
+          7.3904
         ]
       },
-      "id": "ak0256zgzdld"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "15 km S of Volcano, Hawaii",
-        "time": 1748756873850,
-        "updated": 1748759232040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74685492",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74685492.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "hv",
-        "code": "74685492",
-        "ids": ",us6000qh78,hv74685492,",
-        "sources": ",us,hv,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.02359,
-        "rms": 0.159999996,
-        "gap": 104,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 15 km S of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.214340209961,
-          19.3028335571289,
-          6.15000009536743
-        ]
-      },
-      "id": "hv74685492"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "57 km E of Kobuk, Alaska",
-        "time": 1748756763700,
-        "updated": 1748756981958,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0256zgxsb6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0256zgxsb6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "0256zgxsb6",
-        "ids": ",ak0256zgxsb6,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.55,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 57 km E of Kobuk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.5619,
-          66.9421,
-          0
-        ]
-      },
-      "id": "ak0256zgxsb6"
+      "id": "tx2025ksee"
     }
   ],
   "bbox": [
-    -155.5619,
-    19.302833557129,
-    0,
-    -97.91573334,
-    66.9421,
-    6.93
+    -122.85199737549,
+    32.397,
+    -0.50999999046326,
+    -102.053,
+    38.836498260498,
+    9.7200002670288
   ]
 }
