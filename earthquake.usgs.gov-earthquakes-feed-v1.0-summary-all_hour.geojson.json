@@ -1,184 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748846130000,
+    "generated": 1748932516000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1748845748930,
-        "updated": 1748845846843,
+        "mag": 2.3,
+        "place": "60 km NNE of Chase, Alaska",
+        "time": 1748931339193,
+        "updated": 1748931448587,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189936",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189936.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02572sfcdx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02572sfcdx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75189936",
-        "ids": ",nc75189936,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.01006,
-        "rms": 0.03,
-        "gap": 86,
-        "magType": "md",
+        "sig": 81,
+        "net": "ak",
+        "code": "02572sfcdx",
+        "ids": ",ak02572sfcdx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 2 km NNW of The Geysers, CA"
+        "title": "M 2.3 - 60 km NNE of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.767333984375,
-          38.7924995422363,
-          2.35999989509583
+          -149.6328,
+          62.9461,
+          60.9
         ]
       },
-      "id": "nc75189936"
+      "id": "ak02572sfcdx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.58,
-        "place": "3 km N of The Geysers, CA",
-        "time": 1748845720000,
-        "updated": 1748845816919,
+        "mag": 1.45,
+        "place": "10 km S of Borrego Springs, CA",
+        "time": 1748930998710,
+        "updated": 1748931630480,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189931",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189931.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40983215",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40983215.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
-        "net": "nc",
-        "code": "75189931",
-        "ids": ",nc75189931,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.002567,
-        "rms": 0.1,
-        "gap": 101,
-        "magType": "md",
+        "sig": 32,
+        "net": "ci",
+        "code": "40983215",
+        "ids": ",ci40983215,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 69,
+        "dmin": 0.09324,
+        "rms": 0.21,
+        "gap": 29,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 3 km N of The Geysers, CA"
+        "title": "M 1.5 - 10 km S of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.756500244141,
-          38.8011665344238,
-          9.72000026702881
+          -116.3951667,
+          33.1635,
+          6.85
         ]
       },
-      "id": "nc75189931"
+      "id": "ci40983215"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "4 km NW of Cobb, CA",
-        "time": 1748845692110,
-        "updated": 1748845788182,
+        "mag": 1.16,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1748930975110,
+        "updated": 1748931204331,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189926",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189926.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40983207",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40983207.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "nc",
-        "code": "75189926",
-        "ids": ",nc75189926,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01418,
-        "rms": 0.24,
-        "gap": 151,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 4 km NW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.76000213623,
-          38.836498260498,
-          -0.509999990463257
-        ]
-      },
-      "id": "nc75189926"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.86,
-        "place": "8 km NE of Alum Rock, CA",
-        "time": 1748844264320,
-        "updated": 1748845336160,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189911",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189911.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 53,
-        "net": "nc",
-        "code": "75189911",
-        "ids": ",nc75189911,",
-        "sources": ",nc,",
+        "sig": 21,
+        "net": "ci",
+        "code": "40983207",
+        "ids": ",ci40983207,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.04313,
-        "rms": 0.06,
-        "gap": 44,
-        "magType": "md",
+        "nst": 37,
+        "dmin": 0.06524,
+        "rms": 0.21,
+        "gap": 53,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 8 km NE of Alum Rock, CA"
+        "title": "M 1.2 - 17 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.767501831055,
-          37.4160003662109,
-          5.3600001335144
+          -117.8091667,
+          35.3255,
+          6.99
         ]
       },
-      "id": "nc75189911"
+      "id": "ci40983207"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.76,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1748843380990,
-        "updated": 1748844439076,
+        "mag": 1.59,
+        "place": "7 km WSW of Atascadero, CA",
+        "time": 1748930953700,
+        "updated": 1748931050795,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75189906",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75189906.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75190361",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75190361.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "nc",
+        "code": "75190361",
+        "ids": ",nc75190361,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1212,
+        "rms": 0.06,
+        "gap": 133,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 7 km WSW of Atascadero, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.732498168945,
+          35.4568328857422,
+          4.19999980926514
+        ]
+      },
+      "id": "nc75190361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.01,
+        "place": "3 km SW of Utuado, Puerto Rico",
+        "time": 1748929792860,
+        "updated": 1748930664390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484253",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484253.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "pr",
+        "code": "71484253",
+        "ids": ",pr71484253,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 3,
+        "dmin": 0.2116,
+        "rms": 0.06,
+        "gap": 286,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 3 km SW of Utuado, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7201666666667,
+          18.2395,
+          9.87
+        ]
+      },
+      "id": "pr71484253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78,
+        "place": "1 km ESE of The Geysers, CA",
+        "time": 1748929261710,
+        "updated": 1748930839540,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75190346",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75190346.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -187,75 +227,115 @@
         "tsunami": 0,
         "sig": 9,
         "net": "nc",
-        "code": "75189906",
-        "ids": ",nc75189906,",
+        "code": "75190346",
+        "ids": ",nc75190346,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 9,
-        "dmin": 0.01328,
-        "rms": 0.01,
-        "gap": 120,
+        "dmin": 0.009698,
+        "rms": 0.03,
+        "gap": 122,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 10 km NW of The Geysers, CA"
+        "title": "M 0.8 - 1 km ESE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.851997375488,
-          38.8223342895508,
-          2.11999988555908
+          -122.73983001709,
+          38.7738342285156,
+          1.91999995708466
         ]
       },
-      "id": "nc75189906"
+      "id": "nc75190346"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "34 km WSW of Ackerly, Texas",
-        "time": 1748842802218,
-        "updated": 1748844013560,
+        "mag": 3.3,
+        "place": "14 km NNW of Stanley, Idaho",
+        "time": 1748929235805,
+        "updated": 1748929858040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ksee",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ksee.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhkm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhkm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "us",
+        "code": "6000qhkm",
+        "ids": ",us6000qhkm,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.257,
+        "rms": 0.35,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 14 km NNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0075,
+          44.3361,
+          14.592
+        ]
+      },
+      "id": "us6000qhkm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "30 km NW of Valdez, Alaska",
+        "time": 1748929165186,
+        "updated": 1748929289106,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02572rz0xy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02572rz0xy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "tx",
-        "code": "2025ksee",
-        "ids": ",tx2025ksee,",
-        "sources": ",tx,",
+        "sig": 44,
+        "net": "ak",
+        "code": "02572rz0xy",
+        "ids": ",ak02572rz0xy,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 81,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.95,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 34 km WSW of Ackerly, Texas"
+        "title": "M 1.7 - 30 km NW of Valdez, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.053,
-          32.397,
-          7.3904
+          -146.8048,
+          61.3002,
+          1.8
         ]
       },
-      "id": "tx2025ksee"
+      "id": "ak02572rz0xy"
     }
   ],
   "bbox": [
-    -122.85199737549,
-    32.397,
-    -0.50999999046326,
-    -102.053,
-    38.836498260498,
-    9.7200002670288
+    -149.6328,
+    18.2395,
+    1.8,
+    -66.720166666667,
+    62.9461,
+    60.9
   ]
 }
