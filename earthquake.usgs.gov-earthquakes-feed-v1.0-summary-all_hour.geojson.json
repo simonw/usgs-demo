@@ -1,341 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748932516000,
+    "generated": 1749018917000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.3,
-        "place": "60 km NNE of Chase, Alaska",
-        "time": 1748931339193,
-        "updated": 1748931448587,
+        "mag": 1.61,
+        "place": "10 km SW of Tres Pinos, CA",
+        "time": 1749018295170,
+        "updated": 1749018390312,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02572sfcdx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02572sfcdx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75190781",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75190781.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "02572sfcdx",
-        "ids": ",ak02572sfcdx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.67,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 60 km NNE of Chase, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.6328,
-          62.9461,
-          60.9
-        ]
-      },
-      "id": "ak02572sfcdx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.45,
-        "place": "10 km S of Borrego Springs, CA",
-        "time": 1748930998710,
-        "updated": 1748931630480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40983215",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40983215.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 32,
-        "net": "ci",
-        "code": "40983215",
-        "ids": ",ci40983215,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 69,
-        "dmin": 0.09324,
-        "rms": 0.21,
-        "gap": 29,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 10 km S of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3951667,
-          33.1635,
-          6.85
-        ]
-      },
-      "id": "ci40983215"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.16,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1748930975110,
-        "updated": 1748931204331,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40983207",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40983207.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "40983207",
-        "ids": ",ci40983207,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.06524,
-        "rms": 0.21,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 17 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8091667,
-          35.3255,
-          6.99
-        ]
-      },
-      "id": "ci40983207"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.59,
-        "place": "7 km WSW of Atascadero, CA",
-        "time": 1748930953700,
-        "updated": 1748931050795,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75190361",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75190361.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 40,
         "net": "nc",
-        "code": "75190361",
-        "ids": ",nc75190361,",
+        "code": "75190781",
+        "ids": ",nc75190781,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1212,
-        "rms": 0.06,
-        "gap": 133,
+        "nst": 11,
+        "dmin": 0.03425,
+        "rms": 0.07,
+        "gap": 151,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.6 - 7 km WSW of Atascadero, CA"
+        "title": "M 1.6 - 10 km SW of Tres Pinos, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.732498168945,
-          35.4568328857422,
-          4.19999980926514
+          -121.387001037598,
+          36.7181663513184,
+          1.8400000333786
         ]
       },
-      "id": "nc75190361"
+      "id": "nc75190781"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.01,
-        "place": "3 km SW of Utuado, Puerto Rico",
-        "time": 1748929792860,
-        "updated": 1748930664390,
+        "mag": 1.3,
+        "place": "30 km WNW of Ester, Alaska",
+        "time": 1749017270694,
+        "updated": 1749017414361,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484253",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484253.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "pr",
-        "code": "71484253",
-        "ids": ",pr71484253,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 3,
-        "dmin": 0.2116,
-        "rms": 0.06,
-        "gap": 286,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 3 km SW of Utuado, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7201666666667,
-          18.2395,
-          9.87
-        ]
-      },
-      "id": "pr71484253"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.78,
-        "place": "1 km ESE of The Geysers, CA",
-        "time": 1748929261710,
-        "updated": 1748930839540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75190346",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75190346.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02574fx03h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02574fx03h.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75190346",
-        "ids": ",nc75190346,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.009698,
-        "rms": 0.03,
-        "gap": 122,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 1 km ESE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.73983001709,
-          38.7738342285156,
-          1.91999995708466
-        ]
-      },
-      "id": "nc75190346"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.3,
-        "place": "14 km NNW of Stanley, Idaho",
-        "time": 1748929235805,
-        "updated": 1748929858040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhkm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhkm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "6000qhkm",
-        "ids": ",us6000qhkm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.257,
-        "rms": 0.35,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 14 km NNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.0075,
-          44.3361,
-          14.592
-        ]
-      },
-      "id": "us6000qhkm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "30 km NW of Valdez, Alaska",
-        "time": 1748929165186,
-        "updated": 1748929289106,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02572rz0xy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02572rz0xy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
+        "sig": 26,
         "net": "ak",
-        "code": "02572rz0xy",
-        "ids": ",ak02572rz0xy,",
+        "code": "02574fx03h",
+        "ids": ",ak02574fx03h,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.95,
+        "rms": 0.47,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 30 km NW of Valdez, Alaska"
+        "title": "M 1.3 - 30 km WNW of Ester, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.8048,
-          61.3002,
-          1.8
+          -148.6327,
+          64.9081,
+          18.1
         ]
       },
-      "id": "ak02572rz0xy"
+      "id": "ak02574fx03h"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.33,
+        "place": "10 km W of Searles Valley, CA",
+        "time": 1749017164980,
+        "updated": 1749017376247,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41171552",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41171552.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 27,
+        "net": "ci",
+        "code": "41171552",
+        "ids": ",ci41171552,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.1137,
+        "rms": 0.13,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 10 km W of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.509,
+          35.7553333,
+          2.15
+        ]
+      },
+      "id": "ci41171552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.92,
+        "place": "3 km ESE of Lake Henshaw, CA",
+        "time": 1749016085030,
+        "updated": 1749016829458,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41171392",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41171392.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "41171392",
+        "ids": ",ci41171392,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.02462,
+        "rms": 0.14,
+        "gap": 33,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 3 km ESE of Lake Henshaw, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7311667,
+          33.2275,
+          11.72
+        ]
+      },
+      "id": "ci41171392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.34,
+        "place": "50 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1749015701820,
+        "updated": 1749017360790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484423",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484423.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 172,
+        "net": "pr",
+        "code": "71484423",
+        "ids": ",pr71484423,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.4317,
+        "rms": 0.2,
+        "gap": 258,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 50 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1048333333333,
+          18.7626666666667,
+          7.85
+        ]
+      },
+      "id": "pr71484423"
     }
   ],
   "bbox": [
-    -149.6328,
-    18.2395,
-    1.8,
-    -66.720166666667,
-    62.9461,
-    60.9
+    -148.6327,
+    18.762666666667,
+    1.8400000333786,
+    -65.104833333333,
+    64.9081,
+    18.1
   ]
 }
