@@ -1,584 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749882839000,
+    "generated": 1749969279000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 15
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.53,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1749882699080,
-        "updated": 1749882795602,
+        "mag": -0.4,
+        "place": "46 km SE of Beatty, Nevada",
+        "time": 1749967955269,
+        "updated": 1749968079990,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75195456",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75195456.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898957",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898957.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 36,
-        "net": "nc",
-        "code": "75195456",
-        "ids": ",nc75195456,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.01774,
-        "rms": 0.03,
-        "gap": 39,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 7 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.81233215332,
-          38.8236656188965,
-          1.74000000953674
-        ]
-      },
-      "id": "nc75195456"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1749882608347,
-        "updated": 1749882806292,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lpoans",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lpoans.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2025lpoans",
-        "ids": ",tx2025lpoans,",
-        "sources": ",tx,",
+        "sig": 0,
+        "net": "nn",
+        "code": "00898957",
+        "ids": ",nn00898957,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 62,
+        "nst": 8,
+        "dmin": 0.015,
+        "rms": 0.1102,
+        "gap": 215.64000000000001,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 54 km NW of Toyah, Texas"
+        "title": "M -0.4 - 46 km SE of Beatty, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.195,
-          31.666,
-          4.4978
+          -116.3576,
+          36.6463,
+          5.5
         ]
       },
-      "id": "tx2025lpoans"
+      "id": "nn00898957"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "128 km SE of McCarthy, Alaska",
-        "time": 1749882505062,
-        "updated": 1749882582011,
+        "mag": 0.75,
+        "place": "6 km E of Borrego Springs, CA",
+        "time": 1749966553750,
+        "updated": 1749966762875,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257kzex3e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257kzex3e.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "0257kzex3e",
-        "ids": ",ak0257kzex3e,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.54,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 128 km SE of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -141.2139,
-          60.6259,
-          22.2
-        ]
-      },
-      "id": "ak0257kzex3e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1749881899262,
-        "updated": 1749882114170,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lpnqas",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lpnqas.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "tx",
-        "code": "2025lpnqas",
-        "ids": ",tx2025lpnqas,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 112,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 54 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.201,
-          31.666,
-          4.1454
-        ]
-      },
-      "id": "tx2025lpnqas"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "48 km SSE of Whites City, New Mexico",
-        "time": 1749881552966,
-        "updated": 1749881681580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lpnlkc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lpnlkc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2025lpnlkc",
-        "ids": ",tx2025lpnlkc,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0,
-        "rms": 0.9,
-        "gap": 160,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 48 km SSE of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.205,
-          31.764,
-          13.9241
-        ]
-      },
-      "id": "tx2025lpnlkc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "53 km NW of Toyah, Texas",
-        "time": 1749881486622,
-        "updated": 1749881852127,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lpnkit",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lpnkit.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025lpnkit",
-        "ids": ",tx2025lpnkit,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 124,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 53 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.191,
-          31.66,
-          5.4919
-        ]
-      },
-      "id": "tx2025lpnkit"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1749881363294,
-        "updated": 1749881619891,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lpnhcp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lpnhcp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "tx",
-        "code": "2025lpnhcp",
-        "ids": ",tx2025lpnhcp,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 54 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.192,
-          31.674,
-          3.6595
-        ]
-      },
-      "id": "tx2025lpnhcp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1749880807773,
-        "updated": 1749881047326,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lpnaqw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lpnaqw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "tx",
-        "code": "2025lpnaqw",
-        "ids": ",tx2025lpnaqw,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 111,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 54 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.191,
-          31.666,
-          3.2804
-        ]
-      },
-      "id": "tx2025lpnaqw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.38,
-        "place": "23 km NW of Grapevine, CA",
-        "time": 1749880763880,
-        "updated": 1749880976241,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40993879",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40993879.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 29,
-        "net": "ci",
-        "code": "40993879",
-        "ids": ",ci40993879,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.2172,
-        "rms": 0.26,
-        "gap": 50,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 23 km NW of Grapevine, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.1333333,
-          35.07,
-          14.4
-        ]
-      },
-      "id": "ci40993879"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1749880708279,
-        "updated": 1749880988434,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lpmzde",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lpmzde.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2025lpmzde",
-        "ids": ",tx2025lpmzde,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 54 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.189,
-          31.666,
-          4.2372
-        ]
-      },
-      "id": "tx2025lpmzde"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "53 km NW of Toyah, Texas",
-        "time": 1749880237925,
-        "updated": 1749880441225,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lpmsmr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lpmsmr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2025lpmsmr",
-        "ids": ",tx2025lpmsmr,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 53 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.192,
-          31.658,
-          4.4317
-        ]
-      },
-      "id": "tx2025lpmsmr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.09,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1749880151870,
-        "updated": 1749880250112,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75195441",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75195441.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75195441",
-        "ids": ",nc75195441,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.01728,
-        "rms": 0.02,
-        "gap": 45,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.813003540039,
-          38.8206672668457,
-          3.01999998092651
-        ]
-      },
-      "id": "nc75195441"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.03,
-        "place": "3 km W of Cobb, CA",
-        "time": 1749880095080,
-        "updated": 1749880192381,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75195436",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75195436.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 16,
-        "net": "nc",
-        "code": "75195436",
-        "ids": ",nc75195436,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.01463,
-        "rms": 0.02,
-        "gap": 112,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 3 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.762336730957,
-          38.8161659240723,
-          1.99000000953674
-        ]
-      },
-      "id": "nc75195436"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "54 km NW of Toyah, Texas",
-        "time": 1749879924377,
-        "updated": 1749880322214,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lpmnzm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lpmnzm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025lpmnzm",
-        "ids": ",tx2025lpmnzm,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 54 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.199,
-          31.666,
-          4.1938
-        ]
-      },
-      "id": "tx2025lpmnzm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.76,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1749879779560,
-        "updated": 1749879951194,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75195431",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75195431.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40994847",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40994847.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -586,36 +66,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 9,
-        "net": "nc",
-        "code": "75195431",
-        "ids": ",nc75195431,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.001024,
-        "rms": 0.02,
-        "gap": 64,
-        "magType": "md",
+        "net": "ci",
+        "code": "40994847",
+        "ids": ",ci40994847,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 45,
+        "dmin": 0.07788,
+        "rms": 0.23,
+        "gap": 35,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 7 km NNW of The Geysers, CA"
+        "title": "M 0.8 - 6 km E of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.810997009277,
-          38.8226661682129,
-          3.00999999046326
+          -116.3058333,
+          33.2575,
+          11.53
         ]
       },
-      "id": "nc75195431"
+      "id": "ci40994847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.69,
+        "place": "14 km SW of Searles Valley, CA",
+        "time": 1749966370060,
+        "updated": 1749966578569,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40994839",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40994839.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "ci",
+        "code": "40994839",
+        "ids": ",ci40994839,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.07673,
+        "rms": 0.13,
+        "gap": 100,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 14 km SW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5151667,
+          35.6836667,
+          10.32
+        ]
+      },
+      "id": "ci40994839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.98,
+        "place": "14 km SE of Pinnacles, CA",
+        "time": 1749966171490,
+        "updated": 1749966264436,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75195926",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75195926.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nc",
+        "code": "75195926",
+        "ids": ",nc75195926,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.1298,
+        "rms": 0.1,
+        "gap": 159,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 14 km SE of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.027000427246,
+          36.4488334655762,
+          11.3000001907349
+        ]
+      },
+      "id": "nc75195926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "48 km SSE of Uyuni, Bolivia",
+        "time": 1749966159041,
+        "updated": 1749968193040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qke5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qke5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000qke5",
+        "ids": ",us6000qke5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 2.397,
+        "rms": 1.04,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 48 km SSE of Uyuni, Bolivia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7215,
+          -20.8872,
+          218.352
+        ]
+      },
+      "id": "us6000qke5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "47 km SE of Beatty, Nevada",
+        "time": 1749965757640,
+        "updated": 1749965872221,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898955",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898955.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "nn",
+        "code": "00898955",
+        "ids": ",nn00898955,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.008,
+        "rms": 0.1627,
+        "gap": 89.71000000000001,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 47 km SE of Beatty, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3414,
+          36.6374,
+          4.6
+        ]
+      },
+      "id": "nn00898955"
     }
   ],
   "bbox": [
-    -141.2139,
-    31.658,
-    1.7400000095367,
-    -104.189,
-    60.6259,
-    22.2
+    -121.02700042725,
+    -20.8872,
+    4.6,
+    -66.7215,
+    36.6463,
+    218.352
   ]
 }
