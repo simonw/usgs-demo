@@ -1,261 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1749969279000,
+    "generated": 1750055732000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": -0.4,
-        "place": "46 km SE of Beatty, Nevada",
-        "time": 1749967955269,
-        "updated": 1749968079990,
+        "mag": 0.27,
+        "place": "7 km NNW of The Geysers, CA",
+        "time": 1750053774510,
+        "updated": 1750053870129,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898957",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898957.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75196236",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75196236.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 0,
-        "net": "nn",
-        "code": "00898957",
-        "ids": ",nn00898957,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.015,
-        "rms": 0.1102,
-        "gap": 215.64000000000001,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M -0.4 - 46 km SE of Beatty, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3576,
-          36.6463,
-          5.5
-        ]
-      },
-      "id": "nn00898957"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "6 km E of Borrego Springs, CA",
-        "time": 1749966553750,
-        "updated": 1749966762875,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40994847",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40994847.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "40994847",
-        "ids": ",ci40994847,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.07788,
-        "rms": 0.23,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 6 km E of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3058333,
-          33.2575,
-          11.53
-        ]
-      },
-      "id": "ci40994847"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.69,
-        "place": "14 km SW of Searles Valley, CA",
-        "time": 1749966370060,
-        "updated": 1749966578569,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40994839",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40994839.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "40994839",
-        "ids": ",ci40994839,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.07673,
-        "rms": 0.13,
-        "gap": 100,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 14 km SW of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5151667,
-          35.6836667,
-          10.32
-        ]
-      },
-      "id": "ci40994839"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.98,
-        "place": "14 km SE of Pinnacles, CA",
-        "time": 1749966171490,
-        "updated": 1749966264436,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75195926",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75195926.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
+        "sig": 1,
         "net": "nc",
-        "code": "75195926",
-        "ids": ",nc75195926,",
+        "code": "75196236",
+        "ids": ",nc75196236,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.1298,
-        "rms": 0.1,
-        "gap": 159,
+        "nst": 7,
+        "dmin": 0.002375,
+        "rms": 0.01,
+        "gap": 192,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 14 km SE of Pinnacles, CA"
+        "title": "M 0.3 - 7 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.027000427246,
-          36.4488334655762,
-          11.3000001907349
+          -122.811836242676,
+          38.8253326416016,
+          3.16000008583069
         ]
       },
-      "id": "nc75195926"
+      "id": "nc75196236"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "48 km SSE of Uyuni, Bolivia",
-        "time": 1749966159041,
-        "updated": 1749968193040,
+        "mag": 3.1,
+        "place": "42 km SE of Emajagua, Puerto Rico",
+        "time": 1750053571950,
+        "updated": 1750054664740,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qke5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qke5.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71485903",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71485903.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qke5",
-        "ids": ",us6000qke5,",
-        "sources": ",us,",
+        "sig": 148,
+        "net": "pr",
+        "code": "71485903",
+        "ids": ",pr71485903,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 2.397,
-        "rms": 1.04,
-        "gap": 95,
-        "magType": "mb",
+        "nst": 16,
+        "dmin": 0.3983,
+        "rms": 0.19,
+        "gap": 241,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.5 - 48 km SSE of Uyuni, Bolivia"
+        "title": "M 3.1 - 42 km SE of Emajagua, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.7215,
-          -20.8872,
-          218.352
+          -65.657,
+          17.6801666666667,
+          25.99
         ]
       },
-      "id": "us6000qke5"
+      "id": "pr71485903"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.8,
-        "place": "47 km SE of Beatty, Nevada",
-        "time": 1749965757640,
-        "updated": 1749965872221,
+        "mag": 0.44,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1750053158700,
+        "updated": 1750053255829,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00898955",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00898955.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75196231",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75196231.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "nn",
-        "code": "00898955",
-        "ids": ",nn00898955,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.008,
-        "rms": 0.1627,
-        "gap": 89.71000000000001,
-        "magType": "ml",
+        "sig": 3,
+        "net": "nc",
+        "code": "75196231",
+        "ids": ",nc75196231,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.01166,
+        "rms": 0.01,
+        "gap": 99,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 47 km SE of Beatty, Nevada"
+        "title": "M 0.4 - 3 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3414,
-          36.6374,
-          4.6
+          -122.774002075195,
+          38.8040008544922,
+          3.4300000667572
         ]
       },
-      "id": "nn00898955"
+      "id": "nc75196231"
     }
   ],
   "bbox": [
-    -121.02700042725,
-    -20.8872,
-    4.6,
-    -66.7215,
-    36.6463,
-    218.352
+    -122.81183624268,
+    17.680166666667,
+    3.1600000858307,
+    -65.657,
+    38.825332641602,
+    25.99
   ]
 }
