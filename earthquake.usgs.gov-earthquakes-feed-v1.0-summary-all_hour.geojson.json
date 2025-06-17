@@ -1,141 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750055732000,
+    "generated": 1750142116000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.27,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1750053774510,
-        "updated": 1750053870129,
+        "mag": 1.36,
+        "place": "15 km W of Johannesburg, CA",
+        "time": 1750141557030,
+        "updated": 1750141768059,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75196236",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75196236.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40996471",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40996471.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75196236",
-        "ids": ",nc75196236,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.002375,
-        "rms": 0.01,
-        "gap": 192,
-        "magType": "md",
+        "sig": 28,
+        "net": "ci",
+        "code": "40996471",
+        "ids": ",ci40996471,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.09705,
+        "rms": 0.15,
+        "gap": 73,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.3 - 7 km NNW of The Geysers, CA"
+        "title": "M 1.4 - 15 km W of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.811836242676,
-          38.8253326416016,
-          3.16000008583069
+          -117.8041667,
+          35.3585,
+          6.91
         ]
       },
-      "id": "nc75196236"
+      "id": "ci40996471"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.1,
-        "place": "42 km SE of Emajagua, Puerto Rico",
-        "time": 1750053571950,
-        "updated": 1750054664740,
+        "mag": 1.7,
+        "place": "49 km N of Chase, Alaska",
+        "time": 1750140752159,
+        "updated": 1750140877512,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71485903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71485903.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257pxxjnz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257pxxjnz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 148,
-        "net": "pr",
-        "code": "71485903",
-        "ids": ",pr71485903,",
-        "sources": ",pr,",
+        "sig": 44,
+        "net": "ak",
+        "code": "0257pxxjnz",
+        "ids": ",ak0257pxxjnz,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.3983,
-        "rms": 0.19,
-        "gap": 241,
-        "magType": "md",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.38,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 42 km SE of Emajagua, Puerto Rico"
+        "title": "M 1.7 - 49 km N of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.657,
-          17.6801666666667,
-          25.99
+          -150.1062,
+          62.8914,
+          65.9
         ]
       },
-      "id": "pr71485903"
+      "id": "ak0257pxxjnz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.44,
-        "place": "3 km NNW of The Geysers, CA",
-        "time": 1750053158700,
-        "updated": 1750053255829,
+        "mag": 1.4,
+        "place": "18 km NW of Midland, Texas",
+        "time": 1750140219080,
+        "updated": 1750140425144,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75196231",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75196231.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lvaidx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lvaidx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 3,
-        "net": "nc",
-        "code": "75196231",
-        "ids": ",nc75196231,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01166,
-        "rms": 0.01,
-        "gap": 99,
-        "magType": "md",
+        "sig": 30,
+        "net": "tx",
+        "code": "2025lvaidx",
+        "ids": ",tx2025lvaidx,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 75,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 3 km NNW of The Geysers, CA"
+        "title": "M 1.4 - 18 km NW of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.774002075195,
-          38.8040008544922,
-          3.4300000667572
+          -102.204,
+          32.125,
+          4.4183
         ]
       },
-      "id": "nc75196231"
+      "id": "tx2025lvaidx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "18 km NW of Midland, Texas",
+        "time": 1750140069124,
+        "updated": 1750140367880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025lvagfd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025lvagfd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2025lvagfd",
+        "ids": ",tx2025lvagfd,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 84,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 18 km NW of Midland, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.203,
+          32.128,
+          4.8168
+        ]
+      },
+      "id": "tx2025lvagfd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.3,
+        "place": "34 km E of Noatak, Alaska",
+        "time": 1750139956758,
+        "updated": 1750141188040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257pxm5hy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257pxm5hy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 168,
+        "net": "ak",
+        "code": "0257pxm5hy",
+        "ids": ",us6000qkrg,ak0257pxm5hy,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.93,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 34 km E of Noatak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.1536,
+          67.5651,
+          31
+        ]
+      },
+      "id": "ak0257pxm5hy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.94,
+        "place": "9 km ENE of Borrego Springs, CA",
+        "time": 1750138877370,
+        "updated": 1750139091589,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40996463",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40996463.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "40996463",
+        "ids": ",ci40996463,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.08125,
+        "rms": 0.23,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 9 km ENE of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2798333,
+          33.2848333,
+          5.26
+        ]
+      },
+      "id": "ci40996463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.94,
+        "place": "15 km ESE of Ocotillo, CA",
+        "time": 1750138571100,
+        "updated": 1750139233200,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40996455",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40996455.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "ci",
+        "code": "40996455",
+        "ids": ",ci40996455,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 46,
+        "dmin": 0.06247,
+        "rms": 0.26,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 15 km ESE of Ocotillo, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.853,
+          32.6696667,
+          8.03
+        ]
+      },
+      "id": "ci40996455"
     }
   ],
   "bbox": [
-    -122.81183624268,
-    17.680166666667,
-    3.1600000858307,
-    -65.657,
-    38.825332641602,
-    25.99
+    -162.1536,
+    32.125,
+    4.4183,
+    -102.203,
+    67.5651,
+    65.9
   ]
 }
