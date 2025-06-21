@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750401291000,
+    "generated": 1750487629000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,90 +12,90 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "95 km SE of Nikolai, Alaska",
-        "time": 1750400672331,
-        "updated": 1750400838262,
+        "mag": 0.58,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1750486580210,
+        "updated": 1750487540054,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257uwm5r5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257uwm5r5.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75198431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75198431.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "0257uwm5r5",
-        "ids": ",ak0257uwm5r5,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.37,
-        "gap": null,
-        "magType": "ml",
+        "sig": 5,
+        "net": "nc",
+        "code": "75198431",
+        "ids": ",nc75198431,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.006876,
+        "rms": 0.02,
+        "gap": 68,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 95 km SE of Nikolai, Alaska"
+        "title": "M 0.6 - 7 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.0573,
-          62.4089,
-          10.4
+          -122.798667907715,
+          38.8361663818359,
+          2.30999994277954
         ]
       },
-      "id": "ak0257uwm5r5"
+      "id": "nc75198431"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.94,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1750398583610,
-        "updated": 1750399640413,
+        "mag": 1.05,
+        "place": "2 km  of The Geysers, CA",
+        "time": 1750484470180,
+        "updated": 1750485438815,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75197936",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75197936.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75198421",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75198421.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 14,
+        "sig": 17,
         "net": "nc",
-        "code": "75197936",
-        "ids": ",nc75197936,",
+        "code": "75198421",
+        "ids": ",nc75198421,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 7,
-        "dmin": 0.00284,
-        "rms": 0.01,
-        "gap": 128,
+        "dmin": 0.007321,
+        "rms": 0.02,
+        "gap": 168,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.9 - 6 km WNW of Cobb, CA"
+        "title": "M 1.1 - 2 km  of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.792831420898,
-          38.8363342285156,
-          1.63999998569489
+          -122.762664794922,
+          38.7936668395996,
+          0.46000000834465
         ]
       },
-      "id": "nc75197936"
+      "id": "nc75198421"
     }
   ],
   "bbox": [
-    -153.0573,
-    38.836334228516,
-    1.6399999856949,
-    -122.7928314209,
-    62.4089,
-    10.4
+    -122.79866790772,
+    38.7936668396,
+    0.46000000834465,
+    -122.76266479492,
+    38.836166381836,
+    2.3099999427795
   ]
 }
