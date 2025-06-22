@@ -1,101 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750487629000,
+    "generated": 1750574061000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 2
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.58,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1750486580210,
-        "updated": 1750487540054,
+        "mag": 2.89,
+        "place": "39 km E of Lee Vining, CA",
+        "time": 1750573846100,
+        "updated": 1750574006587,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75198431",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75198431.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75198796",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75198796.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
+        "sig": 128,
         "net": "nc",
-        "code": "75198431",
-        "ids": ",nc75198431,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.006876,
-        "rms": 0.02,
-        "gap": 68,
+        "code": "75198796",
+        "ids": ",nc75198796,nn00899250,",
+        "sources": ",nc,nn,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.2623,
+        "rms": 0.06,
+        "gap": 136,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.6 - 7 km WNW of Cobb, CA"
+        "title": "M 2.9 - 39 km E of Lee Vining, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.798667907715,
-          38.8361663818359,
-          2.30999994277954
+          -118.669830322266,
+          37.9713325500488,
+          9.89999961853027
         ]
       },
-      "id": "nc75198431"
+      "id": "nc75198796"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.05,
-        "place": "2 km  of The Geysers, CA",
-        "time": 1750484470180,
-        "updated": 1750485438815,
+        "mag": 1.16,
+        "place": "3 km NE of Vincent, CA",
+        "time": 1750573511230,
+        "updated": 1750573734137,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75198421",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75198421.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41000847",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41000847.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75198421",
-        "ids": ",nc75198421,",
-        "sources": ",nc,",
+        "sig": 21,
+        "net": "ci",
+        "code": "41000847",
+        "ids": ",ci41000847,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.007321,
-        "rms": 0.02,
-        "gap": 168,
-        "magType": "md",
+        "nst": 31,
+        "dmin": 0.04132,
+        "rms": 0.14,
+        "gap": 50,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 2 km  of The Geysers, CA"
+        "title": "M 1.2 - 3 km NE of Vincent, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.762664794922,
-          38.7936668395996,
-          0.46000000834465
+          -118.0955,
+          34.5213333,
+          9.06
         ]
       },
-      "id": "nc75198421"
+      "id": "ci41000847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "11 km ENE of Borrego Springs, CA",
+        "time": 1750572807410,
+        "updated": 1750573020666,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41000839",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41000839.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41000839",
+        "ids": ",ci41000839,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.08404,
+        "rms": 0.22,
+        "gap": 78,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 11 km ENE of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2663333,
+          33.2863333,
+          4.2
+        ]
+      },
+      "id": "ci41000839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "41 km WNW of Ninilchik, Alaska",
+        "time": 1750571806726,
+        "updated": 1750571961672,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257y7ab5s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257y7ab5s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "0257y7ab5s",
+        "ids": ",ak0257y7ab5s,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 41 km WNW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.3446,
+          60.2121,
+          71
+        ]
+      },
+      "id": "ak0257y7ab5s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "87 km NW of Karluk, Alaska",
+        "time": 1750571079812,
+        "updated": 1750571216059,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257y77q19",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257y77q19.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ak",
+        "code": "0257y77q19",
+        "ids": ",ak0257y77q19,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.68,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 87 km NW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.3929,
+          58.1724,
+          0
+        ]
+      },
+      "id": "ak0257y77q19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "south of the Fiji Islands",
+        "time": 1750571068663,
+        "updated": 1750572199040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlqv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qlqv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000qlqv",
+        "ids": ",us6000qlqv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 3.056,
+        "rms": 1.09,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.434,
+          -26.2094,
+          10
+        ]
+      },
+      "id": "us6000qlqv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "19 km SW of Olancha, CA",
+        "time": 1750571021580,
+        "updated": 1750571669140,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41000831",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41000831.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ci",
+        "code": "41000831",
+        "ids": ",ci41000831,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.1244,
+        "rms": 0.18,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 19 km SW of Olancha, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1615,
+          36.1723333,
+          7.58
+        ]
+      },
+      "id": "ci41000831"
     }
   ],
   "bbox": [
-    -122.79866790772,
-    38.7936668396,
-    0.46000000834465,
-    -122.76266479492,
-    38.836166381836,
-    2.3099999427795
+    -177.434,
+    -26.2094,
+    0,
+    -116.2663333,
+    60.2121,
+    71
   ]
 }
