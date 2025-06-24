@@ -1,24 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1750660522000,
+    "generated": 1750746904000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.62,
-        "place": "5 km WSW of Anza, CA",
-        "time": 1750660257140,
-        "updated": 1750660477724,
+        "mag": 0.64,
+        "place": "9 km NW of The Geysers, CA",
+        "time": 1750746432140,
+        "updated": 1750746527406,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41001439",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41001439.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75199751",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75199751.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "nc",
+        "code": "75199751",
+        "ids": ",nc75199751,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.008605,
+        "rms": 0.03,
+        "gap": 93,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.6 - 9 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.846000671387,
+          38.8223342895508,
+          2.19000005722046
+        ]
+      },
+      "id": "nc75199751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "57 km NNE of Punta Cana, Dominican Republic",
+        "time": 1750746415000,
+        "updated": 1750746680197,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt25175002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pt25175002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "REVIEWED",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "pt",
+        "code": "25175002",
+        "ids": ",pt25175002,",
+        "sources": ",pt,",
+        "types": ",origin,",
+        "nst": 20,
+        "dmin": null,
+        "rms": null,
+        "gap": null,
+        "magType": "Ml",
+        "type": "earthquake",
+        "title": "M 4.8 - 57 km NNE of Punta Cana, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.104,
+          19.018,
+          10
+        ]
+      },
+      "id": "pt25175002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "87 km E of Ugashik, Alaska",
+        "time": 1750746111087,
+        "updated": 1750746193711,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02581iqy10",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02581iqy10.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "02581iqy10",
+        "ids": ",ak02581iqy10,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.3,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 87 km E of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.9509,
+          57.6465,
+          16.2
+        ]
+      },
+      "id": "ak02581iqy10"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.38,
+        "place": "14 km NNE of Morgan Hill, CA",
+        "time": 1750744827870,
+        "updated": 1750745236973,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75199741",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75199741.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 87,
+        "net": "nc",
+        "code": "75199741",
+        "ids": ",nc75199741,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 58,
+        "dmin": 0.03057,
+        "rms": 0.06,
+        "gap": 42,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 14 km NNE of Morgan Hill, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.635498046875,
+          37.2531661987305,
+          3.33999991416931
+        ]
+      },
+      "id": "nc75199741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.62,
+        "place": "12 km ENE of Ridgecrest, CA",
+        "time": 1750744647530,
+        "updated": 1750744858589,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41002327",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41002327.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,315 +187,115 @@
         "tsunami": 0,
         "sig": 6,
         "net": "ci",
-        "code": "41001439",
-        "ids": ",ci41001439,",
+        "code": "41002327",
+        "ids": ",ci41002327,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.03427,
-        "rms": 0.14,
-        "gap": 41,
+        "nst": 25,
+        "dmin": 0.09787,
+        "rms": 0.2,
+        "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 5 km WSW of Anza, CA"
+        "title": "M 0.6 - 12 km ENE of Ridgecrest, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7248333,
-          33.5326667,
-          5.48
+          -117.543,
+          35.6531667,
+          7.6
         ]
       },
-      "id": "ci41001439"
+      "id": "ci41002327"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "89 km NNW of Karluk, Alaska",
-        "time": 1750660224657,
-        "updated": 1750660324549,
+        "mag": 1.16,
+        "place": "6 km NW of Lakeland Village, CA",
+        "time": 1750744188150,
+        "updated": 1750744831670,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257zv9gxt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257zv9gxt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41002319",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41002319.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "0257zv9gxt",
-        "ids": ",ak0257zv9gxt,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.7,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 89 km NNW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.9658,
-          58.3263,
-          9
-        ]
-      },
-      "id": "ak0257zv9gxt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "42 km SSE of Chignik, Alaska",
-        "time": 1750659373918,
-        "updated": 1750659544270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257zv6g33",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257zv6g33.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "0257zv6g33",
-        "ids": ",ak0257zv6g33,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.38,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 42 km SSE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.2075,
-          55.9318,
-          42.7
-        ]
-      },
-      "id": "ak0257zv6g33"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "5 km ESE of Mina, Nevada",
-        "time": 1750658259340,
-        "updated": 1750658411294,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00899326",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00899326.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "nn",
-        "code": "00899326",
-        "ids": ",nn00899326,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.18,
-        "rms": 0.3258,
-        "gap": 110.8,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 5 km ESE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.0459,
-          38.3726,
-          5.3
-        ]
-      },
-      "id": "nn00899326"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.31,
-        "place": "1 km NNW of Brawley, CA",
-        "time": 1750657882800,
-        "updated": 1750658092458,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41001431",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41001431.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
+        "sig": 21,
         "net": "ci",
-        "code": "41001431",
-        "ids": ",ci41001431,",
+        "code": "41002319",
+        "ids": ",ci41002319,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.08699,
-        "rms": 0.32,
-        "gap": 40,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 56,
+        "dmin": 0.03183,
+        "rms": 0.22,
+        "gap": 48,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 1 km NNW of Brawley, CA"
+        "title": "M 1.2 - 6 km NW of Lakeland Village, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.5351667,
-          32.986,
-          10.39
+          -117.3995,
+          33.672,
+          8.55
         ]
       },
-      "id": "ci41001431"
+      "id": "ci41002319"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "8 km ENE of Mina, Nevada",
-        "time": 1750657757010,
-        "updated": 1750657959358,
+        "mag": 1.48,
+        "place": "5 km N of Ukiah, CA",
+        "time": 1750743967190,
+        "updated": 1750745236059,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00899323",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00899323.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75199736",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75199736.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "nn",
-        "code": "00899323",
-        "ids": ",nn00899323,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.218,
-        "rms": 0.2054,
-        "gap": 103.84,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 8 km ENE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.0213,
-          38.4152,
-          0.5
-        ]
-      },
-      "id": "nn00899323"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.83,
-        "place": "1 km N of The Geysers, CA",
-        "time": 1750657481040,
-        "updated": 1750658838614,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75199271",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75199271.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
+        "sig": 34,
         "net": "nc",
-        "code": "75199271",
-        "ids": ",nc75199271,",
+        "code": "75199736",
+        "ids": ",nc75199736,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.01645,
-        "rms": 0.02,
-        "gap": 121,
+        "nst": 10,
+        "dmin": 0.07185,
+        "rms": 0.09,
+        "gap": 93,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 1 km N of The Geysers, CA"
+        "title": "M 1.5 - 5 km N of Ukiah, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.75666809082,
-          38.788501739502,
-          2.66000008583069
+          -123.210830688477,
+          39.1901664733887,
+          0.25
         ]
       },
-      "id": "nc75199271"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "13 km ESE of Mina, Nevada",
-        "time": 1750657478357,
-        "updated": 1750657674979,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00899319",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00899319.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "nn",
-        "code": "00899319",
-        "ids": ",nn00899319,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.641,
-        "rms": 0.2775,
-        "gap": 151.73000000000002,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 13 km ESE of Mina, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9594,
-          38.3509,
-          11.8
-        ]
-      },
-      "id": "nn00899319"
+      "id": "nc75199736"
     }
   ],
   "bbox": [
-    -158.2075,
-    32.986,
-    0.5,
-    -115.5351667,
-    58.3263,
-    42.7
+    -155.9509,
+    19.018,
+    0.25,
+    -68.104,
+    57.6465,
+    16.2
   ]
 }
