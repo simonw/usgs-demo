@@ -1,141 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751006106000,
+    "generated": 1751092440000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "5 km ENE of Happy Valley, Alaska",
-        "time": 1751005244578,
-        "updated": 1751005888526,
+        "mag": -0.5,
+        "place": "35 km WNW of Indian Springs, Nevada",
+        "time": 1751091792289,
+        "updated": 1751091903757,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02586hcrah",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02586hcrah.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "02586hcrah",
-        "ids": ",ak02586hcrah,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.43,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 5 km ENE of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.6389,
-          59.97,
-          22.3
-        ]
-      },
-      "id": "ak02586hcrah"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "7 km SE of Gardendale, Texas",
-        "time": 1751004453599,
-        "updated": 1751004695641,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025mnjsni",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025mnjsni.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00899621",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00899621.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2025mnjsni",
-        "ids": ",tx2025mnjsni,",
-        "sources": ",tx,",
+        "sig": 0,
+        "net": "nn",
+        "code": "00899621",
+        "ids": ",nn00899621,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0,
-        "rms": 0.5,
+        "nst": 12,
+        "dmin": 0.02,
+        "rms": 0.15,
+        "gap": 95.35000000000002,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M -0.5 - 35 km WNW of Indian Springs, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.0108,
+          36.7285,
+          4.5
+        ]
+      },
+      "id": "nn00899621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.77,
+        "place": "8 km NNW of The Geysers, CA",
+        "time": 1751091351610,
+        "updated": 1751092338842,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75201616",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75201616.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75201616",
+        "ids": ",nc75201616,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 10,
+        "dmin": 0.01052,
+        "rms": 0.02,
         "gap": 66,
-        "magType": "ml",
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 7 km SE of Gardendale, Texas"
+        "title": "M 0.8 - 8 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.328,
-          31.972,
-          3.3575
+          -122.81916809082,
+          38.8311653137207,
+          1.6599999666214
         ]
       },
-      "id": "tx2025mnjsni"
+      "id": "nc75201616"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "50 km SSE of Whites City, New Mexico",
-        "time": 1751003303990,
-        "updated": 1751003472080,
+        "mag": 5.2,
+        "place": "170 km S of Nikolski, Alaska",
+        "time": 1751090899335,
+        "updated": 1751092105472,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025mnjcaa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025mnjcaa.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q9an",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q9an.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.574,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000q9an",
+        "ids": ",us7000q9an,ak025884tia1,",
+        "sources": ",us,ak,",
+        "types": ",oaf,origin,phase-data,shakemap,",
+        "nst": 153,
+        "dmin": 1.546,
+        "rms": 0.96,
+        "gap": 98,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 170 km S of Nikolski, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.5588,
+          51.4196,
+          10
+        ]
+      },
+      "id": "us7000q9an"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.72,
+        "place": "8 km WNW of Cobb, CA",
+        "time": 1751090647690,
+        "updated": 1751091736760,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75201611",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75201611.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025mnjcaa",
-        "ids": ",tx2025mnjcaa,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 60,
-        "magType": "ml",
+        "sig": 8,
+        "net": "nc",
+        "code": "75201611",
+        "ids": ",nc75201611,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.01338,
+        "rms": 0.02,
+        "gap": 125,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 50 km SSE of Whites City, New Mexico"
+        "title": "M 0.7 - 8 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.265,
-          31.734,
-          3.7841
+          -122.806663513184,
+          38.8424987792969,
+          1.27999997138977
         ]
       },
-      "id": "tx2025mnjcaa"
+      "id": "nc75201611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.95,
+        "place": "14 km SE of Pāhala, Hawaii",
+        "time": 1751090334830,
+        "updated": 1751090533850,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74710722",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74710722.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "hv",
+        "code": "74710722",
+        "ids": ",hv74710722,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 0.09359,
+        "rms": 0.119999997,
+        "gap": 187,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 14 km SE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.366500854492,
+          19.1310005187988,
+          28.6499996185303
+        ]
+      },
+      "id": "hv74710722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "140 km SW of El Palmarcito, Mexico",
+        "time": 1751089669920,
+        "updated": 1751090908040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q9aj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000q9aj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000q9aj",
+        "ids": ",us7000q9aj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 141,
+        "dmin": 2.558,
+        "rms": 1.56,
+        "gap": 165,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 140 km SW of El Palmarcito, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1992,
+          14.663,
+          10
+        ]
+      },
+      "id": "us7000q9aj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.82,
+        "place": "3 km N of Colton, CA",
+        "time": 1751088985030,
+        "updated": 1751089194259,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41007167",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41007167.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41007167",
+        "ids": ",ci41007167,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.3053,
+        "rms": 0.15,
+        "gap": 170,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 3 km N of Colton, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3111667,
+          34.1025,
+          14.42
+        ]
+      },
+      "id": "ci41007167"
     }
   ],
   "bbox": [
-    -151.6389,
-    31.734,
-    3.3575,
-    -102.328,
-    59.97,
-    22.3
+    -168.5588,
+    14.663,
+    1.2799999713898,
+    -94.1992,
+    51.4196,
+    28.64999961853
   ]
 }
