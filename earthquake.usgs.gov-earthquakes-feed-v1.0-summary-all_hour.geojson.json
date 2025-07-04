@@ -1,341 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751524470000,
+    "generated": 1751610905000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.76,
-        "place": "8 km SSW of Idyllwild, CA",
-        "time": 1751523709240,
-        "updated": 1751523916120,
+        "mag": 1.1,
+        "place": "37 km SSE of Dyer, Nevada",
+        "time": 1751610375630,
+        "updated": 1751610534984,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013215",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013215.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900100",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900100.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "41013215",
-        "ids": ",ci41013215,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.0544,
-        "rms": 0.14,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 8 km SSW of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.748,
-          33.6686667,
-          14.97
-        ]
-      },
-      "id": "ci41013215"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "59 km WSW of Cantwell, Alaska",
-        "time": 1751523633745,
-        "updated": 1751523767781,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258gektf2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258gektf2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "0258gektf2",
-        "ids": ",ak0258gektf2,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.49,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 59 km WSW of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.963,
-          63.1187,
-          74.9
-        ]
-      },
-      "id": "ak0258gektf2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "4 km SW of Healy, Alaska",
-        "time": 1751523604810,
-        "updated": 1751523700849,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258gekr6p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258gekr6p.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "0258gekr6p",
-        "ids": ",ak0258gekr6p,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.36,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 4 km SW of Healy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.0344,
-          63.8286,
-          12.7
-        ]
-      },
-      "id": "ak0258gekr6p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "29 km SSW of El Hoyo, Argentina",
-        "time": 1751523237991,
-        "updated": 1751524183040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qade",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qade.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000qade",
-        "ids": ",us7000qade,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 81,
-        "dmin": 5.137,
-        "rms": 0.8,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 29 km SSW of El Hoyo, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.368,
-          -27.2641,
-          564.254
-        ]
-      },
-      "id": "us7000qade"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "35 km ENE of Big Pine, California",
-        "time": 1751523128096,
-        "updated": 1751523290144,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900040",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900040.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
+        "sig": 19,
         "net": "nn",
-        "code": "00900040",
-        "ids": ",nn00900040,",
+        "code": "00900100",
+        "ids": ",nn00900100,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 19,
+        "nst": 11,
         "dmin": 0.069,
-        "rms": 0.206,
-        "gap": 165.3,
+        "rms": 0.2274,
+        "gap": 188.26999999999998,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 35 km ENE of Big Pine, California"
+        "title": "M 1.1 - 37 km SSE of Dyer, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9294,
-          37.3079,
-          4
+          -117.8851,
+          37.3657,
+          5
         ]
       },
-      "id": "nn00900040"
+      "id": "nn00900100"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1751522281000,
-        "updated": 1751522377399,
+        "mag": 1.32,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1751609731010,
+        "updated": 1751610737066,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75203881",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75203881.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75204301",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75204301.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
+        "sig": 27,
         "net": "nc",
-        "code": "75203881",
-        "ids": ",nc75203881,",
+        "code": "75204301",
+        "ids": ",nc75204301,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.009974,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.01053,
         "rms": 0.02,
-        "gap": 92,
+        "gap": 31,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 5 km NW of The Geysers, CA"
+        "title": "M 1.3 - 7 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.812164306641,
-          38.7953338623047,
-          3.08999991416931
+          -122.803169250488,
+          38.8351669311523,
+          2.08999991416931
         ]
       },
-      "id": "nc75203881"
+      "id": "nc75204301"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.4,
-        "place": "99 km SSW of Uyuni, Bolivia",
-        "time": 1751521302480,
-        "updated": 1751524441063,
+        "mag": 0.43,
+        "place": "0 km ENE of Borrego Springs, CA",
+        "time": 1751609051970,
+        "updated": 1751609273615,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qad7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qad7.geojson",
-        "felt": 4,
-        "cdi": 2.5,
-        "mmi": 3.597,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 450,
-        "net": "us",
-        "code": "7000qad7",
-        "ids": ",us7000qad7,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 66,
-        "dmin": 1.89,
-        "rms": 1.27,
-        "gap": 46,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.4 - 99 km SSW of Uyuni, Bolivia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2411,
-          -21.2657,
-          182.634
-        ]
-      },
-      "id": "us7000qad7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "23 km W of Garden City, Texas",
-        "time": 1751521193552,
-        "updated": 1751521439643,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025myjdyt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025myjdyt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013967",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013967.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "tx",
-        "code": "2025myjdyt",
-        "ids": ",tx2025myjdyt,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 45,
+        "sig": 3,
+        "net": "ci",
+        "code": "41013967",
+        "ids": ",ci41013967,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.03963,
+        "rms": 0.18,
+        "gap": 91,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 23 km W of Garden City, Texas"
+        "title": "M 0.4 - 0 km ENE of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.726,
-          31.862,
-          3.3387
+          -116.3716667,
+          33.2573333,
+          3.11
         ]
       },
-      "id": "tx2025myjdyt"
+      "id": "ci41013967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.65,
+        "place": "10 km NE of Indio, CA",
+        "time": 1751608658060,
+        "updated": 1751608869509,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013959",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013959.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "41013959",
+        "ids": ",ci41013959,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.07993,
+        "rms": 0.17,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 10 km NE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.1293333,
+          33.7745,
+          5.17
+        ]
+      },
+      "id": "ci41013959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "56 km WNW of Sabang, Indonesia",
+        "time": 1751607592565,
+        "updated": 1751609485040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qal8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qal8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000qal8",
+        "ids": ",us7000qal8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 2.259,
+        "rms": 1.01,
+        "gap": 72,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 56 km WNW of Sabang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8235,
+          6.0331,
+          10
+        ]
+      },
+      "id": "us7000qal8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.43,
+        "place": "8 km WNW of Anza, CA",
+        "time": 1751607539430,
+        "updated": 1751607751529,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41013951",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41013951.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "ci",
+        "code": "41013951",
+        "ids": ",ci41013951,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.02759,
+        "rms": 0.14,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 8 km WNW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7551667,
+          33.5886667,
+          11.91
+        ]
+      },
+      "id": "ci41013951"
     }
   ],
   "bbox": [
-    -149.963,
-    -27.2641,
-    3.0899999141693,
-    -63.368,
-    63.8286,
-    564.254
+    -122.80316925049,
+    6.0331,
+    2.0899999141693,
+    94.8235,
+    38.835166931152,
+    11.91
   ]
 }
