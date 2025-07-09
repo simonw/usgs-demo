@@ -1,104 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1751956509000,
+    "generated": 1752042910000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1751955674002,
-        "updated": 1751955855137,
+        "mag": 0.360000014,
+        "place": "22 km ENE of Ashford, Washington",
+        "time": 1752042100390,
+        "updated": 1752042208540,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025nhpdxw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025nhpdxw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62136157",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62136157.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025nhpdxw",
-        "ids": ",tx2025nhpdxw,",
-        "sources": ",tx,",
+        "sig": 2,
+        "net": "uw",
+        "code": "62136157",
+        "ids": ",uw62136157,",
+        "sources": ",uw,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.326,
-          31.652,
-          4.1647
-        ]
-      },
-      "id": "tx2025nhpdxw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.52,
-        "place": "15 km SSE of Pinnacles, CA",
-        "time": 1751955287080,
-        "updated": 1751955739177,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206927",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206927.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 36,
-        "net": "nc",
-        "code": "75206927",
-        "ids": ",nc75206927,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.0331,
-        "rms": 0.15,
-        "gap": 82,
+        "nst": 16,
+        "dmin": null,
+        "rms": 0.0500000007,
+        "gap": 68,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 15 km SSE of Pinnacles, CA"
+        "title": "M 0.4 - 22 km ENE of Ashford, Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.028335571289,
-          36.4323348999023,
-          7.80999994277954
+          -121.77249908447266,
+          46.851165771484375,
+          -0.75
         ]
       },
-      "id": "nc75206927"
+      "id": "uw62136157"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.76,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1751954554650,
-        "updated": 1751954649493,
+        "mag": 0.87,
+        "place": "17 km NE of Coachella, CA",
+        "time": 1752041837360,
+        "updated": 1752042043253,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206922",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206922.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41017639",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41017639.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41017639",
+        "ids": ",ci41017639,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.1311,
+        "rms": 0.16,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 17 km NE of Coachella, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.0343333,
+          33.7813333,
+          0.45
+        ]
+      },
+      "id": "ci41017639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "35 km ESE of Malaga, New Mexico",
+        "time": 1752041147955,
+        "updated": 1752041397984,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025njkjou",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025njkjou.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2025njkjou",
+        "ids": ",tx2025njkjou,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 35 km ESE of Malaga, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.738,
+          32.072,
+          7.2065
+        ]
+      },
+      "id": "tx2025njkjou"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.14,
+        "place": "7 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1752039847960,
+        "updated": 1752040390130,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488658",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488658.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 70,
+        "net": "pr",
+        "code": "71488658",
+        "ids": ",pr71488658,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.05666,
+        "rms": 0.1,
+        "gap": 222,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 7 km SSE of Maria Antonia, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8528333333333,
+          17.924,
+          11.47
+        ]
+      },
+      "id": "pr71488658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.769999981,
+        "place": "22 km ENE of Ashford, Washington",
+        "time": 1752039784090,
+        "updated": 1752039882300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62136137",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62136137.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,76 +186,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 9,
-        "net": "nc",
-        "code": "75206922",
-        "ids": ",nc75206922,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01396,
-        "rms": 0.04,
-        "gap": 75,
+        "net": "uw",
+        "code": "62136137",
+        "ids": ",uw62136137,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": null,
+        "rms": 0.0399999991,
+        "gap": 111,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 6 km NW of The Geysers, CA"
+        "title": "M 0.8 - 22 km ENE of Ashford, Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.812164306641,
-          38.8033332824707,
-          2.53999996185303
+          -121.77133178710938,
+          46.849998474121094,
+          -0.879999995231628
         ]
       },
-      "id": "nc75206922"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.69,
-        "place": "9 km NW of The Geysers, CA",
-        "time": 1751953817210,
-        "updated": 1751953914293,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75206917",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75206917.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75206917",
-        "ids": ",nc75206917,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.005834,
-        "rms": 0.01,
-        "gap": 87,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 9 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.842498779297,
-          38.8231658935547,
-          2.07999992370605
-        ]
-      },
-      "id": "nc75206917"
+      "id": "uw62136137"
     }
   ],
   "bbox": [
-    -122.8424987793,
-    31.652,
-    2.079999923706,
-    -104.326,
-    38.823165893555,
-    7.8099999427795
+    -121.77249908447,
+    17.924,
+    -0.87999999523163,
+    -66.852833333333,
+    46.851165771484,
+    11.47
   ]
 }
