@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752042910000,
+    "generated": 1752129301000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
+        "mag": 1.7,
+        "place": "42 km SSW of Glacier View, Alaska",
+        "time": 1752128683573,
+        "updated": 1752128815644,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258rzd4hx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258rzd4hx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "0258rzd4hx",
+        "ids": ",ak0258rzd4hx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.73,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 42 km SSW of Glacier View, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9939,
+          61.465,
+          7.3
+        ]
+      },
+      "id": "ak0258rzd4hx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 0.360000014,
         "place": "22 km ENE of Ashford, Washington",
-        "time": 1752042100390,
-        "updated": 1752042208540,
+        "time": 1752128624840,
+        "updated": 1752128728980,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62136157",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62136157.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62138032",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62138032.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,14 +67,14 @@
         "tsunami": 0,
         "sig": 2,
         "net": "uw",
-        "code": "62136157",
-        "ids": ",uw62136157,",
+        "code": "62138032",
+        "ids": ",uw62138032,",
         "sources": ",uw,",
         "types": ",origin,phase-data,",
         "nst": 16,
         "dmin": null,
-        "rms": 0.0500000007,
-        "gap": 68,
+        "rms": 0.0299999993,
+        "gap": 81,
         "magType": "md",
         "type": "earthquake",
         "title": "M 0.4 - 22 km ENE of Ashford, Washington"
@@ -42,63 +82,143 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.77249908447266,
-          46.851165771484375,
-          -0.75
+          -121.76166534423828,
+          46.8476676940918,
+          -0.319999992847443
         ]
       },
-      "id": "uw62136157"
+      "id": "uw62138032"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.87,
-        "place": "17 km NE of Coachella, CA",
-        "time": 1752041837360,
-        "updated": 1752042043253,
+        "mag": 0.6,
+        "place": "49 km WNW of Beatty, Nevada",
+        "time": 1752127893828,
+        "updated": 1752128015541,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41017639",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41017639.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900362",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900362.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "41017639",
-        "ids": ",ci41017639,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.1311,
-        "rms": 0.16,
-        "gap": 55,
+        "sig": 6,
+        "net": "nn",
+        "code": "00900362",
+        "ids": ",nn00900362,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.155,
+        "rms": 0.1707,
+        "gap": 132.60999999999999,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 17 km NE of Coachella, CA"
+        "title": "M 0.6 - 49 km WNW of Beatty, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.0343333,
-          33.7813333,
-          0.45
+          -117.2246,
+          37.1478,
+          2.5
         ]
       },
-      "id": "ci41017639"
+      "id": "nn00900362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "58 km ESE of Cantwell, Alaska",
+        "time": 1752127330438,
+        "updated": 1752127437873,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258rz8c6r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258rz8c6r.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "0258rz8c6r",
+        "ids": ",ak0258rz8c6r,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.65,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 58 km ESE of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8496,
+          63.2314,
+          76.1
+        ]
+      },
+      "id": "ak0258rz8c6r"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.360000014,
+        "place": "22 km ENE of Ashford, Washington",
+        "time": 1752127154900,
+        "updated": 1752127250380,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62137997",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62137997.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "uw",
+        "code": "62137997",
+        "ids": ",uw62137997,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": null,
+        "rms": 0.0399999991,
+        "gap": 83,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.4 - 22 km ENE of Ashford, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7683334350586,
+          46.85016632080078,
+          0.400000005960464
+        ]
+      },
+      "id": "uw62137997"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.6,
-        "place": "35 km ESE of Malaga, New Mexico",
-        "time": 1752041147955,
-        "updated": 1752041397984,
+        "place": "32 km NNE of Fox River, Alaska",
+        "time": 1752126474633,
+        "updated": 1752126597798,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025njkjou",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025njkjou.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258rywn7r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258rywn7r.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,116 +226,236 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 39,
-        "net": "tx",
-        "code": "2025njkjou",
-        "ids": ",tx2025njkjou,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "0258rywn7r",
+        "ids": ",ak0258rywn7r,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0,
+        "nst": null,
+        "dmin": null,
         "rms": 0.5,
-        "gap": 49,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 35 km ESE of Malaga, New Mexico"
+        "title": "M 1.6 - 32 km NNE of Fox River, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.738,
-          32.072,
-          7.2065
+          -150.7682,
+          60.1364,
+          50
         ]
       },
-      "id": "tx2025njkjou"
+      "id": "ak0258rywn7r"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.14,
-        "place": "7 km SSE of Maria Antonia, Puerto Rico",
-        "time": 1752039847960,
-        "updated": 1752040390130,
+        "mag": 1.32,
+        "place": "22 km ENE of Ashford, Washington",
+        "time": 1752126289050,
+        "updated": 1752127898120,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488658",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488658.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62137992",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62137992.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 70,
-        "net": "pr",
-        "code": "71488658",
-        "ids": ",pr71488658,",
-        "sources": ",pr,",
+        "sig": 27,
+        "net": "uw",
+        "code": "62137992",
+        "ids": ",uw62137992,",
+        "sources": ",uw,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.05666,
-        "rms": 0.1,
-        "gap": 222,
-        "magType": "md",
+        "nst": 19,
+        "dmin": 0.01656,
+        "rms": 0.04,
+        "gap": 69,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 7 km SSE of Maria Antonia, Puerto Rico"
+        "title": "M 1.3 - 22 km ENE of Ashford, Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.8528333333333,
-          17.924,
-          11.47
+          -121.76883333333333,
+          46.851166666666664,
+          0.56
         ]
       },
-      "id": "pr71488658"
+      "id": "uw62137992"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.769999981,
-        "place": "22 km ENE of Ashford, Washington",
-        "time": 1752039784090,
-        "updated": 1752039882300,
+        "mag": 1.3,
+        "place": "21 km N of Cooper Landing, Alaska",
+        "time": 1752126078185,
+        "updated": 1752126189762,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62136137",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62136137.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258ryva3u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258ryva3u.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "uw",
-        "code": "62136137",
-        "ids": ",uw62136137,",
-        "sources": ",uw,",
+        "sig": 26,
+        "net": "ak",
+        "code": "0258ryva3u",
+        "ids": ",ak0258ryva3u,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 17,
+        "nst": null,
         "dmin": null,
-        "rms": 0.0399999991,
-        "gap": 111,
-        "magType": "md",
+        "rms": 0.94,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 22 km ENE of Ashford, Washington"
+        "title": "M 1.3 - 21 km N of Cooper Landing, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.77133178710938,
-          46.849998474121094,
-          -0.879999995231628
+          -149.8257,
+          60.6787,
+          33.6
         ]
       },
-      "id": "uw62136137"
+      "id": "ak0258ryva3u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "10 km SSW of Hiko, Nevada",
+        "time": 1752126047801,
+        "updated": 1752126206940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900361",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900361.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "nn",
+        "code": "00900361",
+        "ids": ",nn00900361,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.701,
+        "rms": 0.4376,
+        "gap": 322.25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 10 km SSW of Hiko, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2804,
+          37.5088,
+          2.9
+        ]
+      },
+      "id": "nn00900361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "35 km ESE of Malaga, New Mexico",
+        "time": 1752126024036,
+        "updated": 1752127265669,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025nlffnk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025nlffnk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "tx",
+        "code": "2025nlffnk",
+        "ids": ",tx2025nlffnk,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 35 km ESE of Malaga, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.737,
+          32.077,
+          4.9009
+        ]
+      },
+      "id": "tx2025nlffnk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.360000014,
+        "place": "22 km ENE of Ashford, Washington",
+        "time": 1752125727940,
+        "updated": 1752125824740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62137977",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62137977.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "uw",
+        "code": "62137977",
+        "ids": ",uw62137977,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": null,
+        "rms": 0.0500000007,
+        "gap": 67,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.4 - 22 km ENE of Ashford, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.76799774169922,
+          46.8494987487793,
+          -0.0700000002980232
+        ]
+      },
+      "id": "uw62137977"
     }
   ],
   "bbox": [
-    -121.77249908447,
-    17.924,
-    -0.87999999523163,
-    -66.852833333333,
-    46.851165771484,
-    11.47
+    -150.7682,
+    32.077,
+    -0.31999999284744,
+    -103.737,
+    63.2314,
+    76.1
   ]
 }
