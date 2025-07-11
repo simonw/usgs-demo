@@ -1,344 +1,384 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752129301000,
+    "generated": 1752215705000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 11
+    "count": 19
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "42 km SSW of Glacier View, Alaska",
-        "time": 1752128683573,
-        "updated": 1752128815644,
+        "mag": 1.98,
+        "place": "10 km S of Volcano, Hawaii",
+        "time": 1752214949930,
+        "updated": 1752215138340,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258rzd4hx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258rzd4hx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74722047",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74722047.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "0258rzd4hx",
-        "ids": ",ak0258rzd4hx,",
-        "sources": ",ak,",
+        "sig": 60,
+        "net": "hv",
+        "code": "74722047",
+        "ids": ",hv74722047,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.73,
-        "gap": null,
+        "nst": 55,
+        "dmin": 0.02635,
+        "rms": 0.189999998,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 42 km SSW of Glacier View, Alaska"
+        "title": "M 2.0 - 10 km S of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.9939,
-          61.465,
-          7.3
+          -155.214004516602,
+          19.3473339080811,
+          4.61999988555908
         ]
       },
-      "id": "ak0258rzd4hx"
+      "id": "hv74722047"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.360000014,
-        "place": "22 km ENE of Ashford, Washington",
-        "time": 1752128624840,
-        "updated": 1752128728980,
+        "mag": 1.4,
+        "place": "14 km N of Fishhook, Alaska",
+        "time": 1752214767427,
+        "updated": 1752214863214,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62138032",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62138032.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258tmvd5y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258tmvd5y.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "uw",
-        "code": "62138032",
-        "ids": ",uw62138032,",
-        "sources": ",uw,",
+        "sig": 30,
+        "net": "ak",
+        "code": "0258tmvd5y",
+        "ids": ",ak0258tmvd5y,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 16,
+        "nst": null,
         "dmin": null,
-        "rms": 0.0299999993,
-        "gap": 81,
+        "rms": 0.34,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 14 km N of Fishhook, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.2436,
+          61.8697,
+          20.3
+        ]
+      },
+      "id": "ak0258tmvd5y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.88,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1752214624610,
+        "updated": 1752214833587,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41019375",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41019375.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41019375",
+        "ids": ",ci41019375,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.05093,
+        "rms": 0.2,
+        "gap": 85,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 18 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.817,
+          35.3126667,
+          9.15
+        ]
+      },
+      "id": "ci41019375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.75,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1752214400880,
+        "updated": 1752214498812,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208242",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208242.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75208242",
+        "ids": ",nc75208242,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.006302,
+        "rms": 0.01,
+        "gap": 85,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.4 - 22 km ENE of Ashford, Washington"
+        "title": "M 0.8 - 6 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.76166534423828,
-          46.8476676940918,
-          -0.319999992847443
+          -122.794502258301,
+          38.8330001831055,
+          1.5900000333786
         ]
       },
-      "id": "uw62138032"
+      "id": "nc75208242"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "49 km WNW of Beatty, Nevada",
-        "time": 1752127893828,
-        "updated": 1752128015541,
+        "mag": 2.69,
+        "place": "3 km N of San Antonio, Puerto Rico",
+        "time": 1752214165410,
+        "updated": 1752214815060,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900362",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900362.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "nn",
-        "code": "00900362",
-        "ids": ",nn00900362,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.155,
-        "rms": 0.1707,
-        "gap": 132.60999999999999,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 49 km WNW of Beatty, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.2246,
-          37.1478,
-          2.5
-        ]
-      },
-      "id": "nn00900362"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "58 km ESE of Cantwell, Alaska",
-        "time": 1752127330438,
-        "updated": 1752127437873,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258rz8c6r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258rz8c6r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "0258rz8c6r",
-        "ids": ",ak0258rz8c6r,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.65,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 58 km ESE of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.8496,
-          63.2314,
-          76.1
-        ]
-      },
-      "id": "ak0258rz8c6r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.360000014,
-        "place": "22 km ENE of Ashford, Washington",
-        "time": 1752127154900,
-        "updated": 1752127250380,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62137997",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62137997.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "uw",
-        "code": "62137997",
-        "ids": ",uw62137997,",
-        "sources": ",uw,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": null,
-        "rms": 0.0399999991,
-        "gap": 83,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.4 - 22 km ENE of Ashford, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.7683334350586,
-          46.85016632080078,
-          0.400000005960464
-        ]
-      },
-      "id": "uw62137997"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "32 km NNE of Fox River, Alaska",
-        "time": 1752126474633,
-        "updated": 1752126597798,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258rywn7r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258rywn7r.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "0258rywn7r",
-        "ids": ",ak0258rywn7r,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.5,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 32 km NNE of Fox River, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.7682,
-          60.1364,
-          50
-        ]
-      },
-      "id": "ak0258rywn7r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.32,
-        "place": "22 km ENE of Ashford, Washington",
-        "time": 1752126289050,
-        "updated": 1752127898120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62137992",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62137992.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71488843",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71488843.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 27,
-        "net": "uw",
-        "code": "62137992",
-        "ids": ",uw62137992,",
-        "sources": ",uw,",
+        "sig": 111,
+        "net": "pr",
+        "code": "71488843",
+        "ids": ",pr71488843,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.01656,
-        "rms": 0.04,
-        "gap": 69,
-        "magType": "ml",
+        "nst": 12,
+        "dmin": 0.05941,
+        "rms": 0.18,
+        "gap": 264,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 22 km ENE of Ashford, Washington"
+        "title": "M 2.7 - 3 km N of San Antonio, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.76883333333333,
-          46.851166666666664,
-          0.56
+          -67.0995,
+          18.5261666666667,
+          26.14
         ]
       },
-      "id": "uw62137992"
+      "id": "pr71488843"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "21 km N of Cooper Landing, Alaska",
-        "time": 1752126078185,
-        "updated": 1752126189762,
+        "mag": 1.83,
+        "place": "12 km WNW of Calipatria, CA",
+        "time": 1752213989610,
+        "updated": 1752214210519,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258ryva3u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258ryva3u.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41019367",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41019367.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "0258ryva3u",
-        "ids": ",ak0258ryva3u,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.94,
-        "gap": null,
+        "sig": 52,
+        "net": "ci",
+        "code": "41019367",
+        "ids": ",ci41019367,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 51,
+        "dmin": 0.03039,
+        "rms": 0.22,
+        "gap": 41,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 21 km N of Cooper Landing, Alaska"
+        "title": "M 1.8 - 12 km WNW of Calipatria, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.8257,
-          60.6787,
-          33.6
+          -115.6396667,
+          33.1546667,
+          3.51
         ]
       },
-      "id": "ak0258ryva3u"
+      "id": "ci41019367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.76,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1752213686430,
+        "updated": 1752213783775,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208232",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208232.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75208232",
+        "ids": ",nc75208232,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.007848,
+        "rms": 0.03,
+        "gap": 59,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.806831359863,
+          38.8308334350586,
+          1.94000005722046
+        ]
+      },
+      "id": "nc75208232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.41,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1752213406440,
+        "updated": 1752213503903,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208212",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208212.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "nc",
+        "code": "75208212",
+        "ids": ",nc75208212,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.005982,
+        "rms": 0.02,
+        "gap": 43,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.797836303711,
+          38.8371658325195,
+          2.17000007629395
+        ]
+      },
+      "id": "nc75208212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.21,
+        "place": "13 km ESE of Coalinga, CA",
+        "time": 1752213344350,
+        "updated": 1752213443929,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208207",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208207.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 23,
+        "net": "nc",
+        "code": "75208207",
+        "ids": ",nc75208207,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.03962,
+        "rms": 0.1,
+        "gap": 174,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.2 - 13 km ESE of Coalinga, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.218170166016,
+          36.1026649475098,
+          7.84999990463257
+        ]
+      },
+      "id": "nc75208207"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "10 km SSW of Hiko, Nevada",
-        "time": 1752126047801,
-        "updated": 1752126206940,
+        "place": "34 km NW of Willow, Alaska",
+        "time": 1752213340114,
+        "updated": 1752213430674,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900361",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900361.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258tmhobf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258tmhobf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -346,116 +386,396 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 35,
-        "net": "nn",
-        "code": "00900361",
-        "ids": ",nn00900361,",
-        "sources": ",nn,",
+        "net": "ak",
+        "code": "0258tmhobf",
+        "ids": ",ak0258tmhobf,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.701,
-        "rms": 0.4376,
-        "gap": 322.25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 10 km SSW of Hiko, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.2804,
-          37.5088,
-          2.9
-        ]
-      },
-      "id": "nn00900361"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "35 km ESE of Malaga, New Mexico",
-        "time": 1752126024036,
-        "updated": 1752127265669,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025nlffnk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025nlffnk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "tx",
-        "code": "2025nlffnk",
-        "ids": ",tx2025nlffnk,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 35 km ESE of Malaga, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.737,
-          32.077,
-          4.9009
-        ]
-      },
-      "id": "tx2025nlffnk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.360000014,
-        "place": "22 km ENE of Ashford, Washington",
-        "time": 1752125727940,
-        "updated": 1752125824740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62137977",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62137977.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "uw",
-        "code": "62137977",
-        "ids": ",uw62137977,",
-        "sources": ",uw,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
+        "nst": null,
         "dmin": null,
-        "rms": 0.0500000007,
+        "rms": 0.11,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 34 km NW of Willow, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.4631,
+          61.9885,
+          20.2
+        ]
+      },
+      "id": "ak0258tmhobf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.27,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1752213049910,
+        "updated": 1752213143578,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208202",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208202.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75208202",
+        "ids": ",nc75208202,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01427,
+        "rms": 0.01,
+        "gap": 114,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.3 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.807167053223,
+          38.8328323364258,
+          2.04999995231628
+        ]
+      },
+      "id": "nc75208202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1752212985020,
+        "updated": 1752213078636,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208197",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208197.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75208197",
+        "ids": ",nc75208197,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.008825,
+        "rms": 0.01,
+        "gap": 45,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.807502746582,
+          38.8320007324219,
+          2.21000003814697
+        ]
+      },
+      "id": "nc75208197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1752212934870,
+        "updated": 1752213029655,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208182",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208182.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75208182",
+        "ids": ",nc75208182,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.01006,
+        "rms": 0.01,
+        "gap": 49,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.806167602539,
+          38.8330001831055,
+          2.36999988555908
+        ]
+      },
+      "id": "nc75208182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.59,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1752212920400,
+        "updated": 1752213211472,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208177",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208177.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "nc",
+        "code": "75208177",
+        "ids": ",nc75208177,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.008761,
+        "rms": 0.02,
+        "gap": 45,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.806999206543,
+          38.8318328857422,
+          2.22000002861023
+        ]
+      },
+      "id": "nc75208177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "8 km WNW of Cobb, CA",
+        "time": 1752212915190,
+        "updated": 1752213375027,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208172",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208172.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "nc",
+        "code": "75208172",
+        "ids": ",nc75208172,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.01356,
+        "rms": 0.02,
+        "gap": 53,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 8 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.807662963867,
+          38.8375015258789,
+          2.14000010490417
+        ]
+      },
+      "id": "nc75208172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.42,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1752212833820,
+        "updated": 1752215539719,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208157",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208157.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "nc",
+        "code": "75208157",
+        "ids": ",nc75208157,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 8,
+        "dmin": 0.01194,
+        "rms": 0,
+        "gap": 108,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.805168151855,
+          38.8354988098145,
+          2.39000010490417
+        ]
+      },
+      "id": "nc75208157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.92,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1752212810770,
+        "updated": 1752215549125,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208187",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208187.geojson",
+        "felt": 6,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 133,
+        "net": "nc",
+        "code": "75208187",
+        "ids": ",nc75208187,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 86,
+        "dmin": 0.01127,
+        "rms": 0.07,
+        "gap": 25,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.804336547852,
+          38.8356666564941,
+          2.30999994277954
+        ]
+      },
+      "id": "nc75208187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "1 km NW of The Geysers, CA",
+        "time": 1752212228790,
+        "updated": 1752214037533,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208152",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208152.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75208152",
+        "ids": ",nc75208152,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.0107,
+        "rms": 0.04,
         "gap": 67,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.4 - 22 km ENE of Ashford, Washington"
+        "title": "M 1.1 - 1 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.76799774169922,
-          46.8494987487793,
-          -0.0700000002980232
+          -122.762664794922,
+          38.7811660766602,
+          3.74000000953674
         ]
       },
-      "id": "uw62137977"
+      "id": "nc75208152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "10 km W of Wadsworth, Nevada",
+        "time": 1752212185122,
+        "updated": 1752212331278,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900394",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900394.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nn",
+        "code": "00900394",
+        "ids": ",nn00900394,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.318,
+        "rms": 0.1444,
+        "gap": 166.27999999999997,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 10 km W of Wadsworth, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4026,
+          39.6367,
+          0.7
+        ]
+      },
+      "id": "nn00900394"
     }
   ],
   "bbox": [
-    -150.7682,
-    32.077,
-    -0.31999999284744,
-    -103.737,
-    63.2314,
-    76.1
+    -155.2140045166,
+    18.526166666667,
+    0.7,
+    -67.0995,
+    61.9885,
+    26.14
   ]
 }
