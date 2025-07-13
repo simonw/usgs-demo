@@ -1,424 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752302105000,
+    "generated": 1752388482000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 11
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.12,
-        "place": "12 km WNW of Calipatria, CA",
-        "time": 1752301654880,
-        "updated": 1752301883464,
+        "mag": 2.44,
+        "place": "7 km E of Guthrie, Oklahoma",
+        "time": 1752388223487,
+        "updated": 1752388393488,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41020831",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41020831.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025npcz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025npcz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "ci",
-        "code": "41020831",
-        "ids": ",ci41020831,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.01772,
-        "rms": 0.21,
-        "gap": 59,
+        "sig": 92,
+        "net": "ok",
+        "code": "2025npcz",
+        "ids": ",ok2025npcz,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 79,
+        "dmin": 0.1567304432,
+        "rms": 0.5004067815,
+        "gap": 21.14826965,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 12 km WNW of Calipatria, CA"
+        "title": "M 2.4 - 7 km E of Guthrie, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.6348333,
-          33.1686667,
-          5.09
+          -97.34085846,
+          35.88996506,
+          4.510930538
         ]
       },
-      "id": "ci41020831"
+      "id": "ok2025npcz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "36 km SE of Tanana, Alaska",
-        "time": 1752301309946,
-        "updated": 1752301423862,
+        "mag": 2.94,
+        "place": "7 km ENE of Guthrie, Oklahoma",
+        "time": 1752387893512,
+        "updated": 1752388302788,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258vaf6tu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258vaf6tu.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025npcu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025npcu.geojson",
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
+        "sig": 133,
+        "net": "ok",
+        "code": "2025npcu",
+        "ids": ",ok2025npcu,",
+        "sources": ",ok,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 94,
+        "dmin": 0.1673072726,
+        "rms": 0.5482740938,
+        "gap": 15.79130173,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 7 km ENE of Guthrie, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.34241486,
+          35.9007988,
+          1.95627141
+        ]
+      },
+      "id": "ok2025npcu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "5 km NNE of Point MacKenzie, Alaska",
+        "time": 1752387426890,
+        "updated": 1752387942803,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258wxxl4x",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258wxxl4x.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 130,
         "net": "ak",
-        "code": "0258vaf6tu",
-        "ids": ",ak0258vaf6tu,",
+        "code": "0258wxxl4x",
+        "ids": ",ak0258wxxl4x,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.26,
+        "rms": 0.33,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 36 km SE of Tanana, Alaska"
+        "title": "M 2.9 - 5 km NNE of Point MacKenzie, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.5578,
-          64.9238,
-          13
+          -149.9313,
+          61.3987,
+          33.8
         ]
       },
-      "id": "ak0258vaf6tu"
+      "id": "ak0258wxxl4x"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.72,
-        "place": "15 km ENE of Ridgecrest, CA",
-        "time": 1752301093330,
-        "updated": 1752301298746,
+        "mag": 5.3,
+        "place": "45 km S of Port-Vila, Vanuatu",
+        "time": 1752387410253,
+        "updated": 1752388451508,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41020823",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41020823.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41020823",
-        "ids": ",ci41020823,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.07693,
-        "rms": 0.15,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 15 km ENE of Ridgecrest, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5181667,
-          35.6666667,
-          10.54
-        ]
-      },
-      "id": "ci41020823"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.43,
-        "place": "10 km NNW of Ferndale, CA",
-        "time": 1752301019450,
-        "updated": 1752301339375,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208682",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208682.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 91,
-        "net": "nc",
-        "code": "75208682",
-        "ids": ",nc75208682,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.1424,
-        "rms": 0.07,
-        "gap": 201,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 10 km NNW of Ferndale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.336669921875,
-          40.6438331604004,
-          20.5900001525879
-        ]
-      },
-      "id": "nc75208682"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "4 km NNE of Star Valley Ranch, Wyoming",
-        "time": 1752300876257,
-        "updated": 1752301821451,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qc7w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qc7w.geojson",
-        "felt": 1,
-        "cdi": 2.7,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcd8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcd8.geojson",
+        "felt": 2,
+        "cdi": 4.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 82,
+        "sig": 433,
         "net": "us",
-        "code": "7000qc7w",
-        "ids": ",us7000qc7w,",
+        "code": "7000qcd8",
+        "ids": ",us7000qcd8,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.27,
-        "rms": 0.4,
-        "gap": 73,
-        "magType": "ml",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 59,
+        "dmin": 2.903,
+        "rms": 0.78,
+        "gap": 123,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 2.3 - 4 km NNE of Star Valley Ranch, Wyoming"
+        "title": "M 5.3 - 45 km S of Port-Vila, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -110.9427,
-          43.0089,
-          5.265
+          168.3659,
+          -18.1428,
+          10
         ]
       },
-      "id": "us7000qc7w"
+      "id": "us7000qcd8"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.02,
-        "place": "9 km WNW of Cobb, CA",
-        "time": 1752300523880,
-        "updated": 1752300619217,
+        "mag": 5,
+        "place": "47 km W of San Antonio de los Cobres, Argentina",
+        "time": 1752386219591,
+        "updated": 1752387322040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208677",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208677.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcd6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcd6.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 16,
-        "net": "nc",
-        "code": "75208677",
-        "ids": ",nc75208677,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.01042,
-        "rms": 0.03,
-        "gap": 82,
-        "magType": "md",
+        "sig": 385,
+        "net": "us",
+        "code": "7000qcd6",
+        "ids": ",us7000qcd6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 1.772,
+        "rms": 1.27,
+        "gap": 58,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.0 - 9 km WNW of Cobb, CA"
+        "title": "M 5.0 - 47 km W of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.822166442871,
-          38.8380012512207,
-          0.109999999403954
+          -66.7847,
+          -24.1845,
+          189.891
         ]
       },
-      "id": "nc75208677"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.26,
-        "place": "1 km  of The Geysers, CA",
-        "time": 1752300104420,
-        "updated": 1752300199211,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208672",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208672.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75208672",
-        "ids": ",nc75208672,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.0136,
-        "rms": 0.02,
-        "gap": 92,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.3 - 1 km  of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.758666992188,
-          38.7831649780273,
-          2.42000007629395
-        ]
-      },
-      "id": "nc75208672"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.96,
-        "place": "9 km WNW of Cobb, CA",
-        "time": 1752299570090,
-        "updated": 1752299668955,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208662",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208662.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "nc",
-        "code": "75208662",
-        "ids": ",nc75208662,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.00873,
-        "rms": 0.03,
-        "gap": 94,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 9 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.824333190918,
-          38.839168548584,
-          1.26999998092651
-        ]
-      },
-      "id": "nc75208662"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.69,
-        "place": "9 km WNW of Cobb, CA",
-        "time": 1752299543500,
-        "updated": 1752299639171,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208657",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208657.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75208657",
-        "ids": ",nc75208657,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.01027,
-        "rms": 0.01,
-        "gap": 87,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 9 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.822334289551,
-          38.8385009765625,
-          0.660000026226044
-        ]
-      },
-      "id": "nc75208657"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.25,
-        "place": "19 km NNE of Olancha, CA",
-        "time": 1752298779960,
-        "updated": 1752298986506,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41020815",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41020815.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "ci",
-        "code": "41020815",
-        "ids": ",ci41020815,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.1088,
-        "rms": 0.16,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 19 km NNE of Olancha, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9453333,
-          36.443,
-          9.23
-        ]
-      },
-      "id": "ci41020815"
+      "id": "us7000qcd6"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.8,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1752298619670,
-        "updated": 1752298714105,
+        "place": "30 km WSW of Skwentna, Alaska",
+        "time": 1752385875082,
+        "updated": 1752386018134,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75208652",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75208652.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258wxjgic",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258wxjgic.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -426,36 +226,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 10,
-        "net": "nc",
-        "code": "75208652",
-        "ids": ",nc75208652,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.01134,
-        "rms": 0.03,
-        "gap": 76,
-        "magType": "md",
+        "net": "ak",
+        "code": "0258wxjgic",
+        "ids": ",ak0258wxjgic,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.27,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 5 km NW of The Geysers, CA"
+        "title": "M 0.8 - 30 km WSW of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.810668945312,
-          38.7980003356934,
-          2.97000002861023
+          -151.9433,
+          61.9099,
+          15.4
         ]
       },
-      "id": "nc75208652"
+      "id": "ak0258wxjgic"
     }
   ],
   "bbox": [
-    -151.5578,
-    33.1686667,
-    0.10999999940395,
-    -110.9427,
-    64.9238,
-    20.590000152588
+    -151.9433,
+    -24.1845,
+    1.95627141,
+    168.3659,
+    61.9099,
+    189.891
   ]
 }
