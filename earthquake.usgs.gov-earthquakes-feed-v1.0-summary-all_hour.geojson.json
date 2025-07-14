@@ -1,261 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752388482000,
+    "generated": 1752474912000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.44,
-        "place": "7 km E of Guthrie, Oklahoma",
-        "time": 1752388223487,
-        "updated": 1752388393488,
+        "mag": 1.7,
+        "place": "61 km WNW of Nanwalek, Alaska",
+        "time": 1752474424365,
+        "updated": 1752474580414,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025npcz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025npcz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258ylj2lf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258ylj2lf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 92,
-        "net": "ok",
-        "code": "2025npcz",
-        "ids": ",ok2025npcz,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 79,
-        "dmin": 0.1567304432,
-        "rms": 0.5004067815,
-        "gap": 21.14826965,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 7 km E of Guthrie, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.34085846,
-          35.88996506,
-          4.510930538
-        ]
-      },
-      "id": "ok2025npcz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.94,
-        "place": "7 km ENE of Guthrie, Oklahoma",
-        "time": 1752387893512,
-        "updated": 1752388302788,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025npcu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025npcu.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 133,
-        "net": "ok",
-        "code": "2025npcu",
-        "ids": ",ok2025npcu,",
-        "sources": ",ok,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 94,
-        "dmin": 0.1673072726,
-        "rms": 0.5482740938,
-        "gap": 15.79130173,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 7 km ENE of Guthrie, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.34241486,
-          35.9007988,
-          1.95627141
-        ]
-      },
-      "id": "ok2025npcu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "5 km NNE of Point MacKenzie, Alaska",
-        "time": 1752387426890,
-        "updated": 1752387942803,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258wxxl4x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258wxxl4x.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 130,
+        "sig": 44,
         "net": "ak",
-        "code": "0258wxxl4x",
-        "ids": ",ak0258wxxl4x,",
+        "code": "0258ylj2lf",
+        "ids": ",ak0258ylj2lf,",
         "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
+        "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.33,
+        "rms": 0.47,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 5 km NNE of Point MacKenzie, Alaska"
+        "title": "M 1.7 - 61 km WNW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.9313,
-          61.3987,
-          33.8
+          -152.9585,
+          59.5043,
+          94.8
         ]
       },
-      "id": "ak0258wxxl4x"
+      "id": "ak0258ylj2lf"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
-        "place": "45 km S of Port-Vila, Vanuatu",
-        "time": 1752387410253,
-        "updated": 1752388451508,
+        "mag": 0.65,
+        "place": "8 km NNW of The Geysers, CA",
+        "time": 1752474030080,
+        "updated": 1752474124202,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcd8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcd8.geojson",
-        "felt": 2,
-        "cdi": 4.6,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75209662",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75209662.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 433,
+        "sig": 6,
+        "net": "nc",
+        "code": "75209662",
+        "ids": ",nc75209662,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.008276,
+        "rms": 0.02,
+        "gap": 78,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 8 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.817001342773,
+          38.8296661376953,
+          2.67000007629395
+        ]
+      },
+      "id": "nc75209662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.71,
+        "place": "8 km NNW of The Geysers, CA",
+        "time": 1752472925680,
+        "updated": 1752473020260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75209657",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75209657.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75209657",
+        "ids": ",nc75209657,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.01162,
+        "rms": 0.01,
+        "gap": 57,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 8 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816665649414,
+          38.8338317871094,
+          1.73000001907349
+        ]
+      },
+      "id": "nc75209657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.45,
+        "place": "21 km NNE of Kernville, CA",
+        "time": 1752472320380,
+        "updated": 1752472540305,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41022135",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41022135.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "ci",
+        "code": "41022135",
+        "ids": ",ci41022135,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.1777,
+        "rms": 0.17,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 21 km NNE of Kernville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3246667,
+          35.9288333,
+          14.19
+        ]
+      },
+      "id": "ci41022135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.7,
+        "place": "179 km WSW of Tual, Indonesia",
+        "time": 1752472197488,
+        "updated": 1752474869754,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcik.geojson",
+        "felt": 36,
+        "cdi": 4.9,
+        "mmi": 5.566,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 708,
         "net": "us",
-        "code": "7000qcd8",
-        "ids": ",us7000qcd8,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 59,
-        "dmin": 2.903,
-        "rms": 0.78,
-        "gap": 123,
+        "code": "7000qcik",
+        "ids": ",pt25195000,at00szdk79,us7000qcik,",
+        "sources": ",pt,at,us,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 110,
+        "dmin": 2.073,
+        "rms": 0.82,
+        "gap": 18,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 45 km S of Port-Vila, Vanuatu"
+        "title": "M 6.7 - 179 km WSW of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          168.3659,
-          -18.1428,
-          10
+          131.2126,
+          -6.1461,
+          65.672
         ]
       },
-      "id": "us7000qcd8"
+      "id": "us7000qcik"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "47 km W of San Antonio de los Cobres, Argentina",
-        "time": 1752386219591,
-        "updated": 1752387322040,
+        "mag": 2.02,
+        "place": "11 km SSE of Livermore, CA",
+        "time": 1752471678650,
+        "updated": 1752473239987,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcd6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcd6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000qcd6",
-        "ids": ",us7000qcd6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 1.772,
-        "rms": 1.27,
-        "gap": 58,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 47 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7847,
-          -24.1845,
-          189.891
-        ]
-      },
-      "id": "us7000qcd6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "30 km WSW of Skwentna, Alaska",
-        "time": 1752385875082,
-        "updated": 1752386018134,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0258wxjgic",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0258wxjgic.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75209642",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75209642.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "ak",
-        "code": "0258wxjgic",
-        "ids": ",ak0258wxjgic,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.27,
-        "gap": null,
-        "magType": "ml",
+        "sig": 63,
+        "net": "nc",
+        "code": "75209642",
+        "ids": ",nc75209642,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 48,
+        "dmin": 0.07752,
+        "rms": 0.15,
+        "gap": 83,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 30 km WSW of Skwentna, Alaska"
+        "title": "M 2.0 - 11 km SSE of Livermore, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.9433,
-          61.9099,
-          15.4
+          -121.68733215332,
+          37.605167388916,
+          17.1499996185303
         ]
       },
-      "id": "ak0258wxjgic"
+      "id": "nc75209642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "115 km WNW of Ternate, Indonesia",
+        "time": 1752471551197,
+        "updated": 1752474218484,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcih",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qcih.geojson",
+        "felt": 6,
+        "cdi": 2.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 418,
+        "net": "us",
+        "code": "7000qcih",
+        "ids": ",us7000qcih,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 81,
+        "dmin": 1.031,
+        "rms": 1.16,
+        "gap": 78,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 115 km WNW of Ternate, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5015,
+          1.336,
+          47.085
+        ]
+      },
+      "id": "us7000qcih"
     }
   ],
   "bbox": [
-    -151.9433,
-    -24.1845,
-    1.95627141,
-    168.3659,
-    61.9099,
-    189.891
+    -152.9585,
+    -6.1461,
+    1.7300000190735,
+    131.2126,
+    59.5043,
+    94.8
   ]
 }
