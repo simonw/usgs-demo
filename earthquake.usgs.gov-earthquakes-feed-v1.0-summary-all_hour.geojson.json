@@ -1,304 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752561304000,
+    "generated": 1752647692000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 12
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.22,
-        "place": "6 km WSW of Ojai, CA",
-        "time": 1752560977100,
-        "updated": 1752561180886,
+        "mag": 0.7,
+        "place": "5 km S of Idyllwild, CA",
+        "time": 1752647112490,
+        "updated": 1752647322259,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41022903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41022903.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41023903",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41023903.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 23,
+        "sig": 8,
         "net": "ci",
-        "code": "41022903",
-        "ids": ",ci41022903,",
+        "code": "41023903",
+        "ids": ",ci41023903,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.03952,
-        "rms": 0.24,
-        "gap": 35,
+        "nst": 35,
+        "dmin": 0.03997,
+        "rms": 0.18,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 6 km WSW of Ojai, CA"
+        "title": "M 0.7 - 5 km S of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.309,
-          34.4356667,
-          9.45
+          -116.7098333,
+          33.6953333,
+          17.44
         ]
       },
-      "id": "ci41022903"
+      "id": "ci41023903"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "59 km NE of Whittier, Alaska",
-        "time": 1752560842855,
-        "updated": 1752560943150,
+        "mag": 0.8,
+        "place": "13 km NNE of Soda Springs, California",
+        "time": 1752647035416,
+        "updated": 1752647168982,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259092gil",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259092gil.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900691",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900691.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "0259092gil",
-        "ids": ",ak0259092gil,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.35,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 59 km NE of Whittier, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.8594,
-          61.1309,
-          5.9
-        ]
-      },
-      "id": "ak0259092gil"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.01,
-        "place": "5 km ENE of Calumet, Oklahoma",
-        "time": 1752560842458,
-        "updated": 1752561056311,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025nstw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025nstw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ok",
-        "code": "2025nstw",
-        "ids": ",ok2025nstw,",
-        "sources": ",ok,",
+        "sig": 10,
+        "net": "nn",
+        "code": "00900691",
+        "ids": ",nn00900691,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
         "nst": 10,
-        "dmin": 0.1462335587,
-        "rms": 1.021125006,
-        "gap": 107.5925064,
+        "dmin": 0.083,
+        "rms": 0.0926,
+        "gap": 164.39999999999998,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 5 km ENE of Calumet, Oklahoma"
+        "title": "M 0.8 - 13 km NNE of Soda Springs, California"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.05535889,
-          35.61439896,
-          7.106415272
+          -120.3022,
+          39.4335,
+          10.1
         ]
       },
-      "id": "ok2025nstw"
+      "id": "nn00900691"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.89,
-        "place": "18 km WSW of Johannesburg, CA",
-        "time": 1752560810610,
-        "updated": 1752561020811,
+        "mag": 2.18,
+        "place": "6 km SSW of Playita Cortada, Puerto Rico",
+        "time": 1752646232370,
+        "updated": 1752647065870,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41022895",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41022895.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489413",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489413.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "41022895",
-        "ids": ",ci41022895,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.04941,
-        "rms": 0.17,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 18 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8226667,
-          35.3131667,
-          9.57
-        ]
-      },
-      "id": "ci41022895"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "75 km WNW of Tyonek, Alaska",
-        "time": 1752560710287,
-        "updated": 1752560828337,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259092044",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259092044.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "0259092044",
-        "ids": ",ak0259092044,",
-        "sources": ",ak,",
+        "sig": 73,
+        "net": "pr",
+        "code": "71489413",
+        "ids": ",pr71489413,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.75,
-        "gap": null,
-        "magType": "ml",
+        "nst": 10,
+        "dmin": 0.07264,
+        "rms": 0.13,
+        "gap": 155,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.0 - 75 km WNW of Tyonek, Alaska"
+        "title": "M 2.2 - 6 km SSW of Playita Cortada, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.4417,
-          61.31,
-          0
+          -66.4626666666667,
+          17.926,
+          7.14
         ]
       },
-      "id": "ak0259092044"
+      "id": "pr71489413"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "17 km NNW of Westbrook, Texas",
-        "time": 1752560706123,
-        "updated": 1752560890441,
+        "mag": 2.86,
+        "place": "18 km ESE of El Negro, Puerto Rico",
+        "time": 1752645917380,
+        "updated": 1752646794890,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025nuljlw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025nuljlw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489408",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489408.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 26,
-        "net": "tx",
-        "code": "2025nuljlw",
-        "ids": ",tx2025nuljlw,",
-        "sources": ",tx,",
+        "sig": 126,
+        "net": "pr",
+        "code": "71489408",
+        "ids": ",pr71489408,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 139,
-        "magType": "ml",
+        "nst": 7,
+        "dmin": 0.2586,
+        "rms": 0.31,
+        "gap": 218,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 17 km NNW of Westbrook, Texas"
+        "title": "M 2.9 - 18 km ESE of El Negro, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.084,
-          32.497,
-          3.73
+          -65.6931666666667,
+          17.959,
+          7.61
         ]
       },
-      "id": "tx2025nuljlw"
+      "id": "pr71489408"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "79 km WNW of Tyonek, Alaska",
-        "time": 1752560525767,
-        "updated": 1752560601527,
+        "mag": 2.75,
+        "place": "16 km ESE of El Negro, Puerto Rico",
+        "time": 1752645817080,
+        "updated": 1752646436340,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259091cm8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259091cm8.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489398",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489398.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "0259091cm8",
-        "ids": ",ak0259091cm8,",
-        "sources": ",ak,",
+        "sig": 116,
+        "net": "pr",
+        "code": "71489398",
+        "ids": ",pr71489398,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.83,
-        "gap": null,
-        "magType": "ml",
+        "nst": 7,
+        "dmin": 0.2568,
+        "rms": 0.12,
+        "gap": 259,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 79 km WNW of Tyonek, Alaska"
+        "title": "M 2.8 - 16 km ESE of El Negro, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.5238,
-          61.3044,
-          7.3
+          -65.7155,
+          17.9646666666667,
+          4.36
         ]
       },
-      "id": "ak0259091cm8"
+      "id": "pr71489398"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.35,
-        "place": "14 km ENE of Indio, CA",
-        "time": 1752560319560,
-        "updated": 1752560978830,
+        "place": "4 km NNW of Wildomar, CA",
+        "time": 1752645401820,
+        "updated": 1752645617994,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41022887",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41022887.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41023895",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41023895.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -307,195 +227,155 @@
         "tsunami": 0,
         "sig": 28,
         "net": "ci",
-        "code": "41022887",
-        "ids": ",ci41022887,",
+        "code": "41023895",
+        "ids": ",ci41023895,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 8,
+        "dmin": 0.1977,
+        "rms": 0.19,
+        "gap": 115,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 4 km NNW of Wildomar, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2916667,
+          33.6363333,
+          3.06
+        ]
+      },
+      "id": "ci41023895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.75,
+        "place": "15 km WSW of Searles Valley, CA",
+        "time": 1752645320930,
+        "updated": 1752645990260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41023887",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41023887.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "ci",
+        "code": "41023887",
+        "ids": ",ci41023887,",
         "sources": ",ci,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 52,
-        "dmin": 0.1167,
-        "rms": 0.17,
-        "gap": 38,
+        "nst": 41,
+        "dmin": 0.09328,
+        "rms": 0.13,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 14 km ENE of Indio, CA"
+        "title": "M 1.8 - 15 km WSW of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.0816667,
-          33.7891667,
-          1.54
+          -117.5608333,
+          35.7271667,
+          6.24
         ]
       },
-      "id": "ci41022887"
+      "id": "ci41023887"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.360000014,
-        "place": "22 km ENE of Ashford, Washington",
-        "time": 1752559774820,
-        "updated": 1752559864980,
+        "mag": 2.12,
+        "place": "12 km N of Fillmore, CA",
+        "time": 1752645013310,
+        "updated": 1752645626320,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62142942",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62142942.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41023879",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41023879.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "uw",
-        "code": "62142942",
-        "ids": ",uw62142942,",
-        "sources": ",uw,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": null,
-        "rms": 0.0299999993,
-        "gap": 64,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.4 - 22 km ENE of Ashford, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.77083587646484,
-          46.846168518066406,
-          -1.19000005722046
-        ]
-      },
-      "id": "uw62142942"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "76 km WNW of Tyonek, Alaska",
-        "time": 1752559715416,
-        "updated": 1752559790044,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025908yevp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025908yevp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "025908yevp",
-        "ids": ",ak025908yevp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.19,
-        "gap": null,
+        "sig": 69,
+        "net": "ci",
+        "code": "41023879",
+        "ids": ",ci41023879,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 39,
+        "dmin": 0.03359,
+        "rms": 0.29,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 76 km WNW of Tyonek, Alaska"
+        "title": "M 2.1 - 12 km N of Fillmore, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.485,
-          61.299,
-          11.4
+          -118.937,
+          34.5085,
+          -0.41
         ]
       },
-      "id": "ak025908yevp"
+      "id": "ci41023879"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "36 km SE of Malaga, New Mexico",
-        "time": 1752559552577,
-        "updated": 1752559900352,
+        "mag": 0.74,
+        "place": "5 km NW of The Geysers, CA",
+        "time": 1752644836370,
+        "updated": 1752644932889,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025nuksui",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025nuksui.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75210642",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75210642.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "tx",
-        "code": "2025nuksui",
-        "ids": ",tx2025nuksui,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 36 km SE of Malaga, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.764,
-          32.02,
-          10.0131
-        ]
-      },
-      "id": "tx2025nuksui"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1752559248680,
-        "updated": 1752559347389,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75210087",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75210087.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
+        "sig": 8,
         "net": "nc",
-        "code": "75210087",
-        "ids": ",nc75210087,",
+        "code": "75210642",
+        "ids": ",nc75210642,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01043,
+        "nst": 6,
+        "dmin": 0.01083,
         "rms": 0.01,
-        "gap": 89,
+        "gap": 120,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 7 km NW of The Geysers, CA"
+        "title": "M 0.7 - 5 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.823165893555,
-          38.8183326721191,
-          1.82000005245209
+          -122.808502197266,
+          38.8046684265137,
+          2.00999999046326
         ]
       },
-      "id": "nc75210087"
+      "id": "nc75210642"
     }
   ],
   "bbox": [
-    -152.5238,
-    32.02,
-    -1.1900000572205,
-    -98.05535889,
-    61.31,
-    11.4
+    -122.80850219727,
+    17.926,
+    -0.41,
+    -65.693166666667,
+    39.4335,
+    17.44
   ]
 }
