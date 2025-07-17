@@ -1,64 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752647692000,
+    "generated": 1752734130000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 13
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "5 km S of Idyllwild, CA",
-        "time": 1752647112490,
-        "updated": 1752647322259,
+        "mag": 1.21,
+        "place": "3 km N of Cabazon, CA",
+        "time": 1752733956210,
+        "updated": 1752734093396,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41023903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41023903.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41024615",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41024615.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
+        "sig": 23,
         "net": "ci",
-        "code": "41023903",
-        "ids": ",ci41023903,",
+        "code": "41024615",
+        "ids": ",ci41024615,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.03997,
-        "rms": 0.18,
-        "gap": 58,
+        "nst": 41,
+        "dmin": 0.0892,
+        "rms": 0.22,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 5 km S of Idyllwild, CA"
+        "title": "M 1.2 - 3 km N of Cabazon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7098333,
-          33.6953333,
-          17.44
+          -116.786499,
+          33.9474983,
+          13.05
         ]
       },
-      "id": "ci41023903"
+      "id": "ci41024615"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.8,
-        "place": "13 km NNE of Soda Springs, California",
-        "time": 1752647035416,
-        "updated": 1752647168982,
+        "place": "1 km NE of The Geysers, CA",
+        "time": 1752733545300,
+        "updated": 1752733643758,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900691",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900691.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75211007",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75211007.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,316 +66,476 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 10,
-        "net": "nn",
-        "code": "00900691",
-        "ids": ",nn00900691,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.083,
-        "rms": 0.0926,
-        "gap": 164.39999999999998,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 13 km NNE of Soda Springs, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.3022,
-          39.4335,
-          10.1
-        ]
-      },
-      "id": "nn00900691"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.18,
-        "place": "6 km SSW of Playita Cortada, Puerto Rico",
-        "time": 1752646232370,
-        "updated": 1752647065870,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489413",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489413.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 73,
-        "net": "pr",
-        "code": "71489413",
-        "ids": ",pr71489413,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.07264,
-        "rms": 0.13,
-        "gap": 155,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 6 km SSW of Playita Cortada, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.4626666666667,
-          17.926,
-          7.14
-        ]
-      },
-      "id": "pr71489413"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "18 km ESE of El Negro, Puerto Rico",
-        "time": 1752645917380,
-        "updated": 1752646794890,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489408.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "pr",
-        "code": "71489408",
-        "ids": ",pr71489408,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2586,
-        "rms": 0.31,
-        "gap": 218,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 18 km ESE of El Negro, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.6931666666667,
-          17.959,
-          7.61
-        ]
-      },
-      "id": "pr71489408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.75,
-        "place": "16 km ESE of El Negro, Puerto Rico",
-        "time": 1752645817080,
-        "updated": 1752646436340,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71489398",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71489398.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 116,
-        "net": "pr",
-        "code": "71489398",
-        "ids": ",pr71489398,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2568,
-        "rms": 0.12,
-        "gap": 259,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.8 - 16 km ESE of El Negro, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.7155,
-          17.9646666666667,
-          4.36
-        ]
-      },
-      "id": "pr71489398"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.35,
-        "place": "4 km NNW of Wildomar, CA",
-        "time": 1752645401820,
-        "updated": 1752645617994,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41023895",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41023895.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41023895",
-        "ids": ",ci41023895,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.1977,
-        "rms": 0.19,
-        "gap": 115,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 4 km NNW of Wildomar, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.2916667,
-          33.6363333,
-          3.06
-        ]
-      },
-      "id": "ci41023895"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.75,
-        "place": "15 km WSW of Searles Valley, CA",
-        "time": 1752645320930,
-        "updated": 1752645990260,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41023887",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41023887.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "ci",
-        "code": "41023887",
-        "ids": ",ci41023887,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.09328,
-        "rms": 0.13,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 15 km WSW of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5608333,
-          35.7271667,
-          6.24
-        ]
-      },
-      "id": "ci41023887"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "12 km N of Fillmore, CA",
-        "time": 1752645013310,
-        "updated": 1752645626320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41023879",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41023879.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "ci",
-        "code": "41023879",
-        "ids": ",ci41023879,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.03359,
-        "rms": 0.29,
-        "gap": 55,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 12 km N of Fillmore, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.937,
-          34.5085,
-          -0.41
-        ]
-      },
-      "id": "ci41023879"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1752644836370,
-        "updated": 1752644932889,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75210642",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75210642.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
         "net": "nc",
-        "code": "75210642",
-        "ids": ",nc75210642,",
+        "code": "75211007",
+        "ids": ",nc75211007,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.01083,
-        "rms": 0.01,
-        "gap": 120,
+        "nst": 13,
+        "dmin": 0.01179,
+        "rms": 0.02,
+        "gap": 134,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 5 km NW of The Geysers, CA"
+        "title": "M 0.8 - 1 km NE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.808502197266,
-          38.8046684265137,
-          2.00999999046326
+          -122.750335693359,
+          38.7883338928223,
+          3.63000011444092
         ]
       },
-      "id": "nc75210642"
+      "id": "nc75211007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "103 km SSE of Sand Point, Alaska",
+        "time": 1752732967176,
+        "updated": 1752733639040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd5h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd5h.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.294,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "7000qd5h",
+        "ids": ",us7000qd5h,ak02593k2rhf,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 64,
+        "dmin": 0.404,
+        "rms": 0.5,
+        "gap": 187,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.6 - 103 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.9068,
+          54.4724,
+          35.625
+        ]
+      },
+      "id": "us7000qd5h"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.76,
+        "place": "6 km ESE of Wrightwood, CA",
+        "time": 1752732867520,
+        "updated": 1752733080135,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41024607",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41024607.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "ci",
+        "code": "41024607",
+        "ids": ",ci41024607,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.1005,
+        "rms": 0.17,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 6 km ESE of Wrightwood, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.569,
+          34.3378333,
+          11.5
+        ]
+      },
+      "id": "ci41024607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78,
+        "place": "5 km NNW of The Geysers, CA",
+        "time": 1752732822610,
+        "updated": 1752732919962,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75211002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75211002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75211002",
+        "ids": ",nc75211002,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.002032,
+        "rms": 0.01,
+        "gap": 72,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 5 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.792831420898,
+          38.8073348999023,
+          3.26999998092651
+        ]
+      },
+      "id": "nc75211002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "94 km SSE of Sand Point, Alaska",
+        "time": 1752732097754,
+        "updated": 1752733002040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd5g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd5g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "7000qd5g",
+        "ids": ",us7000qd5g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.435,
+        "rms": 0.48,
+        "gap": 199,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 94 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.1015,
+          54.5143,
+          35
+        ]
+      },
+      "id": "us7000qd5g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "102 km SSE of Sand Point, Alaska",
+        "time": 1752732025366,
+        "updated": 1752732864040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd5f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd5f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "us",
+        "code": "7000qd5f",
+        "ids": ",us7000qd5f,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.449,
+        "rms": 1.27,
+        "gap": 203,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 102 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.0146,
+          54.4569,
+          36.485
+        ]
+      },
+      "id": "us7000qd5f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "66 km ENE of Pedro Bay, Alaska",
+        "time": 1752731717864,
+        "updated": 1752732605040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02593jppka",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02593jppka.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "02593jppka",
+        "ids": ",us7000qd5b,ak02593jppka,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.39,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 66 km ENE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.0142,
+          60.034,
+          120.1
+        ]
+      },
+      "id": "ak02593jppka"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "102 km SSE of Sand Point, Alaska",
+        "time": 1752731593469,
+        "updated": 1752732464040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd5d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd5d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "us",
+        "code": "7000qd5d",
+        "ids": ",us7000qd5d,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.342,
+        "rms": 0.63,
+        "gap": 196,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 102 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.8002,
+          54.5124,
+          35.588
+        ]
+      },
+      "id": "us7000qd5d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.6,
+        "place": "106 km SSE of Sand Point, Alaska",
+        "time": 1752731570345,
+        "updated": 1752732325040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd5c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd5c.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 199,
+        "net": "us",
+        "code": "7000qd5c",
+        "ids": ",us7000qd5c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 0.397,
+        "rms": 0.62,
+        "gap": 187,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.6 - 106 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.833,
+          54.4606,
+          36.377
+        ]
+      },
+      "id": "us7000qd5c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1500000000000001,
+        "place": "23 km ENE of Ashford, Washington",
+        "time": 1752731527620,
+        "updated": 1752732431830,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62144767",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62144767.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 20,
+        "net": "uw",
+        "code": "62144767",
+        "ids": ",uw62144767,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.02343,
+        "rms": 0.06,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 23 km ENE of Ashford, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.75883333333333,
+          46.8515,
+          -1.98
+        ]
+      },
+      "id": "uw62144767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "102 km SSE of Sand Point, Alaska",
+        "time": 1752731467231,
+        "updated": 1752732036040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd5a",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qd5a.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.849,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 222,
+        "net": "us",
+        "code": "7000qd5a",
+        "ids": ",us7000qd5a,ak02593jotx8,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 74,
+        "dmin": 0.451,
+        "rms": 0.67,
+        "gap": 177,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.8 - 102 km SSE of Sand Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.0215,
+          54.4572,
+          37.781
+        ]
+      },
+      "id": "us7000qd5a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "25 km ESE of Chickaloon, Alaska",
+        "time": 1752731368817,
+        "updated": 1752731496157,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02593jog41",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02593jog41.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ak",
+        "code": "02593jog41",
+        "ids": ",ak02593jog41,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.39,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 25 km ESE of Chickaloon, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0653,
+          61.6723,
+          18.3
+        ]
+      },
+      "id": "ak02593jog41"
     }
   ],
   "bbox": [
-    -122.80850219727,
-    17.926,
-    -0.41,
-    -65.693166666667,
-    39.4335,
-    17.44
+    -160.1015,
+    33.9474983,
+    -1.98,
+    -116.786499,
+    61.6723,
+    120.1
   ]
 }
