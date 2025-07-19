@@ -1,144 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752820507000,
+    "generated": 1752906864000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "19 km SSE of Lindsay, Texas",
-        "time": 1752819008217,
-        "updated": 1752819240437,
+        "mag": 2,
+        "place": "10 km ENE of North Pearsall, Texas",
+        "time": 1752906461958,
+        "updated": 1752906579047,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025nzybfw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025nzybfw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025obujex",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025obujex.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 62,
         "net": "tx",
-        "code": "2025nzybfw",
-        "ids": ",tx2025nzybfw,",
+        "code": "2025obujex",
+        "ids": ",tx2025obujex,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.1,
+        "nst": 8,
+        "dmin": 0.3,
         "rms": 0.5,
-        "gap": 52,
+        "gap": 222,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 19 km SSE of Lindsay, Texas"
+        "title": "M 2.0 - 10 km ENE of North Pearsall, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.481,
-          31.2,
-          7.4428
+          -98.997,
+          28.945,
+          3.5773
         ]
       },
-      "id": "tx2025nzybfw"
+      "id": "tx2025obujex"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "21 km NW of Susitna, Alaska",
-        "time": 1752818834837,
-        "updated": 1752818934586,
+        "mag": 1.7,
+        "place": "39 km WSW of Mentone, Texas",
+        "time": 1752906426755,
+        "updated": 1752906613080,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025957k723",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025957k723.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025obuipq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025obuipq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "025957k723",
-        "ids": ",ak025957k723,",
-        "sources": ",ak,",
+        "sig": 44,
+        "net": "tx",
+        "code": "2025obuipq",
+        "ids": ",tx2025obuipq,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.27,
-        "gap": null,
+        "nst": 38,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 21 km NW of Susitna, Alaska"
+        "title": "M 1.7 - 39 km WSW of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.8075,
-          61.6701,
-          68.5
+          -104.006,
+          31.623,
+          7.4571
         ]
       },
-      "id": "ak025957k723"
+      "id": "tx2025obuipq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "133 km SE of Port Graham, Alaska",
-        "time": 1752818255853,
-        "updated": 1752818406427,
+        "mag": 1.94,
+        "place": "7 km E of Guthrie, Oklahoma",
+        "time": 1752905164153,
+        "updated": 1752906329351,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259579ivl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259579ivl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025oabe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025oabe.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "ok",
+        "code": "2025oabe",
+        "ids": ",ok2025oabe,",
+        "sources": ",ok,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.1569144875,
+        "rms": 0.5781295983,
+        "gap": 31.94734192,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 7 km E of Guthrie, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.34630585,
+          35.88840485,
+          3.086261988
+        ]
+      },
+      "id": "ok2025oabe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "7 km E of Guthrie, Oklahoma",
+        "time": 1752904852511,
+        "updated": 1752906344092,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdrp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdrp.geojson",
+        "felt": 7,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "us",
+        "code": "7000qdrp",
+        "ids": ",us7000qdrp,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.154,
+        "rms": 0.37,
+        "gap": 42,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.7 - 7 km E of Guthrie, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3403,
+          35.8867,
+          10
+        ]
+      },
+      "id": "us7000qdrp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "61 km ESE of Denali National Park, Alaska",
+        "time": 1752904143748,
+        "updated": 1752904318488,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02596ur361",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02596ur361.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 22,
         "net": "ak",
-        "code": "0259579ivl",
-        "ids": ",ak0259579ivl,",
+        "code": "02596ur361",
+        "ids": ",ak02596ur361,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.71,
+        "rms": 0.48,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 133 km SE of Port Graham, Alaska"
+        "title": "M 1.2 - 61 km ESE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.3522,
-          58.4297,
-          0
+          -150.6652,
+          63.2508,
+          109.4
         ]
       },
-      "id": "ak0259579ivl"
+      "id": "ak02596ur361"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.78,
-        "place": "3 km SSW of Idyllwild, CA",
-        "time": 1752817765880,
-        "updated": 1752817976266,
+        "mag": 0.76,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1752904023550,
+        "updated": 1752904121468,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41025391",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41025391.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75211897",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75211897.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,156 +226,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 9,
-        "net": "ci",
-        "code": "41025391",
-        "ids": ",ci41025391,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.03736,
-        "rms": 0.16,
-        "gap": 37,
-        "magType": "ml",
+        "net": "nc",
+        "code": "75211897",
+        "ids": ",nc75211897,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.01281,
+        "rms": 0.02,
+        "gap": 84,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 3 km SSW of Idyllwild, CA"
+        "title": "M 0.8 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7305,
-          33.7111667,
-          16.69
+          -122.816329956055,
+          38.8168334960938,
+          2.49000000953674
         ]
       },
-      "id": "ci41025391"
+      "id": "nc75211897"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "10 km SSW of Midland, Texas",
-        "time": 1752817752081,
-        "updated": 1752818444344,
+        "mag": 0.7,
+        "place": "21 km NE of Minto, Alaska",
+        "time": 1752903874589,
+        "updated": 1752903975706,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025nzxjfb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025nzxjfb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02596uq2yq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02596uq2yq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "tx",
-        "code": "2025nzxjfb",
-        "ids": ",tx2025nzxjfb,",
-        "sources": ",tx,",
+        "sig": 8,
+        "net": "ak",
+        "code": "02596uq2yq",
+        "ids": ",ak02596uq2yq,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 73,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 10 km SSW of Midland, Texas"
+        "title": "M 0.7 - 21 km NE of Minto, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.109,
-          31.911,
-          3.2771
+          -149.0524,
+          65.296,
+          10.5
         ]
       },
-      "id": "tx2025nzxjfb"
+      "id": "ak02596uq2yq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.55,
-        "place": "3 km ESE of Lake Henshaw, CA",
-        "time": 1752817464960,
-        "updated": 1752817668575,
+        "mag": 1.5700809955596924,
+        "place": "22 km N of Amboy, Washington",
+        "time": 1752903667910,
+        "updated": 1752903826700,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41025383",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41025383.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62146217",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62146217.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
-        "net": "ci",
-        "code": "41025383",
-        "ids": ",ci41025383,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.02217,
-        "rms": 0.22,
-        "gap": 55,
+        "sig": 38,
+        "net": "uw",
+        "code": "62146217",
+        "ids": ",uw62146217,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": null,
+        "rms": 0.129999995,
+        "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 3 km ESE of Lake Henshaw, CA"
+        "title": "M 1.6 - 22 km N of Amboy, Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7325,
-          33.2333333,
-          9.25
+          -122.4106674194336,
+          46.11083221435547,
+          12.960000038147
         ]
       },
-      "id": "ci41025383"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.4,
-        "place": "5 km WSW of Anza, CA",
-        "time": 1752817291260,
-        "updated": 1752817500480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41025375",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41025375.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "41025375",
-        "ids": ",ci41025375,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.02945,
-        "rms": 0.14,
-        "gap": 42,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 5 km WSW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7236667,
-          33.5381667,
-          5.54
-        ]
-      },
-      "id": "ci41025375"
+      "id": "uw62146217"
     }
   ],
   "bbox": [
-    -150.8075,
-    31.2,
-    0,
-    -102.109,
-    61.6701,
-    68.5
+    -150.6652,
+    28.945,
+    2.4900000095367,
+    -97.3403,
+    65.296,
+    109.4
   ]
 }
