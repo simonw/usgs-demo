@@ -1,64 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1752906864000,
+    "generated": 1752993309000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 13
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2,
-        "place": "10 km ENE of North Pearsall, Texas",
-        "time": 1752906461958,
-        "updated": 1752906579047,
+        "mag": 2.8,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1752993166080,
+        "updated": 1752993306176,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025obujex",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025obujex.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41026799",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41026799.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
-        "net": "tx",
-        "code": "2025obujex",
-        "ids": ",tx2025obujex,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 222,
+        "sig": 121,
+        "net": "ci",
+        "code": "41026799",
+        "ids": ",ci41026799,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 92,
+        "dmin": 0.06372,
+        "rms": 0.2,
+        "gap": 22,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 10 km ENE of North Pearsall, Texas"
+        "title": "M 2.8 - 17 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.997,
-          28.945,
-          3.5773
+          -117.8081665,
+          35.3233337,
+          6.42
         ]
       },
-      "id": "tx2025obujex"
+      "id": "ci41026799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.38,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1752992846900,
+        "updated": 1752992943499,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75212332",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75212332.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "nc",
+        "code": "75212332",
+        "ids": ",nc75212332,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.008263,
+        "rms": 0.01,
+        "gap": 89,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.4 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.800834655762,
+          38.8373336791992,
+          1.86000001430511
+        ]
+      },
+      "id": "nc75212332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2074328660964966,
+        "place": "2 km NNW of Carnation, Washington",
+        "time": 1752992837440,
+        "updated": 1752993215151,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62147242",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62147242.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 75,
+        "net": "uw",
+        "code": "62147242",
+        "ids": ",uw62147242,",
+        "sources": ",uw,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 72,
+        "dmin": null,
+        "rms": 0.209999993,
+        "gap": 45,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 2 km NNW of Carnation, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9280014038086,
+          47.66866683959961,
+          12.3000001907349
+        ]
+      },
+      "id": "uw62147242"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.7,
-        "place": "39 km WSW of Mentone, Texas",
-        "time": 1752906426755,
-        "updated": 1752906613080,
+        "place": "40 km SSW of Skwentna, Alaska",
+        "time": 1752992697947,
+        "updated": 1752992788554,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025obuipq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025obuipq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02598iqmjm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02598iqmjm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,276 +146,396 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 44,
-        "net": "tx",
-        "code": "2025obuipq",
-        "ids": ",tx2025obuipq,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "02598iqmjm",
+        "ids": ",ak02598iqmjm,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 36,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.31,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 39 km WSW of Mentone, Texas"
+        "title": "M 1.7 - 40 km SSW of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.006,
-          31.623,
-          7.4571
+          -151.7118,
+          61.6541,
+          95.4
         ]
       },
-      "id": "tx2025obuipq"
+      "id": "ak02598iqmjm"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.94,
-        "place": "7 km E of Guthrie, Oklahoma",
-        "time": 1752905164153,
-        "updated": 1752906329351,
+        "mag": 2.3,
+        "place": "25 km NNW of Toyah, Texas",
+        "time": 1752992156668,
+        "updated": 1752992448897,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025oabe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025oabe.geojson",
-        "felt": 1,
-        "cdi": 3.1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025odprxl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025odprxl.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 58,
-        "net": "ok",
-        "code": "2025oabe",
-        "ids": ",ok2025oabe,",
-        "sources": ",ok,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.1569144875,
-        "rms": 0.5781295983,
-        "gap": 31.94734192,
+        "sig": 81,
+        "net": "tx",
+        "code": "2025odprxl",
+        "ids": ",tx2025odprxl,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0,
+        "rms": 0.6,
+        "gap": 121,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 7 km E of Guthrie, Oklahoma"
+        "title": "M 2.3 - 25 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.34630585,
-          35.88840485,
-          3.086261988
+          -103.877,
+          31.531,
+          5.3097
         ]
       },
-      "id": "ok2025oabe"
+      "id": "tx2025odprxl"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "7 km E of Guthrie, Oklahoma",
-        "time": 1752904852511,
-        "updated": 1752906344092,
+        "mag": 3.4,
+        "place": "137 km SSE of Sand Point, Alaska",
+        "time": 1752991805116,
+        "updated": 1752992660917,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdrp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdrp.geojson",
-        "felt": 7,
-        "cdi": 4.3,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdy6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdy6.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 115,
+        "sig": 178,
         "net": "us",
-        "code": "7000qdrp",
-        "ids": ",us7000qdrp,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.154,
-        "rms": 0.37,
-        "gap": 42,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.7 - 7 km E of Guthrie, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.3403,
-          35.8867,
-          10
-        ]
-      },
-      "id": "us7000qdrp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "61 km ESE of Denali National Park, Alaska",
-        "time": 1752904143748,
-        "updated": 1752904318488,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02596ur361",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02596ur361.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "02596ur361",
-        "ids": ",ak02596ur361,",
-        "sources": ",ak,",
+        "code": "7000qdy6",
+        "ids": ",ak02598inifl,us7000qdy6,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.48,
-        "gap": null,
+        "nst": 31,
+        "dmin": 0.679,
+        "rms": 0.6,
+        "gap": 213,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 61 km ESE of Denali National Park, Alaska"
+        "title": "M 3.4 - 137 km SSE of Sand Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.6652,
-          63.2508,
-          109.4
+          -159.8192,
+          54.1672,
+          37.76
         ]
       },
-      "id": "ak02596ur361"
+      "id": "us7000qdy6"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.76,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1752904023550,
-        "updated": 1752904121468,
+        "mag": 0.83,
+        "place": "5 km WSW of Anza, CA",
+        "time": 1752991714110,
+        "updated": 1752991951364,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75211897",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75211897.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41026791",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41026791.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
+        "sig": 11,
+        "net": "ci",
+        "code": "41026791",
+        "ids": ",ci41026791,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 44,
+        "dmin": 0.03479,
+        "rms": 0.17,
+        "gap": 27,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 5 km WSW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7191667,
+          33.534,
+          5.95
+        ]
+      },
+      "id": "ci41026791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.5,
+        "place": "21 km ESE of Anza, CA",
+        "time": 1752991651130,
+        "updated": 1752991861022,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41026783",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41026783.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41026783",
+        "ids": ",ci41026783,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.1285,
+        "rms": 0.15,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 21 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4496667,
+          33.5108333,
+          7.03
+        ]
+      },
+      "id": "ci41026783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "132 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1752991373563,
+        "updated": 1752992347040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdy4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdy4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000qdy4",
+        "ids": ",us7000qdy4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 158,
+        "dmin": 1.177,
+        "rms": 0.69,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 132 km E of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.5921,
+          52.9429,
+          32.974
+        ]
+      },
+      "id": "us7000qdy4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "12 km E of Cloverdale, CA",
+        "time": 1752991326910,
+        "updated": 1752991424159,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75212327",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75212327.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
         "net": "nc",
-        "code": "75211897",
-        "ids": ",nc75211897,",
+        "code": "75212327",
+        "ids": ",nc75212327,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.01281,
+        "nst": 18,
+        "dmin": 0.003353,
         "rms": 0.02,
-        "gap": 84,
+        "gap": 66,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 7 km NW of The Geysers, CA"
+        "title": "M 1.1 - 12 km E of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.816329956055,
-          38.8168334960938,
-          2.49000000953674
+          -122.880668640137,
+          38.8356666564941,
+          2.63000011444092
         ]
       },
-      "id": "nc75211897"
+      "id": "nc75212327"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "21 km NE of Minto, Alaska",
-        "time": 1752903874589,
-        "updated": 1752903975706,
+        "mag": 1.08,
+        "place": "7 km NNW of The Geysers, CA",
+        "time": 1752991001470,
+        "updated": 1752991099025,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02596uq2yq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02596uq2yq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75212317",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75212317.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "ak",
-        "code": "02596uq2yq",
-        "ids": ",ak02596uq2yq,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.75,
-        "gap": null,
-        "magType": "ml",
+        "sig": 18,
+        "net": "nc",
+        "code": "75212317",
+        "ids": ",nc75212317,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.0058,
+        "rms": 0.02,
+        "gap": 46,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 21 km NE of Minto, Alaska"
+        "title": "M 1.1 - 7 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.0524,
-          65.296,
-          10.5
+          -122.803001403809,
+          38.8251647949219,
+          2.44000005722046
         ]
       },
-      "id": "ak02596uq2yq"
+      "id": "nc75212317"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5700809955596924,
-        "place": "22 km N of Amboy, Washington",
-        "time": 1752903667910,
-        "updated": 1752903826700,
+        "mag": 5.5,
+        "place": "98 km SSW of Basco, Philippines",
+        "time": 1752990332977,
+        "updated": 1752992623843,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62146217",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62146217.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdxz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qdxz.geojson",
+        "felt": 1,
+        "cdi": 5.8,
+        "mmi": 4.391,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 466,
+        "net": "us",
+        "code": "7000qdxz",
+        "ids": ",us7000qdxz,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 146,
+        "dmin": 3.148,
+        "rms": 0.7,
+        "gap": 28,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 98 km SSW of Basco, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4976,
+          19.6786,
+          39.654
+        ]
+      },
+      "id": "us7000qdxz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "29 km E of Mono City, California",
+        "time": 1752990133953,
+        "updated": 1752990284091,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00900892",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00900892.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 38,
-        "net": "uw",
-        "code": "62146217",
-        "ids": ",uw62146217,",
-        "sources": ",uw,",
+        "sig": 44,
+        "net": "nn",
+        "code": "00900892",
+        "ids": ",nn00900892,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": null,
-        "rms": 0.129999995,
-        "gap": 94,
+        "nst": 14,
+        "dmin": 0.296,
+        "rms": 0.1769,
+        "gap": 81.48000000000002,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 22 km N of Amboy, Washington"
+        "title": "M 1.7 - 29 km E of Mono City, California"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4106674194336,
-          46.11083221435547,
-          12.960000038147
+          -118.8145,
+          38.0833,
+          4.5
         ]
       },
-      "id": "uw62146217"
+      "id": "nn00900892"
     }
   ],
   "bbox": [
-    -150.6652,
-    28.945,
-    2.4900000095367,
-    -97.3403,
-    65.296,
-    109.4
+    -159.8192,
+    19.6786,
+    1.8600000143051,
+    160.5921,
+    61.6541,
+    95.4
   ]
 }
