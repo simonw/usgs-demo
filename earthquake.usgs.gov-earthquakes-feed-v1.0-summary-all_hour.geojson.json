@@ -1,541 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753252508000,
+    "generated": 1753338914000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 13
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.47,
-        "place": "5 km E of Calumet, Oklahoma",
-        "time": 1753252364339,
-        "updated": 1753252568789,
+        "mag": 1.26,
+        "place": "24 km N of Yucca Valley, CA",
+        "time": 1753337410440,
+        "updated": 1753338055460,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025ohkc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025ohkc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41030567",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41030567.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 94,
-        "net": "ok",
-        "code": "2025ohkc",
-        "ids": ",ok2025ohkc,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.1492519379,
-        "rms": 0.9536917329,
-        "gap": 58.7653656,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km E of Calumet, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.05570221,
-          35.60651016,
-          2.712458372
-        ]
-      },
-      "id": "ok2025ohkc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.63,
-        "place": "16 km SSW of Searles Valley, CA",
-        "time": 1753252104990,
-        "updated": 1753252316636,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41029487",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41029487.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
+        "sig": 24,
         "net": "ci",
-        "code": "41029487",
-        "ids": ",ci41029487,",
+        "code": "41030567",
+        "ids": ",ci41030567,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.06263,
-        "rms": 0.18,
-        "gap": 141,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 49,
+        "dmin": 0.06978,
+        "rms": 0.15,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 16 km SSW of Searles Valley, CA"
+        "title": "M 1.3 - 24 km N of Yucca Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.4985,
-          35.6505,
-          7.7
+          -116.4563333,
+          34.3253333,
+          8.91
         ]
       },
-      "id": "ci41029487"
+      "id": "ci41030567"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "51 km WNW of Tyonek, Alaska",
-        "time": 1753251307026,
-        "updated": 1753251395974,
+        "mag": 1.8,
+        "place": "16 km ESE of Perryville, Alaska",
+        "time": 1753337239411,
+        "updated": 1753337352933,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259dhamni",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259dhamni.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259f4sadh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259f4sadh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
+        "sig": 50,
         "net": "ak",
-        "code": "0259dhamni",
-        "ids": ",ak0259dhamni,",
+        "code": "0259f4sadh",
+        "ids": ",ak0259f4sadh,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 1.58,
+        "rms": 0.38,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 51 km WNW of Tyonek, Alaska"
+        "title": "M 1.8 - 16 km ESE of Perryville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.0455,
-          61.2101,
-          24.2
+          -158.9305,
+          55.8316,
+          43.8
         ]
       },
-      "id": "ak0259dhamni"
+      "id": "ak0259f4sadh"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "229 km E of Levuka, Fiji",
-        "time": 1753251108417,
-        "updated": 1753252298040,
+        "mag": 0.76,
+        "place": "4 km NNW of The Geysers, CA",
+        "time": 1753337064520,
+        "updated": 1753337160157,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qub1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qub1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000qub1",
-        "ids": ",us6000qub1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 2.433,
-        "rms": 0.94,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 229 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.5318,
-          -17.8636,
-          567.75
-        ]
-      },
-      "id": "us6000qub1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "57 km SSW of Goldfield, Nevada",
-        "time": 1753250957422,
-        "updated": 1753251117030,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00901057",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00901057.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75214282",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75214282.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "nn",
-        "code": "00901057",
-        "ids": ",nn00901057,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.131,
-        "rms": 0.2462,
-        "gap": 110.48999999999998,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 57 km SSW of Goldfield, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3726,
-          37.2047,
-          0.6
-        ]
-      },
-      "id": "nn00901057"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "17 km ESE of Julian, CA",
-        "time": 1753250927120,
-        "updated": 1753251139942,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41029471",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41029471.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41029471",
-        "ids": ",ci41029471,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.04006,
-        "rms": 0.18,
-        "gap": 87,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 17 km ESE of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4238333,
-          33.039,
-          9.84
-        ]
-      },
-      "id": "ci41029471"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "24 km N of Beluga, Alaska",
-        "time": 1753250464179,
-        "updated": 1753250611640,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259dh7mep",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259dh7mep.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "0259dh7mep",
-        "ids": ",ak0259dh7mep,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.62,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 24 km N of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.0352,
-          61.3581,
-          60.1
-        ]
-      },
-      "id": "ak0259dh7mep"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "15 km NNE of Hermleigh, Texas",
-        "time": 1753250200827,
-        "updated": 1753250412850,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ojcgao",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ojcgao.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2025ojcgao",
-        "ids": ",tx2025ojcgao,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 145,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 15 km NNE of Hermleigh, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.67,
-          32.758,
-          3.3203
-        ]
-      },
-      "id": "tx2025ojcgao"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.4,
-        "place": "93 km SSE of Sand Point, Alaska",
-        "time": 1753250162142,
-        "updated": 1753251359040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000quay",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000quay.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.168,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 178,
-        "net": "us",
-        "code": "6000quay",
-        "ids": ",us6000quay,ak0259dgxyvr,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 29,
-        "dmin": 0.324,
-        "rms": 1.07,
-        "gap": 195,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 93 km SSE of Sand Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.9193,
-          54.5697,
-          33.953
-        ]
-      },
-      "id": "us6000quay"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "74 km WNW of Tyonek, Alaska",
-        "time": 1753250005856,
-        "updated": 1753250163450,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259dgxdpl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259dgxdpl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "0259dgxdpl",
-        "ids": ",ak0259dgxdpl,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.87,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 74 km WNW of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.436,
-          61.3014,
-          0
-        ]
-      },
-      "id": "ak0259dgxdpl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "34 km ESE of Malaga, New Mexico",
-        "time": 1753249954355,
-        "updated": 1753250419846,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ojccll",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ojccll.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "tx",
-        "code": "2025ojccll",
-        "ids": ",tx2025ojccll,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 132,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 34 km ESE of Malaga, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.761,
-          32.056,
-          9.2736
-        ]
-      },
-      "id": "tx2025ojccll"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.71,
-        "place": "8 km WNW of Cobb, CA",
-        "time": 1753249627050,
-        "updated": 1753249721691,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75213837",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75213837.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
+        "sig": 9,
         "net": "nc",
-        "code": "75213837",
-        "ids": ",nc75213837,",
+        "code": "75214282",
+        "ids": ",nc75214282,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.01292,
-        "rms": 0.02,
-        "gap": 82,
+        "nst": 9,
+        "dmin": 0.004924,
+        "rms": 0.01,
+        "gap": 63,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 8 km WNW of Cobb, CA"
+        "title": "M 0.8 - 4 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.810165405273,
-          38.8363342285156,
-          1.87999999523163
+          -122.789169311523,
+          38.8068351745605,
+          2.96000003814697
         ]
       },
-      "id": "nc75213837"
+      "id": "nc75214282"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.4,
-        "place": "19 km SW of La Quinta, CA",
-        "time": 1753249001360,
-        "updated": 1753249229166,
+        "mag": 1.1,
+        "place": "39 km NE of Chase, Alaska",
+        "time": 1753336738158,
+        "updated": 1753336830862,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41029463",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41029463.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259f4hv9z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259f4hv9z.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "41029463",
-        "ids": ",ci41029463,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.1221,
-        "rms": 0.1,
-        "gap": 97,
+        "sig": 19,
+        "net": "ak",
+        "code": "0259f4hv9z",
+        "ids": ",ak0259f4hv9z,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 19 km SW of La Quinta, CA"
+        "title": "M 1.1 - 39 km NE of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4435,
-          33.5385,
-          7.03
+          -149.6093,
+          62.7194,
+          16
         ]
       },
-      "id": "ci41029463"
+      "id": "ak0259f4hv9z"
     }
   ],
   "bbox": [
-    -178.5318,
-    -17.8636,
-    0,
-    -98.05570221,
-    61.3581,
-    567.75
+    -158.9305,
+    34.3253333,
+    2.960000038147,
+    -116.4563333,
+    62.7194,
+    43.8
   ]
 }
