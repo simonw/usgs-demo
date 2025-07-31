@@ -1,64 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1753857356000,
+    "generated": 1753943750000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.33,
-        "place": "12 km NNW of Tehachapi, CA",
-        "time": 1753857043950,
-        "updated": 1753857258427,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41244032",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41244032.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 27,
-        "net": "ci",
-        "code": "41244032",
-        "ids": ",ci41244032,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.09176,
-        "rms": 0.14,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 12 km NNW of Tehachapi, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.508,
-          35.2335,
-          8.11
-        ]
-      },
-      "id": "ci41244032"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.8,
-        "place": "28 km WSW of Tatitlek, Alaska",
-        "time": 1753856420878,
-        "updated": 1753856543278,
+        "place": "46 km NW of Egegik, Alaska",
+        "time": 1753942850725,
+        "updated": 1753942969779,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259p235rb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259p235rb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259qpmkk0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259qpmkk0.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -67,238 +27,118 @@
         "tsunami": 0,
         "sig": 50,
         "net": "ak",
-        "code": "0259p235rb",
-        "ids": ",ak0259p235rb,",
+        "code": "0259qpmkk0",
+        "ids": ",ak0259qpmkk0,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.25,
+        "rms": 0.92,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 28 km WSW of Tatitlek, Alaska"
+        "title": "M 1.8 - 46 km NW of Egegik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.1737,
-          60.7919,
-          20.1
+          -157.9807,
+          58.4872,
+          39.4
         ]
       },
-      "id": "ak0259p235rb"
+      "id": "ak0259qpmkk0"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "61 km E of Cantwell, Alaska",
-        "time": 1753855937805,
-        "updated": 1753856066237,
+        "mag": 1.9,
+        "place": "14 km SE of Pearsall, Texas",
+        "time": 1753942648218,
+        "updated": 1753942803399,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259p21fsk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0259p21fsk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025oxutan",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025oxutan.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "0259p21fsk",
-        "ids": ",ak0259p21fsk,",
-        "sources": ",ak,",
+        "sig": 56,
+        "net": "tx",
+        "code": "2025oxutan",
+        "ids": ",tx2025oxutan,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.77,
-        "gap": null,
+        "nst": 6,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 218,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 61 km E of Cantwell, Alaska"
+        "title": "M 1.9 - 14 km SE of Pearsall, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.739,
-          63.5009,
-          0
+          -98.977,
+          28.817,
+          5
         ]
       },
-      "id": "ak0259p21fsk"
+      "id": "tx2025oxutan"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.59,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1753855700340,
-        "updated": 1753856839608,
+        "mag": 1.1,
+        "place": "8 km NNW of Midland, Texas",
+        "time": 1753942270144,
+        "updated": 1753942490131,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75216832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75216832.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025oxunpa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025oxunpa.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "nc",
-        "code": "75216832",
-        "ids": ",nc75216832,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.002506,
-        "rms": 0.03,
-        "gap": 36,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 7 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.807167053223,
-          38.8223342895508,
-          2.53999996185303
-        ]
-      },
-      "id": "nc75216832"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.65,
-        "place": "0 km SSE of Borrego Springs, CA",
-        "time": 1753855684640,
-        "updated": 1753855979605,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41243872",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41243872.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41243872",
-        "ids": ",ci41243872,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.03841,
-        "rms": 0.18,
-        "gap": 50,
+        "sig": 19,
+        "net": "tx",
+        "code": "2025oxunpa",
+        "ids": ",tx2025oxunpa,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 132,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 0 km SSE of Borrego Springs, CA"
+        "title": "M 1.1 - 8 km NNW of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3741667,
-          33.2548333,
-          3.18
+          -102.1,
+          32.071,
+          10.3358
         ]
       },
-      "id": "ci41243872"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.03,
-        "place": "21 km E of Julian, CA",
-        "time": 1753855495110,
-        "updated": 1753855811338,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41243712",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41243712.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 16,
-        "net": "ci",
-        "code": "41243712",
-        "ids": ",ci41243712,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.05692,
-        "rms": 0.18,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 21 km E of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.373,
-          33.0616667,
-          13.69
-        ]
-      },
-      "id": "ci41243712"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.08,
-        "place": "8 km NNW of The Geysers, CA",
-        "time": 1753855414500,
-        "updated": 1753855512487,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75216827",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75216827.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75216827",
-        "ids": ",nc75216827,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.01531,
-        "rms": 0.04,
-        "gap": 48,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 8 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.817001342773,
-          38.8334999084473,
-          1.62000000476837
-        ]
-      },
-      "id": "nc75216827"
+      "id": "tx2025oxunpa"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "155 km SSE of Vilyuchinsk, Russia",
-        "time": 1753854704514,
-        "updated": 1753857123040,
+        "place": "163 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1753941617854,
+        "updated": 1753942602040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwbt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qwbt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwul",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qwul.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -307,75 +147,115 @@
         "tsunami": 0,
         "sig": 385,
         "net": "us",
-        "code": "6000qwbt",
-        "ids": ",us6000qwbt,",
+        "code": "6000qwul",
+        "ids": ",us6000qwul,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 1.414,
-        "rms": 1.17,
-        "gap": 126,
+        "nst": 92,
+        "dmin": 1.458,
+        "rms": 1.14,
+        "gap": 117,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 155 km SSE of Vilyuchinsk, Russia"
+        "title": "M 5.0 - 163 km E of Petropavlovsk-Kamchatsky, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          159.5392,
-          51.721,
+          161.0502,
+          52.8909,
           10
         ]
       },
-      "id": "us6000qwbt"
+      "id": "us6000qwul"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
-        "place": "176 km E of Ozernovskiy, Russia",
-        "time": 1753853828098,
-        "updated": 1753855363040,
+        "mag": 4.6,
+        "place": "112 km SE of Severo-Kuril’sk, Russia",
+        "time": 1753940963460,
+        "updated": 1753943484040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwbm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qwbm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwuk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qwuk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 432,
+        "sig": 326,
         "net": "us",
-        "code": "6000qwbm",
-        "ids": ",us6000qwbm,",
+        "code": "6000qwuk",
+        "ids": ",us6000qwuk,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 107,
-        "dmin": 1.79,
-        "rms": 0.99,
-        "gap": 72,
+        "nst": 62,
+        "dmin": 3.066,
+        "rms": 1.23,
+        "gap": 136,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - 176 km E of Ozernovskiy, Russia"
+        "title": "M 4.6 - 112 km SE of Severo-Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          159.0105,
-          51.2496,
+          157.3732,
+          50.0532,
+          25
+        ]
+      },
+      "id": "us6000qwuk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "155 km E of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1753940398498,
+        "updated": 1753941651040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwui",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qwui.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000qwui",
+        "ids": ",us6000qwui,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.383,
+        "rms": 1.07,
+        "gap": 117,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 155 km E of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.9389,
+          53.0241,
           10
         ]
       },
-      "id": "us6000qwbm"
+      "id": "us6000qwui"
     }
   ],
   "bbox": [
-    -147.739,
-    33.0616667,
-    0,
-    159.5392,
-    63.5009,
-    20.1
+    -157.9807,
+    28.817,
+    5,
+    161.0502,
+    58.4872,
+    39.4
   ]
 }
