@@ -1,304 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754462127000,
+    "generated": 1754548507000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "39 km ESE of Big Pine, California",
-        "time": 1754461864249,
-        "updated": 1754462035536,
+        "mag": 0.85,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1754547777290,
+        "updated": 1754547871708,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00902164",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00902164.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75220312",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75220312.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "nn",
-        "code": "00902164",
-        "ids": ",nn00902164,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.402,
-        "rms": 0.2678,
-        "gap": 187.44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 39 km ESE of Big Pine, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8608,
-          37.0712,
-          1.6
-        ]
-      },
-      "id": "nn00902164"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "29 km W of Denali Park, Alaska",
-        "time": 1754461823795,
-        "updated": 1754461974079,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a0mwqln",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025a0mwqln.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "025a0mwqln",
-        "ids": ",ak025a0mwqln,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.29,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 29 km W of Denali Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.5158,
-          63.6999,
-          113.4
-        ]
-      },
-      "id": "ak025a0mwqln"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.49,
-        "place": "10 km NE of Aguanga, CA",
-        "time": 1754461530000,
-        "updated": 1754461742411,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41254344",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41254344.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41254344",
-        "ids": ",ci41254344,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.02433,
-        "rms": 0.13,
-        "gap": 30,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 10 km NE of Aguanga, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7793333,
-          33.5016667,
-          7.57
-        ]
-      },
-      "id": "ci41254344"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "74 km NW of Karluk, Alaska",
-        "time": 1754460474098,
-        "updated": 1754460561250,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a0mrvgx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025a0mrvgx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ak",
-        "code": "025a0mrvgx",
-        "ids": ",ak025a0mrvgx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.45,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 74 km NW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.4091,
-          57.9966,
-          32.8
-        ]
-      },
-      "id": "ak025a0mrvgx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "58 km WNW of Ninilchik, Alaska",
-        "time": 1754459788972,
-        "updated": 1754461204040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a0mgw04",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025a0mgw04.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "025a0mgw04",
-        "ids": ",us6000qygw,ak025a0mgw04,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.47,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 58 km WNW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.6897,
-          60.1594,
-          91.7
-        ]
-      },
-      "id": "ak025a0mgw04"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "19 km W of Petrolia, CA",
-        "time": 1754459493160,
-        "updated": 1754461109547,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75219877",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75219877.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 126,
+        "sig": 11,
         "net": "nc",
-        "code": "75219877",
-        "ids": ",nc75219877,",
+        "code": "75220312",
+        "ids": ",nc75220312,",
         "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.1185,
-        "rms": 0.16,
-        "gap": 263,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.0125,
+        "rms": 0.01,
+        "gap": 124,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 19 km W of Petrolia, CA"
+        "title": "M 0.9 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.497497558594,
-          40.2866668701172,
-          7.44999980926514
+          -122.816497802734,
+          38.8165016174316,
+          2.60999989509583
         ]
       },
-      "id": "nc75219877"
+      "id": "nc75220312"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "13 km NNE of Toyah, Texas",
-        "time": 1754459308565,
-        "updated": 1754460481756,
+        "mag": 1.8,
+        "place": "40 km NE of Whittier, Alaska",
+        "time": 1754547375625,
+        "updated": 1754547506264,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025piudgv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025piudgv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a2ad2fu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025a2ad2fu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2025piudgv",
-        "ids": ",tx2025piudgv,",
-        "sources": ",tx,",
+        "sig": 50,
+        "net": "ak",
+        "code": "025a2ad2fu",
+        "ids": ",ak025a2ad2fu,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 59,
-        "magType": "mlv",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.46,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 13 km NNE of Toyah, Texas"
+        "title": "M 1.8 - 40 km NE of Whittier, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.745,
-          31.427,
-          5.9519
+          -148.0777,
+          60.9886,
+          46.4
         ]
       },
-      "id": "tx2025piudgv"
+      "id": "ak025a2ad2fu"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.4,
-        "place": "23 km SW of Ackerly, Texas",
-        "time": 1754459097682,
-        "updated": 1754459416559,
+        "place": "22 km NNW of Eureka Roadhouse, Alaska",
+        "time": 1754546103612,
+        "updated": 1754546204629,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025piuagj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025piuagj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a29zyu1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025a29zyu1.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -306,36 +106,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 30,
-        "net": "tx",
-        "code": "2025piuagj",
-        "ids": ",tx2025piuagj,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "025a29zyu1",
+        "ids": ",ak025a29zyu1,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 41,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.73,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 23 km SW of Ackerly, Texas"
+        "title": "M 1.4 - 22 km NNW of Eureka Roadhouse, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.923,
-          32.402,
-          4.3961
+          -147.3837,
+          62.112,
+          31.2
         ]
       },
-      "id": "tx2025piuagj"
+      "id": "ak025a29zyu1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.21,
+        "place": "15 km NNW of San Antonio, Puerto Rico",
+        "time": 1754545432610,
+        "updated": 1754546664970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71491883",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71491883.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 159,
+        "net": "pr",
+        "code": "71491883",
+        "ids": ",pr71491883,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.1606,
+        "rms": 0.2,
+        "gap": 199,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.2 - 15 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1403333333333,
+          18.6265,
+          71.95
+        ]
+      },
+      "id": "pr71491883"
     }
   ],
   "bbox": [
-    -155.4091,
-    31.427,
-    1.6,
-    -101.923,
-    63.6999,
-    113.4
+    -148.0777,
+    18.6265,
+    2.6099998950958,
+    -67.140333333333,
+    62.112,
+    71.95
   ]
 }
