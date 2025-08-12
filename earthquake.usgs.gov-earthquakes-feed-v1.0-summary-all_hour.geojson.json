@@ -1,381 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754894119000,
+    "generated": 1754980519000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "15 km SSE of Whittier, Alaska",
-        "time": 1754892398565,
-        "updated": 1754892525038,
+        "mag": 2.2,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1754980263756,
+        "updated": 1754980510636,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a8wgd0w",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025a8wgd0w.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ptvxgc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ptvxgc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "025a8wgd0w",
-        "ids": ",ak025a8wgd0w,",
-        "sources": ",ak,",
+        "sig": 74,
+        "net": "tx",
+        "code": "2025ptvxgc",
+        "ids": ",tx2025ptvxgc,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.58,
-        "gap": null,
+        "nst": 36,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 96,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 15 km SSE of Whittier, Alaska"
+        "title": "M 2.2 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.5346,
-          60.6563,
-          25.7
+          -104.381,
+          31.664,
+          4.2238
         ]
       },
-      "id": "ak025a8wgd0w"
+      "id": "tx2025ptvxgc"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "52 km WNW of Ninilchik, Alaska",
-        "time": 1754892047621,
-        "updated": 1754892155226,
+        "mag": 0.5,
+        "place": "18 km N of Ridgecrest, CA",
+        "time": 1754980251890,
+        "updated": 1754980461059,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a8wf3fe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025a8wf3fe.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258976",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258976.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "025a8wf3fe",
-        "ids": ",ak025a8wf3fe,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.27,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 52 km WNW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.5151,
-          60.2512,
-          105.3
-        ]
-      },
-      "id": "ak025a8wf3fe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.55,
-        "place": "15 km ESE of Anza, CA",
-        "time": 1754891892310,
-        "updated": 1754892103994,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258216",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258216.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 5,
+        "sig": 4,
         "net": "ci",
-        "code": "41258216",
-        "ids": ",ci41258216,",
+        "code": "41258976",
+        "ids": ",ci41258976,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.07741,
-        "rms": 0.12,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 15 km ESE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5175,
-          33.5261667,
-          14.75
-        ]
-      },
-      "id": "ci41258216"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "146 km S of False Pass, Alaska",
-        "time": 1754891523763,
-        "updated": 1754892737040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qzra",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qzra.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000qzra",
-        "ids": ",us6000qzra,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 103,
-        "dmin": 1.163,
-        "rms": 0.97,
+        "nst": 15,
+        "dmin": 0.06994,
+        "rms": 0.27,
         "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 146 km S of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -163.5864,
-          53.544,
-          10
-        ]
-      },
-      "id": "us6000qzra"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.27,
-        "place": "1 km S of Mentone, CA",
-        "time": 1754891510310,
-        "updated": 1754892170000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258208",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258208.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "ci",
-        "code": "41258208",
-        "ids": ",ci41258208,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 76,
-        "dmin": 0.02929,
-        "rms": 0.16,
-        "gap": 26,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 1 km S of Mentone, CA"
+        "title": "M 0.5 - 18 km N of Ridgecrest, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.1355,
-          34.0576667,
-          10.54
+          -117.672,
+          35.7806667,
+          6.79
         ]
       },
-      "id": "ci41258208"
+      "id": "ci41258976"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1754891495370,
-        "updated": 1754891589688,
+        "mag": 2.68,
+        "place": "3 km NNE of Prattville, CA",
+        "time": 1754979675410,
+        "updated": 1754980484247,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75221602",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75221602.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75222147",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75222147.geojson",
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
+        "sig": 111,
         "net": "nc",
-        "code": "75221602",
-        "ids": ",nc75221602,",
+        "code": "75222147",
+        "ids": ",nc75222147,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.005531,
-        "rms": 0.02,
-        "gap": 35,
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.1877,
+        "rms": 0.23,
+        "gap": 52,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 7 km NNW of The Geysers, CA"
+        "title": "M 2.7 - 3 km NNE of Prattville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.803001403809,
-          38.8236656188965,
-          2.44000005722046
+          -121.147666931152,
+          40.2311668395996,
+          -1
         ]
       },
-      "id": "nc75221602"
+      "id": "nc75222147"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.61,
-        "place": "17 km SSW of Searles Valley, CA",
-        "time": 1754891460030,
-        "updated": 1754891677940,
+        "mag": 1.32,
+        "place": "3 km W of Aguanga, CA",
+        "time": 1754978919260,
+        "updated": 1754979559720,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258200",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258200.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258968",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258968.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
+        "sig": 27,
         "net": "ci",
-        "code": "41258200",
-        "ids": ",ci41258200,",
+        "code": "41258968",
+        "ids": ",ci41258968,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.04984,
-        "rms": 0.13,
-        "gap": 50,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 68,
+        "dmin": 0.04308,
+        "rms": 0.23,
+        "gap": 24,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 17 km SSW of Searles Valley, CA"
+        "title": "M 1.3 - 3 km W of Aguanga, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.4531667,
-          35.6213333,
-          3.91
+          -116.8956667,
+          33.4406667,
+          5.72
         ]
       },
-      "id": "ci41258200"
+      "id": "ci41258968"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.97,
-        "place": "10 km NNE of San Dimas, CA",
-        "time": 1754890734420,
-        "updated": 1754890943846,
+        "mag": 0.32,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1754978598630,
+        "updated": 1754978695294,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258192.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75222142",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75222142.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 14,
-        "net": "ci",
-        "code": "41258192",
-        "ids": ",ci41258192,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 51,
-        "dmin": 0.07045,
-        "rms": 0.21,
-        "gap": 59,
-        "magType": "ml",
+        "sig": 2,
+        "net": "nc",
+        "code": "75222142",
+        "ids": ",nc75222142,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.004621,
+        "rms": 0.01,
+        "gap": 142,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 10 km NNE of San Dimas, CA"
+        "title": "M 0.3 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.775,
-          34.1883333,
-          14.18
+          -122.850997924805,
+          38.8269996643066,
+          1.79999995231628
         ]
       },
-      "id": "ci41258192"
+      "id": "nc75222142"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.98,
-        "place": "1 km SSW of Mentone, CA",
-        "time": 1754890574580,
-        "updated": 1754890837833,
+        "mag": 0.77,
+        "place": "7 km SSW of Idyllwild, CA",
+        "time": 1754978473540,
+        "updated": 1754978692921,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258184",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258184.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258960",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258960.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
+        "sig": 9,
         "net": "ci",
-        "code": "41258184",
-        "ids": ",ci41258184,",
+        "code": "41258960",
+        "ids": ",ci41258960,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.03143,
-        "rms": 0.2,
-        "gap": 37,
+        "nst": 25,
+        "dmin": 0.09032,
+        "rms": 0.14,
+        "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 1 km SSW of Mentone, CA"
+        "title": "M 0.8 - 7 km SSW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.1386667,
-          34.0581667,
-          9.77
+          -116.76,
+          33.683,
+          16.85
         ]
       },
-      "id": "ci41258184"
+      "id": "ci41258960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.39,
+        "place": "5 km S of Coso Junction, CA",
+        "time": 1754977887030,
+        "updated": 1754978096139,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258952",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258952.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ci",
+        "code": "41258952",
+        "ids": ",ci41258952,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.05437,
+        "rms": 0.12,
+        "gap": 95,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 5 km S of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9563333,
+          35.9978333,
+          4.83
+        ]
+      },
+      "id": "ci41258952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.06,
+        "place": "3 km NNE of The Geysers, CA",
+        "time": 1754977731280,
+        "updated": 1754977829974,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75222137",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75222137.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75222137",
+        "ids": ",nc75222137,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.02581,
+        "rms": 0.02,
+        "gap": 98,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 3 km NNE of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.752334594727,
+          38.7999992370605,
+          1.99000000953674
+        ]
+      },
+      "id": "nc75222137"
     }
   ],
   "bbox": [
-    -163.5864,
-    33.5261667,
-    2.4400000572205,
-    -116.5175,
-    60.6563,
-    105.3
+    -122.85099792481,
+    31.664,
+    -1,
+    -104.381,
+    40.2311668396,
+    16.85
   ]
 }
