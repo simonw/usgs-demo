@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754980519000,
+    "generated": 1755066883000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,53 +12,53 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1754980263756,
-        "updated": 1754980510636,
+        "mag": 1.4,
+        "place": "27 km SW of Glacier View, Alaska",
+        "time": 1755065837931,
+        "updated": 1755065962030,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ptvxgc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ptvxgc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ac7ldap",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ac7ldap.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
-        "net": "tx",
-        "code": "2025ptvxgc",
-        "ids": ",tx2025ptvxgc,",
-        "sources": ",tx,",
+        "sig": 30,
+        "net": "ak",
+        "code": "025ac7ldap",
+        "ids": ",ak025ac7ldap,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 96,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.74,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 56 km S of Whites City, New Mexico"
+        "title": "M 1.4 - 27 km SW of Glacier View, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.381,
-          31.664,
-          4.2238
+          -148.0333,
+          61.6433,
+          7.1
         ]
       },
-      "id": "tx2025ptvxgc"
+      "id": "ak025ac7ldap"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.5,
-        "place": "18 km N of Ridgecrest, CA",
-        "time": 1754980251890,
-        "updated": 1754980461059,
+        "mag": 0.52,
+        "place": "4 km WNW of Borrego Springs, CA",
+        "time": 1755065527670,
+        "updated": 1755065730464,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258976",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258976.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41259688",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41259688.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -67,275 +67,275 @@
         "tsunami": 0,
         "sig": 4,
         "net": "ci",
-        "code": "41258976",
-        "ids": ",ci41258976,",
+        "code": "41259688",
+        "ids": ",ci41259688,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.06994,
-        "rms": 0.27,
-        "gap": 95,
+        "nst": 26,
+        "dmin": 0.003655,
+        "rms": 0.21,
+        "gap": 86,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 18 km N of Ridgecrest, CA"
+        "title": "M 0.5 - 4 km WNW of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.672,
-          35.7806667,
-          6.79
+          -116.4128333,
+          33.2686667,
+          5.1
         ]
       },
-      "id": "ci41258976"
+      "id": "ci41259688"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.68,
-        "place": "3 km NNE of Prattville, CA",
-        "time": 1754979675410,
-        "updated": 1754980484247,
+        "mag": 1.11,
+        "place": "9 km WNW of Cobb, CA",
+        "time": 1755065220240,
+        "updated": 1755065316755,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75222147",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75222147.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 111,
-        "net": "nc",
-        "code": "75222147",
-        "ids": ",nc75222147,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.1877,
-        "rms": 0.23,
-        "gap": 52,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 3 km NNE of Prattville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.147666931152,
-          40.2311668395996,
-          -1
-        ]
-      },
-      "id": "nc75222147"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.32,
-        "place": "3 km W of Aguanga, CA",
-        "time": 1754978919260,
-        "updated": 1754979559720,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258968",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258968.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75222562",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75222562.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 27,
-        "net": "ci",
-        "code": "41258968",
-        "ids": ",ci41258968,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 68,
-        "dmin": 0.04308,
-        "rms": 0.23,
-        "gap": 24,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 3 km W of Aguanga, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.8956667,
-          33.4406667,
-          5.72
-        ]
-      },
-      "id": "ci41258968"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.32,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1754978598630,
-        "updated": 1754978695294,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75222142",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75222142.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
+        "sig": 19,
         "net": "nc",
-        "code": "75222142",
-        "ids": ",nc75222142,",
+        "code": "75222562",
+        "ids": ",nc75222562,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.004621,
-        "rms": 0.01,
-        "gap": 142,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.3 - 10 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.850997924805,
-          38.8269996643066,
-          1.79999995231628
-        ]
-      },
-      "id": "nc75222142"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.77,
-        "place": "7 km SSW of Idyllwild, CA",
-        "time": 1754978473540,
-        "updated": 1754978692921,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258960",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258960.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "41258960",
-        "ids": ",ci41258960,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.09032,
-        "rms": 0.14,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 7 km SSW of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.76,
-          33.683,
-          16.85
-        ]
-      },
-      "id": "ci41258960"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.39,
-        "place": "5 km S of Coso Junction, CA",
-        "time": 1754977887030,
-        "updated": 1754978096139,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41258952",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41258952.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "41258952",
-        "ids": ",ci41258952,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.05437,
-        "rms": 0.12,
-        "gap": 95,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 5 km S of Coso Junction, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9563333,
-          35.9978333,
-          4.83
-        ]
-      },
-      "id": "ci41258952"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.06,
-        "place": "3 km NNE of The Geysers, CA",
-        "time": 1754977731280,
-        "updated": 1754977829974,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75222137",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75222137.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75222137",
-        "ids": ",nc75222137,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.02581,
+        "nst": 20,
+        "dmin": 0.01185,
         "rms": 0.02,
-        "gap": 98,
+        "gap": 60,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 3 km NNE of The Geysers, CA"
+        "title": "M 1.1 - 9 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.752334594727,
-          38.7999992370605,
-          1.99000000953674
+          -122.820831298828,
+          38.841667175293,
+          0.589999973773956
         ]
       },
-      "id": "nc75222137"
+      "id": "nc75222562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.37,
+        "place": "8 km W of Holtville, CA",
+        "time": 1755064798260,
+        "updated": 1755065007390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41259680",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41259680.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 29,
+        "net": "ci",
+        "code": "41259680",
+        "ids": ",ci41259680,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.0208,
+        "rms": 0.24,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 8 km W of Holtville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.468,
+          32.816,
+          8.67
+        ]
+      },
+      "id": "ci41259680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "35 km SSW of Raureka, New Zealand",
+        "time": 1755064392875,
+        "updated": 1755066857918,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r09q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r09q.geojson",
+        "felt": 22,
+        "cdi": 4.6,
+        "mmi": 4.459,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 380,
+        "net": "us",
+        "code": "6000r09q",
+        "ids": ",us6000r09q,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 51,
+        "dmin": 0.158,
+        "rms": 1.13,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 35 km SSW of Raureka, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.6917,
+          -39.9415,
+          38.238
+        ]
+      },
+      "id": "us6000r09q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.31,
+        "place": "5 km SSW of Pāhala, Hawaii",
+        "time": 1755064349530,
+        "updated": 1755064575980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74751487",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74751487.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 82,
+        "net": "hv",
+        "code": "74751487",
+        "ids": ",hv74751487,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.03631,
+        "rms": 0.129999995,
+        "gap": 131,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 5 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.500503540039,
+          19.1564998626709,
+          32.810001373291
+        ]
+      },
+      "id": "hv74751487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.81,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1755063799900,
+        "updated": 1755063896523,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75222557",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75222557.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "nc",
+        "code": "75222557",
+        "ids": ",nc75222557,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.008809,
+        "rms": 0.01,
+        "gap": 102,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.800834655762,
+          38.8351669311523,
+          2.13000011444092
+        ]
+      },
+      "id": "nc75222557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "18 km NNE of Four Mile Road, Alaska",
+        "time": 1755063771636,
+        "updated": 1755063898248,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ac75d6z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ac75d6z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "ak",
+        "code": "025ac75d6z",
+        "ids": ",ak025ac75d6z,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 18 km NNE of Four Mile Road, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9575,
+          64.7562,
+          5.9
+        ]
+      },
+      "id": "ak025ac75d6z"
     }
   ],
   "bbox": [
-    -122.85099792481,
-    31.664,
-    -1,
-    -104.381,
-    40.2311668396,
-    16.85
+    -155.50050354004,
+    -39.9415,
+    0.58999997377396,
+    176.6917,
+    64.7562,
+    38.238
   ]
 }
