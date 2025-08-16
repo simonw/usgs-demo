@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755239734000,
+    "generated": 1755326059000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 12
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.9,
-        "place": "37 km WSW of Ackerly, Texas",
-        "time": 1755238452011,
-        "updated": 1755238676416,
+        "mag": 2.1,
+        "place": "10 km ESE of Alum Rock, CA",
+        "time": 1755325189900,
+        "updated": 1755325637327,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025pzinjl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025pzinjl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75224472",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75224472.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "nc",
+        "code": "75224472",
+        "ids": ",nc75224472,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.104,
+        "rms": 0.07,
+        "gap": 38,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 10 km ESE of Alum Rock, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.714164733887,
+          37.3578338623047,
+          8
+        ]
+      },
+      "id": "nc75224472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "12 km S of Sparks, Nevada",
+        "time": 1755324766599,
+        "updated": 1755324927628,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00902647",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00902647.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,239 +66,279 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 12,
-        "net": "tx",
-        "code": "2025pzinjl",
-        "ids": ",tx2025pzinjl,",
-        "sources": ",tx,",
+        "net": "nn",
+        "code": "00902647",
+        "ids": ",nn00902647,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 81,
+        "nst": 13,
+        "dmin": 0.036,
+        "rms": 0.1623,
+        "gap": 112.85000000000002,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 37 km WSW of Ackerly, Texas"
+        "title": "M 0.9 - 12 km S of Sparks, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.088,
-          32.4,
-          4.7913
+          -119.7406,
+          39.4204,
+          8.3
         ]
       },
-      "id": "tx2025pzinjl"
+      "id": "nn00902647"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.5,
-        "place": "17 km ESE of Anza, CA",
-        "time": 1755237960770,
-        "updated": 1755238205139,
+        "mag": 1.62,
+        "place": "10 km ESE of Alum Rock, CA",
+        "time": 1755324734460,
+        "updated": 1755324829212,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41261192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41261192.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75224467",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75224467.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
+        "sig": 40,
+        "net": "nc",
+        "code": "75224467",
+        "ids": ",nc75224467,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.1046,
+        "rms": 0.07,
+        "gap": 78,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 10 km ESE of Alum Rock, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.714164733887,
+          37.3585014343262,
+          9.02999973297119
+        ]
+      },
+      "id": "nc75224467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.94,
+        "place": "1 km ENE of Kernville, CA",
+        "time": 1755324425250,
+        "updated": 1755324634668,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40400058",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40400058.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
         "net": "ci",
-        "code": "41261192",
-        "ids": ",ci41261192,",
+        "code": "40400058",
+        "ids": ",ci40400058,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.1277,
+        "nst": 18,
+        "dmin": 0.02251,
         "rms": 0.16,
-        "gap": 92,
+        "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 17 km ESE of Anza, CA"
+        "title": "M 0.9 - 1 km ENE of Kernville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4963333,
-          33.5053333,
-          12.39
+          -118.4145,
+          35.7576667,
+          6.92
         ]
       },
-      "id": "ci41261192"
+      "id": "ci40400058"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.29,
-        "place": "5 km N of Stroud, Oklahoma",
-        "time": 1755237878816,
-        "updated": 1755238642478,
+        "mag": 1.66,
+        "place": "10 km ESE of Alum Rock, CA",
+        "time": 1755323156330,
+        "updated": 1755323253439,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025pxjs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025pxjs.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ok",
-        "code": "2025pxjs",
-        "ids": ",ok2025pxjs,",
-        "sources": ",ok,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 65,
-        "dmin": 0.1372528076,
-        "rms": 0.5834942906,
-        "gap": 32.56356812,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 5 km N of Stroud, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.65908813,
-          35.80067444,
-          1.738028169
-        ]
-      },
-      "id": "ok2025pxjs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "19 km ESE of Livengood, Alaska",
-        "time": 1755237790814,
-        "updated": 1755237913569,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025afil1pl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025afil1pl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75224447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75224447.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "025afil1pl",
-        "ids": ",ak025afil1pl,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.27,
-        "gap": null,
-        "magType": "ml",
+        "sig": 42,
+        "net": "nc",
+        "code": "75224447",
+        "ids": ",nc75224447,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.1068,
+        "rms": 0.07,
+        "gap": 80,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 19 km ESE of Livengood, Alaska"
+        "title": "M 1.7 - 10 km ESE of Alum Rock, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.1775,
-          65.4467,
-          4.5
+          -121.714332580566,
+          37.3608322143555,
+          9.07999992370605
         ]
       },
-      "id": "ak025afil1pl"
+      "id": "nc75224447"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "48 km ESE of Pedro Bay, Alaska",
-        "time": 1755236959960,
-        "updated": 1755237117714,
+        "mag": 1.06,
+        "place": "16 km W of Johannesburg, CA",
+        "time": 1755323151010,
+        "updated": 1755323357118,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025afi9hr0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025afi9hr0.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40400050",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40400050.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "025afi9hr0",
-        "ids": ",ak025afi9hr0,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.91,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 48 km ESE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.2794,
-          59.6689,
-          108.6
-        ]
-      },
-      "id": "ak025afi9hr0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.64,
-        "place": "14 km SW of Searles Valley, CA",
-        "time": 1755236553890,
-        "updated": 1755236772318,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41261184",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41261184.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 41,
+        "sig": 17,
         "net": "ci",
-        "code": "41261184",
-        "ids": ",ci41261184,",
+        "code": "40400050",
+        "ids": ",ci40400050,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 43,
-        "dmin": 0.09021,
-        "rms": 0.17,
-        "gap": 44,
+        "nst": 33,
+        "dmin": 0.08738,
+        "rms": 0.15,
+        "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 14 km SW of Searles Valley, CA"
+        "title": "M 1.1 - 16 km W of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.5301667,
-          35.6901667,
-          7.16
+          -117.808,
+          35.3493333,
+          8.37
         ]
       },
-      "id": "ci41261184"
+      "id": "ci40400050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.98,
+        "place": "10 km ESE of Alum Rock, CA",
+        "time": 1755323049030,
+        "updated": 1755323230790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75224442",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75224442.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "nc",
+        "code": "75224442",
+        "ids": ",nc75224442,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.1045,
+        "rms": 0.08,
+        "gap": 39,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 10 km ESE of Alum Rock, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.714996337891,
+          37.3581657409668,
+          7.92000007629395
+        ]
+      },
+      "id": "nc75224442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.98,
+        "place": "10 km ESE of Alum Rock, CA",
+        "time": 1755322794310,
+        "updated": 1755322986080,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75224437",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75224437.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "nc",
+        "code": "75224437",
+        "ids": ",nc75224437,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.1042,
+        "rms": 0.07,
+        "gap": 38,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 10 km ESE of Alum Rock, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.714332580566,
+          37.3580017089844,
+          8.02000045776367
+        ]
+      },
+      "id": "nc75224437"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.2,
-        "place": "25 km NW of Tatitlek, Alaska",
-        "time": 1755236176538,
-        "updated": 1755236268471,
+        "place": "17 km SW of Knik River, Alaska",
+        "time": 1755322746469,
+        "updated": 1755322865997,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025afi6p6d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025afi6p6d.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ah5qo1i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ah5qo1i.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -267,35 +347,155 @@
         "tsunami": 0,
         "sig": 22,
         "net": "ak",
-        "code": "025afi6p6d",
-        "ids": ",ak025afi6p6d,",
+        "code": "025ah5qo1i",
+        "ids": ",ak025ah5qo1i,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.39,
+        "rms": 0.48,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 25 km NW of Tatitlek, Alaska"
+        "title": "M 1.2 - 17 km SW of Knik River, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.0601,
-          60.9967,
-          20.1
+          -149.1712,
+          61.3651,
+          37.5
         ]
       },
-      "id": "ak025afi6p6d"
+      "id": "ak025ah5qo1i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.03,
+        "place": "10 km ESE of Alum Rock, CA",
+        "time": 1755322667120,
+        "updated": 1755322860330,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75224432",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75224432.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "nc",
+        "code": "75224432",
+        "ids": ",nc75224432,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 53,
+        "dmin": 0.05938,
+        "rms": 0.08,
+        "gap": 38,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 10 km ESE of Alum Rock, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.714500427246,
+          37.3571662902832,
+          7.92000007629395
+        ]
+      },
+      "id": "nc75224432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.84,
+        "place": "7 km SSW of Devore, CA",
+        "time": 1755322591720,
+        "updated": 1755322854599,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40400042",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40400042.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "40400042",
+        "ids": ",ci40400042,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 44,
+        "dmin": 0.03286,
+        "rms": 0.2,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km SSW of Devore, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4281667,
+          34.1596667,
+          6.17
+        ]
+      },
+      "id": "ci40400042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1755322540590,
+        "updated": 1755322638870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75224427",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75224427.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nc",
+        "code": "75224427",
+        "ids": ",nc75224427,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.01403,
+        "rms": 0.01,
+        "gap": 85,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81566619873,
+          38.7983322143555,
+          3.33999991416931
+        ]
+      },
+      "id": "nc75224427"
     }
   ],
   "bbox": [
-    -153.2794,
-    32.4,
-    1.738028169,
-    -96.65908813,
-    65.4467,
-    108.6
+    -149.1712,
+    34.1596667,
+    3.3399999141693,
+    -117.4281667,
+    61.3651,
+    37.5
   ]
 }
