@@ -1,224 +1,344 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755498954000,
+    "generated": 1755585319000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.45,
-        "place": "11 km NNE of Larkfield-Wikiup, CA",
-        "time": 1755498746330,
-        "updated": 1755498840179,
+        "mag": 1.7,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1755584370671,
+        "updated": 1755584637117,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75225332",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75225332.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qgrpmb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qgrpmb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 32,
-        "net": "nc",
-        "code": "75225332",
-        "ids": ",nc75225332,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.02407,
-        "rms": 0.08,
-        "gap": 149,
-        "magType": "md",
+        "sig": 44,
+        "net": "tx",
+        "code": "2025qgrpmb",
+        "ids": ",tx2025qgrpmb,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 57,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 11 km NNE of Larkfield-Wikiup, CA"
+        "title": "M 1.7 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.703163146973,
-          38.6048316955566,
-          4.42999982833862
+          -104.44,
+          31.673,
+          3.6174
         ]
       },
-      "id": "nc75225332"
+      "id": "tx2025qgrpmb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.84,
-        "place": "23 km ESE of Julian, CA",
-        "time": 1755498419090,
-        "updated": 1755498627386,
+        "mag": 1.8,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1755584310882,
+        "updated": 1755584703127,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40401650",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40401650.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qgroph",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qgroph.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 11,
+        "sig": 50,
+        "net": "tx",
+        "code": "2025qgroph",
+        "ids": ",tx2025qgroph,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.434,
+          31.668,
+          3.8814
+        ]
+      },
+      "id": "tx2025qgroph"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1755583992505,
+        "updated": 1755584165060,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qgrkbv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qgrkbv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2025qgrkbv",
+        "ids": ",tx2025qgrkbv,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 188,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.461,
+          31.659,
+          19.6819
+        ]
+      },
+      "id": "tx2025qgrkbv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.74,
+        "place": "5 km SW of Idyllwild, CA",
+        "time": 1755583889420,
+        "updated": 1755584090746,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40402450",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40402450.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
         "net": "ci",
-        "code": "40401650",
-        "ids": ",ci40401650,",
+        "code": "40402450",
+        "ids": ",ci40402450,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.05938,
-        "rms": 0.2,
-        "gap": 47,
+        "nst": 24,
+        "dmin": 0.07981,
+        "rms": 0.11,
+        "gap": 121,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 23 km ESE of Julian, CA"
+        "title": "M 0.7 - 5 km SW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3635,
-          33.0161667,
-          3.13
+          -116.7561667,
+          33.7096667,
+          15.72
         ]
       },
-      "id": "ci40401650"
+      "id": "ci40402450"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.22,
-        "place": "5 km WSW of Kremlin, Oklahoma",
-        "time": 1755498302820,
-        "updated": 1755498682352,
+        "mag": 0.5,
+        "place": "50 km ENE of Beatty, Nevada",
+        "time": 1755583856408,
+        "updated": 1755583977765,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025qcwx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025qcwx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00902790",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00902790.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 76,
-        "net": "ok",
-        "code": "2025qcwx",
-        "ids": ",ok2025qcwx,",
-        "sources": ",ok,",
+        "sig": 4,
+        "net": "nn",
+        "code": "00902790",
+        "ids": ",nn00902790,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 0.08556755632,
-        "rms": 0.7576648106,
-        "gap": 52.92736816,
+        "nst": 19,
+        "dmin": 0.109,
+        "rms": 0.1827,
+        "gap": 57.19,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 5 km WSW of Kremlin, Oklahoma"
+        "title": "M 0.5 - 50 km ENE of Beatty, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.88002777,
-          36.52460098,
-          0.8006951809
+          -116.2183,
+          37.0554,
+          4.3
         ]
       },
-      "id": "ok2025qcwx"
+      "id": "nn00902790"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.22,
-        "place": "5 km N of Moreno Valley, CA",
-        "time": 1755498071210,
-        "updated": 1755498743520,
+        "mag": 1.5,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1755583825183,
+        "updated": 1755584017050,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40401642",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40401642.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qgrhjb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qgrhjb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 23,
-        "net": "ci",
-        "code": "40401642",
-        "ids": ",ci40401642,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 73,
-        "dmin": 0.05255,
-        "rms": 0.17,
-        "gap": 54,
+        "sig": 35,
+        "net": "tx",
+        "code": "2025qgrhjb",
+        "ids": ",tx2025qgrhjb,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 5 km N of Moreno Valley, CA"
+        "title": "M 1.5 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.2301667,
-          33.9695,
-          13.55
+          -104.442,
+          31.673,
+          4.0633
         ]
       },
-      "id": "ci40401642"
+      "id": "tx2025qgrhjb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.71,
-        "place": "3 km E of Pepeekeo, Hawaii",
-        "time": 1755497495240,
-        "updated": 1755498893280,
+        "mag": 5.7,
+        "place": "267 km SSE of Ushuaia, Argentina",
+        "time": 1755583722089,
+        "updated": 1755585184345,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74754977",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74754977.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r201",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r201.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
+        "mmi": 3.598,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 113,
-        "net": "hv",
-        "code": "74754977",
-        "ids": ",hv74754977,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 0.1469,
-        "rms": 0.15,
-        "gap": 204,
-        "magType": "ml",
+        "sig": 500,
+        "net": "us",
+        "code": "6000r201",
+        "ids": ",us6000r201,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 73,
+        "dmin": 2.207,
+        "rms": 0.88,
+        "gap": 131,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.7 - 3 km E of Pepeekeo, Hawaii"
+        "title": "M 5.7 - 267 km SSE of Ushuaia, Argentina"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.073333333333,
-          19.8388333333333,
-          36.11
+          -67.0691,
+          -57.1107,
+          10
         ]
       },
-      "id": "hv74754977"
+      "id": "us6000r201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "36 km WSW of Susitna, Alaska",
+        "time": 1755583601904,
+        "updated": 1755583700575,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025am4r58e",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025am4r58e.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ak",
+        "code": "025am4r58e",
+        "ids": ",ak025am4r58e,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 36 km WSW of Susitna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.1762,
+          61.4677,
+          16.7
+        ]
+      },
+      "id": "ak025am4r58e"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.6,
-        "place": "8 km S of Houston, Alaska",
-        "time": 1755497403087,
-        "updated": 1755497501824,
+        "place": "33 km S of Cantwell, Alaska",
+        "time": 1755583059689,
+        "updated": 1755583217020,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025akh8klw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025akh8klw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025am4gmz4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025am4gmz4.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,78 +347,78 @@
         "tsunami": 0,
         "sig": 39,
         "net": "ak",
-        "code": "025akh8klw",
-        "ids": ",ak025akh8klw,",
+        "code": "025am4gmz4",
+        "ids": ",ak025am4gmz4,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.25,
+        "rms": 0.72,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 8 km S of Houston, Alaska"
+        "title": "M 1.6 - 33 km S of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.8224,
-          61.5584,
-          50.3
+          -149.0659,
+          63.0939,
+          73.3
         ]
       },
-      "id": "ak025akh8klw"
+      "id": "ak025am4gmz4"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "40 km NW of Ninilchik, Alaska",
-        "time": 1755497104257,
-        "updated": 1755497236376,
+        "mag": 1.3,
+        "place": "53 km ENE of Pedro Bay, Alaska",
+        "time": 1755582358697,
+        "updated": 1755582479284,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025akh7i49",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025akh7i49.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025am4e3ul",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025am4e3ul.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
+        "sig": 26,
         "net": "ak",
-        "code": "025akh7i49",
-        "ids": ",ak025akh7i49,",
+        "code": "025am4e3ul",
+        "ids": ",ak025am4e3ul,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.57,
+        "rms": 0.52,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 40 km NW of Ninilchik, Alaska"
+        "title": "M 1.3 - 53 km ENE of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.1705,
-          60.3192,
-          94.8
+          -153.2114,
+          59.966,
+          134.6
         ]
       },
-      "id": "ak025akh7i49"
+      "id": "ak025am4e3ul"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "7 km E of Calimesa, CA",
-        "time": 1755496287570,
-        "updated": 1755496493599,
+        "mag": 0.77,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1755581891200,
+        "updated": 1755581990003,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40401634",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40401634.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75225717",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75225717.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -306,76 +426,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 9,
-        "net": "ci",
-        "code": "40401634",
-        "ids": ",ci40401634,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.1087,
-        "rms": 0.15,
-        "gap": 44,
-        "magType": "ml",
+        "net": "nc",
+        "code": "75225717",
+        "ids": ",nc75225717,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.01584,
+        "rms": 0.02,
+        "gap": 113,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 7 km E of Calimesa, CA"
+        "title": "M 0.8 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.9801667,
-          33.991,
-          17.8
+          -122.855163574219,
+          38.8250007629395,
+          2.39000010490417
         ]
       },
-      "id": "ci40401634"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "24 km SSW of Susitna, Alaska",
-        "time": 1755496076626,
-        "updated": 1755496160777,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025akgv6mm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025akgv6mm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "025akgv6mm",
-        "ids": ",ak025akgv6mm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.24,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 24 km SSW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.6556,
-          61.3301,
-          58.5
-        ]
-      },
-      "id": "ak025akgv6mm"
+      "id": "nc75225717"
     }
   ],
   "bbox": [
-    -155.07333333333,
-    19.838833333333,
-    0.8006951809,
-    -97.88002777,
-    61.5584,
-    94.8
+    -153.2114,
+    -57.1107,
+    2.3900001049042,
+    -67.0691,
+    63.0939,
+    134.6
   ]
 }
