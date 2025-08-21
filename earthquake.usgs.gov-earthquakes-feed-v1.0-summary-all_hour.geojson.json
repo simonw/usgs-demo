@@ -1,24 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1755671719000,
+    "generated": 1755758159000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 12
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.62,
-        "place": "21 km ESE of Little Lake, CA",
-        "time": 1755670961300,
-        "updated": 1755671182479,
+        "mag": 0.98,
+        "place": "9 km WNW of Cobb, CA",
+        "time": 1755758031220,
+        "updated": 1755758129020,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40403618",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40403618.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75226622",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75226622.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nc",
+        "code": "75226622",
+        "ids": ",nc75226622,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.008911,
+        "rms": 0.02,
+        "gap": 94,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 9 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.824501037598,
+          38.8409996032715,
+          1.89999997615814
+        ]
+      },
+      "id": "nc75226622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.11,
+        "place": "9 km WNW of Cobb, CA",
+        "time": 1755758002860,
+        "updated": 1755758099267,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75226617",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75226617.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "nc",
+        "code": "75226617",
+        "ids": ",nc75226617,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.008284,
+        "rms": 0.05,
+        "gap": 56,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 9 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.825164794922,
+          38.8404998779297,
+          1.94000005722046
+        ]
+      },
+      "id": "nc75226617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "3 km NNW of North Pearsall, Texas",
+        "time": 1755757549926,
+        "updated": 1755757772165,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qkjgro",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qkjgro.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "tx",
+        "code": "2025qkjgro",
+        "ids": ",tx2025qkjgro,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.4,
+        "rms": 0.4,
+        "gap": 229,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 3 km NNW of North Pearsall, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.11,
+          28.948,
+          3.7621
+        ]
+      },
+      "id": "tx2025qkjgro"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.6,
+        "place": "50 km N of Indian Springs, Nevada",
+        "time": 1755757455932,
+        "updated": 1755757582679,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00902920",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00902920.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,79 +146,199 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 6,
-        "net": "ci",
-        "code": "40403618",
-        "ids": ",ci40403618,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.08419,
-        "rms": 0.11,
-        "gap": 85,
+        "net": "nn",
+        "code": "00902920",
+        "ids": ",nn00902920,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.186,
+        "rms": 0.2305,
+        "gap": 151.14000000000001,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 21 km ESE of Little Lake, CA"
+        "title": "M 0.6 - 50 km N of Indian Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.6881667,
-          35.8693333,
-          7.42
+          -115.7474,
+          37.0174,
+          1.2
         ]
       },
-      "id": "ci40403618"
+      "id": "nn00902920"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.22,
-        "place": "10 km WSW of Corona, CA",
-        "time": 1755670890810,
-        "updated": 1755671525590,
+        "mag": 1.5,
+        "place": "19 km NNE of Four Mile Road, Alaska",
+        "time": 1755757141715,
+        "updated": 1755757260347,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40403610",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40403610.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025apfwjff",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025apfwjff.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 76,
-        "net": "ci",
-        "code": "40403610",
-        "ids": ",ci40403610,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 135,
-        "dmin": 0.05485,
-        "rms": 0.19,
-        "gap": 19,
+        "sig": 35,
+        "net": "ak",
+        "code": "025apfwjff",
+        "ids": ",ak025apfwjff,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.02,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 10 km WSW of Corona, CA"
+        "title": "M 1.5 - 19 km NNE of Four Mile Road, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.6655,
-          33.8236667,
-          4.86
+          -148.9665,
+          64.7695,
+          0
         ]
       },
-      "id": "ci40403610"
+      "id": "ak025apfwjff"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "15 km SSW of Nelchina, Alaska",
+        "time": 1755757073991,
+        "updated": 1755757171478,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025apfw813",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025apfw813.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ak",
+        "code": "025apfw813",
+        "ids": ",ak025apfw813,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.56,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 15 km SSW of Nelchina, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.8791,
+          61.8644,
+          30.1
+        ]
+      },
+      "id": "ak025apfw813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.38,
+        "place": "9 km SW of Corona, CA",
+        "time": 1755756463510,
+        "updated": 1755756684581,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41270448",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41270448.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 29,
+        "net": "ci",
+        "code": "41270448",
+        "ids": ",ci41270448,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 60,
+        "dmin": 0.04433,
+        "rms": 0.19,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 9 km SW of Corona, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6486667,
+          33.825,
+          3.56
+        ]
+      },
+      "id": "ci41270448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.73,
+        "place": "20 km ESE of Little Lake, CA",
+        "time": 1755756076030,
+        "updated": 1755756277222,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41270440",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41270440.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "41270440",
+        "ids": ",ci41270440,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.06608,
+        "rms": 0.14,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 20 km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6916667,
+          35.8908333,
+          4.35
+        ]
+      },
+      "id": "ci41270440"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.4,
-        "place": "26 km NW of Cooper Landing, Alaska",
-        "time": 1755670365597,
-        "updated": 1755670503159,
+        "place": "9 km S of Tres Pinos, CA",
+        "time": 1755755311980,
+        "updated": 1755755408720,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ansbsb3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ansbsb3.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75226612",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75226612.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,236 +346,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 30,
-        "net": "ak",
-        "code": "025ansbsb3",
-        "ids": ",ak025ansbsb3,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.7,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 26 km NW of Cooper Landing, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.1355,
-          60.6684,
-          31.1
-        ]
-      },
-      "id": "ak025ansbsb3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "central Mid-Atlantic Ridge",
-        "time": 1755669329677,
-        "updated": 1755670758040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r299",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000r299.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000r299",
-        "ids": ",us6000r299,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 11.64,
-        "rms": 0.98,
-        "gap": 77,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - central Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -32.9347,
-          5.5058,
-          10
-        ]
-      },
-      "id": "us6000r299"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.5,
-        "place": "22 km ESE of Little Lake, CA",
-        "time": 1755669243350,
-        "updated": 1755669463935,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40403602",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40403602.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "40403602",
-        "ids": ",ci40403602,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.0537,
-        "rms": 0.09,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 22 km ESE of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.673,
-          35.8973333,
-          3.88
-        ]
-      },
-      "id": "ci40403602"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "78 km NW of Rachel, Nevada",
-        "time": 1755669057361,
-        "updated": 1755669224133,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00902852",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00902852.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "nn",
-        "code": "00902852",
-        "ids": ",nn00902852,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "net": "nc",
+        "code": "75226612",
+        "ids": ",nc75226612,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 9,
-        "dmin": 0.986,
-        "rms": 0.2017,
-        "gap": 298.14,
-        "magType": "ml",
+        "dmin": 0.02626,
+        "rms": 0.07,
+        "gap": 93,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 78 km NW of Rachel, Nevada"
+        "title": "M 1.4 - 9 km S of Tres Pinos, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.297,
-          38.1963,
-          2.1
+          -121.314002990723,
+          36.7101669311523,
+          7.78999996185303
         ]
       },
-      "id": "nn00902852"
+      "id": "nc75226612"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "35 km WSW of Ackerly, Texas",
-        "time": 1755668471449,
-        "updated": 1755668765605,
+        "mag": 1.62,
+        "place": "11 km  of Redwood Valley, CA",
+        "time": 1755755029270,
+        "updated": 1755755123795,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qimbif",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qimbif.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75226607",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75226607.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025qimbif",
-        "ids": ",tx2025qimbif,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 74,
-        "magType": "ml",
+        "sig": 40,
+        "net": "nc",
+        "code": "75226607",
+        "ids": ",nc75226607,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1577,
+        "rms": 0.03,
+        "gap": 83,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 35 km WSW of Ackerly, Texas"
+        "title": "M 1.6 - 11 km  of Redwood Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.061,
-          32.404,
-          3.7681
+          -123.243499755859,
+          39.3571662902832,
+          2.5
         ]
       },
-      "id": "tx2025qimbif"
+      "id": "nc75226607"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "34 km WSW of Ackerly, Texas",
-        "time": 1755668299803,
-        "updated": 1755668729471,
+        "mag": 0.8,
+        "place": "38 km ENE of McKinney Acres, Texas",
+        "time": 1755754868417,
+        "updated": 1755756026994,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qilywb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qilywb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qkhudg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qkhudg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 10,
         "net": "tx",
-        "code": "2025qilywb",
-        "ids": ",tx2025qilywb,",
+        "code": "2025qkhudg",
+        "ids": ",tx2025qkhudg,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 83,
+        "nst": 10,
         "dmin": 0,
         "rms": 0.5,
-        "gap": 46,
+        "gap": 107,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 34 km WSW of Ackerly, Texas"
+        "title": "M 0.8 - 38 km ENE of McKinney Acres, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.057,
-          32.408,
-          3.2849
+          -102.133,
+          32.384,
+          4.2671
         ]
       },
-      "id": "tx2025qilywb"
+      "id": "tx2025qkhudg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1755754704730,
+        "updated": 1755754890873,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qkhruh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qkhruh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "tx",
+        "code": "2025qkhruh",
+        "ids": ",tx2025qkhruh,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 88,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.383,
+          31.657,
+          4.3395
+        ]
+      },
+      "id": "tx2025qkhruh"
     }
   ],
   "bbox": [
-    -150.1355,
-    5.5058,
-    2.1,
-    -32.9347,
-    60.6684,
-    31.1
+    -148.9665,
+    28.948,
+    0,
+    -99.11,
+    64.7695,
+    30.1
   ]
 }
