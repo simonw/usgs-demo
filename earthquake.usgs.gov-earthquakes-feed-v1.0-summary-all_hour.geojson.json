@@ -1,344 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756362863000,
+    "generated": 1756449260000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 12
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "17 km ESE of Smiley, Texas",
-        "time": 1756362710251,
-        "updated": 1756362846026,
+        "mag": 2.7,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1756448898554,
+        "updated": 1756449149371,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qxfnzh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qxfnzh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qzbdup",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qzbdup.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
+        "sig": 112,
         "net": "tx",
-        "code": "2025qxfnzh",
-        "ids": ",tx2025qxfnzh,",
+        "code": "2025qzbdup",
+        "ids": ",tx2025qzbdup,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 17 km ESE of Smiley, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.483,
-          29.182,
-          10.0335
-        ]
-      },
-      "id": "tx2025qxfnzh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.96,
-        "place": "13 km SSW of Ocotillo Wells, CA",
-        "time": 1756362558640,
-        "updated": 1756362772419,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41277184",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41277184.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "ci",
-        "code": "41277184",
-        "ids": ",ci41277184,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 50,
-        "dmin": 0.1181,
-        "rms": 0.21,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 13 km SSW of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.1941667,
-          33.0393333,
-          4.33
-        ]
-      },
-      "id": "ci41277184"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "34 km NW of Toyah, Texas",
-        "time": 1756362509112,
-        "updated": 1756362727035,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qxfldc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qxfldc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2025qxfldc",
-        "ids": ",tx2025qxfldc,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
+        "nst": 34,
         "dmin": 0,
         "rms": 0.3,
-        "gap": 81,
+        "gap": 105,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 34 km NW of Toyah, Texas"
+        "title": "M 2.7 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.022,
-          31.561,
-          5.9397
+          -104.483,
+          31.635,
+          2.9728
         ]
       },
-      "id": "tx2025qxfldc"
+      "id": "tx2025qzbdup"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.32,
-        "place": "9 km NNW of Grapevine, CA",
-        "time": 1756362396480,
-        "updated": 1756362634281,
+        "mag": 2.7,
+        "place": "61 km S of Whites City, New Mexico",
+        "time": 1756448898363,
+        "updated": 1756449098304,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41277176",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41277176.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qzbdwa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qzbdwa.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 27,
+        "sig": 112,
+        "net": "tx",
+        "code": "2025qzbdwa",
+        "ids": ",tx2025qzbdwa,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 197,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 61 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.486,
+          31.63,
+          3.3261
+        ]
+      },
+      "id": "tx2025qzbdwa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.77,
+        "place": "3 km SW of Banning, CA",
+        "time": 1756448569470,
+        "updated": 1756448778916,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41277928",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41277928.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
         "net": "ci",
-        "code": "41277176",
-        "ids": ",ci41277176,",
+        "code": "41277928",
+        "ids": ",ci41277928,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.09711,
-        "rms": 0.21,
-        "gap": 28,
+        "nst": 41,
+        "dmin": 0.107,
+        "rms": 0.15,
+        "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 9 km NNW of Grapevine, CA"
+        "title": "M 0.8 - 3 km SW of Banning, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.972,
-          35.0156667,
-          15.61
+          -116.8975,
+          33.9008333,
+          15.64
         ]
       },
-      "id": "ci41277176"
+      "id": "ci41277928"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.09,
-        "place": "13 km SSW of Ocotillo Wells, CA",
-        "time": 1756362377090,
-        "updated": 1756362600497,
+        "mag": 1.67,
+        "place": "3 km SE of Ratliff City, Oklahoma",
+        "time": 1756448447717,
+        "updated": 1756448599991,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41277168",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41277168.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025qwzh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025qwzh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "ci",
-        "code": "41277168",
-        "ids": ",ci41277168,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.1203,
-        "rms": 0.21,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 13 km SSW of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.1986667,
-          33.0368333,
-          3.51
-        ]
-      },
-      "id": "ci41277168"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.21,
-        "place": "2 km NE of Calumet, Oklahoma",
-        "time": 1756361869991,
-        "updated": 1756361964742,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025qvds",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025qvds.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 75,
+        "sig": 43,
         "net": "ok",
-        "code": "2025qvds",
-        "ids": ",ok2025qvds,",
+        "code": "2025qwzh",
+        "ids": ",ok2025qwzh,",
         "sources": ",ok,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.1151682436,
-        "rms": 1.113486105,
-        "gap": 146.618927,
+        "nst": 11,
+        "dmin": 0.0591719225,
+        "rms": 0.5004682209,
+        "gap": 103.9192505,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 2 km NE of Calumet, Oklahoma"
+        "title": "M 1.7 - 3 km SE of Ratliff City, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.09498596,
-          35.61841965,
-          5
+          -97.48699951,
+          34.42179871,
+          6.150876522
         ]
       },
-      "id": "ok2025qvds"
+      "id": "ok2025qwzh"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.94,
-        "place": "28 km N of Adelanto, CA",
-        "time": 1756361780250,
-        "updated": 1756362007661,
+        "mag": 0.68,
+        "place": "8 km WNW of Cobb, CA",
+        "time": 1756447652020,
+        "updated": 1756448837027,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41277160",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41277160.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "ci",
-        "code": "41277160",
-        "ids": ",ci41277160,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.1465,
-        "rms": 0.15,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 28 km N of Adelanto, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3956667,
-          34.834,
-          2.46
-        ]
-      },
-      "id": "ci41277160"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "93 km NNW of Aleneva, Alaska",
-        "time": 1756361523063,
-        "updated": 1756361616411,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b10mgz6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b10mgz6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "025b10mgz6",
-        "ids": ",ak025b10mgz6,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.18,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 93 km NNW of Aleneva, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.5655,
-          58.8242,
-          16.9
-        ]
-      },
-      "id": "ak025b10mgz6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.66,
-        "place": "8 km NNW of The Geysers, CA",
-        "time": 1756360992130,
-        "updated": 1756362137524,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75229707",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75229707.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75230232",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75230232.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -347,155 +187,155 @@
         "tsunami": 0,
         "sig": 7,
         "net": "nc",
-        "code": "75229707",
-        "ids": ",nc75229707,",
+        "code": "75230232",
+        "ids": ",nc75230232,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.008684,
-        "rms": 0.02,
-        "gap": 54,
+        "nst": 9,
+        "dmin": 0.01107,
+        "rms": 0.01,
+        "gap": 94,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 8 km NNW of The Geysers, CA"
+        "title": "M 0.7 - 8 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.81583404541,
-          38.8308334350586,
-          1.55999994277954
+          -122.814498901367,
+          38.8460006713867,
+          0.920000016689301
         ]
       },
-      "id": "nc75229707"
+      "id": "nc75230232"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "110 km NW of Yakutat, Alaska",
-        "time": 1756360360634,
-        "updated": 1756360472963,
+        "mag": 2.17,
+        "place": "19 km WSW of Toms Place, CA",
+        "time": 1756446508120,
+        "updated": 1756447038806,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b109owv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b109owv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75230227",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75230227.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "025b109owv",
-        "ids": ",ak025b109owv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 110 km NW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -141.1083,
-          60.2523,
-          18.4
-        ]
-      },
-      "id": "ak025b109owv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.26,
-        "place": "9 km SSE of Guánica, Puerto Rico",
-        "time": 1756360353960,
-        "updated": 1756360797650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71493653",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71493653.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 79,
-        "net": "pr",
-        "code": "71493653",
-        "ids": ",pr71493653,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.09002,
-        "rms": 0.11,
-        "gap": 241,
+        "sig": 72,
+        "net": "nc",
+        "code": "75230227",
+        "ids": ",nc75230227,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.1463,
+        "rms": 0.07,
+        "gap": 99,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.3 - 9 km SSE of Guánica, Puerto Rico"
+        "title": "M 2.2 - 19 km WSW of Toms Place, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.8868333333333,
-          17.8848333333333,
-          11.21
+          -118.842498779297,
+          37.4438323974609,
+          3.86999988555908
         ]
       },
-      "id": "pr71493653"
+      "id": "nc75230227"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.5,
-        "place": "85 km NNW of Karluk, Alaska",
-        "time": 1756360170461,
-        "updated": 1756360258554,
+        "mag": 1.44,
+        "place": "10 km SW of Idyllwild, CA",
+        "time": 1756445703120,
+        "updated": 1756446621910,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b1090za",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b1090za.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41277896",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41277896.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
-        "net": "ak",
-        "code": "025b1090za",
-        "ids": ",ak025b1090za,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.13,
-        "gap": null,
+        "sig": 32,
+        "net": "ci",
+        "code": "41277896",
+        "ids": ",ci41277896,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 78,
+        "dmin": 0.0662,
+        "rms": 0.2,
+        "gap": 24,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 85 km NNW of Karluk, Alaska"
+        "title": "M 1.4 - 10 km SW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.1722,
-          58.2372,
-          1.1
+          -116.797,
+          33.681,
+          16.4
         ]
       },
-      "id": "ak025b1090za"
+      "id": "ci41277896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.15,
+        "place": "10 km SW of Idyllwild, CA",
+        "time": 1756445664940,
+        "updated": 1756446318610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41277880",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41277880.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 20,
+        "net": "ci",
+        "code": "41277880",
+        "ids": ",ci41277880,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 60,
+        "dmin": 0.06707,
+        "rms": 0.17,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 10 km SW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7963333,
+          33.6816667,
+          16.91
+        ]
+      },
+      "id": "ci41277880"
     }
   ],
   "bbox": [
-    -155.1722,
-    17.884833333333,
-    1.1,
-    -66.886833333333,
-    60.2523,
-    18.4
+    -122.81449890137,
+    31.63,
+    0.9200000166893,
+    -97.48699951,
+    38.846000671387,
+    16.91
   ]
 }
