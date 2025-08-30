@@ -1,341 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756449260000,
+    "generated": 1756535646000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "60 km S of Whites City, New Mexico",
-        "time": 1756448898554,
-        "updated": 1756449149371,
+        "mag": 0.57,
+        "place": "8 km S of Idyllwild, CA",
+        "time": 1756535077360,
+        "updated": 1756535338060,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qzbdup",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qzbdup.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41279176",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41279176.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2025qzbdup",
-        "ids": ",tx2025qzbdup,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 105,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 60 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.483,
-          31.635,
-          2.9728
-        ]
-      },
-      "id": "tx2025qzbdup"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "61 km S of Whites City, New Mexico",
-        "time": 1756448898363,
-        "updated": 1756449098304,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025qzbdwa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025qzbdwa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "tx",
-        "code": "2025qzbdwa",
-        "ids": ",tx2025qzbdwa,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 197,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 61 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.486,
-          31.63,
-          3.3261
-        ]
-      },
-      "id": "tx2025qzbdwa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.77,
-        "place": "3 km SW of Banning, CA",
-        "time": 1756448569470,
-        "updated": 1756448778916,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41277928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41277928.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
+        "sig": 5,
         "net": "ci",
-        "code": "41277928",
-        "ids": ",ci41277928,",
+        "code": "41279176",
+        "ids": ",ci41279176,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.107,
-        "rms": 0.15,
-        "gap": 38,
+        "nst": 26,
+        "dmin": 0.08056,
+        "rms": 0.12,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 3 km SW of Banning, CA"
+        "title": "M 0.6 - 8 km S of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.8975,
-          33.9008333,
-          15.64
+          -116.7028333,
+          33.6663333,
+          16.04
         ]
       },
-      "id": "ci41277928"
+      "id": "ci41279176"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.67,
-        "place": "3 km SE of Ratliff City, Oklahoma",
-        "time": 1756448447717,
-        "updated": 1756448599991,
+        "mag": 1.1,
+        "place": "3 km ESE of Colton, CA",
+        "time": 1756534223740,
+        "updated": 1756534868590,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025qwzh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025qwzh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41279168",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41279168.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 43,
-        "net": "ok",
-        "code": "2025qwzh",
-        "ids": ",ok2025qwzh,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.0591719225,
-        "rms": 0.5004682209,
-        "gap": 103.9192505,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 3 km SE of Ratliff City, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.48699951,
-          34.42179871,
-          6.150876522
-        ]
-      },
-      "id": "ok2025qwzh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.68,
-        "place": "8 km WNW of Cobb, CA",
-        "time": 1756447652020,
-        "updated": 1756448837027,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75230232",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75230232.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75230232",
-        "ids": ",nc75230232,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.01107,
-        "rms": 0.01,
-        "gap": 94,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.814498901367,
-          38.8460006713867,
-          0.920000016689301
-        ]
-      },
-      "id": "nc75230232"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.17,
-        "place": "19 km WSW of Toms Place, CA",
-        "time": 1756446508120,
-        "updated": 1756447038806,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75230227",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75230227.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 72,
-        "net": "nc",
-        "code": "75230227",
-        "ids": ",nc75230227,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.1463,
-        "rms": 0.07,
-        "gap": 99,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 19 km WSW of Toms Place, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.842498779297,
-          37.4438323974609,
-          3.86999988555908
-        ]
-      },
-      "id": "nc75230227"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.44,
-        "place": "10 km SW of Idyllwild, CA",
-        "time": 1756445703120,
-        "updated": 1756446621910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41277896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41277896.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 32,
+        "sig": 19,
         "net": "ci",
-        "code": "41277896",
-        "ids": ",ci41277896,",
+        "code": "41279168",
+        "ids": ",ci41279168,",
         "sources": ",ci,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 78,
-        "dmin": 0.0662,
-        "rms": 0.2,
-        "gap": 24,
+        "nst": 59,
+        "dmin": 0.03882,
+        "rms": 0.19,
+        "gap": 29,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 10 km SW of Idyllwild, CA"
+        "title": "M 1.1 - 3 km ESE of Colton, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.797,
-          33.681,
-          16.4
+          -117.2846667,
+          34.0665,
+          6.9
         ]
       },
-      "id": "ci41277896"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.15,
-        "place": "10 km SW of Idyllwild, CA",
-        "time": 1756445664940,
-        "updated": 1756446318610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41277880",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41277880.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 20,
-        "net": "ci",
-        "code": "41277880",
-        "ids": ",ci41277880,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.06707,
-        "rms": 0.17,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 10 km SW of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7963333,
-          33.6816667,
-          16.91
-        ]
-      },
-      "id": "ci41277880"
+      "id": "ci41279168"
     }
   ],
   "bbox": [
-    -122.81449890137,
-    31.63,
-    0.9200000166893,
-    -97.48699951,
-    38.846000671387,
-    16.91
+    -117.2846667,
+    33.6663333,
+    6.9,
+    -116.7028333,
+    34.0665,
+    16.04
   ]
 }
