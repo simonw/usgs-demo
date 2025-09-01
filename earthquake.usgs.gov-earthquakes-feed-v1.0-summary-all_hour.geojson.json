@@ -1,24 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756622080000,
+    "generated": 1756708501000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.63,
-        "place": "0 km N of The Geysers, CA",
-        "time": 1756621837750,
-        "updated": 1756621931897,
+        "mag": 0.88,
+        "place": "10 km NE of Coso Junction, CA",
+        "time": 1756708044200,
+        "updated": 1756708255728,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75231087",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75231087.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280520",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280520.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41280520",
+        "ids": ",ci41280520,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.01251,
+        "rms": 0.1,
+        "gap": 97,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 10 km NE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.859,
+          36.1055,
+          3.23
+        ]
+      },
+      "id": "ci41280520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.23,
+        "place": "10 km NE of Coso Junction, CA",
+        "time": 1756707968620,
+        "updated": 1756708191638,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280512",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280512.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 77,
+        "net": "ci",
+        "code": "41280512",
+        "ids": ",ci41280512,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.01244,
+        "rms": 0.15,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 10 km NE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.86,
+          36.1058333,
+          2.66
+        ]
+      },
+      "id": "ci41280512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.42,
+        "place": "23 km SW of Ocotillo Wells, CA",
+        "time": 1756707421910,
+        "updated": 1756708053750,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280504",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280504.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "ci",
+        "code": "41280504",
+        "ids": ",ci41280504,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 62,
+        "dmin": 0.02827,
+        "rms": 0.19,
+        "gap": 37,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 23 km SW of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2798333,
+          32.9748333,
+          9.21
+        ]
+      },
+      "id": "ci41280504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.38,
+        "place": "9 km N of Acton, CA",
+        "time": 1756707183290,
+        "updated": 1756707808980,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280496",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280496.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 29,
+        "net": "ci",
+        "code": "41280496",
+        "ids": ",ci41280496,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 56,
+        "dmin": 0.05159,
+        "rms": 0.18,
+        "gap": 30,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 9 km N of Acton, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2008333,
+          34.5521667,
+          11.81
+        ]
+      },
+      "id": "ci41280496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.6,
+        "place": "14 km ENE of Lucerne Valley, CA",
+        "time": 1756706258430,
+        "updated": 1756706467758,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280488",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280488.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,159 +186,159 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 6,
-        "net": "nc",
-        "code": "75231087",
-        "ids": ",nc75231087,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.01585,
-        "rms": 0.03,
-        "gap": 123,
-        "magType": "md",
+        "net": "ci",
+        "code": "41280488",
+        "ids": ",ci41280488,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.1157,
+        "rms": 0.16,
+        "gap": 60,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 0 km N of The Geysers, CA"
+        "title": "M 0.6 - 14 km ENE of Lucerne Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.75666809082,
-          38.7803344726562,
-          1.19000005722046
+          -116.8381667,
+          34.5068333,
+          7.82
         ]
       },
-      "id": "nc75231087"
+      "id": "ci41280488"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.59,
-        "place": "12 km NNE of Ocotillo Wells, CA",
-        "time": 1756621531160,
-        "updated": 1756621785390,
+        "mag": 0.79,
+        "place": "11 km S of Idyllwild, CA",
+        "time": 1756706181420,
+        "updated": 1756706388484,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41279840",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41279840.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280472",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280472.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
+        "sig": 10,
         "net": "ci",
-        "code": "41279840",
-        "ids": ",ci41279840,",
+        "code": "41280472",
+        "ids": ",ci41280472,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 40,
-        "dmin": 0.08206,
-        "rms": 0.23,
-        "gap": 63,
+        "dmin": 0.05371,
+        "rms": 0.16,
+        "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 12 km NNE of Ocotillo Wells, CA"
+        "title": "M 0.8 - 11 km S of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.0675,
-          33.2346667,
-          9.75
+          -116.7315,
+          33.645,
+          14.62
         ]
       },
-      "id": "ci41279840"
+      "id": "ci41280472"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.4,
-        "place": "50 km E of Ugashik, Alaska",
-        "time": 1756621293282,
-        "updated": 1756621422518,
+        "mag": 4.4,
+        "place": "159 km NNW of Neiafu, Tonga",
+        "time": 1756706079625,
+        "updated": 1756707858040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b5zai8g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b5zai8g.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qsyj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qsyj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "025b5zai8g",
-        "ids": ",ak025b5zai8g,",
-        "sources": ",ak,",
+        "sig": 298,
+        "net": "us",
+        "code": "7000qsyj",
+        "ids": ",us7000qsyj,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
+        "nst": 33,
+        "dmin": 4.46,
+        "rms": 0.79,
+        "gap": 73,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.4 - 50 km E of Ugashik, Alaska"
+        "title": "M 4.4 - 159 km NNW of Neiafu, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.5502,
-          57.5068,
-          12.9
+          -174.7098,
+          -17.3838,
+          210.845
         ]
       },
-      "id": "ak025b5zai8g"
+      "id": "us7000qsyj"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "12 km WSW of El Centro, CA",
-        "time": 1756620720530,
-        "updated": 1756621359260,
+        "mag": 1.2,
+        "place": "49 km SSW of Goldfield, Nevada",
+        "time": 1756705788734,
+        "updated": 1756705951851,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41279832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41279832.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903605",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903605.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "ci",
-        "code": "41279832",
-        "ids": ",ci41279832,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 46,
-        "dmin": 0.05521,
-        "rms": 0.24,
-        "gap": 39,
+        "sig": 22,
+        "net": "nn",
+        "code": "00903605",
+        "ids": ",nn00903605,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.181,
+        "rms": 0.4394,
+        "gap": 147.2,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 12 km WSW of El Centro, CA"
+        "title": "M 1.2 - 49 km SSW of Goldfield, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.6723333,
-          32.731,
-          7.22
+          -117.4875,
+          37.3113,
+          5.3
         ]
       },
-      "id": "ci41279832"
+      "id": "nn00903605"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.3,
-        "place": "7 km ESE of Nelchina, Alaska",
-        "time": 1756619403539,
-        "updated": 1756619530643,
+        "place": "40 km SSE of Silver Peak, Nevada",
+        "time": 1756705664441,
+        "updated": 1756705831679,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b5yv83l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b5yv83l.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903603",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903603.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,116 +346,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 26,
+        "net": "nn",
+        "code": "00903603",
+        "ids": ",nn00903603,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.36,
+        "rms": 0.2664,
+        "gap": 196.60000000000002,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 40 km SSE of Silver Peak, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5208,
+          37.4032,
+          16
+        ]
+      },
+      "id": "nn00903603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.14,
+        "place": "4 km WNW of Orocovis, Puerto Rico",
+        "time": 1756705550530,
+        "updated": 1756706616900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494178",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494178.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 70,
+        "net": "pr",
+        "code": "71494178",
+        "ids": ",pr71494178,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.2218,
+        "rms": 0.2,
+        "gap": 101,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 4 km WNW of Orocovis, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.4283333333333,
+          18.245,
+          43.6
+        ]
+      },
+      "id": "pr71494178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "45 km ENE of Susitna North, Alaska",
+        "time": 1756704946748,
+        "updated": 1756705085657,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b7mbg6q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b7mbg6q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
         "net": "ak",
-        "code": "025b5yv83l",
-        "ids": ",ak025b5yv83l,",
+        "code": "025b7mbg6q",
+        "ids": ",ak025b7mbg6q,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 1.07,
+        "rms": 0.58,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 7 km ESE of Nelchina, Alaska"
+        "title": "M 1.5 - 45 km ENE of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.6354,
-          61.9685,
-          0
+          -149.1077,
+          62.379,
+          44.4
         ]
       },
-      "id": "ak025b5yv83l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "35 km NW of Stanton, Texas",
-        "time": 1756619391883,
-        "updated": 1756619608111,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rcrimn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rcrimn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "tx",
-        "code": "2025rcrimn",
-        "ids": ",tx2025rcrimn,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0,
-        "rms": 0.6,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 35 km NW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.077,
-          32.341,
-          2.683
-        ]
-      },
-      "id": "tx2025rcrimn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "23 km NNW of Toyah, Texas",
-        "time": 1756618838232,
-        "updated": 1756620479911,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rcranj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rcranj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "tx",
-        "code": "2025rcranj",
-        "ids": ",tx2025rcranj,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0,
-        "rms": 0.6,
-        "gap": 47,
-        "magType": "mlv",
-        "type": "earthquake",
-        "title": "M 2.2 - 23 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.857,
-          31.516,
-          5.5049
-        ]
-      },
-      "id": "tx2025rcranj"
+      "id": "ak025b7mbg6q"
     }
   ],
   "bbox": [
-    -156.5502,
-    31.516,
-    0,
-    -102.077,
-    61.9685,
-    12.9
+    -174.7098,
+    -17.3838,
+    2.66,
+    -66.428333333333,
+    62.379,
+    210.845
   ]
 }
