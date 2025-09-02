@@ -1,424 +1,264 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756708501000,
+    "generated": 1756794881000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 11
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.88,
-        "place": "10 km NE of Coso Junction, CA",
-        "time": 1756708044200,
-        "updated": 1756708255728,
+        "mag": 1,
+        "place": "54 km E of Egegik, Alaska",
+        "time": 1756794551645,
+        "updated": 1756794696178,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280520",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280520.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b9aeva4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b9aeva4.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "41280520",
-        "ids": ",ci41280520,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.01251,
+        "sig": 15,
+        "net": "ak",
+        "code": "025b9aeva4",
+        "ids": ",ak025b9aeva4,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 54 km E of Egegik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.4659,
+          58.147,
+          17.6
+        ]
+      },
+      "id": "ak025b9aeva4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "21 km SSW of Mentone, Texas",
+        "time": 1756793627944,
+        "updated": 1756793908125,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rgjouf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rgjouf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "tx",
+        "code": "2025rgjouf",
+        "ids": ",tx2025rgjouf,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 126,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 21 km SSW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.71,
+          31.54,
+          5.3527
+        ]
+      },
+      "id": "tx2025rgjouf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "38 km WNW of Skwentna, Alaska",
+        "time": 1756792997383,
+        "updated": 1756794593689,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b9a9b3u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b9a9b3u.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "025b9a9b3u",
+        "ids": ",ak025b9a9b3u,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
         "rms": 0.1,
-        "gap": 97,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 10 km NE of Coso Junction, CA"
+        "title": "M 2.4 - 38 km WNW of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.859,
-          36.1055,
-          3.23
+          -152.026,
+          62.1761,
+          16.9
         ]
       },
-      "id": "ci41280520"
+      "id": "ak025b9a9b3u"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.23,
-        "place": "10 km NE of Coso Junction, CA",
-        "time": 1756707968620,
-        "updated": 1756708191638,
+        "mag": 1.36,
+        "place": "6 km N of Julian, CA",
+        "time": 1756792802840,
+        "updated": 1756793047952,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280512.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41281160",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41281160.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 77,
+        "sig": 28,
         "net": "ci",
-        "code": "41280512",
-        "ids": ",ci41280512,",
+        "code": "41281160",
+        "ids": ",ci41281160,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.01244,
-        "rms": 0.15,
-        "gap": 35,
+        "nst": 6,
+        "dmin": 0.1663,
+        "rms": 0.07,
+        "gap": 168,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 10 km NE of Coso Junction, CA"
+        "title": "M 1.4 - 6 km N of Julian, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.86,
-          36.1058333,
-          2.66
+          -116.6,
+          33.136,
+          3.32
         ]
       },
-      "id": "ci41280512"
+      "id": "ci41281160"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.42,
-        "place": "23 km SW of Ocotillo Wells, CA",
-        "time": 1756707421910,
-        "updated": 1756708053750,
+        "mag": 2.34,
+        "place": "10 km SSE of Tallaboa, Puerto Rico",
+        "time": 1756791904410,
+        "updated": 1756792829990,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280504",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280504.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 31,
-        "net": "ci",
-        "code": "41280504",
-        "ids": ",ci41280504,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 62,
-        "dmin": 0.02827,
-        "rms": 0.19,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 23 km SW of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.2798333,
-          32.9748333,
-          9.21
-        ]
-      },
-      "id": "ci41280504"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.38,
-        "place": "9 km N of Acton, CA",
-        "time": 1756707183290,
-        "updated": 1756707808980,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280496",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280496.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 29,
-        "net": "ci",
-        "code": "41280496",
-        "ids": ",ci41280496,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 56,
-        "dmin": 0.05159,
-        "rms": 0.18,
-        "gap": 30,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 9 km N of Acton, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.2008333,
-          34.5521667,
-          11.81
-        ]
-      },
-      "id": "ci41280496"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.6,
-        "place": "14 km ENE of Lucerne Valley, CA",
-        "time": 1756706258430,
-        "updated": 1756706467758,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280488",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280488.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41280488",
-        "ids": ",ci41280488,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.1157,
-        "rms": 0.16,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 14 km ENE of Lucerne Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.8381667,
-          34.5068333,
-          7.82
-        ]
-      },
-      "id": "ci41280488"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.79,
-        "place": "11 km S of Idyllwild, CA",
-        "time": 1756706181420,
-        "updated": 1756706388484,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41280472",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41280472.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41280472",
-        "ids": ",ci41280472,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.05371,
-        "rms": 0.16,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 11 km S of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7315,
-          33.645,
-          14.62
-        ]
-      },
-      "id": "ci41280472"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "159 km NNW of Neiafu, Tonga",
-        "time": 1756706079625,
-        "updated": 1756707858040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qsyj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qsyj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494343",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494343.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000qsyj",
-        "ids": ",us7000qsyj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 4.46,
-        "rms": 0.79,
-        "gap": 73,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 159 km NNW of Neiafu, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -174.7098,
-          -17.3838,
-          210.845
-        ]
-      },
-      "id": "us7000qsyj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "49 km SSW of Goldfield, Nevada",
-        "time": 1756705788734,
-        "updated": 1756705951851,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903605",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903605.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "nn",
-        "code": "00903605",
-        "ids": ",nn00903605,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.181,
-        "rms": 0.4394,
-        "gap": 147.2,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 49 km SSW of Goldfield, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.4875,
-          37.3113,
-          5.3
-        ]
-      },
-      "id": "nn00903605"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "40 km SSE of Silver Peak, Nevada",
-        "time": 1756705664441,
-        "updated": 1756705831679,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903603",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903603.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "nn",
-        "code": "00903603",
-        "ids": ",nn00903603,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.36,
-        "rms": 0.2664,
-        "gap": 196.60000000000002,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 40 km SSE of Silver Peak, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5208,
-          37.4032,
-          16
-        ]
-      },
-      "id": "nn00903603"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.14,
-        "place": "4 km WNW of Orocovis, Puerto Rico",
-        "time": 1756705550530,
-        "updated": 1756706616900,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494178",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494178.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 70,
+        "sig": 84,
         "net": "pr",
-        "code": "71494178",
-        "ids": ",pr71494178,",
+        "code": "71494343",
+        "ids": ",pr71494343,",
         "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.2218,
-        "rms": 0.2,
-        "gap": 101,
+        "nst": 11,
+        "dmin": 0.1341,
+        "rms": 0.14,
+        "gap": 180,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.1 - 4 km WNW of Orocovis, Puerto Rico"
+        "title": "M 2.3 - 10 km SSE of Tallaboa, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.4283333333333,
-          18.245,
-          43.6
+          -66.665,
+          17.9115,
+          8.49
         ]
       },
-      "id": "pr71494178"
+      "id": "pr71494343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "7 km SW of Nenana, Alaska",
+        "time": 1756791827255,
+        "updated": 1756791952621,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b99wig5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b99wig5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "025b99wig5",
+        "ids": ",ak025b99wig5,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.83,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 7 km SW of Nenana, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.2165,
+          64.5231,
+          0
+        ]
+      },
+      "id": "ak025b99wig5"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "45 km ENE of Susitna North, Alaska",
-        "time": 1756704946748,
-        "updated": 1756705085657,
+        "place": "16 km SSE of Lindsay, Texas",
+        "time": 1756791623080,
+        "updated": 1756791857189,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b7mbg6q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b7mbg6q.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rgimbt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rgimbt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -426,36 +266,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 35,
-        "net": "ak",
-        "code": "025b7mbg6q",
-        "ids": ",ak025b7mbg6q,",
-        "sources": ",ak,",
+        "net": "tx",
+        "code": "2025rgimbt",
+        "ids": ",tx2025rgimbt,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.58,
-        "gap": null,
+        "nst": 27,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 48,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 45 km ENE of Susitna North, Alaska"
+        "title": "M 1.5 - 16 km SSE of Lindsay, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.1077,
-          62.379,
-          44.4
+          -103.501,
+          31.228,
+          5.976
         ]
       },
-      "id": "ak025b7mbg6q"
+      "id": "tx2025rgimbt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.2,
+        "place": "2 km E of Running Springs, CA",
+        "time": 1756791472870,
+        "updated": 1756791678824,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41281152",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41281152.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "ci",
+        "code": "41281152",
+        "ids": ",ci41281152,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 12,
+        "dmin": 0.03529,
+        "rms": 0.12,
+        "gap": 151,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.2 - 2 km E of Running Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0861667,
+          34.209,
+          5.19
+        ]
+      },
+      "id": "ci41281152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "14 km E of Old Harbor, Alaska",
+        "time": 1756791467445,
+        "updated": 1756791621777,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b99v860",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b99v860.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "025b99v860",
+        "ids": ",ak025b99v860,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.79,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 14 km E of Old Harbor, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.0667,
+          57.1973,
+          50
+        ]
+      },
+      "id": "ak025b99v860"
     }
   ],
   "bbox": [
-    -174.7098,
-    -17.3838,
-    2.66,
-    -66.428333333333,
-    62.379,
-    210.845
+    -156.4659,
+    17.9115,
+    0,
+    -66.665,
+    64.5231,
+    50
   ]
 }
