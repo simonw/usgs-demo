@@ -1,224 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1756794881000,
+    "generated": 1756881267000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "54 km E of Egegik, Alaska",
-        "time": 1756794551645,
-        "updated": 1756794696178,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b9aeva4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b9aeva4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "025b9aeva4",
-        "ids": ",ak025b9aeva4,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.53,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 54 km E of Egegik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.4659,
-          58.147,
-          17.6
-        ]
-      },
-      "id": "ak025b9aeva4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "21 km SSW of Mentone, Texas",
-        "time": 1756793627944,
-        "updated": 1756793908125,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rgjouf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rgjouf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "tx",
-        "code": "2025rgjouf",
-        "ids": ",tx2025rgjouf,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 126,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 21 km SSW of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.71,
-          31.54,
-          5.3527
-        ]
-      },
-      "id": "tx2025rgjouf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.4,
-        "place": "38 km WNW of Skwentna, Alaska",
-        "time": 1756792997383,
-        "updated": 1756794593689,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b9a9b3u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b9a9b3u.geojson",
-        "felt": 1,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "025b9a9b3u",
-        "ids": ",ak025b9a9b3u,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.1,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 38 km WNW of Skwentna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.026,
-          62.1761,
-          16.9
-        ]
-      },
-      "id": "ak025b9a9b3u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.36,
-        "place": "6 km N of Julian, CA",
-        "time": 1756792802840,
-        "updated": 1756793047952,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41281160",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41281160.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41281160",
-        "ids": ",ci41281160,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 6,
-        "dmin": 0.1663,
-        "rms": 0.07,
-        "gap": 168,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 6 km N of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6,
-          33.136,
-          3.32
-        ]
-      },
-      "id": "ci41281160"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.34,
-        "place": "10 km SSE of Tallaboa, Puerto Rico",
-        "time": 1756791904410,
-        "updated": 1756792829990,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71494343",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71494343.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 84,
-        "net": "pr",
-        "code": "71494343",
-        "ids": ",pr71494343,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1341,
-        "rms": 0.14,
-        "gap": 180,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 10 km SSE of Tallaboa, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.665,
-          17.9115,
-          8.49
-        ]
-      },
-      "id": "pr71494343"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.8,
-        "place": "7 km SW of Nenana, Alaska",
-        "time": 1756791827255,
-        "updated": 1756791952621,
+        "place": "18 km E of Balmorhea, Texas",
+        "time": 1756880952969,
+        "updated": 1756881168229,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b99wig5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b99wig5.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rifvau",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rifvau.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,156 +26,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 50,
-        "net": "ak",
-        "code": "025b99wig5",
-        "ids": ",ak025b99wig5,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.83,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 7 km SW of Nenana, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.2165,
-          64.5231,
-          0
-        ]
-      },
-      "id": "ak025b99wig5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "16 km SSE of Lindsay, Texas",
-        "time": 1756791623080,
-        "updated": 1756791857189,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rgimbt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rgimbt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
         "net": "tx",
-        "code": "2025rgimbt",
-        "ids": ",tx2025rgimbt,",
+        "code": "2025rifvau",
+        "ids": ",tx2025rifvau,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 27,
+        "nst": 19,
         "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 48,
+        "rms": 0.7,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 16 km SSE of Lindsay, Texas"
+        "title": "M 1.8 - 18 km E of Balmorhea, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.501,
-          31.228,
-          5.976
+          -103.554,
+          31.01,
+          5.584
         ]
       },
-      "id": "tx2025rgimbt"
+      "id": "tx2025rifvau"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.2,
-        "place": "2 km E of Running Springs, CA",
-        "time": 1756791472870,
-        "updated": 1756791678824,
+        "mag": 0.71,
+        "place": "6 km WSW of Anza, CA",
+        "time": 1756880519770,
+        "updated": 1756880751100,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41281152",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41281152.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41282032",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41282032.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
+        "sig": 8,
         "net": "ci",
-        "code": "41281152",
-        "ids": ",ci41281152,",
+        "code": "41282032",
+        "ids": ",ci41282032,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.03529,
-        "rms": 0.12,
-        "gap": 151,
+        "nst": 44,
+        "dmin": 0.03825,
+        "rms": 0.16,
+        "gap": 32,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.2 - 2 km E of Running Springs, CA"
+        "title": "M 0.7 - 6 km WSW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.0861667,
-          34.209,
-          5.19
+          -116.7271667,
+          33.528,
+          6.05
         ]
       },
-      "id": "ci41281152"
+      "id": "ci41282032"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "14 km E of Old Harbor, Alaska",
-        "time": 1756791467445,
-        "updated": 1756791621777,
+        "mag": 0.9,
+        "place": "38 km WNW of Nikiski, Alaska",
+        "time": 1756879932281,
+        "updated": 1756880023656,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025b99v860",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025b99v860.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025baxukng",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025baxukng.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
+        "sig": 12,
         "net": "ak",
-        "code": "025b99v860",
-        "ids": ",ak025b99v860,",
+        "code": "025baxukng",
+        "ids": ",ak025baxukng,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.79,
+        "rms": 0.37,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 14 km E of Old Harbor, Alaska"
+        "title": "M 0.9 - 38 km WNW of Nikiski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.0667,
-          57.1973,
-          50
+          -151.9658,
+          60.7769,
+          202.1
         ]
       },
-      "id": "ak025b99v860"
+      "id": "ak025baxukng"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.35,
+        "place": "3 km SSW of Mammoth Lakes, CA",
+        "time": 1756879477950,
+        "updated": 1756880838418,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75232537",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75232537.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "nc",
+        "code": "75232537",
+        "ids": ",nc75232537,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 6,
+        "dmin": 0.02992,
+        "rms": 0.01,
+        "gap": 166,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.4 - 3 km SSW of Mammoth Lakes, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.984664916992,
+          37.6058349609375,
+          11.9300003051758
+        ]
+      },
+      "id": "nc75232537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1756878870510,
+        "updated": 1756880240346,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75232532",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75232532.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "nc",
+        "code": "75232532",
+        "ids": ",nc75232532,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.004149,
+        "rms": 0.03,
+        "gap": 55,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 6 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.794334411621,
+          38.8356666564941,
+          2.05999994277954
+        ]
+      },
+      "id": "nc75232532"
     }
   ],
   "bbox": [
-    -156.4659,
-    17.9115,
-    0,
-    -66.665,
-    64.5231,
-    50
+    -151.9658,
+    31.01,
+    2.0599999427795,
+    -103.554,
+    60.7769,
+    202.1
   ]
 }
