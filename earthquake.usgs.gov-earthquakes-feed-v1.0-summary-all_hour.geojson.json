@@ -1,184 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757140381000,
+    "generated": 1757226845000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.2.0",
-    "count": 7
+    "api": "1.14.1",
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.77,
-        "place": "3 km NW of The Geysers, CA",
-        "time": 1757140226510,
-        "updated": 1757140322668,
+        "mag": 1.04,
+        "place": "7 km WSW of Tehachapi, CA",
+        "time": 1757226568200,
+        "updated": 1757226778440,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75233747",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75233747.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41285400",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41285400.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75233747",
-        "ids": ",nc75233747,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.007423,
-        "rms": 0.03,
-        "gap": 77,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 3 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.778503417969,
-          38.7941665649414,
-          3.14000010490417
-        ]
-      },
-      "id": "nc75233747"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.77,
-        "place": "6 km SW of Pearblossom, CA",
-        "time": 1757139591010,
-        "updated": 1757139804453,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41284536",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41284536.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
+        "sig": 17,
         "net": "ci",
-        "code": "41284536",
-        "ids": ",ci41284536,",
+        "code": "41285400",
+        "ids": ",ci41285400,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.02292,
-        "rms": 0.06,
-        "gap": 91,
+        "nst": 35,
+        "dmin": 0.1846,
+        "rms": 0.15,
+        "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 6 km SW of Pearblossom, CA"
+        "title": "M 1.0 - 7 km WSW of Tehachapi, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9513333,
-          34.4716667,
-          8.21
+          -118.5161667,
+          35.1073333,
+          3.12
         ]
       },
-      "id": "ci41284536"
+      "id": "ci41285400"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.85,
-        "place": "1 km NE of Minco, Oklahoma",
-        "time": 1757139515417,
-        "updated": 1757139732006,
+        "mag": 0.96,
+        "place": "7 km WSW of Tehachapi, CA",
+        "time": 1757225476350,
+        "updated": 1757225687479,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025rlpf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025rlpf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41285392",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41285392.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 53,
-        "net": "ok",
-        "code": "2025rlpf",
-        "ids": ",ok2025rlpf,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.07105174661,
-        "rms": 0.5344272283,
-        "gap": 55.12513733,
+        "sig": 14,
+        "net": "ci",
+        "code": "41285392",
+        "ids": ",ci41285392,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.1854,
+        "rms": 0.13,
+        "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 1 km NE of Minco, Oklahoma"
+        "title": "M 1.0 - 7 km WSW of Tehachapi, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.93362427,
-          35.32062531,
-          4.566224098
+          -118.5166667,
+          35.108,
+          2.39
         ]
       },
-      "id": "ok2025rlpf"
+      "id": "ci41285392"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "19 km S of Susitna, Alaska",
-        "time": 1757138680714,
-        "updated": 1757138792597,
+        "mag": 1.27,
+        "place": "2 km SSE of Brea, CA",
+        "time": 1757225267930,
+        "updated": 1757225504902,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bfweylj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bfweylj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41285384",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41285384.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "025bfweylj",
-        "ids": ",ak025bfweylj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.7,
-        "gap": null,
+        "sig": 25,
+        "net": "ci",
+        "code": "41285384",
+        "ids": ",ci41285384,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 60,
+        "dmin": 0.04086,
+        "rms": 0.23,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 19 km S of Susitna, Alaska"
+        "title": "M 1.3 - 2 km SSE of Brea, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.4746,
-          61.3724,
-          3.8
+          -117.887,
+          33.9,
+          9.35
         ]
       },
-      "id": "ak025bfweylj"
+      "id": "ci41285384"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.3,
-        "place": "18 km NNE of Yerington, Nevada",
-        "time": 1757138094087,
-        "updated": 1757138237743,
+        "place": "8 km NW of Point Possession, Alaska",
+        "time": 1757224822818,
+        "updated": 1757224912274,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903898",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903898.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bhjxeuh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bhjxeuh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,116 +146,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 26,
-        "net": "nn",
-        "code": "00903898",
-        "ids": ",nn00903898,",
-        "sources": ",nn,",
+        "net": "ak",
+        "code": "025bhjxeuh",
+        "ids": ",ak025bhjxeuh,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.197,
-        "rms": 0.1215,
-        "gap": 101.55000000000001,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.74,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 18 km NNE of Yerington, Nevada"
+        "title": "M 1.3 - 8 km NW of Point Possession, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0722,
-          39.1322,
-          7.6
+          -150.8025,
+          60.9729,
+          35.3
         ]
       },
-      "id": "nn00903898"
+      "id": "ak025bhjxeuh"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "8 km WSW of Copper Center, Alaska",
-        "time": 1757137625007,
-        "updated": 1757137777015,
+        "mag": 0.28,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1757224610990,
+        "updated": 1757225840011,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bfw2o10",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bfw2o10.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75234342",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75234342.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "025bfw2o10",
-        "ids": ",ak025bfw2o10,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.06,
-        "gap": null,
-        "magType": "ml",
+        "sig": 1,
+        "net": "nc",
+        "code": "75234342",
+        "ids": ",nc75234342,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 6,
+        "dmin": 0.00286,
+        "rms": 0.01,
+        "gap": 132,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 8 km WSW of Copper Center, Alaska"
+        "title": "M 0.3 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -145.4675,
-          61.9383,
-          114.4
+          -122.854835510254,
+          38.8251647949219,
+          2.29999995231628
         ]
       },
-      "id": "ak025bfw2o10"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "98 km NNW of Isangel, Vanuatu",
-        "time": 1757136917645,
-        "updated": 1757137814040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000quc9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000quc9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000quc9",
-        "ids": ",us7000quc9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 3.649,
-        "rms": 0.51,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 98 km NNW of Isangel, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.973,
-          -18.6981,
-          165.734
-        ]
-      },
-      "id": "us7000quc9"
+      "id": "nc75234342"
     }
   ],
   "bbox": [
-    -150.4746,
-    -18.6981,
-    3.1400001049042,
-    168.973,
-    61.9383,
-    165.734
+    -150.8025,
+    33.9,
+    2.2999999523163,
+    -117.887,
+    60.9729,
+    35.3
   ]
 }
