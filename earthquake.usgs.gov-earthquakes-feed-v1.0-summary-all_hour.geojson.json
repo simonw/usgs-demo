@@ -1,221 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757226845000,
+    "generated": 1757313304000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
+    "api": "2.2.0",
     "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.04,
-        "place": "7 km WSW of Tehachapi, CA",
-        "time": 1757226568200,
-        "updated": 1757226778440,
+        "mag": 2,
+        "place": "30 km SSW of Denali National Park, Alaska",
+        "time": 1757312899941,
+        "updated": 1757313009262,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41285400",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41285400.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bj7mr62",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bj7mr62.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41285400",
-        "ids": ",ci41285400,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.1846,
-        "rms": 0.15,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 7 km WSW of Tehachapi, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.5161667,
-          35.1073333,
-          3.12
-        ]
-      },
-      "id": "ci41285400"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.96,
-        "place": "7 km WSW of Tehachapi, CA",
-        "time": 1757225476350,
-        "updated": 1757225687479,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41285392",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41285392.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "ci",
-        "code": "41285392",
-        "ids": ",ci41285392,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.1854,
-        "rms": 0.13,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 7 km WSW of Tehachapi, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.5166667,
-          35.108,
-          2.39
-        ]
-      },
-      "id": "ci41285392"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.27,
-        "place": "2 km SSE of Brea, CA",
-        "time": 1757225267930,
-        "updated": 1757225504902,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41285384",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41285384.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "ci",
-        "code": "41285384",
-        "ids": ",ci41285384,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.04086,
-        "rms": 0.23,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 2 km SSE of Brea, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.887,
-          33.9,
-          9.35
-        ]
-      },
-      "id": "ci41285384"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "8 km NW of Point Possession, Alaska",
-        "time": 1757224822818,
-        "updated": 1757224912274,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bhjxeuh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bhjxeuh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
+        "sig": 62,
         "net": "ak",
-        "code": "025bhjxeuh",
-        "ids": ",ak025bhjxeuh,",
+        "code": "025bj7mr62",
+        "ids": ",ak025bj7mr62,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.74,
+        "rms": 0.47,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 8 km NW of Point Possession, Alaska"
+        "title": "M 2.0 - 30 km SSW of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.8025,
-          60.9729,
-          35.3
+          -151.8583,
+          63.2703,
+          6.8
         ]
       },
-      "id": "ak025bhjxeuh"
+      "id": "ak025bj7mr62"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.28,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1757224610990,
-        "updated": 1757225840011,
+        "mag": 1.5,
+        "place": "67 km N of Petersville, Alaska",
+        "time": 1757311561895,
+        "updated": 1757311698861,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75234342",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75234342.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bj7i00t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bj7i00t.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75234342",
-        "ids": ",nc75234342,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 6,
-        "dmin": 0.00286,
-        "rms": 0.01,
-        "gap": 132,
-        "magType": "md",
+        "sig": 35,
+        "net": "ak",
+        "code": "025bj7i00t",
+        "ids": ",ak025bj7i00t,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.3 - 10 km NW of The Geysers, CA"
+        "title": "M 1.5 - 67 km N of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.854835510254,
-          38.8251647949219,
-          2.29999995231628
+          -150.562,
+          63.0927,
+          89.3
         ]
       },
-      "id": "nc75234342"
+      "id": "ak025bj7i00t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.84,
+        "place": "7 km ESE of Valle Vista, CA",
+        "time": 1757311223820,
+        "updated": 1757311439434,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41285912",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41285912.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "41285912",
+        "ids": ",ci41285912,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.08396,
+        "rms": 0.17,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km ESE of Valle Vista, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8286667,
+          33.7146667,
+          16.47
+        ]
+      },
+      "id": "ci41285912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "29 km E of Indian Springs, Nevada",
+        "time": 1757311071181,
+        "updated": 1757311210243,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903966",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903966.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "nn",
+        "code": "00903966",
+        "ids": ",nn00903966,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.157,
+        "rms": 0.1138,
+        "gap": 157.67999999999998,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 29 km E of Indian Springs, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.3452,
+          36.5468,
+          6.2
+        ]
+      },
+      "id": "nn00903966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "93 km SSW of Yonakuni, Japan",
+        "time": 1757310645381,
+        "updated": 1757312407040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qunw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qunw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000qunw",
+        "ids": ",us7000qunw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 67,
+        "dmin": 0.845,
+        "rms": 0.83,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 93 km SSW of Yonakuni, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.533,
+          23.7403,
+          10
+        ]
+      },
+      "id": "us7000qunw"
     }
   ],
   "bbox": [
-    -150.8025,
-    33.9,
-    2.2999999523163,
-    -117.887,
-    60.9729,
-    35.3
+    -151.8583,
+    23.7403,
+    6.2,
+    122.533,
+    63.2703,
+    89.3
   ]
 }
