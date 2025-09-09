@@ -1,221 +1,461 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757313304000,
+    "generated": 1757399701000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.2.0",
-    "count": 5
+    "api": "1.14.1",
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2,
-        "place": "30 km SSW of Denali National Park, Alaska",
-        "time": 1757312899941,
-        "updated": 1757313009262,
+        "mag": 1.99,
+        "place": "7 km SSW of Volcano, Hawaii",
+        "time": 1757398519140,
+        "updated": 1757398711010,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bj7mr62",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bj7mr62.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74770837",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74770837.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "025bj7mr62",
-        "ids": ",ak025bj7mr62,",
-        "sources": ",ak,",
+        "sig": 61,
+        "net": "hv",
+        "code": "74770837",
+        "ids": ",hv74770837,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.47,
-        "gap": null,
+        "nst": 16,
+        "dmin": 0.00778,
+        "rms": 0.379999995,
+        "gap": 108,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 30 km SSW of Denali National Park, Alaska"
+        "title": "M 2.0 - 7 km SSW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.8583,
-          63.2703,
-          6.8
+          -155.258163452148,
+          19.3811664581299,
+          -1.08000004291534
         ]
       },
-      "id": "ak025bj7mr62"
+      "id": "hv74770837"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "67 km N of Petersville, Alaska",
-        "time": 1757311561895,
-        "updated": 1757311698861,
+        "mag": 1.9,
+        "place": "7 km SW of Volcano, Hawaii",
+        "time": 1757398518570,
+        "updated": 1757398706950,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bj7i00t",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bj7i00t.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74770832",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74770832.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "025bj7i00t",
-        "ids": ",ak025bj7i00t,",
-        "sources": ",ak,",
+        "sig": 56,
+        "net": "hv",
+        "code": "74770832",
+        "ids": ",hv74770832,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.62,
-        "gap": null,
+        "nst": 16,
+        "dmin": 0.012,
+        "rms": 0.219999999,
+        "gap": 65,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 67 km N of Petersville, Alaska"
+        "title": "M 1.9 - 7 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.562,
-          63.0927,
-          89.3
+          -155.287673950195,
+          19.4036674499512,
+          -0.340000003576279
         ]
       },
-      "id": "ak025bj7i00t"
+      "id": "hv74770832"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.84,
-        "place": "7 km ESE of Valle Vista, CA",
-        "time": 1757311223820,
-        "updated": 1757311439434,
+        "mag": 0.91,
+        "place": "10 km NE of Indio, CA",
+        "time": 1757397760670,
+        "updated": 1757397965965,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41285912",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41285912.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286784",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41286784.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 11,
+        "sig": 13,
         "net": "ci",
-        "code": "41285912",
-        "ids": ",ci41285912,",
+        "code": "41286784",
+        "ids": ",ci41286784,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.08396,
-        "rms": 0.17,
-        "gap": 49,
+        "nst": 32,
+        "dmin": 0.0779,
+        "rms": 0.19,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 7 km ESE of Valle Vista, CA"
+        "title": "M 0.9 - 10 km NE of Indio, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.8286667,
-          33.7146667,
-          16.47
+          -116.1298333,
+          33.7813333,
+          2.82
         ]
       },
-      "id": "ci41285912"
+      "id": "ci41286784"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.9,
-        "place": "29 km E of Indian Springs, Nevada",
-        "time": 1757311071181,
-        "updated": 1757311210243,
+        "mag": 1.24,
+        "place": "8 km S of Pearblossom, CA",
+        "time": 1757397669050,
+        "updated": 1757397902412,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903966",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00903966.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286776",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41286776.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
-        "net": "nn",
-        "code": "00903966",
-        "ids": ",nn00903966,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.157,
-        "rms": 0.1138,
-        "gap": 157.67999999999998,
+        "sig": 24,
+        "net": "ci",
+        "code": "41286776",
+        "ids": ",ci41286776,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.0337,
+        "rms": 0.32,
+        "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 29 km E of Indian Springs, Nevada"
+        "title": "M 1.2 - 8 km S of Pearblossom, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.3452,
-          36.5468,
-          6.2
+          -117.9168333,
+          34.438,
+          8.21
         ]
       },
-      "id": "nn00903966"
+      "id": "ci41286776"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "93 km SSW of Yonakuni, Japan",
-        "time": 1757310645381,
-        "updated": 1757312407040,
+        "mag": 4.9,
+        "place": "167 km WSW of Port Orford, Oregon",
+        "time": 1757397543039,
+        "updated": 1757398748040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qunw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qunw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000quxl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000quxl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 369,
         "net": "us",
-        "code": "7000qunw",
-        "ids": ",us7000qunw,",
+        "code": "7000quxl",
+        "ids": ",us7000quxl,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 0.845,
-        "rms": 0.83,
-        "gap": 80,
+        "nst": 69,
+        "dmin": 1.593,
+        "rms": 1.46,
+        "gap": 186,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 93 km SSW of Yonakuni, Japan"
+        "title": "M 4.9 - 167 km WSW of Port Orford, Oregon"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.533,
-          23.7403,
-          10
+          -126.4932,
+          42.43,
+          11.239
         ]
       },
-      "id": "us7000qunw"
+      "id": "us7000quxl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.25,
+        "place": "6 km S of Pearblossom, CA",
+        "time": 1757396972510,
+        "updated": 1757399441711,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286768",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41286768.geojson",
+        "felt": 71,
+        "cdi": 3.5,
+        "mmi": 3.072,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 187,
+        "net": "ci",
+        "code": "41286768",
+        "ids": ",ci41286768,us7000quxj,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 113,
+        "dmin": 0.03528,
+        "rms": 0.2,
+        "gap": 20,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 6 km S of Pearblossom, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.913002,
+          34.4529991,
+          8.99
+        ]
+      },
+      "id": "ci41286768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.73,
+        "place": "15 km W of Searles Valley, CA",
+        "time": 1757396794750,
+        "updated": 1757397006420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286760",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41286760.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "41286760",
+        "ids": ",ci41286760,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.06622,
+        "rms": 0.13,
+        "gap": 114,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 15 km W of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5681667,
+          35.7538333,
+          6.82
+        ]
+      },
+      "id": "ci41286760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.24,
+        "place": "6 km S of Pearblossom, CA",
+        "time": 1757396587960,
+        "updated": 1757396797779,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286752",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41286752.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 24,
+        "net": "ci",
+        "code": "41286752",
+        "ids": ",ci41286752,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 54,
+        "dmin": 0.03451,
+        "rms": 0.18,
+        "gap": 37,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 6 km S of Pearblossom, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9136667,
+          34.4481667,
+          9.43
+        ]
+      },
+      "id": "ci41286752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.76,
+        "place": "7 km NNW of The Geysers, CA",
+        "time": 1757396501770,
+        "updated": 1757398641955,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235297",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235297.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75235297",
+        "ids": ",nc75235297,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 12,
+        "dmin": 0.01877,
+        "rms": 0.02,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.811668395996,
+          38.8274993896484,
+          0.800000011920929
+        ]
+      },
+      "id": "nc75235297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "30 km WNW of Valdez, Alaska",
+        "time": 1757396494980,
+        "updated": 1757396575595,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bkunhiy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bkunhiy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "025bkunhiy",
+        "ids": ",ak025bkunhiy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.19,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 30 km WNW of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.8453,
+          61.2707,
+          36.2
+        ]
+      },
+      "id": "ak025bkunhiy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "13 km SSE of Susitna North, Alaska",
+        "time": 1757396424546,
+        "updated": 1757396521569,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bkun906",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bkun906.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "025bkun906",
+        "ids": ",ak025bkun906,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.3,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 13 km SSE of Susitna North, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7427,
+          62.0544,
+          39.9
+        ]
+      },
+      "id": "ak025bkun906"
     }
   ],
   "bbox": [
-    -151.8583,
-    23.7403,
-    6.2,
-    122.533,
-    63.2703,
-    89.3
+    -155.28767395019,
+    19.38116645813,
+    -1.0800000429153,
+    -116.1298333,
+    62.0544,
+    39.9
   ]
 }
