@@ -1,264 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757399701000,
+    "generated": 1757486059000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 11
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.99,
-        "place": "7 km SSW of Volcano, Hawaii",
-        "time": 1757398519140,
-        "updated": 1757398711010,
+        "mag": 1.07,
+        "place": "4 km WSW of Anza, CA",
+        "time": 1757485165160,
+        "updated": 1757485291683,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74770837",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74770837.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287888",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41287888.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 61,
-        "net": "hv",
-        "code": "74770837",
-        "ids": ",hv74770837,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.00778,
-        "rms": 0.379999995,
-        "gap": 108,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 7 km SSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.258163452148,
-          19.3811664581299,
-          -1.08000004291534
-        ]
-      },
-      "id": "hv74770837"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "7 km SW of Volcano, Hawaii",
-        "time": 1757398518570,
-        "updated": 1757398706950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74770832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74770832.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "hv",
-        "code": "74770832",
-        "ids": ",hv74770832,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.012,
-        "rms": 0.219999999,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 7 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.287673950195,
-          19.4036674499512,
-          -0.340000003576279
-        ]
-      },
-      "id": "hv74770832"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.91,
-        "place": "10 km NE of Indio, CA",
-        "time": 1757397760670,
-        "updated": 1757397965965,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286784",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41286784.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
+        "sig": 18,
         "net": "ci",
-        "code": "41286784",
-        "ids": ",ci41286784,",
+        "code": "41287888",
+        "ids": ",ci41287888,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.0779,
-        "rms": 0.19,
-        "gap": 54,
+        "nst": 39,
+        "dmin": 0.03273,
+        "rms": 0.15,
+        "gap": 30,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 10 km NE of Indio, CA"
+        "title": "M 1.1 - 4 km WSW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.1298333,
-          33.7813333,
-          2.82
+          -116.7173309,
+          33.5371666,
+          5.81
         ]
       },
-      "id": "ci41286784"
+      "id": "ci41287888"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.24,
-        "place": "8 km S of Pearblossom, CA",
-        "time": 1757397669050,
-        "updated": 1757397902412,
+        "mag": 2.68,
+        "place": "9 km NNW of Avenal, CA",
+        "time": 1757484856110,
+        "updated": 1757485157030,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41286776.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235847",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235847.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 24,
-        "net": "ci",
-        "code": "41286776",
-        "ids": ",ci41286776,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 43,
-        "dmin": 0.0337,
-        "rms": 0.32,
-        "gap": 38,
-        "magType": "ml",
+        "sig": 110,
+        "net": "nc",
+        "code": "75235847",
+        "ids": ",nc75235847,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.07686,
+        "rms": 0.13,
+        "gap": 68,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.2 - 8 km S of Pearblossom, CA"
+        "title": "M 2.7 - 9 km NNW of Avenal, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9168333,
-          34.438,
-          8.21
+          -120.187835693359,
+          36.0745010375977,
+          11.0500001907349
         ]
       },
-      "id": "ci41286776"
+      "id": "nc75235847"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "167 km WSW of Port Orford, Oregon",
-        "time": 1757397543039,
-        "updated": 1757398748040,
+        "mag": 0.7,
+        "place": "6 km NNW of Incline Village, Nevada",
+        "time": 1757484772115,
+        "updated": 1757484900706,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000quxl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000quxl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000quxl",
-        "ids": ",us7000quxl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 1.593,
-        "rms": 1.46,
-        "gap": 186,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 167 km WSW of Port Orford, Oregon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -126.4932,
-          42.43,
-          11.239
-        ]
-      },
-      "id": "us7000quxl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.25,
-        "place": "6 km S of Pearblossom, CA",
-        "time": 1757396972510,
-        "updated": 1757399441711,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286768",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41286768.geojson",
-        "felt": 71,
-        "cdi": 3.5,
-        "mmi": 3.072,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 187,
-        "net": "ci",
-        "code": "41286768",
-        "ids": ",ci41286768,us7000quxj,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 113,
-        "dmin": 0.03528,
-        "rms": 0.2,
-        "gap": 20,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.3 - 6 km S of Pearblossom, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.913002,
-          34.4529991,
-          8.99
-        ]
-      },
-      "id": "ci41286768"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.73,
-        "place": "15 km W of Searles Valley, CA",
-        "time": 1757396794750,
-        "updated": 1757397006420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286760",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41286760.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904077",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00904077.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,39 +106,239 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 8,
-        "net": "ci",
-        "code": "41286760",
-        "ids": ",ci41286760,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.06622,
-        "rms": 0.13,
-        "gap": 114,
+        "net": "nn",
+        "code": "00904077",
+        "ids": ",nn00904077,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.026,
+        "rms": 0.0747,
+        "gap": 105.57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 15 km W of Searles Valley, CA"
+        "title": "M 0.7 - 6 km NNW of Incline Village, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.5681667,
-          35.7538333,
-          6.82
+          -120.0057,
+          39.3028,
+          8.1
         ]
       },
-      "id": "ci41286760"
+      "id": "nn00904077"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.24,
-        "place": "6 km S of Pearblossom, CA",
-        "time": 1757396587960,
-        "updated": 1757396797779,
+        "mag": 1,
+        "place": "6 km NNW of Incline Village, Nevada",
+        "time": 1757484681975,
+        "updated": 1757484811673,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41286752",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41286752.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904075",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00904075.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nn",
+        "code": "00904075",
+        "ids": ",nn00904075,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.02,
+        "rms": 0.1162,
+        "gap": 52.89999999999998,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 6 km NNW of Incline Village, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0133,
+          39.302,
+          8
+        ]
+      },
+      "id": "nn00904075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.78,
+        "place": "10 km NNE of New Idria, CA",
+        "time": 1757484275600,
+        "updated": 1757485941276,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235837",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235837.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 49,
+        "net": "nc",
+        "code": "75235837",
+        "ids": ",nc75235837,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.02177,
+        "rms": 0.13,
+        "gap": 172,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 10 km NNE of New Idria, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.662002563477,
+          36.5021667480469,
+          4.32000017166138
+        ]
+      },
+      "id": "nc75235837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.81,
+        "place": "1 km WNW of The Geysers, CA",
+        "time": 1757484107190,
+        "updated": 1757485043162,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235832",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235832.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "nc",
+        "code": "75235832",
+        "ids": ",nc75235832,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.01052,
+        "rms": 0.02,
+        "gap": 96,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 1 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.769500732422,
+          38.780834197998,
+          3.73000001907349
+        ]
+      },
+      "id": "nc75235832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.31,
+        "place": "2 km NNW of The Geysers, CA",
+        "time": 1757483792940,
+        "updated": 1757484438183,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235827",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235827.geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 82,
+        "net": "nc",
+        "code": "75235827",
+        "ids": ",nc75235827,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 66,
+        "dmin": 0.01271,
+        "rms": 0.08,
+        "gap": 43,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 2 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.769836425781,
+          38.7906684875488,
+          2.8199999332428
+        ]
+      },
+      "id": "nc75235827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.61,
+        "place": "2 km NNW of The Geysers, CA",
+        "time": 1757483699350,
+        "updated": 1757484438086,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235822",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235822.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "nc",
+        "code": "75235822",
+        "ids": ",nc75235822,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 77,
+        "dmin": 0.01314,
+        "rms": 0.08,
+        "gap": 36,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 2 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.769332885742,
+          38.7898330688477,
+          3.47000002861023
+        ]
+      },
+      "id": "nc75235822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.25,
+        "place": "17 km ESE of Anza, CA",
+        "time": 1757482827250,
+        "updated": 1757482953765,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287848",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41287848.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -307,155 +347,75 @@
         "tsunami": 0,
         "sig": 24,
         "net": "ci",
-        "code": "41286752",
-        "ids": ",ci41286752,",
+        "code": "41287848",
+        "ids": ",ci41287848,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.03451,
-        "rms": 0.18,
-        "gap": 37,
+        "nst": 22,
+        "dmin": 0.07414,
+        "rms": 0.14,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 6 km S of Pearblossom, CA"
+        "title": "M 1.3 - 17 km ESE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.9136667,
-          34.4481667,
-          9.43
+          -116.5156631,
+          33.4783325,
+          12.26
         ]
       },
-      "id": "ci41286752"
+      "id": "ci41287848"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.76,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1757396501770,
-        "updated": 1757398641955,
+        "mag": 1.28,
+        "place": "16 km ESE of Anza, CA",
+        "time": 1757482463250,
+        "updated": 1757482589757,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235297",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235297.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287840",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41287840.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75235297",
-        "ids": ",nc75235297,",
-        "sources": ",nc,",
+        "sig": 25,
+        "net": "ci",
+        "code": "41287840",
+        "ids": ",ci41287840,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.01877,
-        "rms": 0.02,
-        "gap": 74,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 7 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.811668395996,
-          38.8274993896484,
-          0.800000011920929
-        ]
-      },
-      "id": "nc75235297"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "30 km WNW of Valdez, Alaska",
-        "time": 1757396494980,
-        "updated": 1757396575595,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bkunhiy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bkunhiy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "025bkunhiy",
-        "ids": ",ak025bkunhiy,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.19,
-        "gap": null,
+        "nst": 39,
+        "dmin": 0.06891,
+        "rms": 0.16,
+        "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 30 km WNW of Valdez, Alaska"
+        "title": "M 1.3 - 16 km ESE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.8453,
-          61.2707,
-          36.2
+          -116.5224991,
+          33.4770012,
+          12.29
         ]
       },
-      "id": "ak025bkunhiy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "13 km SSE of Susitna North, Alaska",
-        "time": 1757396424546,
-        "updated": 1757396521569,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bkun906",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bkun906.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "025bkun906",
-        "ids": ",ak025bkun906,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.3,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 13 km SSE of Susitna North, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.7427,
-          62.0544,
-          39.9
-        ]
-      },
-      "id": "ak025bkun906"
+      "id": "ci41287840"
     }
   ],
   "bbox": [
-    -155.28767395019,
-    19.38116645813,
-    -1.0800000429153,
-    -116.1298333,
-    62.0544,
-    39.9
+    -122.76983642578,
+    33.4770012,
+    2.8199999332428,
+    -116.5156631,
+    39.3028,
+    12.29
   ]
 }
