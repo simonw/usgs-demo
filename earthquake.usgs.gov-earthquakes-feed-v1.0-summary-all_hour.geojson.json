@@ -1,24 +1,304 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757486059000,
+    "generated": 1757572468000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
-    "count": 10
+    "api": "2.2.0",
+    "count": 12
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.07,
-        "place": "4 km WSW of Anza, CA",
-        "time": 1757485165160,
-        "updated": 1757485291683,
+        "mag": 1.7,
+        "place": "65 km S of Manley Hot Springs, Alaska",
+        "time": 1757572178285,
+        "updated": 1757572364589,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287888",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41287888.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bo691s4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bo691s4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "025bo691s4",
+        "ids": ",ak025bo691s4,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.04,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 65 km S of Manley Hot Springs, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.6208,
+          64.4125,
+          0
+        ]
+      },
+      "id": "ak025bo691s4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.87,
+        "place": "11 km NNE of Upper Lake, CA",
+        "time": 1757571667840,
+        "updated": 1757571766870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236242",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75236242.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 54,
+        "net": "nc",
+        "code": "75236242",
+        "ids": ",nc75236242,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.06745,
+        "rms": 0.16,
+        "gap": 58,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 11 km NNE of Upper Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.902000427246,
+          39.2653350830078,
+          7.8600001335144
+        ]
+      },
+      "id": "nc75236242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.62,
+        "place": "1 km NNW of Minco, Oklahoma",
+        "time": 1757571596597,
+        "updated": 1757571698860,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025rusv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025rusv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 40,
+        "net": "ok",
+        "code": "2025rusv",
+        "ids": ",ok2025rusv,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.07128687203,
+        "rms": 0.2429434631,
+        "gap": 102.4095612,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 1 km NNW of Minco, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9488678,
+          35.32420349,
+          7.142688751
+        ]
+      },
+      "id": "ok2025rusv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1757571289287,
+        "updated": 1757571555925,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rwxdlm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rwxdlm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "tx",
+        "code": "2025rwxdlm",
+        "ids": ",tx2025rwxdlm,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 58 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.4,
+          31.645,
+          3.8336
+        ]
+      },
+      "id": "tx2025rwxdlm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "12 km E of Sunrise Manor, Nevada",
+        "time": 1757571075272,
+        "updated": 1757571236157,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904141",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00904141.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nn",
+        "code": "00904141",
+        "ids": ",nn00904141,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.953,
+        "rms": 0.1792,
+        "gap": 340.99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 12 km E of Sunrise Manor, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.9334,
+          36.1891,
+          2.2
+        ]
+      },
+      "id": "nn00904141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "2 km SSE of Panan, Philippines",
+        "time": 1757570981636,
+        "updated": 1757572304534,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qve1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qve1.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000qve1",
+        "ids": ",us7000qve1,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 28,
+        "dmin": 7.651,
+        "rms": 1.04,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 2 km SSE of Panan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.0337,
+          15.1903,
+          67.378
+        ]
+      },
+      "id": "us7000qve1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "4 km SW of Muir Beach, CA",
+        "time": 1757570692910,
+        "updated": 1757570910280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236237",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75236237.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "nc",
+        "code": "75236237",
+        "ids": ",nc75236237,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.06379,
+        "rms": 0.08,
+        "gap": 153,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 4 km SW of Muir Beach, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.606834411621,
+          37.8373336791992,
+          5.28000020980835
+        ]
+      },
+      "id": "nc75236237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.09,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1757570417110,
+        "updated": 1757570515828,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236232",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75236232.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,396 +306,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 18,
-        "net": "ci",
-        "code": "41287888",
-        "ids": ",ci41287888,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.03273,
-        "rms": 0.15,
-        "gap": 30,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 4 km WSW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.7173309,
-          33.5371666,
-          5.81
-        ]
-      },
-      "id": "ci41287888"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.68,
-        "place": "9 km NNW of Avenal, CA",
-        "time": 1757484856110,
-        "updated": 1757485157030,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235847",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235847.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 110,
         "net": "nc",
-        "code": "75235847",
-        "ids": ",nc75235847,",
+        "code": "75236232",
+        "ids": ",nc75236232,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.07686,
-        "rms": 0.13,
-        "gap": 68,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.7 - 9 km NNW of Avenal, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.187835693359,
-          36.0745010375977,
-          11.0500001907349
-        ]
-      },
-      "id": "nc75235847"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "6 km NNW of Incline Village, Nevada",
-        "time": 1757484772115,
-        "updated": 1757484900706,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904077",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00904077.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nn",
-        "code": "00904077",
-        "ids": ",nn00904077,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.026,
-        "rms": 0.0747,
-        "gap": 105.57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 6 km NNW of Incline Village, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.0057,
-          39.3028,
-          8.1
-        ]
-      },
-      "id": "nn00904077"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "6 km NNW of Incline Village, Nevada",
-        "time": 1757484681975,
-        "updated": 1757484811673,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904075",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00904075.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "nn",
-        "code": "00904075",
-        "ids": ",nn00904075,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.02,
-        "rms": 0.1162,
-        "gap": 52.89999999999998,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 6 km NNW of Incline Village, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.0133,
-          39.302,
-          8
-        ]
-      },
-      "id": "nn00904075"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.78,
-        "place": "10 km NNE of New Idria, CA",
-        "time": 1757484275600,
-        "updated": 1757485941276,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235837",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235837.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 49,
-        "net": "nc",
-        "code": "75235837",
-        "ids": ",nc75235837,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.02177,
-        "rms": 0.13,
-        "gap": 172,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 10 km NNE of New Idria, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.662002563477,
-          36.5021667480469,
-          4.32000017166138
-        ]
-      },
-      "id": "nc75235837"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.81,
-        "place": "1 km WNW of The Geysers, CA",
-        "time": 1757484107190,
-        "updated": 1757485043162,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235832.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75235832",
-        "ids": ",nc75235832,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.01052,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.006673,
         "rms": 0.02,
-        "gap": 96,
+        "gap": 70,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 1 km WNW of The Geysers, CA"
+        "title": "M 1.1 - 7 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.769500732422,
-          38.780834197998,
-          3.73000001907349
+          -122.798835754395,
+          38.8376655578613,
+          2.23000001907349
         ]
       },
-      "id": "nc75235832"
+      "id": "nc75236232"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.31,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1757483792940,
-        "updated": 1757484438183,
+        "mag": 4.8,
+        "place": "178 km SSE of Vilyuchinsk, Russia",
+        "time": 1757569964236,
+        "updated": 1757571217040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235827",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235827.geojson",
-        "felt": 1,
-        "cdi": 3.1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvdz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvdz.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 82,
-        "net": "nc",
-        "code": "75235827",
-        "ids": ",nc75235827,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 66,
-        "dmin": 0.01271,
-        "rms": 0.08,
-        "gap": 43,
-        "magType": "md",
+        "sig": 354,
+        "net": "us",
+        "code": "7000qvdz",
+        "ids": ",us7000qvdz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 1.646,
+        "rms": 0.75,
+        "gap": 138,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.3 - 2 km NNW of The Geysers, CA"
+        "title": "M 4.8 - 178 km SSE of Vilyuchinsk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.769836425781,
-          38.7906684875488,
-          2.8199999332428
+          159.3778,
+          51.4423,
+          35
         ]
       },
-      "id": "nc75235827"
+      "id": "us7000qvdz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.61,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1757483699350,
-        "updated": 1757484438086,
+        "mag": 0.67,
+        "place": "22 km E of Little Lake, CA",
+        "time": 1757569800440,
+        "updated": 1757570004770,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75235822",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75235822.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288792",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288792.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 105,
-        "net": "nc",
-        "code": "75235822",
-        "ids": ",nc75235822,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 77,
-        "dmin": 0.01314,
-        "rms": 0.08,
-        "gap": 36,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.769332885742,
-          38.7898330688477,
-          3.47000002861023
-        ]
-      },
-      "id": "nc75235822"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.25,
-        "place": "17 km ESE of Anza, CA",
-        "time": 1757482827250,
-        "updated": 1757482953765,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287848",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41287848.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
+        "sig": 7,
         "net": "ci",
-        "code": "41287848",
-        "ids": ",ci41287848,",
+        "code": "41288792",
+        "ids": ",ci41288792,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.07414,
-        "rms": 0.14,
-        "gap": 55,
+        "nst": 16,
+        "dmin": 0.05123,
+        "rms": 0.08,
+        "gap": 101,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 17 km ESE of Anza, CA"
+        "title": "M 0.7 - 22 km E of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5156631,
-          33.4783325,
-          12.26
+          -117.672,
+          35.8996667,
+          3.71
         ]
       },
-      "id": "ci41287848"
+      "id": "ci41288792"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.28,
-        "place": "16 km ESE of Anza, CA",
-        "time": 1757482463250,
-        "updated": 1757482589757,
+        "mag": 2.46,
+        "place": "26 km W of Petrolia, CA",
+        "time": 1757569394500,
+        "updated": 1757571137540,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287840",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41287840.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236227",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75236227.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 25,
-        "net": "ci",
-        "code": "41287840",
-        "ids": ",ci41287840,",
-        "sources": ",ci,",
+        "sig": 93,
+        "net": "nc",
+        "code": "75236227",
+        "ids": ",nc75236227,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.06891,
-        "rms": 0.16,
-        "gap": 45,
-        "magType": "ml",
+        "nst": 19,
+        "dmin": 0.2184,
+        "rms": 0.09,
+        "gap": 285,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 16 km ESE of Anza, CA"
+        "title": "M 2.5 - 26 km W of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5224991,
-          33.4770012,
-          12.29
+          -124.59400177002,
+          40.2953338623047,
+          17.7099990844727
         ]
       },
-      "id": "ci41287840"
+      "id": "nc75236227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.13,
+        "place": "17 km W of Imperial Beach, CA",
+        "time": 1757569186050,
+        "updated": 1757569397719,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288784",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288784.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 70,
+        "net": "ci",
+        "code": "41288784",
+        "ids": ",ci41288784,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.1498,
+        "rms": 0.19,
+        "gap": 188,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 17 km W of Imperial Beach, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2905,
+          32.5613333,
+          14.64
+        ]
+      },
+      "id": "ci41288784"
     }
   ],
   "bbox": [
-    -122.76983642578,
-    33.4770012,
-    2.8199999332428,
-    -116.5156631,
-    39.3028,
-    12.29
+    -150.6208,
+    15.1903,
+    0,
+    159.3778,
+    64.4125,
+    67.378
   ]
 }
