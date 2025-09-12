@@ -1,304 +1,304 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757572468000,
+    "generated": 1757658911000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.2.0",
-    "count": 12
+    "api": "1.14.1",
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "65 km S of Manley Hot Springs, Alaska",
-        "time": 1757572178285,
-        "updated": 1757572364589,
+        "mag": 1.36,
+        "place": "3 km ESE of Colton, CA",
+        "time": 1757658216530,
+        "updated": 1757658865600,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bo691s4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bo691s4.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289696",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289696.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "025bo691s4",
-        "ids": ",ak025bo691s4,",
-        "sources": ",ak,",
+        "sig": 28,
+        "net": "ci",
+        "code": "41289696",
+        "ids": ",ci41289696,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 80,
+        "dmin": 0.04018,
+        "rms": 0.18,
+        "gap": 29,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 3 km ESE of Colton, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2855,
+          34.0651667,
+          8.16
+        ]
+      },
+      "id": "ci41289696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.75,
+        "place": "12 km NNE of Cabazon, CA",
+        "time": 1757658208370,
+        "updated": 1757658444459,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289688",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289688.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "ci",
+        "code": "41289688",
+        "ids": ",ci41289688,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.1921,
+        "rms": 0.27,
+        "gap": 162,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 12 km NNE of Cabazon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7216667,
+          34.0155,
+          6.37
+        ]
+      },
+      "id": "ci41289688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.07,
+        "place": "15 km SW of Leilani Estates, Hawaii",
+        "time": 1757657235310,
+        "updated": 1757657418900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74773987",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74773987.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 66,
+        "net": "hv",
+        "code": "74773987",
+        "ids": ",hv74773987,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": null,
+        "nst": 16,
+        "dmin": 0.06334,
+        "rms": 0.25,
+        "gap": 228,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 15 km SW of Leilani Estates, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.016830444336,
+          19.3708324432373,
+          1.72000002861023
+        ]
+      },
+      "id": "hv74773987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6780450344085693,
+        "place": "13 km NNW of Amanda Park, Washington",
+        "time": 1757657202510,
+        "updated": 1757657342030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62179597",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62179597.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 43,
+        "net": "uw",
+        "code": "62179597",
+        "ids": ",uw62179597,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
         "dmin": null,
-        "rms": 1.04,
-        "gap": null,
+        "rms": 0.0599999987,
+        "gap": 141,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 65 km S of Manley Hot Springs, Alaska"
+        "title": "M 1.7 - 13 km NNW of Amanda Park, Washington"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.6208,
-          64.4125,
-          0
+          -123.98783111572266,
+          47.56449890136719,
+          20.7099990844727
         ]
       },
-      "id": "ak025bo691s4"
+      "id": "uw62179597"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.87,
-        "place": "11 km NNE of Upper Lake, CA",
-        "time": 1757571667840,
-        "updated": 1757571766870,
+        "mag": 4.9,
+        "place": "30 km SW of Lakatoro, Vanuatu",
+        "time": 1757657125100,
+        "updated": 1757658297040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236242",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75236242.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvmt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvmt.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "nc",
-        "code": "75236242",
-        "ids": ",nc75236242,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.06745,
-        "rms": 0.16,
-        "gap": 58,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 11 km NNE of Upper Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.902000427246,
-          39.2653350830078,
-          7.8600001335144
-        ]
-      },
-      "id": "nc75236242"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.62,
-        "place": "1 km NNW of Minco, Oklahoma",
-        "time": 1757571596597,
-        "updated": 1757571698860,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025rusv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025rusv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 40,
-        "net": "ok",
-        "code": "2025rusv",
-        "ids": ",ok2025rusv,",
-        "sources": ",ok,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.07128687203,
-        "rms": 0.2429434631,
-        "gap": 102.4095612,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 1 km NNW of Minco, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.9488678,
-          35.32420349,
-          7.142688751
-        ]
-      },
-      "id": "ok2025rusv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1757571289287,
-        "updated": 1757571555925,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025rwxdlm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025rwxdlm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "tx",
-        "code": "2025rwxdlm",
-        "ids": ",tx2025rwxdlm,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 75,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.4,
-          31.645,
-          3.8336
-        ]
-      },
-      "id": "tx2025rwxdlm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "12 km E of Sunrise Manor, Nevada",
-        "time": 1757571075272,
-        "updated": 1757571236157,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904141",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00904141.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "nn",
-        "code": "00904141",
-        "ids": ",nn00904141,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.953,
-        "rms": 0.1792,
-        "gap": 340.99,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 12 km E of Sunrise Manor, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.9334,
-          36.1891,
-          2.2
-        ]
-      },
-      "id": "nn00904141"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "2 km SSE of Panan, Philippines",
-        "time": 1757570981636,
-        "updated": 1757572304534,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qve1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qve1.geojson",
-        "felt": 1,
-        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 369,
         "net": "us",
-        "code": "7000qve1",
-        "ids": ",us7000qve1,",
+        "code": "7000qvmt",
+        "ids": ",us7000qvmt,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 28,
-        "dmin": 7.651,
-        "rms": 1.04,
-        "gap": 91,
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.826,
+        "rms": 0.68,
+        "gap": 145,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 2 km SSE of Panan, Philippines"
+        "title": "M 4.9 - 30 km SW of Lakatoro, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.0337,
-          15.1903,
-          67.378
+          167.1934,
+          -16.2776,
+          37.379
         ]
       },
-      "id": "us7000qve1"
+      "id": "us7000qvmt"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "4 km SW of Muir Beach, CA",
-        "time": 1757570692910,
-        "updated": 1757570910280,
+        "mag": 1.8,
+        "place": "14 km NNW of Four Mile Road, Alaska",
+        "time": 1757657021851,
+        "updated": 1757657124037,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236237",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75236237.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bptmtxl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bptmtxl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "nc",
-        "code": "75236237",
-        "ids": ",nc75236237,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.06379,
-        "rms": 0.08,
-        "gap": 153,
-        "magType": "md",
+        "sig": 50,
+        "net": "ak",
+        "code": "025bptmtxl",
+        "ids": ",ak025bptmtxl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.41,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 4 km SW of Muir Beach, CA"
+        "title": "M 1.8 - 14 km NNW of Four Mile Road, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.606834411621,
-          37.8373336791992,
-          5.28000020980835
+          -149.2393,
+          64.7222,
+          16
         ]
       },
-      "id": "nc75236237"
+      "id": "ak025bptmtxl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.85,
+        "place": "22 km E of Little Lake, CA",
+        "time": 1757656900800,
+        "updated": 1757657107983,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289680",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289680.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "41289680",
+        "ids": ",ci41289680,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.05039,
+        "rms": 0.18,
+        "gap": 50,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 22 km E of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6723333,
+          35.9006667,
+          3.8
+        ]
+      },
+      "id": "ci41289680"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.09,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1757570417110,
-        "updated": 1757570515828,
+        "place": "8 km WNW of Cobb, CA",
+        "time": 1757656629440,
+        "updated": 1757656727221,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236232",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75236232.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236807",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75236807.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -307,195 +307,115 @@
         "tsunami": 0,
         "sig": 18,
         "net": "nc",
-        "code": "75236232",
-        "ids": ",nc75236232,",
+        "code": "75236807",
+        "ids": ",nc75236807,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.006673,
+        "nst": 22,
+        "dmin": 0.008811,
         "rms": 0.02,
-        "gap": 70,
+        "gap": 46,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 7 km WNW of Cobb, CA"
+        "title": "M 1.1 - 8 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.798835754395,
-          38.8376655578613,
-          2.23000001907349
+          -122.80883026123,
+          38.8321647644043,
+          2.25999999046326
         ]
       },
-      "id": "nc75236232"
+      "id": "nc75236807"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "178 km SSE of Vilyuchinsk, Russia",
-        "time": 1757569964236,
-        "updated": 1757571217040,
+        "mag": 0.81,
+        "place": "21 km WNW of Searles Valley, CA",
+        "time": 1757656334440,
+        "updated": 1757656737948,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvdz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qvdz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qvdz",
-        "ids": ",us7000qvdz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 1.646,
-        "rms": 0.75,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 178 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.3778,
-          51.4423,
-          35
-        ]
-      },
-      "id": "us7000qvdz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.67,
-        "place": "22 km E of Little Lake, CA",
-        "time": 1757569800440,
-        "updated": 1757570004770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288792",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288792.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289672",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289672.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
+        "sig": 10,
         "net": "ci",
-        "code": "41288792",
-        "ids": ",ci41288792,",
+        "code": "41289672",
+        "ids": ",ci41289672,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.05123,
-        "rms": 0.08,
-        "gap": 101,
+        "nst": 20,
+        "dmin": 0.02887,
+        "rms": 0.21,
+        "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 22 km E of Little Lake, CA"
+        "title": "M 0.8 - 21 km WNW of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.672,
-          35.8996667,
-          3.71
+          -117.6328333,
+          35.8126667,
+          1.36
         ]
       },
-      "id": "ci41288792"
+      "id": "ci41289672"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.46,
-        "place": "26 km W of Petrolia, CA",
-        "time": 1757569394500,
-        "updated": 1757571137540,
+        "mag": 1.94,
+        "place": "20 km N of Ridgecrest, CA",
+        "time": 1757655571150,
+        "updated": 1757655787199,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75236227",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75236227.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289664",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289664.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 93,
-        "net": "nc",
-        "code": "75236227",
-        "ids": ",nc75236227,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.2184,
-        "rms": 0.09,
-        "gap": 285,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 26 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.59400177002,
-          40.2953338623047,
-          17.7099990844727
-        ]
-      },
-      "id": "nc75236227"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.13,
-        "place": "17 km W of Imperial Beach, CA",
-        "time": 1757569186050,
-        "updated": 1757569397719,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288784",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288784.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 70,
+        "sig": 58,
         "net": "ci",
-        "code": "41288784",
-        "ids": ",ci41288784,",
+        "code": "41289664",
+        "ids": ",ci41289664,",
         "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.1498,
-        "rms": 0.19,
-        "gap": 188,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.0381,
+        "rms": 0.26,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 17 km W of Imperial Beach, CA"
+        "title": "M 1.9 - 20 km N of Ridgecrest, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.2905,
-          32.5613333,
-          14.64
+          -117.6411667,
+          35.8018333,
+          -0.32
         ]
       },
-      "id": "ci41288784"
+      "id": "ci41289664"
     }
   ],
   "bbox": [
-    -150.6208,
-    15.1903,
-    0,
-    159.3778,
-    64.4125,
-    67.378
+    -155.01683044434,
+    -16.2776,
+    -0.32,
+    167.1934,
+    64.7222,
+    37.379
   ]
 }
