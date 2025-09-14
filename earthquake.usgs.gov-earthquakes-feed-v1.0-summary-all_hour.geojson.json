@@ -1,184 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1757745221000,
+    "generated": 1757831591000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.2.0",
-    "count": 9
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.46,
-        "place": "2 km SSW of Yorba Linda, CA",
-        "time": 1757744875270,
-        "updated": 1757745081742,
+        "mag": 2.1,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1757831029774,
+        "updated": 1757831279022,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41290408.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025sckqbj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025sckqbj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 33,
-        "net": "ci",
-        "code": "41290408",
-        "ids": ",ci41290408,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.04972,
-        "rms": 0.23,
-        "gap": 167,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 2 km SSW of Yorba Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8228333,
-          33.8696667,
-          9.64
-        ]
-      },
-      "id": "ci41290408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.76,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1757744308680,
-        "updated": 1757744402916,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75237207",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75237207.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75237207",
-        "ids": ",nc75237207,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.007012,
-        "rms": 0.01,
-        "gap": 56,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 6 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.801170349121,
-          38.8224983215332,
-          2.85999989509583
-        ]
-      },
-      "id": "nc75237207"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.73,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1757743944790,
-        "updated": 1757744840556,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75237202",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75237202.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75237202",
-        "ids": ",nc75237202,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.002161,
-        "rms": 0.02,
-        "gap": 60,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.807662963867,
-          38.8223342895508,
-          2.86999988555908
-        ]
-      },
-      "id": "nc75237202"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "21 km W of Volcano, Hawaii",
-        "time": 1757743720950,
-        "updated": 1757743944100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74774797",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74774797.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "hv",
-        "code": "74774797",
-        "ids": ",hv74774797,",
-        "sources": ",hv,",
+        "sig": 68,
+        "net": "tx",
+        "code": "2025sckqbj",
+        "ids": ",tx2025sckqbj,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.0538,
-        "rms": 0.25,
-        "gap": 39,
+        "nst": 39,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 78,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 21 km W of Volcano, Hawaii"
+        "title": "M 2.1 - 58 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.436492919922,
-          19.4680004119873,
-          1.10000002384186
+          -104.336,
+          31.653,
+          3.225
         ]
       },
-      "id": "hv74774797"
+      "id": "tx2025sckqbj"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.63,
-        "place": "5 km SSE of Pearblossom, CA",
-        "time": 1757743337980,
-        "updated": 1757743564777,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1757830187150,
+        "updated": 1757831236902,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290400",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41290400.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75237637",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75237637.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,196 +66,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 6,
-        "net": "ci",
-        "code": "41290400",
-        "ids": ",ci41290400,",
-        "sources": ",ci,",
+        "net": "nc",
+        "code": "75237637",
+        "ids": ",nc75237637,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.03639,
-        "rms": 0.13,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 5 km SSE of Pearblossom, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8891667,
-          34.4623333,
-          9.5
-        ]
-      },
-      "id": "ci41290400"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.12,
-        "place": "56 km N of San Juan, Puerto Rico",
-        "time": 1757743219820,
-        "updated": 1757744242740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71495543",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71495543.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 150,
-        "net": "pr",
-        "code": "71495543",
-        "ids": ",pr71495543,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.6572,
-        "rms": 0.37,
-        "gap": 279,
+        "nst": 8,
+        "dmin": 0.0009119,
+        "rms": 0.02,
+        "gap": 106,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 3.1 - 56 km N of San Juan, Puerto Rico"
+        "title": "M 0.6 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.0796666666667,
-          18.98,
-          8.07
+          -122.834831237793,
+          38.837833404541,
+          1.67999994754791
         ]
       },
-      "id": "pr71495543"
+      "id": "nc75237637"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.39,
-        "place": "9 km ENE of Julian, CA",
-        "time": 1757742264750,
-        "updated": 1757742483233,
+        "mag": 1.3,
+        "place": "17 km NW of Susitna, Alaska",
+        "time": 1757829560317,
+        "updated": 1757829661779,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290392",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41290392.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025bt4g1r3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025bt4g1r3.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "41290392",
-        "ids": ",ci41290392,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.06856,
-        "rms": 0.17,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 9 km ENE of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5143333,
-          33.1021667,
-          11.26
-        ]
-      },
-      "id": "ci41290392"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.18,
-        "place": "33 km N of Searles Valley, CA",
-        "time": 1757742034260,
-        "updated": 1757742239066,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290384",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41290384.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "41290384",
-        "ids": ",ci41290384,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.03715,
-        "rms": 0.16,
-        "gap": 78,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 33 km N of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.4435,
-          36.0625,
-          4.17
-        ]
-      },
-      "id": "ci41290384"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "36 km NNW of Toyah, Texas",
-        "time": 1757741716049,
-        "updated": 1757741986543,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025sanhir",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025sanhir.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2025sanhir",
-        "ids": ",tx2025sanhir,",
-        "sources": ",tx,",
+        "sig": 26,
+        "net": "ak",
+        "code": "025bt4g1r3",
+        "ids": ",ak025bt4g1r3,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 45,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.58,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 36 km NNW of Toyah, Texas"
+        "title": "M 1.3 - 17 km NW of Susitna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.974,
-          31.608,
-          4.2476
+          -150.7153,
+          61.6637,
+          51.3
         ]
       },
-      "id": "tx2025sanhir"
+      "id": "ak025bt4g1r3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.5,
+        "place": "17 km ESE of Anza, CA",
+        "time": 1757828608780,
+        "updated": 1757828818769,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291208",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41291208.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41291208",
+        "ids": ",ci41291208,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.08098,
+        "rms": 0.14,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 17 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5058333,
+          33.5033333,
+          11.91
+        ]
+      },
+      "id": "ci41291208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.52,
+        "place": "14 km ENE of Borrego Springs, CA",
+        "time": 1757828479050,
+        "updated": 1757828681252,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291200",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41291200.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41291200",
+        "ids": ",ci41291200,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.07757,
+        "rms": 0.2,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 14 km ENE of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2388333,
+          33.3121667,
+          5.25
+        ]
+      },
+      "id": "ci41291200"
     }
   ],
   "bbox": [
-    -155.43649291992,
-    18.98,
-    1.1000000238419,
-    -66.079666666667,
-    38.822498321533,
-    11.26
+    -150.7153,
+    31.653,
+    1.6799999475479,
+    -104.336,
+    61.6637,
+    51.3
   ]
 }
