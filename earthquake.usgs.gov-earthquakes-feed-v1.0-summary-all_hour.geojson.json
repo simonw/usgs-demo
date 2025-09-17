@@ -1,301 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758004476000,
+    "generated": 1758090905000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.2.0",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.14,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1758004100300,
-        "updated": 1758004196436,
+        "mag": 0.55,
+        "place": "20 km ESE of Little Lake, CA",
+        "time": 1758089407030,
+        "updated": 1758089617724,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75238307",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75238307.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292816",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292816.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 20,
-        "net": "nc",
-        "code": "75238307",
-        "ids": ",nc75238307,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.005497,
-        "rms": 0.02,
-        "gap": 119,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 6 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.803169250488,
-          38.8223342895508,
-          2.47000002861023
-        ]
-      },
-      "id": "nc75238307"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.92,
-        "place": "5 km WNW of Borrego Springs, CA",
-        "time": 1758003647650,
-        "updated": 1758003855254,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292192.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
+        "sig": 5,
         "net": "ci",
-        "code": "41292192",
-        "ids": ",ci41292192,",
+        "code": "41292816",
+        "ids": ",ci41292816,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 55,
-        "dmin": 0.009109,
-        "rms": 0.2,
-        "gap": 19,
+        "nst": 15,
+        "dmin": 0.0575,
+        "rms": 0.1,
+        "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 5 km WNW of Borrego Springs, CA"
+        "title": "M 0.6 - 20 km ESE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.428,
-          33.2675,
-          4.07
+          -117.6888333,
+          35.8995,
+          3.29
         ]
       },
-      "id": "ci41292192"
+      "id": "ci41292816"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "152 km SSE of Vilyuchinsk, Russia",
-        "time": 1758002759070,
-        "updated": 1758003936040,
+        "mag": 0.88,
+        "place": "10 km E of Ocotillo Wells, CA",
+        "time": 1758088754150,
+        "updated": 1758088966388,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwfm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qwfm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000qwfm",
-        "ids": ",us7000qwfm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 85,
-        "dmin": 1.41,
-        "rms": 1.07,
-        "gap": 142,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 152 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.2908,
-          51.6713,
-          35
-        ]
-      },
-      "id": "us7000qwfm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.06,
-        "place": "5 km WNW of Cobb, CA",
-        "time": 1758002718030,
-        "updated": 1758004338820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75238297",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75238297.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292808",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292808.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75238297",
-        "ids": ",nc75238297,",
-        "sources": ",nc,",
+        "sig": 12,
+        "net": "ci",
+        "code": "41292808",
+        "ids": ",ci41292808,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.02391,
-        "rms": 0.02,
-        "gap": 134,
-        "magType": "md",
+        "nst": 39,
+        "dmin": 0.05805,
+        "rms": 0.23,
+        "gap": 50,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 5 km WNW of Cobb, CA"
+        "title": "M 0.9 - 10 km E of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.782501220703,
-          38.8371658325195,
-          2.3199999332428
+          -116.0256667,
+          33.1315,
+          8.01
         ]
       },
-      "id": "nc75238297"
+      "id": "ci41292808"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.79,
-        "place": "7 km SW of Volcano, Hawaii",
-        "time": 1758002277350,
-        "updated": 1758002467960,
+        "mag": 0.52,
+        "place": "13 km SW of Searles Valley, CA",
+        "time": 1758088422960,
+        "updated": 1758088631909,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74776852",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74776852.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292800",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292800.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 49,
-        "net": "hv",
-        "code": "74776852",
-        "ids": ",hv74776852,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "sig": 4,
+        "net": "ci",
+        "code": "41292800",
+        "ids": ",ci41292800,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 25,
-        "dmin": 0.001971,
-        "rms": 0.180000007,
-        "gap": 69,
+        "dmin": 0.08251,
+        "rms": 0.15,
+        "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 7 km SW of Volcano, Hawaii"
+        "title": "M 0.5 - 13 km SW of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.279663085938,
-          19.3861675262451,
-          0.949999988079071
+          -117.5163333,
+          35.6986667,
+          4.48
         ]
       },
-      "id": "hv74776852"
+      "id": "ci41292800"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.06,
-        "place": "26 km NE of Pinnacles, CA",
-        "time": 1758001423880,
-        "updated": 1758002838635,
+        "mag": 2.9,
+        "place": "33 km WNW of Willow, Alaska",
+        "time": 1758087915091,
+        "updated": 1758088030058,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75238292",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75238292.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025by2z2td",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025by2z2td.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75238292",
-        "ids": ",nc75238292,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.1098,
-        "rms": 0.25,
-        "gap": 194,
-        "magType": "md",
+        "sig": 129,
+        "net": "ak",
+        "code": "025by2z2td",
+        "ids": ",ak025by2z2td,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.47,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 26 km NE of Pinnacles, CA"
+        "title": "M 2.9 - 33 km WNW of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.009162902832,
-          36.7401657104492,
-          1.85000002384186
+          -150.5814,
+          61.9076,
+          0.8
         ]
       },
-      "id": "nc75238292"
+      "id": "ak025by2z2td"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.69,
-        "place": "9 km E of Coso Junction, CA",
-        "time": 1758001091680,
-        "updated": 1758001304909,
+        "mag": 0.14,
+        "place": "22 km ESE of Little Lake, CA",
+        "time": 1758087717770,
+        "updated": 1758087923551,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292176",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292176.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292792",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292792.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
+        "sig": 0,
         "net": "ci",
-        "code": "41292176",
-        "ids": ",ci41292176,",
+        "code": "41292792",
+        "ids": ",ci41292792,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.05755,
-        "rms": 0.12,
-        "gap": 73,
+        "nst": 13,
+        "dmin": 0.05399,
+        "rms": 0.08,
+        "gap": 92,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 9 km E of Coso Junction, CA"
+        "title": "M 0.1 - 22 km ESE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.851,
-          36.06,
-          2.47
+          -117.6735,
+          35.8971667,
+          3.56
         ]
       },
-      "id": "ci41292176"
+      "id": "ci41292792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.77,
+        "place": "23 km NNW of Borrego Springs, CA",
+        "time": 1758087418700,
+        "updated": 1758087625348,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292784",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292784.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "ci",
+        "code": "41292784",
+        "ids": ",ci41292784,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.1367,
+        "rms": 0.21,
+        "gap": 143,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 23 km NNW of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4301667,
+          33.4548333,
+          12.17
+        ]
+      },
+      "id": "ci41292784"
     }
   ],
   "bbox": [
-    -155.27966308594,
-    19.386167526245,
-    0.94999998807907,
-    159.2908,
-    51.6713,
-    35
+    -150.5814,
+    33.1315,
+    0.8,
+    -116.0256667,
+    61.9076,
+    12.17
   ]
 }
