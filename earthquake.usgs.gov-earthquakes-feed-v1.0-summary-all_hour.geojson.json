@@ -1,344 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758263701000,
+    "generated": 1758350017000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 9
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "17 km SW of Petersville, Alaska",
-        "time": 1758262287550,
-        "updated": 1758262420599,
+        "mag": 0.78,
+        "place": "3 km SSW of Cobb, CA",
+        "time": 1758348822720,
+        "updated": 1758348916675,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025c1efy0j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025c1efy0j.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75239812",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75239812.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
+        "sig": 9,
+        "net": "nc",
+        "code": "75239812",
+        "ids": ",nc75239812,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01524,
+        "rms": 0.01,
+        "gap": 102,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 3 km SSW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.723335266113,
+          38.7943344116211,
+          2.25999999046326
+        ]
+      },
+      "id": "nc75239812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "63 km ENE of Kodiak, Alaska",
+        "time": 1758348463256,
+        "updated": 1758348611835,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025c31ygut",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025c31ygut.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
         "net": "ak",
-        "code": "025c1efy0j",
-        "ids": ",ak025c1efy0j,",
+        "code": "025c31ygut",
+        "ids": ",ak025c31ygut,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.98,
+        "rms": 0.36,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 17 km SW of Petersville, Alaska"
+        "title": "M 2.6 - 63 km ENE of Kodiak, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.0216,
-          62.3949,
-          85.9
+          -151.4298,
+          58.0322,
+          41.7
         ]
       },
-      "id": "ak025c1efy0j"
+      "id": "ak025c31ygut"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.46,
-        "place": "5 km WSW of Pāhala, Hawaii",
-        "time": 1758262054770,
-        "updated": 1758262297670,
+        "mag": 4.7,
+        "place": "58 km SW of Atocha, Bolivia",
+        "time": 1758347738101,
+        "updated": 1758348502040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74779237",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74779237.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qxil",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000qxil.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 93,
-        "net": "hv",
-        "code": "74779237",
-        "ids": ",hv74779237,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.0604,
-        "rms": 0.140000001,
-        "gap": 103,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km WSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.52099609375,
-          19.1790008544922,
-          30.0499992370605
-        ]
-      },
-      "id": "hv74779237"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.58,
-        "place": "3 km SW of Pāhala, Hawaii",
-        "time": 1758261741150,
-        "updated": 1758262983214,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74779227",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74779227.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 103,
-        "net": "hv",
-        "code": "74779227",
-        "ids": ",hv74779227,us7000qx7x,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.04758,
-        "rms": 0.140000001,
-        "gap": 98,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 3 km SW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.505493164062,
-          19.179666519165,
-          29.7900009155273
-        ]
-      },
-      "id": "hv74779227"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.96,
-        "place": "2 km NW of Anderson Springs, CA",
-        "time": 1758261315810,
-        "updated": 1758261414122,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75239402",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75239402.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "nc",
-        "code": "75239402",
-        "ids": ",nc75239402,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.015,
-        "rms": 0.01,
-        "gap": 96,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 2 km NW of Anderson Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.717666625977,
-          38.7849998474121,
-          2.52999997138977
-        ]
-      },
-      "id": "nc75239402"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "31 km W of Shoshone, California",
-        "time": 1758261275489,
-        "updated": 1758261481865,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00904640",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00904640.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "nn",
-        "code": "00904640",
-        "ids": ",nn00904640,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.193,
-        "rms": 0.3676,
-        "gap": 211.8,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 31 km W of Shoshone, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6144,
-          35.9977,
-          4
-        ]
-      },
-      "id": "nn00904640"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.83,
-        "place": "15 km NNE of Barstow, CA",
-        "time": 1758261257570,
-        "updated": 1758262522266,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40445810",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40445810.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 52,
-        "net": "ci",
-        "code": "40445810",
-        "ids": ",ci40445810,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.1564,
-        "rms": 0.13,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 15 km NNE of Barstow, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.9868333,
-          35.0315,
-          1.3
-        ]
-      },
-      "id": "ci40445810"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.06,
-        "place": "3 km SW of Pāhala, Hawaii",
-        "time": 1758261129690,
-        "updated": 1758263635765,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74779207",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74779207.geojson",
-        "felt": 135,
-        "cdi": 4.1,
-        "mmi": 3.643,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 309,
-        "net": "hv",
-        "code": "74779207",
-        "ids": ",hv74779207,us7000qx7v,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 60,
-        "dmin": 0.04751,
-        "rms": 0.11,
-        "gap": 96,
-        "magType": "ml",
+        "sig": 340,
+        "net": "us",
+        "code": "7000qxil",
+        "ids": ",us7000qxil,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 2.185,
+        "rms": 0.99,
+        "gap": 55,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.1 - 3 km SW of Pāhala, Hawaii"
+        "title": "M 4.7 - 58 km SW of Atocha, Bolivia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.504333333333,
-          19.1813333333333,
-          31.07
+          -66.6462,
+          -21.2838,
+          228.019
         ]
       },
-      "id": "hv74779207"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.11,
-        "place": "2 km ESE of The Geysers, CA",
-        "time": 1758260585510,
-        "updated": 1758262939002,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75239397",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75239397.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "nc",
-        "code": "75239397",
-        "ids": ",nc75239397,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.01042,
-        "rms": 0.04,
-        "gap": 71,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 2 km ESE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.739334106445,
-          38.7729988098145,
-          1.42999994754791
-        ]
-      },
-      "id": "nc75239397"
+      "id": "us7000qxil"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.29,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1758260521000,
-        "updated": 1758262037893,
+        "place": "4 km NNW of The Geysers, CA",
+        "time": 1758346775480,
+        "updated": 1758349041384,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75239392",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75239392.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75239807",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75239807.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -347,35 +147,35 @@
         "tsunami": 0,
         "sig": 26,
         "net": "nc",
-        "code": "75239392",
-        "ids": ",nc75239392,",
+        "code": "75239807",
+        "ids": ",nc75239807,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.002149,
+        "nst": 25,
+        "dmin": 0.00528,
         "rms": 0.02,
-        "gap": 48,
+        "gap": 66,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 7 km NNW of The Geysers, CA"
+        "title": "M 1.3 - 4 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.81233215332,
-          38.8221664428711,
-          2.77999997138977
+          -122.779998779297,
+          38.8079986572266,
+          2.95000004768372
         ]
       },
-      "id": "nc75239392"
+      "id": "nc75239807"
     }
   ],
   "bbox": [
-    -155.52099609375,
-    19.179000854492,
-    1.3,
-    -116.6144,
-    62.3949,
-    85.9
+    -151.4298,
+    -21.2838,
+    2.2599999904633,
+    -66.6462,
+    58.0322,
+    228.019
   ]
 }
