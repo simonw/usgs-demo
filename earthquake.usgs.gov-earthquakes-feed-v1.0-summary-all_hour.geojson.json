@@ -1,144 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758695714000,
+    "generated": 1758782069000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 12
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.73,
-        "place": "12 km NW of The Geysers, CA",
-        "time": 1758694964460,
-        "updated": 1758695062663,
+        "mag": 1.2,
+        "place": "12 km WSW of Stanton, Texas",
+        "time": 1758781140865,
+        "updated": 1758781366698,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75241237",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75241237.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025swplno",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025swplno.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75241237",
-        "ids": ",nc75241237,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.006322,
-        "rms": 0.02,
-        "gap": 123,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 12 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.877830505371,
-          38.833667755127,
-          2.98000001907349
-        ]
-      },
-      "id": "nc75241237"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "35 km NW of Toyah, Texas",
-        "time": 1758694943698,
-        "updated": 1758695171414,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025sutvkt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025sutvkt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 22,
         "net": "tx",
-        "code": "2025sutvkt",
-        "ids": ",tx2025sutvkt,",
+        "code": "2025swplno",
+        "ids": ",tx2025swplno,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
         "nst": 36,
-        "dmin": 0,
+        "dmin": 0.1,
         "rms": 0.5,
-        "gap": 53,
+        "gap": 42,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 35 km NW of Toyah, Texas"
+        "title": "M 1.2 - 12 km WSW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.028,
-          31.564,
-          6.0048
+          -101.92,
+          32.105,
+          3.9985
         ]
       },
-      "id": "tx2025sutvkt"
+      "id": "tx2025swplno"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.27,
-        "place": "3 km NNW of The Geysers, CA",
-        "time": 1758694664980,
-        "updated": 1758694762706,
+        "mag": 0.59,
+        "place": "22 km NNW of Borrego Springs, CA",
+        "time": 1758780467250,
+        "updated": 1758780712218,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75241232",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75241232.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41097231",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41097231.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 25,
-        "net": "nc",
-        "code": "75241232",
-        "ids": ",nc75241232,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "sig": 5,
+        "net": "ci",
+        "code": "41097231",
+        "ids": ",ci41097231,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 20,
-        "dmin": 0.008561,
-        "rms": 0.02,
-        "gap": 76,
-        "magType": "md",
+        "dmin": 0.1327,
+        "rms": 0.12,
+        "gap": 74,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 3 km NNW of The Geysers, CA"
+        "title": "M 0.6 - 22 km NNW of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.777168273926,
-          38.7948341369629,
-          3.07999992370605
+          -116.4355,
+          33.4433333,
+          14.24
         ]
       },
-      "id": "nc75241232"
+      "id": "ci41097231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1758780303453,
+        "updated": 1758781333040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcre",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rcre.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000rcre",
+        "ids": ",us6000rcre,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 5.237,
+        "rms": 0.66,
+        "gap": 192,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - south of the Fiji Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.2001,
+          -22.8963,
+          580.996
+        ]
+      },
+      "id": "us6000rcre"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "31 km NW of Toyah, Texas",
+        "time": 1758779806295,
+        "updated": 1758779995357,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025swosla",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025swosla.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2025swosla",
+        "ids": ",tx2025swosla,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 31 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.024,
+          31.521,
+          4.3799
+        ]
+      },
+      "id": "tx2025swosla"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.1,
-        "place": "48 km NW of Beluga, Alaska",
-        "time": 1758694588584,
-        "updated": 1758694752839,
+        "place": "10 km NW of Susitna North, Alaska",
+        "time": 1758779343842,
+        "updated": 1758779457617,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025c9o5q1u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025c9o5q1u.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cbbaor4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cbbaor4.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -147,355 +187,35 @@
         "tsunami": 0,
         "sig": 68,
         "net": "ak",
-        "code": "025c9o5q1u",
-        "ids": ",ak025c9o5q1u,",
+        "code": "025cbbaor4",
+        "ids": ",ak025cbbaor4,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 1.14,
+        "rms": 0.37,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 48 km NW of Beluga, Alaska"
+        "title": "M 2.1 - 10 km NW of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.592,
-          61.4979,
-          8.4
+          -150.0136,
+          62.2237,
+          47.1
         ]
       },
-      "id": "ak025c9o5q1u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.76,
-        "place": "6 km S of Pearblossom, CA",
-        "time": 1758694562660,
-        "updated": 1758694790102,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40449522",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40449522.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "40449522",
-        "ids": ",ci40449522,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.03891,
-        "rms": 0.12,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 6 km S of Pearblossom, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9083333,
-          34.4481667,
-          9.61
-        ]
-      },
-      "id": "ci40449522"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "67 km W of Tyonek, Alaska",
-        "time": 1758694471153,
-        "updated": 1758694561784,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025c9o5bwr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025c9o5bwr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "025c9o5bwr",
-        "ids": ",ak025c9o5bwr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.55,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 67 km W of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.379,
-          61.0524,
-          104.2
-        ]
-      },
-      "id": "ak025c9o5bwr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "49 km ENE of Cantwell, Alaska",
-        "time": 1758693307319,
-        "updated": 1758693394255,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025c9nsmts",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025c9nsmts.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "025c9nsmts",
-        "ids": ",ak025c9nsmts,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.41,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 49 km ENE of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.9761,
-          63.4949,
-          3.4
-        ]
-      },
-      "id": "ak025c9nsmts"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.18,
-        "place": "6 km S of Pearblossom, CA",
-        "time": 1758693246690,
-        "updated": 1758693459783,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40449514",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40449514.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "40449514",
-        "ids": ",ci40449514,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.03781,
-        "rms": 0.13,
-        "gap": 47,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 6 km S of Pearblossom, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9096667,
-          34.4496667,
-          9.62
-        ]
-      },
-      "id": "ci40449514"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.65,
-        "place": "35 km SSE of Boca de Yuma, Dominican Republic",
-        "time": 1758693197900,
-        "updated": 1758695646718,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025267000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025267000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 205,
-        "net": "pr",
-        "code": "2025267000",
-        "ids": ",pr2025267000,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.4401,
-        "rms": 0.51,
-        "gap": 216,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.7 - 35 km SSE of Boca de Yuma, Dominican Republic"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.476,
-          18.0841,
-          90
-        ]
-      },
-      "id": "pr2025267000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "20 km ENE of Sterling, Alaska",
-        "time": 1758692825633,
-        "updated": 1758692950852,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025c9nqwyr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025c9nqwyr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "025c9nqwyr",
-        "ids": ",ak025c9nqwyr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.59,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 20 km ENE of Sterling, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.4399,
-          60.6344,
-          41.2
-        ]
-      },
-      "id": "ak025c9nqwyr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.95,
-        "place": "12 km NNW of Progreso, B.C., MX",
-        "time": 1758692623660,
-        "updated": 1758692844729,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40449506",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40449506.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 58,
-        "net": "ci",
-        "code": "40449506",
-        "ids": ",ci40449506,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.06682,
-        "rms": 0.26,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 12 km NNW of Progreso, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6518333,
-          32.672,
-          11.44
-        ]
-      },
-      "id": "ci40449506"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "38 km ENE of Fox River, Alaska",
-        "time": 1758692505864,
-        "updated": 1758692665292,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025c9nppru",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025c9nppru.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "025c9nppru",
-        "ids": ",ak025c9nppru,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.52,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 38 km ENE of Fox River, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.3024,
-          59.9502,
-          51.4
-        ]
-      },
-      "id": "ak025c9nppru"
+      "id": "ak025cbbaor4"
     }
   ],
   "bbox": [
-    -152.379,
-    18.0841,
-    2.9800000190735,
-    -68.476,
-    63.4949,
-    104.2
+    -150.0136,
+    -22.8963,
+    3.9985,
+    179.2001,
+    62.2237,
+    580.996
   ]
 }
