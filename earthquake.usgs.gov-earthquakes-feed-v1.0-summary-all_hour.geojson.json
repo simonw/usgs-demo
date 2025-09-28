@@ -1,24 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1758954807000,
+    "generated": 1759041268000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
-    "count": 5
+    "api": "2.2.0",
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.08,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1758954252410,
-        "updated": 1758954348966,
+        "mag": 2.2,
+        "place": "17 km SSE of Guánica, Puerto Rico",
+        "time": 1759039568780,
+        "updated": 1759040200040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242522",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242522.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496668",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496668.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "pr",
+        "code": "71496668",
+        "ids": ",pr71496668,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1539,
+        "rms": 0.18,
+        "gap": 232,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 17 km SSE of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8763333333333,
+          17.8203333333333,
+          15.32
+        ]
+      },
+      "id": "pr71496668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.74,
+        "place": "2 km ENE of The Geysers, CA",
+        "time": 1759039507030,
+        "updated": 1759041137958,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242867",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242867.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75242867",
+        "ids": ",nc75242867,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.006756,
+        "rms": 0.02,
+        "gap": 91,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 2 km ENE of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.736503601074,
+          38.7900009155273,
+          1.75999999046326
+        ]
+      },
+      "id": "nc75242867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "7 km NNW of The Geysers, CA",
+        "time": 1759039462030,
+        "updated": 1759040539880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242862",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242862.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,195 +107,275 @@
         "tsunami": 0,
         "sig": 18,
         "net": "nc",
-        "code": "75242522",
-        "ids": ",nc75242522,",
+        "code": "75242862",
+        "ids": ",nc75242862,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.004518,
-        "rms": 0.02,
-        "gap": 36,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 12,
+        "dmin": 0.007571,
+        "rms": 0.03,
+        "gap": 48,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 6 km NNW of The Geysers, CA"
+        "title": "M 1.1 - 7 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.805168151855,
-          38.8209991455078,
-          2.95000004768372
+          -122.801330566406,
+          38.8266677856445,
+          0.119999997317791
         ]
       },
-      "id": "nc75242522"
+      "id": "nc75242862"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "24 km SSE of Denali National Park, Alaska",
-        "time": 1758953828746,
-        "updated": 1758953937696,
+        "mag": 2.1,
+        "place": "14 km NNE of Meadow Lakes, Alaska",
+        "time": 1759039343029,
+        "updated": 1759039450175,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cemryt6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cemryt6.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cga84ny",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cga84ny.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
+        "sig": 68,
         "net": "ak",
-        "code": "025cemryt6",
-        "ids": ",ak025cemryt6,",
+        "code": "025cga84ny",
+        "ids": ",ak025cga84ny,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.71,
+        "rms": 0.16,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 24 km SSE of Denali National Park, Alaska"
+        "title": "M 2.1 - 14 km NNE of Meadow Lakes, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.5233,
-          63.3356,
-          1
+          -149.5363,
+          61.7518,
+          48.6
         ]
       },
-      "id": "ak025cemryt6"
+      "id": "ak025cga84ny"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "48 km SSE of Nelchina, Alaska",
-        "time": 1758953120596,
-        "updated": 1758953215647,
+        "mag": 0.82,
+        "place": "19 km ESE of Little Lake, CA",
+        "time": 1759038916360,
+        "updated": 1759039125091,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cempf4r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cempf4r.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41100015",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41100015.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "025cempf4r",
-        "ids": ",ak025cempf4r,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.63,
-        "gap": null,
+        "sig": 10,
+        "net": "ci",
+        "code": "41100015",
+        "ids": ",ci41100015,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.07961,
+        "rms": 0.11,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 48 km SSE of Nelchina, Alaska"
+        "title": "M 0.8 - 19 km ESE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.4371,
-          61.5863,
-          27.2
+          -117.7031667,
+          35.8806667,
+          4.04
         ]
       },
-      "id": "ak025cempf4r"
+      "id": "ci41100015"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.02,
-        "place": "7 km NNW of The Geysers, CA",
-        "time": 1758951665650,
-        "updated": 1758951764751,
+        "mag": 1.46,
+        "place": "11 km NW of The Geysers, CA",
+        "time": 1759038643480,
+        "updated": 1759039638761,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242512.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242857",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242857.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
+        "sig": 33,
         "net": "nc",
-        "code": "75242512",
-        "ids": ",nc75242512,",
+        "code": "75242857",
+        "ids": ",nc75242857,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.006887,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.009172,
         "rms": 0.03,
         "gap": 66,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 7 km NNW of The Geysers, CA"
+        "title": "M 1.5 - 11 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.802833557129,
-          38.8273315429688,
-          1.38999998569489
+          -122.868499755859,
+          38.8288345336914,
+          2.83999991416931
         ]
       },
-      "id": "nc75242512"
+      "id": "nc75242857"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.21,
-        "place": "4 km WNW of Cobb, CA",
-        "time": 1758951289300,
-        "updated": 1758953238375,
+        "mag": 1.2,
+        "place": "3 km S of Salcha, Alaska",
+        "time": 1759038502403,
+        "updated": 1759038591922,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242507",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242507.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cg9wjy8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cg9wjy8.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75242507",
-        "ids": ",nc75242507,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.005563,
-        "rms": 0.01,
-        "gap": 135,
-        "magType": "md",
+        "sig": 22,
+        "net": "ak",
+        "code": "025cg9wjy8",
+        "ids": ",ak025cg9wjy8,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.52,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.2 - 4 km WNW of Cobb, CA"
+        "title": "M 1.2 - 3 km S of Salcha, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.765663146973,
-          38.826000213623,
-          1.88999998569489
+          -146.9058,
+          64.489,
+          0
         ]
       },
-      "id": "nc75242507"
+      "id": "ak025cg9wjy8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.89,
+        "place": "18 km S of Guánica, Puerto Rico",
+        "time": 1759038094820,
+        "updated": 1759039325680,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496648",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496648.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 128,
+        "net": "pr",
+        "code": "71496648",
+        "ids": ",pr71496648,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.1681,
+        "rms": 0.37,
+        "gap": 236,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 18 km S of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8785,
+          17.8056666666667,
+          9.12
+        ]
+      },
+      "id": "pr71496648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.73,
+        "place": "6 km SW of Volcano, Hawaii",
+        "time": 1759037678510,
+        "updated": 1759037852400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74787062",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74787062.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 46,
+        "net": "hv",
+        "code": "74787062",
+        "ids": ",hv74787062,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.01169,
+        "rms": 0.119999997,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 6 km SW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.285659790039,
+          19.4060001373291,
+          -0.0299999993294477
+        ]
+      },
+      "id": "hv74787062"
     }
   ],
   "bbox": [
-    -151.5233,
-    38.820999145508,
-    1,
-    -122.76566314697,
-    63.3356,
-    27.2
+    -155.28565979004,
+    17.805666666667,
+    -0.029999999329448,
+    -66.876333333333,
+    64.489,
+    48.6
   ]
 }
