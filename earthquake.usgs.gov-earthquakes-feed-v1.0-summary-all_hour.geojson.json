@@ -1,184 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759214114000,
+    "generated": 1759300501000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.64,
-        "place": "9 km NNE of Coso Junction, CA",
-        "time": 1759213294670,
-        "updated": 1759213506512,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41100839",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41100839.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 41,
-        "net": "ci",
-        "code": "41100839",
-        "ids": ",ci41100839,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.03522,
-        "rms": 0.16,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 9 km NNE of Coso Junction, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.9143333,
-          36.1181667,
-          5.46
-        ]
-      },
-      "id": "ci41100839"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.31,
-        "place": "3 km NNW of The Geysers, CA",
-        "time": 1759212659000,
-        "updated": 1759212757262,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242801",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242801.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75242801",
-        "ids": ",nc75242801,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.0151,
-        "rms": 0.05,
-        "gap": 121,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.3 - 3 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.770668029785,
-          38.7999992370605,
-          1.17999994754791
-        ]
-      },
-      "id": "nc75242801"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "36 km SE of Ugashik, Alaska",
-        "time": 1759211659141,
-        "updated": 1759211752163,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cjl0ize",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cjl0ize.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "025cjl0ize",
-        "ids": ",ak025cjl0ize,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.87,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 36 km SE of Ugashik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.0579,
-          57.2439,
-          14.6
-        ]
-      },
-      "id": "ak025cjl0ize"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.25,
-        "place": "10 km SSE of San Juan Bautista, CA",
-        "time": 1759210890750,
-        "updated": 1759213038488,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242786",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242786.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "nc",
-        "code": "75242786",
-        "ids": ",nc75242786,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.01844,
-        "rms": 0.17,
-        "gap": 108,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 10 km SSE of San Juan Bautista, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.480834960938,
-          36.769832611084,
-          4.11999988555908
-        ]
-      },
-      "id": "nc75242786"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.3,
-        "place": "56 km S of Glacier View, Alaska",
-        "time": 1759210833044,
-        "updated": 1759210980781,
+        "place": "119 km S of McCarthy, Alaska",
+        "time": 1759300214045,
+        "updated": 1759300341462,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cjkxk14",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cjkxk14.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cl905i4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cl905i4.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -187,75 +27,155 @@
         "tsunami": 0,
         "sig": 26,
         "net": "ak",
-        "code": "025cjkxk14",
-        "ids": ",ak025cjkxk14,",
+        "code": "025cl905i4",
+        "ids": ",ak025cl905i4,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.89,
+        "rms": 0.49,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 56 km S of Glacier View, Alaska"
+        "title": "M 1.3 - 119 km S of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.5671,
-          61.2986,
-          13.2
+          -143.1114,
+          60.3607,
+          0
         ]
       },
-      "id": "ak025cjkxk14"
+      "id": "ak025cl905i4"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.16,
-        "place": "7 km W of Cobb, CA",
-        "time": 1759210762010,
-        "updated": 1759212440427,
+        "mag": 2.6,
+        "place": "117 km S of McCarthy, Alaska",
+        "time": 1759298617933,
+        "updated": 1759298822092,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75242781",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75242781.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cl8uf2c",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cl8uf2c.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 21,
-        "net": "nc",
-        "code": "75242781",
-        "ids": ",nc75242781,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 6,
-        "dmin": 0.008337,
-        "rms": 0.06,
-        "gap": 208,
-        "magType": "md",
+        "sig": 104,
+        "net": "ak",
+        "code": "025cl8uf2c",
+        "ids": ",ak025cl8uf2c,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 7 km W of Cobb, CA"
+        "title": "M 2.6 - 117 km S of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.801170349121,
-          38.8279991149902,
-          20.8899993896484
+          -143.1626,
+          60.3878,
+          9.7
         ]
       },
-      "id": "nc75242781"
+      "id": "ak025cl8uf2c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1759298199420,
+        "updated": 1759299439701,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75243366",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75243366.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75243366",
+        "ids": ",nc75243366,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.005456,
+        "rms": 0.02,
+        "gap": 81,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 3 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.766670227051,
+          38.8001670837402,
+          3.83999991416931
+        ]
+      },
+      "id": "nc75243366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "120 km S of McCarthy, Alaska",
+        "time": 1759297717806,
+        "updated": 1759297891783,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cl8immc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cl8immc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "ak",
+        "code": "025cl8immc",
+        "ids": ",ak025cl8immc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.75,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 120 km S of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.1501,
+          60.3543,
+          5.3
+        ]
+      },
+      "id": "ak025cl8immc"
     }
   ],
   "bbox": [
-    -157.0579,
-    36.1181667,
-    1.1799999475479,
-    -117.9143333,
-    61.2986,
-    20.889999389648
+    -143.1626,
+    38.80016708374,
+    0,
+    -122.76667022705,
+    60.3878,
+    9.7
   ]
 }
