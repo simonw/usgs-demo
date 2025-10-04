@@ -1,261 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759473266000,
+    "generated": 1759559586000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.74,
-        "place": "3 km S of Pāhala, Hawaii",
-        "time": 1759472936570,
-        "updated": 1759473245046,
+        "mag": 0.69,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1759559415980,
+        "updated": 1759559513556,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74791302",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74791302.geojson",
-        "felt": 10,
-        "cdi": 5.5,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 221,
-        "net": "hv",
-        "code": "74791302",
-        "ids": ",hv74791302,us6000refy,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 61,
-        "dmin": 0.02598,
-        "rms": 0.109999999,
-        "gap": 98,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 3 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.484664916992,
-          19.1703338623047,
-          29.2900009155273
-        ]
-      },
-      "id": "hv74791302"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "10 km NW of Point MacKenzie, Alaska",
-        "time": 1759472845537,
-        "updated": 1759472984811,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cok2889",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cok2889.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75244596",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75244596.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "025cok2889",
-        "ids": ",ak025cok2889,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.74,
-        "gap": null,
-        "magType": "ml",
+        "sig": 7,
+        "net": "nc",
+        "code": "75244596",
+        "ids": ",nc75244596,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.006757,
+        "rms": 0.01,
+        "gap": 133,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 10 km NW of Point MacKenzie, Alaska"
+        "title": "M 0.7 - 5 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.0851,
-          61.4335,
-          31.2
+          -122.782997131348,
+          38.8348350524902,
+          1.83000004291534
         ]
       },
-      "id": "ak025cok2889"
+      "id": "nc75244596"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
-        "place": "93 km ENE of Nabire, Indonesia",
-        "time": 1759471358406,
-        "updated": 1759472458040,
+        "mag": 1.55,
+        "place": "18 km NW of Parkfield, CA",
+        "time": 1759559126240,
+        "updated": 1759559223845,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000reft",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000reft.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75244591",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75244591.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 37,
+        "net": "nc",
+        "code": "75244591",
+        "ids": ",nc75244591,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.04186,
+        "rms": 0.05,
+        "gap": 80,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 18 km NW of Parkfield, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.576667785645,
+          36.0148315429688,
+          3.96000003814697
+        ]
+      },
+      "id": "nc75244591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.15,
+        "place": "3 km WSW of La Parguera, Puerto Rico",
+        "time": 1759558417920,
+        "updated": 1759559462920,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496963",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496963.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000reft",
-        "ids": ",us6000reft,",
-        "sources": ",us,",
+        "sig": 71,
+        "net": "pr",
+        "code": "71496963",
+        "ids": ",pr71496963,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 1.769,
-        "rms": 0.99,
-        "gap": 58,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 93 km ENE of Nabire, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.2691,
-          -3.0113,
-          10
-        ]
-      },
-      "id": "us6000reft"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.51,
-        "place": "19 km SW of Ocotillo Wells, CA",
-        "time": 1759471211080,
-        "updated": 1759471419968,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102039",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102039.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41102039",
-        "ids": ",ci41102039,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.07417,
-        "rms": 0.17,
-        "gap": 80,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 19 km SW of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.288,
-          33.0278333,
-          7.11
-        ]
-      },
-      "id": "ci41102039"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "8 km W of Cobb, CA",
-        "time": 1759470567650,
-        "updated": 1759471640155,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75244221",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75244221.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75244221",
-        "ids": ",nc75244221,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.01167,
-        "rms": 0.02,
-        "gap": 90,
+        "nst": 7,
+        "dmin": 0.03288,
+        "rms": 0.09,
+        "gap": 223,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 8 km W of Cobb, CA"
+        "title": "M 2.2 - 3 km WSW of La Parguera, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.815330505371,
-          38.8343315124512,
-          1.62999999523163
+          -67.077,
+          17.959,
+          6.54
         ]
       },
-      "id": "nc75244221"
+      "id": "pr71496963"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "4 km SSW of Walker, California",
-        "time": 1759469802125,
-        "updated": 1759469952472,
+        "mag": 1.8,
+        "place": "21 km NW of Stanton, Texas",
+        "time": 1759557709500,
+        "updated": 1759557947785,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905366",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905366.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025tncksg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025tncksg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "nn",
-        "code": "00905366",
-        "ids": ",nn00905366,",
-        "sources": ",nn,",
+        "sig": 50,
+        "net": "tx",
+        "code": "2025tncksg",
+        "ids": ",tx2025tncksg,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.129,
-        "rms": 0.214,
-        "gap": 155.31,
+        "nst": 65,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 41,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 4 km SSW of Walker, California"
+        "title": "M 1.8 - 21 km NW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.4881,
-          38.4724,
-          9.5
+          -101.929,
+          32.28,
+          3.7965
         ]
       },
-      "id": "nn00905366"
+      "id": "tx2025tncksg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.09,
+        "place": "21 km ESE of Little Lake, CA",
+        "time": 1759556901210,
+        "updated": 1759557109403,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102383",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102383.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "ci",
+        "code": "41102383",
+        "ids": ",ci41102383,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 27,
+        "dmin": 0.05355,
+        "rms": 0.14,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 21 km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.678,
+          35.8991667,
+          2.48
+        ]
+      },
+      "id": "ci41102383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.15,
+        "place": "4 km ESE of Frazier Park, CA",
+        "time": 1759556244810,
+        "updated": 1759556452435,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102375",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102375.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 20,
+        "net": "ci",
+        "code": "41102375",
+        "ids": ",ci41102375,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.03395,
+        "rms": 0.22,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 4 km ESE of Frazier Park, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.909,
+          34.8085,
+          13.65
+        ]
+      },
+      "id": "ci41102375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.93,
+        "place": "6 km NE of Little Lake, CA",
+        "time": 1759556018240,
+        "updated": 1759556223512,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102367",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102367.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "41102367",
+        "ids": ",ci41102367,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.0331,
+        "rms": 0.12,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 6 km NE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8723333,
+          35.978,
+          2.31
+        ]
+      },
+      "id": "ci41102367"
     }
   ],
   "bbox": [
-    -155.48466491699,
-    -3.0113,
-    1.6299999952316,
-    136.2691,
-    61.4335,
-    31.2
+    -122.78299713135,
+    17.959,
+    1.8300000429153,
+    -67.077,
+    38.83483505249,
+    13.65
   ]
 }
