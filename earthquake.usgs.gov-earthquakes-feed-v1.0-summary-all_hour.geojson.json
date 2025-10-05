@@ -1,301 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759559586000,
+    "generated": 1759646013000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.69,
-        "place": "5 km WNW of Cobb, CA",
-        "time": 1759559415980,
-        "updated": 1759559513556,
+        "mag": 3.5,
+        "place": "7 km N of Big Bear City, CA",
+        "time": 1759644939210,
+        "updated": 1759645954854,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75244596",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75244596.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102767",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102767.geojson",
+        "felt": 63,
+        "cdi": 3.8,
+        "mmi": 3.545,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 212,
+        "net": "ci",
+        "code": "41102767",
+        "ids": ",ci41102767,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 123,
+        "dmin": 0.03466,
+        "rms": 0.16,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 7 km N of Big Bear City, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8556671,
+          34.3223343,
+          6.58
+        ]
+      },
+      "id": "ci41102767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "42 km SSE of Whites City, New Mexico",
+        "time": 1759644874124,
+        "updated": 1759645101323,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025toyomx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025toyomx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75244596",
-        "ids": ",nc75244596,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.006757,
-        "rms": 0.01,
-        "gap": 133,
-        "magType": "md",
+        "sig": 44,
+        "net": "tx",
+        "code": "2025toyomx",
+        "ids": ",tx2025toyomx,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 148,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 5 km WNW of Cobb, CA"
+        "title": "M 1.7 - 42 km SSE of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.782997131348,
-          38.8348350524902,
-          1.83000004291534
+          -104.266,
+          31.8,
+          4.05
         ]
       },
-      "id": "nc75244596"
+      "id": "tx2025toyomx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.55,
-        "place": "18 km NW of Parkfield, CA",
-        "time": 1759559126240,
-        "updated": 1759559223845,
+        "mag": 0.74,
+        "place": "16 km E of Little Lake, CA",
+        "time": 1759644041450,
+        "updated": 1759644252231,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75244591",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75244591.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102759",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102759.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 37,
-        "net": "nc",
-        "code": "75244591",
-        "ids": ",nc75244591,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.04186,
-        "rms": 0.05,
-        "gap": 80,
-        "magType": "md",
+        "sig": 8,
+        "net": "ci",
+        "code": "41102759",
+        "ids": ",ci41102759,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 27,
+        "dmin": 0.0731,
+        "rms": 0.18,
+        "gap": 38,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 18 km NW of Parkfield, CA"
+        "title": "M 0.7 - 16 km E of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.576667785645,
-          36.0148315429688,
-          3.96000003814697
+          -117.729,
+          35.9121667,
+          7.12
         ]
       },
-      "id": "nc75244591"
+      "id": "ci41102759"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.15,
-        "place": "3 km WSW of La Parguera, Puerto Rico",
-        "time": 1759558417920,
-        "updated": 1759559462920,
+        "mag": 5.2,
+        "place": "83 km ENE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1759643597014,
+        "updated": 1759644697040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71496963",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71496963.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rewb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rewb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 71,
-        "net": "pr",
-        "code": "71496963",
-        "ids": ",pr71496963,",
-        "sources": ",pr,",
+        "sig": 416,
+        "net": "us",
+        "code": "6000rewb",
+        "ids": ",us6000rewb,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.03288,
-        "rms": 0.09,
-        "gap": 223,
-        "magType": "md",
+        "nst": 72,
+        "dmin": 0.752,
+        "rms": 0.66,
+        "gap": 119,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.2 - 3 km WSW of La Parguera, Puerto Rico"
+        "title": "M 5.2 - 83 km ENE of Petropavlovsk-Kamchatsky, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.077,
-          17.959,
-          6.54
+          159.8431,
+          53.2429,
+          65.707
         ]
       },
-      "id": "pr71496963"
+      "id": "us6000rewb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "21 km NW of Stanton, Texas",
-        "time": 1759557709500,
-        "updated": 1759557947785,
+        "mag": 0.62,
+        "place": "11 km SSW of Borrego Springs, CA",
+        "time": 1759642670350,
+        "updated": 1759642905835,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025tncksg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025tncksg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102751",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102751.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2025tncksg",
-        "ids": ",tx2025tncksg,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 21 km NW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.929,
-          32.28,
-          3.7965
-        ]
-      },
-      "id": "tx2025tncksg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.09,
-        "place": "21 km ESE of Little Lake, CA",
-        "time": 1759556901210,
-        "updated": 1759557109403,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102383",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102383.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
+        "sig": 6,
         "net": "ci",
-        "code": "41102383",
-        "ids": ",ci41102383,",
+        "code": "41102751",
+        "ids": ",ci41102751,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.05355,
-        "rms": 0.14,
-        "gap": 43,
+        "nst": 36,
+        "dmin": 0.09141,
+        "rms": 0.2,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 21 km ESE of Little Lake, CA"
+        "title": "M 0.6 - 11 km SSW of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.678,
-          35.8991667,
-          2.48
+          -116.4188333,
+          33.1675,
+          8.06
         ]
       },
-      "id": "ci41102383"
+      "id": "ci41102751"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.15,
-        "place": "4 km ESE of Frazier Park, CA",
-        "time": 1759556244810,
-        "updated": 1759556452435,
+        "mag": 0.43,
+        "place": "11 km SSW of Borrego Springs, CA",
+        "time": 1759642462280,
+        "updated": 1759642676769,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102375",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102375.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102743",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102743.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 20,
+        "sig": 3,
         "net": "ci",
-        "code": "41102375",
-        "ids": ",ci41102375,",
+        "code": "41102743",
+        "ids": ",ci41102743,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.03395,
-        "rms": 0.22,
-        "gap": 60,
+        "nst": 33,
+        "dmin": 0.1023,
+        "rms": 0.2,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 4 km ESE of Frazier Park, CA"
+        "title": "M 0.4 - 11 km SSW of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.909,
-          34.8085,
-          13.65
+          -116.4178333,
+          33.1656667,
+          8.24
         ]
       },
-      "id": "ci41102375"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.93,
-        "place": "6 km NE of Little Lake, CA",
-        "time": 1759556018240,
-        "updated": 1759556223512,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41102367",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41102367.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41102367",
-        "ids": ",ci41102367,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.0331,
-        "rms": 0.12,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 6 km NE of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8723333,
-          35.978,
-          2.31
-        ]
-      },
-      "id": "ci41102367"
+      "id": "ci41102743"
     }
   ],
   "bbox": [
-    -122.78299713135,
-    17.959,
-    1.8300000429153,
-    -67.077,
-    38.83483505249,
-    13.65
+    -117.729,
+    31.8,
+    4.05,
+    159.8431,
+    53.2429,
+    65.707
   ]
 }
