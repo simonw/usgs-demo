@@ -1,141 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759818889000,
+    "generated": 1759905301000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.3,
-        "place": "73 km WNW of Happy Valley, Alaska",
-        "time": 1759818245648,
-        "updated": 1759818471016,
+        "mag": 0,
+        "place": "45 km ESE of Beatty, Nevada",
+        "time": 1759904265941,
+        "updated": 1759904387127,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cv66xid",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cv66xid.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905630",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905630.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 81,
+        "sig": 0,
+        "net": "nn",
+        "code": "00905630",
+        "ids": ",nn00905630,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.068,
+        "rms": 0.2691,
+        "gap": 132.86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.0 - 45 km ESE of Beatty, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3064,
+          36.7112,
+          4.3
+        ]
+      },
+      "id": "nn00905630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.85,
+        "place": "13 km W of Independence, CA",
+        "time": 1759903747990,
+        "updated": 1759904087960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41105015",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41105015.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "ci",
+        "code": "41105015",
+        "ids": ",ci41105015,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.1152,
+        "rms": 0.17,
+        "gap": 105,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 13 km W of Independence, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3445,
+          36.8251667,
+          1.11
+        ]
+      },
+      "id": "ci41105015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "3 km SSW of Coleville, California",
+        "time": 1759903488177,
+        "updated": 1759903656896,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905626",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905626.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "nn",
+        "code": "00905626",
+        "ids": ",nn00905626,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.079,
+        "rms": 0.1085,
+        "gap": 196.65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 3 km SSW of Coleville, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5257,
+          38.5432,
+          2.9
+        ]
+      },
+      "id": "nn00905626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "57 km SE of Ugashik, Alaska",
+        "time": 1759903085663,
+        "updated": 1759903222024,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cwtc4ra",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cwtc4ra.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
         "net": "ak",
-        "code": "025cv66xid",
-        "ids": ",ak025cv66xid,",
+        "code": "025cwtc4ra",
+        "ids": ",ak025cwtc4ra,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.51,
+        "rms": 0.77,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 73 km WNW of Happy Valley, Alaska"
+        "title": "M 2.5 - 57 km SE of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.971,
-          60.1843,
-          126.2
-        ]
-      },
-      "id": "ak025cv66xid"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.5,
-        "place": "57 km NNE of Beatty, Nevada",
-        "time": 1759815849189,
-        "updated": 1759815997242,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905533",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905533.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "nn",
-        "code": "00905533",
-        "ids": ",nn00905533,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.342,
-        "rms": 0.4367,
-        "gap": 236.64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 57 km NNE of Beatty, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5621,
-          37.4003,
+          -156.7829,
+          57.1138,
           0
         ]
       },
-      "id": "nn00905533"
+      "id": "ak025cwtc4ra"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.99,
-        "place": "17 km SE of Petrolia, CA",
-        "time": 1759815447650,
-        "updated": 1759817538478,
+        "mag": 1.03,
+        "place": "3 km SE of Pacifica, CA",
+        "time": 1759903052360,
+        "updated": 1759905139978,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75245901",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75245901.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75246406",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75246406.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 61,
+        "sig": 16,
         "net": "nc",
-        "code": "75245901",
-        "ids": ",nc75245901,",
+        "code": "75246406",
+        "ids": ",nc75246406,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.0144,
-        "rms": 0.13,
-        "gap": 68,
+        "nst": 9,
+        "dmin": 0.03264,
+        "rms": 0.02,
+        "gap": 123,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.0 - 17 km SE of Petrolia, CA"
+        "title": "M 1.0 - 3 km SE of Pacifica, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.124336242676,
-          40.232666015625,
-          12.5299997329712
+          -122.46183013916,
+          37.5926666259766,
+          9.05000019073486
         ]
       },
-      "id": "nc75245901"
+      "id": "nc75246406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "50 km E of Pedro Bay, Alaska",
+        "time": 1759902680679,
+        "updated": 1759902890039,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cwtanwk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cwtanwk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "025cwtanwk",
+        "ids": ",ak025cwtanwk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.83,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 50 km E of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.2202,
+          59.8738,
+          124
+        ]
+      },
+      "id": "ak025cwtanwk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "7 km E of Soldotna, Alaska",
+        "time": 1759902288878,
+        "updated": 1759902397323,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025cwt982f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025cwt982f.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "025cwt982f",
+        "ids": ",ak025cwt982f,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.91,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 7 km E of Soldotna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.9132,
+          60.4827,
+          54.6
+        ]
+      },
+      "id": "ak025cwt982f"
     }
   ],
   "bbox": [
-    -152.971,
-    37.4003,
+    -156.7829,
+    36.7112,
     0,
-    -116.5621,
-    60.1843,
-    126.2
+    -116.3064,
+    60.4827,
+    124
   ]
 }
