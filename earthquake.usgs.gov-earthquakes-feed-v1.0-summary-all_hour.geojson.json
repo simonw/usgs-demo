@@ -1,53 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1759991687000,
+    "generated": 1760078102000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 1
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "4 km SSE of Christine, Texas",
-        "time": 1759989761488,
-        "updated": 1759989861553,
+        "mag": 1.4,
+        "place": "42 km NNE of Whittier, Alaska",
+        "time": 1760076854375,
+        "updated": 1760076983572,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025twhbwx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025twhbwx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025d04quil",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025d04quil.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2025twhbwx",
-        "ids": ",tx2025twhbwx,",
-        "sources": ",tx,",
+        "sig": 30,
+        "net": "ak",
+        "code": "025d04quil",
+        "ids": ",ak025d04quil,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 102,
+        "nst": null,
+        "dmin": null,
+        "rms": 1.62,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 4 km SSE of Christine, Texas"
+        "title": "M 1.4 - 42 km NNE of Whittier, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.481,
-          28.749,
-          10.9569
+          -148.2732,
+          61.0979,
+          26.6
         ]
       },
-      "id": "tx2025twhbwx"
+      "id": "ak025d04quil"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.09,
+        "place": "1 km ENE of Colton, CA",
+        "time": 1760076393950,
+        "updated": 1760076652003,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41106047",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41106047.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "ci",
+        "code": "41106047",
+        "ids": ",ci41106047,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 60,
+        "dmin": 0.1024,
+        "rms": 0.2,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 1 km ENE of Colton, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3035,
+          34.0768333,
+          16.77
+        ]
+      },
+      "id": "ci41106047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.77,
+        "place": "6 km W of Pāhala, Hawaii",
+        "time": 1760075965090,
+        "updated": 1760076196960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74800227",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74800227.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 48,
+        "net": "hv",
+        "code": "74800227",
+        "ids": ",hv74800227,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.06632,
+        "rms": 0.239999995,
+        "gap": 93,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 6 km W of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.539337158203,
+          19.1938323974609,
+          0.400000005960464
+        ]
+      },
+      "id": "hv74800227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "58 km ESE of Jovellar, Philippines",
+        "time": 1760075334718,
+        "updated": 1760077381040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg16",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rg16.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000rg16",
+        "ids": ",us6000rg16,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 1.357,
+        "rms": 0.66,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 58 km ESE of Jovellar, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9228,
+          6.8213,
+          66.371
+        ]
+      },
+      "id": "us6000rg16"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "73 km ESE of San Ignacio, Philippines",
+        "time": 1760075265744,
+        "updated": 1760077410040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg0z",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rg0z.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000rg0z",
+        "ids": ",us6000rg0z,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 1.51,
+        "rms": 0.87,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 73 km ESE of San Ignacio, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0765,
+          6.8017,
+          55.923
+        ]
+      },
+      "id": "us6000rg0z"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "219 km WSW of Kavieng, Papua New Guinea",
+        "time": 1760075199771,
+        "updated": 1760076256040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg11",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rg11.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000rg11",
+        "ids": ",us6000rg11,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 1.934,
+        "rms": 0.76,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 219 km WSW of Kavieng, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9217,
+          -3.2018,
+          10
+        ]
+      },
+      "id": "us6000rg11"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "1 km N of Beluga, Alaska",
+        "time": 1760074939458,
+        "updated": 1760075117499,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025d04bfjr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025d04bfjr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "025d04bfjr",
+        "ids": ",ak025d04bfjr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.66,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 1 km N of Beluga, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.0785,
+          61.1532,
+          50.6
+        ]
+      },
+      "id": "ak025d04bfjr"
     }
+  ],
+  "bbox": [
+    -155.5393371582,
+    -3.2018,
+    0.40000000596046,
+    148.9217,
+    61.1532,
+    66.371
   ]
 }
