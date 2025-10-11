@@ -1,301 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760078102000,
+    "generated": 1760164405000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "42 km NNE of Whittier, Alaska",
-        "time": 1760076854375,
-        "updated": 1760076983572,
+        "mag": 1.15,
+        "place": "18 km W of Searles Valley, CA",
+        "time": 1760163393120,
+        "updated": 1760163603104,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025d04quil",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025d04quil.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41106567",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41106567.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "025d04quil",
-        "ids": ",ak025d04quil,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.62,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 42 km NNE of Whittier, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.2732,
-          61.0979,
-          26.6
-        ]
-      },
-      "id": "ak025d04quil"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.09,
-        "place": "1 km ENE of Colton, CA",
-        "time": 1760076393950,
-        "updated": 1760076652003,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41106047",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41106047.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
+        "sig": 20,
         "net": "ci",
-        "code": "41106047",
-        "ids": ",ci41106047,",
+        "code": "41106567",
+        "ids": ",ci41106567,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.1024,
-        "rms": 0.2,
-        "gap": 51,
+        "nst": 30,
+        "dmin": 0.03896,
+        "rms": 0.14,
+        "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 1 km ENE of Colton, CA"
+        "title": "M 1.2 - 18 km W of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.3035,
-          34.0768333,
-          16.77
+          -117.6015,
+          35.7768333,
+          7.97
         ]
       },
-      "id": "ci41106047"
+      "id": "ci41106567"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.77,
-        "place": "6 km W of Pāhala, Hawaii",
-        "time": 1760075965090,
-        "updated": 1760076196960,
+        "mag": 0.61,
+        "place": "5 km NNW of The Geysers, CA",
+        "time": 1760162502350,
+        "updated": 1760163441893,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74800227",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74800227.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75247716",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75247716.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
-        "net": "hv",
-        "code": "74800227",
-        "ids": ",hv74800227,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.06632,
-        "rms": 0.239999995,
-        "gap": 93,
-        "magType": "ml",
+        "sig": 6,
+        "net": "nc",
+        "code": "75247716",
+        "ids": ",nc75247716,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.005695,
+        "rms": 0.01,
+        "gap": 119,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 6 km W of Pāhala, Hawaii"
+        "title": "M 0.6 - 5 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.539337158203,
-          19.1938323974609,
-          0.400000005960464
+          -122.782997131348,
+          38.8186683654785,
+          1.58000004291534
         ]
       },
-      "id": "hv74800227"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "58 km ESE of Jovellar, Philippines",
-        "time": 1760075334718,
-        "updated": 1760077381040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg16",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rg16.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000rg16",
-        "ids": ",us6000rg16,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 1.357,
-        "rms": 0.66,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 58 km ESE of Jovellar, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.9228,
-          6.8213,
-          66.371
-        ]
-      },
-      "id": "us6000rg16"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "73 km ESE of San Ignacio, Philippines",
-        "time": 1760075265744,
-        "updated": 1760077410040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg0z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rg0z.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000rg0z",
-        "ids": ",us6000rg0z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 1.51,
-        "rms": 0.87,
-        "gap": 106,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 73 km ESE of San Ignacio, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.0765,
-          6.8017,
-          55.923
-        ]
-      },
-      "id": "us6000rg0z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "219 km WSW of Kavieng, Papua New Guinea",
-        "time": 1760075199771,
-        "updated": 1760076256040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg11",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rg11.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000rg11",
-        "ids": ",us6000rg11,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.934,
-        "rms": 0.76,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 219 km WSW of Kavieng, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.9217,
-          -3.2018,
-          10
-        ]
-      },
-      "id": "us6000rg11"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "1 km N of Beluga, Alaska",
-        "time": 1760074939458,
-        "updated": 1760075117499,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025d04bfjr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025d04bfjr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "025d04bfjr",
-        "ids": ",ak025d04bfjr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.66,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 1 km N of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.0785,
-          61.1532,
-          50.6
-        ]
-      },
-      "id": "ak025d04bfjr"
+      "id": "nc75247716"
     }
   ],
   "bbox": [
-    -155.5393371582,
-    -3.2018,
-    0.40000000596046,
-    148.9217,
-    61.1532,
-    66.371
+    -122.78299713135,
+    35.7768333,
+    1.5800000429153,
+    -117.6015,
+    38.818668365479,
+    7.97
   ]
 }
