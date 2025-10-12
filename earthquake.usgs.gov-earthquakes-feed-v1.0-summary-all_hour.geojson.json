@@ -1,101 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760164405000,
+    "generated": 1760250805000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 2
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.15,
-        "place": "18 km W of Searles Valley, CA",
-        "time": 1760163393120,
-        "updated": 1760163603104,
+        "mag": 1.6,
+        "place": "39 km SSE of Nelchina, Alaska",
+        "time": 1760250217335,
+        "updated": 1760250378389,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41106567",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41106567.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025d3fvirh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025d3fvirh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 20,
-        "net": "ci",
-        "code": "41106567",
-        "ids": ",ci41106567,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.03896,
-        "rms": 0.14,
-        "gap": 60,
+        "sig": 39,
+        "net": "ak",
+        "code": "025d3fvirh",
+        "ids": ",ak025d3fvirh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 18 km W of Searles Valley, CA"
+        "title": "M 1.6 - 39 km SSE of Nelchina, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.6015,
-          35.7768333,
-          7.97
+          -146.4687,
+          61.6706,
+          19.8
         ]
       },
-      "id": "ci41106567"
+      "id": "ak025d3fvirh"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.61,
-        "place": "5 km NNW of The Geysers, CA",
-        "time": 1760162502350,
-        "updated": 1760163441893,
+        "mag": 2.1,
+        "place": "0 km NW of Willow, Alaska",
+        "time": 1760250006136,
+        "updated": 1760250439831,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75247716",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75247716.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025d3funcj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025d3funcj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "nc",
-        "code": "75247716",
-        "ids": ",nc75247716,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.005695,
-        "rms": 0.01,
-        "gap": 119,
-        "magType": "md",
+        "sig": 68,
+        "net": "ak",
+        "code": "025d3funcj",
+        "ids": ",ak025d3funcj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.58,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 5 km NNW of The Geysers, CA"
+        "title": "M 2.1 - 0 km NW of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.782997131348,
-          38.8186683654785,
-          1.58000004291534
+          -150.0423,
+          61.7496,
+          33.3
         ]
       },
-      "id": "nc75247716"
+      "id": "ak025d3funcj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "5 km WSW of Westbrook, Texas",
+        "time": 1760249339092,
+        "updated": 1760250752705,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ubulqx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ubulqx.geojson",
+        "felt": 21,
+        "cdi": 4.1,
+        "mmi": 5.94,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 293,
+        "net": "tx",
+        "code": "2025ubulqx",
+        "ids": ",us6000rgpg,tx2025ubulqx,",
+        "sources": ",us,tx,",
+        "types": ",dyfi,losspager,oaf,origin,phase-data,shakemap,",
+        "nst": 21,
+        "dmin": 0.2,
+        "rms": 0.1,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.3 - 5 km WSW of Westbrook, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.07,
+          32.336,
+          5.2734
+        ]
+      },
+      "id": "tx2025ubulqx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "3 km SSE of Topaz Lake, Nevada",
+        "time": 1760249302983,
+        "updated": 1760249535400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00905845",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00905845.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "nn",
+        "code": "00905845",
+        "ids": ",nc75248111,nn00905845,",
+        "sources": ",nc,nn,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.139,
+        "rms": 0.2986,
+        "gap": 80.97,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 3 km SSE of Topaz Lake, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5236,
+          38.6694,
+          13.2
+        ]
+      },
+      "id": "nn00905845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.38,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1760249119810,
+        "updated": 1760250740373,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75248106",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75248106.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 29,
+        "net": "nc",
+        "code": "75248106",
+        "ids": ",nc75248106,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.01016,
+        "rms": 0.02,
+        "gap": 52,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.818496704102,
+          38.8146667480469,
+          2.8199999332428
+        ]
+      },
+      "id": "nc75248106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1760249035310,
+        "updated": 1760250138301,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75248101",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75248101.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75248101",
+        "ids": ",nc75248101,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.003387,
+        "rms": 0.02,
+        "gap": 50,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81233215332,
+          38.820499420166,
+          2.73000001907349
+        ]
+      },
+      "id": "nc75248101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "62 km WNW of Toyah, Texas",
+        "time": 1760248172747,
+        "updated": 1760248882706,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ubtvef",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ubtvef.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "tx",
+        "code": "2025ubtvef",
+        "ids": ",tx2025ubtvef,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 85,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 62 km WNW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.357,
+          31.603,
+          3.8871
+        ]
+      },
+      "id": "tx2025ubtvef"
     }
   ],
   "bbox": [
-    -122.78299713135,
-    35.7768333,
-    1.5800000429153,
-    -117.6015,
-    38.818668365479,
-    7.97
+    -150.0423,
+    31.603,
+    2.7300000190735,
+    -101.07,
+    61.7496,
+    33.3
   ]
 }
