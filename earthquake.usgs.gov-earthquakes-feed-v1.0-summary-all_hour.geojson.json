@@ -1,224 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760596468000,
+    "generated": 1760682893000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 10
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.07,
-        "place": "2 km NNE of The Geysers, CA",
-        "time": 1760596215960,
-        "updated": 1760596309410,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75250016",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75250016.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75250016",
-        "ids": ",nc75250016,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.01757,
-        "rms": 0.01,
-        "gap": 94,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 2 km NNE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.750999450684,
-          38.7968330383301,
-          2.84999990463257
-        ]
-      },
-      "id": "nc75250016"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.93,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1760595418550,
-        "updated": 1760595515023,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75250011",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75250011.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "nc",
-        "code": "75250011",
-        "ids": ",nc75250011,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.002707,
-        "rms": 0.02,
-        "gap": 107,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.9 - 10 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.853500366211,
-          38.8281669616699,
-          1.91999995708466
-        ]
-      },
-      "id": "nc75250011"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.63,
-        "place": "2 km SSW of Cobb, CA",
-        "time": 1760595367410,
-        "updated": 1760596338905,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75250006",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75250006.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 41,
-        "net": "nc",
-        "code": "75250006",
-        "ids": ",nc75250006,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.01793,
-        "rms": 0.05,
-        "gap": 57,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 2 km SSW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.73217010498,
-          38.8008346557617,
-          1.88999998569489
-        ]
-      },
-      "id": "nc75250006"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.44,
-        "place": "5 km SSW of Pāhala, Hawaii",
-        "time": 1760595121090,
-        "updated": 1760596347979,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74805846",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74805846.geojson",
-        "felt": 11,
-        "cdi": 3.4,
-        "mmi": 3.448,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 186,
-        "net": "hv",
-        "code": "74805846",
-        "ids": ",hv74805846,us6000rhgn,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 63,
-        "dmin": 0.03946,
-        "rms": 0.11,
-        "gap": 130,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.4 - 5 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.503833333333,
-          19.1568333333333,
-          33.17
-        ]
-      },
-      "id": "hv74805846"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.16,
-        "place": "10 km WSW of Grapevine, CA",
-        "time": 1760594708350,
-        "updated": 1760594916826,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41108847",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41108847.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "41108847",
-        "ids": ",ci41108847,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.07516,
-        "rms": 0.25,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 10 km WSW of Grapevine, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.0268333,
-          34.9008333,
-          10.05
-        ]
-      },
-      "id": "ci41108847"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 0.97,
-        "place": "14 km W of Johannesburg, CA",
-        "time": 1760593782770,
-        "updated": 1760593990727,
+        "place": "18 km W of Searles Valley, CA",
+        "time": 1760682603540,
+        "updated": 1760682812667,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41108839",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41108839.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41109879",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41109879.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,195 +27,235 @@
         "tsunami": 0,
         "sig": 14,
         "net": "ci",
-        "code": "41108839",
-        "ids": ",ci41108839,",
+        "code": "41109879",
+        "ids": ",ci41109879,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.09611,
-        "rms": 0.18,
-        "gap": 76,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 14 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.7926667,
-          35.3533333,
-          5.18
-        ]
-      },
-      "id": "ci41108839"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.5,
-        "place": "194 km WNW of Abepura, Indonesia",
-        "time": 1760593735452,
-        "updated": 1760595853158,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhg5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhg5.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": 6.516,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 650,
-        "net": "us",
-        "code": "6000rhg5",
-        "ids": ",pt25289001,us6000rhg5,at00t47mtk,",
-        "sources": ",pt,us,at,",
-        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 83,
-        "dmin": 0.911,
-        "rms": 1.06,
-        "gap": 25,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.5 - 194 km WNW of Abepura, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.9382,
-          -2.1676,
-          35
-        ]
-      },
-      "id": "us6000rhg5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "23 km ESE of Balmorhea, Texas",
-        "time": 1760593579147,
-        "updated": 1760593835417,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ujcpwy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ujcpwy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "tx",
-        "code": "2025ujcpwy",
-        "ids": ",tx2025ujcpwy,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
         "nst": 29,
-        "dmin": 0.2,
-        "rms": 0.6,
-        "gap": 109,
+        "dmin": 0.03602,
+        "rms": 0.16,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 23 km ESE of Balmorhea, Texas"
+        "title": "M 1.0 - 18 km W of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.518,
-          30.897,
-          6.4741
+          -117.599,
+          35.7796667,
+          6.26
         ]
       },
-      "id": "tx2025ujcpwy"
+      "id": "ci41109879"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.04,
-        "place": "4 km W of Cobb, CA",
-        "time": 1760593366210,
-        "updated": 1760594839712,
+        "mag": 0.76,
+        "place": "10 km SSW of Idyllwild, CA",
+        "time": 1760682457490,
+        "updated": 1760682669410,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75249986",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75249986.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41109871",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41109871.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75249986",
-        "ids": ",nc75249986,",
-        "sources": ",nc,",
+        "sig": 9,
+        "net": "ci",
+        "code": "41109871",
+        "ids": ",ci41109871,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.01168,
-        "rms": 0.01,
-        "gap": 102,
-        "magType": "md",
+        "nst": 53,
+        "dmin": 0.05697,
+        "rms": 0.16,
+        "gap": 37,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 4 km W of Cobb, CA"
+        "title": "M 0.8 - 10 km SSW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.766830444336,
-          38.8176651000977,
-          1.76999998092651
+          -116.74,
+          33.6548333,
+          12.62
         ]
       },
-      "id": "nc75249986"
+      "id": "ci41109871"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.05,
-        "place": "4 km W of Cobb, CA",
-        "time": 1760593267780,
-        "updated": 1760593640574,
+        "mag": 0.49,
+        "place": "9 km SSW of Idyllwild, CA",
+        "time": 1760682387530,
+        "updated": 1760682592287,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75249981",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75249981.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41109863",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41109863.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 65,
-        "net": "nc",
-        "code": "75249981",
-        "ids": ",nc75249981,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.01083,
-        "rms": 0.08,
-        "gap": 44,
-        "magType": "md",
+        "sig": 4,
+        "net": "ci",
+        "code": "41109863",
+        "ids": ",ci41109863,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.05777,
+        "rms": 0.19,
+        "gap": 55,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 4 km W of Cobb, CA"
+        "title": "M 0.5 - 9 km SSW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.767166137695,
-          38.8156661987305,
-          1.67999994754791
+          -116.7418333,
+          33.658,
+          11.32
         ]
       },
-      "id": "nc75249981"
+      "id": "ci41109863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "66 km E of Huara, Chile",
+        "time": 1760680550775,
+        "updated": 1760682776040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhqv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhqv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "6000rhqv",
+        "ids": ",us6000rhqv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.251,
+        "rms": 0.74,
+        "gap": 118,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 66 km E of Huara, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.1463,
+          -19.889,
+          107.137
+        ]
+      },
+      "id": "us6000rhqv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.04,
+        "place": "17 km NE of Pine Valley, CA",
+        "time": 1760680019130,
+        "updated": 1760680227305,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41109855",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41109855.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 0,
+        "net": "ci",
+        "code": "41109855",
+        "ids": ",ci41109855,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 14,
+        "dmin": 0.03089,
+        "rms": 0.1,
+        "gap": 111,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.0 - 17 km NE of Pine Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4103333,
+          32.9408333,
+          5.53
+        ]
+      },
+      "id": "ci41109855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "54 km NE of Mek'ele, Ethiopia",
+        "time": 1760679786125,
+        "updated": 1760682066040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhqw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhqw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000rhqw",
+        "ids": ",us6000rhqw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 3.678,
+        "rms": 0.68,
+        "gap": 172,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 54 km NE of Mek'ele, Ethiopia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8729,
+          13.8036,
+          10
+        ]
+      },
+      "id": "us6000rhqw"
     }
   ],
   "bbox": [
-    -155.50383333333,
-    -2.1676,
-    1.6799999475479,
-    138.9382,
-    38.82816696167,
-    35
+    -117.599,
+    -19.889,
+    5.53,
+    39.8729,
+    35.7796667,
+    107.137
   ]
 }
