@@ -1,24 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760682893000,
+    "generated": 1760769282000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.97,
-        "place": "18 km W of Searles Valley, CA",
-        "time": 1760682603540,
-        "updated": 1760682812667,
+        "mag": 1.8,
+        "place": "73 km E of Cantwell, Alaska",
+        "time": 1760768195545,
+        "updated": 1760768317703,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41109879",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41109879.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ddd23j6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ddd23j6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "025ddd23j6",
+        "ids": ",ak025ddd23j6,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.53,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 73 km E of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.4806,
+          63.3666,
+          64
+        ]
+      },
+      "id": "ak025ddd23j6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "25 km NE of Willow, Alaska",
+        "time": 1760768038088,
+        "updated": 1760768179687,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ddd1i42",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ddd1i42.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "025ddd1i42",
+        "ids": ",ak025ddd1i42,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.25,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 25 km NE of Willow, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6533,
+          61.886,
+          5
+        ]
+      },
+      "id": "ak025ddd1i42"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.97,
+        "place": "5 km SE of Redlands, CA",
+        "time": 1760767953860,
+        "updated": 1760768166364,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41110575",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41110575.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,235 +107,115 @@
         "tsunami": 0,
         "sig": 14,
         "net": "ci",
-        "code": "41109879",
-        "ids": ",ci41109879,",
+        "code": "41110575",
+        "ids": ",ci41110575,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.03602,
-        "rms": 0.16,
-        "gap": 54,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 18 km W of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.599,
-          35.7796667,
-          6.26
-        ]
-      },
-      "id": "ci41109879"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.76,
-        "place": "10 km SSW of Idyllwild, CA",
-        "time": 1760682457490,
-        "updated": 1760682669410,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41109871",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41109871.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "41109871",
-        "ids": ",ci41109871,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 53,
-        "dmin": 0.05697,
-        "rms": 0.16,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 10 km SSW of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.74,
-          33.6548333,
-          12.62
-        ]
-      },
-      "id": "ci41109871"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.49,
-        "place": "9 km SSW of Idyllwild, CA",
-        "time": 1760682387530,
-        "updated": 1760682592287,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41109863",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41109863.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41109863",
-        "ids": ",ci41109863,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.05777,
+        "nst": 17,
+        "dmin": 0.0356,
         "rms": 0.19,
-        "gap": 55,
+        "gap": 131,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 9 km SSW of Idyllwild, CA"
+        "title": "M 1.0 - 5 km SE of Redlands, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7418333,
-          33.658,
-          11.32
+          -117.1515,
+          34.0208333,
+          14.86
         ]
       },
-      "id": "ci41109863"
+      "id": "ci41110575"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.2,
-        "place": "66 km E of Huara, Chile",
-        "time": 1760680550775,
-        "updated": 1760682776040,
+        "mag": 1.2,
+        "place": "112 km SE of McCarthy, Alaska",
+        "time": 1760767379170,
+        "updated": 1760767490776,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhqv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhqv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000rhqv",
-        "ids": ",us6000rhqv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.251,
-        "rms": 0.74,
-        "gap": 118,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 66 km E of Huara, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.1463,
-          -19.889,
-          107.137
-        ]
-      },
-      "id": "us6000rhqv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.04,
-        "place": "17 km NE of Pine Valley, CA",
-        "time": 1760680019130,
-        "updated": 1760680227305,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41109855",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41109855.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ddcz5bx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ddcz5bx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 0,
-        "net": "ci",
-        "code": "41109855",
-        "ids": ",ci41109855,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.03089,
-        "rms": 0.1,
-        "gap": 111,
+        "sig": 22,
+        "net": "ak",
+        "code": "025ddcz5bx",
+        "ids": ",ak025ddcz5bx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.18,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.0 - 17 km NE of Pine Valley, CA"
+        "title": "M 1.2 - 112 km SE of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4103333,
-          32.9408333,
-          5.53
+          -141.6826,
+          60.6203,
+          24.5
         ]
       },
-      "id": "ci41109855"
+      "id": "ak025ddcz5bx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "54 km NE of Mek'ele, Ethiopia",
-        "time": 1760679786125,
-        "updated": 1760682066040,
+        "mag": 1.35,
+        "place": "15 km N of Cabazon, CA",
+        "time": 1760766164720,
+        "updated": 1760766381154,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhqw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rhqw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41110567",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41110567.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000rhqw",
-        "ids": ",us6000rhqw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 3.678,
-        "rms": 0.68,
-        "gap": 172,
-        "magType": "mb",
+        "sig": 28,
+        "net": "ci",
+        "code": "41110567",
+        "ids": ",ci41110567,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 62,
+        "dmin": 0.0148,
+        "rms": 0.17,
+        "gap": 41,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.3 - 54 km NE of Mek'ele, Ethiopia"
+        "title": "M 1.4 - 15 km N of Cabazon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.8729,
-          13.8036,
-          10
+          -116.813,
+          34.0493333,
+          12.88
         ]
       },
-      "id": "us6000rhqw"
+      "id": "ci41110567"
     }
   ],
   "bbox": [
-    -117.599,
-    -19.889,
-    5.53,
-    39.8729,
-    35.7796667,
-    107.137
+    -149.6533,
+    34.0208333,
+    5,
+    -116.813,
+    63.3666,
+    64
   ]
 }
