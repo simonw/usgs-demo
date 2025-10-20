@@ -1,581 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1760855701000,
+    "generated": 1760942105000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 14
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.93,
-        "place": "8 km N of Redwood Valley, CA",
-        "time": 1760855198520,
-        "updated": 1760855296633,
+        "mag": 2.27,
+        "place": "8 km ENE of Calumet, Oklahoma",
+        "time": 1760941858695,
+        "updated": 1760941942569,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75251391",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75251391.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025unzu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025unzu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
-        "net": "nc",
-        "code": "75251391",
-        "ids": ",nc75251391,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.06817,
-        "rms": 0.17,
-        "gap": 183,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.9 - 8 km N of Redwood Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.199165344238,
-          39.3334999084473,
-          -0.00999999977648258
-        ]
-      },
-      "id": "nc75251391"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.97,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1760855003110,
-        "updated": 1760855100671,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75251381",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75251381.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "nc",
-        "code": "75251381",
-        "ids": ",nc75251381,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.01321,
-        "rms": 0.01,
-        "gap": 47,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.820335388184,
-          38.8296661376953,
-          1.67999994754791
-        ]
-      },
-      "id": "nc75251381"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.71,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1760854861470,
-        "updated": 1760854956262,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75251376",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75251376.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75251376",
-        "ids": ",nc75251376,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01386,
-        "rms": 0.01,
-        "gap": 84,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.818496704102,
-          38.8281669616699,
-          1.22000002861023
-        ]
-      },
-      "id": "nc75251376"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.39,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1760854844110,
-        "updated": 1760854940479,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75251371",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75251371.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "nc",
-        "code": "75251371",
-        "ids": ",nc75251371,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.01113,
-        "rms": 0.06,
-        "gap": 46,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.822334289551,
-          38.8281669616699,
-          0.819999992847443
-        ]
-      },
-      "id": "nc75251371"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.99,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1760854800630,
-        "updated": 1760854895548,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75251361",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75251361.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 61,
-        "net": "nc",
-        "code": "75251361",
-        "ids": ",nc75251361,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.01464,
-        "rms": 0.02,
-        "gap": 50,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.818832397461,
-          38.8305015563965,
-          1.51999998092651
-        ]
-      },
-      "id": "nc75251361"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1760854771190,
-        "updated": 1760855012500,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75251366",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75251366.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "nc",
-        "code": "75251366",
-        "ids": ",nc75251366,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.0149,
-        "rms": 0.06,
-        "gap": 38,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.817001342773,
-          38.8279991149902,
-          1.62000000476837
-        ]
-      },
-      "id": "nc75251366"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "28 km S of Funny River, Alaska",
-        "time": 1760854434417,
-        "updated": 1760854528154,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025df0kuc1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025df0kuc1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "025df0kuc1",
-        "ids": ",ak025df0kuc1,",
-        "sources": ",ak,",
+        "sig": 79,
+        "net": "ok",
+        "code": "2025unzu",
+        "ids": ",ok2025unzu,",
+        "sources": ",ok,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.6,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 28 km S of Funny River, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.6864,
-          60.2499,
-          47.8
-        ]
-      },
-      "id": "ak025df0kuc1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "18 km ESE of Balmorhea, Texas",
-        "time": 1760853620954,
-        "updated": 1760853860543,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uoqgqa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uoqgqa.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025uoqgqa",
-        "ids": ",tx2025uoqgqa,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 91,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 18 km ESE of Balmorhea, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.563,
-          30.94,
-          8.3166
-        ]
-      },
-      "id": "tx2025uoqgqa"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "19 km ESE of Balmorhea, Texas",
-        "time": 1760853620754,
-        "updated": 1760853835041,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uoqgqg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uoqgqg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025uoqgqg",
-        "ids": ",tx2025uoqgqg,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 93,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 19 km ESE of Balmorhea, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.549,
-          30.937,
-          8.0664
-        ]
-      },
-      "id": "tx2025uoqgqg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1760853497600,
-        "updated": 1760853741472,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uoqemk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uoqemk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2025uoqemk",
-        "ids": ",tx2025uoqemk,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.36,
-          31.646,
-          3.8093
-        ]
-      },
-      "id": "tx2025uoqemk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "14 km SW of Searles Valley, CA",
-        "time": 1760853240010,
-        "updated": 1760853448452,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41111159",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41111159.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41111159",
-        "ids": ",ci41111159,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.09103,
-        "rms": 0.13,
-        "gap": 43,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 14 km SW of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.5316667,
-          35.6888333,
-          6.23
-        ]
-      },
-      "id": "ci41111159"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1760853214259,
-        "updated": 1760853752031,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uoqajt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uoqajt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "tx",
-        "code": "2025uoqajt",
-        "ids": ",tx2025uoqajt,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.373,
-          31.649,
-          4.0547
-        ]
-      },
-      "id": "tx2025uoqajt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.42,
-        "place": "12 km WNW of Malibu, CA",
-        "time": 1760852965920,
-        "updated": 1760853178760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41111151",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41111151.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 31,
-        "net": "ci",
-        "code": "41111151",
-        "ids": ",ci41111151,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 38,
-        "dmin": 0.03698,
-        "rms": 0.26,
-        "gap": 105,
+        "dmin": 0.1609160304,
+        "rms": 0.3552412105,
+        "gap": 36.35081482,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 12 km WNW of Malibu, CA"
+        "title": "M 2.3 - 8 km ENE of Calumet, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.9301667,
-          34.0526667,
-          9.63
+          -98.03076935,
+          35.62014389,
+          5.038031578
         ]
       },
-      "id": "ci41111151"
+      "id": "ok2025unzu"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "49 km WNW of Happy Valley, Alaska",
-        "time": 1760852879086,
-        "updated": 1760853008914,
+        "mag": 1.8,
+        "place": "29 km WNW of Valdez, Alaska",
+        "time": 1760941426173,
+        "updated": 1760941555254,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025df06pfo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025df06pfo.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dgo6bcp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dgo6bcp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
+        "sig": 50,
         "net": "ak",
-        "code": "025df06pfo",
-        "ids": ",ak025df06pfo,",
+        "code": "025dgo6bcp",
+        "ids": ",ak025dgo6bcp,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.4,
+        "rms": 0.53,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 49 km WNW of Happy Valley, Alaska"
+        "title": "M 1.8 - 29 km WNW of Valdez, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.5756,
-          60.0853,
-          90.2
+          -146.8037,
+          61.2755,
+          20.3
         ]
       },
-      "id": "ak025df06pfo"
+      "id": "ak025dgo6bcp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "31 km NW of Valdez, Alaska",
+        "time": 1760940764311,
+        "updated": 1760940895024,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dgo3xfg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dgo3xfg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "025dgo3xfg",
+        "ids": ",ak025dgo3xfg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.56,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 31 km NW of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.7874,
+          61.3207,
+          24.5
+        ]
+      },
+      "id": "ak025dgo3xfg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.16,
+        "place": "8 km SSW of Lytle Creek, CA",
+        "time": 1760940663320,
+        "updated": 1760940873396,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41111567",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41111567.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 21,
+        "net": "ci",
+        "code": "41111567",
+        "ids": ",ci41111567,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 60,
+        "dmin": 0.02524,
+        "rms": 0.23,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 8 km SSW of Lytle Creek, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5185,
+          34.1878333,
+          15.67
+        ]
+      },
+      "id": "ci41111567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "29 km WNW of Valdez, Alaska",
+        "time": 1760940410775,
+        "updated": 1760941027676,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dgo2oj4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dgo2oj4.geojson",
+        "felt": 2,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 113,
+        "net": "ak",
+        "code": "025dgo2oj4",
+        "ids": ",ak025dgo2oj4,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.79,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 29 km WNW of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.8311,
+          61.2575,
+          12.6
+        ]
+      },
+      "id": "ak025dgo2oj4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "46 km W of Dera Ghazi Khan, Pakistan",
+        "time": 1760938921468,
+        "updated": 1760940829040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ri96",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ri96.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000ri96",
+        "ids": ",us6000ri96,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 4.478,
+        "rms": 0.57,
+        "gap": 130,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 46 km W of Dera Ghazi Khan, Pakistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.163,
+          30.1092,
+          10
+        ]
+      },
+      "id": "us6000ri96"
     }
   ],
   "bbox": [
-    -152.5756,
-    30.937,
-    -0.0099999997764826,
-    -103.549,
-    60.2499,
-    90.2
+    -146.8311,
+    30.1092,
+    5.038031578,
+    70.163,
+    61.3207,
+    24.5
   ]
 }
