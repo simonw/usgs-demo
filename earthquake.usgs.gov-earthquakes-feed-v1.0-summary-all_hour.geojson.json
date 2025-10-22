@@ -1,181 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761028489000,
+    "generated": 1761114926000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.79,
-        "place": "17 km ESE of Anza, CA",
-        "time": 1761027967450,
-        "updated": 1761028180253,
+        "mag": 1.6,
+        "place": "4 km NNE of Crescent, Oklahoma",
+        "time": 1761113956692,
+        "updated": 1761114036798,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41112103",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41112103.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025urqk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025urqk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41112103",
-        "ids": ",ci41112103,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.07395,
-        "rms": 0.16,
-        "gap": 55,
+        "sig": 39,
+        "net": "ok",
+        "code": "2025urqk",
+        "ids": ",ok2025urqk,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.06049057096,
+        "rms": 0.1204117309,
+        "gap": 124.6301727,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 17 km ESE of Anza, CA"
+        "title": "M 1.6 - 4 km NNE of Crescent, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5178333,
-          33.4723333,
-          13.9
+          -97.57460022,
+          35.98601532,
+          4.650943756
         ]
       },
-      "id": "ci41112103"
+      "id": "ok2025urqk"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "63 km ESE of Khandūd, Afghanistan",
-        "time": 1761026370441,
-        "updated": 1761027934040,
+        "mag": 1.91,
+        "place": "64 km ENE of Tonopah, Nevada",
+        "time": 1761112539681,
+        "updated": 1761112721965,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000riej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000riej.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000riej",
-        "ids": ",us6000riej,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 1.59,
-        "rms": 0.92,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 63 km ESE of Khandūd, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          72.9977,
-          36.7734,
-          10
-        ]
-      },
-      "id": "us6000riej"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.56,
-        "place": "21 km W of Mina, Nevada",
-        "time": 1761026047305,
-        "updated": 1761026226094,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906178",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906178.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906223",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906223.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 37,
+        "sig": 56,
         "net": "nn",
-        "code": "00906178",
-        "ids": ",nn00906178,",
+        "code": "00906223",
+        "ids": ",nn00906223,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.662,
-        "rms": 0.3041,
-        "gap": 125,
+        "nst": 21,
+        "dmin": 0.403,
+        "rms": 0.2302,
+        "gap": 138,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 21 km W of Mina, Nevada"
+        "title": "M 1.9 - 64 km ENE of Tonopah, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.3487,
-          38.4148,
-          0.0011
+          -116.571,
+          38.3294,
+          3.2096
         ]
       },
-      "id": "nn00906178"
+      "id": "nn00906223"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.16,
-        "place": "5 km NW of Orocovis, Puerto Rico",
-        "time": 1761025121920,
-        "updated": 1761025988870,
+        "mag": 2.71,
+        "place": "59 km ENE of Tonopah, Nevada",
+        "time": 1761111879165,
+        "updated": 1761112060392,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71498453",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71498453.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906219",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906219.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 72,
-        "net": "pr",
-        "code": "71498453",
-        "ids": ",pr71498453,",
-        "sources": ",pr,",
+        "sig": 113,
+        "net": "nn",
+        "code": "00906219",
+        "ids": ",nn00906219,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.2324,
-        "rms": 0.11,
-        "gap": 172,
-        "magType": "md",
+        "nst": 24,
+        "dmin": 1.01,
+        "rms": 0.2646,
+        "gap": 210,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 5 km NW of Orocovis, Puerto Rico"
+        "title": "M 2.7 - 59 km ENE of Tonopah, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.4306666666667,
-          18.2605,
-          38.08
+          -116.5748,
+          38.2026,
+          7.1186
         ]
       },
-      "id": "pr71498453"
+      "id": "nn00906219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "124 km SSW of McCarthy, Alaska",
+        "time": 1761111860411,
+        "updated": 1761112250592,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025djys0rp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025djys0rp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "025djys0rp",
+        "ids": ",ak025djys0rp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.87,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 124 km SSW of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.4941,
+          60.348,
+          0.3
+        ]
+      },
+      "id": "ak025djys0rp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.44,
+        "place": "6 km SSW of Lytle Creek, CA",
+        "time": 1761111441650,
+        "updated": 1761111652791,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41112567",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41112567.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "ci",
+        "code": "41112567",
+        "ids": ",ci41112567,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.01768,
+        "rms": 0.11,
+        "gap": 124,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 6 km SSW of Lytle Creek, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.521,
+          34.2073333,
+          5.68
+        ]
+      },
+      "id": "ci41112567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.26,
+        "place": "14 km W of Johannesburg, CA",
+        "time": 1761111412300,
+        "updated": 1761111627114,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41112559",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41112559.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 79,
+        "net": "ci",
+        "code": "41112559",
+        "ids": ",ci41112559,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 56,
+        "dmin": 0.09694,
+        "rms": 0.18,
+        "gap": 33,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 14 km W of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7928333,
+          35.3543333,
+          6.36
+        ]
+      },
+      "id": "ci41112559"
     }
   ],
   "bbox": [
-    -118.3487,
-    18.2605,
-    0.0011,
-    72.9977,
-    38.4148,
-    38.08
+    -143.4941,
+    34.2073333,
+    0.3,
+    -97.57460022,
+    60.348,
+    7.1186
   ]
 }
