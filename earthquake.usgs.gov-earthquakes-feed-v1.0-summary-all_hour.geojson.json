@@ -1,64 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761114926000,
+    "generated": 1761201342000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "4 km NNE of Crescent, Oklahoma",
-        "time": 1761113956692,
-        "updated": 1761114036798,
+        "mag": 1.5,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1761200784137,
+        "updated": 1761200964465,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2025urqk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2025urqk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uwaapj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uwaapj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "ok",
-        "code": "2025urqk",
-        "ids": ",ok2025urqk,",
-        "sources": ",ok,",
+        "sig": 35,
+        "net": "tx",
+        "code": "2025uwaapj",
+        "ids": ",tx2025uwaapj,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.06049057096,
-        "rms": 0.1204117309,
-        "gap": 124.6301727,
+        "nst": 23,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 4 km NNE of Crescent, Oklahoma"
+        "title": "M 1.5 - 57 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.57460022,
-          35.98601532,
-          4.650943756
+          -104.38,
+          31.658,
+          3.7075
         ]
       },
-      "id": "ok2025urqk"
+      "id": "tx2025uwaapj"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.91,
-        "place": "64 km ENE of Tonopah, Nevada",
-        "time": 1761112539681,
-        "updated": 1761112721965,
+        "mag": 1.1,
+        "place": "5 km SSW of Midland, Texas",
+        "time": 1761200746768,
+        "updated": 1761200968051,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906223",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906223.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uwaabt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uwaabt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "tx",
+        "code": "2025uwaabt",
+        "ids": ",tx2025uwaabt,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 5 km SSW of Midland, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.098,
+          31.95,
+          3.0559
+        ]
+      },
+      "id": "tx2025uwaabt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "126 km SSW of McCarthy, Alaska",
+        "time": 1761199678567,
+        "updated": 1761199791179,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dlmoyc0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dlmoyc0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "025dlmoyc0",
+        "ids": ",ak025dlmoyc0,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.81,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 126 km SSW of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.4936,
+          60.335,
+          4.4
+        ]
+      },
+      "id": "ak025dlmoyc0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.66,
+        "place": "11 km SE of Anza, CA",
+        "time": 1761199403920,
+        "updated": 1761199615233,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41113127",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41113127.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "ci",
+        "code": "41113127",
+        "ids": ",ci41113127,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 35,
+        "dmin": 0.01374,
+        "rms": 0.15,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 11 km SE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5858333,
+          33.4933333,
+          6.29
+        ]
+      },
+      "id": "ci41113127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "53 km ENE of Chase, Alaska",
+        "time": 1761198494944,
+        "updated": 1761198684356,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dlmc7px",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dlmc7px.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,196 +186,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 56,
-        "net": "nn",
-        "code": "00906223",
-        "ids": ",nn00906223,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.403,
-        "rms": 0.2302,
-        "gap": 138,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 64 km ENE of Tonopah, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.571,
-          38.3294,
-          3.2096
-        ]
-      },
-      "id": "nn00906223"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.71,
-        "place": "59 km ENE of Tonopah, Nevada",
-        "time": 1761111879165,
-        "updated": 1761112060392,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906219",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906219.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 113,
-        "net": "nn",
-        "code": "00906219",
-        "ids": ",nn00906219,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.01,
-        "rms": 0.2646,
-        "gap": 210,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 59 km ENE of Tonopah, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5748,
-          38.2026,
-          7.1186
-        ]
-      },
-      "id": "nn00906219"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "124 km SSW of McCarthy, Alaska",
-        "time": 1761111860411,
-        "updated": 1761112250592,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025djys0rp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025djys0rp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
         "net": "ak",
-        "code": "025djys0rp",
-        "ids": ",ak025djys0rp,",
+        "code": "025dlmc7px",
+        "ids": ",ak025dlmc7px,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.87,
+        "rms": 1.22,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 124 km SSW of McCarthy, Alaska"
+        "title": "M 1.9 - 53 km ENE of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -143.4941,
-          60.348,
-          0.3
+          -149.1652,
+          62.6617,
+          0
         ]
       },
-      "id": "ak025djys0rp"
+      "id": "ak025dlmc7px"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.44,
-        "place": "6 km SSW of Lytle Creek, CA",
-        "time": 1761111441650,
-        "updated": 1761111652791,
+        "mag": 1.9,
+        "place": "25 km NNW of Willow, Alaska",
+        "time": 1761198494631,
+        "updated": 1761199243296,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41112567",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41112567.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dlmc7p3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dlmc7p3.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 32,
-        "net": "ci",
-        "code": "41112567",
-        "ids": ",ci41112567,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.01768,
-        "rms": 0.11,
-        "gap": 124,
+        "sig": 56,
+        "net": "ak",
+        "code": "025dlmc7p3",
+        "ids": ",ak025dlmc7p3,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.6,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 6 km SSW of Lytle Creek, CA"
+        "title": "M 1.9 - 25 km NNW of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.521,
-          34.2073333,
-          5.68
+          -150.1711,
+          61.9688,
+          6.9
         ]
       },
-      "id": "ci41112567"
+      "id": "ak025dlmc7p3"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.26,
-        "place": "14 km W of Johannesburg, CA",
-        "time": 1761111412300,
-        "updated": 1761111627114,
+        "mag": 0.64,
+        "place": "10 km NW of Parkfield, CA",
+        "time": 1761197920330,
+        "updated": 1761199036804,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41112559",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41112559.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75253201",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75253201.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 79,
-        "net": "ci",
-        "code": "41112559",
-        "ids": ",ci41112559,",
-        "sources": ",ci,",
+        "sig": 6,
+        "net": "nc",
+        "code": "75253201",
+        "ids": ",nc75253201,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 56,
-        "dmin": 0.09694,
-        "rms": 0.18,
-        "gap": 33,
-        "magType": "ml",
+        "nst": 11,
+        "dmin": 0.01444,
+        "rms": 0.02,
+        "gap": 174,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.3 - 14 km W of Johannesburg, CA"
+        "title": "M 0.6 - 10 km NW of Parkfield, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.7928333,
-          35.3543333,
-          6.36
+          -120.513496398926,
+          35.9591674804688,
+          9.89000034332275
         ]
       },
-      "id": "ci41112559"
+      "id": "nc75253201"
     }
   ],
   "bbox": [
-    -143.4941,
-    34.2073333,
-    0.3,
-    -97.57460022,
-    60.348,
-    7.1186
+    -150.1711,
+    31.658,
+    0,
+    -102.098,
+    62.6617,
+    9.8900003433228
   ]
 }
