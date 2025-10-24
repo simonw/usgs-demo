@@ -1,301 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761201342000,
+    "generated": 1761287681000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 1
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1761200784137,
-        "updated": 1761200964465,
+        "mag": 0.7,
+        "place": "3 km W of Cobb, CA",
+        "time": 1761285788830,
+        "updated": 1761286937851,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uwaapj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uwaapj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75253806",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75253806.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2025uwaapj",
-        "ids": ",tx2025uwaapj,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.38,
-          31.658,
-          3.7075
-        ]
-      },
-      "id": "tx2025uwaapj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "5 km SSW of Midland, Texas",
-        "time": 1761200746768,
-        "updated": 1761200968051,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uwaabt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uwaabt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "tx",
-        "code": "2025uwaabt",
-        "ids": ",tx2025uwaabt,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 5 km SSW of Midland, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.098,
-          31.95,
-          3.0559
-        ]
-      },
-      "id": "tx2025uwaabt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "126 km SSW of McCarthy, Alaska",
-        "time": 1761199678567,
-        "updated": 1761199791179,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dlmoyc0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dlmoyc0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "025dlmoyc0",
-        "ids": ",ak025dlmoyc0,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.81,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 126 km SSW of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -143.4936,
-          60.335,
-          4.4
-        ]
-      },
-      "id": "ak025dlmoyc0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.66,
-        "place": "11 km SE of Anza, CA",
-        "time": 1761199403920,
-        "updated": 1761199615233,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41113127",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41113127.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41113127",
-        "ids": ",ci41113127,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.01374,
-        "rms": 0.15,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 11 km SE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5858333,
-          33.4933333,
-          6.29
-        ]
-      },
-      "id": "ci41113127"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "53 km ENE of Chase, Alaska",
-        "time": 1761198494944,
-        "updated": 1761198684356,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dlmc7px",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dlmc7px.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "025dlmc7px",
-        "ids": ",ak025dlmc7px,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.22,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 53 km ENE of Chase, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.1652,
-          62.6617,
-          0
-        ]
-      },
-      "id": "ak025dlmc7px"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "25 km NNW of Willow, Alaska",
-        "time": 1761198494631,
-        "updated": 1761199243296,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dlmc7p3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dlmc7p3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "025dlmc7p3",
-        "ids": ",ak025dlmc7p3,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.6,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 25 km NNW of Willow, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.1711,
-          61.9688,
-          6.9
-        ]
-      },
-      "id": "ak025dlmc7p3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.64,
-        "place": "10 km NW of Parkfield, CA",
-        "time": 1761197920330,
-        "updated": 1761199036804,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75253201",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75253201.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
+        "sig": 8,
         "net": "nc",
-        "code": "75253201",
-        "ids": ",nc75253201,",
+        "code": "75253806",
+        "ids": ",nc75253806,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.01444,
+        "nst": 10,
+        "dmin": 0.01047,
         "rms": 0.02,
-        "gap": 174,
+        "gap": 121,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.6 - 10 km NW of Parkfield, CA"
+        "title": "M 0.7 - 3 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.513496398926,
-          35.9591674804688,
-          9.89000034332275
+          -122.763336181641,
+          38.8213348388672,
+          2.13000011444092
         ]
       },
-      "id": "nc75253201"
+      "id": "nc75253806"
     }
-  ],
-  "bbox": [
-    -150.1711,
-    31.658,
-    0,
-    -102.098,
-    62.6617,
-    9.8900003433228
   ]
 }
