@@ -1,53 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761287681000,
+    "generated": 1761374073000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 1
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "3 km W of Cobb, CA",
-        "time": 1761285788830,
-        "updated": 1761286937851,
+        "mag": 1.5,
+        "place": "20 km SSW of Glacier View, Alaska",
+        "time": 1761373651726,
+        "updated": 1761373765925,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75253806",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75253806.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025doxvvkk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025doxvvkk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75253806",
-        "ids": ",nc75253806,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.01047,
-        "rms": 0.02,
-        "gap": 121,
-        "magType": "md",
+        "sig": 35,
+        "net": "ak",
+        "code": "025doxvvkk",
+        "ids": ",ak025doxvvkk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.83,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 3 km W of Cobb, CA"
+        "title": "M 1.5 - 20 km SSW of Glacier View, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.763336181641,
-          38.8213348388672,
-          2.13000011444092
+          -147.7625,
+          61.6289,
+          29
         ]
       },
-      "id": "nc75253806"
+      "id": "ak025doxvvkk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.82,
+        "place": "25 km SW of Maricopa, CA",
+        "time": 1761373611090,
+        "updated": 1761373823727,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41319416",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41319416.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 51,
+        "net": "ci",
+        "code": "41319416",
+        "ids": ",ci41319416,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 51,
+        "dmin": 0.06266,
+        "rms": 0.24,
+        "gap": 34,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 25 km SW of Maricopa, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6063333,
+          34.9136667,
+          8.52
+        ]
+      },
+      "id": "ci41319416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.57,
+        "place": "19 km SE of Waimea, Hawaii",
+        "time": 1761373589290,
+        "updated": 1761373928966,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74814791",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74814791.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 102,
+        "net": "hv",
+        "code": "74814791",
+        "ids": ",hv74814791,us6000rje4,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.08793,
+        "rms": 0.150000006,
+        "gap": 108,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 19 km SE of Waimea, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.567504882812,
+          19.8806667327881,
+          20.3199996948242
+        ]
+      },
+      "id": "hv74814791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "39 km W of Clear, Alaska",
+        "time": 1761372360184,
+        "updated": 1761372463164,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025doxrb3m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025doxrb3m.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "ak",
+        "code": "025doxrb3m",
+        "ids": ",ak025doxrb3m,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 39 km W of Clear, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9904,
+          64.194,
+          5.4
+        ]
+      },
+      "id": "ak025doxrb3m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4317139387130737,
+        "place": "2 km SE of Buckley, Washington",
+        "time": 1761372347050,
+        "updated": 1761372511610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62206856",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62206856.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 91,
+        "net": "uw",
+        "code": "62206856",
+        "ids": ",uw62206856,",
+        "sources": ",uw,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 2 km SE of Buckley, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00399780273438,
+          47.14833450317383,
+          17.0699996948242
+        ]
+      },
+      "id": "uw62206856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.95,
+        "place": "24 km WNW of Ocotillo, CA",
+        "time": 1761372225710,
+        "updated": 1761372437281,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41319408",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41319408.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "41319408",
+        "ids": ",ci41319408,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 37,
+        "dmin": 0.1161,
+        "rms": 0.21,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 24 km WNW of Ocotillo, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2178333,
+          32.8481667,
+          12.71
+        ]
+      },
+      "id": "ci41319408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.28,
+        "place": "1 km NW of The Geysers, CA",
+        "time": 1761371774800,
+        "updated": 1761373039614,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75254291",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75254291.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75254291",
+        "ids": ",nc75254291,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.0156,
+        "rms": 0.02,
+        "gap": 104,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.3 - 1 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.766502380371,
+          38.7863349914551,
+          2.69000005722046
+        ]
+      },
+      "id": "nc75254291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "33 km E of McKinney Acres, Texas",
+        "time": 1761371250625,
+        "updated": 1761371439662,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025uzqevs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025uzqevs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "tx",
+        "code": "2025uzqevs",
+        "ids": ",tx2025uzqevs,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0,
+        "rms": 0.7,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 33 km E of McKinney Acres, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.179,
+          32.359,
+          4.2516
+        ]
+      },
+      "id": "tx2025uzqevs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "75 km ESE of Denali National Park, Alaska",
+        "time": 1761371250394,
+        "updated": 1761371379736,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025doxeq6n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025doxeq6n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "025doxeq6n",
+        "ids": ",ak025doxeq6n,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.86,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 75 km ESE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.4317,
+          63.185,
+          31.4
+        ]
+      },
+      "id": "ak025doxeq6n"
     }
+  ],
+  "bbox": [
+    -155.56750488281,
+    19.880666732788,
+    2.6900000572205,
+    -102.179,
+    64.194,
+    31.4
   ]
 }
