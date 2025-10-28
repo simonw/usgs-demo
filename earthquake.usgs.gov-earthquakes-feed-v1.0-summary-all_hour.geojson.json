@@ -1,144 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761546927000,
+    "generated": 1761633336000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.12,
-        "place": "7 km WSW of The Geysers, CA",
-        "time": 1761546788140,
-        "updated": 1761546885153,
+        "mag": 1.6,
+        "place": "16 km NW of Ninilchik, Alaska",
+        "time": 1761632765600,
+        "updated": 1761633099204,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75255131",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75255131.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dtwhn93",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dtwhn93.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "nc",
-        "code": "75255131",
-        "ids": ",nc75255131,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.0316,
-        "rms": 0.04,
-        "gap": 201,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km WSW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.827499389648,
-          38.7408332824707,
-          3.39000010490417
-        ]
-      },
-      "id": "nc75255131"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "47 km SW of Cooper Landing, Alaska",
-        "time": 1761546644497,
-        "updated": 1761546762408,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ds8z8ox",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ds8z8ox.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
+        "sig": 39,
         "net": "ak",
-        "code": "025ds8z8ox",
-        "ids": ",ak025ds8z8ox,",
+        "code": "025dtwhn93",
+        "ids": ",ak025dtwhn93,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.58,
+        "rms": 0.29,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 47 km SW of Cooper Landing, Alaska"
+        "title": "M 1.6 - 16 km NW of Ninilchik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.312,
-          60.1435,
-          30.8
+          -151.8986,
+          60.143,
+          65
         ]
       },
-      "id": "ak025ds8z8ox"
+      "id": "ak025dtwhn93"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.04,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1761546615840,
-        "updated": 1761546874451,
+        "mag": 1.7,
+        "place": "18 km SW of Charlotte, Texas",
+        "time": 1761632750104,
+        "updated": 1761632853687,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75255126",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75255126.geojson",
-        "felt": 1,
-        "cdi": 0,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vfeqnj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vfeqnj.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75255126",
-        "ids": ",nc75255126,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.01043,
-        "rms": 0.01,
-        "gap": 42,
-        "magType": "md",
+        "sig": 44,
+        "net": "tx",
+        "code": "2025vfeqnj",
+        "ids": ",tx2025vfeqnj,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 171,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 6 km NW of The Geysers, CA"
+        "title": "M 1.7 - 18 km SW of Charlotte, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.803833007812,
-          38.8160018920898,
-          2.20000004768372
+          -98.831,
+          28.731,
+          9.6095
         ]
       },
-      "id": "nc75255126"
+      "id": "tx2025vfeqnj"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.09,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1761546095440,
-        "updated": 1761546189862,
+        "mag": 1.61,
+        "place": "17 km NNW of Joshua Tree, CA",
+        "time": 1761632571490,
+        "updated": 1761633203500,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75255111",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75255111.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41321312",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41321312.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 40,
+        "net": "ci",
+        "code": "41321312",
+        "ids": ",ci41321312,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 59,
+        "dmin": 0.02924,
+        "rms": 0.18,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 17 km NNW of Joshua Tree, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4016667,
+          34.2668333,
+          3.68
+        ]
+      },
+      "id": "ci41321312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "6 km W of Cobb, CA",
+        "time": 1761632479540,
+        "updated": 1761632574412,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75255556",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75255556.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -147,78 +147,158 @@
         "tsunami": 0,
         "sig": 18,
         "net": "nc",
-        "code": "75255111",
-        "ids": ",nc75255111,",
+        "code": "75255556",
+        "ids": ",nc75255556,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01793,
-        "rms": 0.08,
-        "gap": 78,
+        "nst": 24,
+        "dmin": 0.01379,
+        "rms": 0.02,
+        "gap": 56,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 2 km NNW of The Geysers, CA"
+        "title": "M 1.1 - 6 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.765167236328,
-          38.7955017089844,
-          0.239999994635582
+          -122.795333862305,
+          38.8251647949219,
+          2.69000005722046
         ]
       },
-      "id": "nc75255111"
+      "id": "nc75255556"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "58 km SSW of Tatitlek, Alaska",
-        "time": 1761546060962,
-        "updated": 1761546323590,
+        "mag": 0.87,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1761632448150,
+        "updated": 1761632544700,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025ds8x42n",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025ds8x42n.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75255551",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75255551.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "025ds8x42n",
-        "ids": ",ak025ds8x42n,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 1.26,
-        "gap": null,
-        "magType": "ml",
+        "sig": 12,
+        "net": "nc",
+        "code": "75255551",
+        "ids": ",nc75255551,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.01697,
+        "rms": 0.01,
+        "gap": 58,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 58 km SSW of Tatitlek, Alaska"
+        "title": "M 0.9 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.9055,
-          60.3558,
-          16.3
+          -122.814163208008,
+          38.8278350830078,
+          2.08999991416931
         ]
       },
-      "id": "ak025ds8x42n"
+      "id": "nc75255551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.26,
+        "place": "6 km NNW of The Geysers, CA",
+        "time": 1761632005950,
+        "updated": 1761633140010,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75255546",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75255546.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 24,
+        "net": "nc",
+        "code": "75255546",
+        "ids": ",nc75255546,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.01418,
+        "rms": 0.03,
+        "gap": 35,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 6 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.796333312988,
+          38.8250007629395,
+          2.60999989509583
+        ]
+      },
+      "id": "nc75255546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "63 km W of Tyonek, Alaska",
+        "time": 1761631750588,
+        "updated": 1761632349539,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dtwe0iv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dtwe0iv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "025dtwe0iv",
+        "ids": ",ak025dtwe0iv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.51,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 63 km W of Tyonek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.3101,
+          61.0275,
+          108.3
+        ]
+      },
+      "id": "ak025dtwe0iv"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "28 km SSE of Midland, Texas",
-        "time": 1761545169145,
-        "updated": 1761545448376,
+        "place": "40 km NW of Toyah, Texas",
+        "time": 1761631683207,
+        "updated": 1761631806490,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vdigpu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vdigpu.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vfebez",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vfebez.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,35 +307,115 @@
         "tsunami": 0,
         "sig": 35,
         "net": "tx",
-        "code": "2025vdigpu",
-        "ids": ",tx2025vdigpu,",
+        "code": "2025vfebez",
+        "ids": ",tx2025vfebez,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 52,
+        "nst": 32,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 92,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 28 km SSE of Midland, Texas"
+        "title": "M 1.5 - 40 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.92,
-          31.776,
-          2.954
+          -104.107,
+          31.561,
+          4.7351
         ]
       },
-      "id": "tx2025vdigpu"
+      "id": "tx2025vfebez"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1761631065540,
+        "updated": 1761633139009,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75255541",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75255541.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75255541",
+        "ids": ",nc75255541,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.01726,
+        "rms": 0.01,
+        "gap": 43,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.813835144043,
+          38.8279991149902,
+          2.0699999332428
+        ]
+      },
+      "id": "nc75255541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "55 km WNW of Skwentna, Alaska",
+        "time": 1761630995219,
+        "updated": 1761631751484,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025dtw2psm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025dtw2psm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "025dtw2psm",
+        "ids": ",ak025dtw2psm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.48,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 55 km WNW of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.3037,
+          62.2519,
+          119.6
+        ]
+      },
+      "id": "ak025dtw2psm"
     }
   ],
   "bbox": [
-    -150.312,
-    31.776,
-    0.23999999463558,
-    -101.92,
-    60.3558,
-    30.8
+    -152.3101,
+    28.731,
+    2.0699999332428,
+    -98.831,
+    62.2519,
+    119.6
   ]
 }
