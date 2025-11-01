@@ -1,144 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1761892470000,
+    "generated": 1761978862000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 6
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "13 km WSW of Stanton, Texas",
-        "time": 1761892257486,
-        "updated": 1761892466005,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vkrzot",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vkrzot.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2025vkrzot",
-        "ids": ",tx2025vkrzot,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 13 km WSW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.927,
-          32.103,
-          3.6206
-        ]
-      },
-      "id": "tx2025vkrzot"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.63,
-        "place": "81 km ENE of Tonopah, Nevada",
-        "time": 1761891568867,
-        "updated": 1761891771935,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906624",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906624.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 41,
-        "net": "nn",
-        "code": "00906624",
-        "ids": ",nn00906624,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.68,
-        "rms": 0.2126,
-        "gap": 164,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 81 km ENE of Tonopah, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4419,
-          38.4567,
-          7.0721
-        ]
-      },
-      "id": "nn00906624"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.76,
-        "place": "15 km NE of Borrego Springs, CA",
-        "time": 1761891090640,
-        "updated": 1761891297253,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41323072",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41323072.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "41323072",
-        "ids": ",ci41323072,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.05611,
-        "rms": 0.2,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 15 km NE of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.248,
-          33.3401667,
-          11.61
-        ]
-      },
-      "id": "ci41323072"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.2,
-        "place": "10 km N of Midland, Texas",
-        "time": 1761890574466,
-        "updated": 1761890846033,
+        "place": "11 km NE of Yucaipa, CA",
+        "time": 1761977989850,
+        "updated": 1761978198570,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vkrbkp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vkrbkp.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41323720",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41323720.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,116 +26,356 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 22,
-        "net": "tx",
-        "code": "2025vkrbkp",
-        "ids": ",tx2025vkrbkp,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 10 km N of Midland, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.076,
-          32.094,
-          4.1263
-        ]
-      },
-      "id": "tx2025vkrbkp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "13 km WSW of Stanton, Texas",
-        "time": 1761889055958,
-        "updated": 1761889206858,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vkqfne",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vkqfne.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "tx",
-        "code": "2025vkqfne",
-        "ids": ",tx2025vkqfne,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 13 km WSW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.924,
-          32.101,
-          3.4964
-        ]
-      },
-      "id": "tx2025vkqfne"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.72,
-        "place": "9 km SSW of Holtville, CA",
-        "time": 1761889023230,
-        "updated": 1761889640510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41323064",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41323064.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 46,
         "net": "ci",
-        "code": "41323064",
-        "ids": ",ci41323064,",
+        "code": "41323720",
+        "ids": ",ci41323720,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.06434,
-        "rms": 0.27,
-        "gap": 61,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 70,
+        "dmin": 0.03817,
+        "rms": 0.16,
+        "gap": 23,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 9 km SSW of Holtville, CA"
+        "title": "M 1.2 - 11 km NE of Yucaipa, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.427,
-          32.743,
-          10.94
+          -116.9738333,
+          34.1151667,
+          6.16
         ]
       },
-      "id": "ci41323064"
+      "id": "ci41323720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.89,
+        "place": "4 km NE of Riverside, CA",
+        "time": 1761977984400,
+        "updated": 1761978198325,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41323712",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41323712.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41323712",
+        "ids": ",ci41323712,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.102,
+        "rms": 0.35,
+        "gap": 132,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 4 km NE of Riverside, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.364,
+          33.969,
+          11.54
+        ]
+      },
+      "id": "ci41323712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "7 km SE of Girdwood, Alaska",
+        "time": 1761977740087,
+        "updated": 1761977871207,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e0ikr2w",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e0ikr2w.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "025e0ikr2w",
+        "ids": ",ak025e0ikr2w,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.31,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 7 km SE of Girdwood, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.0689,
+          60.8978,
+          10.1
+        ]
+      },
+      "id": "ak025e0ikr2w"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "39 km ESE of Fox River, Alaska",
+        "time": 1761977135471,
+        "updated": 1761977250162,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e0iilkb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e0iilkb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "025e0iilkb",
+        "ids": ",ak025e0iilkb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.67,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 39 km ESE of Fox River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.3491,
+          59.6779,
+          22.8
+        ]
+      },
+      "id": "ak025e0iilkb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "44 km SE of Denali National Park, Alaska",
+        "time": 1761976313538,
+        "updated": 1761976459806,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e0i72ah",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e0i72ah.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "025e0i72ah",
+        "ids": ",ak025e0i72ah,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.55,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 44 km SE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.1124,
+          63.2526,
+          0.8
+        ]
+      },
+      "id": "ak025e0i72ah"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1761975965370,
+        "updated": 1761978440194,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75257406",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75257406.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "nc",
+        "code": "75257406",
+        "ids": ",nc75257406,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.006503,
+        "rms": 0.02,
+        "gap": 69,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.9 - 5 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.781829833984,
+          38.8376655578613,
+          2.03999996185303
+        ]
+      },
+      "id": "nc75257406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.03,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1761975838310,
+        "updated": 1761977843114,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75257401",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75257401.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75257401",
+        "ids": ",nc75257401,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.007492,
+        "rms": 0.03,
+        "gap": 76,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 5 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.78133392334,
+          38.8358345031738,
+          1.97000002861023
+        ]
+      },
+      "id": "nc75257401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "9 km NW of The Geysers, CA",
+        "time": 1761975389700,
+        "updated": 1761976338954,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75257386",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75257386.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75257386",
+        "ids": ",nc75257386,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 8,
+        "dmin": 0.008232,
+        "rms": 0.01,
+        "gap": 93,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 9 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.845336914062,
+          38.8248329162598,
+          1.76999998092651
+        ]
+      },
+      "id": "nc75257386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.29,
+        "place": "62 km NNW of San Antonio, Puerto Rico",
+        "time": 1761975314310,
+        "updated": 1761976470860,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71499478",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71499478.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 167,
+        "net": "pr",
+        "code": "71499478",
+        "ids": ",pr71499478,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.5796,
+        "rms": 0.3,
+        "gap": 316,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 62 km NNW of San Antonio, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.3318333333333,
+          19.011,
+          44.27
+        ]
+      },
+      "id": "pr71499478"
     }
   ],
   "bbox": [
-    -116.4419,
-    32.094,
-    3.4964,
-    -101.924,
-    38.4567,
-    11.61
+    -151.1124,
+    19.011,
+    0.8,
+    -67.331833333333,
+    63.2526,
+    44.27
   ]
 }
