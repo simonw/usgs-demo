@@ -1,264 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762065290000,
+    "generated": 1762151701000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.76,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1762064796260,
-        "updated": 1762064895134,
+        "mag": 1.94,
+        "place": "7 km SW of Volcano, Hawaii",
+        "time": 1762151526500,
+        "updated": 1762151698050,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75257926",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75257926.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74822281",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74822281.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75257926",
-        "ids": ",nc75257926,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.008348,
-        "rms": 0.01,
-        "gap": 64,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.824668884277,
-          38.8251647949219,
-          0.870000004768372
-        ]
-      },
-      "id": "nc75257926"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "28 km ESE of Denali National Park, Alaska",
-        "time": 1762064450074,
-        "updated": 1762064593355,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e2656xb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e2656xb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "025e2656xb",
-        "ids": ",ak025e2656xb,",
-        "sources": ",ak,",
+        "sig": 58,
+        "net": "hv",
+        "code": "74822281",
+        "ids": ",hv74822281,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.6,
-        "gap": null,
+        "nst": 9,
+        "dmin": 0.01145,
+        "rms": 0.180000007,
+        "gap": 140,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 28 km ESE of Denali National Park, Alaska"
+        "title": "M 1.9 - 7 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.2264,
-          63.4238,
-          3.7
+          -155.282333374023,
+          19.3931674957275,
+          -0.649999976158142
         ]
       },
-      "id": "ak025e2656xb"
+      "id": "hv74822281"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "14 km SSW of Susitna, Alaska",
-        "time": 1762063702244,
-        "updated": 1762063834153,
+        "mag": 2,
+        "place": "14 km S of Ackerly, Texas",
+        "time": 1762151134991,
+        "updated": 1762151437319,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e262k6o",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e262k6o.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vqezpc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vqezpc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "025e262k6o",
-        "ids": ",ak025e262k6o,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.95,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 14 km SSW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.658,
-          61.4341,
-          42.3
-        ]
-      },
-      "id": "ak025e262k6o"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.26,
-        "place": "26 km NNW of Tehachapi, CA",
-        "time": 1762063520440,
-        "updated": 1762063739516,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41324312",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41324312.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "ci",
-        "code": "41324312",
-        "ids": ",ci41324312,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.1238,
-        "rms": 0.15,
-        "gap": 75,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 26 km NNW of Tehachapi, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.553,
-          35.3516667,
-          6.54
-        ]
-      },
-      "id": "ci41324312"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "29 km NE of McKinney Acres, Texas",
-        "time": 1762063319471,
-        "updated": 1762063470231,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025voimiy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025voimiy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
+        "sig": 62,
         "net": "tx",
-        "code": "2025voimiy",
-        "ids": ",tx2025voimiy,",
+        "code": "2025vqezpc",
+        "ids": ",tx2025vqezpc,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.1,
+        "nst": 43,
+        "dmin": 0,
         "rms": 0.5,
-        "gap": 152,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 29 km NE of McKinney Acres, Texas"
+        "title": "M 2.0 - 14 km S of Ackerly, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.271,
-          32.456,
-          2.7126
+          -101.719,
+          32.399,
+          3.5129
         ]
       },
-      "id": "tx2025voimiy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "28 km S of Chickaloon, Alaska",
-        "time": 1762062744907,
-        "updated": 1762062888166,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e25qkai",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e25qkai.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "025e25qkai",
-        "ids": ",ak025e25qkai,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.15,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 28 km S of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.3561,
-          61.5428,
-          20.6
-        ]
-      },
-      "id": "ak025e25qkai"
+      "id": "tx2025vqezpc"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.28,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1762062445510,
-        "updated": 1762064239799,
+        "place": "27 km ENE of Honaunau-Napoopoo, Hawaii",
+        "time": 1762149601170,
+        "updated": 1762149787180,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75257921",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75257921.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74822256",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74822256.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,76 +106,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 80,
-        "net": "nc",
-        "code": "75257921",
-        "ids": ",nc75257921,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.00859,
-        "rms": 0.04,
-        "gap": 37,
-        "magType": "md",
+        "net": "hv",
+        "code": "74822256",
+        "ids": ",hv74822256,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 0.02219,
+        "rms": 0.25999999,
+        "gap": 107,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 8 km NW of The Geysers, CA"
+        "title": "M 2.3 - 27 km ENE of Honaunau-Napoopoo, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.824668884277,
-          38.826000213623,
-          0.660000026226044
+          -155.622497558594,
+          19.5501670837402,
+          7.76999998092651
         ]
       },
-      "id": "nc75257921"
+      "id": "hv74822256"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.77,
-        "place": "2 km ESE of Lake Henshaw, CA",
-        "time": 1762061890990,
-        "updated": 1762062101369,
+        "mag": 1.5,
+        "place": "55 km N of Petersville, Alaska",
+        "time": 1762148791931,
+        "updated": 1762148940711,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41324304",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41324304.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e3t8n15",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e3t8n15.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "41324304",
-        "ids": ",ci41324304,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 55,
-        "dmin": 0.01753,
-        "rms": 0.18,
-        "gap": 21,
+        "sig": 35,
+        "net": "ak",
+        "code": "025e3t8n15",
+        "ids": ",ak025e3t8n15,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.46,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 2 km ESE of Lake Henshaw, CA"
+        "title": "M 1.5 - 55 km N of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.738,
-          33.2338333,
-          10.66
+          -150.9433,
+          62.9897,
+          116.5
         ]
       },
-      "id": "ci41324304"
+      "id": "ak025e3t8n15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.89,
+        "place": "10 km SSW of Idyllwild, CA",
+        "time": 1762148149500,
+        "updated": 1762148359065,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41324768",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41324768.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41324768",
+        "ids": ",ci41324768,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 49,
+        "dmin": 0.07072,
+        "rms": 0.15,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 10 km SSW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.769,
+          33.6616667,
+          11.39
+        ]
+      },
+      "id": "ci41324768"
     }
   ],
   "bbox": [
-    -151.2264,
-    32.456,
-    0.66000002622604,
-    -102.271,
-    63.4238,
-    42.3
+    -155.62249755859,
+    19.393167495727,
+    -0.64999997615814,
+    -101.719,
+    62.9897,
+    116.5
   ]
 }
