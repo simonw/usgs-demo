@@ -1,384 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762238121000,
+    "generated": 1762324490000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 10
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.68,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1762237685510,
-        "updated": 1762237783810,
+        "mag": 1.8,
+        "place": "61 km SE of Kokhanok, Alaska",
+        "time": 1762323189773,
+        "updated": 1762323292657,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75258826",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75258826.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e74pna9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e74pna9.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75258826",
-        "ids": ",nc75258826,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01517,
-        "rms": 0.02,
-        "gap": 80,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.81600189209,
-          38.8261680603027,
-          2.0699999332428
-        ]
-      },
-      "id": "nc75258826"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "65 km W of Happy Valley, Alaska",
-        "time": 1762237645784,
-        "updated": 1762237747294,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e5h9c1x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e5h9c1x.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
+        "sig": 50,
         "net": "ak",
-        "code": "025e5h9c1x",
-        "ids": ",ak025e5h9c1x,",
+        "code": "025e74pna9",
+        "ids": ",ak025e74pna9,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.22,
+        "rms": 0.23,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 65 km W of Happy Valley, Alaska"
+        "title": "M 1.8 - 61 km SE of Kokhanok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.8914,
-          60.045,
-          118
+          -154.0236,
+          59.0427,
+          116.2
         ]
       },
-      "id": "ak025e5h9c1x"
+      "id": "ak025e74pna9"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.3,
-        "place": "12 km SSW of Kotzebue, Alaska",
-        "time": 1762237571864,
-        "updated": 1762238034164,
+        "mag": 2.22,
+        "place": "14 km NE of Nice, CA",
+        "time": 1762323072340,
+        "updated": 1762323443124,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e5h93e7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e5h93e7.geojson",
-        "felt": 1,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 1,
-        "sig": 285,
-        "net": "ak",
-        "code": "025e5h93e7",
-        "ids": ",ak025e5h93e7,at00t56v7t,",
-        "sources": ",ak,at,",
-        "types": ",dyfi,impact-link,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.84,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.3 - 12 km SSW of Kotzebue, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -162.7503,
-          66.8033,
-          2.1
-        ]
-      },
-      "id": "ak025e5h93e7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "13 km WSW of Stanton, Texas",
-        "time": 1762237357705,
-        "updated": 1762237585325,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vsapuj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vsapuj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75259356",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75259356.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "tx",
-        "code": "2025vsapuj",
-        "ids": ",tx2025vsapuj,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 13 km WSW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.925,
-          32.098,
-          3.8266
-        ]
-      },
-      "id": "tx2025vsapuj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "4 km E of Calimesa, CA",
-        "time": 1762237087100,
-        "updated": 1762237296373,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40480842",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40480842.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "40480842",
-        "ids": ",ci40480842,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 52,
-        "dmin": 0.1237,
-        "rms": 0.19,
-        "gap": 45,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 4 km E of Calimesa, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.0075,
-          33.9848333,
-          13.42
-        ]
-      },
-      "id": "ci40480842"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.11,
-        "place": "2 km NW of The Geysers, CA",
-        "time": 1762237054990,
-        "updated": 1762237148979,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75258816",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75258816.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
+        "sig": 76,
         "net": "nc",
-        "code": "75258816",
-        "ids": ",nc75258816,",
+        "code": "75259356",
+        "ids": ",nc75259356,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.009228,
-        "rms": 0.03,
-        "gap": 80,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 6,
+        "dmin": 0.3866,
+        "rms": 0.2,
+        "gap": 226,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 2 km NW of The Geysers, CA"
+        "title": "M 2.2 - 14 km NE of Nice, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.776496887207,
-          38.7908325195312,
-          0.610000014305115
+          -122.716499328613,
+          39.1988334655762,
+          4.26999998092651
         ]
       },
-      "id": "nc75258816"
+      "id": "nc75259356"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "61 km SW of Skwentna, Alaska",
-        "time": 1762236379505,
-        "updated": 1762236465255,
+        "mag": 2.05,
+        "place": "21 km SSW of Gabbs, Nevada",
+        "time": 1762321886418,
+        "updated": 1762322104056,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e5h4tj2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e5h4tj2.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906912",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906912.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "025e5h4tj2",
-        "ids": ",ak025e5h4tj2,",
-        "sources": ",ak,",
+        "sig": 65,
+        "net": "nn",
+        "code": "00906912",
+        "ids": ",nn00906912,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.86,
-        "gap": null,
+        "nst": 11,
+        "dmin": 1.144,
+        "rms": 0.3904,
+        "gap": 194,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 61 km SW of Skwentna, Alaska"
+        "title": "M 2.1 - 21 km SSW of Gabbs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.2283,
-          61.6037,
-          0.1
+          -117.9922,
+          38.6798,
+          15.9981
         ]
       },
-      "id": "ak025e5h4tj2"
+      "id": "nn00906912"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.07,
-        "place": "10 km SW of Salton City, CA",
-        "time": 1762234811900,
-        "updated": 1762235022623,
+        "mag": 2.39,
+        "place": "36 km ENE of Gabbs, Nevada",
+        "time": 1762321879869,
+        "updated": 1762322062650,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40480834",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40480834.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906910",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906910.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "ci",
-        "code": "40480834",
-        "ids": ",ci40480834,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 56,
-        "dmin": 0.05472,
-        "rms": 0.21,
-        "gap": 42,
+        "sig": 88,
+        "net": "nn",
+        "code": "00906910",
+        "ids": ",nn00906910,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.191,
+        "rms": 0.2966,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 10 km SW of Salton City, CA"
+        "title": "M 2.4 - 36 km ENE of Gabbs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.027,
-          33.2375,
-          5.91
+          -117.5426,
+          39.001,
+          2.993
         ]
       },
-      "id": "ci40480834"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.0813317505777,
-        "place": "9 km SW of Salton City, CA",
-        "time": 1762234811880,
-        "updated": 1762234933908,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41117903",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41117903.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "ci",
-        "code": "41117903",
-        "ids": ",ci41117903,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.05302,
-        "rms": 0.200000003,
-        "gap": 50,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 9 km SW of Salton City, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.027168273926,
-          33.2398338317871,
-          5.46999979019165
-        ]
-      },
-      "id": "ci41117903"
+      "id": "nn00906910"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.6,
-        "place": "87 km WNW of Aleneva, Alaska",
-        "time": 1762234630317,
-        "updated": 1762234744494,
+        "place": "40 km ENE of Chenega, Alaska",
+        "time": 1762321402727,
+        "updated": 1762321969484,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e5gq0ev",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e5gq0ev.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025e74ao5y",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025e74ao5y.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -387,35 +187,75 @@
         "tsunami": 0,
         "sig": 39,
         "net": "ak",
-        "code": "025e5gq0ev",
-        "ids": ",ak025e5gq0ev,",
+        "code": "025e74ao5y",
+        "ids": ",ak025e74ao5y,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.15,
+        "rms": 0.48,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 87 km WNW of Aleneva, Alaska"
+        "title": "M 1.6 - 40 km ENE of Chenega, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.1577,
-          58.4966,
-          91
+          -147.364,
+          60.2304,
+          15.3
         ]
       },
-      "id": "ak025e5gq0ev"
+      "id": "ak025e74ao5y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.88,
+        "place": "80 km ENE of Tonopah, Nevada",
+        "time": 1762321274967,
+        "updated": 1762321458962,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00906907",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00906907.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 54,
+        "net": "nn",
+        "code": "00906907",
+        "ids": ",nn00906907,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.701,
+        "rms": 0.3264,
+        "gap": 164,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 80 km ENE of Tonopah, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4675,
+          38.4676,
+          6.8421
+        ]
+      },
+      "id": "nn00906907"
     }
   ],
   "bbox": [
-    -162.7503,
-    32.098,
-    0.1,
-    -101.925,
-    66.8033,
-    118
+    -154.0236,
+    38.4676,
+    2.993,
+    -116.4675,
+    60.2304,
+    116.2
   ]
 }
