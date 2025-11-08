@@ -1,341 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762497308000,
+    "generated": 1762583666000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.03,
-        "place": "7 km W of Cobb, CA",
-        "time": 1762496016130,
-        "updated": 1762497138024,
+        "mag": 0.71,
+        "place": "8 km W of Cobb, CA",
+        "time": 1762581630890,
+        "updated": 1762582640682,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75260031",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75260031.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75260441",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75260441.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
+        "sig": 8,
         "net": "nc",
-        "code": "75260031",
-        "ids": ",nc75260031,",
+        "code": "75260441",
+        "ids": ",nc75260441,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 13,
-        "dmin": 0.01052,
-        "rms": 0.03,
-        "gap": 74,
+        "dmin": 0.01647,
+        "rms": 0.06,
+        "gap": 79,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 7 km W of Cobb, CA"
+        "title": "M 0.7 - 8 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.798164367676,
-          38.829833984375,
-          1.8400000333786
+          -122.815002441406,
+          38.8346672058105,
+          0.689999997615814
         ]
       },
-      "id": "nc75260031"
+      "id": "nc75260441"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.58,
-        "place": "2 km NNE of Lomita, CA",
-        "time": 1762495898740,
-        "updated": 1762497240458,
+        "mag": 4.5,
+        "place": "192 km SSE of Ust’-Kamchatsk Staryy, Russia",
+        "time": 1762580947829,
+        "updated": 1762582828040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40482154",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40482154.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ci",
-        "code": "40482154",
-        "ids": ",ci40482154,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 57,
-        "dmin": 0.01958,
-        "rms": 0.26,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 2 km NNE of Lomita, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.3093333,
-          33.8091667,
-          12.56
-        ]
-      },
-      "id": "ci40482154"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "14 km SSE of Stanton, Texas",
-        "time": 1762495742660,
-        "updated": 1762495956492,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025vxnitc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025vxnitc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rm8d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rm8d.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 26,
-        "net": "tx",
-        "code": "2025vxnitc",
-        "ids": ",tx2025vxnitc,",
-        "sources": ",tx,",
+        "sig": 312,
+        "net": "us",
+        "code": "6000rm8d",
+        "ids": ",us6000rm8d,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 49,
-        "magType": "ml",
+        "nst": 58,
+        "dmin": 4.175,
+        "rms": 0.73,
+        "gap": 110,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.3 - 14 km SSE of Stanton, Texas"
+        "title": "M 4.5 - 192 km SSE of Ust’-Kamchatsk Staryy, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.731,
-          32.006,
-          2.9173
+          164.1686,
+          54.7849,
+          10
         ]
       },
-      "id": "tx2025vxnitc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.61,
-        "place": "21 km ESE of Lopez Point, CA",
-        "time": 1762495248740,
-        "updated": 1762497137025,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75260021",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75260021.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 40,
-        "net": "nc",
-        "code": "75260021",
-        "ids": ",nc75260021,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.05498,
-        "rms": 0.07,
-        "gap": 122,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 21 km ESE of Lopez Point, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.344169616699,
-          35.9715003967285,
-          3
-        ]
-      },
-      "id": "nc75260021"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "25 km SSE of Tolsona, Alaska",
-        "time": 1762495217680,
-        "updated": 1762495424090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025eafpn0l",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025eafpn0l.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "025eafpn0l",
-        "ids": ",ak025eafpn0l,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.74,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 25 km SSE of Tolsona, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -145.8063,
-          61.8913,
-          76.1
-        ]
-      },
-      "id": "ak025eafpn0l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "54 km E of Egegik, Alaska",
-        "time": 1762494778043,
-        "updated": 1762494913464,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025eaffdbg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025eaffdbg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "025eaffdbg",
-        "ids": ",ak025eaffdbg,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.42,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 54 km E of Egegik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.4697,
-          58.1313,
-          19.6
-        ]
-      },
-      "id": "ak025eaffdbg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.45,
-        "place": "7 km NW of Anza, CA",
-        "time": 1762494546480,
-        "updated": 1762494769145,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40482146",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40482146.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "40482146",
-        "ids": ",ci40482146,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.03166,
-        "rms": 0.12,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 7 km NW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.732,
-          33.5968333,
-          12.45
-        ]
-      },
-      "id": "ci40482146"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.66,
-        "place": "7 km NW of Anza, CA",
-        "time": 1762494460430,
-        "updated": 1762494673133,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40482138",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40482138.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "40482138",
-        "ids": ",ci40482138,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.0897,
-        "rms": 0.13,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 7 km NW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.732,
-          33.5963333,
-          12.38
-        ]
-      },
-      "id": "ci40482138"
+      "id": "us6000rm8d"
     }
   ],
   "bbox": [
-    -156.4697,
-    32.006,
-    1.8400000333786,
-    -101.731,
-    61.8913,
-    76.1
+    -122.81500244141,
+    38.83466720581,
+    0.68999999761581,
+    164.1686,
+    54.7849,
+    10
   ]
 }
