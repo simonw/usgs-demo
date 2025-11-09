@@ -1,101 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1762583666000,
+    "generated": 1762670080000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 2
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.71,
-        "place": "8 km W of Cobb, CA",
-        "time": 1762581630890,
-        "updated": 1762582640682,
+        "mag": 1.1,
+        "place": "68 km WNW of Karluk, Alaska",
+        "time": 1762668980951,
+        "updated": 1762669050875,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75260441",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75260441.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025edqvp9r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025edqvp9r.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75260441",
-        "ids": ",nc75260441,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.01647,
-        "rms": 0.06,
-        "gap": 79,
-        "magType": "md",
+        "sig": 19,
+        "net": "ak",
+        "code": "025edqvp9r",
+        "ids": ",ak025edqvp9r,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.26,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 8 km W of Cobb, CA"
+        "title": "M 1.1 - 68 km WNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.815002441406,
-          38.8346672058105,
-          0.689999997615814
+          -155.4679,
+          57.8643,
+          17.6
         ]
       },
-      "id": "nc75260441"
+      "id": "ak025edqvp9r"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "192 km SSE of Ust’-Kamchatsk Staryy, Russia",
-        "time": 1762580947829,
-        "updated": 1762582828040,
+        "mag": 1.5,
+        "place": "52 km W of Karluk, Alaska",
+        "time": 1762667920110,
+        "updated": 1762668036333,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rm8d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rm8d.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025edqjb7v",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025edqjb7v.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rm8d",
-        "ids": ",us6000rm8d,",
-        "sources": ",us,",
+        "sig": 35,
+        "net": "ak",
+        "code": "025edqjb7v",
+        "ids": ",ak025edqjb7v,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 4.175,
-        "rms": 0.73,
-        "gap": 110,
-        "magType": "mb",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.18,
+        "gap": null,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.5 - 192 km SSE of Ust’-Kamchatsk Staryy, Russia"
+        "title": "M 1.5 - 52 km W of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          164.1686,
-          54.7849,
-          10
+          -155.3245,
+          57.6266,
+          19.5
         ]
       },
-      "id": "us6000rm8d"
+      "id": "ak025edqjb7v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.94,
+        "place": "4 km ESE of Frazier Park, CA",
+        "time": 1762667693580,
+        "updated": 1762667902853,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40482866",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40482866.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "40482866",
+        "ids": ",ci40482866,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.02875,
+        "rms": 0.21,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 4 km ESE of Frazier Park, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9025,
+          34.8046667,
+          14.07
+        ]
+      },
+      "id": "ci40482866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.53,
+        "place": "13 km S of Tres Pinos, CA",
+        "time": 1762667136650,
+        "updated": 1762668441276,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75260746",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75260746.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "nc",
+        "code": "75260746",
+        "ids": ",nc75260746,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.03303,
+        "rms": 0.16,
+        "gap": 52,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 13 km S of Tres Pinos, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.342834472656,
+          36.6744995117188,
+          1.87000000476837
+        ]
+      },
+      "id": "nc75260746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.64,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1762666753140,
+        "updated": 1762669939451,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75260741",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75260741.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 41,
+        "net": "nc",
+        "code": "75260741",
+        "ids": ",nc75260741,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.01453,
+        "rms": 0.03,
+        "gap": 64,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.819000244141,
+          38.8305015563965,
+          1.80999994277954
+        ]
+      },
+      "id": "nc75260741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "70 km ENE of Port Alsworth, Alaska",
+        "time": 1762666693218,
+        "updated": 1762667582040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025edqeyrq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025edqeyrq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "025edqeyrq",
+        "ids": ",us6000rmd0,ak025edqeyrq,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.65,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 70 km ENE of Port Alsworth, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.0878,
+          60.3864,
+          140.8
+        ]
+      },
+      "id": "ak025edqeyrq"
     }
   ],
   "bbox": [
-    -122.81500244141,
-    38.83466720581,
-    0.68999999761581,
-    164.1686,
-    54.7849,
-    10
+    -155.4679,
+    34.8046667,
+    1.8099999427795,
+    -118.9025,
+    60.3864,
+    140.8
   ]
 }
