@@ -1,301 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763102112000,
+    "generated": 1763188461000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.93,
-        "place": "9 km WNW of The Geysers, CA",
-        "time": 1763101966280,
-        "updated": 1763102064227,
+        "mag": 1.74,
+        "place": "21 km SSE of Pāhala, Hawaii",
+        "time": 1763187996870,
+        "updated": 1763188256610,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75263046",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75263046.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74830587",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74830587.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
-        "net": "nc",
-        "code": "75263046",
-        "ids": ",nc75263046,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.006861,
-        "rms": 0.01,
-        "gap": 70,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.9 - 9 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.842498779297,
-          38.8194999694824,
-          2.26999998092651
-        ]
-      },
-      "id": "nc75263046"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "25 km SW of Garden City, Texas",
-        "time": 1763101657124,
-        "updated": 1763101971338,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025wkjzsk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025wkjzsk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2025wkjzsk",
-        "ids": ",tx2025wkjzsk,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 25 km SW of Garden City, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.688,
-          31.723,
-          2.579
-        ]
-      },
-      "id": "tx2025wkjzsk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "103 km SE of Chenega, Alaska",
-        "time": 1763101590671,
-        "updated": 1763101764797,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025em0mlnf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025em0mlnf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "025em0mlnf",
-        "ids": ",ak025em0mlnf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.82,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 103 km SE of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.7406,
-          59.391,
-          0
-        ]
-      },
-      "id": "ak025em0mlnf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "64 km SE of Hughes, Alaska",
-        "time": 1763101503584,
-        "updated": 1763102101926,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025em0mbz9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025em0mbz9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "025em0mbz9",
-        "ids": ",ak025em0mbz9,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.68,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 64 km SE of Hughes, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.458,
-          65.5718,
-          0
-        ]
-      },
-      "id": "ak025em0mbz9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "6 km SSE of Loma Linda, CA",
-        "time": 1763100600350,
-        "updated": 1763100820279,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40485058",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40485058.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ci",
-        "code": "40485058",
-        "ids": ",ci40485058,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.06986,
-        "rms": 0.2,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 6 km SSE of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.2491667,
-          33.9991667,
-          10.76
-        ]
-      },
-      "id": "ci40485058"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "66 km SE of Denali National Park, Alaska",
-        "time": 1763100148456,
-        "updated": 1763100306833,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025em0hgm8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025em0hgm8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "025em0hgm8",
-        "ids": ",ak025em0hgm8,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.27,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 66 km SE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.6442,
-          63.2001,
-          121.8
-        ]
-      },
-      "id": "ak025em0hgm8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.97,
-        "place": "16 km NNE of Pāhala, Hawaii",
-        "time": 1763099159930,
-        "updated": 1763099385300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74829717",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74829717.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 60,
+        "sig": 47,
         "net": "hv",
-        "code": "74829717",
-        "ids": ",hv74829717,",
+        "code": "74830587",
+        "ids": ",hv74830587,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.02081,
-        "rms": 0.189999998,
-        "gap": 63,
+        "nst": 29,
+        "dmin": 0.143,
+        "rms": 0.159999996,
+        "gap": 246,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.0 - 16 km NNE of Pāhala, Hawaii"
+        "title": "M 1.7 - 21 km SSE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.407669067383,
-          19.3343334197998,
-          6.69999980926514
+          -155.367492675781,
+          19.0433330535889,
+          34.3300018310547
         ]
       },
-      "id": "hv74829717"
+      "id": "hv74830587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "24 km SW of Garden City, Texas",
+        "time": 1763187761363,
+        "updated": 1763188209040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rnf9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rnf9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000rnf9",
+        "ids": ",us6000rnf9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.35,
+        "rms": 0.54,
+        "gap": 42,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.7 - 24 km SW of Garden City, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6782,
+          31.727,
+          5.62
+        ]
+      },
+      "id": "us6000rnf9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "14 km WNW of Skwentna, Alaska",
+        "time": 1763187748955,
+        "updated": 1763187877137,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025eno535b",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025eno535b.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "025eno535b",
+        "ids": ",ak025eno535b,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.61,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 14 km WNW of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.6564,
+          62.0389,
+          85.9
+        ]
+      },
+      "id": "ak025eno535b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "79 km WSW of Vallenar, Chile",
+        "time": 1763187237459,
+        "updated": 1763187982040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rnf6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rnf6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000rnf6",
+        "ids": ",us6000rnf6,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 47,
+        "dmin": 0.715,
+        "rms": 0.79,
+        "gap": 154,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 79 km WSW of Vallenar, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5292,
+          -28.7985,
+          35.956
+        ]
+      },
+      "id": "us6000rnf6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.77,
+        "place": "5 km NNW of The Geysers, CA",
+        "time": 1763186733370,
+        "updated": 1763186832472,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75263481",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75263481.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75263481",
+        "ids": ",nc75263481,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.004347,
+        "rms": 0.02,
+        "gap": 86,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 5 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.786163330078,
+          38.8125,
+          1.54999995231628
+        ]
+      },
+      "id": "nc75263481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "18 km S of Denali Park, Alaska",
+        "time": 1763186520623,
+        "updated": 1763187125317,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025eno0qn5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025eno0qn5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "025eno0qn5",
+        "ids": ",ak025eno0qn5,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.63,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 18 km S of Denali Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8829,
+          63.5691,
+          0.6
+        ]
+      },
+      "id": "ak025eno0qn5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.55,
+        "place": "16 km W of Johannesburg, CA",
+        "time": 1763186308830,
+        "updated": 1763186546419,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40485290",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40485290.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 37,
+        "net": "ci",
+        "code": "40485290",
+        "ids": ",ci40485290,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.08866,
+        "rms": 0.15,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 16 km W of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8068333,
+          35.3503333,
+          7.37
+        ]
+      },
+      "id": "ci40485290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.56,
+        "place": "2 km NE of Fuig, Puerto Rico",
+        "time": 1763185617790,
+        "updated": 1763186319490,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500143",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500143.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "pr",
+        "code": "71500143",
+        "ids": ",pr71500143,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.03482,
+        "rms": 0.21,
+        "gap": 128,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 2 km NE of Fuig, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9008333333333,
+          18.0033333333333,
+          10.59
+        ]
+      },
+      "id": "pr71500143"
     }
   ],
   "bbox": [
-    -155.40766906738,
-    19.3343334198,
-    0,
-    -101.688,
-    65.5718,
-    121.8
+    -155.36749267578,
+    -28.7985,
+    0.6,
+    -66.900833333333,
+    63.5691,
+    85.9
   ]
 }
