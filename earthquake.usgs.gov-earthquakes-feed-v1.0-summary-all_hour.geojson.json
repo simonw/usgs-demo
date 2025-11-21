@@ -1,181 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763620526000,
+    "generated": 1763706916000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.76,
-        "place": "4 km ESE of San Ramon, CA",
-        "time": 1763619029260,
-        "updated": 1763620338104,
+        "mag": 2.0034376585571807,
+        "place": "34 km NNE of Chase, Alaska",
+        "time": 1763705601733,
+        "updated": 1763705808910,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75266396",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75266396.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wxfqxb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wxfqxb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
-        "net": "nc",
-        "code": "75266396",
-        "ids": ",nc75266396,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.02267,
-        "rms": 0.15,
-        "gap": 173,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 4 km ESE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.936996459961,
-          37.764331817627,
-          -0.370000004768372
-        ]
-      },
-      "id": "nc75266396"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "25 km SSW of Mammoth Lakes, CA",
-        "time": 1763617967560,
-        "updated": 1763619441000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75266376",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75266376.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "nc",
-        "code": "75266376",
-        "ids": ",nc75266376,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.08105,
-        "rms": 0.04,
-        "gap": 116,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 25 km SSW of Mammoth Lakes, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.062835693359,
-          37.4206657409668,
-          13.2200002670288
-        ]
-      },
-      "id": "nc75266376"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "4 km ESE of San Ramon, CA",
-        "time": 1763617913650,
-        "updated": 1763619740034,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75266371",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75266371.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "nc",
-        "code": "75266371",
-        "ids": ",nc75266371,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 12,
-        "dmin": 0.01725,
-        "rms": 0.17,
-        "gap": 102,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 4 km ESE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.933166503906,
-          37.7693328857422,
-          6.13000011444092
-        ]
-      },
-      "id": "nc75266371"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.51,
-        "place": "13 km WSW of Nixon, Nevada",
-        "time": 1763617673895,
-        "updated": 1763617820189,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00907509",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00907509.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "nn",
-        "code": "00907509",
-        "ids": ",nn00907509,",
-        "sources": ",nn,",
+        "sig": 62,
+        "net": "ak",
+        "code": "2025wxfqxb",
+        "ids": ",ak2025wxfqxb,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.297,
-        "rms": 0.1202,
-        "gap": 113,
+        "nst": 13,
+        "dmin": 0.4419578015804291,
+        "rms": 0.42212249263733864,
+        "gap": 120.6137466430664,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 13 km WSW of Nixon, Nevada"
+        "title": "M 2.0 - 34 km NNE of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.5022,
-          39.7806,
-          5.8824
+          -149.77467346191406,
+          62.71716690063477,
+          65.52013397216797
         ]
       },
-      "id": "nn00907509"
+      "id": "ak2025wxfqxb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.73,
+        "place": "7 km W of Templeton, CA",
+        "time": 1763705271040,
+        "updated": 1763705371161,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75267011",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75267011.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 46,
+        "net": "nc",
+        "code": "75267011",
+        "ids": ",nc75267011,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.1055,
+        "rms": 0.08,
+        "gap": 117,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 7 km W of Templeton, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.788330078125,
+          35.5566673278809,
+          5.92000007629395
+        ]
+      },
+      "id": "nc75267011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "15 km NE of Indio, CA",
+        "time": 1763704551700,
+        "updated": 1763704776331,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125319",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41125319.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ci",
+        "code": "41125319",
+        "ids": ",ci41125319,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.1181,
+        "rms": 0.19,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 15 km NE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.079666666667,
+          33.7985,
+          2.01
+        ]
+      },
+      "id": "ci41125319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.6,
+        "place": "10 km WNW of The Geysers, CA",
+        "time": 1763704393310,
+        "updated": 1763704489513,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75266991",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75266991.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "nc",
+        "code": "75266991",
+        "ids": ",nc75266991,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.01452,
+        "rms": 0,
+        "gap": 105,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.6 - 10 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.853332519531,
+          38.8256683349609,
+          2.11999988555908
+        ]
+      },
+      "id": "nc75266991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.65,
+        "place": "14 km W of Johannesburg, CA",
+        "time": 1763704392760,
+        "updated": 1763704624056,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125311",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41125311.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 42,
+        "net": "ci",
+        "code": "41125311",
+        "ids": ",ci41125311,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 45,
+        "dmin": 0.09842,
+        "rms": 0.18,
+        "gap": 37,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 14 km W of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.789666666667,
+          35.3546666666667,
+          5.73
+        ]
+      },
+      "id": "ci41125311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.17,
+        "place": "10 km WNW of The Geysers, CA",
+        "time": 1763704385040,
+        "updated": 1763706439903,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75266986",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75266986.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 21,
+        "net": "nc",
+        "code": "75266986",
+        "ids": ",nc75266986,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.0007302,
+        "rms": 0.04,
+        "gap": 113,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.2 - 10 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.856666564941,
+          38.826831817627,
+          1.92999994754791
+        ]
+      },
+      "id": "nc75266986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6722031313355104,
+        "place": "116 km S of McCarthy, Alaska",
+        "time": 1763703867391,
+        "updated": 1763703952922,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wxerzm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wxerzm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 43,
+        "net": "ak",
+        "code": "2025wxerzm",
+        "ids": ",ak2025wxerzm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.14617687463760376,
+        "rms": 0.17603715724204672,
+        "gap": 161.34285736083984,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 116 km S of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.97813415527344,
+          60.38781356811523,
+          18.514629364013672
+        ]
+      },
+      "id": "ak2025wxerzm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.91,
+        "place": "15 km NE of Indio, CA",
+        "time": 1763703852740,
+        "updated": 1763704082390,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125303",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41125303.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "41125303",
+        "ids": ",ci41125303,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.1165,
+        "rms": 0.16,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 15 km NE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.081666666667,
+          33.7975,
+          1.36
+        ]
+      },
+      "id": "ci41125303"
     }
   ],
   "bbox": [
-    -121.93699645996,
-    37.420665740967,
-    -0.37000000476837,
-    -119.06283569336,
-    39.7806,
-    13.220000267029
+    -149.77467346191,
+    33.7975,
+    1.36,
+    -116.07966666667,
+    62.717166900635,
+    65.520133972168
   ]
 }
