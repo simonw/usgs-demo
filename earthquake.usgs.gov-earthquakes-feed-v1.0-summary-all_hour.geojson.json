@@ -1,341 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763706916000,
+    "generated": 1763793261000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.0034376585571807,
-        "place": "34 km NNE of Chase, Alaska",
-        "time": 1763705601733,
-        "updated": 1763705808910,
+        "mag": 2.355493807716885,
+        "place": "60 km SSW of Ugashik, Alaska",
+        "time": 1763792888332,
+        "updated": 1763792973805,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wxfqxb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wxfqxb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wzbwnb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wzbwnb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
+        "sig": 85,
         "net": "ak",
-        "code": "2025wxfqxb",
-        "ids": ",ak2025wxfqxb,",
+        "code": "2025wzbwnb",
+        "ids": ",ak2025wzbwnb,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.4419578015804291,
-        "rms": 0.42212249263733864,
-        "gap": 120.6137466430664,
+        "nst": 19,
+        "dmin": 0.22945624589920044,
+        "rms": 0.6169658771509086,
+        "gap": 163.68355178833008,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 34 km NNE of Chase, Alaska"
+        "title": "M 2.4 - 60 km SSW of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.77467346191406,
-          62.71716690063477,
-          65.52013397216797
+          -157.71286010742188,
+          57.00037002563477,
+          5
         ]
       },
-      "id": "ak2025wxfqxb"
+      "id": "ak2025wzbwnb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.73,
-        "place": "7 km W of Templeton, CA",
-        "time": 1763705271040,
-        "updated": 1763705371161,
+        "mag": 0.81,
+        "place": "12 km N of Ocotillo Wells, CA",
+        "time": 1763792851840,
+        "updated": 1763793071349,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75267011",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75267011.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125607",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41125607.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 46,
+        "sig": 10,
+        "net": "ci",
+        "code": "41125607",
+        "ids": ",ci41125607,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 44,
+        "dmin": 0.1084,
+        "rms": 0.21,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 12 km N of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.1115,
+          33.2541666666667,
+          10.52
+        ]
+      },
+      "id": "ci41125607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "9 km NW of Pinnacles, CA",
+        "time": 1763791938520,
+        "updated": 1763793140685,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75267551",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75267551.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
         "net": "nc",
-        "code": "75267011",
-        "ids": ",nc75267011,",
+        "code": "75267551",
+        "ids": ",nc75267551,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.02491,
+        "rms": 0.13,
+        "gap": 88,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 9 km NW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.210166931152,
+          36.5866661071777,
+          7.57999992370605
+        ]
+      },
+      "id": "nc75267551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5889553560446632,
+        "place": "52 km SSE of Denali National Park, Alaska",
+        "time": 1763791759302,
+        "updated": 1763791868813,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wzbghq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wzbghq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "2025wzbghq",
+        "ids": ",ak2025wzbghq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
         "nst": 18,
-        "dmin": 0.1055,
-        "rms": 0.08,
-        "gap": 117,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 7 km W of Templeton, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.788330078125,
-          35.5566673278809,
-          5.92000007629395
-        ]
-      },
-      "id": "nc75267011"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "15 km NE of Indio, CA",
-        "time": 1763704551700,
-        "updated": 1763704776331,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125319",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41125319.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ci",
-        "code": "41125319",
-        "ids": ",ci41125319,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.1181,
-        "rms": 0.19,
-        "gap": 46,
+        "dmin": 0.5068963766098022,
+        "rms": 0.6889737362779846,
+        "gap": 55.02607202529907,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 15 km NE of Indio, CA"
+        "title": "M 1.6 - 52 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.079666666667,
-          33.7985,
-          2.01
+          -151.14065551757812,
+          63.14605712890625,
+          5
         ]
       },
-      "id": "ci41125319"
+      "id": "ak2025wzbghq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "10 km WNW of The Geysers, CA",
-        "time": 1763704393310,
-        "updated": 1763704489513,
+        "mag": 1.06,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1763791121590,
+        "updated": 1763791216611,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75266991",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75266991.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75267546",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75267546.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
+        "sig": 17,
         "net": "nc",
-        "code": "75266991",
-        "ids": ",nc75266991,",
+        "code": "75267546",
+        "ids": ",nc75267546,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01452,
-        "rms": 0,
-        "gap": 105,
+        "nst": 15,
+        "dmin": 0.005562,
+        "rms": 0.01,
+        "gap": 84,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.6 - 10 km WNW of The Geysers, CA"
+        "title": "M 1.1 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.853332519531,
-          38.8256683349609,
-          2.11999988555908
+          -122.849998474121,
+          38.8289985656738,
+          2.34999990463257
         ]
       },
-      "id": "nc75266991"
+      "id": "nc75267546"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.65,
-        "place": "14 km W of Johannesburg, CA",
-        "time": 1763704392760,
-        "updated": 1763704624056,
+        "mag": 1.5434136398874843,
+        "place": "21 km NW of Nanwalek, Alaska",
+        "time": 1763790525881,
+        "updated": 1763790663757,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125311",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41125311.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wzaoou",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wzaoou.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 42,
-        "net": "ci",
-        "code": "41125311",
-        "ids": ",ci41125311,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.09842,
-        "rms": 0.18,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 14 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.789666666667,
-          35.3546666666667,
-          5.73
-        ]
-      },
-      "id": "ci41125311"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.17,
-        "place": "10 km WNW of The Geysers, CA",
-        "time": 1763704385040,
-        "updated": 1763706439903,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75266986",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75266986.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "nc",
-        "code": "75266986",
-        "ids": ",nc75266986,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.0007302,
-        "rms": 0.04,
-        "gap": 113,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 10 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.856666564941,
-          38.826831817627,
-          1.92999994754791
-        ]
-      },
-      "id": "nc75266986"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6722031313355104,
-        "place": "116 km S of McCarthy, Alaska",
-        "time": 1763703867391,
-        "updated": 1763703952922,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wxerzm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wxerzm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 43,
+        "sig": 37,
         "net": "ak",
-        "code": "2025wxerzm",
-        "ids": ",ak2025wxerzm,",
+        "code": "2025wzaoou",
+        "ids": ",ak2025wzaoou,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.14617687463760376,
-        "rms": 0.17603715724204672,
-        "gap": 161.34285736083984,
+        "nst": 30,
+        "dmin": 0.5382997393608093,
+        "rms": 0.5845067707922142,
+        "gap": 116.4327850341797,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 116 km S of McCarthy, Alaska"
+        "title": "M 1.5 - 21 km NW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -142.97813415527344,
-          60.38781356811523,
-          18.514629364013672
+          -152.19480895996094,
+          59.48746871948242,
+          80.5138931274414
         ]
       },
-      "id": "ak2025wxerzm"
+      "id": "ak2025wzaoou"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.91,
-        "place": "15 km NE of Indio, CA",
-        "time": 1763703852740,
-        "updated": 1763704082390,
+        "mag": 2.195836703793918,
+        "place": "41 km NNE of Chase, Alaska",
+        "time": 1763789726651,
+        "updated": 1763789826810,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125303",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41125303.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wzadcj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wzadcj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41125303",
-        "ids": ",ci41125303,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.1165,
-        "rms": 0.16,
-        "gap": 46,
+        "sig": 74,
+        "net": "ak",
+        "code": "2025wzadcj",
+        "ids": ",ak2025wzadcj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 0.43918728828430176,
+        "rms": 0.7226376030872693,
+        "gap": 31.6710205078125,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 15 km NE of Indio, CA"
+        "title": "M 2.2 - 41 km NNE of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.081666666667,
-          33.7975,
-          1.36
+          -149.85794067382812,
+          62.80155944824219,
+          65.32513427734375
         ]
       },
-      "id": "ci41125303"
+      "id": "ak2025wzadcj"
     }
   ],
   "bbox": [
-    -149.77467346191,
-    33.7975,
-    1.36,
-    -116.07966666667,
-    62.717166900635,
-    65.520133972168
+    -157.71286010742,
+    33.254166666667,
+    2.3499999046326,
+    -116.1115,
+    63.146057128906,
+    80.513893127441
   ]
 }
