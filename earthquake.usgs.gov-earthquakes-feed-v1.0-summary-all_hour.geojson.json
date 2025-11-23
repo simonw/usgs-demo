@@ -1,301 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1763793261000,
+    "generated": 1763879668000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.355493807716885,
-        "place": "60 km SSW of Ugashik, Alaska",
-        "time": 1763792888332,
-        "updated": 1763792973805,
+        "mag": 0.8717195926656989,
+        "place": "78 km S of McCarthy, Alaska",
+        "time": 1763878637867,
+        "updated": 1763878825780,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wzbwnb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wzbwnb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xaxgbc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xaxgbc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 85,
+        "sig": 12,
         "net": "ak",
-        "code": "2025wzbwnb",
-        "ids": ",ak2025wzbwnb,",
+        "code": "2025xaxgbc",
+        "ids": ",ak2025xaxgbc,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.22945624589920044,
-        "rms": 0.6169658771509086,
-        "gap": 163.68355178833008,
+        "nst": 5,
+        "dmin": 0.07410915940999985,
+        "rms": 0.06504220981758231,
+        "gap": 144.66407775878906,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 60 km SSW of Ugashik, Alaska"
+        "title": "M 0.9 - 78 km S of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -157.71286010742188,
-          57.00037002563477,
+          -142.68138122558594,
+          60.73939514160156,
           5
         ]
       },
-      "id": "ak2025wzbwnb"
+      "id": "ak2025xaxgbc"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.81,
-        "place": "12 km N of Ocotillo Wells, CA",
-        "time": 1763792851840,
-        "updated": 1763793071349,
+        "mag": 1.8,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1763878059738,
+        "updated": 1763878481892,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125607",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41125607.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025xawxtc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025xawxtc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41125607",
-        "ids": ",ci41125607,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.1084,
-        "rms": 0.21,
-        "gap": 49,
+        "sig": 50,
+        "net": "tx",
+        "code": "2025xawxtc",
+        "ids": ",tx2025xawxtc,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 102,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 12 km N of Ocotillo Wells, CA"
+        "title": "M 1.8 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.1115,
-          33.2541666666667,
-          10.52
+          -104.459,
+          31.633,
+          3.3725
         ]
       },
-      "id": "ci41125607"
+      "id": "tx2025xawxtc"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "9 km NW of Pinnacles, CA",
-        "time": 1763791938520,
-        "updated": 1763793140685,
+        "mag": 1.7203376166271147,
+        "place": "50 km ENE of Chase, Alaska",
+        "time": 1763877676070,
+        "updated": 1763877802859,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75267551",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75267551.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xawphy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xawphy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "nc",
-        "code": "75267551",
-        "ids": ",nc75267551,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.02491,
-        "rms": 0.13,
-        "gap": 88,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 9 km NW of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.210166931152,
-          36.5866661071777,
-          7.57999992370605
-        ]
-      },
-      "id": "nc75267551"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5889553560446632,
-        "place": "52 km SSE of Denali National Park, Alaska",
-        "time": 1763791759302,
-        "updated": 1763791868813,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wzbghq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wzbghq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 46,
         "net": "ak",
-        "code": "2025wzbghq",
-        "ids": ",ak2025wzbghq,",
+        "code": "2025xawphy",
+        "ids": ",ak2025xawphy,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.5068963766098022,
-        "rms": 0.6889737362779846,
-        "gap": 55.02607202529907,
+        "nst": 45,
+        "dmin": 0.2554411292076111,
+        "rms": 0.83614124172139,
+        "gap": 29.93994140625,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 52 km SSE of Denali National Park, Alaska"
+        "title": "M 1.7 - 50 km ENE of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.14065551757812,
-          63.14605712890625,
-          5
+          -149.1999969482422,
+          62.6366081237793,
+          52.19866180419922
         ]
       },
-      "id": "ak2025wzbghq"
+      "id": "ak2025xawphy"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.06,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1763791121590,
-        "updated": 1763791216611,
+        "mag": 1.9089085056143726,
+        "place": "20 km WSW of Anchorage, Alaska",
+        "time": 1763877500574,
+        "updated": 1763877624841,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75267546",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75267546.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xawpsh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xawpsh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75267546",
-        "ids": ",nc75267546,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.005562,
-        "rms": 0.01,
-        "gap": 84,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 10 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.849998474121,
-          38.8289985656738,
-          2.34999990463257
-        ]
-      },
-      "id": "nc75267546"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5434136398874843,
-        "place": "21 km NW of Nanwalek, Alaska",
-        "time": 1763790525881,
-        "updated": 1763790663757,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wzaoou",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wzaoou.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 37,
+        "sig": 56,
         "net": "ak",
-        "code": "2025wzaoou",
-        "ids": ",ak2025wzaoou,",
+        "code": "2025xawpsh",
+        "ids": ",ak2025xawpsh,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.2735573947429657,
+        "rms": 0.7784346429399626,
+        "gap": 51.20352935791016,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 20 km WSW of Anchorage, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.27520751953125,
+          61.1729736328125,
+          14.650445938110352
+        ]
+      },
+      "id": "ak2025xawpsh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "28 km NE of McKinney Acres, Texas",
+        "time": 1763877295527,
+        "updated": 1763877510177,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025xawmpl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025xawmpl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "tx",
+        "code": "2025xawmpl",
+        "ids": ",tx2025xawmpl,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 204,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 28 km NE of McKinney Acres, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.295,
+          32.459,
+          2.9175
+        ]
+      },
+      "id": "tx2025xawmpl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "4 km NW of The Geysers, CA",
+        "time": 1763877116420,
+        "updated": 1763878939374,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75267851",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75267851.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "nc",
+        "code": "75267851",
+        "ids": ",nc75267851,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 30,
-        "dmin": 0.5382997393608093,
-        "rms": 0.5845067707922142,
-        "gap": 116.4327850341797,
-        "magType": "ml",
+        "dmin": 0.009954,
+        "rms": 0.02,
+        "gap": 66,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 21 km NW of Nanwalek, Alaska"
+        "title": "M 1.5 - 4 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.19480895996094,
-          59.48746871948242,
-          80.5138931274414
+          -122.779502868652,
+          38.8033332824707,
+          2.75
         ]
       },
-      "id": "ak2025wzaoou"
+      "id": "nc75267851"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.195836703793918,
-        "place": "41 km NNE of Chase, Alaska",
-        "time": 1763789726651,
-        "updated": 1763789826810,
+        "mag": 1.15,
+        "place": "16 km SE of Big Bear City, CA",
+        "time": 1763876745770,
+        "updated": 1763877389730,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025wzadcj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025wzadcj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41125759",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41125759.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "2025wzadcj",
-        "ids": ",ak2025wzadcj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.43918728828430176,
-        "rms": 0.7226376030872693,
-        "gap": 31.6710205078125,
+        "sig": 20,
+        "net": "ci",
+        "code": "41125759",
+        "ids": ",ci41125759,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 45,
+        "dmin": 0.1317,
+        "rms": 0.14,
+        "gap": 47,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 41 km NNE of Chase, Alaska"
+        "title": "M 1.2 - 16 km SE of Big Bear City, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.85794067382812,
-          62.80155944824219,
-          65.32513427734375
+          -116.722,
+          34.1553333333333,
+          8.32
         ]
       },
-      "id": "ak2025wzadcj"
+      "id": "ci41125759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1656064773021497,
+        "place": "57 km W of Anchor Point, Alaska",
+        "time": 1763876660173,
+        "updated": 1763876762810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xawdql",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xawdql.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "ak",
+        "code": "2025xawdql",
+        "ids": ",ak2025xawdql,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.106356680393219,
+        "rms": 0.4714828674093425,
+        "gap": 60.8289566040039,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 57 km W of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.83184814453125,
+          59.86661911010742,
+          91.87881469726562
+        ]
+      },
+      "id": "ak2025xawdql"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "95 km SSE of Vilyuchinsk, Russia",
+        "time": 1763876301965,
+        "updated": 1763877858040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpwt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rpwt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rpwt",
+        "ids": ",us6000rpwt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 1.258,
+        "rms": 0.73,
+        "gap": 133,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 95 km SSE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.1223,
+          52.1978,
+          81.397
+        ]
+      },
+      "id": "us6000rpwt"
     }
   ],
   "bbox": [
-    -157.71286010742,
-    33.254166666667,
-    2.3499999046326,
-    -116.1115,
-    63.146057128906,
-    80.513893127441
+    -152.83184814453,
+    31.633,
+    2.75,
+    159.1223,
+    62.636608123779,
+    91.878814697266
   ]
 }
