@@ -1,341 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764052524000,
+    "generated": 1764138903000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
-    "count": 8
+    "api": "2.2.0",
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.06,
-        "place": "24 km WSW of Westmorland, CA",
-        "time": 1764052248730,
-        "updated": 1764052476934,
+        "mag": 2.6816478813935283,
+        "place": "18 km WNW of Petersville, Alaska",
+        "time": 1764138738703,
+        "updated": 1764138825793,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338784",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338784.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xgkxqc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xgkxqc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41338784",
-        "ids": ",ci41338784,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.06773,
-        "rms": 0.159999996,
-        "gap": 92,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 24 km WSW of Westmorland, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.872001647949,
-          32.9753341674805,
-          11.3199996948242
-        ]
-      },
-      "id": "ci41338784"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.15,
-        "place": "25 km N of Tehachapi, CA",
-        "time": 1764051952370,
-        "updated": 1764052174251,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338776.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 20,
-        "net": "ci",
-        "code": "41338776",
-        "ids": ",ci41338776,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.09333,
-        "rms": 0.15,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 25 km N of Tehachapi, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.501833333333,
-          35.3571666666667,
-          3.7
-        ]
-      },
-      "id": "ci41338776"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8278860287149463,
-        "place": "90 km ESE of Ugashik, Alaska",
-        "time": 1764051395344,
-        "updated": 1764051682799,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xeorfk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xeorfk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 51,
+        "sig": 111,
         "net": "ak",
-        "code": "2025xeorfk",
-        "ids": ",ak2025xeorfk,",
+        "code": "2025xgkxqc",
+        "ids": ",ak2025xgkxqc,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.4547370970249176,
-        "rms": 0.4486248290297871,
-        "gap": 262.13892364501953,
+        "nst": 69,
+        "dmin": 0.1541779637336731,
+        "rms": 0.6358733576515084,
+        "gap": 43.808868408203125,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 90 km ESE of Ugashik, Alaska"
+        "title": "M 2.7 - 18 km WNW of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.98635864257812,
-          57.22505950927734,
-          13.93136215209961
+          -151.09994506835938,
+          62.54583740234375,
+          88.97406005859375
         ]
       },
-      "id": "ak2025xeorfk"
+      "id": "ak2025xgkxqc"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.84,
-        "place": "0 km NE of Indios, Puerto Rico",
-        "time": 1764051019330,
-        "updated": 1764051985120,
+        "mag": 0.38,
+        "place": "6 km NNE of Corralitos, CA",
+        "time": 1764137222170,
+        "updated": 1764137393687,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71500838",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71500838.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269451",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269451.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 52,
-        "net": "pr",
-        "code": "71500838",
-        "ids": ",pr71500838,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.06281,
-        "rms": 0.21,
-        "gap": 175,
+        "sig": 2,
+        "net": "nc",
+        "code": "75269451",
+        "ids": ",nc75269451,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.07658,
+        "rms": 0.04,
+        "gap": 68,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 0 km NE of Indios, Puerto Rico"
+        "title": "M 0.4 - 6 km NNE of Corralitos, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.817,
-          17.996,
-          15.96
+          -121.792167663574,
+          37.0434989929199,
+          7.46000003814697
         ]
       },
-      "id": "pr71500838"
+      "id": "nc75269451"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.28,
-        "place": "11 km E of Pāhala, Hawaii",
-        "time": 1764050185020,
-        "updated": 1764050507480,
+        "mag": 0.87,
+        "place": "15 km W of Johannesburg, CA",
+        "time": 1764137000800,
+        "updated": 1764137224178,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74836757",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74836757.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41127303",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41127303.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 80,
-        "net": "hv",
-        "code": "74836757",
-        "ids": ",hv74836757,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.04593,
-        "rms": 0.140000001,
-        "gap": 169,
+        "sig": 12,
+        "net": "ci",
+        "code": "41127303",
+        "ids": ",ci41127303,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.08649,
+        "rms": 0.15,
+        "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 11 km E of Pāhala, Hawaii"
+        "title": "M 0.9 - 15 km W of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.373840332031,
-          19.1971664428711,
-          29.9099998474121
+          -117.8025,
+          35.3465,
+          7.89
         ]
       },
-      "id": "hv74836757"
+      "id": "ci41127303"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.0983833114773476,
-        "place": "20 km W of Chenega, Alaska",
-        "time": 1764049874408,
-        "updated": 1764049964811,
+        "mag": 1.77,
+        "place": "6 km E of Day Valley, CA",
+        "time": 1764136537250,
+        "updated": 1764138739851,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xenolk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xenolk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269441",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269441.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "2025xenolk",
-        "ids": ",ak2025xenolk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.4992697536945343,
-        "rms": 1.2148919460345162,
-        "gap": 152.34774780273438,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 20 km W of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.3756866455078,
-          60.1028823852539,
-          14.755128860473633
-        ]
-      },
-      "id": "ak2025xenolk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.28,
-        "place": "2 km N of The Geysers, CA",
-        "time": 1764048993160,
-        "updated": 1764051736777,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269021",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269021.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
+        "sig": 48,
         "net": "nc",
-        "code": "75269021",
-        "ids": ",nc75269021,",
+        "code": "75269441",
+        "ids": ",nc75269441,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.02287,
-        "rms": 0.03,
-        "gap": 131,
+        "nst": 22,
+        "dmin": 0.07761,
+        "rms": 0.06,
+        "gap": 62,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 2 km N of The Geysers, CA"
+        "title": "M 1.8 - 6 km E of Day Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.758666992188,
-          38.7938346862793,
-          -0.00999999977648258
+          -121.793502807617,
+          37.0436668395996,
+          8.60000038146973
         ]
       },
-      "id": "nc75269021"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7862251958534863,
-        "place": "13 km NNE of Healy, Alaska",
-        "time": 1764048972859,
-        "updated": 1764049099819,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xenika",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xenika.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 49,
-        "net": "ak",
-        "code": "2025xenika",
-        "ids": ",ak2025xenika,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.2367711216211319,
-        "rms": 0.8004602391749189,
-        "gap": 123.4042739868164,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 13 km NNE of Healy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.82952880859375,
-          63.9627571105957,
-          113.5233154296875
-        ]
-      },
-      "id": "ak2025xenika"
+      "id": "nc75269441"
     }
   ],
   "bbox": [
-    -155.98635864258,
-    17.996,
-    -0.0099999997764826,
-    -66.817,
-    63.962757110596,
-    113.52331542969
+    -151.09994506836,
+    35.3465,
+    7.460000038147,
+    -117.8025,
+    62.545837402344,
+    88.974060058594
   ]
 }
