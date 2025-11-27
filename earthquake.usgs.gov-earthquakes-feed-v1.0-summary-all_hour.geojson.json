@@ -1,181 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764138903000,
+    "generated": 1764225343000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.2.0",
-    "count": 4
+    "api": "1.14.1",
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6816478813935283,
-        "place": "18 km WNW of Petersville, Alaska",
-        "time": 1764138738703,
-        "updated": 1764138825793,
+        "mag": 0.27,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1764224189240,
+        "updated": 1764224283035,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xgkxqc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xgkxqc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269881",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269881.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 111,
-        "net": "ak",
-        "code": "2025xgkxqc",
-        "ids": ",ak2025xgkxqc,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 0.1541779637336731,
-        "rms": 0.6358733576515084,
-        "gap": 43.808868408203125,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 18 km WNW of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.09994506835938,
-          62.54583740234375,
-          88.97406005859375
-        ]
-      },
-      "id": "ak2025xgkxqc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.38,
-        "place": "6 km NNE of Corralitos, CA",
-        "time": 1764137222170,
-        "updated": 1764137393687,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269451",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269451.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
+        "sig": 1,
         "net": "nc",
-        "code": "75269451",
-        "ids": ",nc75269451,",
+        "code": "75269881",
+        "ids": ",nc75269881,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.07658,
+        "nst": 7,
+        "dmin": 0.01707,
         "rms": 0.04,
-        "gap": 68,
+        "gap": 106,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.4 - 6 km NNE of Corralitos, CA"
+        "title": "M 0.3 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.792167663574,
-          37.0434989929199,
-          7.46000003814697
+          -122.818336486816,
+          38.8279991149902,
+          2.09999990463257
         ]
       },
-      "id": "nc75269451"
+      "id": "nc75269881"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.87,
-        "place": "15 km W of Johannesburg, CA",
-        "time": 1764137000800,
-        "updated": 1764137224178,
+        "mag": 0.98,
+        "place": "13 km SW of Searles Valley, CA",
+        "time": 1764224031600,
+        "updated": 1764224252435,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41127303",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41127303.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41127927",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41127927.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
+        "sig": 15,
         "net": "ci",
-        "code": "41127303",
-        "ids": ",ci41127303,",
+        "code": "41127927",
+        "ids": ",ci41127927,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.08649,
-        "rms": 0.15,
-        "gap": 66,
+        "nst": 30,
+        "dmin": 0.065,
+        "rms": 0.13,
+        "gap": 43,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 15 km W of Johannesburg, CA"
+        "title": "M 1.0 - 13 km SW of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8025,
-          35.3465,
-          7.89
+          -117.501333333333,
+          35.6803333333333,
+          5.79
         ]
       },
-      "id": "ci41127303"
+      "id": "ci41127927"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.77,
-        "place": "6 km E of Day Valley, CA",
-        "time": 1764136537250,
-        "updated": 1764138739851,
+        "mag": 2.42167544576617,
+        "place": "40 km WNW of Nanwalek, Alaska",
+        "time": 1764223967652,
+        "updated": 1764224097816,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75269441",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75269441.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xifzrp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xifzrp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
-        "net": "nc",
-        "code": "75269441",
-        "ids": ",nc75269441,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.07761,
-        "rms": 0.06,
-        "gap": 62,
-        "magType": "md",
+        "sig": 90,
+        "net": "ak",
+        "code": "2025xifzrp",
+        "ids": ",ak2025xifzrp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.3759831488132477,
+        "rms": 0.6609677002741371,
+        "gap": 100.38532257080078,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 6 km E of Day Valley, CA"
+        "title": "M 2.4 - 40 km WNW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.793502807617,
-          37.0436668395996,
-          8.60000038146973
+          -152.5447998046875,
+          59.5361213684082,
+          65.99832153320312
         ]
       },
-      "id": "nc75269441"
+      "id": "ak2025xifzrp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "43 km S of Ollagüe, Chile",
+        "time": 1764223391155,
+        "updated": 1764224392040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000re3u",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000re3u.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000re3u",
+        "ids": ",us7000re3u,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 0.927,
+        "rms": 1.02,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 43 km S of Ollagüe, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2631,
+          -21.6186,
+          114.473
+        ]
+      },
+      "id": "us7000re3u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Maug Islands region, Northern Mariana Islands",
+        "time": 1764222220509,
+        "updated": 1764224125040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000re3s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000re3s.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000re3s",
+        "ids": ",us7000re3s,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 63,
+        "dmin": 4.788,
+        "rms": 0.79,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Maug Islands region, Northern Mariana Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.8558,
+          20.0545,
+          87.66
+        ]
+      },
+      "id": "us7000re3s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7495017908578359,
+        "place": "78 km W of Karluk, Alaska",
+        "time": 1764221892459,
+        "updated": 1764222105755,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xievwq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xievwq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "ak",
+        "code": "2025xievwq",
+        "ids": ",ak2025xievwq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.28875938057899475,
+        "rms": 0.6556747085447923,
+        "gap": 213.92250442504883,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 78 km W of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.7731475830078,
+          57.57831954956055,
+          0.2182546705007553
+        ]
+      },
+      "id": "ak2025xievwq"
     }
   ],
   "bbox": [
-    -151.09994506836,
-    35.3465,
-    7.460000038147,
-    -117.8025,
-    62.545837402344,
-    88.974060058594
+    -155.77314758301,
+    -21.6186,
+    0.21825467050076,
+    145.8558,
+    59.536121368408,
+    114.473
   ]
 }
