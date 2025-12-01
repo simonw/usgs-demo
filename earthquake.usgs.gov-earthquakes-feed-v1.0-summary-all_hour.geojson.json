@@ -1,141 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764484508000,
+    "generated": 1764570933000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1764482746348,
-        "updated": 1764482904955,
+        "mag": 0.99,
+        "place": "2 km E of La Habra, CA",
+        "time": 1764569985790,
+        "updated": 1764570568995,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025xnsygz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025xnsygz.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41130143",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41130143.geojson",
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025xnsygz",
-        "ids": ",tx2025xnsygz,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 88,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.336,
-          31.653,
-          3.7558
-        ]
-      },
-      "id": "tx2025xnsygz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7398063832134705,
-        "place": "46 km NNW of Beluga, Alaska",
-        "time": 1764482344530,
-        "updated": 1764482448815,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xnssng",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xnssng.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "ak",
-        "code": "2025xnssng",
-        "ids": ",ak2025xnssng,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.18279752135276794,
-        "rms": 0.5498353517079316,
-        "gap": 57.63217163085938,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 46 km NNW of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.45594787597656,
-          61.51802062988281,
-          74.35282897949219
-        ]
-      },
-      "id": "ak2025xnssng"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3168744384969,
-        "place": "16 km S of Searles Valley, CA",
-        "time": 1764481414600,
-        "updated": 1764481538625,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41129783",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41129783.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 27,
+        "sig": 15,
         "net": "ci",
-        "code": "41129783",
-        "ids": ",ci41129783,",
+        "code": "41130143",
+        "ids": ",ci41130143,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.04285,
-        "rms": 0.129999995,
-        "gap": 163,
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.0133,
+        "rms": 0.23,
+        "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 16 km S of Searles Valley, CA"
+        "title": "M 1.0 - 2 km E of La Habra, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.424331665039,
-          35.6221656799316,
-          7.86999988555908
+          -117.9205,
+          33.9323333333333,
+          7.61
         ]
       },
-      "id": "ci41129783"
+      "id": "ci41130143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.84,
+        "place": "11 km SW of Morongo Valley, CA",
+        "time": 1764569602740,
+        "updated": 1764569824558,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41130135",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41130135.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "41130135",
+        "ids": ",ci41130135,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 50,
+        "dmin": 0.06213,
+        "rms": 0.19,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 11 km SW of Morongo Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.673,
+          33.9798333333333,
+          13.16
+        ]
+      },
+      "id": "ci41130135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.88,
+        "place": "9 km SW of Idyllwild, CA",
+        "time": 1764567943260,
+        "updated": 1764568165828,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41130127",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41130127.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41130127",
+        "ids": ",ci41130127,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 56,
+        "dmin": 0.07019,
+        "rms": 0.19,
+        "gap": 31,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 9 km SW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.790666666667,
+          33.6816666666667,
+          17.69
+        ]
+      },
+      "id": "ci41130127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.46,
+        "place": "3 km NW of The Geysers, CA",
+        "time": 1764567715010,
+        "updated": 1764567812030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75272491",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75272491.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "nc",
+        "code": "75272491",
+        "ids": ",nc75272491,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.007039,
+        "rms": 0.01,
+        "gap": 98,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.5 - 3 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.778999328613,
+          38.7941665649414,
+          1.39999997615814
+        ]
+      },
+      "id": "nc75272491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1764567548640,
+        "updated": 1764567712239,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75272486",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75272486.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75272486",
+        "ids": ",nc75272486,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.01494,
+        "rms": 0.02,
+        "gap": 33,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.796836853027,
+          38.824333190918,
+          2.48000001907349
+        ]
+      },
+      "id": "nc75272486"
     }
   ],
   "bbox": [
-    -151.45594787598,
-    31.653,
-    3.7558,
-    -104.336,
-    61.518020629883,
-    74.352828979492
+    -122.79683685303,
+    33.681666666667,
+    1.3999999761581,
+    -116.673,
+    38.824333190918,
+    17.69
   ]
 }
