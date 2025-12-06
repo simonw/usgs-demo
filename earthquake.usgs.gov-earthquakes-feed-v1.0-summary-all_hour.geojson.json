@@ -1,301 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1764916504000,
+    "generated": 1765002868000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2344202610819925,
-        "place": "34 km S of Ugashik, Alaska",
-        "time": 1764915458314,
-        "updated": 1764915564605,
+        "mag": 0.56,
+        "place": "4 km S of Idyllwild, CA",
+        "time": 1765002240870,
+        "updated": 1765002456042,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xwxywb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xwxywb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41133919",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41133919.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 77,
-        "net": "ak",
-        "code": "2025xwxywb",
-        "ids": ",ak2025xwxywb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.39056792855262756,
-        "rms": 0.6525646225797056,
-        "gap": 170.26225662231445,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 34 km S of Ugashik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.3209991455078,
-          57.20258712768555,
-          1.4605953693389893
-        ]
-      },
-      "id": "ak2025xwxywb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.26,
-        "place": "8 km NE of Honaunau-Napoopoo, Hawaii",
-        "time": 1764914866900,
-        "updated": 1764915092920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74845727",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74845727.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 79,
-        "net": "hv",
-        "code": "74845727",
-        "ids": ",hv74845727,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.09003,
-        "rms": 0.270000011,
-        "gap": 143,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 8 km NE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.79817199707,
-          19.5028324127197,
-          7.01000022888184
-        ]
-      },
-      "id": "hv74845727"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.530022839015575,
-        "place": "24 km W of Cohoe, Alaska",
-        "time": 1764914717001,
-        "updated": 1764914849596,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xwxogn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xwxogn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 36,
-        "net": "ak",
-        "code": "2025xwxogn",
-        "ids": ",ak2025xwxogn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.39015817642211914,
-        "rms": 0.44965184972916894,
-        "gap": 59.67744636535645,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 24 km W of Cohoe, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.7433319091797,
-          60.36391067504883,
-          70.56631469726562
-        ]
-      },
-      "id": "ak2025xwxogn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.42,
-        "place": "23 km SW of Ocotillo Wells, CA",
-        "time": 1764914350520,
-        "updated": 1764914985510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41133015",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41133015.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 31,
+        "sig": 5,
         "net": "ci",
-        "code": "41133015",
-        "ids": ",ci41133015,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 62,
-        "dmin": 0.02953,
-        "rms": 0.17,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 23 km SW of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.296666666667,
-          32.9836666666667,
-          6.94
-        ]
-      },
-      "id": "ci41133015"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.09,
-        "place": "11 km NE of Pāhala, Hawaii",
-        "time": 1764914247090,
-        "updated": 1764914471580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74845717",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74845717.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 67,
-        "net": "hv",
-        "code": "74845717",
-        "ids": ",hv74845717,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.02554,
-        "rms": 0.129999995,
-        "gap": 104,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 11 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.394332885742,
-          19.2630004882812,
-          29.3199996948242
-        ]
-      },
-      "id": "hv74845717"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.86,
-        "place": "17 km S of Maricopa, CA",
-        "time": 1764913827250,
-        "updated": 1764914045368,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41133007",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41133007.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "41133007",
-        "ids": ",ci41133007,",
+        "code": "41133919",
+        "ids": ",ci41133919,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.03465,
-        "rms": 0.2,
-        "gap": 68,
+        "nst": 27,
+        "dmin": 0.01195,
+        "rms": 0.14,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 17 km S of Maricopa, CA"
+        "title": "M 0.6 - 4 km S of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.3975,
-          34.9078333333333,
-          9.5
+          -116.721666666667,
+          33.7053333333333,
+          17.7
         ]
       },
-      "id": "ci41133007"
+      "id": "ci41133919"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.75,
-        "place": "10 km NE of Pāhala, Hawaii",
-        "time": 1764913397160,
-        "updated": 1764913612270,
+        "mag": 2.851890547275796,
+        "place": "32 km W of Susitna, Alaska",
+        "time": 1765001256132,
+        "updated": 1765001348755,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74845707",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74845707.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xytjdo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xytjdo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 47,
-        "net": "hv",
-        "code": "74845707",
-        "ids": ",hv74845707,",
-        "sources": ",hv,",
+        "sig": 125,
+        "net": "ak",
+        "code": "2025xytjdo",
+        "ids": ",ak2025xytjdo,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.0272,
-        "rms": 0.129999995,
-        "gap": 94,
-        "magType": "md",
+        "nst": 41,
+        "dmin": 0.34116801619529724,
+        "rms": 0.6377961174144501,
+        "gap": 45.20181274414062,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 10 km NE of Pāhala, Hawaii"
+        "title": "M 2.9 - 32 km W of Susitna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.398330688477,
-          19.2648334503174,
-          29.6299991607666
+          -151.1250457763672,
+          61.52154159545898,
+          65.38164520263672
         ]
       },
-      "id": "hv74845707"
+      "id": "ak2025xytjdo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.06,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1765000686560,
+        "updated": 1765000784168,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75275131",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75275131.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75275131",
+        "ids": ",nc75275131,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.00874,
+        "rms": 0.02,
+        "gap": 41,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.805000305176,
+          38.8123321533203,
+          2.22000002861023
+        ]
+      },
+      "id": "nc75275131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.33,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1765000471170,
+        "updated": 1765000677810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75275126",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75275126.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 27,
+        "net": "nc",
+        "code": "75275126",
+        "ids": ",nc75275126,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.008912,
+        "rms": 0.02,
+        "gap": 41,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.805000305176,
+          38.8126678466797,
+          2.16000008583069
+        ]
+      },
+      "id": "nc75275126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "21 km SSE of Pāhala, Hawaii",
+        "time": 1764999606200,
+        "updated": 1764999941080,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74846292",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74846292.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "hv",
+        "code": "74846292",
+        "ids": ",hv74846292,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.147,
+        "rms": 0.209999993,
+        "gap": 215,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 21 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.374496459961,
+          19.033332824707,
+          31.0499992370605
+        ]
+      },
+      "id": "hv74846292"
     }
   ],
   "bbox": [
-    -157.32099914551,
-    19.263000488281,
-    1.460595369339,
-    -116.29666666667,
-    60.363910675049,
-    70.566314697266
+    -155.37449645996,
+    19.033332824707,
+    2.1600000858307,
+    -116.72166666667,
+    61.521541595459,
+    65.381645202637
   ]
 }
