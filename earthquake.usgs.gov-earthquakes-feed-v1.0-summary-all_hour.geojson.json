@@ -1,221 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765002868000,
+    "generated": 1765089264000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.56,
-        "place": "4 km S of Idyllwild, CA",
-        "time": 1765002240870,
-        "updated": 1765002456042,
+        "mag": 3.266147897157819,
+        "place": "89 km NNE of Yakutat, Alaska",
+        "time": 1765088026480,
+        "updated": 1765088153808,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41133919",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41133919.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yaphid",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yaphid.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
-        "net": "ci",
-        "code": "41133919",
-        "ids": ",ci41133919,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.01195,
-        "rms": 0.14,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 4 km S of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.721666666667,
-          33.7053333333333,
-          17.7
-        ]
-      },
-      "id": "ci41133919"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.851890547275796,
-        "place": "32 km W of Susitna, Alaska",
-        "time": 1765001256132,
-        "updated": 1765001348755,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xytjdo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025xytjdo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 125,
+        "sig": 164,
         "net": "ak",
-        "code": "2025xytjdo",
-        "ids": ",ak2025xytjdo,",
+        "code": "2025yaphid",
+        "ids": ",ak2025yaphid,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.34116801619529724,
-        "rms": 0.6377961174144501,
-        "gap": 45.20181274414062,
+        "nst": 43,
+        "dmin": 0.4914976358413696,
+        "rms": 0.8877066632936378,
+        "gap": 70.27424716949463,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 32 km W of Susitna, Alaska"
+        "title": "M 3.3 - 89 km NNE of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.1250457763672,
-          61.52154159545898,
-          65.38164520263672
+          -139.39437866210938,
+          60.33599090576172,
+          5
         ]
       },
-      "id": "ak2025xytjdo"
+      "id": "ak2025yaphid"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.06,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1765000686560,
-        "updated": 1765000784168,
+        "mag": 1.51,
+        "place": "8 km W of Cobb, CA",
+        "time": 1765087828840,
+        "updated": 1765087922883,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75275131",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75275131.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75275566",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75275566.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
+        "sig": 35,
         "net": "nc",
-        "code": "75275131",
-        "ids": ",nc75275131,",
+        "code": "75275566",
+        "ids": ",nc75275566,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.00874,
+        "nst": 20,
+        "dmin": 0.009796,
         "rms": 0.02,
-        "gap": 41,
+        "gap": 60,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 6 km NW of The Geysers, CA"
+        "title": "M 1.5 - 8 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.805000305176,
-          38.8123321533203,
-          2.22000002861023
+          -122.811164855957,
+          38.8331680297852,
+          2.02999997138977
         ]
       },
-      "id": "nc75275131"
+      "id": "nc75275566"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.33,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1765000471170,
-        "updated": 1765000677810,
+        "mag": 4.1,
+        "place": "118 km N of Yakutat, Alaska",
+        "time": 1765086953059,
+        "updated": 1765088713408,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75275126",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75275126.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rt2i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rt2i.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
+        "mmi": 4.318,
+        "alert": "green",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 27,
-        "net": "nc",
-        "code": "75275126",
-        "ids": ",nc75275126,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.008912,
-        "rms": 0.02,
-        "gap": 41,
-        "magType": "md",
+        "sig": 259,
+        "net": "us",
+        "code": "6000rt2i",
+        "ids": ",us6000rt2i,ak2025yaoqgn,",
+        "sources": ",us,ak,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 39,
+        "dmin": 0.489,
+        "rms": 0.74,
+        "gap": 68,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.3 - 6 km NW of The Geysers, CA"
+        "title": "M 4.1 - 118 km N of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.805000305176,
-          38.8126678466797,
-          2.16000008583069
+          -140.131,
+          60.5918,
+          10
         ]
       },
-      "id": "nc75275126"
+      "id": "us6000rt2i"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "21 km SSE of Pāhala, Hawaii",
-        "time": 1764999606200,
-        "updated": 1764999941080,
+        "mag": 3.526084029108035,
+        "place": "116 km N of Yakutat, Alaska",
+        "time": 1765086946959,
+        "updated": 1765088594252,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74846292",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74846292.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yaoruo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yaoruo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 56,
-        "net": "hv",
-        "code": "74846292",
-        "ids": ",hv74846292,",
-        "sources": ",hv,",
+        "sig": 191,
+        "net": "ak",
+        "code": "2025yaoruo",
+        "ids": ",ak2025yaoruo,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.147,
-        "rms": 0.209999993,
-        "gap": 215,
-        "magType": "md",
+        "nst": 40,
+        "dmin": 0.5071712136268616,
+        "rms": 1.7783009959278697,
+        "gap": 52.9835205078125,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 21 km SSE of Pāhala, Hawaii"
+        "title": "M 3.5 - 116 km N of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.374496459961,
-          19.033332824707,
-          31.0499992370605
+          -140.00299072265625,
+          60.58598327636719,
+          5
         ]
       },
-      "id": "hv74846292"
+      "id": "ak2025yaoruo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.429393054542513,
+        "place": "78 km NNW of Yakutat, Alaska",
+        "time": 1765085789709,
+        "updated": 1765085918749,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yaobff",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yaobff.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 91,
+        "net": "ak",
+        "code": "2025yaobff",
+        "ids": ",ak2025yaobff,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.16526296734809875,
+        "rms": 0.5905887846153798,
+        "gap": 186.98805236816406,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 78 km NNW of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.05953979492188,
+          60.22961807250977,
+          5.688591480255127
+        ]
+      },
+      "id": "ak2025yaobff"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.98,
+        "place": "9 km SW of Guánica, Puerto Rico",
+        "time": 1765085669590,
+        "updated": 1765086630470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71501723",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71501723.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "pr",
+        "code": "71501723",
+        "ids": ",pr71501723,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.08838,
+        "rms": 0.13,
+        "gap": 250,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 9 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9708333333333,
+          17.915,
+          12.6
+        ]
+      },
+      "id": "pr71501723"
     }
   ],
   "bbox": [
-    -155.37449645996,
-    19.033332824707,
-    2.1600000858307,
-    -116.72166666667,
-    61.521541595459,
-    65.381645202637
+    -140.131,
+    17.915,
+    2.0299999713898,
+    -66.970833333333,
+    60.5918,
+    12.6
   ]
 }
