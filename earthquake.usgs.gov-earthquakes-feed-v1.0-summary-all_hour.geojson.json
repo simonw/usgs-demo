@@ -1,224 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765175773000,
+    "generated": 1765262122000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.799752948918232,
-        "place": "60 km WSW of Karluk, Alaska",
-        "time": 1765174898182,
-        "updated": 1765175095050,
+        "mag": 2.16,
+        "place": "4 km SE of San Ramon, CA",
+        "time": 1765261471730,
+        "updated": 1765262064925,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yclgzn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yclgzn.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75277146",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75277146.geojson",
+        "felt": 3,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "2025yclgzn",
-        "ids": ",ak2025yclgzn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.5528572201728821,
-        "rms": 0.3196031902797256,
-        "gap": 209.263032913208,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 60 km WSW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.40509033203125,
-          57.39159774780273,
-          81.03083038330078
-        ]
-      },
-      "id": "ak2025yclgzn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.4287543689536184,
-        "place": "29 km WNW of Petersville, Alaska",
-        "time": 1765174858384,
-        "updated": 1765175020859,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yclgkq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yclgkq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 91,
-        "net": "ak",
-        "code": "2025yclgkq",
-        "ids": ",ak2025yclgkq,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.2532283365726471,
-        "rms": 0.6390976962585354,
-        "gap": 42.463104248046875,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 29 km WNW of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.3009033203125,
-          62.58618545532227,
-          92.34626770019531
-        ]
-      },
-      "id": "ak2025yclgkq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.05,
-        "place": "4 km ENE of Pinnacles, CA",
-        "time": 1765174364440,
-        "updated": 1765174462575,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75276196",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75276196.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
+        "sig": 73,
         "net": "nc",
-        "code": "75276196",
-        "ids": ",nc75276196,",
+        "code": "75277146",
+        "ids": ",nc75277146,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.06028,
-        "rms": 0.04,
-        "gap": 100,
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.101,
+        "rms": 0.16,
+        "gap": 54,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 4 km ENE of Pinnacles, CA"
+        "title": "M 2.2 - 4 km SE of San Ramon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.103332519531,
-          36.5468330383301,
-          7.80000019073486
+          -121.939498901367,
+          37.7558326721191,
+          3.48000001907349
         ]
       },
-      "id": "nc75276196"
+      "id": "nc75277146"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.92,
-        "place": "23 km SW of Ocotillo Wells, CA",
-        "time": 1765173863370,
-        "updated": 1765174088021,
+        "mag": 2.49,
+        "place": "4 km SE of San Ramon, CA",
+        "time": 1765261408740,
+        "updated": 1765261937299,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41135071",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41135071.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75277141",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75277141.geojson",
+        "felt": 12,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 99,
+        "net": "nc",
+        "code": "75277141",
+        "ids": ",nc75277141,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.09863,
+        "rms": 0.09,
+        "gap": 109,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km SE of San Ramon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.941665649414,
+          37.7516670227051,
+          6.82000017166138
+        ]
+      },
+      "id": "nc75277141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "56 km SSW of Whites City, New Mexico",
+        "time": 1765260938292,
+        "updated": 1765261701358,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yegsvx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yegsvx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41135071",
-        "ids": ",ci41135071,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.03428,
-        "rms": 0.15,
-        "gap": 202,
+        "sig": 104,
+        "net": "tx",
+        "code": "2025yegsvx",
+        "ids": ",tx2025yegsvx,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 67,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 23 km SW of Ocotillo Wells, CA"
+        "title": "M 2.6 - 56 km SSW of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.273333333333,
-          32.9778333333333,
-          8.56
+          -104.506,
+          31.677,
+          4.1062
         ]
       },
-      "id": "ci41135071"
+      "id": "tx2025yegsvx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.61,
-        "place": "22 km N of Borrego Springs, CA",
-        "time": 1765173619580,
-        "updated": 1765173835113,
+        "mag": 2.3,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1765260912541,
+        "updated": 1765261060097,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41135063",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41135063.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41135063",
-        "ids": ",ci41135063,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 54,
-        "dmin": 0.1231,
-        "rms": 0.18,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 22 km N of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.413,
-          33.4501666666667,
-          11.75
-        ]
-      },
-      "id": "ci41135063"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.289952998181489,
-        "place": "65 km NW of Yakutat, Alaska",
-        "time": 1765173180023,
-        "updated": 1765173300780,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yckihg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yckihg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yegsjs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yegsjs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,116 +146,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 81,
-        "net": "ak",
-        "code": "2025yckihg",
-        "ids": ",ak2025yckihg,",
-        "sources": ",ak,",
+        "net": "tx",
+        "code": "2025yegsjs",
+        "ids": ",tx2025yegsjs,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.17372927069664,
-        "rms": 0.8344395799025576,
-        "gap": 171.14178466796875,
+        "nst": 4,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 167,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 65 km NW of Yakutat, Alaska"
+        "title": "M 2.3 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -140.50875854492188,
-          59.9795150756836,
-          7.115609169006348
+          -104.335,
+          31.673,
+          4.0937
         ]
       },
-      "id": "ak2025yckihg"
+      "id": "tx2025yegsjs"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "10 km E of Loco, Oklahoma",
-        "time": 1765172759656,
-        "updated": 1765173160040,
+        "mag": 1.6,
+        "place": "55 km N of Chase, Alaska",
+        "time": 1765260601947,
+        "updated": 1765260720120,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rtba",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rtba.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "us",
-        "code": "6000rtba",
-        "ids": ",us6000rtba,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.085,
-        "rms": 0.5,
-        "gap": 29,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 3.0 - 10 km E of Loco, Oklahoma"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.5701,
-          34.3362,
-          12.424
-        ]
-      },
-      "id": "us6000rtba"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.0428010124180442,
-        "place": "4 km SSW of Wasilla, Alaska",
-        "time": 1765172640618,
-        "updated": 1765172767756,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yckaoi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yckaoi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yegpxm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yegpxm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 64,
+        "sig": 39,
         "net": "ak",
-        "code": "2025yckaoi",
-        "ids": ",ak2025yckaoi,",
+        "code": "2025yegpxm",
+        "ids": ",ak2025yegpxm,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.1759621500968933,
-        "rms": 0.6724884222364291,
-        "gap": 48.22699069976807,
+        "nst": 26,
+        "dmin": 0.5,
+        "rms": 0.8,
+        "gap": 48,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 4 km SSW of Wasilla, Alaska"
+        "title": "M 1.6 - 55 km N of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.4856414794922,
-          61.5462760925293,
-          37.027164459228516
+          -150.02,
+          62.943,
+          5
         ]
       },
-      "id": "ak2025yckaoi"
+      "id": "ak2025yegpxm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "4 km ESE of El Centro, CA",
+        "time": 1765260358110,
+        "updated": 1765260996470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41135695",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41135695.geojson",
+        "felt": 9,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ci",
+        "code": "41135695",
+        "ids": ",ci41135695,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 45,
+        "dmin": 0.06251,
+        "rms": 0.31,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 4 km ESE of El Centro, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.525166666667,
+          32.7725,
+          14.58
+        ]
+      },
+      "id": "ci41135695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.5,
+        "place": "20 km E of Anza, CA",
+        "time": 1765259843400,
+        "updated": 1765260369212,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41135687",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41135687.geojson",
+        "felt": 2,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41135687",
+        "ids": ",ci41135687,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.1212,
+        "rms": 0.18,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 20 km E of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.464666666667,
+          33.5333333333333,
+          7.16
+        ]
+      },
+      "id": "ci41135687"
     }
   ],
   "bbox": [
-    -155.40509033203,
-    32.977833333333,
-    7.1156091690063,
-    -97.5701,
-    62.586185455322,
-    92.346267700195
+    -150.02,
+    31.673,
+    3.4800000190735,
+    -104.335,
+    62.943,
+    14.58
   ]
 }
