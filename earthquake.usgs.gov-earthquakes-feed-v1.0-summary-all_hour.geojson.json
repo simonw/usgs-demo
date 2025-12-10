@@ -1,301 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765262122000,
+    "generated": 1765348503000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.16,
-        "place": "4 km SE of San Ramon, CA",
-        "time": 1765261471730,
-        "updated": 1765262064925,
+        "mag": 1.8,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1765347715198,
+        "updated": 1765348019789,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75277146",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75277146.geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 73,
-        "net": "nc",
-        "code": "75277146",
-        "ids": ",nc75277146,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.101,
-        "rms": 0.16,
-        "gap": 54,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 4 km SE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.939498901367,
-          37.7558326721191,
-          3.48000001907349
-        ]
-      },
-      "id": "nc75277146"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.49,
-        "place": "4 km SE of San Ramon, CA",
-        "time": 1765261408740,
-        "updated": 1765261937299,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75277141",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75277141.geojson",
-        "felt": 12,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "nc",
-        "code": "75277141",
-        "ids": ",nc75277141,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.09863,
-        "rms": 0.09,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km SE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.941665649414,
-          37.7516670227051,
-          6.82000017166138
-        ]
-      },
-      "id": "nc75277141"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "56 km SSW of Whites City, New Mexico",
-        "time": 1765260938292,
-        "updated": 1765261701358,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yegsvx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yegsvx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ygcszt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ygcszt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 104,
+        "sig": 50,
         "net": "tx",
-        "code": "2025yegsvx",
-        "ids": ",tx2025yegsvx,",
+        "code": "2025ygcszt",
+        "ids": ",tx2025ygcszt,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 40,
+        "nst": 32,
         "dmin": 0,
-        "rms": 0.3,
-        "gap": 67,
+        "rms": 0.4,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 56 km SSW of Whites City, New Mexico"
+        "title": "M 1.8 - 58 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.506,
-          31.677,
-          4.1062
+          -104.304,
+          31.648,
+          4.6594
         ]
       },
-      "id": "tx2025yegsvx"
+      "id": "tx2025ygcszt"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.3,
-        "place": "55 km S of Whites City, New Mexico",
-        "time": 1765260912541,
-        "updated": 1765261060097,
+        "mag": 2.9,
+        "place": "1 km NE of Willow, Alaska",
+        "time": 1765347568519,
+        "updated": 1765347696613,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yegsjs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yegsjs.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025ygcqww",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025ygcqww.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 81,
-        "net": "tx",
-        "code": "2025yegsjs",
-        "ids": ",tx2025yegsjs,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 167,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 55 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.335,
-          31.673,
-          4.0937
-        ]
-      },
-      "id": "tx2025yegsjs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "55 km N of Chase, Alaska",
-        "time": 1765260601947,
-        "updated": 1765260720120,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yegpxm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yegpxm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 129,
         "net": "ak",
-        "code": "2025yegpxm",
-        "ids": ",ak2025yegpxm,",
+        "code": "2025ygcqww",
+        "ids": ",ak2025ygcqww,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 26,
+        "nst": 74,
         "dmin": 0.5,
-        "rms": 0.8,
-        "gap": 48,
+        "rms": 1.2,
+        "gap": 29,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 55 km N of Chase, Alaska"
+        "title": "M 2.9 - 1 km NE of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.02,
-          62.943,
-          5
+          -150.019,
+          61.754,
+          16.4
         ]
       },
-      "id": "ak2025yegpxm"
+      "id": "ak2025ygcqww"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.47,
-        "place": "4 km ESE of El Centro, CA",
-        "time": 1765260358110,
-        "updated": 1765260996470,
+        "mag": 0.41,
+        "place": "1 km WNW of Banning, CA",
+        "time": 1765346358500,
+        "updated": 1765346575284,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41135695",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41135695.geojson",
-        "felt": 9,
-        "cdi": 2.5,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41136599",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41136599.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 3,
         "net": "ci",
-        "code": "41135695",
-        "ids": ",ci41135695,",
+        "code": "41136599",
+        "ids": ",ci41136599,",
         "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 45,
-        "dmin": 0.06251,
-        "rms": 0.31,
-        "gap": 43,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km ESE of El Centro, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.525166666667,
-          32.7725,
-          14.58
-        ]
-      },
-      "id": "ci41135695"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.5,
-        "place": "20 km E of Anza, CA",
-        "time": 1765259843400,
-        "updated": 1765260369212,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41135687",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41135687.geojson",
-        "felt": 2,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41135687",
-        "ids": ",ci41135687,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 31,
-        "dmin": 0.1212,
+        "dmin": 0.1204,
         "rms": 0.18,
-        "gap": 64,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 20 km E of Anza, CA"
+        "title": "M 0.4 - 1 km WNW of Banning, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.464666666667,
-          33.5333333333333,
-          7.16
+          -116.887333333333,
+          33.9281666666667,
+          8.9
         ]
       },
-      "id": "ci41135687"
+      "id": "ci41136599"
     }
   ],
   "bbox": [
-    -150.02,
-    31.673,
-    3.4800000190735,
-    -104.335,
-    62.943,
-    14.58
+    -150.019,
+    31.648,
+    4.6594,
+    -104.304,
+    61.754,
+    16.4
   ]
 }
