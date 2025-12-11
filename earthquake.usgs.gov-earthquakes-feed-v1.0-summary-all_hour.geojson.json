@@ -1,141 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765348503000,
+    "generated": 1765434957000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1765347715198,
-        "updated": 1765348019789,
+        "mag": 2.3,
+        "place": "49 km W of Mentone, Texas",
+        "time": 1765433288524,
+        "updated": 1765433599298,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ygcszt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ygcszt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yhxzyq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yhxzyq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
+        "sig": 81,
         "net": "tx",
-        "code": "2025ygcszt",
-        "ids": ",tx2025ygcszt,",
+        "code": "2025yhxzyq",
+        "ids": ",tx2025yhxzyq,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 32,
+        "nst": 40,
         "dmin": 0,
-        "rms": 0.4,
-        "gap": 69,
+        "rms": 0.3,
+        "gap": 41,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 58 km S of Whites City, New Mexico"
+        "title": "M 2.3 - 49 km W of Mentone, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.304,
-          31.648,
-          4.6594
+          -104.125,
+          31.737,
+          4.1268
         ]
       },
-      "id": "tx2025ygcszt"
+      "id": "tx2025yhxzyq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "1 km NE of Willow, Alaska",
-        "time": 1765347568519,
-        "updated": 1765347696613,
+        "mag": 2,
+        "place": "8 km ESE of Susitna North, Alaska",
+        "time": 1765432553181,
+        "updated": 1765432754570,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025ygcqww",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025ygcqww.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yhxplf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yhxplf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 62,
         "net": "ak",
-        "code": "2025ygcqww",
-        "ids": ",ak2025ygcqww,",
+        "code": "2025yhxplf",
+        "ids": ",ak2025yhxplf,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 74,
+        "nst": 15,
         "dmin": 0.5,
-        "rms": 1.2,
-        "gap": 29,
+        "rms": 0.6,
+        "gap": 81,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 1 km NE of Willow, Alaska"
+        "title": "M 2.0 - 8 km ESE of Susitna North, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.019,
-          61.754,
-          16.4
+          -149.686,
+          62.138,
+          17.5
         ]
       },
-      "id": "ak2025ygcqww"
+      "id": "ak2025yhxplf"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.41,
-        "place": "1 km WNW of Banning, CA",
-        "time": 1765346358500,
-        "updated": 1765346575284,
+        "mag": 1.6,
+        "place": "15 km SSE of Glacier View, Alaska",
+        "time": 1765432256692,
+        "updated": 1765432392538,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41136599",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41136599.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yhxleo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yhxleo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41136599",
-        "ids": ",ci41136599,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.1204,
-        "rms": 0.18,
-        "gap": 59,
+        "sig": 39,
+        "net": "ak",
+        "code": "2025yhxleo",
+        "ids": ",ak2025yhxleo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1,
+        "rms": 0.8,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 1 km WNW of Banning, CA"
+        "title": "M 1.6 - 15 km SSE of Glacier View, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.887333333333,
-          33.9281666666667,
-          8.9
+          -147.542,
+          61.68,
+          28.7
         ]
       },
-      "id": "ci41136599"
+      "id": "ak2025yhxleo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "296 km WSW of Olonkinbyen, Svalbard and Jan Mayen",
+        "time": 1765431646382,
+        "updated": 1765433068040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ru2t",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ru2t.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000ru2t",
+        "ids": ",us6000ru2t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 2.053,
+        "rms": 1.43,
+        "gap": 56,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 296 km WSW of Olonkinbyen, Svalbard and Jan Mayen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1205,
+          69.9582,
+          10
+        ]
+      },
+      "id": "us6000ru2t"
     }
   ],
   "bbox": [
-    -150.019,
-    31.648,
-    4.6594,
-    -104.304,
-    61.754,
-    16.4
+    -149.686,
+    31.737,
+    4.1268,
+    -16.1205,
+    69.9582,
+    28.7
   ]
 }
