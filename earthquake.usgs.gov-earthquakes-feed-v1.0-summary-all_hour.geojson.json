@@ -1,24 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1765521307000,
+    "generated": 1765607738000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 2
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.74,
-        "place": "9 km WNW of The Geysers, CA",
-        "time": 1765519519590,
-        "updated": 1765519617687,
+        "mag": 0.72,
+        "place": "10 km WNW of The Geysers, CA",
+        "time": 1765607325270,
+        "updated": 1765607423862,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75278591",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75278591.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75279006",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75279006.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,75 +27,275 @@
         "tsunami": 0,
         "sig": 8,
         "net": "nc",
-        "code": "75278591",
-        "ids": ",nc75278591,",
+        "code": "75279006",
+        "ids": ",nc75279006,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.009448,
-        "rms": 0.06,
-        "gap": 101,
+        "nst": 14,
+        "dmin": 0.006815,
+        "rms": 0.02,
+        "gap": 128,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 9 km WNW of The Geysers, CA"
+        "title": "M 0.7 - 10 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.845336914062,
-          38.8181648254395,
-          2.48000001907349
+          -122.851501464844,
+          38.8221664428711,
+          2.46000003814697
         ]
       },
-      "id": "nc75278591"
+      "id": "nc75279006"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "94 km NW of Yakutat, Alaska",
-        "time": 1765519233562,
-        "updated": 1765519416754,
+        "mag": 0.74,
+        "place": "2 km NNE of The Geysers, CA",
+        "time": 1765607080480,
+        "updated": 1765607179337,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yjtmit",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yjtmit.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75279001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75279001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "2025yjtmit",
-        "ids": ",ak2025yjtmit,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "sig": 8,
+        "net": "nc",
+        "code": "75279001",
+        "ids": ",nc75279001,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 9,
-        "dmin": 0.3,
-        "rms": 1.2,
-        "gap": 148,
-        "magType": "ml",
+        "dmin": 0.01052,
+        "rms": 0.02,
+        "gap": 99,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 94 km NW of Yakutat, Alaska"
+        "title": "M 0.7 - 2 km NNE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -140.886,
-          60.167,
-          31.5
+          -122.747001647949,
+          38.7971649169922,
+          1.51999998092651
         ]
       },
-      "id": "ak2025yjtmit"
+      "id": "nc75279001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "81 km ENE of Misawa, Japan",
+        "time": 1765605583810,
+        "updated": 1765606708040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rulk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rulk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000rulk",
+        "ids": ",us6000rulk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.924,
+        "rms": 0.71,
+        "gap": 153,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 81 km ENE of Misawa, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.242,
+          41.0284,
+          64.334
+        ]
+      },
+      "id": "us6000rulk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.81,
+        "place": "5 km W of Glen Ellen, CA",
+        "time": 1765605239350,
+        "updated": 1765606169973,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75278996",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75278996.geojson",
+        "felt": 3,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 51,
+        "net": "nc",
+        "code": "75278996",
+        "ids": ",nc75278996,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01592,
+        "rms": 0.04,
+        "gap": 91,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 5 km W of Glen Ellen, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.592163085938,
+          38.3601684570312,
+          0.0900000035762787
+        ]
+      },
+      "id": "nc75278996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "55 km SSW of Whites City, New Mexico",
+        "time": 1765605184075,
+        "updated": 1765605442294,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yloyrv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yloyrv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "tx",
+        "code": "2025yloyrv",
+        "ids": ",tx2025yloyrv,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 102,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 55 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.584,
+          31.711,
+          3.8184
+        ]
+      },
+      "id": "tx2025yloyrv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "60 km SE of Pedro Bay, Alaska",
+        "time": 1765604670690,
+        "updated": 1765604773855,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025ylorjy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025ylorjy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "2025ylorjy",
+        "ids": ",ak2025ylorjy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0,
+        "rms": 0,
+        "gap": 205,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 60 km SE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.389,
+          59.38,
+          15
+        ]
+      },
+      "id": "ak2025ylorjy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1765604294210,
+        "updated": 1765604392905,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75278986",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75278986.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "nc",
+        "code": "75278986",
+        "ids": ",nc75278986,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.001984,
+        "rms": 0.04,
+        "gap": 69,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.808502197266,
+          38.821834564209,
+          2.39000010490417
+        ]
+      },
+      "id": "nc75278986"
     }
   ],
   "bbox": [
-    -140.886,
-    38.81816482544,
-    2.4800000190735,
-    -122.84533691406,
-    60.167,
-    31.5
+    -153.389,
+    31.711,
+    0.090000003576279,
+    142.242,
+    59.38,
+    64.334
   ]
 }
