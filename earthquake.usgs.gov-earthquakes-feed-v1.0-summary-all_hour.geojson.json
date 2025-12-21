@@ -1,621 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766212517000,
+    "generated": 1766298915000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 15
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.01,
-        "place": "10 km WNW of The Geysers, CA",
-        "time": 1766212137820,
-        "updated": 1766212231380,
+        "mag": 2.6,
+        "place": "51 km NW of Ninilchik, Alaska",
+        "time": 1766297596308,
+        "updated": 1766297768769,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75283191",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75283191.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zahlfn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zahlfn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
+        "sig": 104,
+        "net": "ak",
+        "code": "2025zahlfn",
+        "ids": ",ak2025zahlfn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 1,
+        "rms": 0.7,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 51 km NW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.347,
+          60.372,
+          102.1
+        ]
+      },
+      "id": "ak2025zahlfn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.95,
+        "place": "18 km WSW of Toms Place, CA",
+        "time": 1766296923960,
+        "updated": 1766297024629,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75283856",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75283856.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 58,
         "net": "nc",
-        "code": "75283191",
-        "ids": ",nc75283191,",
+        "code": "75283856",
+        "ids": ",nc75283856,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.005617,
-        "rms": 0.01,
-        "gap": 93,
+        "nst": 21,
+        "dmin": 0.1162,
+        "rms": 0.11,
+        "gap": 102,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 10 km WNW of The Geysers, CA"
+        "title": "M 2.0 - 18 km WSW of Toms Place, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.854164123535,
-          38.8223342895508,
-          2.51999998092651
+          -118.848167419434,
+          37.474666595459,
+          7.96000003814697
         ]
       },
-      "id": "nc75283191"
+      "id": "nc75283856"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "52 km N of Chase, Alaska",
-        "time": 1766211543125,
-        "updated": 1766211651341,
+        "mag": 0.87,
+        "place": "5 km SSW of Wrightwood, CA",
+        "time": 1766296594650,
+        "updated": 1766296813530,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yylxhx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yylxhx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41144351",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41144351.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "2025yylxhx",
-        "ids": ",ak2025yylxhx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.5,
-        "rms": 0.7,
-        "gap": 34,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 52 km N of Chase, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.04,
-          62.922,
-          72.3
-        ]
-      },
-      "id": "ak2025yylxhx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "42 km NW of Toyah, Texas",
-        "time": 1766211495961,
-        "updated": 1766211770643,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yylwra",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yylwra.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2025yylwra",
-        "ids": ",tx2025yylwra,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 126,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 42 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.14,
-          31.552,
-          4.62
-        ]
-      },
-      "id": "tx2025yylwra"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "7 km NNW of Healy, Alaska",
-        "time": 1766211314854,
-        "updated": 1766211507333,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yylubb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yylubb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "2025yylubb",
-        "ids": ",ak2025yylubb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 7 km NNW of Healy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.006,
-          63.924,
-          120.8
-        ]
-      },
-      "id": "ak2025yylubb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "50 km NW of Toyah, Texas",
-        "time": 1766211313553,
-        "updated": 1766211775641,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yyluaf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yyluaf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2025yyluaf",
-        "ids": ",tx2025yyluaf,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 107,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 50 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.204,
-          31.605,
-          4.75
-        ]
-      },
-      "id": "tx2025yyluaf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "24 km NW of Tatitlek, Alaska",
-        "time": 1766211229225,
-        "updated": 1766211414580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yylsux",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yylsux.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "2025yylsux",
-        "ids": ",ak2025yylsux,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2,
-        "rms": 0.9,
-        "gap": 108,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 24 km NW of Tatitlek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.986,
-          61.023,
-          49.1
-        ]
-      },
-      "id": "ak2025yylsux"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "10 km WNW of Imperial, CA",
-        "time": 1766211002600,
-        "updated": 1766211225040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41143511",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41143511.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
+        "sig": 12,
         "net": "ci",
-        "code": "41143511",
-        "ids": ",ci41143511,",
+        "code": "41144351",
+        "ids": ",ci41144351,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.05796,
-        "rms": 0.25,
-        "gap": 62,
+        "nst": 19,
+        "dmin": 0.06136,
+        "rms": 0.15,
+        "gap": 140,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 10 km WNW of Imperial, CA"
+        "title": "M 0.9 - 5 km SSW of Wrightwood, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.6665,
-          32.876,
-          3.6
+          -117.665,
+          34.3215,
+          7.2
         ]
       },
-      "id": "ci41143511"
+      "id": "ci41144351"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "52 km NE of Whittier, Alaska",
-        "time": 1766210593179,
-        "updated": 1766210768737,
+        "mag": 4.5,
+        "place": "250 km ENE of Lospalos, Timor Leste",
+        "time": 1766295718304,
+        "updated": 1766297082040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yyljrl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yyljrl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "ak",
-        "code": "2025yyljrl",
-        "ids": ",ak2025yyljrl,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0,
-        "rms": 0.8,
-        "gap": 128,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 52 km NE of Whittier, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.114,
-          61.158,
-          1.3
-        ]
-      },
-      "id": "ak2025yyljrl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1766210574605,
-        "updated": 1766210917114,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025yylizw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025yylizw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2025yylizw",
-        "ids": ",tx2025yylizw,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0,
-        "rms": 0.6,
-        "gap": 90,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.427,
-          31.667,
-          8.9977
-        ]
-      },
-      "id": "tx2025yylizw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.04,
-        "place": "5 km SE of San Ramon, CA",
-        "time": 1766210507840,
-        "updated": 1766211217270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75283186",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75283186.geojson",
-        "felt": 2,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 64,
-        "net": "nc",
-        "code": "75283186",
-        "ids": ",nc75283186,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.1009,
-        "rms": 0.06,
-        "gap": 44,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 5 km SE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.938163757324,
-          37.747501373291,
-          9.14999961853027
-        ]
-      },
-      "id": "nc75283186"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.06,
-        "place": "5 km N of Dublin, CA",
-        "time": 1766210147490,
-        "updated": 1766210247259,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75283181",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75283181.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "nc",
-        "code": "75283181",
-        "ids": ",nc75283181,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.1031,
-        "rms": 0.08,
-        "gap": 45,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 5 km N of Dublin, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.935501098633,
-          37.7481651306152,
-          8.88000011444092
-        ]
-      },
-      "id": "nc75283181"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "48 km WNW of Tatitlek, Alaska",
-        "time": 1766210048073,
-        "updated": 1766210132685,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025yylbwg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025yylbwg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "2025yylbwg",
-        "ids": ",ak2025yylbwg,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 113,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 48 km WNW of Tatitlek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.482,
-          61.05,
-          30.4
-        ]
-      },
-      "id": "ak2025yylbwg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "22 km NNE of Santa Monica, Philippines",
-        "time": 1766209951387,
-        "updated": 1766211236040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rw5j",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rw5j.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwak",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwak.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 312,
         "net": "us",
-        "code": "6000rw5j",
-        "ids": ",us6000rw5j,",
+        "code": "6000rwak",
+        "ids": ",us6000rwak,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 3.165,
-        "rms": 0.81,
-        "gap": 108,
+        "nst": 38,
+        "dmin": 5.198,
+        "rms": 0.82,
+        "gap": 70,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 22 km NNE of Santa Monica, Philippines"
+        "title": "M 4.5 - 250 km ENE of Lospalos, Timor Leste"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.1067,
-          10.2114,
-          10
+          128.9108,
+          -7.3054,
+          150.352
         ]
       },
-      "id": "us6000rw5j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.49,
-        "place": "3 km SE of San Ramon, CA",
-        "time": 1766209642080,
-        "updated": 1766210119186,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75283176",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75283176.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 34,
-        "net": "nc",
-        "code": "75283176",
-        "ids": ",nc75283176,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.08787,
-        "rms": 0,
-        "gap": 197,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 3 km SE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.958503723145,
-          37.7626647949219,
-          7.76999998092651
-        ]
-      },
-      "id": "nc75283176"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.02,
-        "place": "12 km SSW of Honoka‘a, Hawaii",
-        "time": 1766209288430,
-        "updated": 1766209550880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74857127",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74857127.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "hv",
-        "code": "74857127",
-        "ids": ",hv74857127,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.1725,
-        "rms": 0.129999995,
-        "gap": 251,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 12 km SSW of Honoka‘a, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.526000976562,
-          19.9776668548584,
-          42.6699981689453
-        ]
-      },
-      "id": "hv74857127"
+      "id": "us6000rwak"
     }
   ],
   "bbox": [
-    -155.52600097656,
-    10.2114,
-    1.3,
-    126.1067,
-    63.924,
-    120.8
+    -152.347,
+    -7.3054,
+    7.2,
+    128.9108,
+    60.372,
+    150.352
   ]
 }
