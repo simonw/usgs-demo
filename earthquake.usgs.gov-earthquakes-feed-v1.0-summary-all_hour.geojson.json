@@ -1,181 +1,461 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766298915000,
+    "generated": 1766385334000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 4
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "51 km NW of Ninilchik, Alaska",
-        "time": 1766297596308,
-        "updated": 1766297768769,
+        "mag": 1.6,
+        "place": "3 km S of Pecos, Texas",
+        "time": 1766385083833,
+        "updated": 1766385332748,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zahlfn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zahlfn.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zcdtsv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zcdtsv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "2025zahlfn",
-        "ids": ",ak2025zahlfn,",
-        "sources": ",ak,",
+        "sig": 39,
+        "net": "tx",
+        "code": "2025zcdtsv",
+        "ids": ",tx2025zcdtsv,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 1,
+        "nst": 34,
+        "dmin": 0,
         "rms": 0.7,
-        "gap": 65,
+        "gap": 42,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 51 km NW of Ninilchik, Alaska"
+        "title": "M 1.6 - 3 km S of Pecos, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.347,
-          60.372,
-          102.1
+          -103.497,
+          31.389,
+          4.5431
         ]
       },
-      "id": "ak2025zahlfn"
+      "id": "tx2025zcdtsv"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.95,
-        "place": "18 km WSW of Toms Place, CA",
-        "time": 1766296923960,
-        "updated": 1766297024629,
+        "mag": 2.07,
+        "place": "13 km SSW of Benton, California",
+        "time": 1766384769008,
+        "updated": 1766384971404,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75283856",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75283856.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00908826",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00908826.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 58,
+        "sig": 66,
+        "net": "nn",
+        "code": "00908826",
+        "ids": ",nn00908826,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 1.077,
+        "rms": 0.3254,
+        "gap": 185,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 13 km SSW of Benton, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.522,
+          37.6988,
+          15.9266
+        ]
+      },
+      "id": "nn00908826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "6 km WNW of Westbrook, Texas",
+        "time": 1766384357657,
+        "updated": 1766384583233,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zcdjfu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zcdjfu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "tx",
+        "code": "2025zcdjfu",
+        "ids": ",tx2025zcdjfu,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 6 km WNW of Westbrook, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.08,
+          32.378,
+          2.3434
+        ]
+      },
+      "id": "tx2025zcdjfu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "55 km NW of Toyah, Texas",
+        "time": 1766384190416,
+        "updated": 1766384452733,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zcdgfz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zcdgfz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "tx",
+        "code": "2025zcdgfz",
+        "ids": ",tx2025zcdgfz,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 97,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 55 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.245,
+          31.632,
+          4.5884
+        ]
+      },
+      "id": "tx2025zcdgfz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.35,
+        "place": "5 km SW of Ridgemark, CA",
+        "time": 1766383070520,
+        "updated": 1766383164082,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75284581",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75284581.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
         "net": "nc",
-        "code": "75283856",
-        "ids": ",nc75283856,",
+        "code": "75284581",
+        "ids": ",nc75284581,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.1162,
-        "rms": 0.11,
+        "nst": 7,
+        "dmin": 0.04115,
+        "rms": 0.03,
         "gap": 102,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.0 - 18 km WSW of Toms Place, CA"
+        "title": "M 1.4 - 5 km SW of Ridgemark, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.848167419434,
-          37.474666595459,
-          7.96000003814697
+          -121.403335571289,
+          36.7853317260742,
+          4.01999998092651
         ]
       },
-      "id": "nc75283856"
+      "id": "nc75284581"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.87,
-        "place": "5 km SSW of Wrightwood, CA",
-        "time": 1766296594650,
-        "updated": 1766296813530,
+        "mag": 2,
+        "place": "32 km NW of Toyah, Texas",
+        "time": 1766382888169,
+        "updated": 1766383125402,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41144351",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41144351.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zccoes",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zccoes.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "41144351",
-        "ids": ",ci41144351,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.06136,
-        "rms": 0.15,
-        "gap": 140,
+        "sig": 62,
+        "net": "tx",
+        "code": "2025zccoes",
+        "ids": ",tx2025zccoes,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 131,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 5 km SSW of Wrightwood, CA"
+        "title": "M 2.0 - 32 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.665,
-          34.3215,
-          7.2
+          -104.015,
+          31.538,
+          6.5029
         ]
       },
-      "id": "ci41144351"
+      "id": "tx2025zccoes"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "250 km ENE of Lospalos, Timor Leste",
-        "time": 1766295718304,
-        "updated": 1766297082040,
+        "mag": 0.62,
+        "place": "3 km NE of Ocotillo Wells, CA",
+        "time": 1766382135880,
+        "updated": 1766382351075,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwak",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000rwak.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41144959",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41144959.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rwak",
-        "ids": ",us6000rwak,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 5.198,
-        "rms": 0.82,
-        "gap": 70,
-        "magType": "mb",
+        "sig": 6,
+        "net": "ci",
+        "code": "41144959",
+        "ids": ",ci41144959,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 35,
+        "dmin": 0.0492,
+        "rms": 0.19,
+        "gap": 35,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.5 - 250 km ENE of Lospalos, Timor Leste"
+        "title": "M 0.6 - 3 km NE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          128.9108,
-          -7.3054,
-          150.352
+          -116.111,
+          33.1676666666667,
+          11.01
         ]
       },
-      "id": "us6000rwak"
+      "id": "ci41144959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.23,
+        "place": "20 km E of Pāhala, Hawaii",
+        "time": 1766382007880,
+        "updated": 1766382216580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74858047",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74858047.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 77,
+        "net": "hv",
+        "code": "74858047",
+        "ids": ",hv74858047,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.1103,
+        "rms": 0.150000006,
+        "gap": 205,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 20 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.283172607422,
+          19.1853332519531,
+          43.0099983215332
+        ]
+      },
+      "id": "hv74858047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.81,
+        "place": "22 km E of Pāhala, Hawaii",
+        "time": 1766381970040,
+        "updated": 1766382186250,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74858042",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74858042.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "hv",
+        "code": "74858042",
+        "ids": ",hv74858042,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.1017,
+        "rms": 0.140000001,
+        "gap": 262,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 22 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.261001586914,
+          19.1849994659424,
+          42.0699996948242
+        ]
+      },
+      "id": "hv74858042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "20 km NW of Stanton, Texas",
+        "time": 1766381915008,
+        "updated": 1766383223896,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zccagc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zccagc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "tx",
+        "code": "2025zccagc",
+        "ids": ",tx2025zccagc,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 87,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 20 km NW of Stanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.92,
+          32.276,
+          7.6854
+        ]
+      },
+      "id": "tx2025zccagc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.81,
+        "place": "2 km NNW of The Geysers, CA",
+        "time": 1766381827290,
+        "updated": 1766381925285,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75284576",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75284576.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "nc",
+        "code": "75284576",
+        "ids": ",nc75284576,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.008539,
+        "rms": 0.01,
+        "gap": 107,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 2 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.761329650879,
+          38.7921676635742,
+          1.26999998092651
+        ]
+      },
+      "id": "nc75284576"
     }
   ],
   "bbox": [
-    -152.347,
-    -7.3054,
-    7.2,
-    128.9108,
-    60.372,
-    150.352
+    -155.28317260742,
+    19.184999465942,
+    1.2699999809265,
+    -101.08,
+    38.792167663574,
+    43.009998321533
   ]
 }
