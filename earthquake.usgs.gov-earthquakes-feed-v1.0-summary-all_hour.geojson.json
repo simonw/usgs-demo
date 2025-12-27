@@ -1,341 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766730951000,
+    "generated": 1766817292000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.85,
-        "place": "7 km SSW of Anderson Springs, CA",
-        "time": 1766729816420,
-        "updated": 1766729912336,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75286481",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75286481.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "nc",
-        "code": "75286481",
-        "ids": ",nc75286481,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.03781,
-        "rms": 0.1,
-        "gap": 192,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.9 - 7 km SSW of Anderson Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.709663391113,
-          38.7169990539551,
-          4.46999979019165
-        ]
-      },
-      "id": "nc75286481"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.38,
+        "mag": 1.02,
         "place": "8 km NW of The Geysers, CA",
-        "time": 1766729572270,
-        "updated": 1766729667789,
+        "time": 1766814915880,
+        "updated": 1766816243320,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75286476",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75286476.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75286971",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75286971.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 29,
+        "sig": 16,
         "net": "nc",
-        "code": "75286476",
-        "ids": ",nc75286476,",
+        "code": "75286971",
+        "ids": ",nc75286971,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 13,
-        "dmin": 0.007777,
-        "rms": 0.02,
+        "dmin": 0.008616,
+        "rms": 0.01,
         "gap": 65,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 8 km NW of The Geysers, CA"
+        "title": "M 1.0 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.818664550781,
-          38.8273315429688,
-          1.02999997138977
+          -122.816329956055,
+          38.8305015563965,
+          1.62000000476837
         ]
       },
-      "id": "nc75286476"
+      "id": "nc75286971"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "24 km WSW of Susitna, Alaska",
-        "time": 1766729478269,
-        "updated": 1766729570619,
+        "mag": 1.7,
+        "place": "51 km S of Whites City, New Mexico",
+        "time": 1766814659722,
+        "updated": 1766814910286,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zjlzxv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zjlzxv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zlhawi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zlhawi.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "2025zjlzxv",
-        "ids": ",ak2025zjlzxv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.4,
-        "rms": 0.5,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 24 km WSW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.961,
-          61.482,
-          71.8
-        ]
-      },
-      "id": "ak2025zjlzxv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.4,
-        "place": "4 km NE of Chautauqua, Kansas",
-        "time": 1766729190819,
-        "updated": 1766730775406,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rkux",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rkux.geojson",
-        "felt": 1,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "us",
-        "code": "7000rkux",
-        "ids": ",us7000rkux,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.326,
-        "rms": 0.76,
-        "gap": 76,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.4 - 4 km NE of Chautauqua, Kansas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.1379,
-          37.0449,
-          5
-        ]
-      },
-      "id": "us7000rkux"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "63 km SSW of Whites City, New Mexico",
-        "time": 1766728931530,
-        "updated": 1766729984760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zjlsbz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zjlsbz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 44,
         "net": "tx",
-        "code": "2025zjlsbz",
-        "ids": ",tx2025zjlsbz,",
+        "code": "2025zlhawi",
+        "ids": ",tx2025zlhawi,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 104,
+        "nst": 28,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 73,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 63 km SSW of Whites City, New Mexico"
+        "title": "M 1.7 - 51 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.51,
-          31.618,
-          3.2665
+          -104.29,
+          31.716,
+          4.0847
         ]
       },
-      "id": "tx2025zjlsbz"
+      "id": "tx2025zlhawi"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "35 km SSE of Midland, Texas",
-        "time": 1766728382545,
-        "updated": 1766728825323,
+        "mag": 2.22,
+        "place": "18 km WNW of Beaver Dam, Arizona",
+        "time": 1766813694458,
+        "updated": 1766813928587,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zjlkbb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zjlkbb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00908928",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00908928.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "tx",
-        "code": "2025zjlkbb",
-        "ids": ",tx2025zjlkbb,",
-        "sources": ",tx,",
+        "sig": 76,
+        "net": "nn",
+        "code": "00908928",
+        "ids": ",nn00908928,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 75,
+        "nst": 8,
+        "dmin": 0.954,
+        "rms": 0.2764,
+        "gap": 287,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 35 km SSE of Midland, Texas"
+        "title": "M 2.2 - 18 km WNW of Beaver Dam, Arizona"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.977,
-          31.689,
-          3.7312
+          -114.1211,
+          36.9761,
+          16
         ]
       },
-      "id": "tx2025zjlkbb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "45 km ENE of Pedro Bay, Alaska",
-        "time": 1766728255449,
-        "updated": 1766728394591,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zjlila",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zjlila.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "2025zjlila",
-        "ids": ",ak2025zjlila,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 160,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 45 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.385,
-          59.966,
-          155.8
-        ]
-      },
-      "id": "ak2025zjlila"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.36,
-        "place": "11 km SSW of Valencia, CA",
-        "time": 1766727681950,
-        "updated": 1766727903411,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41147263",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41147263.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41147263",
-        "ids": ",ci41147263,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.02783,
-        "rms": 0.21,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 11 km SSW of Valencia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.63,
-          34.3683333333333,
-          10.5
-        ]
-      },
-      "id": "ci41147263"
+      "id": "nn00908928"
     }
   ],
   "bbox": [
-    -153.385,
-    31.618,
-    1.0299999713898,
-    -96.1379,
-    61.482,
-    155.8
+    -122.81632995606,
+    31.716,
+    1.6200000047684,
+    -104.29,
+    38.830501556396,
+    16
   ]
 }
