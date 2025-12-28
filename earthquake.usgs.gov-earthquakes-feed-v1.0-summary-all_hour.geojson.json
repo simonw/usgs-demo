@@ -1,141 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766817292000,
+    "generated": 1766903710000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.02,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1766814915880,
-        "updated": 1766816243320,
+        "mag": 1.73,
+        "place": "11 km SSE of Pāhala, Hawaii",
+        "time": 1766903285210,
+        "updated": 1766903525150,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75286971",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75286971.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74862257",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74862257.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
-        "net": "nc",
-        "code": "75286971",
-        "ids": ",nc75286971,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.008616,
-        "rms": 0.01,
-        "gap": 65,
+        "sig": 46,
+        "net": "hv",
+        "code": "74862257",
+        "ids": ",hv74862257,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.05701,
+        "rms": 0.119999997,
+        "gap": 187,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 8 km NW of The Geysers, CA"
+        "title": "M 1.7 - 11 km SSE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.816329956055,
-          38.8305015563965,
-          1.62000000476837
+          -155.441665649414,
+          19.1014995574951,
+          27.5599994659424
         ]
       },
-      "id": "nc75286971"
+      "id": "hv74862257"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "51 km S of Whites City, New Mexico",
-        "time": 1766814659722,
-        "updated": 1766814910286,
+        "mag": 1.19,
+        "place": "11 km WSW of Pine Valley, CA",
+        "time": 1766902033840,
+        "updated": 1766902250689,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zlhawi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zlhawi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148039",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148039.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2025zlhawi",
-        "ids": ",tx2025zlhawi,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 73,
+        "sig": 22,
+        "net": "ci",
+        "code": "41148039",
+        "ids": ",ci41148039,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.09712,
+        "rms": 0.18,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 51 km S of Whites City, New Mexico"
+        "title": "M 1.2 - 11 km WSW of Pine Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.29,
-          31.716,
-          4.0847
+          -116.642,
+          32.8021666666667,
+          16.77
         ]
       },
-      "id": "tx2025zlhawi"
+      "id": "ci41148039"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.22,
-        "place": "18 km WNW of Beaver Dam, Arizona",
-        "time": 1766813694458,
-        "updated": 1766813928587,
+        "mag": 1.06,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1766901981830,
+        "updated": 1766902076127,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00908928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00908928.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75287411",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75287411.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 76,
-        "net": "nn",
-        "code": "00908928",
-        "ids": ",nn00908928,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
+        "sig": 17,
+        "net": "nc",
+        "code": "75287411",
+        "ids": ",nc75287411,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.01486,
+        "rms": 0.02,
+        "gap": 120,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 3 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.770164489746,
+          38.7985000610352,
+          3.14000010490417
+        ]
+      },
+      "id": "nc75287411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.65,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1766901835910,
+        "updated": 1766901931149,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75287406",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75287406.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "nc",
+        "code": "75287406",
+        "ids": ",nc75287406,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 8,
-        "dmin": 0.954,
-        "rms": 0.2764,
-        "gap": 287,
-        "magType": "ml",
+        "dmin": 0.003874,
+        "rms": 0.01,
+        "gap": 84,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.2 - 18 km WNW of Beaver Dam, Arizona"
+        "title": "M 0.7 - 6 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.1211,
-          36.9761,
-          16
+          -122.786834716797,
+          38.8356666564941,
+          1.96000003814697
         ]
       },
-      "id": "nn00908928"
+      "id": "nc75287406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1766901390460,
+        "updated": 1766901485685,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75287401",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75287401.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75287401",
+        "ids": ",nc75287401,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01124,
+        "rms": 0.04,
+        "gap": 177,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.803665161133,
+          38.8426666259766,
+          3.94000005722046
+        ]
+      },
+      "id": "nc75287401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.75,
+        "place": "3 km SSE of Pāhala, Hawaii",
+        "time": 1766901351640,
+        "updated": 1766901558120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74862237",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74862237.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "hv",
+        "code": "74862237",
+        "ids": ",hv74862237,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.09663,
+        "rms": 0.100000001,
+        "gap": 244,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 3 km SSE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.470169067383,
+          19.1691665649414,
+          46.6399993896484
+        ]
+      },
+      "id": "hv74862237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.43,
+        "place": "5 km SSE of Huron, CA",
+        "time": 1766900795460,
+        "updated": 1766902042011,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75287391",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75287391.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "nc",
+        "code": "75287391",
+        "ids": ",nc75287391,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.1196,
+        "rms": 0.02,
+        "gap": 150,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 5 km SSE of Huron, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.081336975098,
+          36.1638336181641,
+          5.96000003814697
+        ]
+      },
+      "id": "nc75287391"
     }
   ],
   "bbox": [
-    -122.81632995606,
-    31.716,
-    1.6200000047684,
-    -104.29,
-    38.830501556396,
-    16
+    -155.47016906738,
+    19.101499557495,
+    1.960000038147,
+    -116.642,
+    38.842666625977,
+    46.639999389648
   ]
 }
