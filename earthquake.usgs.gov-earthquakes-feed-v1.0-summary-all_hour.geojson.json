@@ -1,64 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1766990123000,
+    "generated": 1767076547000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 12
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.77,
-        "place": "19 km SE of Pāhala, Hawaii",
-        "time": 1766989414900,
-        "updated": 1766989652490,
+        "mag": 0.75,
+        "place": "5 km NW of The Geysers, CA",
+        "time": 1767075338630,
+        "updated": 1767076339974,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74863537",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74863537.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288426",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288426.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
-        "net": "hv",
-        "code": "74863537",
-        "ids": ",hv74863537,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.1326,
-        "rms": 0.129999995,
-        "gap": 211,
+        "sig": 9,
+        "net": "nc",
+        "code": "75288426",
+        "ids": ",nc75288426,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.008544,
+        "rms": 0.01,
+        "gap": 79,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 19 km SE of Pāhala, Hawaii"
+        "title": "M 0.8 - 5 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.365493774414,
-          19.0588340759277,
-          30.5699996948242
+          -122.794502258301,
+          38.8165016174316,
+          2.41000008583069
         ]
       },
-      "id": "hv74863537"
+      "id": "nc75288426"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.29,
-        "place": "15 km NNW of Susanville, CA",
-        "time": 1766988528960,
-        "updated": 1766989042051,
+        "mag": 4.6,
+        "place": "242 km E of Levuka, Fiji",
+        "time": 1767074886584,
+        "updated": 1767075796040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288016",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288016.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlge",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlge.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000rlge",
+        "ids": ",us7000rlge,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 87,
+        "dmin": 2.554,
+        "rms": 0.86,
+        "gap": 41,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 242 km E of Levuka, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.3999,
+          -17.8925,
+          555.388
+        ]
+      },
+      "id": "us7000rlge"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.9,
+        "place": "29 km WNW of Elfin Cove, Alaska",
+        "time": 1767074433953,
+        "updated": 1767074624087,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zquoeu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zquoeu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.741,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 234,
+        "net": "ak",
+        "code": "2025zquoeu",
+        "ids": ",ak2025zquoeu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 23,
+        "dmin": 0.4,
+        "rms": 0.9,
+        "gap": 151,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.9 - 29 km WNW of Elfin Cove, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.825,
+          58.277,
+          6.4
+        ]
+      },
+      "id": "ak2025zquoeu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "18 km SSW of Searles Valley, CA",
+        "time": 1767074408090,
+        "updated": 1767075028890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41149215",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41149215.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,436 +146,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 81,
-        "net": "nc",
-        "code": "75288016",
-        "ids": ",nc75288016,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.08643,
-        "rms": 0.11,
-        "gap": 68,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 15 km NNW of Susanville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.692169189453,
-          40.5429992675781,
-          5.80999994277954
-        ]
-      },
-      "id": "nc75288016"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "2 km NW of Loma Linda, CA",
-        "time": 1766988445960,
-        "updated": 1766988666165,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148647",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148647.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
         "net": "ci",
-        "code": "41148647",
-        "ids": ",ci41148647,",
+        "code": "41149215",
+        "ids": ",ci41149215,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.1095,
-        "rms": 0.14,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 2 km NW of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.276833333333,
-          34.0663333333333,
-          13.39
-        ]
-      },
-      "id": "ci41148647"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "23 km SSE of Pāhala, Hawaii",
-        "time": 1766988433140,
-        "updated": 1766988796100,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74863522",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74863522.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "hv",
-        "code": "74863522",
-        "ids": ",hv74863522,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.1615,
-        "rms": 0.310000002,
-        "gap": 215,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 23 km SSE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.355834960938,
-          19.0283336639404,
-          14.0100002288818
-        ]
-      },
-      "id": "hv74863522"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.36,
-        "place": "15 km W of Johannesburg, CA",
-        "time": 1766987523420,
-        "updated": 1766987745730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148639",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148639.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41148639",
-        "ids": ",ci41148639,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.09656,
-        "rms": 0.16,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 15 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.803166666667,
-          35.3576666666667,
-          7.1
-        ]
-      },
-      "id": "ci41148639"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "26 km SW of Trapper Creek, Alaska",
-        "time": 1766987257760,
-        "updated": 1766987354893,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zoykeb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zoykeb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "2025zoykeb",
-        "ids": ",ak2025zoykeb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 26 km SW of Trapper Creek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.581,
-          62.148,
-          16.5
-        ]
-      },
-      "id": "ak2025zoykeb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.14,
-        "place": "2 km ESE of San Ramon, CA",
-        "time": 1766987134910,
-        "updated": 1766989879610,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288011",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288011.geojson",
-        "felt": 3,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 71,
-        "net": "nc",
-        "code": "75288011",
-        "ids": ",nc75288011,",
-        "sources": ",nc,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.08932,
-        "rms": 0.12,
-        "gap": 95,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km ESE of San Ramon, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.952163696289,
-          37.775333404541,
-          6.44000005722046
-        ]
-      },
-      "id": "nc75288011"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "26 km SW of Trapper Creek, Alaska",
-        "time": 1766987103041,
-        "updated": 1766987192880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zoyhyn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zoyhyn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "2025zoyhyn",
-        "ids": ",ak2025zoyhyn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.3,
-        "rms": 0.9,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.0625,
+        "rms": 0.13,
         "gap": 46,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 26 km SW of Trapper Creek, Alaska"
+        "title": "M 2.3 - 18 km SSW of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.553,
-          62.138,
-          0.4
+          -117.465666666667,
+          35.6126666666667,
+          9.04
         ]
       },
-      "id": "ak2025zoyhyn"
+      "id": "ci41149215"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.76,
-        "place": "10 km NE of Mexicali, B.C., MX",
-        "time": 1766987086660,
-        "updated": 1766987308396,
+        "mag": 1.71,
+        "place": "15 km NNW of Wai‘ōhinu, Hawaii",
+        "time": 1767073618620,
+        "updated": 1767073915750,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148631",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148631.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74864737",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74864737.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
-        "net": "ci",
-        "code": "41148631",
-        "ids": ",ci41148631,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.03874,
-        "rms": 0.26,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 10 km NE of Mexicali, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.3835,
-          32.6996666666667,
-          12.59
-        ]
-      },
-      "id": "ci41148631"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "167 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1766986764848,
-        "updated": 1766988547040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlbc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlbc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000rlbc",
-        "ids": ",us7000rlbc,",
-        "sources": ",us,",
+        "sig": 45,
+        "net": "hv",
+        "code": "74864737",
+        "ids": ",hv74864737,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 1.967,
-        "rms": 1.32,
-        "gap": 154,
-        "magType": "mb",
+        "nst": 34,
+        "dmin": 0.08262,
+        "rms": 0.25999999,
+        "gap": 235,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.7 - 167 km SE of Petropavlovsk-Kamchatsky, Russia"
+        "title": "M 1.7 - 15 km NNW of Wai‘ōhinu, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.3442,
-          51.9871,
-          10
+          -155.681503295898,
+          19.1921672821045,
+          -2.01999998092651
         ]
       },
-      "id": "us7000rlbc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.74,
-        "place": "10 km ENE of Mexicali, B.C., MX",
-        "time": 1766986665480,
-        "updated": 1766986895154,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41148623",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41148623.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "ci",
-        "code": "41148623",
-        "ids": ",ci41148623,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.03071,
-        "rms": 0.32,
-        "gap": 66,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 10 km ENE of Mexicali, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.374,
-          32.6988333333333,
-          12.34
-        ]
-      },
-      "id": "ci41148623"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "58 km S of Whites City, New Mexico",
-        "time": 1766986629359,
-        "updated": 1766986811848,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zoybdo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zoybdo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2025zoybdo",
-        "ids": ",tx2025zoybdo,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 99,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 58 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.366,
-          31.65,
-          6.9141
-        ]
-      },
-      "id": "tx2025zoybdo"
+      "id": "hv74864737"
     }
   ],
   "bbox": [
-    -155.36549377441,
-    19.02833366394,
-    0.4,
-    160.3442,
-    62.148,
-    30.569999694824
+    -178.3999,
+    -17.8925,
+    -2.0199999809265,
+    -117.46566666667,
+    58.277,
+    555.388
   ]
 }
