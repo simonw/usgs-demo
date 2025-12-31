@@ -1,24 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767076547000,
+    "generated": 1767162908000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1767075338630,
-        "updated": 1767076339974,
+        "mag": 0.68,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1767162229830,
+        "updated": 1767162324480,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288426",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288426.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288871",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288871.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "nc",
+        "code": "75288871",
+        "ids": ",nc75288871,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.007796,
+        "rms": 0.02,
+        "gap": 197,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 10 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.844833374023,
+          38.8413314819336,
+          2.19000005722046
+        ]
+      },
+      "id": "nc75288871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.13,
+        "place": "14 km N of Susanville, CA",
+        "time": 1767161241650,
+        "updated": 1767161844709,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288866",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288866.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 70,
+        "net": "nc",
+        "code": "75288866",
+        "ids": ",nc75288866,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 8,
+        "dmin": 0.09558,
+        "rms": 0.08,
+        "gap": 211,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 14 km N of Susanville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.662170410156,
+          40.5438346862793,
+          7.48000001907349
+        ]
+      },
+      "id": "nc75288866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.77,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1767160848050,
+        "updated": 1767160945293,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288861",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288861.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,195 +107,275 @@
         "tsunami": 0,
         "sig": 9,
         "net": "nc",
-        "code": "75288426",
-        "ids": ",nc75288426,",
+        "code": "75288861",
+        "ids": ",nc75288861,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.005676,
+        "rms": 0.02,
+        "gap": 72,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.804832458496,
+          38.8273315429688,
+          1.28999996185303
+        ]
+      },
+      "id": "nc75288861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "13 km N of Susanville, CA",
+        "time": 1767160746590,
+        "updated": 1767162378111,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288856",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288856.geojson",
+        "felt": 26,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 105,
+        "net": "nc",
+        "code": "75288856",
+        "ids": ",nc75288856,nn00909074,",
+        "sources": ",nc,nn,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.103,
+        "rms": 0.09,
+        "gap": 157,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km N of Susanville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.662498474121,
+          40.5349998474121,
+          4.86999988555908
+        ]
+      },
+      "id": "nc75288856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.34,
+        "place": "14 km NNW of Susanville, CA",
+        "time": 1767160171910,
+        "updated": 1767162784746,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288851",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288851.geojson",
+        "felt": 919,
+        "cdi": 6.7,
+        "mmi": 6.712,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 1054,
+        "net": "nc",
+        "code": "75288851",
+        "ids": ",ew1767160170,nn00909068,nc75288851,us7000rlnf,",
+        "sources": ",ew,nn,nc,us,",
+        "types": ",dyfi,focal-mechanism,ground-failure,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 26,
+        "dmin": 0.08967,
+        "rms": 0.16,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 5.3 - 14 km NNW of Susanville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.68416595459,
+          40.5418319702148,
+          4.71999979019165
+        ]
+      },
+      "id": "nc75288851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.17,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1767160116840,
+        "updated": 1767161548758,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288846",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288846.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "nc",
+        "code": "75288846",
+        "ids": ",nc75288846,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.005854,
+        "rms": 0.05,
+        "gap": 33,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.803001403809,
+          38.8253326416016,
+          1.55999994277954
+        ]
+      },
+      "id": "nc75288846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.03,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1767159567990,
+        "updated": 1767161241610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75288841",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75288841.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75288841",
+        "ids": ",nc75288841,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 13,
-        "dmin": 0.008544,
+        "dmin": 0.005259,
         "rms": 0.01,
-        "gap": 79,
+        "gap": 72,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 5 km NW of The Geysers, CA"
+        "title": "M 1.0 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.794502258301,
-          38.8165016174316,
-          2.41000008583069
+          -122.804000854492,
+          38.8256683349609,
+          1.5
         ]
       },
-      "id": "nc75288426"
+      "id": "nc75288841"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "242 km E of Levuka, Fiji",
-        "time": 1767074886584,
-        "updated": 1767075796040,
+        "mag": 1.7,
+        "place": "4 km SE of Midland, Texas",
+        "time": 1767159359507,
+        "updated": 1767160816375,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlge",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlge.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025zsplvp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025zsplvp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000rlge",
-        "ids": ",us7000rlge,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 87,
-        "dmin": 2.554,
-        "rms": 0.86,
-        "gap": 41,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 242 km E of Levuka, Fiji"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.3999,
-          -17.8925,
-          555.388
-        ]
-      },
-      "id": "us7000rlge"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.9,
-        "place": "29 km WNW of Elfin Cove, Alaska",
-        "time": 1767074433953,
-        "updated": 1767074624087,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025zquoeu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2025zquoeu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.741,
-        "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 234,
-        "net": "ak",
-        "code": "2025zquoeu",
-        "ids": ",ak2025zquoeu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 23,
-        "dmin": 0.4,
-        "rms": 0.9,
-        "gap": 151,
+        "sig": 44,
+        "net": "tx",
+        "code": "2025zsplvp",
+        "ids": ",tx2025zsplvp,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 48,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.9 - 29 km WNW of Elfin Cove, Alaska"
+        "title": "M 1.7 - 4 km SE of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -136.825,
-          58.277,
-          6.4
+          -102.048,
+          31.969,
+          3.3622
         ]
       },
-      "id": "ak2025zquoeu"
+      "id": "tx2025zsplvp"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.3,
-        "place": "18 km SSW of Searles Valley, CA",
-        "time": 1767074408090,
-        "updated": 1767075028890,
+        "mag": 1.11,
+        "place": "15 km WSW of Ludlow, CA",
+        "time": 1767159336430,
+        "updated": 1767159551254,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41149215",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41149215.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41149951",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41149951.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 81,
+        "sig": 19,
         "net": "ci",
-        "code": "41149215",
-        "ids": ",ci41149215,",
+        "code": "41149951",
+        "ids": ",ci41149951,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.0625,
-        "rms": 0.13,
-        "gap": 46,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.1382,
+        "rms": 0.12,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 18 km SSW of Searles Valley, CA"
+        "title": "M 1.1 - 15 km WSW of Ludlow, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.465666666667,
-          35.6126666666667,
-          9.04
+          -116.319,
+          34.6781666666667,
+          2.16
         ]
       },
-      "id": "ci41149215"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.71,
-        "place": "15 km NNW of Wai‘ōhinu, Hawaii",
-        "time": 1767073618620,
-        "updated": 1767073915750,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74864737",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74864737.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 45,
-        "net": "hv",
-        "code": "74864737",
-        "ids": ",hv74864737,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.08262,
-        "rms": 0.25999999,
-        "gap": 235,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 15 km NNW of Wai‘ōhinu, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.681503295898,
-          19.1921672821045,
-          -2.01999998092651
-        ]
-      },
-      "id": "hv74864737"
+      "id": "ci41149951"
     }
   ],
   "bbox": [
-    -178.3999,
-    -17.8925,
-    -2.0199999809265,
-    -117.46566666667,
-    58.277,
-    555.388
+    -122.84483337402,
+    31.969,
+    1.289999961853,
+    -102.048,
+    40.543834686279,
+    7.4800000190735
   ]
 }
