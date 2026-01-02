@@ -1,341 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767249364000,
+    "generated": 1767335734000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.39,
-        "place": "9 km NW of The Geysers, CA",
-        "time": 1767248892350,
-        "updated": 1767248987741,
+        "mag": 0.92,
+        "place": "2 km ENE of San Fernando, CA",
+        "time": 1767335123410,
+        "updated": 1767335348308,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75289551",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75289551.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41150895",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41150895.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "nc",
-        "code": "75289551",
-        "ids": ",nc75289551,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.008401,
-        "rms": 0.01,
-        "gap": 105,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.4 - 9 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.846496582031,
-          38.8253326416016,
-          2.25
-        ]
-      },
-      "id": "nc75289551"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "44 km NE of Jurm, Afghanistan",
-        "time": 1767248040671,
-        "updated": 1767248927040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlui",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlui.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000rlui",
-        "ids": ",us7000rlui,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 1.554,
-        "rms": 0.41,
-        "gap": 230,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 44 km NE of Jurm, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.1902,
-          37.1436,
-          122.265
-        ]
-      },
-      "id": "us7000rlui"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "148 km NNE of Agats, Indonesia",
-        "time": 1767247319093,
-        "updated": 1767248205040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlug",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlug.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000rlug",
-        "ids": ",us7000rlug,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 2.833,
-        "rms": 0.66,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 148 km NNE of Agats, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.4388,
-          -4.2339,
-          136.721
-        ]
-      },
-      "id": "us7000rlug"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.52,
-        "place": "6 km ENE of Aguanga, CA",
-        "time": 1767246966470,
-        "updated": 1767247182723,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41150519",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41150519.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
+        "sig": 13,
         "net": "ci",
-        "code": "41150519",
-        "ids": ",ci41150519,",
+        "code": "41150895",
+        "ids": ",ci41150895,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.03703,
-        "rms": 0.12,
-        "gap": 80,
+        "nst": 26,
+        "dmin": 0.03323,
+        "rms": 0.13,
+        "gap": 114,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 6 km ENE of Aguanga, CA"
+        "title": "M 0.9 - 2 km ENE of San Fernando, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.812833333333,
-          33.4663333333333,
-          12.44
+          -118.415666666667,
+          34.2978333333333,
+          6.61
         ]
       },
-      "id": "ci41150519"
+      "id": "ci41150895"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.79,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1767246502880,
-        "updated": 1767246597568,
+        "mag": 2.2,
+        "place": "51 km SSE of Kokhanok, Alaska",
+        "time": 1767333942414,
+        "updated": 1767334050116,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75289546",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75289546.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026achwae",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026achwae.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75289546",
-        "ids": ",nc75289546,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.003061,
-        "rms": 0.02,
-        "gap": 98,
-        "magType": "md",
+        "sig": 74,
+        "net": "ak",
+        "code": "2026achwae",
+        "ids": ",ak2026achwae,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.4,
+        "rms": 0.4,
+        "gap": 76,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 10 km NW of The Geysers, CA"
+        "title": "M 2.2 - 51 km SSE of Kokhanok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.852996826172,
-          38.8279991149902,
-          1.76999998092651
+          -154.314,
+          59.04,
+          118.3
         ]
       },
-      "id": "nc75289546"
+      "id": "ak2026achwae"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "188 km SSE of Vilyuchinsk, Russia",
-        "time": 1767246436851,
-        "updated": 1767247657040,
+        "mag": 4.6,
+        "place": "southern Mid-Atlantic Ridge",
+        "time": 1767333926496,
+        "updated": 1767335715040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlue",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rlue.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rm1k",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rm1k.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 326,
         "net": "us",
-        "code": "7000rlue",
-        "ids": ",us7000rlue,",
+        "code": "7000rm1k",
+        "ids": ",us7000rm1k,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 85,
-        "dmin": 2.027,
-        "rms": 0.86,
-        "gap": 162,
+        "nst": 32,
+        "dmin": 27.338,
+        "rms": 0.57,
+        "gap": 123,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 188 km SSE of Vilyuchinsk, Russia"
+        "title": "M 4.6 - southern Mid-Atlantic Ridge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          159.2309,
-          51.3161,
-          32.922
+          -11.4873,
+          -21.2004,
+          10
         ]
       },
-      "id": "us7000rlue"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48,
-        "place": "4 km SSE of Indios, Puerto Rico",
-        "time": 1767246147790,
-        "updated": 1767247150640,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71503528",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71503528.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "pr",
-        "code": "71503528",
-        "ids": ",pr71503528,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.07951,
-        "rms": 0.41,
-        "gap": 168,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km SSE of Indios, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.7975,
-          17.9586666666667,
-          10.48
-        ]
-      },
-      "id": "pr71503528"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.14,
-        "place": "19 km NE of Maricopa, CA",
-        "time": 1767245889780,
-        "updated": 1767246531010,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41150511",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41150511.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 70,
-        "net": "ci",
-        "code": "41150511",
-        "ids": ",ci41150511,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 55,
-        "dmin": 0.1537,
-        "rms": 0.22,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 19 km NE of Maricopa, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.233166666667,
-          35.1635,
-          23.86
-        ]
-      },
-      "id": "ci41150511"
+      "id": "us7000rm1k"
     }
   ],
   "bbox": [
-    -122.85299682617,
-    -4.2339,
-    1.7699999809265,
-    159.2309,
-    51.3161,
-    136.721
+    -154.314,
+    -21.2004,
+    6.61,
+    -11.4873,
+    59.04,
+    118.3
   ]
 }
