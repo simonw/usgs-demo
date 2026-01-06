@@ -1,101 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767594998000,
+    "generated": 1767681338000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 2
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "18 km E of Julian, CA",
-        "time": 1767593281240,
-        "updated": 1767593499984,
+        "mag": 1.38,
+        "place": "8 km NNW of Ventura, CA",
+        "time": 1767680875880,
+        "updated": 1767681098731,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41152223",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41152223.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41152751",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41152751.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
+        "sig": 29,
         "net": "ci",
-        "code": "41152223",
-        "ids": ",ci41152223,",
+        "code": "41152751",
+        "ids": ",ci41152751,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.0344,
-        "rms": 0.19,
-        "gap": 51,
+        "nst": 20,
+        "dmin": 0.06432,
+        "rms": 0.28,
+        "gap": 166,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 18 km E of Julian, CA"
+        "title": "M 1.4 - 8 km NNW of Ventura, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.412166666667,
-          33.0506666666667,
-          6.3
+          -119.262333333333,
+          34.34,
+          13.23
         ]
       },
-      "id": "ci41152223"
+      "id": "ci41152751"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "47 km NNW of Petersville, Alaska",
-        "time": 1767592401439,
-        "updated": 1767592579858,
+        "mag": 0.79,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1767680696410,
+        "updated": 1767680791719,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026ahuqam",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026ahuqam.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75291416",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75291416.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "2026ahuqam",
-        "ids": ",ak2026ahuqam,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.4,
-        "rms": 0.4,
-        "gap": 80,
-        "magType": "ml",
+        "sig": 10,
+        "net": "nc",
+        "code": "75291416",
+        "ids": ",nc75291416,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.01189,
+        "rms": 0.02,
+        "gap": 52,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.2 - 47 km NNW of Petersville, Alaska"
+        "title": "M 0.8 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.04,
-          62.899,
-          111.5
+          -122.821998596191,
+          38.8160018920898,
+          2.09999990463257
         ]
       },
-      "id": "ak2026ahuqam"
+      "id": "nc75291416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "38 km WSW of Nanwalek, Alaska",
+        "time": 1767680262516,
+        "updated": 1767680334091,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026ajrdws",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026ajrdws.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "2026ajrdws",
+        "ids": ",ak2026ajrdws,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.5,
+        "rms": 0.5,
+        "gap": 117,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 38 km WSW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.502,
+          59.182,
+          63.6
+        ]
+      },
+      "id": "ak2026ajrdws"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.63,
+        "place": "24 km ENE of Honaunau-Napoopoo, Hawaii",
+        "time": 1767680209700,
+        "updated": 1767680437950,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74869502",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74869502.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "hv",
+        "code": "74869502",
+        "ids": ",hv74869502,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.009199,
+        "rms": 0.239999995,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 24 km ENE of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.649993896484,
+          19.5485000610352,
+          12.0299997329712
+        ]
+      },
+      "id": "hv74869502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "69 km W of Tyonek, Alaska",
+        "time": 1767679627440,
+        "updated": 1767679795588,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026ajqutj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026ajqutj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "2026ajqutj",
+        "ids": ",ak2026ajqutj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0,
+        "rms": 0.7,
+        "gap": 92,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 69 km W of Tyonek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.395,
+          61.183,
+          140.6
+        ]
+      },
+      "id": "ak2026ajqutj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.05,
+        "place": "74 km N of San Juan, Puerto Rico",
+        "time": 1767678070180,
+        "updated": 1767679142520,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71504088",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71504088.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 143,
+        "net": "pr",
+        "code": "71504088",
+        "ids": ",pr71504088,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.8234,
+        "rms": 0.14,
+        "gap": 249,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.1 - 74 km N of San Juan, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9893333333333,
+          19.132,
+          25.67
+        ]
+      },
+      "id": "pr71504088"
     }
   ],
   "bbox": [
-    -151.04,
-    33.050666666667,
-    6.3,
-    -116.41216666667,
-    62.899,
-    111.5
+    -155.64999389648,
+    19.132,
+    2.0999999046326,
+    -65.989333333333,
+    61.183,
+    140.6
   ]
 }
