@@ -1,501 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1767854135000,
+    "generated": 1767940513000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 12
+    "count": 1
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.63799742291072,
-        "place": "15 km W of Johannesburg, CA",
-        "time": 1767853974750,
-        "updated": 1767854099720,
+        "mag": 1.6,
+        "place": "10 km S of Forsan, Texas",
+        "time": 1767939167781,
+        "updated": 1767939787383,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41154303",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41154303.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026apeegy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026apeegy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 41,
-        "net": "ci",
-        "code": "41154303",
-        "ids": ",ci41154303,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.09715,
-        "rms": 0.200000003,
-        "gap": 47,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 15 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.795166015625,
-          35.3554992675781,
-          4.15000009536743
-        ]
-      },
-      "id": "ci41154303"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.47,
-        "place": "8 km NW of Boonville, CA",
-        "time": 1767853512860,
-        "updated": 1767853607652,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75292386",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75292386.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 33,
-        "net": "nc",
-        "code": "75292386",
-        "ids": ",nc75292386,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.08098,
-        "rms": 0.25,
-        "gap": 126,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 8 km NW of Boonville, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.432167053223,
-          39.056999206543,
-          -0.209999993443489
-        ]
-      },
-      "id": "nc75292386"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "38 km NW of Stanton, Texas",
-        "time": 1767853430697,
-        "updated": 1767854031443,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026aniuyd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026aniuyd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
+        "sig": 39,
         "net": "tx",
-        "code": "2026aniuyd",
-        "ids": ",tx2026aniuyd,",
+        "code": "2026apeegy",
+        "ids": ",tx2026apeegy,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 38 km NW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.105,
-          32.344,
-          4.6114
-        ]
-      },
-      "id": "tx2026aniuyd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.4,
-        "place": "51 km NW of Karluk, Alaska",
-        "time": 1767853100932,
-        "updated": 1767853331246,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026aniqar",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026aniqar.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "2026aniqar",
-        "ids": ",ak2026aniqar,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 83,
+        "nst": 21,
         "dmin": 0.2,
         "rms": 0.6,
-        "gap": 106,
+        "gap": 75,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 51 km NW of Karluk, Alaska"
+        "title": "M 1.6 - 10 km S of Forsan, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.032,
-          57.909,
-          90.9
+          -101.351,
+          32.018,
+          1.2524
         ]
       },
-      "id": "ak2026aniqar"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.47,
-        "place": "4 km NW of Anza, CA",
-        "time": 1767852946260,
-        "updated": 1767853164634,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41154295",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41154295.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41154295",
-        "ids": ",ci41154295,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.0256,
-        "rms": 0.12,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 4 km NW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.711166666667,
-          33.5788333333333,
-          12.57
-        ]
-      },
-      "id": "ci41154295"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "24 km W of Garden City, Texas",
-        "time": 1767852599939,
-        "updated": 1767853508404,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026anigct",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026anigct.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026anigct",
-        "ids": ",tx2026anigct,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 24 km W of Garden City, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.742,
-          31.885,
-          3.8633
-        ]
-      },
-      "id": "tx2026anigct"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.41,
-        "place": "3 km ESE of Loma Linda, CA",
-        "time": 1767852399500,
-        "updated": 1767853048640,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41154287",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41154287.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 31,
-        "net": "ci",
-        "code": "41154287",
-        "ids": ",ci41154287,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 82,
-        "dmin": 0.08281,
-        "rms": 0.16,
-        "gap": 21,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 3 km ESE of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.233333333333,
-          34.0333333333333,
-          13.8
-        ]
-      },
-      "id": "ci41154287"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "26 km WSW of Skwentna, Alaska",
-        "time": 1767852100344,
-        "updated": 1767852211569,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026anibve",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026anibve.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "2026anibve",
-        "ids": ",ak2026anibve,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 90,
-        "dmin": 0.2,
-        "rms": 0.6,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 26 km WSW of Skwentna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.848,
-          61.878,
-          103.4
-        ]
-      },
-      "id": "ak2026anibve"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.77499186094686,
-        "place": "41 km W of Anchor Point, Alaska",
-        "time": 1767851613038,
-        "updated": 1767853413218,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026anhute",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026anhute.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 118,
-        "net": "ak",
-        "code": "2026anhute",
-        "ids": ",ak2026anhute,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.34772080183029175,
-        "rms": 3.7279637528662444,
-        "gap": 231.1560974121094,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 41 km W of Anchor Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.57740783691406,
-          59.78459548950195,
-          0
-        ]
-      },
-      "id": "ak2026anhute"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1767851517660,
-        "updated": 1767851611505,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75292371",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75292371.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75292371",
-        "ids": ",nc75292371,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.009226,
-        "rms": 0.01,
-        "gap": 59,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.815002441406,
-          38.814998626709,
-          2.95000004768372
-        ]
-      },
-      "id": "nc75292371"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.08,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1767851476050,
-        "updated": 1767851571487,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75292366",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75292366.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75292366",
-        "ids": ",nc75292366,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.0125,
-        "rms": 0.02,
-        "gap": 49,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.815002441406,
-          38.8146667480469,
-          2.92000007629395
-        ]
-      },
-      "id": "nc75292366"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "30 km WNW of Karluk, Alaska",
-        "time": 1767850895498,
-        "updated": 1767851072701,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026anhknj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026anhknj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "2026anhknj",
-        "ids": ",ak2026anhknj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.4,
-        "rms": 0.2,
-        "gap": 312,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 30 km WNW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.932,
-          57.677,
-          68.8
-        ]
-      },
-      "id": "ak2026anhknj"
+      "id": "tx2026apeegy"
     }
-  ],
-  "bbox": [
-    -155.032,
-    31.885,
-    -0.20999999344349,
-    -101.742,
-    61.878,
-    103.4
   ]
 }
