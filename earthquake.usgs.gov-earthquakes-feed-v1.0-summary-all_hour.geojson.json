@@ -1,341 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768026883000,
+    "generated": 1768113338000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 8
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.94,
-        "place": "5 km SW of San Ardo, CA",
-        "time": 1768026426950,
-        "updated": 1768026523746,
+        "mag": 1.96,
+        "place": "6 km SW of Ridgemark, CA",
+        "time": 1768111822860,
+        "updated": 1768112840806,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75293426",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75293426.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75294001",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75294001.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 14,
+        "sig": 59,
         "net": "nc",
-        "code": "75293426",
-        "ids": ",nc75293426,",
+        "code": "75294001",
+        "ids": ",nc75294001,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.06121,
-        "rms": 0.05,
-        "gap": 107,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.03252,
+        "rms": 0.15,
+        "gap": 66,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.9 - 5 km SW of San Ardo, CA"
+        "title": "M 2.0 - 6 km SW of Ridgemark, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.948333740234,
-          35.9866676330566,
-          8.63000011444092
+          -121.410163879395,
+          36.7771682739258,
+          5.28999996185303
         ]
       },
-      "id": "nc75293426"
+      "id": "nc75294001"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.13,
-        "place": "2 km SW of Pāhala, Hawaii",
-        "time": 1768025477940,
-        "updated": 1768025713820,
+        "mag": 2.1,
+        "place": "3 km ESE of San Ramon, CA",
+        "time": 1768111319860,
+        "updated": 1768112109735,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74871542",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74871542.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75293996",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75293996.geojson",
+        "felt": 8,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 70,
-        "net": "hv",
-        "code": "74871542",
-        "ids": ",hv74871542,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.04266,
-        "rms": 0.119999997,
-        "gap": 82,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km SW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.492828369141,
-          19.1868324279785,
-          30.7600002288818
-        ]
-      },
-      "id": "hv74871542"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.71,
-        "place": "11 km NW of The Geysers, CA",
-        "time": 1768024854410,
-        "updated": 1768024948760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75293416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75293416.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
         "net": "nc",
-        "code": "75293416",
-        "ids": ",nc75293416,",
+        "code": "75293996",
+        "ids": ",nc75293996,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.0154,
-        "rms": 0.01,
-        "gap": 138,
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.09792,
+        "rms": 0.09,
+        "gap": 39,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 11 km NW of The Geysers, CA"
+        "title": "M 2.1 - 3 km ESE of San Ramon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.849830627441,
-          38.8491668701172,
-          1.37999999523163
+          -121.943496704102,
+          37.7688331604004,
+          6.98999977111816
         ]
       },
-      "id": "nc75293416"
+      "id": "nc75293996"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "11 km NW of The Geysers, CA",
-        "time": 1768024811280,
-        "updated": 1768024908629,
+        "mag": 1.05,
+        "place": "6 km W of Cobb, CA",
+        "time": 1768111083280,
+        "updated": 1768111181351,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75293406",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75293406.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75293991",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75293991.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
+        "sig": 17,
         "net": "nc",
-        "code": "75293406",
-        "ids": ",nc75293406,",
+        "code": "75293991",
+        "ids": ",nc75293991,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 17,
-        "dmin": 0.02173,
-        "rms": 0.01,
-        "gap": 137,
+        "dmin": 0.007189,
+        "rms": 0.06,
+        "gap": 69,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.2 - 11 km NW of The Geysers, CA"
+        "title": "M 1.1 - 6 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.850166320801,
-          38.8486671447754,
-          1.08000004291534
+          -122.796165466309,
+          38.8328323364258,
+          1.38999998569489
         ]
       },
-      "id": "nc75293406"
+      "id": "nc75293991"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "11 km WNW of Cobb, CA",
-        "time": 1768024694740,
-        "updated": 1768024788284,
+        "mag": 2.1,
+        "place": "20 km N of Fishhook, Alaska",
+        "time": 1768110620094,
+        "updated": 1768110728271,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75293401",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75293401.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026asuwsd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026asuwsd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75293401",
-        "ids": ",nc75293401,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.01628,
-        "rms": 0.02,
-        "gap": 170,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 11 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.850166320801,
-          38.8501663208008,
-          1.00999999046326
-        ]
-      },
-      "id": "nc75293401"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.51,
-        "place": "11 km NW of The Geysers, CA",
-        "time": 1768024345510,
-        "updated": 1768026440045,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75293391",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75293391.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "nc",
-        "code": "75293391",
-        "ids": ",nc75293391,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.01477,
-        "rms": 0.05,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 11 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.849334716797,
-          38.8486671447754,
-          0.529999971389771
-        ]
-      },
-      "id": "nc75293391"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "5 km SSE of Pāhala, Hawaii",
-        "time": 1768024034140,
-        "updated": 1768024301330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74871522",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74871522.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "hv",
-        "code": "74871522",
-        "ids": ",hv74871522,",
-        "sources": ",hv,",
+        "sig": 68,
+        "net": "ak",
+        "code": "2026asuwsd",
+        "ids": ",ak2026asuwsd,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.002253,
-        "rms": 0.119999997,
-        "gap": 169,
+        "nst": 16,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 5 km SSE of Pāhala, Hawaii"
+        "title": "M 2.1 - 20 km N of Fishhook, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.461166381836,
-          19.1533336639404,
-          31.2000007629395
+          -149.284,
+          61.931,
+          5
         ]
       },
-      "id": "hv74871522"
+      "id": "ak2026asuwsd"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.9,
-        "place": "46 km N of Petersville, Alaska",
-        "time": 1768023987137,
-        "updated": 1768024096096,
+        "place": "3 km ENE of San Ramon, CA",
+        "time": 1768110423770,
+        "updated": 1768112839806,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026aqzamb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026aqzamb.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75293986",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75293986.geojson",
+        "felt": 3,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 56,
-        "net": "ak",
-        "code": "2026aqzamb",
-        "ids": ",ak2026aqzamb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.4,
-        "rms": 0.5,
-        "gap": 67,
-        "magType": "ml",
+        "net": "nc",
+        "code": "75293986",
+        "ids": ",nc75293986,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.07831,
+        "rms": 0.29,
+        "gap": 123,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 46 km N of Petersville, Alaska"
+        "title": "M 1.9 - 3 km ENE of San Ramon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.702,
-          62.911,
-          101.5
+          -121.950164794922,
+          37.7879981994629,
+          0.119999997317791
         ]
       },
-      "id": "ak2026aqzamb"
+      "id": "nc75293986"
     }
   ],
   "bbox": [
-    -155.49282836914,
-    19.15333366394,
-    0.52999997138977,
-    -120.94833374023,
-    62.911,
-    101.5
+    -149.284,
+    36.777168273926,
+    0.11999999731779,
+    -121.4101638794,
+    61.931,
+    6.9899997711182
   ]
 }
