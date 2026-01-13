@@ -1,104 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768199745000,
+    "generated": 1768286142000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.97,
-        "place": "5 km SSW of Gilroy, CA",
-        "time": 1768199304640,
-        "updated": 1768199401297,
+        "mag": 2.7,
+        "place": "93 km SSE of Ugashik, Alaska",
+        "time": 1768285981177,
+        "updated": 1768286121178,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75294476",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75294476.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026awntfg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026awntfg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 14,
-        "net": "nc",
-        "code": "75294476",
-        "ids": ",nc75294476,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.011,
-        "rms": 0.03,
-        "gap": 112,
-        "magType": "md",
+        "sig": 112,
+        "net": "ak",
+        "code": "2026awntfg",
+        "ids": ",ak2026awntfg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 1,
+        "rms": 0.7,
+        "gap": 96,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 5 km SSW of Gilroy, CA"
+        "title": "M 2.7 - 93 km SSE of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.585334777832,
-          36.9659996032715,
-          3.9300000667572
+          -156.652,
+          56.774,
+          63.1
         ]
       },
-      "id": "nc75294476"
+      "id": "ak2026awntfg"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.09,
-        "place": "10 km WNW of The Geysers, CA",
-        "time": 1768198630480,
-        "updated": 1768198725799,
+        "mag": 2.02,
+        "place": "12 km ESE of Angwin, CA",
+        "time": 1768285567030,
+        "updated": 1768285679515,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75294471",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75294471.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75294916",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75294916.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
+        "sig": 63,
         "net": "nc",
-        "code": "75294471",
-        "ids": ",nc75294471,",
+        "code": "75294916",
+        "ids": ",nc75294916,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.003571,
-        "rms": 0.02,
-        "gap": 90,
+        "nst": 31,
+        "dmin": 0.05856,
+        "rms": 0.38,
+        "gap": 44,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 10 km WNW of The Geysers, CA"
+        "title": "M 2.0 - 12 km ESE of Angwin, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.852500915527,
-          38.8264999389648,
-          1.5900000333786
+          -122.316665649414,
+          38.5423316955566,
+          0.00999999977648258
         ]
       },
-      "id": "nc75294471"
+      "id": "nc75294916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.45,
+        "place": "13 km ESE of Angwin, CA",
+        "time": 1768285150170,
+        "updated": 1768285244499,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75294911",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75294911.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "nc",
+        "code": "75294911",
+        "ids": ",nc75294911,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.05077,
+        "rms": 0.13,
+        "gap": 103,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 13 km ESE of Angwin, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.305999755859,
+          38.5436668395996,
+          -0.200000002980232
+        ]
+      },
+      "id": "nc75294911"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.5,
-        "place": "66 km S of Kokhanok, Alaska",
-        "time": 1768198407195,
-        "updated": 1768198663315,
+        "place": "41 km W of Valdez, Alaska",
+        "time": 1768284927323,
+        "updated": 1768285006963,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026aurjmo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026aurjmo.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026awnecm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026awnecm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -107,115 +147,235 @@
         "tsunami": 0,
         "sig": 96,
         "net": "ak",
-        "code": "2026aurjmo",
-        "ids": ",ak2026aurjmo,",
+        "code": "2026awnecm",
+        "ids": ",ak2026awnecm,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 0.2,
+        "nst": 32,
+        "dmin": 0.3,
         "rms": 0.7,
-        "gap": 122,
+        "gap": 40,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 66 km S of Kokhanok, Alaska"
+        "title": "M 2.5 - 41 km W of Valdez, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.981,
-          58.853,
-          139.7
+          -147.11,
+          61.201,
+          2.9
         ]
       },
-      "id": "ak2026aurjmo"
+      "id": "ak2026awnecm"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "9 km NNW of Trapper Creek, Alaska",
-        "time": 1768198187371,
-        "updated": 1768198304286,
+        "mag": 1.3,
+        "place": "11 km WSW of Stanton, Texas",
+        "time": 1768284793042,
+        "updated": 1768285026229,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026aurgiu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026aurgiu.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026awncbt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026awncbt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "2026aurgiu",
-        "ids": ",ak2026aurgiu,",
-        "sources": ",ak,",
+        "sig": 26,
+        "net": "tx",
+        "code": "2026awncbt",
+        "ids": ",tx2026awncbt,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0,
-        "rms": 0.7,
-        "gap": 77,
+        "nst": 42,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 9 km NNW of Trapper Creek, Alaska"
+        "title": "M 1.3 - 11 km WSW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.273,
-          62.399,
-          5.7
+          -101.91,
+          32.099,
+          4.0891
         ]
       },
-      "id": "ak2026aurgiu"
+      "id": "tx2026awncbt"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.81,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1768196292890,
-        "updated": 1768196391495,
+        "mag": 1.46,
+        "place": "1 km NNW of Middletown, CA",
+        "time": 1768284595250,
+        "updated": 1768285945166,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75294466",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75294466.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75294906",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75294906.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
+        "sig": 33,
         "net": "nc",
-        "code": "75294466",
-        "ids": ",nc75294466,",
+        "code": "75294906",
+        "ids": ",nc75294906,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.006122,
-        "rms": 0.03,
-        "gap": 59,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 13,
+        "dmin": 0.05413,
+        "rms": 0.07,
+        "gap": 84,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 7 km WNW of Cobb, CA"
+        "title": "M 1.5 - 1 km NNW of Middletown, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.796997070312,
-          38.8351669311523,
-          2.28999996185303
+          -122.617668151855,
+          38.7621650695801,
+          6.42000007629395
         ]
       },
-      "id": "nc75294466"
+      "id": "nc75294906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "73 km S of Nanwalek, Alaska",
+        "time": 1768284573960,
+        "updated": 1768284688936,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026awmzag",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026awmzag.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "2026awmzag",
+        "ids": ",ak2026awmzag,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 214,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 73 km S of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.148,
+          58.709,
+          47.5
+        ]
+      },
+      "id": "ak2026awmzag"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "86 km NNW of Karluk, Alaska",
+        "time": 1768284486061,
+        "updated": 1768284571928,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026awmxts",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026awmxts.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ak",
+        "code": "2026awmxts",
+        "ids": ",ak2026awmxts,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 130,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 86 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.992,
+          58.291,
+          5
+        ]
+      },
+      "id": "ak2026awmxts"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.75,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1768283433560,
+        "updated": 1768283530234,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75294901",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75294901.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75294901",
+        "ids": ",nc75294901,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.01061,
+        "rms": 0.02,
+        "gap": 128,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.822998046875,
+          38.8183326721191,
+          2.23000001907349
+        ]
+      },
+      "id": "nc75294901"
     }
   ],
   "bbox": [
-    -154.981,
-    36.965999603271,
-    1.5900000333786,
-    -121.58533477783,
-    62.399,
-    139.7
+    -156.652,
+    32.099,
+    -0.20000000298023,
+    -101.91,
+    61.201,
+    63.1
   ]
 }
