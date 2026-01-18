@@ -1,384 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768631680000,
+    "generated": 1768718144000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 10
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.04,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1768630557200,
-        "updated": 1768630651352,
+        "mag": 1.2,
+        "place": "60 km E of McCarthy, Alaska",
+        "time": 1768716712047,
+        "updated": 1768716800223,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75296866",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75296866.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bfrrkp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bfrrkp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75296866",
-        "ids": ",nc75296866,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.01632,
-        "rms": 0.02,
-        "gap": 52,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.816497802734,
-          38.8306655883789,
-          1.42999994754791
-        ]
-      },
-      "id": "nc75296866"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "16 km ESE of Ocotillo, CA",
-        "time": 1768630148250,
-        "updated": 1768630784950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41160239",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41160239.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ci",
-        "code": "41160239",
-        "ids": ",ci41160239,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.0695,
-        "rms": 0.19,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 16 km ESE of Ocotillo, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.843,
-          32.6665,
-          7.14
-        ]
-      },
-      "id": "ci41160239"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "34 km W of Nikiski, Alaska",
-        "time": 1768629771980,
-        "updated": 1768629885773,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bdvqtx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bdvqtx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
+        "sig": 22,
         "net": "ak",
-        "code": "2026bdvqtx",
-        "ids": ",ak2026bdvqtx,",
+        "code": "2026bfrrkp",
+        "ids": ",ak2026bfrrkp,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.3,
-        "rms": 0.4,
-        "gap": 76,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 34 km W of Nikiski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.914,
-          60.721,
-          84.8
-        ]
-      },
-      "id": "ak2026bdvqtx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.29,
-        "place": "16 km SW of Willits, CA",
-        "time": 1768629449940,
-        "updated": 1768629547149,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75296861",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75296861.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "nc",
-        "code": "75296861",
-        "ids": ",nc75296861,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.03167,
-        "rms": 0.03,
-        "gap": 112,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 16 km SW of Willits, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.468002319336,
-          39.2900009155273,
-          1.27999997138977
-        ]
-      },
-      "id": "nc75296861"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "10 km NNW of Kermit, Texas",
-        "time": 1768629125440,
-        "updated": 1768629432687,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bdvhnn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bdvhnn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2026bdvhnn",
-        "ids": ",tx2026bdvhnn,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 190,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 10 km NNW of Kermit, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.129,
-          31.947,
-          1.7133
-        ]
-      },
-      "id": "tx2026bdvhnn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "31 km NW of Toyah, Texas",
-        "time": 1768629099712,
-        "updated": 1768629630717,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bdvhcx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bdvhcx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "tx",
-        "code": "2026bdvhcx",
-        "ids": ",tx2026bdvhcx,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 31 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.023,
-          31.525,
-          4.5474
-        ]
-      },
-      "id": "tx2026bdvhcx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "1 km SE of Point MacKenzie, Alaska",
-        "time": 1768628839729,
-        "updated": 1768628949973,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bdvdkd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bdvdkd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "2026bdvdkd",
-        "ids": ",ak2026bdvdkd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 1 km SE of Point MacKenzie, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.95,
-          61.349,
-          22.9
-        ]
-      },
-      "id": "ak2026bdvdkd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.81,
-        "place": "19 km ESE of Anza, CA",
-        "time": 1768628727150,
-        "updated": 1768628950657,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41160223",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41160223.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41160223",
-        "ids": ",ci41160223,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.09701,
-        "rms": 0.15,
-        "gap": 50,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 19 km ESE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.486166666667,
-          33.4916666666667,
-          14.32
-        ]
-      },
-      "id": "ci41160223"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "26 km SSE of Pope-Vannoy Landing, Alaska",
-        "time": 1768628500414,
-        "updated": 1768629444737,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bduynm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bduynm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "2026bduynm",
-        "ids": ",ak2026bduynm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
+        "nst": 6,
         "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 81,
+        "rms": 0.5,
+        "gap": 157,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 26 km SSE of Pope-Vannoy Landing, Alaska"
+        "title": "M 1.2 - 60 km E of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.284,
-          59.35,
-          4.3
+          -141.796,
+          61.35,
+          13.8
         ]
       },
-      "id": "ak2026bduynm"
+      "id": "ak2026bfrrkp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "60 km NW of Toyah, Texas",
+        "time": 1768715917526,
+        "updated": 1768716157344,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bfrfzw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bfrfzw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2026bfrfzw",
+        "ids": ",tx2026bfrfzw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 60 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.308,
+          31.632,
+          3.4775
+        ]
+      },
+      "id": "tx2026bfrfzw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.87,
+        "place": "15 km SSE of Volcano, Hawaii",
+        "time": 1768715105100,
+        "updated": 1768715381690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74878772",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74878772.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 54,
+        "net": "hv",
+        "code": "74878772",
+        "ids": ",hv74878772,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.04705,
+        "rms": 0.200000003,
+        "gap": 88,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 15 km SSE of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.155166625977,
+          19.3261661529541,
+          1.66999995708466
+        ]
+      },
+      "id": "hv74878772"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.7,
-        "place": "32 km NW of Toyah, Texas",
-        "time": 1768628303738,
-        "updated": 1768629625711,
+        "place": "38 km NE of Chase, Alaska",
+        "time": 1768715103999,
+        "updated": 1768715265103,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bduvqk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bduvqk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bfquie",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bfquie.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -386,36 +146,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 44,
+        "net": "ak",
+        "code": "2026bfquie",
+        "ids": ",ak2026bfquie,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.4,
+        "rms": 0.9,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 38 km NE of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.618,
+          62.717,
+          11.9
+        ]
+      },
+      "id": "ak2026bfquie"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "32 km NW of Toyah, Texas",
+        "time": 1768715093381,
+        "updated": 1768716018216,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bfqued",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bfqued.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
         "net": "tx",
-        "code": "2026bduvqk",
-        "ids": ",tx2026bduvqk,",
+        "code": "2026bfqued",
+        "ids": ",tx2026bfqued,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 37,
+        "nst": 31,
         "dmin": 0,
-        "rms": 0.3,
+        "rms": 0.2,
         "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 32 km NW of Toyah, Texas"
+        "title": "M 1.6 - 32 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.018,
-          31.53,
-          5.0991
+          -104.022,
+          31.528,
+          4.4132
         ]
       },
-      "id": "tx2026bduvqk"
+      "id": "tx2026bfqued"
     }
   ],
   "bbox": [
-    -154.284,
-    31.525,
-    1.2799999713898,
-    -103.129,
-    61.349,
-    84.8
+    -155.15516662598,
+    19.326166152954,
+    1.6699999570847,
+    -104.022,
+    62.717,
+    13.8
   ]
 }
