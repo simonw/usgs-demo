@@ -1,221 +1,421 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1768718144000,
+    "generated": 1768804585000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "60 km E of McCarthy, Alaska",
-        "time": 1768716712047,
-        "updated": 1768716800223,
+        "mag": 2,
+        "place": "32 km WSW of Skwentna, Alaska",
+        "time": 1768803906306,
+        "updated": 1768804021108,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bfrrkp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bfrrkp.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bhnvre",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bhnvre.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
+        "sig": 62,
         "net": "ak",
-        "code": "2026bfrrkp",
-        "ids": ",ak2026bfrrkp,",
+        "code": "2026bhnvre",
+        "ids": ",ak2026bhnvre,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 6,
+        "nst": 34,
         "dmin": 0.4,
-        "rms": 0.5,
-        "gap": 157,
+        "rms": 0.6,
+        "gap": 79,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 60 km E of McCarthy, Alaska"
+        "title": "M 2.0 - 32 km WSW of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.796,
-          61.35,
-          13.8
+          -151.977,
+          61.9,
+          115.4
         ]
       },
-      "id": "ak2026bfrrkp"
+      "id": "ak2026bhnvre"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "60 km NW of Toyah, Texas",
-        "time": 1768715917526,
-        "updated": 1768716157344,
+        "mag": 0.37,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1768803875730,
+        "updated": 1768803972473,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bfrfzw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bfrfzw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75297931",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75297931.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026bfrfzw",
-        "ids": ",tx2026bfrfzw,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 60 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.308,
-          31.632,
-          3.4775
-        ]
-      },
-      "id": "tx2026bfrfzw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.87,
-        "place": "15 km SSE of Volcano, Hawaii",
-        "time": 1768715105100,
-        "updated": 1768715381690,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74878772",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74878772.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "hv",
-        "code": "74878772",
-        "ids": ",hv74878772,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.04705,
-        "rms": 0.200000003,
-        "gap": 88,
+        "sig": 2,
+        "net": "nc",
+        "code": "75297931",
+        "ids": ",nc75297931,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.004173,
+        "rms": 0.03,
+        "gap": 205,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 15 km SSE of Volcano, Hawaii"
+        "title": "M 0.4 - 7 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.155166625977,
-          19.3261661529541,
-          1.66999995708466
+          -122.795501708984,
+          38.8395004272461,
+          8.11999988555908
         ]
       },
-      "id": "hv74878772"
+      "id": "nc75297931"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "38 km NE of Chase, Alaska",
-        "time": 1768715103999,
-        "updated": 1768715265103,
+        "mag": 2.02,
+        "place": "2 km WSW of Indios, Puerto Rico",
+        "time": 1768803337570,
+        "updated": 1768804015400,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bfquie",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bfquie.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71505418",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71505418.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "pr",
+        "code": "71505418",
+        "ids": ",pr71505418,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.02788,
+        "rms": 0.14,
+        "gap": 182,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 2 km WSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8406666666667,
+          17.9816666666667,
+          16.76
+        ]
+      },
+      "id": "pr71505418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.95,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1768803303790,
+        "updated": 1768803398313,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75297921",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75297921.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
+        "sig": 14,
+        "net": "nc",
+        "code": "75297921",
+        "ids": ",nc75297921,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.009845,
+        "rms": 0.11,
+        "gap": 110,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 3 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.769668579102,
+          38.8066673278809,
+          11.1700000762939
+        ]
+      },
+      "id": "nc75297921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.64,
+        "place": "2 km SE of Pacifica, CA",
+        "time": 1768803188470,
+        "updated": 1768803283370,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75297916",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75297916.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 41,
+        "net": "nc",
+        "code": "75297916",
+        "ids": ",nc75297916,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.04019,
+        "rms": 0.04,
+        "gap": 112,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 2 km SE of Pacifica, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.471832275391,
+          37.5970001220703,
+          10.1300001144409
+        ]
+      },
+      "id": "nc75297916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "16 km S of Tres Pinos, CA",
+        "time": 1768803083410,
+        "updated": 1768803265530,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75297911",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75297911.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "nc",
+        "code": "75297911",
+        "ids": ",nc75297911,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.03973,
+        "rms": 0.17,
+        "gap": 47,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 16 km S of Tres Pinos, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.313667297363,
+          36.6506652832031,
+          4.01999998092651
+        ]
+      },
+      "id": "nc75297911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "16 km WNW of Anchorage, Alaska",
+        "time": 1768803035245,
+        "updated": 1768803110031,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bhnjes",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bhnjes.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
         "net": "ak",
-        "code": "2026bfquie",
-        "ids": ",ak2026bfquie,",
+        "code": "2026bhnjes",
+        "ids": ",ak2026bhnjes,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.4,
-        "rms": 0.9,
-        "gap": 73,
+        "nst": 38,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 31,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 38 km NE of Chase, Alaska"
+        "title": "M 1.9 - 16 km WNW of Anchorage, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.618,
-          62.717,
-          11.9
+          -150.204,
+          61.249,
+          43.4
         ]
       },
-      "id": "ak2026bfquie"
+      "id": "ak2026bhnjes"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "32 km NW of Toyah, Texas",
-        "time": 1768715093381,
-        "updated": 1768716018216,
+        "mag": 0.4,
+        "place": "12 km NNE of Four Mile Road, Alaska",
+        "time": 1768802628332,
+        "updated": 1768802690999,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bfqued",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bfqued.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bhndjc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bhndjc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026bfqued",
-        "ids": ",tx2026bfqued,",
-        "sources": ",tx,",
+        "sig": 2,
+        "net": "ak",
+        "code": "2026bhndjc",
+        "ids": ",ak2026bhndjc,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 58,
+        "nst": 7,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 153,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 32 km NW of Toyah, Texas"
+        "title": "M 0.4 - 12 km NNE of Four Mile Road, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.022,
-          31.528,
-          4.4132
+          -149.025,
+          64.705,
+          14.2
         ]
       },
-      "id": "tx2026bfqued"
+      "id": "ak2026bhndjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.5,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1768801728310,
+        "updated": 1768801822996,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75297891",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75297891.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "nc",
+        "code": "75297891",
+        "ids": ",nc75297891,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.01331,
+        "rms": 0.02,
+        "gap": 64,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.5 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81916809082,
+          38.8346672058105,
+          1.62000000476837
+        ]
+      },
+      "id": "nc75297891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "110 km NE of Lime Village, Alaska",
+        "time": 1768801330465,
+        "updated": 1768801423577,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bhmktu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bhmktu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "2026bhmktu",
+        "ids": ",ak2026bhmktu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.6,
+        "rms": 0.6,
+        "gap": 96,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 110 km NE of Lime Village, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.742,
+          61.937,
+          5
+        ]
+      },
+      "id": "ak2026bhmktu"
     }
   ],
   "bbox": [
-    -155.15516662598,
-    19.326166152954,
-    1.6699999570847,
-    -104.022,
-    62.717,
-    13.8
+    -153.742,
+    17.981666666667,
+    1.6200000047684,
+    -66.840666666667,
+    64.705,
+    115.4
   ]
 }
