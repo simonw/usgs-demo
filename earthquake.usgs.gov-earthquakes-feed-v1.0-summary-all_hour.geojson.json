@@ -1,184 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769150145000,
+    "generated": 1769236551000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.3.0",
-    "count": 11
+    "api": "1.14.1",
+    "count": 12
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "10 km W of Pine Valley, CA",
-        "time": 1769149841150,
-        "updated": 1769150056537,
+        "mag": 0.36,
+        "place": "11 km SSE of Lake Henshaw, CA",
+        "time": 1769235670490,
+        "updated": 1769235894532,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41169111",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41169111.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41170607",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41170607.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
+        "sig": 2,
         "net": "ci",
-        "code": "41169111",
-        "ids": ",ci41169111,",
+        "code": "41170607",
+        "ids": ",ci41170607,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.09305,
-        "rms": 0.13,
-        "gap": 84,
+        "nst": 29,
+        "dmin": 0.06102,
+        "rms": 0.15,
+        "gap": 77,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 10 km W of Pine Valley, CA"
+        "title": "M 0.4 - 11 km SSE of Lake Henshaw, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.638333333333,
-          32.8076666666667,
-          17.14
+          -116.703833333333,
+          33.1606666666667,
+          18.42
         ]
       },
-      "id": "ci41169111"
+      "id": "ci41170607"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.06,
-        "place": "10 km W of Pine Valley, CA",
-        "time": 1769149541010,
-        "updated": 1769149765329,
+        "mag": 1.5,
+        "place": "40 km WNW of Toyah, Texas",
+        "time": 1769235631152,
+        "updated": 1769235824221,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41169103",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41169103.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41169103",
-        "ids": ",ci41169103,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.09326,
-        "rms": 0.16,
-        "gap": 42,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 10 km W of Pine Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.638166666667,
-          32.8056666666667,
-          16.73
-        ]
-      },
-      "id": "ci41169103"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.65,
-        "place": "9 km W of Pine Valley, CA",
-        "time": 1769149206160,
-        "updated": 1769149425477,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41169095",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41169095.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41169095",
-        "ids": ",ci41169095,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.131,
-        "rms": 0.07,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 9 km W of Pine Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.627166666667,
-          32.8058333333333,
-          17.19
-        ]
-      },
-      "id": "ci41169095"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "20 km ENE of Livengood, Alaska",
-        "time": 1769149020563,
-        "updated": 1769149153830,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bowmfx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bowmfx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "2026bowmfx",
-        "ids": ",ak2026bowmfx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 278,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 20 km ENE of Livengood, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.151,
-          65.602,
-          10.4
-        ]
-      },
-      "id": "ak2026bowmfx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.51,
-        "place": "16 km WSW of Johannesburg, CA",
-        "time": 1769148789700,
-        "updated": 1769149012241,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41169087",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41169087.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bqshod",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bqshod.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -186,276 +66,436 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 35,
-        "net": "ci",
-        "code": "41169087",
-        "ids": ",ci41169087,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.0795,
-        "rms": 0.15,
-        "gap": 49,
+        "net": "tx",
+        "code": "2026bqshod",
+        "ids": ",tx2026bqshod,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 74,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 16 km WSW of Johannesburg, CA"
+        "title": "M 1.5 - 40 km WNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.809,
-          35.3411666666667,
-          7.6
+          -104.154,
+          31.517,
+          4.0399
         ]
       },
-      "id": "ci41169087"
+      "id": "tx2026bqshod"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.49,
-        "place": "13 km SSW of Tres Pinos, CA",
-        "time": 1769148509270,
-        "updated": 1769148606891,
+        "mag": 0.86,
+        "place": "21 km NNE of Indio, CA",
+        "time": 1769235613640,
+        "updated": 1769235833856,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75300371",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75300371.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41170599",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41170599.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 34,
-        "net": "nc",
-        "code": "75300371",
-        "ids": ",nc75300371,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.03191,
-        "rms": 0.12,
-        "gap": 87,
+        "sig": 11,
+        "net": "ci",
+        "code": "41170599",
+        "ids": ",ci41170599,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.02419,
+        "rms": 0.14,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 21 km NNE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.166,
+          33.902,
+          5.18
+        ]
+      },
+      "id": "ci41170599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.98,
+        "place": "6 km WNW of Pāhala, Hawaii",
+        "time": 1769235469870,
+        "updated": 1769235726350,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74883687",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74883687.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 60,
+        "net": "hv",
+        "code": "74883687",
+        "ids": ",hv74883687,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.03402,
+        "rms": 0.239999995,
+        "gap": 67,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 13 km SSW of Tres Pinos, CA"
+        "title": "M 2.0 - 6 km WNW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.35066986084,
-          36.675666809082,
-          1.37999999523163
+          -155.532333374023,
+          19.2355003356934,
+          -0.0799999982118607
         ]
       },
-      "id": "nc75300371"
+      "id": "hv74883687"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "18 km NNE of Indio, CA",
-        "time": 1769148443420,
-        "updated": 1769148675202,
+        "mag": 1.3,
+        "place": "47 km WNW of Tatitlek, Alaska",
+        "time": 1769235235026,
+        "updated": 1769235304582,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41169071",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41169071.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bqsclv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bqsclv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ci",
-        "code": "41169071",
-        "ids": ",ci41169071,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 66,
-        "dmin": 0.04721,
-        "rms": 0.18,
-        "gap": 39,
+        "sig": 26,
+        "net": "ak",
+        "code": "2026bqsclv",
+        "ids": ",ak2026bqsclv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 128,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 18 km NNE of Indio, CA"
+        "title": "M 1.3 - 47 km WNW of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.166166666667,
-          33.8785,
-          2.03
+          -147.431,
+          61.092,
+          5
         ]
       },
-      "id": "ci41169071"
+      "id": "ak2026bqsclv"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.07,
-        "place": "10 km WNW of Cobb, CA",
-        "time": 1769147626320,
-        "updated": 1769147722195,
+        "mag": 2.4,
+        "place": "64 km WNW of Tyonek, Alaska",
+        "time": 1769234609393,
+        "updated": 1769234725533,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75300366",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75300366.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bqrtmf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bqrtmf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
+        "sig": 89,
+        "net": "ak",
+        "code": "2026bqrtmf",
+        "ids": ",ak2026bqrtmf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 0.7,
+        "rms": 1,
+        "gap": 41,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 64 km WNW of Tyonek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.248,
+          61.287,
+          5
+        ]
+      },
+      "id": "ak2026bqrtmf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.31,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1769233828530,
+        "updated": 1769233922670,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75300921",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75300921.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
         "net": "nc",
-        "code": "75300366",
-        "ids": ",nc75300366,",
+        "code": "75300921",
+        "ids": ",nc75300921,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.02111,
+        "nst": 23,
+        "dmin": 0.008722,
         "rms": 0.02,
-        "gap": 119,
+        "gap": 57,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 10 km WNW of Cobb, CA"
+        "title": "M 1.3 - 7 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.837501525879,
-          38.844165802002,
-          1.87000000476837
+          -122.800331115723,
+          38.8344993591309,
+          2.0699999332428
         ]
       },
-      "id": "nc75300366"
+      "id": "nc75300921"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.66,
-        "place": "10 km NW of Calipatria, CA",
-        "time": 1769146921620,
-        "updated": 1769147779397,
+        "mag": 2.01,
+        "place": "19 km NNE of Indio, CA",
+        "time": 1769233749550,
+        "updated": 1769233970083,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41169047",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41169047.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 42,
-        "net": "ci",
-        "code": "41169047",
-        "ids": ",ci41169047,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.00837,
-        "rms": 0.24,
-        "gap": 43,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 10 km NW of Calipatria, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.605666666667,
-          33.1771666666667,
-          4.53
-        ]
-      },
-      "id": "ci41169047"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.63,
-        "place": "6 km WSW of Lone Pine, California",
-        "time": 1769146755396,
-        "updated": 1769146940649,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00909856",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00909856.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41170575",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41170575.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 41,
+        "sig": 62,
+        "net": "ci",
+        "code": "41170575",
+        "ids": ",ci41170575,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 69,
+        "dmin": 0.04018,
+        "rms": 0.16,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 19 km NNE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.164666666667,
+          33.8858333333333,
+          5.06
+        ]
+      },
+      "id": "ci41170575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.56,
+        "place": "25 km ENE of Big Creek, California",
+        "time": 1769233535058,
+        "updated": 1769233763753,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00909893",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00909893.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 101,
         "net": "nn",
-        "code": "00909856",
-        "ids": ",nn00909856,",
+        "code": "00909893",
+        "ids": ",nn00909893,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 1.151,
-        "rms": 0.453,
-        "gap": 339,
+        "nst": 11,
+        "dmin": 0.382,
+        "rms": 0.5012,
+        "gap": 153,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 6 km WSW of Lone Pine, California"
+        "title": "M 2.6 - 25 km ENE of Big Creek, California"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.124,
-          36.5768,
-          14.714
+          -118.9624,
+          37.262,
+          15.9836
         ]
       },
-      "id": "nn00909856"
+      "id": "nn00909893"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.82,
-        "place": "16 km WSW of Johannesburg, CA",
-        "time": 1769146747970,
-        "updated": 1769146976255,
+        "mag": 3.05,
+        "place": "20 km NNE of Yerington, Nevada",
+        "time": 1769233514851,
+        "updated": 1769235096422,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41169039",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41169039.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00909892",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00909892.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 143,
+        "net": "nn",
+        "code": "00909892",
+        "ids": ",nn00909892,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.474,
+        "rms": 0.1354,
+        "gap": 120,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 20 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0667,
+          39.1528,
+          6.6871
+        ]
+      },
+      "id": "nn00909892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.73,
+        "place": "21 km NNE of Indio, CA",
+        "time": 1769233318810,
+        "updated": 1769233542598,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41170567",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41170567.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 51,
+        "sig": 8,
         "net": "ci",
-        "code": "41169039",
-        "ids": ",ci41169039,",
+        "code": "41170567",
+        "ids": ",ci41170567,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.07883,
-        "rms": 0.16,
-        "gap": 36,
+        "nst": 20,
+        "dmin": 0.02857,
+        "rms": 0.12,
+        "gap": 175,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 16 km WSW of Johannesburg, CA"
+        "title": "M 0.7 - 21 km NNE of Indio, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.809666666667,
-          35.3406666666667,
-          7.04
+          -116.156166666667,
+          33.9006666666667,
+          7.42
         ]
       },
-      "id": "ci41169039"
+      "id": "ci41170567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "227 km ESE of Chiniak, Alaska",
+        "time": 1769232999144,
+        "updated": 1769233143405,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bqqxbv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bqqxbv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "2026bqqxbv",
+        "ids": ",ak2026bqqxbv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 2.3,
+        "rms": 1.4,
+        "gap": 207,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 227 km ESE of Chiniak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.756,
+          56.9,
+          5
+        ]
+      },
+      "id": "ak2026bqqxbv"
     }
   ],
   "bbox": [
-    -148.151,
-    32.805666666667,
-    1.3799999952316,
-    -115.60566666667,
-    65.602,
-    17.19
+    -155.53233337402,
+    19.235500335693,
+    -0.079999998211861,
+    -104.154,
+    61.287,
+    18.42
   ]
 }
