@@ -1,24 +1,344 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769322906000,
+    "generated": 1769409384000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 10
+    "count": 12
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.47,
-        "place": "8 km S of Idyllwild, CA",
-        "time": 1769322512130,
-        "updated": 1769322734989,
+        "mag": 2.19,
+        "place": "9 km S of Leilani Estates, Hawaii",
+        "time": 1769409120260,
+        "updated": 1769409346550,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41171559",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41171559.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74885277",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74885277.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "hv",
+        "code": "74885277",
+        "ids": ",hv74885277,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.02234,
+        "rms": 0.289999992,
+        "gap": 238,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 9 km S of Leilani Estates, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.934829711914,
+          19.3858337402344,
+          4.94000005722046
+        ]
+      },
+      "id": "hv74885277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.32,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1769409086780,
+        "updated": 1769409181686,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75301821",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75301821.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 27,
+        "net": "nc",
+        "code": "75301821",
+        "ids": ",nc75301821,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.01266,
+        "rms": 0.02,
+        "gap": 70,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.817497253418,
+          38.8346672058105,
+          1.88999998569489
+        ]
+      },
+      "id": "nc75301821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.03,
+        "place": "8 km W of Cobb, CA",
+        "time": 1769408755060,
+        "updated": 1769408958270,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75301811",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75301811.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "nc",
+        "code": "75301811",
+        "ids": ",nc75301811,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.01923,
+        "rms": 0.04,
+        "gap": 35,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 8 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81583404541,
+          38.8351669311523,
+          1.80999994277954
+        ]
+      },
+      "id": "nc75301811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "21 km N of Valdez, Alaska",
+        "time": 1769408559073,
+        "updated": 1769408680665,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bujvtf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bujvtf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "2026bujvtf",
+        "ids": ",ak2026bujvtf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 63,
+        "dmin": 0.2,
+        "rms": 0.9,
+        "gap": 24,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 21 km N of Valdez, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.422,
+          61.318,
+          10.4
+        ]
+      },
+      "id": "ak2026bujvtf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.69,
+        "place": "20 km E of Little Lake, CA",
+        "time": 1769408393850,
+        "updated": 1769408610453,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41172463",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41172463.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "ci",
+        "code": "41172463",
+        "ids": ",ci41172463,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.03449,
+        "rms": 0.18,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 20 km E of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.687666666667,
+          35.9645,
+          2.55
+        ]
+      },
+      "id": "ci41172463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.5,
+        "place": "20 km SE of Livengood, Alaska",
+        "time": 1769408294578,
+        "updated": 1769408369637,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bujryo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bujryo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ak",
+        "code": "2026bujryo",
+        "ids": ",ak2026bujryo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 286,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 20 km SE of Livengood, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.208,
+          65.402,
+          8.4
+        ]
+      },
+      "id": "ak2026bujryo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.82,
+        "place": "17 km NNE of Indio, CA",
+        "time": 1769407902920,
+        "updated": 1769408545800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41172455",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41172455.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 51,
+        "net": "ci",
+        "code": "41172455",
+        "ids": ",ci41172455,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 66,
+        "dmin": 0.05714,
+        "rms": 0.17,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 17 km NNE of Indio, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.173666666667,
+          33.8681666666667,
+          3.13
+        ]
+      },
+      "id": "ci41172455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "west of Macquarie Island",
+        "time": 1769407636475,
+        "updated": 1769408829181,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs2i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs2i.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "7000rs2i",
+        "ids": ",us7000rs2i,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 54,
+        "dmin": 8.832,
+        "rms": 1.24,
+        "gap": 87,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - west of Macquarie Island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.7464,
+          -54.6303,
+          10
+        ]
+      },
+      "id": "us7000rs2i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.46,
+        "place": "8 km SSW of Borrego Springs, CA",
+        "time": 1769407596770,
+        "updated": 1769407813186,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41172447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41172447.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,395 +347,155 @@
         "tsunami": 0,
         "sig": 3,
         "net": "ci",
-        "code": "41171559",
-        "ids": ",ci41171559,",
+        "code": "41172447",
+        "ids": ",ci41172447,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.02682,
-        "rms": 0.13,
-        "gap": 90,
+        "nst": 30,
+        "dmin": 0.08059,
+        "rms": 0.21,
+        "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 8 km S of Idyllwild, CA"
+        "title": "M 0.5 - 8 km SSW of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.705833333333,
-          33.6665,
-          16.19
+          -116.407166666667,
+          33.1878333333333,
+          13.26
         ]
       },
-      "id": "ci41171559"
+      "id": "ci41172447"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.73,
-        "place": "5 km SW of Volcano, Hawaii",
-        "time": 1769322507650,
-        "updated": 1769322722860,
+        "mag": 2.1,
+        "place": "39 km SSW of Dry Creek, Alaska",
+        "time": 1769407457126,
+        "updated": 1769407525815,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74884252",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74884252.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bujfxx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bujfxx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 46,
-        "net": "hv",
-        "code": "74884252",
-        "ids": ",hv74884252,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.01178,
-        "rms": 0.150000006,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 5 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.272338867188,
-          19.4126663208008,
-          0.479999989271164
-        ]
-      },
-      "id": "hv74884252"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.65,
-        "place": "5 km WNW of Cobb, CA",
-        "time": 1769322239150,
-        "updated": 1769322337064,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75301341",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75301341.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "nc",
-        "code": "75301341",
-        "ids": ",nc75301341,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.008807,
-        "rms": 0.08,
-        "gap": 76,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 5 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.783332824707,
-          38.8315010070801,
-          5.8600001335144
-        ]
-      },
-      "id": "nc75301341"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.21,
-        "place": "25 km SW of Maricopa, CA",
-        "time": 1769322216770,
-        "updated": 1769322436740,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41171551",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41171551.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "ci",
-        "code": "41171551",
-        "ids": ",ci41171551,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.06392,
-        "rms": 0.18,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 25 km SW of Maricopa, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.608166666667,
-          34.9085,
-          9.16
-        ]
-      },
-      "id": "ci41171551"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.63,
-        "place": "16 km W of Johannesburg, CA",
-        "time": 1769321795630,
-        "updated": 1769322068125,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41171543",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41171543.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 41,
-        "net": "ci",
-        "code": "41171543",
-        "ids": ",ci41171543,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.09457,
-        "rms": 0.18,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 16 km W of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.804666666667,
-          35.356,
-          6.67
-        ]
-      },
-      "id": "ci41171543"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.72,
-        "place": "17 km N of Indio, CA",
-        "time": 1769321576860,
-        "updated": 1769321799389,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41171535",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41171535.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41171535",
-        "ids": ",ci41171535,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.05392,
-        "rms": 0.17,
-        "gap": 108,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 17 km N of Indio, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.181666666667,
-          33.8718333333333,
-          3.7
-        ]
-      },
-      "id": "ci41171535"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "85 km ESE of Cantwell, Alaska",
-        "time": 1769320806719,
-        "updated": 1769320902894,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bsnjlk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bsnjlk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
+        "sig": 68,
         "net": "ak",
-        "code": "2026bsnjlk",
-        "ids": ",ak2026bsnjlk,",
+        "code": "2026bujfxx",
+        "ids": ",ak2026bujfxx,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 97,
+        "nst": 25,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 85 km ESE of Cantwell, Alaska"
+        "title": "M 2.1 - 39 km SSW of Dry Creek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.333,
-          63.157,
-          65.1
+          -144.941,
+          63.32,
+          5
         ]
       },
-      "id": "ak2026bsnjlk"
+      "id": "ak2026bujfxx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.84,
-        "place": "13 km SE of Pāhala, Hawaii",
-        "time": 1769320529280,
-        "updated": 1769320764800,
+        "mag": 1.05,
+        "place": "19 km NNE of Indio, CA",
+        "time": 1769406969080,
+        "updated": 1769407192987,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74884242",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74884242.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41172439",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41172439.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 52,
-        "net": "hv",
-        "code": "74884242",
-        "ids": ",hv74884242,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.08522,
-        "rms": 0.119999997,
-        "gap": 228,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 13 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.379333496094,
-          19.1215000152588,
-          29.9599990844727
-        ]
-      },
-      "id": "hv74884242"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.61,
-        "place": "14 km W of Johannesburg, CA",
-        "time": 1769320317110,
-        "updated": 1769320546542,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41171527",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41171527.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 40,
+        "sig": 17,
         "net": "ci",
-        "code": "41171527",
-        "ids": ",ci41171527,",
+        "code": "41172439",
+        "ids": ",ci41172439,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.09495,
-        "rms": 0.16,
-        "gap": 47,
+        "nst": 47,
+        "dmin": 0.03587,
+        "rms": 0.17,
+        "gap": 40,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 14 km W of Johannesburg, CA"
+        "title": "M 1.1 - 19 km NNE of Indio, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.790666666667,
-          35.3511666666667,
-          6.34
+          -116.172333333333,
+          33.8895,
+          5.05
         ]
       },
-      "id": "ci41171527"
+      "id": "ci41172439"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "7 km W of Oxnard, CA",
-        "time": 1769319540070,
-        "updated": 1769321163795,
+        "mag": 2.11,
+        "place": "12 km W of Ludlow, CA",
+        "time": 1769406207770,
+        "updated": 1769406856950,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41171519",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41171519.geojson",
-        "felt": 2,
-        "cdi": 2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41172431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41172431.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
+        "sig": 68,
         "net": "ci",
-        "code": "41171519",
-        "ids": ",ci41171519,",
+        "code": "41172431",
+        "ids": ",ci41172431,",
         "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.02755,
-        "rms": 0.31,
-        "gap": 130,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.1155,
+        "rms": 0.16,
+        "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 7 km W of Oxnard, CA"
+        "title": "M 2.1 - 12 km W of Ludlow, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.254333333333,
-          34.1893333333333,
-          4.15
+          -116.2955,
+          34.7183333333333,
+          4.76
         ]
       },
-      "id": "ci41171519"
+      "id": "ci41172431"
     }
   ],
   "bbox": [
-    -155.37933349609,
-    19.121500015259,
-    0.47999998927116,
-    -116.18166666667,
-    63.157,
-    65.1
+    -154.93482971191,
+    -54.6303,
+    1.8099999427795,
+    143.7464,
+    65.402,
+    13.26
   ]
 }
