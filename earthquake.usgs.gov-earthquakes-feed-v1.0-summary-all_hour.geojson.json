@@ -1,344 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769409384000,
+    "generated": 1769495772000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 12
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.19,
-        "place": "9 km S of Leilani Estates, Hawaii",
-        "time": 1769409120260,
-        "updated": 1769409346550,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74885277",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74885277.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "hv",
-        "code": "74885277",
-        "ids": ",hv74885277,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.02234,
-        "rms": 0.289999992,
-        "gap": 238,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 9 km S of Leilani Estates, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.934829711914,
-          19.3858337402344,
-          4.94000005722046
-        ]
-      },
-      "id": "hv74885277"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.32,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1769409086780,
-        "updated": 1769409181686,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75301821",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75301821.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 27,
-        "net": "nc",
-        "code": "75301821",
-        "ids": ",nc75301821,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.01266,
-        "rms": 0.02,
-        "gap": 70,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.817497253418,
-          38.8346672058105,
-          1.88999998569489
-        ]
-      },
-      "id": "nc75301821"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.03,
-        "place": "8 km W of Cobb, CA",
-        "time": 1769408755060,
-        "updated": 1769408958270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75301811",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75301811.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 63,
-        "net": "nc",
-        "code": "75301811",
-        "ids": ",nc75301811,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.01923,
-        "rms": 0.04,
-        "gap": 35,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 8 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.81583404541,
-          38.8351669311523,
-          1.80999994277954
-        ]
-      },
-      "id": "nc75301811"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.4,
-        "place": "21 km N of Valdez, Alaska",
-        "time": 1769408559073,
-        "updated": 1769408680665,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bujvtf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bujvtf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "2026bujvtf",
-        "ids": ",ak2026bujvtf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 0.2,
-        "rms": 0.9,
-        "gap": 24,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 21 km N of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.422,
-          61.318,
-          10.4
-        ]
-      },
-      "id": "ak2026bujvtf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.69,
-        "place": "20 km E of Little Lake, CA",
-        "time": 1769408393850,
-        "updated": 1769408610453,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41172463",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41172463.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41172463",
-        "ids": ",ci41172463,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.03449,
-        "rms": 0.18,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 20 km E of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.687666666667,
-          35.9645,
-          2.55
-        ]
-      },
-      "id": "ci41172463"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.5,
-        "place": "20 km SE of Livengood, Alaska",
-        "time": 1769408294578,
-        "updated": 1769408369637,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bujryo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bujryo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ak",
-        "code": "2026bujryo",
-        "ids": ",ak2026bujryo,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 286,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 20 km SE of Livengood, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.208,
-          65.402,
-          8.4
-        ]
-      },
-      "id": "ak2026bujryo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.82,
-        "place": "17 km NNE of Indio, CA",
-        "time": 1769407902920,
-        "updated": 1769408545800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41172455",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41172455.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 51,
-        "net": "ci",
-        "code": "41172455",
-        "ids": ",ci41172455,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 66,
-        "dmin": 0.05714,
-        "rms": 0.17,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 17 km NNE of Indio, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.173666666667,
-          33.8681666666667,
-          3.13
-        ]
-      },
-      "id": "ci41172455"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "west of Macquarie Island",
-        "time": 1769407636475,
-        "updated": 1769408829181,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rs2i",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000rs2i.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "7000rs2i",
-        "ids": ",us7000rs2i,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 54,
-        "dmin": 8.832,
-        "rms": 1.24,
-        "gap": 87,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.7 - west of Macquarie Island"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          143.7464,
-          -54.6303,
-          10
-        ]
-      },
-      "id": "us7000rs2i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 0.46,
-        "place": "8 km SSW of Borrego Springs, CA",
-        "time": 1769407596770,
-        "updated": 1769407813186,
+        "place": "9 km SSW of Idyllwild, CA",
+        "time": 1769494482000,
+        "updated": 1769494697080,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41172447",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41172447.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41173471",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41173471.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -347,155 +27,155 @@
         "tsunami": 0,
         "sig": 3,
         "net": "ci",
-        "code": "41172447",
-        "ids": ",ci41172447,",
+        "code": "41173471",
+        "ids": ",ci41173471,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.08059,
-        "rms": 0.21,
-        "gap": 45,
+        "nst": 26,
+        "dmin": 0.05909,
+        "rms": 0.14,
+        "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 8 km SSW of Borrego Springs, CA"
+        "title": "M 0.5 - 9 km SSW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.407166666667,
-          33.1878333333333,
-          13.26
+          -116.753,
+          33.6658333333333,
+          15.89
         ]
       },
-      "id": "ci41172447"
+      "id": "ci41173471"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "39 km SSW of Dry Creek, Alaska",
-        "time": 1769407457126,
-        "updated": 1769407525815,
+        "mag": 2.2,
+        "place": "55 km ESE of Whittier, Alaska",
+        "time": 1769493986816,
+        "updated": 1769494047378,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bujfxx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bujfxx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026bwfarb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026bwfarb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 74,
         "net": "ak",
-        "code": "2026bujfxx",
-        "ids": ",ak2026bujfxx,",
+        "code": "2026bwfarb",
+        "ids": ",ak2026bwfarb,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 25,
+        "nst": 16,
         "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 62,
+        "rms": 0.4,
+        "gap": 102,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 39 km SSW of Dry Creek, Alaska"
+        "title": "M 2.2 - 55 km ESE of Whittier, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -144.941,
-          63.32,
-          5
+          -147.734,
+          60.608,
+          18.6
         ]
       },
-      "id": "ak2026bujfxx"
+      "id": "ak2026bwfarb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.05,
-        "place": "19 km NNE of Indio, CA",
-        "time": 1769406969080,
-        "updated": 1769407192987,
+        "mag": 0.65,
+        "place": "11 km NNE of Ocotillo Wells, CA",
+        "time": 1769492766840,
+        "updated": 1769492985482,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41172439",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41172439.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41173463",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41173463.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
+        "sig": 6,
         "net": "ci",
-        "code": "41172439",
-        "ids": ",ci41172439,",
+        "code": "41173463",
+        "ids": ",ci41173463,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.03587,
-        "rms": 0.17,
-        "gap": 40,
+        "nst": 35,
+        "dmin": 0.1025,
+        "rms": 0.22,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 19 km NNE of Indio, CA"
+        "title": "M 0.7 - 11 km NNE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.172333333333,
-          33.8895,
-          5.05
+          -116.099333333333,
+          33.2416666666667,
+          7.92
         ]
       },
-      "id": "ci41172439"
+      "id": "ci41173463"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.11,
-        "place": "12 km W of Ludlow, CA",
-        "time": 1769406207770,
-        "updated": 1769406856950,
+        "mag": 1.2,
+        "place": "10 km WSW of Stanton, Texas",
+        "time": 1769492614364,
+        "updated": 1769493640362,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41172431",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41172431.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026bwegtj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026bwegtj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
-        "net": "ci",
-        "code": "41172431",
-        "ids": ",ci41172431,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.1155,
-        "rms": 0.16,
-        "gap": 60,
+        "sig": 22,
+        "net": "tx",
+        "code": "2026bwegtj",
+        "ids": ",tx2026bwegtj,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 12 km W of Ludlow, CA"
+        "title": "M 1.2 - 10 km WSW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.2955,
-          34.7183333333333,
-          4.76
+          -101.899,
+          32.098,
+          3.5209
         ]
       },
-      "id": "ci41172431"
+      "id": "tx2026bwegtj"
     }
   ],
   "bbox": [
-    -154.93482971191,
-    -54.6303,
-    1.8099999427795,
-    143.7464,
-    65.402,
-    13.26
+    -147.734,
+    32.098,
+    3.5209,
+    -101.899,
+    60.608,
+    18.6
   ]
 }
