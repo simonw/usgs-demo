@@ -1,224 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769755073000,
+    "generated": 1769841404000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 11
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.28,
-        "place": "30 km ENE of Honaunau-Napoopoo, Hawaii",
-        "time": 1769754446040,
-        "updated": 1769754661610,
+        "mag": 1.07,
+        "place": "3 km SSW of Redlands, CA",
+        "time": 1769840848090,
+        "updated": 1769841058653,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74889192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74889192.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41177079",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41177079.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 80,
-        "net": "hv",
-        "code": "74889192",
-        "ids": ",hv74889192,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.05108,
-        "rms": 0.239999995,
-        "gap": 170,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 30 km ENE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.591827392578,
-          19.5548324584961,
-          6.15999984741211
-        ]
-      },
-      "id": "hv74889192"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.93,
-        "place": "18 km WSW of Johannesburg, CA",
-        "time": 1769754082020,
-        "updated": 1769754297379,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41176151",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41176151.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
+        "sig": 18,
         "net": "ci",
-        "code": "41176151",
-        "ids": ",ci41176151,",
+        "code": "41177079",
+        "ids": ",ci41177079,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.04134,
-        "rms": 0.16,
-        "gap": 60,
+        "nst": 51,
+        "dmin": 0.07457,
+        "rms": 0.15,
+        "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 18 km WSW of Johannesburg, CA"
+        "title": "M 1.1 - 3 km SSW of Redlands, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.813333333333,
-          35.2991666666667,
-          8.37
+          -117.201833333333,
+          34.0286666666667,
+          10.88
         ]
       },
-      "id": "ci41176151"
+      "id": "ci41177079"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "56 km NW of Eureka Roadhouse, Alaska",
-        "time": 1769753700505,
-        "updated": 1769753869942,
+        "mag": 1.13,
+        "place": "16 km ESE of Anza, CA",
+        "time": 1769840726790,
+        "updated": 1769840937631,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cbsmrg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cbsmrg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41177071",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41177071.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
+        "sig": 20,
+        "net": "ci",
+        "code": "41177071",
+        "ids": ",ci41177071,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 65,
+        "dmin": 0.07766,
+        "rms": 0.19,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 16 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5095,
+          33.5003333333333,
+          11.34
+        ]
+      },
+      "id": "ci41177071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "26 km WNW of Petersville, Alaska",
+        "time": 1769840617258,
+        "updated": 1769840701555,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cdomzk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cdomzk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
         "net": "ak",
-        "code": "2026cbsmrg",
-        "ids": ",ak2026cbsmrg,",
+        "code": "2026cdomzk",
+        "ids": ",ak2026cdomzk,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 98,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 56 km NW of Eureka Roadhouse, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.902,
-          62.308,
-          27.6
-        ]
-      },
-      "id": "ak2026cbsmrg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.6,
-        "place": "17 km NNE of Ridgecrest, CA",
-        "time": 1769753175230,
-        "updated": 1769753392927,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41176143",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41176143.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41176143",
-        "ids": ",ci41176143,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.05776,
-        "rms": 0.18,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 17 km NNE of Ridgecrest, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.604833333333,
-          35.7581666666667,
-          8.41
-        ]
-      },
-      "id": "ci41176143"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "13 km WSW of Stanton, Texas",
-        "time": 1769752355027,
-        "updated": 1769752912094,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026cbrtiy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026cbrtiy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "tx",
-        "code": "2026cbrtiy",
-        "ids": ",tx2026cbrtiy,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.1,
+        "nst": 36,
+        "dmin": 0.2,
         "rms": 0.4,
-        "gap": 57,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 13 km WSW of Stanton, Texas"
+        "title": "M 3.0 - 26 km WNW of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.926,
-          32.103,
-          3.818
+          -151.26,
+          62.551,
+          88.6
         ]
       },
-      "id": "tx2026cbrtiy"
+      "id": "ak2026cdomzk"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1769752325320,
-        "updated": 1769752419872,
+        "mag": 0.73,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1769840003280,
+        "updated": 1769840098457,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75304086",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75304086.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75304566",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75304566.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75304566",
+        "ids": ",nc75304566,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.006507,
+        "rms": 0.01,
+        "gap": 93,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 5 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.782997131348,
+          38.835334777832,
+          1.62000000476837
+        ]
+      },
+      "id": "nc75304566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1769839965780,
+        "updated": 1769840063638,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75304561",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75304561.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,235 +187,115 @@
         "tsunami": 0,
         "sig": 9,
         "net": "nc",
-        "code": "75304086",
-        "ids": ",nc75304086,",
+        "code": "75304561",
+        "ids": ",nc75304561,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.002903,
-        "rms": 0.02,
-        "gap": 61,
+        "nst": 8,
+        "dmin": 0.006012,
+        "rms": 0.01,
+        "gap": 87,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 7 km NW of The Geysers, CA"
+        "title": "M 0.8 - 6 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.811836242676,
-          38.8208351135254,
-          3.0699999332428
+          -122.80249786377,
+          38.8223342895508,
+          0.46000000834465
         ]
       },
-      "id": "nc75304086"
+      "id": "nc75304561"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.49,
-        "place": "6 km S of Beaumont, CA",
-        "time": 1769752259490,
-        "updated": 1769752473891,
+        "mag": 1.05,
+        "place": "16 km NE of Coso Junction, CA",
+        "time": 1769839791700,
+        "updated": 1769840005507,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41176135",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41176135.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41177055",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41177055.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
+        "sig": 17,
         "net": "ci",
-        "code": "41176135",
-        "ids": ",ci41176135,",
+        "code": "41177055",
+        "ids": ",ci41177055,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.1655,
-        "rms": 0.08,
-        "gap": 149,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 6 km S of Beaumont, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.989,
-          33.8736666666667,
-          13.16
-        ]
-      },
-      "id": "ci41176135"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.99,
-        "place": "4 km ENE of Ocotillo Wells, CA",
-        "time": 1769752088720,
-        "updated": 1769753206144,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41176127",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41176127.geojson",
-        "felt": 2,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ci",
-        "code": "41176127",
-        "ids": ",ci41176127,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.06746,
-        "rms": 0.19,
-        "gap": 52,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 4 km ENE of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.0875,
-          33.1571666666667,
-          10.6
-        ]
-      },
-      "id": "ci41176127"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "13 km WSW of Stanton, Texas",
-        "time": 1769751891342,
-        "updated": 1769752852021,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026cbrmsc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026cbrmsc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "tx",
-        "code": "2026cbrmsc",
-        "ids": ",tx2026cbrmsc,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.1,
-        "rms": 0.6,
+        "nst": 26,
+        "dmin": 0.03918,
+        "rms": 0.12,
         "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 13 km WSW of Stanton, Texas"
+        "title": "M 1.1 - 16 km NE of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.928,
-          32.105,
-          4.6967
+          -117.8075,
+          36.1256666666667,
+          5.35
         ]
       },
-      "id": "tx2026cbrmsc"
+      "id": "ci41177055"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.07,
-        "place": "5 km S of Pāhala, Hawaii",
-        "time": 1769751667830,
-        "updated": 1769751880200,
+        "mag": 1.08,
+        "place": "3 km WNW of Anderson Springs, CA",
+        "time": 1769838624830,
+        "updated": 1769838722605,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74889132",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74889132.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75304546",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75304546.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 66,
-        "net": "hv",
-        "code": "74889132",
-        "ids": ",hv74889132,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.02648,
-        "rms": 0.140000001,
-        "gap": 147,
+        "sig": 18,
+        "net": "nc",
+        "code": "75304546",
+        "ids": ",nc75304546,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.02097,
+        "rms": 0.02,
+        "gap": 81,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.1 - 5 km S of Pāhala, Hawaii"
+        "title": "M 1.1 - 3 km WNW of Anderson Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.489501953125,
-          19.1498336791992,
-          34.6500015258789
+          -122.720664978027,
+          38.7823333740234,
+          1.5
         ]
       },
-      "id": "hv74889132"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.4,
-        "place": "13 km S of Nelchina, Alaska",
-        "time": 1769751628119,
-        "updated": 1769751761760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cbriyi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cbriyi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "2026cbriyi",
-        "ids": ",ak2026cbriyi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.7,
-        "rms": 0.9,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 13 km S of Nelchina, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.793,
-          61.873,
-          0.8
-        ]
-      },
-      "id": "ak2026cbriyi"
+      "id": "nc75304546"
     }
   ],
   "bbox": [
-    -155.59182739258,
-    19.149833679199,
-    0.8,
-    -101.926,
-    62.308,
-    34.650001525879
+    -151.26,
+    33.500333333333,
+    0.46000000834465,
+    -116.5095,
+    62.551,
+    88.6
   ]
 }
