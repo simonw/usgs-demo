@@ -1,221 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1769927836000,
+    "generated": 1770014560000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
-    "count": 5
+    "api": "2.3.0",
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "12 km S of Skwentna, Alaska",
-        "time": 1769927461614,
-        "updated": 1769927573594,
+        "mag": 1.72,
+        "place": "32 km S of Rachel, Nevada",
+        "time": 1770012241631,
+        "updated": 1770012405382,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cfkmgf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cfkmgf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00910296",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00910296.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "2026cfkmgf",
-        "ids": ",ak2026cfkmgf,",
-        "sources": ",ak,",
+        "sig": 46,
+        "net": "nn",
+        "code": "00910296",
+        "ids": ",nn00910296,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 54,
+        "nst": 14,
+        "dmin": 0.332,
+        "rms": 0.3892,
+        "gap": 245,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 12 km S of Skwentna, Alaska"
+        "title": "M 1.7 - 32 km S of Rachel, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.434,
-          61.882,
-          68.1
+          -115.7369,
+          37.3487,
+          0.8285
         ]
       },
-      "id": "ak2026cfkmgf"
+      "id": "nn00910296"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.23,
-        "place": "20 km WSW of Ocotillo, CA",
-        "time": 1769926707570,
-        "updated": 1769926926503,
+        "mag": 1.49,
+        "place": "6 km NW of Delta, B.C., MX",
+        "time": 1770011871040,
+        "updated": 1770012085197,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41177527",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41177527.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41178015",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41178015.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 23,
+        "sig": 34,
         "net": "ci",
-        "code": "41177527",
-        "ids": ",ci41177527,",
+        "code": "41178015",
+        "ids": ",ci41178015,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.331,
-        "rms": 0.4,
-        "gap": 172,
+        "nst": 21,
+        "dmin": 0.05965,
+        "rms": 0.27,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 20 km WSW of Ocotillo, CA"
+        "title": "M 1.5 - 6 km NW of Delta, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.184333333333,
-          32.6641666666667,
-          6.72
+          -115.240666666667,
+          32.395,
+          9.76
         ]
       },
-      "id": "ci41177527"
+      "id": "ci41178015"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.94,
-        "place": "10 km WSW of Pine Valley, CA",
-        "time": 1769926505510,
-        "updated": 1769926729108,
+        "mag": 0.87,
+        "place": "5 km NW of The Geysers, CA",
+        "time": 1770011748070,
+        "updated": 1770011842296,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41177519",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41177519.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75305416",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75305416.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 14,
-        "net": "ci",
-        "code": "41177519",
-        "ids": ",ci41177519,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.09334,
-        "rms": 0.14,
-        "gap": 75,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 10 km WSW of Pine Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.637666666667,
-          32.8031666666667,
-          17.42
-        ]
-      },
-      "id": "ci41177519"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "8 km NW of Big Lake, Alaska",
-        "time": 1769926349671,
-        "updated": 1769926459496,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cfjwha",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cfjwha.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "2026cfjwha",
-        "ids": ",ak2026cfjwha,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.5,
-        "rms": 0.4,
-        "gap": 117,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 8 km NW of Big Lake, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.074,
-          61.569,
-          29.1
-        ]
-      },
-      "id": "ak2026cfjwha"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.75,
-        "place": "6 km SSE of Pāhala, Hawaii",
-        "time": 1769924563890,
-        "updated": 1769924775470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74892212",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74892212.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "hv",
-        "code": "74892212",
-        "ids": ",hv74892212,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.01238,
-        "rms": 0.109999999,
-        "gap": 173,
+        "sig": 12,
+        "net": "nc",
+        "code": "75305416",
+        "ids": ",nc75305416,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.001922,
+        "rms": 0.01,
+        "gap": 71,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 6 km SSE of Pāhala, Hawaii"
+        "title": "M 0.9 - 5 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.449340820312,
-          19.1526660919189,
-          32.25
+          -122.797500610352,
+          38.8088340759277,
+          3.47000002861023
         ]
       },
-      "id": "hv74892212"
+      "id": "nc75305416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "3 km NW of Fontana, CA",
+        "time": 1770011653000,
+        "updated": 1770011873833,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41178007",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41178007.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41178007",
+        "ids": ",ci41178007,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 46,
+        "dmin": 0.03575,
+        "rms": 0.17,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 3 km NW of Fontana, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.475833333333,
+          34.1178333333333,
+          6.47
+        ]
+      },
+      "id": "ci41178007"
     }
   ],
   "bbox": [
-    -155.44934082031,
-    19.152666091919,
-    6.72,
-    -116.18433333333,
-    61.882,
-    68.1
+    -122.79750061035,
+    32.395,
+    0.8285,
+    -115.24066666667,
+    38.808834075928,
+    9.76
   ]
 }
