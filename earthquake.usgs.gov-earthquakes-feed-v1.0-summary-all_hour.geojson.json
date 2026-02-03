@@ -1,181 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770014560000,
+    "generated": 1770100641000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.3.0",
-    "count": 4
+    "api": "1.14.1",
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.72,
-        "place": "32 km S of Rachel, Nevada",
-        "time": 1770012241631,
-        "updated": 1770012405382,
+        "mag": 2.33,
+        "place": "4 km ESE of San Ramon, CA",
+        "time": 1770100495900,
+        "updated": 1770100592695,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00910296",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00910296.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75306526",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75306526.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 46,
-        "net": "nn",
-        "code": "00910296",
-        "ids": ",nn00910296,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.332,
-        "rms": 0.3892,
-        "gap": 245,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 32 km S of Rachel, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.7369,
-          37.3487,
-          0.8285
-        ]
-      },
-      "id": "nn00910296"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.49,
-        "place": "6 km NW of Delta, B.C., MX",
-        "time": 1770011871040,
-        "updated": 1770012085197,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41178015",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41178015.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 34,
-        "net": "ci",
-        "code": "41178015",
-        "ids": ",ci41178015,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.05965,
-        "rms": 0.27,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 6 km NW of Delta, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.240666666667,
-          32.395,
-          9.76
-        ]
-      },
-      "id": "ci41178015"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.87,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1770011748070,
-        "updated": 1770011842296,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75305416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75305416.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
+        "sig": 84,
         "net": "nc",
-        "code": "75305416",
-        "ids": ",nc75305416,",
+        "code": "75306526",
+        "ids": ",nc75306526,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.001922,
-        "rms": 0.01,
-        "gap": 71,
+        "nst": 40,
+        "dmin": 0.1015,
+        "rms": 0.05,
+        "gap": 36,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.9 - 5 km NW of The Geysers, CA"
+        "title": "M 2.3 - 4 km ESE of San Ramon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.797500610352,
-          38.8088340759277,
-          3.47000002861023
+          -121.939834594727,
+          37.7598342895508,
+          8.25
         ]
       },
-      "id": "nc75305416"
+      "id": "nc75306526"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.8,
-        "place": "3 km NW of Fontana, CA",
-        "time": 1770011653000,
-        "updated": 1770011873833,
+        "mag": 1.62,
+        "place": "18 km WSW of Delta, B.C., MX",
+        "time": 1770099591150,
+        "updated": 1770099811545,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41178007",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41178007.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41178751",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41178751.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
+        "sig": 40,
         "net": "ci",
-        "code": "41178007",
-        "ids": ",ci41178007,",
+        "code": "41178751",
+        "ids": ",ci41178751,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 46,
-        "dmin": 0.03575,
-        "rms": 0.17,
-        "gap": 42,
+        "nst": 24,
+        "dmin": 0.1398,
+        "rms": 0.22,
+        "gap": 65,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 3 km NW of Fontana, CA"
+        "title": "M 1.6 - 18 km WSW of Delta, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.475833333333,
-          34.1178333333333,
-          6.47
+          -115.3665,
+          32.2893333333333,
+          5.86
         ]
       },
-      "id": "ci41178007"
+      "id": "ci41178751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.04,
+        "place": "4 km NNW of The Geysers, CA",
+        "time": 1770098896510,
+        "updated": 1770098991414,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75306521",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75306521.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75306521",
+        "ids": ",nc75306521,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.004963,
+        "rms": 0.02,
+        "gap": 66,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 4 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.779830932617,
+          38.8083343505859,
+          2.95000004768372
+        ]
+      },
+      "id": "nc75306521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.53,
+        "place": "4 km ESE of San Ramon, CA",
+        "time": 1770098765720,
+        "updated": 1770098861751,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75306516",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75306516.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "nc",
+        "code": "75306516",
+        "ids": ",nc75306516,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.09917,
+        "rms": 0.11,
+        "gap": 107,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 4 km ESE of San Ramon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.943664550781,
+          37.7625007629395,
+          6.53000020980835
+        ]
+      },
+      "id": "nc75306516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.85,
+        "place": "2 km N of Pinnacles, CA",
+        "time": 1770098336020,
+        "updated": 1770098761065,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75306511",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75306511.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "nc",
+        "code": "75306511",
+        "ids": ",nc75306511,",
+        "sources": ",nc,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.03702,
+        "rms": 0.16,
+        "gap": 57,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 2 km N of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.146835327148,
+          36.5514984130859,
+          7.40000009536743
+        ]
+      },
+      "id": "nc75306511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.73,
+        "place": "9 km SW of San Diego Country Estates, CA",
+        "time": 1770097781350,
+        "updated": 1770098002495,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41178743",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41178743.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "41178743",
+        "ids": ",ci41178743,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.05104,
+        "rms": 0.18,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 9 km SW of San Diego Country Estates, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.844333333333,
+          32.942,
+          15.96
+        ]
+      },
+      "id": "ci41178743"
     }
   ],
   "bbox": [
-    -122.79750061035,
-    32.395,
-    0.8285,
-    -115.24066666667,
-    38.808834075928,
-    9.76
+    -122.77983093262,
+    32.289333333333,
+    2.9500000476837,
+    -115.3665,
+    38.808334350586,
+    15.96
   ]
 }
