@@ -1,261 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770273550000,
+    "generated": 1770359855000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.3.0",
-    "count": 6
+    "api": "1.14.1",
+    "count": 1
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.36,
-        "place": "4 km ESE of San Ramon, CA",
-        "time": 1770273177510,
-        "updated": 1770273276576,
+        "mag": 0.44,
+        "place": "9 km SSE of Parkfield, CA",
+        "time": 1770358235110,
+        "updated": 1770358330559,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308772",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75308772.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75309377",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75309377.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 28,
+        "sig": 3,
         "net": "nc",
-        "code": "75308772",
-        "ids": ",nc75308772,",
+        "code": "75309377",
+        "ids": ",nc75309377,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": null,
-        "rms": 0.07,
-        "gap": 86,
+        "nst": 11,
+        "dmin": 0.02468,
+        "rms": 0.12,
+        "gap": 127,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 4 km ESE of San Ramon, CA"
+        "title": "M 0.4 - 9 km SSE of Parkfield, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.931831359863,
-          37.7646675109863,
-          4
+          -120.383499145508,
+          35.8251647949219,
+          -0.109999999403954
         ]
       },
-      "id": "nc75308772"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "4 km NW of Westbrook, Texas",
-        "time": 1770271918714,
-        "updated": 1770272411559,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026cmstjd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026cmstjd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2026cmstjd",
-        "ids": ",tx2026cmstjd,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 4 km NW of Westbrook, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.04,
-          32.388,
-          1.9024
-        ]
-      },
-      "id": "tx2026cmstjd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.29,
-        "place": "5 km NNE of Alum Rock, CA",
-        "time": 1770271147270,
-        "updated": 1770272763481,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308762",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75308762.geojson",
-        "felt": 15,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 85,
-        "net": "nc",
-        "code": "75308762",
-        "ids": ",nc75308762,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 65,
-        "dmin": null,
-        "rms": 0.08,
-        "gap": 30,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 5 km NNE of Alum Rock, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.794998168945,
-          37.4075012207031,
-          3.05999994277954
-        ]
-      },
-      "id": "nc75308762"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "13 km ESE of Pearsall, Texas",
-        "time": 1770270696342,
-        "updated": 1770270822129,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026cmsbuo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026cmsbuo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2026cmsbuo",
-        "ids": ",tx2026cmsbuo,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 108,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 13 km ESE of Pearsall, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.979,
-          28.825,
-          9.6406
-        ]
-      },
-      "id": "tx2026cmsbuo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.34,
-        "place": "44 km NNE of Rachel, Nevada",
-        "time": 1770270384786,
-        "updated": 1770270547785,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00910400",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00910400.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 84,
-        "net": "nn",
-        "code": "00910400",
-        "ids": ",nn00910400,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.915,
-        "rms": 0.2996,
-        "gap": 275,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 44 km NNE of Rachel, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.6323,
-          38.0324,
-          0.0162
-        ]
-      },
-      "id": "nn00910400"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "46 km SSE of La Libertad, El Salvador",
-        "time": 1770269986643,
-        "updated": 1770270940722,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6jv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s6jv.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "6000s6jv",
-        "ids": ",us6000s6jv,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 89,
-        "dmin": 0.694,
-        "rms": 0.67,
-        "gap": 163,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 46 km SSE of La Libertad, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.2338,
-          13.0779,
-          58.239
-        ]
-      },
-      "id": "us6000s6jv"
+      "id": "nc75309377"
     }
-  ],
-  "bbox": [
-    -121.93183135986,
-    13.0779,
-    0.0162,
-    -89.2338,
-    38.0324,
-    58.239
   ]
 }
