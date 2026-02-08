@@ -1,24 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770446195000,
+    "generated": 1770532640000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 5
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.98,
-        "place": "5 km S of Loyola, CA",
-        "time": 1770445931460,
-        "updated": 1770446025652,
+        "mag": 0.83,
+        "place": "2 km NW of The Geysers, CA",
+        "time": 1770532282170,
+        "updated": 1770532379225,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75309947",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75309947.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75310482",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75310482.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "nc",
+        "code": "75310482",
+        "ids": ",nc75310482,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01466,
+        "rms": 0.09,
+        "gap": 164,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 2 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.771003723145,
+          38.7868347167969,
+          15.2700004577637
+        ]
+      },
+      "id": "nc75310482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.22,
+        "place": "18 km ESE of Leilani Estates, Hawaii",
+        "time": 1770532048330,
+        "updated": 1770532290400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74896417",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74896417.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 76,
+        "net": "hv",
+        "code": "74896417",
+        "ids": ",hv74896417,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.1631,
+        "rms": 0.140000001,
+        "gap": 283,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 18 km ESE of Leilani Estates, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.76350402832,
+          19.3831672668457,
+          41.5900001525879
+        ]
+      },
+      "id": "hv74896417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "16 km ESE of Julian, CA",
+        "time": 1770531723150,
+        "updated": 1770531949592,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41393752",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41393752.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,196 +106,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 15,
-        "net": "nc",
-        "code": "75309947",
-        "ids": ",nc75309947,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.02909,
-        "rms": 0.06,
-        "gap": 110,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 5 km S of Loyola, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.09400177002,
-          37.3046684265137,
-          7.28000020980835
-        ]
-      },
-      "id": "nc75309947"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "23 km W of Happy Valley, Alaska",
-        "time": 1770445517200,
-        "updated": 1770445631310,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cqkqli",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cqkqli.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "2026cqkqli",
-        "ids": ",ak2026cqkqli,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.4,
-        "rms": 0.5,
-        "gap": 80,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 23 km W of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.151,
-          59.936,
-          82.5
-        ]
-      },
-      "id": "ak2026cqkqli"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "37 km ENE of Pedro Bay, Alaska",
-        "time": 1770444698353,
-        "updated": 1770445526304,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cqkeua",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cqkeua.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "2026cqkeua",
-        "ids": ",ak2026cqkeua,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.2,
-        "rms": 0.4,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 37 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.498,
-          59.928,
-          119.2
-        ]
-      },
-      "id": "ak2026cqkeua"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "9 km NNE of Cooper Landing, Alaska",
-        "time": 1770443821249,
-        "updated": 1770445900329,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cqjsfi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cqjsfi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "2026cqjsfi",
-        "ids": ",ak2026cqjsfi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.2,
-        "rms": 0.4,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 9 km NNE of Cooper Landing, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.763,
-          60.57,
-          34
-        ]
-      },
-      "id": "ak2026cqjsfi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.97,
-        "place": "27 km E of Coso Junction, CA",
-        "time": 1770443443070,
-        "updated": 1770443673118,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41393336",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41393336.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 60,
         "net": "ci",
-        "code": "41393336",
-        "ids": ",ci41393336,",
+        "code": "41393752",
+        "ids": ",ci41393752,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.1099,
-        "rms": 0.16,
-        "gap": 35,
+        "nst": 52,
+        "dmin": 0.03859,
+        "rms": 0.19,
+        "gap": 40,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 27 km E of Coso Junction, CA"
+        "title": "M 1.0 - 16 km ESE of Julian, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.652833333333,
-          36.0868333333333,
-          1.29
+          -116.440833333333,
+          33.0386666666667,
+          10.47
         ]
       },
-      "id": "ci41393336"
+      "id": "ci41393752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.24,
+        "place": "3 km SSE of Redwood Valley, CA",
+        "time": 1770531259330,
+        "updated": 1770532021840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75310472",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75310472.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 77,
+        "net": "nc",
+        "code": "75310472",
+        "ids": ",nc75310472,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.06268,
+        "rms": 0.09,
+        "gap": 40,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 3 km SSE of Redwood Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.19750213623,
+          39.242000579834,
+          6.34000015258789
+        ]
+      },
+      "id": "nc75310472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "79 km W of Akhiok, Alaska",
+        "time": 1770530642026,
+        "updated": 1770530798963,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026csfrds",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026csfrds.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "ak",
+        "code": "2026csfrds",
+        "ids": ",ak2026csfrds,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.8,
+        "rms": 0.5,
+        "gap": 245,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 79 km W of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.471,
+          56.997,
+          32.6
+        ]
+      },
+      "id": "ak2026csfrds"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.19,
+        "place": "4 km NW of The Geysers, CA",
+        "time": 1770529729610,
+        "updated": 1770529823724,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75310467",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75310467.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "nc",
+        "code": "75310467",
+        "ids": ",nc75310467,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.003979,
+        "rms": 0.03,
+        "gap": 58,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.2 - 4 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.794830322266,
+          38.8040008544922,
+          3.22000002861023
+        ]
+      },
+      "id": "nc75310467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.86,
+        "place": "2 km W of Anderson Springs, CA",
+        "time": 1770529441340,
+        "updated": 1770529538544,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75310462",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75310462.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "nc",
+        "code": "75310462",
+        "ids": ",nc75310462,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.01707,
+        "rms": 0.01,
+        "gap": 95,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.9 - 2 km W of Anderson Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.719497680664,
+          38.7781677246094,
+          0.930000007152557
+        ]
+      },
+      "id": "nc75310462"
     }
   ],
   "bbox": [
-    -153.498,
-    36.086833333333,
-    1.29,
-    -117.65283333333,
-    60.57,
-    119.2
+    -155.471,
+    19.383167266846,
+    0.93000000715256,
+    -116.44083333333,
+    56.997,
+    41.590000152588
   ]
 }
