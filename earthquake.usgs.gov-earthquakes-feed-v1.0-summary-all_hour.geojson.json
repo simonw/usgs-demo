@@ -1,264 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1770792161000,
+    "generated": 1770878558000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "2.3.0",
+    "api": "1.14.1",
     "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.49,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1770791262410,
-        "updated": 1770791360213,
+        "mag": 2.01,
+        "place": "14 km ESE of Mammoth Lakes, CA",
+        "time": 1770878339440,
+        "updated": 1770878536980,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75312017",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75312017.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "nc",
-        "code": "75312017",
-        "ids": ",nc75312017,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01649,
-        "rms": 0.01,
-        "gap": 144,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.5 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.767166137695,
-          38.7961654663086,
-          1.87999999523163
-        ]
-      },
-      "id": "nc75312017"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.05,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1770791239680,
-        "updated": 1770791427420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75312007",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75312007.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "nc",
-        "code": "75312007",
-        "ids": ",nc75312007,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.01736,
-        "rms": 0.04,
-        "gap": 68,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.765998840332,
-          38.7960014343262,
-          1.11000001430511
-        ]
-      },
-      "id": "nc75312007"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "33 km NE of Paxson, Alaska",
-        "time": 1770790936559,
-        "updated": 1770791015594,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cxtlnd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cxtlnd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "2026cxtlnd",
-        "ids": ",ak2026cxtlnd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 33 km NE of Paxson, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -145.231,
-          63.34,
-          0.1
-        ]
-      },
-      "id": "ak2026cxtlnd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.19,
-        "place": "14 km SW of Searles Valley, CA",
-        "time": 1770790850620,
-        "updated": 1770791075391,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41395552",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41395552.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ci",
-        "code": "41395552",
-        "ids": ",ci41395552,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.05542,
-        "rms": 0.13,
-        "gap": 43,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 14 km SW of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.491666666667,
-          35.662,
-          3.79
-        ]
-      },
-      "id": "ci41395552"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "3 km W of Jordán, Colombia",
-        "time": 1770789579727,
-        "updated": 1770791526165,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7rz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000s7rz.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000s7rz",
-        "ids": ",us6000s7rz,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 78,
-        "dmin": 2.219,
-        "rms": 1.08,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 3 km W of Jordán, Colombia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.13,
-          6.7337,
-          146.9
-        ]
-      },
-      "id": "us6000s7rz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.74,
-        "place": "8 km ENE of Pāhala, Hawaii",
-        "time": 1770789259120,
-        "updated": 1770789510160,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74897662",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74897662.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "hv",
-        "code": "74897662",
-        "ids": ",hv74897662,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.00832,
-        "rms": 0.119999997,
-        "gap": 153,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 8 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.406005859375,
-          19.2396659851074,
-          33.689998626709
-        ]
-      },
-      "id": "hv74897662"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "25 km ESE of Point Possession, Alaska",
-        "time": 1770788925144,
-        "updated": 1770789035709,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cxsiqa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cxsiqa.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75312487",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75312487.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,119 +26,319 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 62,
-        "net": "ak",
-        "code": "2026cxsiqa",
-        "ids": ",ak2026cxsiqa,",
-        "sources": ",ak,",
+        "net": "nc",
+        "code": "75312487",
+        "ids": ",nc75312487,nn00910687,",
+        "sources": ",nc,nn,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.02544,
+        "rms": 0.06,
+        "gap": 84,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 14 km ESE of Mammoth Lakes, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.847503662109,
+          37.5691680908203,
+          4.42999982833862
+        ]
+      },
+      "id": "nc75312487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.42,
+        "place": "20 km SE of Pāhala, Hawaii",
+        "time": 1770878250590,
+        "updated": 1770878460960,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74897927",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74897927.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 90,
+        "net": "hv",
+        "code": "74897927",
+        "ids": ",hv74897927,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.3,
-        "rms": 0.5,
+        "nst": 54,
+        "dmin": 0.1393,
+        "rms": 0.150000006,
+        "gap": 209,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 20 km SE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.366165161133,
+          19.049165725708,
+          32.7299995422363
+        ]
+      },
+      "id": "hv74897927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.83,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1770878164110,
+        "updated": 1770878258819,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75312482",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75312482.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "nc",
+        "code": "75312482",
+        "ids": ",nc75312482,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.006339,
+        "rms": 0.02,
         "gap": 68,
-        "magType": "ml",
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.0 - 25 km ESE of Point Possession, Alaska"
+        "title": "M 0.8 - 5 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.254,
-          60.831,
-          38.4
+          -122.78150177002,
+          38.8376655578613,
+          1.89999997615814
         ]
       },
-      "id": "ak2026cxsiqa"
+      "id": "nc75312482"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "64 km NNE of Van Horn, Texas",
-        "time": 1770788787412,
-        "updated": 1770789670073,
+        "mag": 1.55,
+        "place": "3 km NW of Anderson Springs, CA",
+        "time": 1770877946560,
+        "updated": 1770878043791,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026cxsgqu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026cxsgqu.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75312477",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75312477.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026cxsgqu",
-        "ids": ",tx2026cxsgqu,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 80,
-        "magType": "ml",
+        "sig": 37,
+        "net": "nc",
+        "code": "75312477",
+        "ids": ",nc75312477,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.02767,
+        "rms": 0.05,
+        "gap": 58,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.6 - 64 km NNE of Van Horn, Texas"
+        "title": "M 1.6 - 3 km NW of Anderson Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.572,
-          31.575,
-          4.4186
+          -122.720832824707,
+          38.7901649475098,
+          1.04999995231628
         ]
       },
-      "id": "tx2026cxsgqu"
+      "id": "nc75312477"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.39,
-        "place": "20 km NE of Coachella, CA",
-        "time": 1770788629270,
-        "updated": 1770789268140,
+        "mag": 0.9,
+        "place": "4 km WNW of The Geysers, CA",
+        "time": 1770877845100,
+        "updated": 1770877938512,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41395544",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41395544.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75312472",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75312472.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
+        "sig": 12,
+        "net": "nc",
+        "code": "75312472",
+        "ids": ",nc75312472,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.00261,
+        "rms": 0.04,
+        "gap": 111,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.9 - 4 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.790664672852,
+          38.7946662902832,
+          11.1300001144409
+        ]
+      },
+      "id": "nc75312472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.62,
+        "place": "4 km SSE of Brawley, CA",
+        "time": 1770877708940,
+        "updated": 1770877942590,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41396248",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41396248.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 40,
         "net": "ci",
-        "code": "41395544",
-        "ids": ",ci41395544,",
+        "code": "41396248",
+        "ids": ",ci41396248,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 49,
-        "dmin": 0.1258,
-        "rms": 0.17,
-        "gap": 59,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.06227,
+        "rms": 0.29,
+        "gap": 39,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 20 km NE of Coachella, CA"
+        "title": "M 1.6 - 4 km SSE of Brawley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.997833333333,
-          33.7811666666667,
-          3.12
+          -115.511333333333,
+          32.948,
+          11.46
         ]
       },
-      "id": "ci41395544"
+      "id": "ci41396248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.93,
+        "place": "5 km WNW of The Geysers, CA",
+        "time": 1770876994100,
+        "updated": 1770877089436,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75312467",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75312467.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "nc",
+        "code": "75312467",
+        "ids": ",nc75312467,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.01073,
+        "rms": 0.02,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.9 - 5 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.811164855957,
+          38.7970008850098,
+          3.20000004768372
+        ]
+      },
+      "id": "nc75312467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.32,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1770876904030,
+        "updated": 1770876999432,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75312462",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75312462.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 27,
+        "net": "nc",
+        "code": "75312462",
+        "ids": ",nc75312462,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.01023,
+        "rms": 0.02,
+        "gap": 49,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.81950378418,
+          38.8305015563965,
+          1.91999995708466
+        ]
+      },
+      "id": "nc75312462"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "110 km NW of Yakutat, Alaska",
-        "time": 1770788566324,
-        "updated": 1770788747670,
+        "place": "5 km WNW of The Geysers, CA",
+        "time": 1770876583640,
+        "updated": 1770876806360,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026cxsdmb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026cxsdmb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75312457",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75312457.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -386,36 +346,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 35,
-        "net": "ak",
-        "code": "2026cxsdmb",
-        "ids": ",ak2026cxsdmb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1,
-        "rms": 1,
-        "gap": 256,
-        "magType": "ml",
+        "net": "nc",
+        "code": "75312457",
+        "ids": ",nc75312457,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.01028,
+        "rms": 0.03,
+        "gap": 72,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 110 km NW of Yakutat, Alaska"
+        "title": "M 1.5 - 5 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.226,
-          60.187,
-          5
+          -122.810165405273,
+          38.7970008850098,
+          2.9300000667572
         ]
       },
-      "id": "ak2026cxsdmb"
+      "id": "nc75312457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.43,
+        "place": "3 km SE of Brawley, CA",
+        "time": 1770875841190,
+        "updated": 1770876062378,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41396240",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41396240.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "ci",
+        "code": "41396240",
+        "ids": ",ci41396240,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.07104,
+        "rms": 0.26,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 3 km SE of Brawley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.506833333333,
+          32.9563333333333,
+          7.88
+        ]
+      },
+      "id": "ci41396240"
     }
   ],
   "bbox": [
-    -155.40600585938,
-    6.7337,
-    0.1,
-    -73.13,
-    63.34,
-    146.9
+    -155.36616516113,
+    19.049165725708,
+    1.0499999523163,
+    -115.50683333333,
+    38.837665557861,
+    32.729999542236
   ]
 }
