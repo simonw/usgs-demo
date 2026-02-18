@@ -1,304 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771310388000,
+    "generated": 1771396929000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 16
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.43920652513592,
-        "place": "10 km WNW of Lake Elsinore, CA",
-        "time": 1771310258170,
-        "updated": 1771310380312,
+        "mag": 0.9,
+        "place": "41 km S of Whites City, New Mexico",
+        "time": 1771396528254,
+        "updated": 1771396691509,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41399208",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41399208.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dkpyzl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dkpyzl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 32,
-        "net": "ci",
-        "code": "41399208",
-        "ids": ",ci41399208,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,scitech-link,",
-        "nst": 29,
-        "dmin": 0.05072,
-        "rms": 0.180000007,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 10 km WNW of Lake Elsinore, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.423500061035,
-          33.701000213623,
-          9.02999973297119
-        ]
-      },
-      "id": "ci41399208"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.06,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1771309967970,
-        "updated": 1771310063721,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314937",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75314937.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75314937",
-        "ids": ",nc75314937,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.01764,
-        "rms": 0.01,
-        "gap": 53,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.804000854492,
-          38.824333190918,
-          2.38000011444092
-        ]
-      },
-      "id": "nc75314937"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
-        "place": "49 km W of Mentone, Texas",
-        "time": 1771309520705,
-        "updated": 1771310367040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026diturg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026diturg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 112,
+        "sig": 12,
         "net": "tx",
-        "code": "2026diturg",
-        "ids": ",us6000s9q0,tx2026diturg,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 47,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 49 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.116,
-          31.669,
-          3.9894
-        ]
-      },
-      "id": "tx2026diturg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "60 km SE of Akutan, Alaska",
-        "time": 1771309011555,
-        "updated": 1771309629673,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026ditqhu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026ditqhu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "2026ditqhu",
-        "ids": ",ak2026ditqhu,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.5,
-        "rms": 0.4,
-        "gap": 206,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 60 km SE of Akutan, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -165.078,
-          53.782,
-          49.3
-        ]
-      },
-      "id": "ak2026ditqhu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "49 km NW of Toyah, Texas",
-        "time": 1771308902125,
-        "updated": 1771309828991,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ditonn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ditonn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2026ditonn",
-        "ids": ",us6000s9py,tx2026ditonn,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 49 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.13,
-          31.658,
-          4.307
-        ]
-      },
-      "id": "tx2026ditonn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.56,
-        "place": "21 km N of Searles Valley, CA",
-        "time": 1771308704310,
-        "updated": 1771308924943,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41399200",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41399200.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 37,
-        "net": "ci",
-        "code": "41399200",
-        "ids": ",ci41399200,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.1074,
-        "rms": 0.11,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 21 km N of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3925,
-          35.9518333333333,
-          3.38
-        ]
-      },
-      "id": "ci41399200"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "49 km W of Mentone, Texas",
-        "time": 1771308543663,
-        "updated": 1771309558962,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ditjcy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ditjcy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2026ditjcy",
-        "ids": ",tx2026ditjcy,",
+        "code": "2026dkpyzl",
+        "ids": ",tx2026dkpyzl,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 48,
+        "nst": 8,
+        "dmin": 0.1,
+        "rms": 1.5,
+        "gap": 226,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 49 km W of Mentone, Texas"
+        "title": "M 0.9 - 41 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.122,
-          31.666,
-          4.2358
+          -104.374,
+          31.802,
+          0
         ]
       },
-      "id": "tx2026ditjcy"
+      "id": "tx2026dkpyzl"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "49 km NW of Toyah, Texas",
-        "time": 1771308441470,
-        "updated": 1771309132910,
+        "mag": 1,
+        "place": "117 km ESE of Cordova, Alaska",
+        "time": 1771396443729,
+        "updated": 1771396522282,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ditgwy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ditgwy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dkpxuy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dkpxuy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ak",
+        "code": "a2026dkpxuy",
+        "ids": ",aka2026dkpxuy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1,
+        "rms": 0.9,
+        "gap": 85,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 117 km ESE of Cordova, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.67,
+          60.335,
+          5
+        ]
+      },
+      "id": "aka2026dkpxuy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.15,
+        "place": "11 km ESE of Puebla, B.C., MX",
+        "time": 1771396420780,
+        "updated": 1771396632527,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41187447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41187447.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 71,
+        "net": "ci",
+        "code": "41187447",
+        "ids": ",ci41187447,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.1302,
+        "rms": 0.25,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 11 km ESE of Puebla, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.239166666667,
+          32.5375,
+          21.32
+        ]
+      },
+      "id": "ci41187447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "44 km W of Nanwalek, Alaska",
+        "time": 1771396396614,
+        "updated": 1771396514798,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dkpxdp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dkpxdp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026dkpxdp",
+        "ids": ",aka2026dkpxdp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.4,
+        "rms": 0.4,
+        "gap": 99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 44 km W of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.696,
+          59.392,
+          76.4
+        ]
+      },
+      "id": "aka2026dkpxdp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.11,
+        "place": "9 km S of Volcano, Hawaii",
+        "time": 1771395752410,
+        "updated": 1771396005200,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74901732",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74901732.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -306,356 +186,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 68,
-        "net": "tx",
-        "code": "2026ditgwy",
-        "ids": ",tx2026ditgwy,",
-        "sources": ",tx,",
+        "net": "hv",
+        "code": "74901732",
+        "ids": ",hv74901732,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0,
-        "rms": 0.2,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 49 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.13,
-          31.658,
-          4.1781
-        ]
-      },
-      "id": "tx2026ditgwy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "48 km W of Mentone, Texas",
-        "time": 1771308405621,
-        "updated": 1771309021899,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dithla",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dithla.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026dithla",
-        "ids": ",tx2026dithla,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 104,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 48 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.114,
-          31.667,
-          3.2649
-        ]
-      },
-      "id": "tx2026dithla"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.64,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1771308381030,
-        "updated": 1771308477389,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314932",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75314932.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "nc",
-        "code": "75314932",
-        "ids": ",nc75314932,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.01325,
-        "rms": 0.02,
-        "gap": 112,
+        "nst": 49,
+        "dmin": 0.0132,
+        "rms": 0.129999995,
+        "gap": 150,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.6 - 7 km NW of The Geysers, CA"
+        "title": "M 2.1 - 9 km S of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.816665649414,
-          38.8178329467773,
-          4.88000011444092
+          -155.237335205078,
+          19.3606662750244,
+          29.7099990844727
         ]
       },
-      "id": "nc75314932"
+      "id": "hv74901732"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2,
-        "place": "49 km W of Mentone, Texas",
-        "time": 1771308326271,
-        "updated": 1771309093908,
+        "mag": 1.15,
+        "place": "22 km ESE of Anza, CA",
+        "time": 1771395596030,
+        "updated": 1771395802386,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ditgaz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ditgaz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41187439",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41187439.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
-        "net": "tx",
-        "code": "2026ditgaz",
-        "ids": ",tx2026ditgaz,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 47,
+        "sig": 20,
+        "net": "ci",
+        "code": "41187439",
+        "ids": ",ci41187439,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 39,
+        "dmin": 0.1502,
+        "rms": 0.19,
+        "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 49 km W of Mentone, Texas"
+        "title": "M 1.2 - 22 km ESE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.121,
-          31.666,
-          3.9083
+          -116.455833333333,
+          33.4786666666667,
+          14.07
         ]
       },
-      "id": "tx2026ditgaz"
+      "id": "ci41187439"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "49 km W of Mentone, Texas",
-        "time": 1771308153063,
-        "updated": 1771308450746,
+        "mag": 2.1,
+        "place": "110 km SSE of Ugashik, Alaska",
+        "time": 1771394359257,
+        "updated": 1771394514306,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ditdrj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ditdrj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dkotvx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dkotvx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2026ditdrj",
-        "ids": ",tx2026ditdrj,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 49 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.117,
-          31.668,
-          4.5979
-        ]
-      },
-      "id": "tx2026ditdrj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.7,
-        "place": "48 km W of Mentone, Texas",
-        "time": 1771308077245,
-        "updated": 1771309755758,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ditcsc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ditcsc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.197,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 211,
-        "net": "tx",
-        "code": "2026ditcsc",
-        "ids": ",us6000s9pr,tx2026ditcsc,",
-        "sources": ",us,tx,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": 19,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.7 - 48 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.111,
-          31.667,
-          5.0873
-        ]
-      },
-      "id": "tx2026ditcsc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "8 km W of Pecos, Texas",
-        "time": 1771307786745,
-        "updated": 1771308119064,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026disxqs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026disxqs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026disxqs",
-        "ids": ",tx2026disxqs,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1,
-        "rms": 1.4,
-        "gap": 191,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 8 km W of Pecos, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.579,
-          31.437,
-          0
-        ]
-      },
-      "id": "tx2026disxqs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.04,
-        "place": "1 km ENE of The Geysers, CA",
-        "time": 1771307700640,
-        "updated": 1771307798285,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314927",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75314927.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75314927",
-        "ids": ",nc75314927,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.01902,
-        "rms": 0.02,
-        "gap": 162,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 1 km ENE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.744499206543,
-          38.7799987792969,
-          0.389999985694885
-        ]
-      },
-      "id": "nc75314927"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "14 km N of Ivanof Bay, Alaska",
-        "time": 1771307328467,
-        "updated": 1771307551489,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026disryf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak2026disryf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
+        "sig": 68,
         "net": "ak",
-        "code": "2026disryf",
-        "ids": ",ak2026disryf,",
+        "code": "a2026dkotvx",
+        "ids": ",aka2026dkotvx,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 5,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 223,
+        "nst": 30,
+        "dmin": 0.9,
+        "rms": 0.5,
+        "gap": 190,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 14 km N of Ivanof Bay, Alaska"
+        "title": "M 2.1 - 110 km SSE of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.456,
-          56.027,
-          5
+          -156.507,
+          56.643,
+          75.9
         ]
       },
-      "id": "ak2026disryf"
+      "id": "aka2026dkotvx"
     }
   ],
   "bbox": [
-    -165.078,
-    31.437,
+    -156.507,
+    19.360666275024,
     0,
-    -103.579,
-    56.027,
-    49.3
+    -104.374,
+    60.335,
+    76.4
   ]
 }
