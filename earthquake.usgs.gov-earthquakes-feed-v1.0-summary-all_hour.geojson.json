@@ -1,301 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771829070000,
+    "generated": 1771915247000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 7
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1771828636780,
-        "updated": 1771828733989,
+        "mag": 1.98,
+        "place": "12 km E of Pāhala, Hawaii",
+        "time": 1771914211790,
+        "updated": 1771914437620,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75317907",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75317907.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74907291",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74907291.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
+        "sig": 60,
+        "net": "hv",
+        "code": "74907291",
+        "ids": ",hv74907291,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.04776,
+        "rms": 0.119999997,
+        "gap": 177,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 12 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.361999511719,
+          19.203332901001,
+          31.1100006103516
+        ]
+      },
+      "id": "hv74907291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "59 km WNW of Tatitlek, Alaska",
+        "time": 1771913613928,
+        "updated": 1771913696044,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dvppld",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dvppld.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ak",
+        "code": "a2026dvppld",
+        "ids": ",aka2026dvppld,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.3,
+        "rms": 1,
+        "gap": 123,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 59 km WNW of Tatitlek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.607,
+          61.146,
+          5
+        ]
+      },
+      "id": "aka2026dvppld"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.27,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1771913536330,
+        "updated": 1771913721007,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75318292",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75318292.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 25,
         "net": "nc",
-        "code": "75317907",
-        "ids": ",nc75317907,",
+        "code": "75318292",
+        "ids": ",nc75318292,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.01112,
+        "nst": 23,
+        "dmin": 0.009618,
         "rms": 0.02,
-        "gap": 54,
+        "gap": 53,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 6 km NW of The Geysers, CA"
+        "title": "M 1.3 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.815170288086,
-          38.8129997253418,
-          3.00999999046326
+          -122.818832397461,
+          38.8301658630371,
+          1.66999995708466
         ]
       },
-      "id": "nc75317907"
+      "id": "nc75318292"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "17 km N of Two Rivers, Alaska",
-        "time": 1771828330684,
-        "updated": 1771828426473,
+        "mag": 1.6,
+        "place": "31 km NW of Toyah, Texas",
+        "time": 1771912550423,
+        "updated": 1771913034189,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dtumpk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dtumpk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dvpado",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dvpado.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "a2026dtumpk",
-        "ids": ",aka2026dtumpk,",
-        "sources": ",ak,",
+        "sig": 39,
+        "net": "tx",
+        "code": "2026dvpado",
+        "ids": ",tx2026dvpado,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 75,
+        "nst": 29,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 17 km N of Two Rivers, Alaska"
+        "title": "M 1.6 - 31 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.038,
-          65.03,
-          2.1
+          -104.023,
+          31.524,
+          4.388
         ]
       },
-      "id": "aka2026dtumpk"
+      "id": "tx2026dvpado"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.06,
-        "place": "2 km NW of The Geysers, CA",
-        "time": 1771827566360,
-        "updated": 1771827664732,
+        "mag": 1.96,
+        "place": "10 km WSW of Volcano, Hawaii",
+        "time": 1771912421430,
+        "updated": 1771912633990,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75317902",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75317902.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74907276",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74907276.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75317902",
-        "ids": ",nc75317902,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.02172,
-        "rms": 0.06,
-        "gap": 80,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 2 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.776832580566,
-          38.7906684875488,
-          1.5
-        ]
-      },
-      "id": "nc75317902"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.62,
-        "place": "4 km NNW of Pacifica, CA",
-        "time": 1771827426120,
-        "updated": 1771827523738,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75317892",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75317892.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 40,
-        "net": "nc",
-        "code": "75317892",
-        "ids": ",nc75317892,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
+        "sig": 59,
+        "net": "hv",
+        "code": "74907276",
+        "ids": ",hv74907276,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
         "nst": 11,
-        "dmin": 0.02705,
-        "rms": 0.03,
-        "gap": 200,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 4 km NNW of Pacifica, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.505500793457,
-          37.648998260498,
-          8.85000038146973
-        ]
-      },
-      "id": "nc75317892"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.4,
-        "place": "56 km SW of Akhiok, Alaska",
-        "time": 1771826757825,
-        "updated": 1771826920672,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dttqej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dttqej.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "a2026dttqej",
-        "ids": ",aka2026dttqej,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 1.1,
-        "rms": 0.6,
-        "gap": 203,
+        "dmin": 0.03429,
+        "rms": 0.239999995,
+        "gap": 263,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 56 km SW of Akhiok, Alaska"
+        "title": "M 2.0 - 10 km WSW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.893,
-          56.631,
-          0.1
+          -155.325836181641,
+          19.4106674194336,
+          0.230000004172325
         ]
       },
-      "id": "aka2026dttqej"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "51 km N of Petersville, Alaska",
-        "time": 1771826644592,
-        "updated": 1771826853672,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dttojs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dttojs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "a2026dttojs",
-        "ids": ",aka2026dttojs,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 51 km N of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.599,
-          62.95,
-          89.3
-        ]
-      },
-      "id": "aka2026dttojs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.89,
-        "place": "13 km SSW of Rancho Palos Verdes, CA",
-        "time": 1771825688740,
-        "updated": 1771826510189,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41401872",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41401872.geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 55,
-        "net": "ci",
-        "code": "41401872",
-        "ids": ",ci41401872,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.1085,
-        "rms": 0.27,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 13 km SSW of Rancho Palos Verdes, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.435833333333,
-          33.638,
-          10.8
-        ]
-      },
-      "id": "ci41401872"
+      "id": "hv74907276"
     }
   ],
   "bbox": [
-    -154.893,
-    33.638,
-    0.1,
-    -118.43583333333,
-    65.03,
-    89.3
+    -155.36199951172,
+    19.203332901001,
+    0.23000000417232,
+    -104.023,
+    61.146,
+    31.110000610352
   ]
 }
