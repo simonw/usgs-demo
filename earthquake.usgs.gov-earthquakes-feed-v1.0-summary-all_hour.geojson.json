@@ -1,221 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1771915247000,
+    "generated": 1772001737000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 5
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.98,
-        "place": "12 km E of Pāhala, Hawaii",
-        "time": 1771914211790,
-        "updated": 1771914437620,
+        "mag": 1.1,
+        "place": "9 km NNE of Midland, Texas",
+        "time": 1772000410787,
+        "updated": 1772000659766,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74907291",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74907291.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dxlnuf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dxlnuf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 60,
-        "net": "hv",
-        "code": "74907291",
-        "ids": ",hv74907291,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.04776,
-        "rms": 0.119999997,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 12 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.361999511719,
-          19.203332901001,
-          31.1100006103516
-        ]
-      },
-      "id": "hv74907291"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "59 km WNW of Tatitlek, Alaska",
-        "time": 1771913613928,
-        "updated": 1771913696044,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dvppld",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dvppld.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026dvppld",
-        "ids": ",aka2026dvppld,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.3,
-        "rms": 1,
-        "gap": 123,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 59 km WNW of Tatitlek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.607,
-          61.146,
-          5
-        ]
-      },
-      "id": "aka2026dvppld"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.27,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1771913536330,
-        "updated": 1771913721007,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75318292",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75318292.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "nc",
-        "code": "75318292",
-        "ids": ",nc75318292,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.009618,
-        "rms": 0.02,
-        "gap": 53,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.818832397461,
-          38.8301658630371,
-          1.66999995708466
-        ]
-      },
-      "id": "nc75318292"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "31 km NW of Toyah, Texas",
-        "time": 1771912550423,
-        "updated": 1771913034189,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dvpado",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dvpado.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 19,
         "net": "tx",
-        "code": "2026dvpado",
-        "ids": ",tx2026dvpado,",
+        "code": "2026dxlnuf",
+        "ids": ",tx2026dxlnuf,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 29,
+        "nst": 22,
         "dmin": 0,
-        "rms": 0.2,
+        "rms": 0.5,
         "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 31 km NW of Toyah, Texas"
+        "title": "M 1.1 - 9 km NNE of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.023,
-          31.524,
-          4.388
+          -102.045,
+          32.077,
+          4.6593
         ]
       },
-      "id": "tx2026dvpado"
+      "id": "tx2026dxlnuf"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.96,
-        "place": "10 km WSW of Volcano, Hawaii",
-        "time": 1771912421430,
-        "updated": 1771912633990,
+        "mag": 1.71,
+        "place": "13 km SSW of Rancho Palos Verdes, CA",
+        "time": 1771999557390,
+        "updated": 1772000148508,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74907276",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74907276.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41403248",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41403248.geojson",
+        "felt": 1,
+        "cdi": 0,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 45,
+        "net": "ci",
+        "code": "41403248",
+        "ids": ",ci41403248,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 40,
+        "dmin": 0.1066,
+        "rms": 0.25,
+        "gap": 78,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 13 km SSW of Rancho Palos Verdes, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.439,
+          33.6406666666667,
+          10.32
+        ]
+      },
+      "id": "ci41403248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "4 km SE of San Ramon, CA",
+        "time": 1771999550450,
+        "updated": 1771999649172,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75318682",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75318682.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 59,
-        "net": "hv",
-        "code": "74907276",
-        "ids": ",hv74907276,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.03429,
-        "rms": 0.239999995,
-        "gap": 263,
-        "magType": "ml",
+        "sig": 30,
+        "net": "nc",
+        "code": "75318682",
+        "ids": ",nc75318682,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.03515,
+        "rms": 0.08,
+        "gap": 113,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.0 - 10 km WSW of Volcano, Hawaii"
+        "title": "M 1.4 - 4 km SE of San Ramon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.325836181641,
-          19.4106674194336,
-          0.230000004172325
+          -121.941497802734,
+          37.7523345947266,
+          6.07000017166138
         ]
       },
-      "id": "hv74907276"
+      "id": "nc75318682"
     }
   ],
   "bbox": [
-    -155.36199951172,
-    19.203332901001,
-    0.23000000417232,
-    -104.023,
-    61.146,
-    31.110000610352
+    -121.94149780273,
+    32.077,
+    4.6593,
+    -102.045,
+    37.752334594727,
+    10.32
   ]
 }
