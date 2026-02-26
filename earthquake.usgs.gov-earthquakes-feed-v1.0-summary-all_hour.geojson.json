@@ -1,141 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772001737000,
+    "generated": 1772088012000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
-    "api": "1.14.1",
-    "count": 3
+    "api": "2.3.0",
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "9 km NNE of Midland, Texas",
-        "time": 1772000410787,
-        "updated": 1772000659766,
+        "mag": 0.82,
+        "place": "3 km N of Fontana, CA",
+        "time": 1772086454960,
+        "updated": 1772086658726,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dxlnuf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026dxlnuf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41404104",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41404104.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "tx",
-        "code": "2026dxlnuf",
-        "ids": ",tx2026dxlnuf,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 9 km NNE of Midland, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.045,
-          32.077,
-          4.6593
-        ]
-      },
-      "id": "tx2026dxlnuf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.71,
-        "place": "13 km SSW of Rancho Palos Verdes, CA",
-        "time": 1771999557390,
-        "updated": 1772000148508,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41403248",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41403248.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 45,
+        "sig": 10,
         "net": "ci",
-        "code": "41403248",
-        "ids": ",ci41403248,",
+        "code": "41404104",
+        "ids": ",ci41404104,",
         "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.1066,
-        "rms": 0.25,
-        "gap": 78,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 44,
+        "dmin": 0.03246,
+        "rms": 0.17,
+        "gap": 48,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 13 km SSW of Rancho Palos Verdes, CA"
+        "title": "M 0.8 - 3 km N of Fontana, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.439,
-          33.6406666666667,
-          10.32
+          -117.456666666667,
+          34.1285,
+          9.17
         ]
       },
-      "id": "ci41403248"
+      "id": "ci41404104"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "4 km SE of San Ramon, CA",
-        "time": 1771999550450,
-        "updated": 1771999649172,
+        "mag": 0.44,
+        "place": "14 km SW of Searles Valley, CA",
+        "time": 1772086432600,
+        "updated": 1772086657726,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75318682",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75318682.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41404096",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41404096.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
+        "sig": 3,
+        "net": "ci",
+        "code": "41404096",
+        "ids": ",ci41404096,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.0601,
+        "rms": 0.14,
+        "gap": 73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 14 km SW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.497166666667,
+          35.671,
+          2.85
+        ]
+      },
+      "id": "ci41404096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "9 km NNW of Naya Bāzār, India",
+        "time": 1772085845886,
+        "updated": 1772087834764,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s0ec",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s0ec.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 355,
+        "net": "us",
+        "code": "7000s0ec",
+        "ids": ",us7000s0ec,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 53,
+        "dmin": 8.551,
+        "rms": 0.86,
+        "gap": 90,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 9 km NNW of Naya Bāzār, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.2146,
+          27.2107,
+          10
+        ]
+      },
+      "id": "us7000s0ec"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.34,
+        "place": "5 km WNW of The Geysers, CA",
+        "time": 1772085651960,
+        "updated": 1772086642469,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75319082",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75319082.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
         "net": "nc",
-        "code": "75318682",
-        "ids": ",nc75318682,",
+        "code": "75319082",
+        "ids": ",nc75319082,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.03515,
-        "rms": 0.08,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.0135,
+        "rms": 0.25,
         "gap": 113,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 4 km SE of San Ramon, CA"
+        "title": "M 0.3 - 5 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.941497802734,
-          37.7523345947266,
-          6.07000017166138
+          -122.806503295898,
+          38.7976684570312,
+          9.43000030517578
         ]
       },
-      "id": "nc75318682"
+      "id": "nc75319082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "196 km SSE of Vilyuchinsk, Russia",
+        "time": 1772085527245,
+        "updated": 1772087331040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s0ea",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s0ea.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000s0ea",
+        "ids": ",us7000s0ea,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 1.812,
+        "rms": 0.71,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 196 km SSE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.3975,
+          51.2738,
+          10
+        ]
+      },
+      "id": "us7000s0ea"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.28,
+        "place": "6 km NNE of Pāhala, Hawaii",
+        "time": 1772085124230,
+        "updated": 1772085346220,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74909046",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74909046.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 80,
+        "net": "hv",
+        "code": "74909046",
+        "ids": ",hv74909046,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.03675,
+        "rms": 0.289999992,
+        "gap": 74,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 6 km NNE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.460998535156,
+          19.2563323974609,
+          0.25
+        ]
+      },
+      "id": "hv74909046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "10 km N of Houston, Alaska",
+        "time": 1772084987637,
+        "updated": 1772085078963,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026dzggsj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026dzggsj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "ak",
+        "code": "a2026dzggsj",
+        "ids": ",aka2026dzggsj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 10 km N of Houston, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.797,
+          61.722,
+          28.4
+        ]
+      },
+      "id": "aka2026dzggsj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.78,
+        "place": "1 km WSW of Anderson Springs, CA",
+        "time": 1772084460860,
+        "updated": 1772085446331,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75319072",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75319072.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 49,
+        "net": "nc",
+        "code": "75319072",
+        "ids": ",nc75319072,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.005266,
+        "rms": 0.07,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 1 km WSW of Anderson Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.704330444336,
+          38.7716674804688,
+          2.83999991416931
+        ]
+      },
+      "id": "nc75319072"
     }
   ],
   "bbox": [
-    -121.94149780273,
-    32.077,
-    4.6593,
-    -102.045,
-    37.752334594727,
-    10.32
+    -155.46099853516,
+    19.256332397461,
+    0.25,
+    159.3975,
+    61.722,
+    28.4
   ]
 }
