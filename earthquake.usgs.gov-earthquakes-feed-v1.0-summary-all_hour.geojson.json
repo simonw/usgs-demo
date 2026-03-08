@@ -1,344 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772865410000,
+    "generated": 1772951768000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 13
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "60 km S of Whites City, New Mexico",
-        "time": 1772865044314,
-        "updated": 1772865403011,
+        "mag": 1.5,
+        "place": "12 km NNE of Cantwell, Alaska",
+        "time": 1772950968086,
+        "updated": 1772951073910,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026epvdxf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026epvdxf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026erqpyw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026erqpyw.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026epvdxf",
-        "ids": ",tx2026epvdxf,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 101,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 60 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.448,
-          31.629,
-          4.1943
-        ]
-      },
-      "id": "tx2026epvdxf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.69,
-        "place": "4 km W of Lake Henshaw, CA",
-        "time": 1772864552420,
-        "updated": 1772864762772,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41199303",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41199303.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41199303",
-        "ids": ",ci41199303,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.03984,
-        "rms": 0.16,
-        "gap": 30,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 4 km W of Lake Henshaw, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.804833333333,
-          33.2458333333333,
-          11.75
-        ]
-      },
-      "id": "ci41199303"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.65,
-        "place": "4 km W of Lake Henshaw, CA",
-        "time": 1772864382590,
-        "updated": 1772865212130,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41199295",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41199295.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 42,
-        "net": "ci",
-        "code": "41199295",
-        "ids": ",ci41199295,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 80,
-        "dmin": 0.04249,
-        "rms": 0.22,
-        "gap": 14,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 4 km W of Lake Henshaw, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.808666666667,
-          33.2435,
-          9.51
-        ]
-      },
-      "id": "ci41199295"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.9,
-        "place": "85 km NW of Karluk, Alaska",
-        "time": 1772864288904,
-        "updated": 1772864452810,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026eputbs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026eputbs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
+        "sig": 35,
         "net": "ak",
-        "code": "a2026eputbs",
-        "ids": ",aka2026eputbs,",
+        "code": "a2026erqpyw",
+        "ids": ",aka2026erqpyw,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 83,
+        "nst": 19,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 85,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 85 km NW of Karluk, Alaska"
+        "title": "M 1.5 - 12 km NNE of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.276,
-          58.202,
+          -148.885,
+          63.5,
           5
         ]
       },
-      "id": "aka2026eputbs"
+      "id": "aka2026erqpyw"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.72,
-        "place": "4 km W of Lake Henshaw, CA",
-        "time": 1772864076150,
-        "updated": 1772864283726,
+        "mag": 1.5,
+        "place": "29 km S of Skwentna, Alaska",
+        "time": 1772950116873,
+        "updated": 1772950213835,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41199287",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41199287.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026erqdsv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026erqdsv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41199287",
-        "ids": ",ci41199287,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.03837,
-        "rms": 0.19,
-        "gap": 30,
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026erqdsv",
+        "ids": ",aka2026erqdsv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 4 km W of Lake Henshaw, CA"
+        "title": "M 1.5 - 29 km S of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.803166666667,
-          33.2453333333333,
-          12.06
+          -151.358,
+          61.725,
+          76
         ]
       },
-      "id": "ci41199287"
+      "id": "aka2026erqdsv"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.83,
-        "place": "3 km SE of The Geysers, CA",
-        "time": 1772863972130,
-        "updated": 1772865140614,
+        "mag": 0.8,
+        "place": "15 km E of Minto, Alaska",
+        "time": 1772949991972,
+        "updated": 1772950071818,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75323737",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75323737.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026erqbxv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026erqbxv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 52,
-        "net": "nc",
-        "code": "75323737",
-        "ids": ",nc75323737,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 39,
-        "dmin": 0.003389,
-        "rms": 0.05,
-        "gap": 58,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 3 km SE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.729164123535,
-          38.7620010375977,
-          2.67000007629395
-        ]
-      },
-      "id": "nc75323737"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.98,
-        "place": "4 km W of Lake Henshaw, CA",
-        "time": 1772863270750,
-        "updated": 1772863481719,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41199279",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41199279.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ci",
-        "code": "41199279",
-        "ids": ",ci41199279,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 51,
-        "dmin": 0.0406,
-        "rms": 0.16,
-        "gap": 23,
+        "sig": 10,
+        "net": "ak",
+        "code": "a2026erqbxv",
+        "ids": ",aka2026erqbxv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 118,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 4 km W of Lake Henshaw, CA"
+        "title": "M 0.8 - 15 km E of Minto, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.806333333333,
-          33.2436666666667,
-          11.5
+          -149.028,
+          65.17,
+          3.5
         ]
       },
-      "id": "ci41199279"
+      "id": "aka2026erqbxv"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.67,
-        "place": "4 km W of Lake Henshaw, CA",
-        "time": 1772863241040,
-        "updated": 1772863477615,
+        "mag": 5.2,
+        "place": "52 km SSE of Sinabang, Indonesia",
+        "time": 1772949906854,
+        "updated": 1772950975040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41199271",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41199271.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2xx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s2xx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41199271",
-        "ids": ",ci41199271,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.03872,
-        "rms": 0.16,
-        "gap": 36,
-        "magType": "ml",
+        "sig": 416,
+        "net": "us",
+        "code": "7000s2xx",
+        "ids": ",us7000s2xx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 56,
+        "dmin": 1.264,
+        "rms": 0.75,
+        "gap": 170,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 0.7 - 4 km W of Lake Henshaw, CA"
+        "title": "M 5.2 - 52 km SSE of Sinabang, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.804666666667,
-          33.2403333333333,
-          12.6
+          96.5387,
+          2.0328,
+          10
         ]
       },
-      "id": "ci41199271"
+      "id": "us7000s2xx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.38,
-        "place": "4 km W of Lake Henshaw, CA",
-        "time": 1772863209910,
-        "updated": 1772863882270,
+        "mag": 4.5,
+        "place": "27 km WNW of Ashkāsham, Afghanistan",
+        "time": 1772949780759,
+        "updated": 1772950701040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41199263",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41199263.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2xv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s2xv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000s2xv",
+        "ids": ",us7000s2xv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 1.835,
+        "rms": 0.63,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 27 km WNW of Ashkāsham, Afghanistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.2469,
+          36.7619,
+          234.046
+        ]
+      },
+      "id": "us7000s2xv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.37,
+        "place": "17 km NW of Parkfield, CA",
+        "time": 1772948951760,
+        "updated": 1772950042159,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324112",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75324112.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -346,196 +226,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 29,
-        "net": "ci",
-        "code": "41199263",
-        "ids": ",ci41199263,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 68,
-        "dmin": 0.04319,
-        "rms": 0.2,
-        "gap": 17,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 4 km W of Lake Henshaw, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.809333333333,
-          33.2443333333333,
-          9.55
-        ]
-      },
-      "id": "ci41199263"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.74,
-        "place": "4 km W of Lake Henshaw, CA",
-        "time": 1772863128280,
-        "updated": 1772863946480,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41199255",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41199255.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "ci",
-        "code": "41199255",
-        "ids": ",ci41199255,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 83,
-        "dmin": 0.04145,
-        "rms": 0.2,
-        "gap": 14,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 4 km W of Lake Henshaw, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.807333333333,
-          33.2438333333333,
-          10.56
-        ]
-      },
-      "id": "ci41199255"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.06,
-        "place": "4 km W of Lake Henshaw, CA",
-        "time": 1772863081260,
-        "updated": 1772863726010,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41199247",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41199247.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "ci",
-        "code": "41199247",
-        "ids": ",ci41199247,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 81,
-        "dmin": 0.0404,
-        "rms": 0.22,
-        "gap": 17,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 4 km W of Lake Henshaw, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.806333333333,
-          33.2425,
-          9.46
-        ]
-      },
-      "id": "ci41199247"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.29,
-        "place": "46 km W of La Jolla, CA",
-        "time": 1772863068290,
-        "updated": 1772863343654,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41199239",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41199239.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ci",
-        "code": "41199239",
-        "ids": ",ci41199239,",
-        "sources": ",ci,",
+        "net": "nc",
+        "code": "75324112",
+        "ids": ",nc75324112,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.7043,
-        "rms": 0.49,
-        "gap": 268,
-        "magType": "ml",
+        "nst": 18,
+        "dmin": 0.0274,
+        "rms": 0.07,
+        "gap": 100,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.3 - 46 km W of La Jolla, CA"
+        "title": "M 1.4 - 17 km NW of Parkfield, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.762833333333,
-          32.8596666666667,
-          3.19
+          -120.570167541504,
+          36.0061683654785,
+          3.24000000953674
         ]
       },
-      "id": "ci41199239"
+      "id": "nc75324112"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "43 km E of Van Horn, Texas",
-        "time": 1772862994897,
-        "updated": 1772863162178,
+        "mag": 1.2,
+        "place": "7 km SE of Big Spring, Texas",
+        "time": 1772948761926,
+        "updated": 1772949663165,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026epuajt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026epuajt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026erpkfd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026erpkfd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
+        "sig": 22,
         "net": "tx",
-        "code": "2026epuajt",
-        "ids": ",tx2026epuajt,",
+        "code": "2026erpkfd",
+        "ids": ",tx2026erpkfd,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.4,
-        "rms": 0.9,
-        "gap": 146,
+        "nst": 21,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 43 km E of Van Horn, Texas"
+        "title": "M 1.2 - 7 km SE of Big Spring, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.375,
-          31.052,
-          0
+          -101.424,
+          32.196,
+          4.1971
         ]
       },
-      "id": "tx2026epuajt"
+      "id": "tx2026erpkfd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "46 km N of Petersville, Alaska",
+        "time": 1772948361782,
+        "updated": 1772948548677,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026erpenm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026erpenm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026erpenm",
+        "ids": ",aka2026erpenm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 46 km N of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.788,
+          62.909,
+          99.5
+        ]
+      },
+      "id": "aka2026erpenm"
     }
   ],
   "bbox": [
-    -155.276,
-    31.052,
-    0,
-    -104.375,
-    58.202,
-    12.6
+    -151.358,
+    2.0328,
+    3.2400000095367,
+    96.5387,
+    65.17,
+    234.046
   ]
 }
