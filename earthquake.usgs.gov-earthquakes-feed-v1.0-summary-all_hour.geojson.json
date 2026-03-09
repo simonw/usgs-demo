@@ -1,104 +1,464 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1772951768000,
+    "generated": 1773038478000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 8
+    "count": 14
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "12 km NNE of Cantwell, Alaska",
-        "time": 1772950968086,
-        "updated": 1772951073910,
+        "mag": 1.57872544680693,
+        "place": "15 km W of Searles Valley, CA",
+        "time": 1773038300120,
+        "updated": 1773038425124,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026erqpyw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026erqpyw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41200543",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41200543.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026erqpyw",
-        "ids": ",aka2026erqpyw,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 85,
+        "sig": 38,
+        "net": "ci",
+        "code": "41200543",
+        "ids": ",ci41200543,",
+        "sources": ",ci,",
+        "types": ",origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.04727,
+        "rms": 0.109999999,
+        "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 12 km NNE of Cantwell, Alaska"
+        "title": "M 1.6 - 15 km W of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.885,
-          63.5,
-          5
+          -117.564331054688,
+          35.7768325805664,
+          5.73999977111816
         ]
       },
-      "id": "aka2026erqpyw"
+      "id": "ci41200543"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "29 km S of Skwentna, Alaska",
-        "time": 1772950116873,
-        "updated": 1772950213835,
+        "mag": 0.49,
+        "place": "2 km NNE of The Geysers, CA",
+        "time": 1773037914970,
+        "updated": 1773038012492,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026erqdsv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026erqdsv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324847",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75324847.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026erqdsv",
-        "ids": ",aka2026erqdsv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 55,
-        "magType": "ml",
+        "sig": 4,
+        "net": "nc",
+        "code": "75324847",
+        "ids": ",nc75324847,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.0282,
+        "rms": 0.01,
+        "gap": 94,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 29 km S of Skwentna, Alaska"
+        "title": "M 0.5 - 2 km NNE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.358,
-          61.725,
-          76
+          -122.750999450684,
+          38.796501159668,
+          1.92999994754791
         ]
       },
-      "id": "aka2026erqdsv"
+      "id": "nc75324847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.45,
+        "place": "10 km WSW of Toms Place, CA",
+        "time": 1773037462310,
+        "updated": 1773038241097,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324842",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75324842.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "nc",
+        "code": "75324842",
+        "ids": ",nc75324842,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.08873,
+        "rms": 0.04,
+        "gap": 137,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 10 km WSW of Toms Place, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.772331237793,
+          37.513500213623,
+          5.05999994277954
+        ]
+      },
+      "id": "nc75324842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "10 km E of Buldan, Turkey",
+        "time": 1773037265912,
+        "updated": 1773038299822,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s33s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s33s.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000s33s",
+        "ids": ",us7000s33s,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 69,
+        "dmin": 1.505,
+        "rms": 0.81,
+        "gap": 46,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 10 km E of Buldan, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9554,
+          38.0499,
+          10
+        ]
+      },
+      "id": "us7000s33s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.53,
+        "place": "51 km ESE of Beatty, Nevada",
+        "time": 1773036875185,
+        "updated": 1773036990404,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912316",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00912316.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "nn",
+        "code": "00912316",
+        "ids": ",nn00912316,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.066,
+        "rms": 0.133,
+        "gap": 92,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 51 km ESE of Beatty, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2631,
+          36.6701,
+          7.113
+        ]
+      },
+      "id": "nn00912316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "16 km SW of Calingasta, Argentina",
+        "time": 1773036617073,
+        "updated": 1773038173470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s33f",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s33f.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000s33f",
+        "ids": ",us7000s33f,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 62,
+        "dmin": 0.751,
+        "rms": 0.96,
+        "gap": 42,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 16 km SW of Calingasta, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.5425,
+          -31.4461,
+          111.791
+        ]
+      },
+      "id": "us7000s33f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.85,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1773036542510,
+        "updated": 1773037942072,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324832",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75324832.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "nc",
+        "code": "75324832",
+        "ids": ",nc75324832,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 10,
+        "dmin": 0.002314,
+        "rms": 0.01,
+        "gap": 77,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.9 - 6 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.791664123535,
+          38.8363342285156,
+          1.95000004768372
+        ]
+      },
+      "id": "nc75324832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "32 km SE of Malaga, New Mexico",
+        "time": 1773036386862,
+        "updated": 1773036598791,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026etlutr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026etlutr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "tx",
+        "code": "2026etlutr",
+        "ids": ",tx2026etlutr,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 44,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 32 km SE of Malaga, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.833,
+          32.016,
+          4.274
+        ]
+      },
+      "id": "tx2026etlutr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.83,
+        "place": "13 km ESE of Anza, CA",
+        "time": 1773036188810,
+        "updated": 1773036401309,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41200535",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41200535.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "41200535",
+        "ids": ",ci41200535,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 52,
+        "dmin": 0.037,
+        "rms": 0.2,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 13 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.558,
+          33.4968333333333,
+          12.02
+        ]
+      },
+      "id": "ci41200535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.72,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1773035770870,
+        "updated": 1773035866180,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324827",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75324827.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75324827",
+        "ids": ",nc75324827,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.004374,
+        "rms": 0.01,
+        "gap": 80,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.804496765137,
+          38.8230018615723,
+          2.6800000667572
+        ]
+      },
+      "id": "nc75324827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1773035722150,
+        "updated": 1773037044983,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324822",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75324822.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75324822",
+        "ids": ",nc75324822,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.01554,
+        "rms": 0.01,
+        "gap": 51,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.804336547852,
+          38.821834564209,
+          2.9300000667572
+        ]
+      },
+      "id": "nc75324822"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.8,
-        "place": "15 km E of Minto, Alaska",
-        "time": 1772949991972,
-        "updated": 1772950071818,
+        "place": "6 km WNW of The Geysers, CA",
+        "time": 1773035096650,
+        "updated": 1773035192260,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026erqbxv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026erqbxv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324817",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75324817.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,236 +466,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 10,
-        "net": "ak",
-        "code": "a2026erqbxv",
-        "ids": ",aka2026erqbxv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 118,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 15 km E of Minto, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.028,
-          65.17,
-          3.5
-        ]
-      },
-      "id": "aka2026erqbxv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "52 km SSE of Sinabang, Indonesia",
-        "time": 1772949906854,
-        "updated": 1772950975040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2xx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s2xx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000s2xx",
-        "ids": ",us7000s2xx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 1.264,
-        "rms": 0.75,
-        "gap": 170,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 52 km SSE of Sinabang, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          96.5387,
-          2.0328,
-          10
-        ]
-      },
-      "id": "us7000s2xx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "27 km WNW of Ashkāsham, Afghanistan",
-        "time": 1772949780759,
-        "updated": 1772950701040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2xv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s2xv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000s2xv",
-        "ids": ",us7000s2xv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 1.835,
-        "rms": 0.63,
-        "gap": 106,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 27 km WNW of Ashkāsham, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.2469,
-          36.7619,
-          234.046
-        ]
-      },
-      "id": "us7000s2xv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.37,
-        "place": "17 km NW of Parkfield, CA",
-        "time": 1772948951760,
-        "updated": 1772950042159,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75324112",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75324112.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 29,
         "net": "nc",
-        "code": "75324112",
-        "ids": ",nc75324112,",
+        "code": "75324817",
+        "ids": ",nc75324817,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.0274,
-        "rms": 0.07,
-        "gap": 100,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.01377,
+        "rms": 0.02,
+        "gap": 87,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 17 km NW of Parkfield, CA"
+        "title": "M 0.8 - 6 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.570167541504,
-          36.0061683654785,
-          3.24000000953674
+          -122.81583404541,
+          38.7978324890137,
+          3.05999994277954
         ]
       },
-      "id": "nc75324112"
+      "id": "nc75324817"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "7 km SE of Big Spring, Texas",
-        "time": 1772948761926,
-        "updated": 1772949663165,
+        "mag": 0.3,
+        "place": "13 km ESE of Anza, CA",
+        "time": 1773034931910,
+        "updated": 1773035139636,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026erpkfd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026erpkfd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41200527",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41200527.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "tx",
-        "code": "2026erpkfd",
-        "ids": ",tx2026erpkfd,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 76,
+        "sig": 1,
+        "net": "ci",
+        "code": "41200527",
+        "ids": ",ci41200527,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.04626,
+        "rms": 0.14,
+        "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 7 km SE of Big Spring, Texas"
+        "title": "M 0.3 - 13 km ESE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.424,
-          32.196,
-          4.1971
+          -116.547666666667,
+          33.5026666666667,
+          12.22
         ]
       },
-      "id": "tx2026erpkfd"
+      "id": "ci41200527"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2,
-        "place": "46 km N of Petersville, Alaska",
-        "time": 1772948361782,
-        "updated": 1772948548677,
+        "mag": 1.08,
+        "place": "13 km ESE of Anza, CA",
+        "time": 1773034894390,
+        "updated": 1773035515660,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026erpenm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026erpenm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41200519",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41200519.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "a2026erpenm",
-        "ids": ",aka2026erpenm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 40,
+        "sig": 18,
+        "net": "ci",
+        "code": "41200519",
+        "ids": ",ci41200519,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 56,
+        "dmin": 0.03876,
+        "rms": 0.18,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 46 km N of Petersville, Alaska"
+        "title": "M 1.1 - 13 km ESE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.788,
-          62.909,
-          99.5
+          -116.555833333333,
+          33.4956666666667,
+          12.02
         ]
       },
-      "id": "aka2026erpenm"
+      "id": "ci41200519"
     }
   ],
   "bbox": [
-    -151.358,
-    2.0328,
-    3.2400000095367,
-    96.5387,
-    65.17,
-    234.046
+    -122.81583404541,
+    -31.4461,
+    1.9299999475479,
+    28.9554,
+    38.836334228516,
+    111.791
   ]
 }
