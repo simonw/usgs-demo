@@ -1,381 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773211046000,
+    "generated": 1773297485000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 9
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "14 km E of Glacier View, Alaska",
-        "time": 1773210729687,
-        "updated": 1773210933618,
+        "mag": 1.5,
+        "place": "55 km S of Whites City, New Mexico",
+        "time": 1773296605555,
+        "updated": 1773296756066,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026execqx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026execqx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026eyznjh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026eyznjh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026execqx",
-        "ids": ",aka2026execqx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0,
-        "rms": 1.1,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 14 km E of Glacier View, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.377,
-          61.81,
-          21.4
-        ]
-      },
-      "id": "aka2026execqx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "65 km WNW of Nikiski, Alaska",
-        "time": 1773210499786,
-        "updated": 1773210722899,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026exdzje",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026exdzje.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "a2026exdzje",
-        "ids": ",aka2026exdzje,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 117,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 65 km WNW of Nikiski, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.384,
-          60.926,
-          117.5
-        ]
-      },
-      "id": "aka2026exdzje"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.04,
-        "place": "3 km NW of The Geysers, CA",
-        "time": 1773209764450,
-        "updated": 1773209859586,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325767",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75325767.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75325767",
-        "ids": ",nc75325767,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.01689,
-        "rms": 0.03,
-        "gap": 78,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 3 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.778663635254,
-          38.7924995422363,
-          1.45000004768372
-        ]
-      },
-      "id": "nc75325767"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "2 km NW of The Geysers, CA",
-        "time": 1773209705770,
-        "updated": 1773209804680,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325752",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75325752.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75325752",
-        "ids": ",nc75325752,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01596,
-        "rms": 0.01,
-        "gap": 104,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 2 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.776336669922,
-          38.791332244873,
-          1.72000002861023
-        ]
-      },
-      "id": "nc75325752"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.65,
-        "place": "3 km NW of The Geysers, CA",
-        "time": 1773209597750,
-        "updated": 1773210740108,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325747",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75325747.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 42,
-        "net": "nc",
-        "code": "75325747",
-        "ids": ",nc75325747,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.0177,
-        "rms": 0.04,
-        "gap": 106,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 3 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.779502868652,
-          38.7919998168945,
-          0.319999992847443
-        ]
-      },
-      "id": "nc75325747"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.88,
-        "place": "2 km NW of The Geysers, CA",
-        "time": 1773209578120,
-        "updated": 1773210142046,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75325742",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75325742.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 128,
-        "net": "nc",
-        "code": "75325742",
-        "ids": ",nc75325742,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 77,
-        "dmin": 0.01688,
-        "rms": 0.1,
-        "gap": 22,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 2 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.776336669922,
-          38.7898330688477,
-          1.11000001430511
-        ]
-      },
-      "id": "nc75325742"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.42,
-        "place": "11 km NE of Pāhala, Hawaii",
-        "time": 1773208774550,
-        "updated": 1773209059500,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74915687",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74915687.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 90,
-        "net": "hv",
-        "code": "74915687",
-        "ids": ",hv74915687,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.04082,
-        "rms": 0.129999995,
-        "gap": 84,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 11 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.403335571289,
-          19.2781658172607,
-          30.5100002288818
-        ]
-      },
-      "id": "hv74915687"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "60 km S of Whites City, New Mexico",
-        "time": 1773208508150,
-        "updated": 1773208673571,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026excwlz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026excwlz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
+        "sig": 35,
         "net": "tx",
-        "code": "2026excwlz",
-        "ids": ",tx2026excwlz,",
+        "code": "2026eyznjh",
+        "ids": ",tx2026eyznjh,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 13,
+        "nst": 22,
         "dmin": 0,
-        "rms": 0.3,
-        "gap": 108,
+        "rms": 0.4,
+        "gap": 123,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 60 km S of Whites City, New Mexico"
+        "title": "M 1.5 - 55 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.445,
-          31.63,
-          3.2287
+          -104.375,
+          31.676,
+          4.6649
         ]
       },
-      "id": "tx2026excwlz"
+      "id": "tx2026eyznjh"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.14,
-        "place": "2 km SW of Indios, Puerto Rico",
-        "time": 1773207982570,
-        "updated": 1773209352820,
+        "mag": 1.1,
+        "place": "28 km E of Minto, Alaska",
+        "time": 1773295771073,
+        "updated": 1773295842411,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71509568",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71509568.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026eyzcba",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026eyzcba.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 70,
-        "net": "pr",
-        "code": "71509568",
-        "ids": ",pr71509568,",
-        "sources": ",pr,",
+        "sig": 19,
+        "net": "ak",
+        "code": "a2026eyzcba",
+        "ids": ",aka2026eyzcba,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.03449,
-        "rms": 0.13,
-        "gap": 187,
-        "magType": "md",
+        "nst": 12,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 113,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 2 km SW of Indios, Puerto Rico"
+        "title": "M 1.1 - 28 km E of Minto, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.8326666666667,
-          17.9786666666667,
-          16.55
+          -148.745,
+          65.184,
+          9.3
         ]
       },
-      "id": "pr71509568"
+      "id": "aka2026eyzcba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "18 km N of Three Rivers, Texas",
+        "time": 1773295195106,
+        "updated": 1773295367638,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026eyytsw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026eyytsw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026eyytsw",
+        "ids": ",tx2026eyytsw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 252,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 18 km N of Three Rivers, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.216,
+          28.628,
+          13.3666
+        ]
+      },
+      "id": "tx2026eyytsw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.52,
+        "place": "18 km SW of Indian Springs, Nevada",
+        "time": 1773294420547,
+        "updated": 1773294537714,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912506",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00912506.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "nn",
+        "code": "00912506",
+        "ids": ",nn00912506,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.263,
+        "rms": 0.1713,
+        "gap": 300,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 18 km SW of Indian Springs, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.7986,
+          36.4336,
+          7.7846
+        ]
+      },
+      "id": "nn00912506"
     }
   ],
   "bbox": [
-    -155.40333557129,
-    17.978666666667,
-    0.31999999284744,
-    -66.832666666667,
-    61.81,
-    117.5
+    -148.745,
+    28.628,
+    4.6649,
+    -98.216,
+    65.184,
+    13.3666
   ]
 }
