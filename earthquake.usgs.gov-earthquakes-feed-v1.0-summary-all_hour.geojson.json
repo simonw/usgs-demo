@@ -1,12 +1,421 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773383893000,
+    "generated": 1773470248000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 0
+    "count": 10
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1773469689799,
+        "updated": 1773469873474,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fcrdwa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fcrdwa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "tx",
+        "code": "2026fcrdwa",
+        "ids": ",tx2026fcrdwa,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.395,
+          31.659,
+          4.4395
+        ]
+      },
+      "id": "tx2026fcrdwa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "13 km WSW of Stanton, Texas",
+        "time": 1773469424997,
+        "updated": 1773469577638,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fcrabk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fcrabk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026fcrabk",
+        "ids": ",tx2026fcrabk,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 13 km WSW of Stanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.93,
+          32.102,
+          7.1178
+        ]
+      },
+      "id": "tx2026fcrabk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "13 km WSW of Stanton, Texas",
+        "time": 1773469319300,
+        "updated": 1773469614773,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fcqynw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fcqynw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "tx",
+        "code": "2026fcqynw",
+        "ids": ",tx2026fcqynw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 80,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 40,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 13 km WSW of Stanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.929,
+          32.103,
+          3.2975
+        ]
+      },
+      "id": "tx2026fcqynw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "southern Mid-Atlantic Ridge",
+        "time": 1773469038890,
+        "updated": 1773469928040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sg8q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sg8q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000sg8q",
+        "ids": ",us6000sg8q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 18.26,
+        "rms": 1.07,
+        "gap": 170,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - southern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.5571,
+          -47.4228,
+          10
+        ]
+      },
+      "id": "us6000sg8q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "11 km SW of Rotan, Texas",
+        "time": 1773468643443,
+        "updated": 1773468869528,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fcqonn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fcqonn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "tx",
+        "code": "2026fcqonn",
+        "ids": ",tx2026fcqonn,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 148,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 11 km SW of Rotan, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.561,
+          32.792,
+          3.6616
+        ]
+      },
+      "id": "tx2026fcqonn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1773468117890,
+        "updated": 1773468214976,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75327197",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75327197.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75327197",
+        "ids": ",nc75327197,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.00684,
+        "rms": 0.04,
+        "gap": 87,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 5 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.781997680664,
+          38.8363342285156,
+          1.54999995231628
+        ]
+      },
+      "id": "nc75327197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "42 km WNW of Mentone, Texas",
+        "time": 1773467588657,
+        "updated": 1773468048781,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fcpyba",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fcpyba.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2026fcpyba",
+        "ids": ",tx2026fcpyba,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 171,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 42 km WNW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.019,
+          31.83,
+          16.8913
+        ]
+      },
+      "id": "tx2026fcpyba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.68,
+        "place": "46 km NW of Beatty, Nevada",
+        "time": 1773467582249,
+        "updated": 1773467693315,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912599",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00912599.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "nn",
+        "code": "00912599",
+        "ids": ",nn00912599,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.139,
+        "rms": 0.1764,
+        "gap": 153,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 46 km NW of Beatty, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1188,
+          37.2185,
+          4.9068
+        ]
+      },
+      "id": "nn00912599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "10 km SW of Rotan, Texas",
+        "time": 1773467498903,
+        "updated": 1773468831518,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fcpyki",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fcpyki.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 130,
+        "net": "tx",
+        "code": "2026fcpyki",
+        "ids": ",tx2026fcpyki,us6000sg8j,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 38,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 10 km SW of Rotan, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.557,
+          32.791,
+          4.5654
+        ]
+      },
+      "id": "tx2026fcpyki"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.24,
+        "place": "46 km NW of Beatty, Nevada",
+        "time": 1773466865264,
+        "updated": 1773466991586,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00912597",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00912597.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 24,
+        "net": "nn",
+        "code": "00912597",
+        "ids": ",nn00912597,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.142,
+        "rms": 0.2697,
+        "gap": 152,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 46 km NW of Beatty, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1175,
+          37.2164,
+          0.0444
+        ]
+      },
+      "id": "nn00912597"
+    }
+  ],
+  "bbox": [
+    -122.78199768066,
+    -47.4228,
+    0.0444,
+    -9.5571,
+    38.836334228516,
+    16.8913
+  ]
 }
