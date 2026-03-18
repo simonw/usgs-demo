@@ -1,261 +1,421 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1773729788000,
+    "generated": 1773816154000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 6
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.73,
-        "place": "5 km S of Honaunau-Napoopoo, Hawaii",
-        "time": 1773727263470,
-        "updated": 1773727492980,
+        "mag": 2.09,
+        "place": "2 km NNW of Kensington, CA",
+        "time": 1773815944130,
+        "updated": 1773816041842,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74917857",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74917857.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329497",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75329497.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 46,
-        "net": "hv",
-        "code": "74917857",
-        "ids": ",hv74917857,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1816,
-        "rms": 0.159999996,
-        "gap": 197,
+        "sig": 67,
+        "net": "nc",
+        "code": "75329497",
+        "ids": ",nc75329497,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 69,
+        "dmin": 0.05746,
+        "rms": 0.07,
+        "gap": 22,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 5 km S of Honaunau-Napoopoo, Hawaii"
+        "title": "M 2.1 - 2 km NNW of Kensington, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.864166259766,
-          19.4050006866455,
-          10.289999961853
+          -122.289329528809,
+          37.9253349304199,
+          10.3599996566772
         ]
       },
-      "id": "hv74917857"
+      "id": "nc75329497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.43,
+        "place": "17 km WNW of Progreso, B.C., MX",
+        "time": 1773815730760,
+        "updated": 1773815934274,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41206695",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41206695.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "ci",
+        "code": "41206695",
+        "ids": ",ci41206695,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.0479,
+        "rms": 0.18,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 17 km WNW of Progreso, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.760333333333,
+          32.6108333333333,
+          7.14
+        ]
+      },
+      "id": "ci41206695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "74 km W of Salamatof, Alaska",
+        "time": 1773815559066,
+        "updated": 1773815683628,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fkaffg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fkaffg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026fkaffg",
+        "ids": ",aka2026fkaffg,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 73,
+        "dmin": 0.7,
+        "rms": 0.7,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 74 km W of Salamatof, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.673,
+          60.666,
+          120.9
+        ]
+      },
+      "id": "aka2026fkaffg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.49,
+        "place": "2 km ESE of Anza, CA",
+        "time": 1773814255320,
+        "updated": 1773814456534,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41206687",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41206687.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41206687",
+        "ids": ",ci41206687,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 28,
+        "dmin": 0.02683,
+        "rms": 0.13,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 2 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.6535,
+          33.5478333333333,
+          15.02
+        ]
+      },
+      "id": "ci41206687"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.9,
-        "place": "67 km S of Cantwell, Alaska",
-        "time": 1773727262900,
-        "updated": 1773728942304,
+        "place": "11 km WSW of Stanton, Texas",
+        "time": 1773814129054,
+        "updated": 1773814398974,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fidlcr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fidlcr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fjzksg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fjzksg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
         "sig": 56,
-        "net": "ak",
-        "code": "a2026fidlcr",
-        "ids": ",aka2026fidlcr,",
-        "sources": ",ak,",
+        "net": "tx",
+        "code": "2026fjzksg",
+        "ids": ",tx2026fjzksg,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0,
-        "rms": 0.7,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 67 km S of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.844,
-          62.788,
-          8.7
-        ]
-      },
-      "id": "aka2026fidlcr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.37,
-        "place": "14 km S of Tehachapi, CA",
-        "time": 1773726608080,
-        "updated": 1773726810010,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41205871",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41205871.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 29,
-        "net": "ci",
-        "code": "41205871",
-        "ids": ",ci41205871,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.2245,
-        "rms": 0.18,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 14 km S of Tehachapi, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.471166666667,
-          35.0083333333333,
-          10.6
-        ]
-      },
-      "id": "ci41205871"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3,
-        "place": "38 km SW of Skwentna, Alaska",
-        "time": 1773726512844,
-        "updated": 1773728870817,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fidacy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fidacy.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "a2026fidacy",
-        "ids": ",aka2026fidacy,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 114,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 38 km SW of Skwentna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.903,
-          61.735,
-          105.6
-        ]
-      },
-      "id": "aka2026fidacy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "12 km SSE of Elmendorf Air Force Base, Alaska",
-        "time": 1773726418856,
-        "updated": 1773728776013,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ficyzx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ficyzx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "a2026ficyzx",
-        "ids": ",aka2026ficyzx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
+        "nst": 67,
         "dmin": 0.1,
         "rms": 0.6,
-        "gap": 72,
+        "gap": 37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 12 km SSE of Elmendorf Air Force Base, Alaska"
+        "title": "M 1.9 - 11 km WSW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.508,
-          61.162,
-          28.1
+          -101.91,
+          32.102,
+          2.8362
         ]
       },
-      "id": "aka2026ficyzx"
+      "id": "tx2026fjzksg"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "12 km E of Coso Junction, CA",
-        "time": 1773726269790,
-        "updated": 1773726476748,
+        "mag": 2,
+        "place": "102 km WNW of Yakutat, Alaska",
+        "time": 1773814045778,
+        "updated": 1773814145857,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41205863",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41205863.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fjzjnc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fjzjnc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41205863",
-        "ids": ",ci41205863,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.04025,
-        "rms": 0.09,
-        "gap": 60,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026fjzjnc",
+        "ids": ",aka2026fjzjnc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.6,
+        "rms": 0.7,
+        "gap": 189,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 12 km E of Coso Junction, CA"
+        "title": "M 2.0 - 102 km WNW of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.812,
-          36.0388333333333,
-          1.63
+          -141.332,
+          59.991,
+          16.6
         ]
       },
-      "id": "ci41205863"
+      "id": "aka2026fjzjnc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "13 km SSE of Lindsay, Texas",
+        "time": 1773813939759,
+        "updated": 1773814290449,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fjzhzw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fjzhzw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "tx",
+        "code": "2026fjzhzw",
+        "ids": ",tx2026fjzhzw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 30,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 13 km SSE of Lindsay, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.466,
+          31.266,
+          7.4247
+        ]
+      },
+      "id": "tx2026fjzhzw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Pagan region, Northern Mariana Islands",
+        "time": 1773813870516,
+        "updated": 1773815092040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sh3g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sh3g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000sh3g",
+        "ids": ",us6000sh3g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 76,
+        "dmin": 2.822,
+        "rms": 0.72,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Pagan region, Northern Mariana Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4382,
+          18.0585,
+          327.34
+        ]
+      },
+      "id": "us6000sh3g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "20 km ENE of Cantwell, Alaska",
+        "time": 1773813784405,
+        "updated": 1773813890167,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fjzfts",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fjzfts.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026fjzfts",
+        "ids": ",aka2026fjzfts,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.1,
+        "rms": 0.9,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 20 km ENE of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.597,
+          63.485,
+          0.8
+        ]
+      },
+      "id": "aka2026fjzfts"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "8 km WNW of Cobb, CA",
+        "time": 1773813411030,
+        "updated": 1773816140755,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75329492",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75329492.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75329492",
+        "ids": ",nc75329492,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.01679,
+        "rms": 0.03,
+        "gap": 78,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 8 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.815002441406,
+          38.8455009460449,
+          1.12000000476837
+        ]
+      },
+      "id": "nc75329492"
     }
   ],
   "bbox": [
-    -155.86416625977,
-    19.405000686646,
-    1.63,
-    -117.812,
-    62.788,
-    105.6
+    -152.673,
+    18.0585,
+    0.8,
+    145.4382,
+    63.485,
+    327.34
   ]
 }
