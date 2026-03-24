@@ -1,661 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774248531000,
+    "generated": 1774334543000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 16
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "71 km WNW of Tyonek, Alaska",
-        "time": 1774248216109,
-        "updated": 1774248436946,
+        "mag": 2.55,
+        "place": "27 km N of El Sauzal, B.C., MX",
+        "time": 1774333657620,
+        "updated": 1774333874321,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftffcc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftffcc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41423528",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41423528.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "ak",
-        "code": "a2026ftffcc",
-        "ids": ",aka2026ftffcc,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 136,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 71 km WNW of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.416,
-          61.256,
-          5
-        ]
-      },
-      "id": "aka2026ftffcc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "80 km WNW of Beluga, Alaska",
-        "time": 1774247875525,
-        "updated": 1774248104621,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftfaey",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftfaey.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026ftfaey",
-        "ids": ",aka2026ftfaey,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1,
-        "rms": 0.9,
-        "gap": 234,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 80 km WNW of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.464,
-          61.417,
-          34.5
-        ]
-      },
-      "id": "aka2026ftfaey"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "115 km N of Yakutat, Alaska",
-        "time": 1774247716839,
-        "updated": 1774247935063,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftexyc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftexyc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026ftexyc",
-        "ids": ",aka2026ftexyc,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 124,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 115 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -139.88,
-          60.585,
-          11.4
-        ]
-      },
-      "id": "aka2026ftexyc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "200 km SSE of False Pass, Alaska",
-        "time": 1774247168195,
-        "updated": 1774247500188,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftepxn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftepxn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026ftepxn",
-        "ids": ",aka2026ftepxn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 1.7,
-        "rms": 1.3,
-        "gap": 232,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 200 km SSE of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -162.442,
-          53.147,
-          61.8
-        ]
-      },
-      "id": "aka2026ftepxn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "73 km E of Ugashik, Alaska",
-        "time": 1774246966061,
-        "updated": 1774247216830,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftenal",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftenal.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "a2026ftenal",
-        "ids": ",aka2026ftenal,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 287,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 73 km E of Ugashik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.167,
-          57.569,
-          32.2
-        ]
-      },
-      "id": "aka2026ftenal"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.78,
-        "place": "21 km W of Volcano, Hawaii",
-        "time": 1774246944370,
-        "updated": 1774247185190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74922587",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74922587.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 49,
-        "net": "hv",
-        "code": "74922587",
-        "ids": ",hv74922587,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.08575,
-        "rms": 0.200000003,
-        "gap": 42,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 21 km W of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.43733215332,
-          19.4731674194336,
-          2.74000000953674
-        ]
-      },
-      "id": "hv74922587"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "144 km SSE of False Pass, Alaska",
-        "time": 1774246887609,
-        "updated": 1774247475914,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftemae",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftemae.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026ftemae",
-        "ids": ",aka2026ftemae,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 1.2,
-        "rms": 0.7,
-        "gap": 220,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 144 km SSE of False Pass, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -162.86,
-          53.599,
-          2.4
-        ]
-      },
-      "id": "aka2026ftemae"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "6 km ENE of Kasilof, Alaska",
-        "time": 1774246763540,
-        "updated": 1774247001887,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftekft",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftekft.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026ftekft",
-        "ids": ",aka2026ftekft,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.5,
-        "rms": 0.9,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 6 km ENE of Kasilof, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.171,
-          60.358,
-          26
-        ]
-      },
-      "id": "aka2026ftekft"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "112 km N of Yakutat, Alaska",
-        "time": 1774246470262,
-        "updated": 1774246998493,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftegal",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftegal.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "a2026ftegal",
-        "ids": ",aka2026ftegal,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.5,
-        "rms": 0.9,
-        "gap": 76,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 112 km N of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.014,
-          60.544,
-          5
-        ]
-      },
-      "id": "aka2026ftegal"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.53,
-        "place": "19 km E of Mono City, California",
-        "time": 1774246108927,
-        "updated": 1774246291617,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00913128",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00913128.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 36,
-        "net": "nn",
-        "code": "00913128",
-        "ids": ",nn00913128,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.381,
-        "rms": 0.1822,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 19 km E of Mono City, California"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.9196,
-          38.0535,
-          8.375
-        ]
-      },
-      "id": "nn00913128"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.83,
-        "place": "11 km W of Pine Valley, CA",
-        "time": 1774246010360,
-        "updated": 1774246671950,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41422664",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41422664.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 52,
+        "sig": 100,
         "net": "ci",
-        "code": "41422664",
-        "ids": ",ci41422664,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 59,
-        "dmin": 0.09923,
-        "rms": 0.2,
-        "gap": 32,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 11 km W of Pine Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6455,
-          32.8063333333333,
-          17.13
-        ]
-      },
-      "id": "ci41422664"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.83,
-        "place": "1 km SSW of Pāhala, Hawaii",
-        "time": 1774245978560,
-        "updated": 1774246238840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74922577",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74922577.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 52,
-        "net": "hv",
-        "code": "74922577",
-        "ids": ",hv74922577,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.03725,
-        "rms": 0.159999996,
-        "gap": 145,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 1 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.481826782227,
-          19.1878337860107,
-          29.8500003814697
-        ]
-      },
-      "id": "hv74922577"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "58 km WNW of Nanwalek, Alaska",
-        "time": 1774245974129,
-        "updated": 1774246249236,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftdywt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftdywt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026ftdywt",
-        "ids": ",aka2026ftdywt,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 163,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 58 km WNW of Nanwalek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.826,
-          59.611,
-          8.9
-        ]
-      },
-      "id": "aka2026ftdywt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "112 km NE of Hihifo, Tonga",
-        "time": 1774245765817,
-        "updated": 1774247438281,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sisb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sisb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.909,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 518,
-        "net": "us",
-        "code": "6000sisb",
-        "ids": ",us6000sisb,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 42,
-        "dmin": 2.556,
-        "rms": 0.62,
-        "gap": 51,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - 112 km NE of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.9452,
-          -15.3637,
-          10
-        ]
-      },
-      "id": "us6000sisb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.36,
-        "place": "22 km SW of La Quinta, CA",
-        "time": 1774245673850,
-        "updated": 1774245878586,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41422656",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41422656.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41422656",
-        "ids": ",ci41422656,",
+        "code": "41423528",
+        "ids": ",ci41423528,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 82,
-        "dmin": 0.1331,
-        "rms": 0.18,
-        "gap": 28,
+        "nst": 29,
+        "dmin": 0.2757,
+        "rms": 0.21,
+        "gap": 126,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 22 km SW of La Quinta, CA"
+        "title": "M 2.6 - 27 km N of El Sauzal, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.443333333333,
-          33.504,
-          3.76
+          -116.636333333333,
+          32.1433333333333,
+          17.75
         ]
       },
-      "id": "ci41422656"
+      "id": "ci41423528"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "16 km N of Fishhook, Alaska",
-        "time": 1774245352490,
-        "updated": 1774246885495,
+        "mag": 1.33,
+        "place": "9 km WNW of The Geysers, CA",
+        "time": 1774333439100,
+        "updated": 1774333534378,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ftdpyh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ftdpyh.geojson",
-        "felt": 4,
-        "cdi": 2.2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332212",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75332212.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026ftdpyh",
-        "ids": ",aka2026ftdpyh,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 109,
-        "dmin": 0.2,
-        "rms": 1.1,
-        "gap": 22,
-        "magType": "ml",
+        "sig": 27,
+        "net": "nc",
+        "code": "75332212",
+        "ids": ",nc75332212,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.007517,
+        "rms": 0.02,
+        "gap": 104,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 16 km N of Fishhook, Alaska"
+        "title": "M 1.3 - 9 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.247,
-          61.89,
-          5
+          -122.841667175293,
+          38.8176651000977,
+          2.26999998092651
         ]
       },
-      "id": "aka2026ftdpyh"
+      "id": "nc75332212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.16,
+        "place": "12 km NE of Coso Junction, CA",
+        "time": 1774333068410,
+        "updated": 1774333278862,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41423520",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41423520.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 21,
+        "net": "ci",
+        "code": "41423520",
+        "ids": ",ci41423520,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.01309,
+        "rms": 0.13,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 12 km NE of Coso Junction, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.858666666667,
+          36.1303333333333,
+          2.63
+        ]
+      },
+      "id": "ci41423520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "14 km WSW of Stanton, Texas",
+        "time": 1774332966676,
+        "updated": 1774333214941,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fvaaap",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fvaaap.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "tx",
+        "code": "2026fvaaap",
+        "ids": ",tx2026fvaaap,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 45,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 14 km WSW of Stanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.932,
+          32.097,
+          4.7066
+        ]
+      },
+      "id": "tx2026fvaaap"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "44 km NW of Toyah, Texas",
+        "time": 1774332436673,
+        "updated": 1774332777066,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fuzsrg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fuzsrg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2026fuzsrg",
+        "ids": ",tx2026fuzsrg,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0,
+        "rms": 0.6,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 44 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.099,
+          31.618,
+          2.6469
+        ]
+      },
+      "id": "tx2026fuzsrg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "50 km WSW of Cantwell, Alaska",
+        "time": 1774330982926,
+        "updated": 1774331098205,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fuyxqm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fuyxqm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "ak",
+        "code": "a2026fuyxqm",
+        "ids": ",aka2026fuyxqm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 50 km WSW of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.82,
+          63.159,
+          10.6
+        ]
+      },
+      "id": "aka2026fuyxqm"
     }
   ],
   "bbox": [
-    -172.9452,
-    -15.3637,
-    2.4,
-    -116.44333333333,
-    61.89,
-    61.8
+    -149.82,
+    31.618,
+    2.2699999809265,
+    -101.932,
+    63.159,
+    17.75
   ]
 }
