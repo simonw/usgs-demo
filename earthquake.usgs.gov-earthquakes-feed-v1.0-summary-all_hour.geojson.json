@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774420977000,
+    "generated": 1774507584000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.9,
-        "place": "68 km WNW of Happy Valley, Alaska",
-        "time": 1774419859692,
-        "updated": 1774419986609,
+        "mag": 0.63,
+        "place": "9 km NW of The Geysers, CA",
+        "time": 1774505992310,
+        "updated": 1774507341622,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fwwagg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fwwagg.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75333192",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75333192.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "nc",
+        "code": "75333192",
+        "ids": ",nc75333192,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 8,
+        "dmin": 0.008768,
+        "rms": 0.01,
+        "gap": 117,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.6 - 9 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.845832824707,
+          38.8255004882812,
+          1.97000002861023
+        ]
+      },
+      "id": "nc75333192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "14 km ENE of Minto, Alaska",
+        "time": 1774505311287,
+        "updated": 1774505389532,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fyrfmx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fyrfmx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,38 +67,38 @@
         "tsunami": 0,
         "sig": 12,
         "net": "ak",
-        "code": "a2026fwwagg",
-        "ids": ",aka2026fwwagg,",
+        "code": "a2026fyrfmx",
+        "ids": ",aka2026fyrfmx,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 15,
+        "nst": 11,
         "dmin": 0.1,
-        "rms": 0.3,
+        "rms": 0.4,
         "gap": 162,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 68 km WNW of Happy Valley, Alaska"
+        "title": "M 0.9 - 14 km ENE of Minto, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.91,
-          60.121,
-          112.3
+          -149.075,
+          65.204,
+          5
         ]
       },
-      "id": "aka2026fwwagg"
+      "id": "aka2026fyrfmx"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.7,
         "place": "50 km NW of Toyah, Texas",
-        "time": 1774419819205,
-        "updated": 1774420020379,
+        "time": 1774505291465,
+        "updated": 1774505599425,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fwvzqy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fwvzqy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fyrffh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fyrffh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -67,14 +107,14 @@
         "tsunami": 0,
         "sig": 44,
         "net": "tx",
-        "code": "2026fwvzqy",
-        "ids": ",tx2026fwvzqy,",
+        "code": "2026fyrffh",
+        "ids": ",tx2026fyrffh,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 30,
+        "nst": 27,
         "dmin": 0,
-        "rms": 0.3,
-        "gap": 48,
+        "rms": 0.2,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
         "title": "M 1.7 - 50 km NW of Toyah, Texas"
@@ -82,180 +122,180 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.128,
-          31.663,
-          4.0082
+          -104.131,
+          31.662,
+          4.5316
         ]
       },
-      "id": "tx2026fwvzqy"
+      "id": "tx2026fyrffh"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.14,
-        "place": "3 km S of Cobb, CA",
-        "time": 1774418803250,
-        "updated": 1774420939839,
+        "mag": 1.7,
+        "place": "38 km WNW of Nanwalek, Alaska",
+        "time": 1774504778452,
+        "updated": 1774504898641,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332702",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75332702.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026fyqxvs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026fyqxvs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 20,
-        "net": "nc",
-        "code": "75332702",
-        "ids": ",nc75332702,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.02696,
-        "rms": 0.02,
-        "gap": 111,
-        "magType": "md",
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026fyqxvs",
+        "ids": ",aka2026fyqxvs,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 100,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 3 km S of Cobb, CA"
+        "title": "M 1.7 - 38 km WNW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.72533416748,
-          38.7983322143555,
-          2.15000009536743
+          -152.489,
+          59.543,
+          74.5
         ]
       },
-      "id": "nc75332702"
+      "id": "aka2026fyqxvs"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.08,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1774418391270,
-        "updated": 1774419441631,
+        "mag": 1.6,
+        "place": "12 km WSW of Stanton, Texas",
+        "time": 1774504473511,
+        "updated": 1774504745701,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75332697",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75332697.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fyqtma",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fyqtma.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75332697",
-        "ids": ",nc75332697,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.001004,
-        "rms": 0.01,
-        "gap": 81,
-        "magType": "md",
+        "sig": 39,
+        "net": "tx",
+        "code": "2026fyqtma",
+        "ids": ",tx2026fyqtma,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 42,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 10 km NW of The Geysers, CA"
+        "title": "M 1.6 - 12 km WSW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.836334228516,
-          38.837833404541,
-          1.38999998569489
+          -101.92,
+          32.1,
+          3.8273
         ]
       },
-      "id": "nc75332697"
+      "id": "tx2026fyqtma"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.42,
+        "mag": 0.63,
         "place": "6 km WSW of Anza, CA",
-        "time": 1774418304590,
-        "updated": 1774418506881,
+        "time": 1774504423470,
+        "updated": 1774504627793,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41424352",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41424352.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41425240",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41425240.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 3,
+        "sig": 6,
         "net": "ci",
-        "code": "41424352",
-        "ids": ",ci41424352,",
+        "code": "41425240",
+        "ids": ",ci41425240,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.03737,
-        "rms": 0.15,
-        "gap": 39,
+        "nst": 32,
+        "dmin": 0.0398,
+        "rms": 0.18,
+        "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 6 km WSW of Anza, CA"
+        "title": "M 0.6 - 6 km WSW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.734166666667,
-          33.528,
-          4.2
+          -116.7325,
+          33.5256666666667,
+          4.02
         ]
       },
-      "id": "ci41424352"
+      "id": "ci41425240"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.71,
-        "place": "3 km NE of Ocotillo Wells, CA",
-        "time": 1774417712770,
-        "updated": 1774417920069,
+        "mag": 1.5,
+        "place": "49 km NW of Toyah, Texas",
+        "time": 1774503998809,
+        "updated": 1774504895973,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41424344",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41424344.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026fyqmqj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026fyqmqj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41424344",
-        "ids": ",ci41424344,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.1116,
-        "rms": 0.23,
-        "gap": 61,
+        "sig": 35,
+        "net": "tx",
+        "code": "2026fyqmqj",
+        "ids": ",tx2026fyqmqj,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0,
+        "rms": 0.2,
+        "gap": 92,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 3 km NE of Ocotillo Wells, CA"
+        "title": "M 1.5 - 49 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.110333333333,
-          33.1645,
-          9.96
+          -104.13,
+          31.658,
+          4.0785
         ]
       },
-      "id": "ci41424344"
+      "id": "tx2026fyqmqj"
     }
   ],
   "bbox": [
-    -152.91,
-    31.663,
-    1.3899999856949,
-    -104.128,
-    60.121,
-    112.3
+    -152.489,
+    31.658,
+    1.9700000286102,
+    -101.92,
+    65.204,
+    74.5
   ]
 }
