@@ -1,24 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1774939805000,
+    "generated": 1775026505000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 9
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "14 km SSE of Gonzales, Texas",
-        "time": 1774939210663,
-        "updated": 1774939417565,
+        "place": "58 km S of Whites City, New Mexico",
+        "time": 1775026068884,
+        "updated": 1775026298413,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ghwxel",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ghwxel.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gjswqo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gjswqo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,198 +27,78 @@
         "tsunami": 0,
         "sig": 35,
         "net": "tx",
-        "code": "2026ghwxel",
-        "ids": ",tx2026ghwxel,",
+        "code": "2026gjswqo",
+        "ids": ",tx2026gjswqo,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 126,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 14 km SSE of Gonzales, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.392,
-          29.384,
-          11.688
-        ]
-      },
-      "id": "tx2026ghwxel"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.6,
-        "place": "30 km SSE of Minto, Alaska",
-        "time": 1774938903893,
-        "updated": 1774939015066,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ghwstx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ghwstx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ak",
-        "code": "a2026ghwstx",
-        "ids": ",aka2026ghwstx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 149,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 30 km SSE of Minto, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.049,
-          64.913,
-          5
-        ]
-      },
-      "id": "aka2026ghwstx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "24 km WNW of Mentone, Texas",
-        "time": 1774938717365,
-        "updated": 1774939113105,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ghwqcg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ghwqcg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2026ghwqcg",
-        "ids": ",tx2026ghwqcg,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
+        "nst": 27,
         "dmin": 0,
         "rms": 0.4,
-        "gap": 42,
+        "gap": 90,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 24 km WNW of Mentone, Texas"
+        "title": "M 1.5 - 58 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.851,
-          31.749,
-          4.7987
+          -104.411,
+          31.646,
+          4.5287
         ]
       },
-      "id": "tx2026ghwqcg"
+      "id": "tx2026gjswqo"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "41 km NNE of Chickaloon, Alaska",
-        "time": 1774938694114,
-        "updated": 1774938877275,
+        "mag": 1.6,
+        "place": "20 km ESE of Kasilof, Alaska",
+        "time": 1775024970035,
+        "updated": 1775025074824,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ghwpss",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ghwpss.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gjsgvx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gjsgvx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
+        "sig": 39,
         "net": "ak",
-        "code": "a2026ghwpss",
-        "ids": ",aka2026ghwpss,",
+        "code": "a2026gjsgvx",
+        "ids": ",aka2026gjsgvx,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.3,
-        "rms": 1,
-        "gap": 64,
+        "nst": 33,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 68,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 41 km NNE of Chickaloon, Alaska"
+        "title": "M 1.6 - 20 km ESE of Kasilof, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.114,
-          62.135,
-          23.2
+          -150.942,
+          60.248,
+          63.7
         ]
       },
-      "id": "aka2026ghwpss"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.83,
-        "place": "9 km NE of Julian, CA",
-        "time": 1774938323970,
-        "updated": 1774938537709,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41428888",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41428888.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "41428888",
-        "ids": ",ci41428888,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 46,
-        "dmin": 0.07774,
-        "rms": 0.19,
-        "gap": 39,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 9 km NE of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.540666666667,
-          33.1425,
-          6.56
-        ]
-      },
-      "id": "ci41428888"
+      "id": "aka2026gjsgvx"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "14 km SSE of Gonzales, Texas",
-        "time": 1774937678235,
-        "updated": 1774937837300,
+        "place": "76 km ESE of Egegik, Alaska",
+        "time": 1775024628244,
+        "updated": 1775024749425,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ghwbeh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ghwbeh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gjsbuq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gjsbuq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,156 +106,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 35,
-        "net": "tx",
-        "code": "2026ghwbeh",
-        "ids": ",tx2026ghwbeh,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "a2026gjsbuq",
+        "ids": ",aka2026gjsbuq,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 5,
+        "nst": 30,
         "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 189,
+        "rms": 0.4,
+        "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 14 km SSE of Gonzales, Texas"
+        "title": "M 1.5 - 76 km ESE of Egegik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.401,
-          29.38,
-          14.4196
+          -156.28,
+          57.854,
+          132.2
         ]
       },
-      "id": "tx2026ghwbeh"
+      "id": "aka2026gjsbuq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "43 km NW of Zharkent, Kazakhstan",
-        "time": 1774937519049,
-        "updated": 1774938821040,
+        "mag": 1.32,
+        "place": "3 km W of Cobb, CA",
+        "time": 1775024232170,
+        "updated": 1775025141977,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s91d",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s91d.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75336832",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75336832.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 27,
+        "net": "nc",
+        "code": "75336832",
+        "ids": ",nc75336832,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.01174,
+        "rms": 0.02,
+        "gap": 124,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 3 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.761001586914,
+          38.8209991455078,
+          1.86000001430511
+        ]
+      },
+      "id": "nc75336832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "Fiji region",
+        "time": 1775023706774,
+        "updated": 1775025210632,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s9ay",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000s9ay.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.785,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "7000s9ay",
+        "ids": ",us7000s9ay,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 71,
+        "dmin": 4.649,
+        "rms": 0.97,
+        "gap": 38,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.2415,
+          -21.6533,
+          575.962
+        ]
+      },
+      "id": "us7000s9ay"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "63 km WNW of Anchor Point, Alaska",
+        "time": 1775023696461,
+        "updated": 1775024221409,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gjrooj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gjrooj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000s91d",
-        "ids": ",us7000s91d,",
-        "sources": ",us,",
+        "sig": 148,
+        "net": "ak",
+        "code": "a2026gjrooj",
+        "ids": ",aka2026gjrooj,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 1.16,
-        "rms": 1.06,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 43 km NW of Zharkent, Kazakhstan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.6702,
-          44.4797,
-          10
-        ]
-      },
-      "id": "us7000s91d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.55,
-        "place": "2 km NW of The Geysers, CA",
-        "time": 1774937493930,
-        "updated": 1774938441295,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75336092",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75336092.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 37,
-        "net": "nc",
-        "code": "75336092",
-        "ids": ",nc75336092,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 25,
-        "dmin": 0.0149,
-        "rms": 0.05,
-        "gap": 82,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 2 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.770668029785,
-          38.7868347167969,
-          2.65000009536743
-        ]
-      },
-      "id": "nc75336092"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.0446762125323,
-        "place": "6 km S of Pearblossom, CA",
-        "time": 1774936929370,
-        "updated": 1774937051759,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41428880",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41428880.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41428880",
-        "ids": ",ci41428880,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.03591,
-        "rms": 0.119999997,
+        "nst": 184,
+        "dmin": 0.1,
+        "rms": 0.9,
         "gap": 67,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 6 km S of Pearblossom, CA"
+        "title": "M 3.1 - 63 km WNW of Anchor Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.912002563477,
-          34.4506683349609,
-          9.35999965667725
+          -152.918,
+          59.943,
+          105.9
         ]
       },
-      "id": "ci41428880"
+      "id": "aka2026gjrooj"
     }
   ],
   "bbox": [
-    -149.049,
-    29.38,
-    2.6500000953674,
-    79.6702,
-    64.913,
-    23.2
+    -179.2415,
+    -21.6533,
+    1.8600000143051,
+    -104.411,
+    60.248,
+    575.962
   ]
 }
