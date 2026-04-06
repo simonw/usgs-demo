@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775371538000,
+    "generated": 1775458835000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,53 +12,53 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.68,
-        "place": "6 km W of Cobb, CA",
-        "time": 1775371282260,
-        "updated": 1775371379578,
+        "mag": 2.98,
+        "place": "43 km WSW of Stella, Puerto Rico",
+        "time": 1775457354540,
+        "updated": 1775458771250,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75339187",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75339187.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513018",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513018.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75339187",
-        "ids": ",nc75339187,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.01203,
-        "rms": 0.06,
-        "gap": 103,
+        "sig": 137,
+        "net": "pr",
+        "code": "71513018",
+        "ids": ",pr71513018,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.3932,
+        "rms": 0.39,
+        "gap": 180,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 6 km W of Cobb, CA"
+        "title": "M 3.0 - 43 km WSW of Stella, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.792663574219,
-          38.8264999389648,
-          0.430000007152557
+          -67.6471666666667,
+          18.2268333333333,
+          19.22
         ]
       },
-      "id": "nc75339187"
+      "id": "pr71513018"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.49,
-        "place": "23 km N of Ridgecrest, CA",
-        "time": 1775370738030,
-        "updated": 1775370940183,
+        "mag": 0.5,
+        "place": "10 km WNW of The Geysers, CA",
+        "time": 1775457247170,
+        "updated": 1775457343533,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41432976",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41432976.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75339692",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75339692.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,156 +66,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 4,
-        "net": "ci",
-        "code": "41432976",
-        "ids": ",ci41432976,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.0656,
-        "rms": 0.16,
-        "gap": 46,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 23 km N of Ridgecrest, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.677,
-          35.8271666666667,
-          7.13
-        ]
-      },
-      "id": "ci41432976"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "65 km SSE of Port Graham, Alaska",
-        "time": 1775369773735,
-        "updated": 1775369910907,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026grasys",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026grasys.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026grasys",
-        "ids": ",aka2026grasys,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.5,
-        "rms": 0.7,
-        "gap": 191,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 65 km SSE of Port Graham, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.443,
-          58.798,
-          18.7
-        ]
-      },
-      "id": "aka2026grasys"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "26 km WNW of Ludlow, CA",
-        "time": 1775369145440,
-        "updated": 1775369357095,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41432960",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41432960.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ci",
-        "code": "41432960",
-        "ids": ",ci41432960,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.06095,
-        "rms": 0.18,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 26 km WNW of Ludlow, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.408,
-          34.8398333333333,
-          1.22
-        ]
-      },
-      "id": "ci41432960"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.28,
-        "place": "7 km ENE of Markleeville, CA",
-        "time": 1775368104970,
-        "updated": 1775370138722,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75339182",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75339182.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 80,
         "net": "nc",
-        "code": "75339182",
-        "ids": ",nc75339182,",
+        "code": "75339692",
+        "ids": ",nc75339692,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 4,
-        "dmin": 0.1975,
-        "rms": 0.01,
-        "gap": 197,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.002768,
+        "rms": 0.02,
+        "gap": 134,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.3 - 7 km ENE of Markleeville, CA"
+        "title": "M 0.5 - 10 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.728164672852,
-          38.719165802002,
-          1.0900000333786
+          -122.853332519531,
+          38.8276672363281,
+          1.98000001907349
         ]
       },
-      "id": "nc75339182"
+      "id": "nc75339692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "south of the Kermadec Islands",
+        "time": 1775456125459,
+        "updated": 1775457134040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smzu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000smzu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000smzu",
+        "ids": ",us6000smzu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 2.79,
+        "rms": 0.89,
+        "gap": 81,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.9761,
+          -32.0443,
+          10
+        ]
+      },
+      "id": "us6000smzu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "22 km SSE of Lowell Point, Alaska",
+        "time": 1775456018557,
+        "updated": 1775456127348,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gswjph",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gswjph.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026gswjph",
+        "ids": ",aka2026gswjph,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 176,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 22 km SSE of Lowell Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.233,
+          59.895,
+          10.3
+        ]
+      },
+      "id": "aka2026gswjph"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "62 km SE of Denali National Park, Alaska",
+        "time": 1775455698924,
+        "updated": 1775455811162,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gswezt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gswezt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026gswezt",
+        "ids": ",aka2026gswezt,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.6,
+        "rms": 0.5,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 62 km SE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.882,
+          63.13,
+          129.7
+        ]
+      },
+      "id": "aka2026gswezt"
     }
   ],
   "bbox": [
-    -151.443,
-    34.839833333333,
-    0.43000000715256,
-    -116.408,
-    58.798,
-    18.7
+    -177.9761,
+    -32.0443,
+    1.9800000190735,
+    -67.647166666667,
+    63.13,
+    129.7
   ]
 }
