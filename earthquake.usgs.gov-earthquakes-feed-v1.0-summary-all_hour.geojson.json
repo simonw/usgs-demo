@@ -1,274 +1,114 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775544667000,
+    "generated": 1775631141000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 11
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.4,
-        "place": "63 km SE of Denali National Park, Alaska",
-        "time": 1775544454298,
-        "updated": 1775544634648,
+        "mag": 1.9,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1775630350032,
+        "updated": 1775630632073,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gutfsi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gutfsi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gworjf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gworjf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "a2026gutfsi",
-        "ids": ",aka2026gutfsi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 114,
-        "dmin": 0.6,
-        "rms": 0.9,
-        "gap": 31,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 63 km SE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.831,
-          63.141,
-          134.4
-        ]
-      },
-      "id": "aka2026gutfsi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "52 km W of Mentone, Texas",
-        "time": 1775544014853,
-        "updated": 1775544615947,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026guszdw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026guszdw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
+        "sig": 56,
         "net": "tx",
-        "code": "2026guszdw",
-        "ids": ",tx2026guszdw,",
+        "code": "2026gworjf",
+        "ids": ",tx2026gworjf,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 52 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.151,
-          31.704,
-          4.5793
-        ]
-      },
-      "id": "tx2026guszdw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.15709126617394,
-        "place": "6 km W of Muscoy, CA",
-        "time": 1775543858350,
-        "updated": 1775544062494,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41434104",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41434104.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "41434104",
-        "ids": ",ci41434104,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.08767,
-        "rms": 0.219999999,
-        "gap": 197,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 6 km W of Muscoy, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.408500671387,
-          34.1631660461426,
-          1.78999996185303
-        ]
-      },
-      "id": "ci41434104"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "51 km W of Mentone, Texas",
-        "time": 1775543854143,
-        "updated": 1775544064956,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026guswqh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026guswqh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "tx",
-        "code": "2026guswqh",
-        "ids": ",tx2026guswqh,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1,
-        "rms": 0.1,
-        "gap": 79,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 51 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.138,
-          31.702,
-          4.5
-        ]
-      },
-      "id": "tx2026guswqh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "51 km W of Mentone, Texas",
-        "time": 1775543854037,
-        "updated": 1775544100765,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026guswnj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026guswnj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "tx",
-        "code": "2026guswnj",
-        "ids": ",tx2026guswnj,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 51 km W of Mentone, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.145,
-          31.702,
-          4.2358
-        ]
-      },
-      "id": "tx2026guswnj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "37 km ENE of McKinney Acres, Texas",
-        "time": 1775543830022,
-        "updated": 1775544091199,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026guswri",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026guswri.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "tx",
-        "code": "2026guswri",
-        "ids": ",tx2026guswri,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
+        "nst": 29,
         "dmin": 0,
-        "rms": 0.6,
-        "gap": 58,
+        "rms": 0.4,
+        "gap": 74,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 37 km ENE of McKinney Acres, Texas"
+        "title": "M 1.9 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.153,
-          32.413,
-          3.7832
+          -104.46,
+          31.632,
+          3.271
         ]
       },
-      "id": "tx2026guswri"
+      "id": "tx2026gworjf"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "19 km WNW of Pawnee, Texas",
-        "time": 1775543570122,
-        "updated": 1775544248985,
+        "mag": 0.82,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1775629603950,
+        "updated": 1775629699253,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gustao",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gustao.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340897",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75340897.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "nc",
+        "code": "75340897",
+        "ids": ",nc75340897,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.005766,
+        "rms": 0.01,
+        "gap": 158,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 5 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.782997131348,
+          38.837833404541,
+          1.86000001430511
+        ]
+      },
+      "id": "nc75340897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "19 km WNW of Pawnee, Texas",
+        "time": 1775629136677,
+        "updated": 1775630238790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gwnzyp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gwnzyp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 188,
         "net": "tx",
-        "code": "2026gustao",
-        "ids": ",us6000sn69,tx2026gustao,",
+        "code": "2026gwnzyp",
+        "ids": ",us7000sba1,tx2026gwnzyp,",
         "sources": ",us,tx,",
         "types": ",origin,phase-data,",
         "nst": 25,
@@ -277,185 +117,265 @@
         "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 19 km WNW of Pawnee, Texas"
+        "title": "M 3.5 - 19 km WNW of Pawnee, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.175,
-          28.746,
-          7.1065
+          -98.171,
+          28.748,
+          4.4906
         ]
       },
-      "id": "tx2026gustao"
+      "id": "tx2026gwnzyp"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "50 km NW of Ninilchik, Alaska",
-        "time": 1775543033691,
-        "updated": 1775543146463,
+        "mag": 0.84,
+        "place": "16 km W of Searles Valley, CA",
+        "time": 1775628548710,
+        "updated": 1775628760716,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026guslhk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026guslhk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41435272",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41435272.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026guslhk",
-        "ids": ",aka2026guslhk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.2,
-        "rms": 0.7,
-        "gap": 51,
+        "sig": 11,
+        "net": "ci",
+        "code": "41435272",
+        "ids": ",ci41435272,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.0756,
+        "rms": 0.18,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 50 km NW of Ninilchik, Alaska"
+        "title": "M 0.8 - 16 km W of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.338,
-          60.362,
-          88.7
+          -117.575333333333,
+          35.7421666666667,
+          6.9
         ]
       },
-      "id": "aka2026guslhk"
+      "id": "ci41435272"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "17 km NNW of Willow, Alaska",
-        "time": 1775542957738,
-        "updated": 1775543089969,
+        "mag": 2.05,
+        "place": "11 km E of Pāhala, Hawaii",
+        "time": 1775628501360,
+        "updated": 1775628708760,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026guskfh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026guskfh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74933717",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74933717.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "a2026guskfh",
-        "ids": ",aka2026guskfh,",
-        "sources": ",ak,",
+        "sig": 65,
+        "net": "hv",
+        "code": "74933717",
+        "ids": ",hv74933717,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.5,
-        "rms": 0.7,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 17 km NNW of Willow, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.223,
-          61.879,
-          29.5
-        ]
-      },
-      "id": "aka2026guskfh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.39,
-        "place": "7 km W of Cobb, CA",
-        "time": 1775542126560,
-        "updated": 1775542221172,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340317",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75340317.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "nc",
-        "code": "75340317",
-        "ids": ",nc75340317,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.009434,
-        "rms": 0.01,
-        "gap": 197,
+        "nst": 15,
+        "dmin": 0.1403,
+        "rms": 0.109999999,
+        "gap": 260,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.4 - 7 km W of Cobb, CA"
+        "title": "M 2.1 - 11 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.798667907715,
-          38.8264999389648,
-          1.83000004291534
+          -155.367828369141,
+          19.2096672058105,
+          31.5400009155273
         ]
       },
-      "id": "nc75340317"
+      "id": "hv74933717"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "4 km E of Houston, Alaska",
-        "time": 1775541878970,
-        "updated": 1775541981526,
+        "mag": 2.31,
+        "place": "5 km SSW of Pāhala, Hawaii",
+        "time": 1775628488280,
+        "updated": 1775628725940,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gurusj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gurusj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74933722",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74933722.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026gurusj",
-        "ids": ",aka2026gurusj,",
-        "sources": ",ak,",
+        "sig": 82,
+        "net": "hv",
+        "code": "74933722",
+        "ids": ",hv74933722,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 97,
-        "magType": "ml",
+        "nst": 28,
+        "dmin": 0.03552,
+        "rms": 0.129999995,
+        "gap": 127,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 4 km E of Houston, Alaska"
+        "title": "M 2.3 - 5 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.725,
-          61.627,
-          25.1
+          -155.499496459961,
+          19.1590003967285,
+          31.3199996948242
         ]
       },
-      "id": "aka2026gurusj"
+      "id": "hv74933722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "59 km WNW of Stevens Village, Alaska",
+        "time": 1775628382768,
+        "updated": 1775628499862,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gwnpgw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gwnpgw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026gwnpgw",
+        "ids": ",aka2026gwnpgw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.5,
+        "rms": 0.9,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 59 km WNW of Stevens Village, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.338,
+          66.162,
+          0.8
+        ]
+      },
+      "id": "aka2026gwnpgw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.09,
+        "place": "9 km WNW of Cobb, CA",
+        "time": 1775628315000,
+        "updated": 1775628408243,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340892",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75340892.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75340892",
+        "ids": ",nc75340892,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.009037,
+        "rms": 0.01,
+        "gap": 65,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 9 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.823997497559,
+          38.8396682739258,
+          2.13000011444092
+        ]
+      },
+      "id": "nc75340892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.51,
+        "place": "9 km SSE of Idyllwild, CA",
+        "time": 1775627751080,
+        "updated": 1775627960738,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41435256",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41435256.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41435256",
+        "ids": ",ci41435256,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.05375,
+        "rms": 0.12,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 9 km SSE of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.698833333333,
+          33.6613333333333,
+          15.86
+        ]
+      },
+      "id": "ci41435256"
     }
   ],
   "bbox": [
-    -152.338,
-    28.746,
-    1.789999961853,
-    -98.175,
-    63.141,
-    134.4
+    -155.49949645996,
+    19.159000396729,
+    0.8,
+    -98.171,
+    66.162,
+    31.540000915527
   ]
 }
