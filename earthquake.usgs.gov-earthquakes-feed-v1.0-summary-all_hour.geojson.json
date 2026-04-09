@@ -1,64 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775631141000,
+    "generated": 1775717541000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 9
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "60 km S of Whites City, New Mexico",
-        "time": 1775630350032,
-        "updated": 1775630632073,
+        "mag": 1.6,
+        "place": "20 km E of Fort Davis, Texas",
+        "time": 1775717110209,
+        "updated": 1775717408732,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gworjf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gworjf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gykpkg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gykpkg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 39,
         "net": "tx",
-        "code": "2026gworjf",
-        "ids": ",tx2026gworjf,",
+        "code": "2026gykpkg",
+        "ids": ",tx2026gykpkg,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 74,
+        "nst": 7,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 123,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 60 km S of Whites City, New Mexico"
+        "title": "M 1.6 - 20 km E of Fort Davis, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.46,
-          31.632,
-          3.271
+          -103.683,
+          30.554,
+          4.8589
         ]
       },
-      "id": "tx2026gworjf"
+      "id": "tx2026gykpkg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "57 km S of Whites City, New Mexico",
+        "time": 1775717088660,
+        "updated": 1775717277840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gykpbd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gykpbd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2026gykpbd",
+        "ids": ",tx2026gykpbd,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 124,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 57 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.376,
+          31.66,
+          4.9965
+        ]
+      },
+      "id": "tx2026gykpbd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.06,
+        "place": "2 km NW of Cobb, CA",
+        "time": 1775716799430,
+        "updated": 1775716897147,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75341482",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75341482.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75341482",
+        "ids": ",nc75341482,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.02376,
+        "rms": 0.03,
+        "gap": 176,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 2 km NW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.739669799805,
+          38.8330001831055,
+          0.569999992847443
+        ]
+      },
+      "id": "nc75341482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.82,
+        "place": "14 km WNW of Volcano, Hawaii",
+        "time": 1775716787970,
+        "updated": 1775716994560,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74934417",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74934417.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 51,
+        "net": "hv",
+        "code": "74934417",
+        "ids": ",hv74934417,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.02034,
+        "rms": 0.150000006,
+        "gap": 53,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 14 km WNW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.366500854492,
+          19.4845008850098,
+          12.8299999237061
+        ]
+      },
+      "id": "hv74934417"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.82,
-        "place": "5 km WNW of Cobb, CA",
-        "time": 1775629603950,
-        "updated": 1775629699253,
+        "place": "8 km NW of Idyllwild, CA",
+        "time": 1775716712130,
+        "updated": 1775716924609,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340897",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75340897.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41436280",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41436280.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,279 +186,119 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 10,
-        "net": "nc",
-        "code": "75340897",
-        "ids": ",nc75340897,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.005766,
-        "rms": 0.01,
-        "gap": 158,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 5 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.782997131348,
-          38.837833404541,
-          1.86000001430511
-        ]
-      },
-      "id": "nc75340897"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "19 km WNW of Pawnee, Texas",
-        "time": 1775629136677,
-        "updated": 1775630238790,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026gwnzyp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026gwnzyp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "tx",
-        "code": "2026gwnzyp",
-        "ids": ",us7000sba1,tx2026gwnzyp,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 19 km WNW of Pawnee, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.171,
-          28.748,
-          4.4906
-        ]
-      },
-      "id": "tx2026gwnzyp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.84,
-        "place": "16 km W of Searles Valley, CA",
-        "time": 1775628548710,
-        "updated": 1775628760716,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41435272",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41435272.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
         "net": "ci",
-        "code": "41435272",
-        "ids": ",ci41435272,",
+        "code": "41436280",
+        "ids": ",ci41436280,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.0756,
-        "rms": 0.18,
-        "gap": 58,
+        "nst": 50,
+        "dmin": 0.04948,
+        "rms": 0.16,
+        "gap": 28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 16 km W of Searles Valley, CA"
+        "title": "M 0.8 - 8 km NW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.575333333333,
-          35.7421666666667,
-          6.9
+          -116.782,
+          33.7856666666667,
+          10.68
         ]
       },
-      "id": "ci41435272"
+      "id": "ci41436280"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.05,
-        "place": "11 km E of Pāhala, Hawaii",
-        "time": 1775628501360,
-        "updated": 1775628708760,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74933717",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74933717.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "hv",
-        "code": "74933717",
-        "ids": ",hv74933717,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1403,
-        "rms": 0.109999999,
-        "gap": 260,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 11 km E of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.367828369141,
-          19.2096672058105,
-          31.5400009155273
-        ]
-      },
-      "id": "hv74933717"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.31,
+        "mag": 2.27,
         "place": "5 km SSW of Pāhala, Hawaii",
-        "time": 1775628488280,
-        "updated": 1775628725940,
+        "time": 1775716364340,
+        "updated": 1775716575780,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74933722",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74933722.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74934412",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74934412.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 82,
+        "sig": 79,
         "net": "hv",
-        "code": "74933722",
-        "ids": ",hv74933722,",
+        "code": "74934412",
+        "ids": ",hv74934412,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.03552,
-        "rms": 0.129999995,
-        "gap": 127,
-        "magType": "md",
+        "nst": 49,
+        "dmin": 0.03725,
+        "rms": 0.140000001,
+        "gap": 130,
+        "magType": "ml",
         "type": "earthquake",
         "title": "M 2.3 - 5 km SSW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.499496459961,
-          19.1590003967285,
-          31.3199996948242
+          -155.501495361328,
+          19.156665802002,
+          32.0299987792969
         ]
       },
-      "id": "hv74933722"
+      "id": "hv74934412"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2,
-        "place": "59 km WNW of Stevens Village, Alaska",
-        "time": 1775628382768,
-        "updated": 1775628499862,
+        "mag": 1.2,
+        "place": "55 km NNE of Chenega, Alaska",
+        "time": 1775716110486,
+        "updated": 1775716205671,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gwnpgw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gwnpgw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026gykbau",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026gykbau.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
+        "sig": 22,
         "net": "ak",
-        "code": "a2026gwnpgw",
-        "ids": ",aka2026gwnpgw,",
+        "code": "a2026gykbau",
+        "ids": ",aka2026gykbau,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.5,
-        "rms": 0.9,
-        "gap": 80,
+        "nst": 14,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 141,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 59 km WNW of Stevens Village, Alaska"
+        "title": "M 1.2 - 55 km NNE of Chenega, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.338,
-          66.162,
-          0.8
+          -147.727,
+          60.543,
+          13.5
         ]
       },
-      "id": "aka2026gwnpgw"
+      "id": "aka2026gykbau"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.09,
-        "place": "9 km WNW of Cobb, CA",
-        "time": 1775628315000,
-        "updated": 1775628408243,
+        "mag": 0.5,
+        "place": "10 km WNW of Cobb, CA",
+        "time": 1775715322240,
+        "updated": 1775715417000,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75340892",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75340892.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75340892",
-        "ids": ",nc75340892,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.009037,
-        "rms": 0.01,
-        "gap": 65,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 9 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.823997497559,
-          38.8396682739258,
-          2.13000011444092
-        ]
-      },
-      "id": "nc75340892"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.51,
-        "place": "9 km SSE of Idyllwild, CA",
-        "time": 1775627751080,
-        "updated": 1775627960738,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41435256",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41435256.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75341477",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75341477.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -346,36 +306,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 4,
-        "net": "ci",
-        "code": "41435256",
-        "ids": ",ci41435256,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.05375,
-        "rms": 0.12,
-        "gap": 54,
-        "magType": "ml",
+        "net": "nc",
+        "code": "75341477",
+        "ids": ",nc75341477,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.004972,
+        "rms": 0.03,
+        "gap": 173,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.5 - 9 km SSE of Idyllwild, CA"
+        "title": "M 0.5 - 10 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.698833333333,
-          33.6613333333333,
-          15.86
+          -122.831832885742,
+          38.8426666259766,
+          2.74000000953674
         ]
       },
-      "id": "ci41435256"
+      "id": "nc75341477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "18 km SW of La Jolla, CA",
+        "time": 1775714794010,
+        "updated": 1775714999190,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41436256",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41436256.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "ci",
+        "code": "41436256",
+        "ids": ",ci41436256,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.1383,
+        "rms": 0.11,
+        "gap": 204,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 18 km SW of La Jolla, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.404833333333,
+          32.7338333333333,
+          13.42
+        ]
+      },
+      "id": "ci41436256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.24,
+        "place": "12 km S of Anza, CA",
+        "time": 1775714301830,
+        "updated": 1775714513167,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41436248",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41436248.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 24,
+        "net": "ci",
+        "code": "41436248",
+        "ids": ",ci41436248,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 68,
+        "dmin": 0.07613,
+        "rms": 0.21,
+        "gap": 34,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 12 km S of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.668833333333,
+          33.4426666666667,
+          2.66
+        ]
+      },
+      "id": "ci41436248"
     }
   ],
   "bbox": [
-    -155.49949645996,
-    19.159000396729,
-    0.8,
-    -98.171,
-    66.162,
-    31.540000915527
+    -155.50149536133,
+    19.156665802002,
+    0.56999999284744,
+    -103.683,
+    60.543,
+    32.029998779297
   ]
 }
