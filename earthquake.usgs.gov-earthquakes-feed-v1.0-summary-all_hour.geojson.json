@@ -1,144 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775889725000,
+    "generated": 1775976666000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 7
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.89,
-        "place": "2 km WSW of Pomona, CA",
-        "time": 1775889075180,
-        "updated": 1775889277500,
+        "mag": 1.8,
+        "place": "28 km NW of Willow, Alaska",
+        "time": 1775975488444,
+        "updated": 1775975572072,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438152",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41438152.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hdxigb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hdxigb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "41438152",
-        "ids": ",ci41438152,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.04537,
-        "rms": 0.18,
-        "gap": 44,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026hdxigb",
+        "ids": ",aka2026hdxigb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 2 km WSW of Pomona, CA"
+        "title": "M 1.8 - 28 km NW of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.777,
-          34.0538333333333,
-          7.46
+          -150.371,
+          61.947,
+          2
         ]
       },
-      "id": "ci41438152"
+      "id": "aka2026hdxigb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.85,
-        "place": "14 km ESE of Pāhala, Hawaii",
-        "time": 1775887602670,
-        "updated": 1775887815320,
+        "mag": 1.22,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1775975320300,
+        "updated": 1775976442253,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74935752",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74935752.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75342892",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75342892.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 53,
-        "net": "hv",
-        "code": "74935752",
-        "ids": ",hv74935752,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.08342,
-        "rms": 0.119999997,
-        "gap": 185,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 14 km ESE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.347839355469,
-          19.1681671142578,
-          32.7999992370605
-        ]
-      },
-      "id": "hv74935752"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.56,
-        "place": "24 km NW of Parkfield, CA",
-        "time": 1775886940840,
-        "updated": 1775889138799,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75342507",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75342507.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 37,
+        "sig": 23,
         "net": "nc",
-        "code": "75342507",
-        "ids": ",nc75342507,",
+        "code": "75342892",
+        "ids": ",nc75342892,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.02248,
-        "rms": 0.06,
-        "gap": 103,
+        "nst": 11,
+        "dmin": 0.01467,
+        "rms": 0.02,
+        "gap": 106,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.6 - 24 km NW of Parkfield, CA"
+        "title": "M 1.2 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.615333557129,
-          36.0525016784668,
-          3.03999996185303
+          -122.813003540039,
+          38.816333770752,
+          2.85999989509583
         ]
       },
-      "id": "nc75342507"
+      "id": "nc75342892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.84,
+        "place": "15 km E of Borrego Springs, CA",
+        "time": 1775974657840,
+        "updated": 1775974867359,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438768",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41438768.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "41438768",
+        "ids": ",ci41438768,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 46,
+        "dmin": 0.07937,
+        "rms": 0.23,
+        "gap": 41,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 15 km E of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.214,
+          33.2648333333333,
+          11.4
+        ]
+      },
+      "id": "ci41438768"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.4,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1775886724751,
-        "updated": 1775887299464,
+        "place": "26 km SW of Glacier View, Alaska",
+        "time": 1775974568777,
+        "updated": 1775974639091,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hcahkv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026hcahkv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hdwvau",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hdwvau.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,156 +146,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 2,
-        "net": "tx",
-        "code": "2026hcahkv",
-        "ids": ",tx2026hcahkv,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "a2026hdwvau",
+        "ids": ",aka2026hdwvau,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 161,
+        "nst": 8,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 57 km S of Whites City, New Mexico"
+        "title": "M 0.4 - 26 km SW of Glacier View, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.352,
-          31.654,
-          4.6878
+          -148.041,
+          61.653,
+          14.7
         ]
       },
-      "id": "tx2026hcahkv"
+      "id": "aka2026hdwvau"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.69,
-        "place": "13 km S of Big Bear Lake, CA",
-        "time": 1775886699050,
-        "updated": 1775886955092,
+        "mag": 1.7,
+        "place": "92 km NW of Yakutat, Alaska",
+        "time": 1775973639865,
+        "updated": 1775973743284,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438144",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41438144.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hdwhqr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hdwhqr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41438144",
-        "ids": ",ci41438144,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.04586,
-        "rms": 0.13,
-        "gap": 83,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026hdwhqr",
+        "ids": ",aka2026hdwhqr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.3,
+        "rms": 1,
+        "gap": 146,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 13 km S of Big Bear Lake, CA"
+        "title": "M 1.7 - 92 km NW of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.898166666667,
-          34.1271666666667,
-          11.24
+          -140.859,
+          60.156,
+          5
         ]
       },
-      "id": "ci41438144"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.54,
-        "place": "3 km ENE of Ponce, Puerto Rico",
-        "time": 1775886369860,
-        "updated": 1775887645040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513283",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513283.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 99,
-        "net": "pr",
-        "code": "71513283",
-        "ids": ",pr71513283,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.0277,
-        "rms": 0.11,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km ENE of Ponce, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.592,
-          18.0165,
-          16.08
-        ]
-      },
-      "id": "pr71513283"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.06,
-        "place": "4 km SSW of Pāhala, Hawaii",
-        "time": 1775886245310,
-        "updated": 1775886463050,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74935727",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74935727.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "hv",
-        "code": "74935727",
-        "ids": ",hv74935727,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.0341,
-        "rms": 0.140000001,
-        "gap": 118,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 4 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.496994018555,
-          19.1641674041748,
-          33.310001373291
-        ]
-      },
-      "id": "hv74935727"
+      "id": "aka2026hdwhqr"
     }
   ],
   "bbox": [
-    -155.49699401856,
-    18.0165,
-    3.039999961853,
-    -66.592,
-    36.052501678467,
-    33.310001373291
+    -150.371,
+    33.264833333333,
+    2,
+    -116.214,
+    61.947,
+    14.7
   ]
 }
