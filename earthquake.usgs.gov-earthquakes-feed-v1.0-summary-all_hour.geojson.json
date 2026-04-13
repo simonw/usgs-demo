@@ -1,184 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1775976666000,
+    "generated": 1776064041000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 5
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "28 km NW of Willow, Alaska",
-        "time": 1775975488444,
-        "updated": 1775975572072,
+        "mag": 1.02,
+        "place": "3 km SW of Anderson Springs, CA",
+        "time": 1776063501470,
+        "updated": 1776063596676,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hdxigb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hdxigb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75343327",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75343327.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026hdxigb",
-        "ids": ",aka2026hdxigb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.5,
-        "rms": 0.7,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 28 km NW of Willow, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.371,
-          61.947,
-          2
-        ]
-      },
-      "id": "aka2026hdxigb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.22,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1775975320300,
-        "updated": 1775976442253,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75342892",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75342892.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
+        "sig": 16,
         "net": "nc",
-        "code": "75342892",
-        "ids": ",nc75342892,",
+        "code": "75343327",
+        "ids": ",nc75343327,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.01467,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.009473,
         "rms": 0.02,
-        "gap": 106,
+        "gap": 231,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.2 - 7 km NW of The Geysers, CA"
+        "title": "M 1.0 - 3 km SW of Anderson Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.813003540039,
-          38.816333770752,
-          2.85999989509583
+          -122.712997436523,
+          38.7596664428711,
+          1.39999997615814
         ]
       },
-      "id": "nc75342892"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.84,
-        "place": "15 km E of Borrego Springs, CA",
-        "time": 1775974657840,
-        "updated": 1775974867359,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41438768",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41438768.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "41438768",
-        "ids": ",ci41438768,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 46,
-        "dmin": 0.07937,
-        "rms": 0.23,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 15 km E of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.214,
-          33.2648333333333,
-          11.4
-        ]
-      },
-      "id": "ci41438768"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.4,
-        "place": "26 km SW of Glacier View, Alaska",
-        "time": 1775974568777,
-        "updated": 1775974639091,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hdwvau",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hdwvau.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "ak",
-        "code": "a2026hdwvau",
-        "ids": ",aka2026hdwvau,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 88,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 26 km SW of Glacier View, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.041,
-          61.653,
-          14.7
-        ]
-      },
-      "id": "aka2026hdwvau"
+      "id": "nc75343327"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.7,
-        "place": "92 km NW of Yakutat, Alaska",
-        "time": 1775973639865,
-        "updated": 1775973743284,
+        "place": "30 km SW of Cantwell, Alaska",
+        "time": 1776063497804,
+        "updated": 1776063735301,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hdwhqr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hdwhqr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hftyfv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hftyfv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -187,35 +67,235 @@
         "tsunami": 0,
         "sig": 44,
         "net": "ak",
-        "code": "a2026hdwhqr",
-        "ids": ",aka2026hdwhqr,",
+        "code": "a2026hftyfv",
+        "ids": ",aka2026hftyfv,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 20,
+        "nst": 32,
         "dmin": 0.3,
-        "rms": 1,
-        "gap": 146,
+        "rms": 0.6,
+        "gap": 56,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 92 km NW of Yakutat, Alaska"
+        "title": "M 1.7 - 30 km SW of Cantwell, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -140.859,
-          60.156,
-          5
+          -149.309,
+          63.168,
+          87.7
         ]
       },
-      "id": "aka2026hdwhqr"
+      "id": "aka2026hftyfv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.29,
+        "place": "3 km SW of San Bernardino, CA",
+        "time": 1776062533210,
+        "updated": 1776062738886,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41439280",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41439280.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ci",
+        "code": "41439280",
+        "ids": ",ci41439280,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 72,
+        "dmin": 0.03212,
+        "rms": 0.22,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 3 km SW of San Bernardino, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.321333333333,
+          34.109,
+          16.22
+        ]
+      },
+      "id": "ci41439280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.79,
+        "place": "20 km NW of Parkfield, CA",
+        "time": 1776062149730,
+        "updated": 1776063141578,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75343317",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75343317.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 49,
+        "net": "nc",
+        "code": "75343317",
+        "ids": ",nc75343317,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 25,
+        "dmin": 0.04138,
+        "rms": 0.06,
+        "gap": 79,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 20 km NW of Parkfield, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.583999633789,
+          36.0248336791992,
+          3.63000011444092
+        ]
+      },
+      "id": "nc75343317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78,
+        "place": "16 km ESE of Little Lake, CA",
+        "time": 1776061825490,
+        "updated": 1776062028880,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41439272",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41439272.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "ci",
+        "code": "41439272",
+        "ids": ",ci41439272,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.0796,
+        "rms": 0.09,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 16 km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7385,
+          35.9023333333333,
+          9.41
+        ]
+      },
+      "id": "ci41439272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "47 km W of Kotzebue, Alaska",
+        "time": 1776061606282,
+        "updated": 1776062821990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hfsxzh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hfsxzh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 178,
+        "net": "ak",
+        "code": "a2026hfsxzh",
+        "ids": ",aka2026hfsxzh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 72,
+        "dmin": 1.2,
+        "rms": 1.4,
+        "gap": 79,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 47 km W of Kotzebue, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.674,
+          66.934,
+          30.3
+        ]
+      },
+      "id": "aka2026hfsxzh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "105 km WNW of Ternate, Indonesia",
+        "time": 1776061299975,
+        "updated": 1776062291040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spl2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000spl2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000spl2",
+        "ids": ",us6000spl2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 6.501,
+        "rms": 0.64,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 105 km WNW of Ternate, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4706,
+          1.0367,
+          43.741
+        ]
+      },
+      "id": "us6000spl2"
     }
   ],
   "bbox": [
-    -150.371,
-    33.264833333333,
-    2,
-    -116.214,
-    61.947,
-    14.7
+    -163.674,
+    1.0367,
+    1.3999999761581,
+    126.4706,
+    66.934,
+    87.7
   ]
 }
