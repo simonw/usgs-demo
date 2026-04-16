@@ -1,224 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776236402000,
+    "generated": 1776322883000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 13
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "57 km NE of Susitna North, Alaska",
-        "time": 1776235748091,
-        "updated": 1776235842174,
+        "mag": 1.6,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1776322580690,
+        "updated": 1776322729125,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hjlcci",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hjlcci.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hlhbez",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026hlhbez.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "a2026hjlcci",
-        "ids": ",aka2026hjlcci,",
-        "sources": ",ak,",
+        "sig": 39,
+        "net": "tx",
+        "code": "2026hlhbez",
+        "ids": ",tx2026hlhbez,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 87,
+        "nst": 29,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 57 km NE of Susitna North, Alaska"
+        "title": "M 1.6 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.99,
-          62.48,
-          56.9
+          -104.395,
+          31.666,
+          5.8269
         ]
       },
-      "id": "aka2026hjlcci"
+      "id": "tx2026hlhbez"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.71,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1776235746180,
-        "updated": 1776235841587,
+        "mag": 3.13,
+        "place": "32 km WNW of Gerlach, Nevada",
+        "time": 1776322566345,
+        "updated": 1776322725051,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75345022",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75345022.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914931",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00914931.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75345022",
-        "ids": ",nc75345022,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.007411,
-        "rms": 0.02,
-        "gap": 103,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.817832946777,
-          38.8276672363281,
-          2.23000001907349
-        ]
-      },
-      "id": "nc75345022"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.26,
-        "place": "9 km NNW of Anza, CA",
-        "time": 1776235477300,
-        "updated": 1776236101880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41441256",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41441256.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "ci",
-        "code": "41441256",
-        "ids": ",ci41441256,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 67,
-        "dmin": 0.069,
-        "rms": 0.19,
-        "gap": 29,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 9 km NNW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.706333333333,
-          33.6295,
-          13.82
-        ]
-      },
-      "id": "ci41441256"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "5 km S of Salcha, Alaska",
-        "time": 1776235240849,
-        "updated": 1776235325378,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hjkuvd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hjkuvd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026hjkuvd",
-        "ids": ",aka2026hjkuvd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 102,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 5 km S of Salcha, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.924,
-          64.475,
-          1.4
-        ]
-      },
-      "id": "aka2026hjkuvd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.76,
-        "place": "19 km ESE of Silver Springs, Nevada",
-        "time": 1776235089703,
-        "updated": 1776235229509,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914731",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00914731.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 48,
+        "sig": 151,
         "net": "nn",
-        "code": "00914731",
-        "ids": ",nn00914731,",
+        "code": "00914931",
+        "ids": ",nn00914931,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.38,
-        "rms": 0.2528,
-        "gap": 92,
+        "nst": 16,
+        "dmin": 0.593,
+        "rms": 0.4817,
+        "gap": 250,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 19 km ESE of Silver Springs, Nevada"
+        "title": "M 3.1 - 32 km WNW of Gerlach, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0277,
-          39.3279,
-          2.6427
+          -119.712,
+          40.7624,
+          0.0379
         ]
       },
-      "id": "nn00914731"
+      "id": "nn00914931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.71,
+        "place": "15 km ENE of Ridgecrest, CA",
+        "time": 1776322443750,
+        "updated": 1776322660806,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41442272",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41442272.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 45,
+        "net": "ci",
+        "code": "41442272",
+        "ids": ",ci41442272,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 42,
+        "dmin": 0.09714,
+        "rms": 0.13,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 15 km ENE of Ridgecrest, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.539,
+          35.6901666666667,
+          7.69
+        ]
+      },
+      "id": "ci41442272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.65,
+        "place": "14 km SSW of Joshua Tree, CA",
+        "time": 1776322400340,
+        "updated": 1776322611329,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41442256",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41442256.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "41442256",
+        "ids": ",ci41442256,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.06768,
+        "rms": 0.13,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 14 km SSW of Joshua Tree, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.343,
+          34.0138333333333,
+          3.53
+        ]
+      },
+      "id": "ci41442256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "33 km S of Kirakira, Solomon Islands",
+        "time": 1776320804404,
+        "updated": 1776321848040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqhl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqhl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000sqhl",
+        "ids": ",us6000sqhl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 2.355,
+        "rms": 1.15,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 33 km S of Kirakira, Solomon Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.9355,
+          -10.7563,
+          50.768
+        ]
+      },
+      "id": "us6000sqhl"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.7,
-        "place": "10 km NW of Anza, CA",
-        "time": 1776234585370,
-        "updated": 1776234794004,
+        "place": "81 km NNW of Karluk, Alaska",
+        "time": 1776320369649,
+        "updated": 1776320467176,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41441248",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41441248.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hlfvle",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hlfvle.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,316 +226,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 8,
+        "net": "ak",
+        "code": "a2026hlfvle",
+        "ids": ",aka2026hlfvle,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 149,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 81 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.93,
+          58.257,
+          5
+        ]
+      },
+      "id": "aka2026hlfvle"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "26 km WSW of Tabalosos, Peru",
+        "time": 1776320331120,
+        "updated": 1776322323040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqhk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqhk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000sqhk",
+        "ids": ",us6000sqhk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 4.229,
+        "rms": 0.69,
+        "gap": 113,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 26 km WSW of Tabalosos, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9169,
+          -6.4014,
+          124.148
+        ]
+      },
+      "id": "us6000sqhk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "12 km ENE of Chenega, Alaska",
+        "time": 1776320237111,
+        "updated": 1776320688970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hlftnn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hlftnn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ak",
+        "code": "a2026hlftnn",
+        "ids": ",aka2026hlftnn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.2,
+        "rms": 0.6,
+        "gap": 153,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 12 km ENE of Chenega, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.797,
+          60.102,
+          22.8
+        ]
+      },
+      "id": "aka2026hlftnn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.97,
+        "place": "1 km S of Redlands, CA",
+        "time": 1776320188460,
+        "updated": 1776320395588,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41442248",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41442248.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
         "net": "ci",
-        "code": "41441248",
-        "ids": ",ci41441248,",
+        "code": "41442248",
+        "ids": ",ci41442248,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.05547,
-        "rms": 0.15,
-        "gap": 54,
+        "nst": 59,
+        "dmin": 0.06014,
+        "rms": 0.17,
+        "gap": 37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 10 km NW of Anza, CA"
+        "title": "M 1.0 - 1 km S of Redlands, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.742333333333,
-          33.6208333333333,
-          14.94
+          -117.184166666667,
+          34.0436666666667,
+          6.33
         ]
       },
-      "id": "ci41441248"
+      "id": "ci41442248"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.08,
-        "place": "3 km SW of Anderson Springs, CA",
-        "time": 1776234475030,
-        "updated": 1776234572455,
+        "mag": 1.95,
+        "place": "19 km ESE of Silver Springs, Nevada",
+        "time": 1776319812578,
+        "updated": 1776319959086,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75345017",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75345017.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914924",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00914924.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75345017",
-        "ids": ",nc75345017,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01069,
-        "rms": 0.01,
-        "gap": 124,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 3 km SW of Anderson Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.715667724609,
-          38.7536659240723,
-          1.76999998092651
-        ]
-      },
-      "id": "nc75345017"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "50 km NE of Chase, Alaska",
-        "time": 1776234401542,
-        "updated": 1776234597447,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hjkiti",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hjkiti.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026hjkiti",
-        "ids": ",aka2026hjkiti,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 73,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 50 km NE of Chase, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.523,
-          62.811,
-          65.8
-        ]
-      },
-      "id": "aka2026hjkiti"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "15 km SW of Ivanof Bay, Alaska",
-        "time": 1776233935360,
-        "updated": 1776234161215,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hjkcai",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hjkcai.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "a2026hjkcai",
-        "ids": ",aka2026hjkcai,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.3,
-        "rms": 0.2,
-        "gap": 221,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 15 km SW of Ivanof Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.668,
-          55.812,
-          13.8
-        ]
-      },
-      "id": "aka2026hjkcai"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.89,
-        "place": "13 km SSW of Volcano, Hawaii",
-        "time": 1776233851830,
-        "updated": 1776234077820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74936322",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74936322.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 55,
-        "net": "hv",
-        "code": "74936322",
-        "ids": ",hv74936322,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.06233,
-        "rms": 0.170000002,
-        "gap": 155,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 13 km SSW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.287002563477,
-          19.3290004730225,
-          35.4900016784668
-        ]
-      },
-      "id": "hv74936322"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "50 km NNE of Petersville, Alaska",
-        "time": 1776233661221,
-        "updated": 1776233770756,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hjjydg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hjjydg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "a2026hjjydg",
-        "ids": ",aka2026hjjydg,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.4,
-        "rms": 0.5,
-        "gap": 85,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 50 km NNE of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.532,
-          62.94,
-          91.7
-        ]
-      },
-      "id": "aka2026hjjydg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.86,
-        "place": "18 km SE of Silver Springs, Nevada",
-        "time": 1776233203952,
-        "updated": 1776233329717,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914726",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00914726.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 53,
+        "sig": 58,
         "net": "nn",
-        "code": "00914726",
-        "ids": ",nn00914726,",
+        "code": "00914924",
+        "ids": ",nn00914924,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.36,
-        "rms": 0.21,
-        "gap": 88,
+        "nst": 16,
+        "dmin": 0.386,
+        "rms": 0.1944,
+        "gap": 90,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 18 km SE of Silver Springs, Nevada"
+        "title": "M 2.0 - 19 km ESE of Silver Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0532,
-          39.3147,
-          8.2804
+          -119.0246,
+          39.3329,
+          1.1374
         ]
       },
-      "id": "nn00914726"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.51,
-        "place": "11 km SE of Anza, CA",
-        "time": 1776233186570,
-        "updated": 1776233391540,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41441240",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41441240.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41441240",
-        "ids": ",ci41441240,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.01819,
-        "rms": 0.17,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 11 km SE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.585333333333,
-          33.4831666666667,
-          5.97
-        ]
-      },
-      "id": "ci41441240"
+      "id": "nn00914924"
     }
   ],
   "bbox": [
-    -159.668,
-    19.329000473023,
-    1.4,
-    -116.58533333333,
-    64.475,
-    91.7
+    -154.93,
+    -10.7563,
+    0.0379,
+    161.9355,
+    60.102,
+    124.148
   ]
 }
