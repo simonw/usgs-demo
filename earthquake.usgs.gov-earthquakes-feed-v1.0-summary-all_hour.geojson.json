@@ -1,501 +1,461 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776409298000,
+    "generated": 1776494847000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 12
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.67,
-        "place": "4 km SSE of Mentone, CA",
-        "time": 1776409015440,
-        "updated": 1776409224142,
+        "mag": 0.41,
+        "place": "6 km SSE of Lake Henshaw, CA",
+        "time": 1776494586750,
+        "updated": 1776494789657,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41443208",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41443208.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444104",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41444104.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
+        "sig": 3,
         "net": "ci",
-        "code": "41443208",
-        "ids": ",ci41443208,",
+        "code": "41444104",
+        "ids": ",ci41444104,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 37,
-        "dmin": 0.009575,
+        "nst": 43,
+        "dmin": 0.04854,
         "rms": 0.17,
-        "gap": 77,
+        "gap": 34,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 4 km SSE of Mentone, CA"
+        "title": "M 0.4 - 6 km SSE of Lake Henshaw, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.123833333333,
-          34.0341666666667,
-          6.8
+          -116.7305,
+          33.1935,
+          10.85
         ]
       },
-      "id": "ci41443208"
+      "id": "ci41444104"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.4,
-        "place": "66 km WNW of Beluga, Alaska",
-        "time": 1776408231352,
-        "updated": 1776408450497,
+        "mag": 2.2,
+        "place": "27 km ESE of Perryville, Alaska",
+        "time": 1776493373948,
+        "updated": 1776493535007,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hncjhw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hncjhw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hoxkcs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hoxkcs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
+        "sig": 74,
         "net": "ak",
-        "code": "a2026hncjhw",
-        "ids": ",aka2026hncjhw,",
+        "code": "a2026hoxkcs",
+        "ids": ",aka2026hoxkcs,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 209,
+        "nst": 19,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 213,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 66 km WNW of Beluga, Alaska"
+        "title": "M 2.2 - 27 km ESE of Perryville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.237,
-          61.355,
-          3.8
+          -158.714,
+          55.85,
+          5
         ]
       },
-      "id": "aka2026hncjhw"
+      "id": "aka2026hoxkcs"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.05,
-        "place": "6 km E of Borrego Springs, CA",
-        "time": 1776407522560,
-        "updated": 1776407732393,
+        "mag": 1.7,
+        "place": "102 km N of Yakutat, Alaska",
+        "time": 1776492799130,
+        "updated": 1776493267763,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41443200",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41443200.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41443200",
-        "ids": ",ci41443200,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 50,
-        "dmin": 0.08029,
-        "rms": 0.2,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 6 km E of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.309166666667,
-          33.2585,
-          12.34
-        ]
-      },
-      "id": "ci41443200"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "3 km WSW of Fuig, Puerto Rico",
-        "time": 1776407255310,
-        "updated": 1776408156340,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513798",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513798.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hoxbwm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hoxbwm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 76,
-        "net": "pr",
-        "code": "71513798",
-        "ids": ",pr71513798,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.06765,
-        "rms": 0.29,
-        "gap": 177,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 3 km WSW of Fuig, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9503333333333,
-          17.9756666666667,
-          6.63
-        ]
-      },
-      "id": "pr71513798"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.06,
-        "place": "19 km NNE of Indio, CA",
-        "time": 1776407240410,
-        "updated": 1776407444630,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41443192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41443192.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41443192",
-        "ids": ",ci41443192,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.04085,
-        "rms": 0.16,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 19 km NNE of Indio, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.1725,
-          33.8845,
-          5.08
-        ]
-      },
-      "id": "ci41443192"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "51 km WSW of Nanwalek, Alaska",
-        "time": 1776407139099,
-        "updated": 1776407244623,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hnbtqd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hnbtqd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
+        "sig": 44,
         "net": "ak",
-        "code": "a2026hnbtqd",
-        "ids": ",aka2026hnbtqd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.4,
-        "rms": 0.3,
-        "gap": 105,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 51 km WSW of Nanwalek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.702,
-          59.123,
-          79.7
-        ]
-      },
-      "id": "aka2026hnbtqd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "53 km N of Chickaloon, Alaska",
-        "time": 1776407058135,
-        "updated": 1776407142730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hnbslu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hnbslu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "a2026hnbslu",
-        "ids": ",aka2026hnbslu,",
+        "code": "a2026hoxbwm",
+        "ids": ",aka2026hoxbwm,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 11,
-        "dmin": 0.4,
-        "rms": 0.3,
-        "gap": 96,
+        "dmin": 0.7,
+        "rms": 0.6,
+        "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 53 km N of Chickaloon, Alaska"
+        "title": "M 1.7 - 102 km N of Yakutat, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.279,
-          62.269,
-          20
+          -139.81,
+          60.467,
+          4.4
         ]
       },
-      "id": "aka2026hnbslu"
+      "id": "aka2026hoxbwm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "210 km W of Langlois, Oregon",
+        "time": 1776492565350,
+        "updated": 1776494139040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr2p",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sr2p.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "6000sr2p",
+        "ids": ",us6000sr2p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 2.154,
+        "rms": 0.58,
+        "gap": 265,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 210 km W of Langlois, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.0084,
+          43.2088,
+          10
+        ]
+      },
+      "id": "us6000sr2p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.74,
+        "place": "17 km SE of Silver Springs, Nevada",
+        "time": 1776492491038,
+        "updated": 1776492624571,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915238",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00915238.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "nn",
+        "code": "00915238",
+        "ids": ",nn00915238,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.073,
+        "rms": 0.2759,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 17 km SE of Silver Springs, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0535,
+          39.3234,
+          5.1355
+        ]
+      },
+      "id": "nn00915238"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "24 km SE of Calingasta, Argentina",
-        "time": 1776406788260,
-        "updated": 1776408267267,
+        "place": "Carlsberg Ridge",
+        "time": 1776492275041,
+        "updated": 1776493409040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqqg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sqqg.geojson",
-        "felt": 1,
-        "cdi": 2.6,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr2q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sr2q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000sr2q",
+        "ids": ",us6000sr2q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 12.062,
+        "rms": 0.64,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Carlsberg Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.2475,
+          6.4842,
+          10
+        ]
+      },
+      "id": "us6000sr2q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.92,
+        "place": "12 km WSW of San Ardo, CA",
+        "time": 1776492172330,
+        "updated": 1776492266287,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75346927",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75346927.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "nc",
+        "code": "75346927",
+        "ids": ",nc75346927,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1415,
+        "rms": 0.07,
+        "gap": 103,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.9 - 12 km WSW of San Ardo, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.035499572754,
+          35.9934997558594,
+          13.9099998474121
+        ]
+      },
+      "id": "nc75346927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Carlsberg Ridge",
+        "time": 1776491998199,
+        "updated": 1776493537952,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr2n",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sr2n.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "6000sr2n",
+        "ids": ",us6000sr2n,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 50,
+        "dmin": 11.982,
+        "rms": 0.7,
+        "gap": 89,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Carlsberg Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.2178,
+          6.409,
+          10
+        ]
+      },
+      "id": "us6000sr2n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "7 km SSE of Indios, Puerto Rico",
+        "time": 1776491680980,
+        "updated": 1776492535170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513873",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513873.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "pr",
+        "code": "71513873",
+        "ids": ",pr71513873,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.08476,
+        "rms": 0.12,
+        "gap": 184,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 7 km SSE of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7883333333333,
+          17.9348333333333,
+          8.87
+        ]
+      },
+      "id": "pr71513873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "5 km NE of Ōmachi, Japan",
+        "time": 1776491670799,
+        "updated": 1776494078631,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr2i",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sr2i.geojson",
+        "felt": 2,
+        "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 370,
         "net": "us",
-        "code": "6000sqqg",
-        "ids": ",us6000sqqg,",
+        "code": "6000sr2i",
+        "ids": ",us6000sr2i,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.491,
-        "rms": 0.96,
-        "gap": 56,
-        "magType": "mb",
+        "nst": 135,
+        "dmin": 0.237,
+        "rms": 0.69,
+        "gap": 57,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 24 km SE of Calingasta, Argentina"
+        "title": "M 4.9 - 5 km NE of Ōmachi, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -69.242,
-          -31.4943,
-          112.404
+          137.9099,
+          36.5388,
+          10
         ]
       },
-      "id": "us6000sqqg"
+      "id": "us6000sr2i"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.45,
-        "place": "8 km SW of Guánica, Puerto Rico",
-        "time": 1776406688090,
-        "updated": 1776408017640,
+        "mag": 0.65,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1776491508180,
+        "updated": 1776491602156,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71513808",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71513808.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "pr",
-        "code": "71513808",
-        "ids": ",pr71513808,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.08044,
-        "rms": 0.07,
-        "gap": 235,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 8 km SW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9746666666667,
-          17.9235,
-          15.22
-        ]
-      },
-      "id": "pr71513808"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.08,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1776406359630,
-        "updated": 1776406456467,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75346232",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75346232.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75346922",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75346922.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
+        "sig": 6,
         "net": "nc",
-        "code": "75346232",
-        "ids": ",nc75346232,",
+        "code": "75346922",
+        "ids": ",nc75346922,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.007408,
+        "nst": 9,
+        "dmin": 0.005977,
         "rms": 0.01,
-        "gap": 74,
+        "gap": 82,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 6 km NW of The Geysers, CA"
+        "title": "M 0.7 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.807167053223,
-          38.816333770752,
-          2.17000007629395
+          -122.802833557129,
+          38.8253326416016,
+          2.73000001907349
         ]
       },
-      "id": "nc75346232"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.25,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1776405871060,
-        "updated": 1776409040571,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75346227",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75346227.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "nc",
-        "code": "75346227",
-        "ids": ",nc75346227,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.01785,
-        "rms": 0.03,
-        "gap": 185,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.81233215332,
-          38.8251647949219,
-          1.99000000953674
-        ]
-      },
-      "id": "nc75346227"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.76,
-        "place": "11 km ENE of Pāhala, Hawaii",
-        "time": 1776405769660,
-        "updated": 1776405999040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74937477",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74937477.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 48,
-        "net": "hv",
-        "code": "74937477",
-        "ids": ",hv74937477,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.02145,
-        "rms": 0.119999997,
-        "gap": 140,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 11 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.389007568359,
-          19.2574996948242,
-          32.3300018310547
-        ]
-      },
-      "id": "hv74937477"
+      "id": "nc75346922"
     }
   ],
   "bbox": [
-    -155.38900756836,
-    -31.4943,
-    1.9900000095367,
-    -66.950333333333,
-    62.269,
-    112.404
+    -158.714,
+    6.409,
+    2.7300000190735,
+    137.9099,
+    60.467,
+    13.909999847412
   ]
 }
