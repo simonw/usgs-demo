@@ -1,261 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776668911000,
+    "generated": 1776754955000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 6
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "62 km S of Whites City, New Mexico",
-        "time": 1776668353396,
-        "updated": 1776668617447,
+        "mag": 0.77,
+        "place": "10 km SE of Winchester, CA",
+        "time": 1776753362030,
+        "updated": 1776753567380,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hsqbew",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026hsqbew.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446152",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41446152.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026hsqbew",
-        "ids": ",tx2026hsqbew,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 74,
+        "sig": 9,
+        "net": "ci",
+        "code": "41446152",
+        "ids": ",ci41446152,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.008719,
+        "rms": 0.16,
+        "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 62 km S of Whites City, New Mexico"
+        "title": "M 0.8 - 10 km SE of Winchester, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.354,
-          31.612,
-          4.5243
+          -117.013166666667,
+          33.6418333333333,
+          13.16
         ]
       },
-      "id": "tx2026hsqbew"
+      "id": "ci41446152"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "35 km N of Petersville, Alaska",
-        "time": 1776667748398,
-        "updated": 1776667931196,
+        "mag": 1.44,
+        "place": "21 km NW of Tehachapi, CA",
+        "time": 1776753216620,
+        "updated": 1776753428012,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hspsmx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hspsmx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446144",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41446144.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026hspsmx",
-        "ids": ",aka2026hspsmx,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.3,
-        "rms": 0.4,
-        "gap": 132,
+        "sig": 32,
+        "net": "ci",
+        "code": "41446144",
+        "ids": ",ci41446144,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 43,
+        "dmin": 0.1065,
+        "rms": 0.21,
+        "gap": 32,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 35 km N of Petersville, Alaska"
+        "title": "M 1.4 - 21 km NW of Tehachapi, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.749,
-          62.811,
-          85.8
+          -118.5795,
+          35.289,
+          3.55
         ]
       },
-      "id": "aka2026hspsmx"
+      "id": "ci41446144"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "50 km SSE of Whites City, New Mexico",
-        "time": 1776667726897,
-        "updated": 1776668483215,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hspqxk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026hspqxk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2026hspqxk",
-        "ids": ",tx2026hspqxk,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 91,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 50 km SSE of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.194,
-          31.751,
-          4.3366
-        ]
-      },
-      "id": "tx2026hspqxk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.29,
+        "mag": 0.54,
         "place": "14 km SE of Anza, CA",
-        "time": 1776667019650,
-        "updated": 1776667230090,
+        "time": 1776752681400,
+        "updated": 1776752883107,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41445440",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41445440.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446136",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41446136.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
+        "sig": 4,
         "net": "ci",
-        "code": "41445440",
-        "ids": ",ci41445440,",
+        "code": "41446136",
+        "ids": ",ci41446136,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.04266,
-        "rms": 0.2,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.3 - 14 km SE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.560666666667,
-          33.4698333333333,
-          11.52
-        ]
-      },
-      "id": "ci41445440"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.91,
-        "place": "20 km E of Little Lake, CA",
-        "time": 1776666557440,
-        "updated": 1776666762835,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41445432",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41445432.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41445432",
-        "ids": ",ci41445432,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.04605,
-        "rms": 0.13,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 20 km E of Little Lake, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.683333333333,
-          35.9103333333333,
-          7.09
-        ]
-      },
-      "id": "ci41445432"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.98,
-        "place": "6 km SW of Volcano, Hawaii",
-        "time": 1776665351130,
-        "updated": 1776665557560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74939317",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74939317.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 60,
-        "net": "hv",
-        "code": "74939317",
-        "ids": ",hv74939317,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.01121,
-        "rms": 0.119999997,
+        "nst": 29,
+        "dmin": 0.04607,
+        "rms": 0.14,
         "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 6 km SW of Volcano, Hawaii"
+        "title": "M 0.5 - 14 km SE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.282836914062,
-          19.4025001525879,
-          0.439999997615814
+          -116.548666666667,
+          33.4836666666667,
+          8.78
         ]
       },
-      "id": "hv74939317"
+      "id": "ci41446136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.7,
+        "place": "46 km NNE of Otra Banda, Dominican Republic",
+        "time": 1776752135146,
+        "updated": 1776752805040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srsa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000srsa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "6000srsa",
+        "ids": ",us6000srsa,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.544,
+        "rms": 0.47,
+        "gap": 148,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.7 - 46 km NNE of Otra Banda, Dominican Republic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5104,
+          19.0469,
+          35
+        ]
+      },
+      "id": "us6000srsa"
     }
   ],
   "bbox": [
-    -155.28283691406,
-    19.402500152588,
-    0.43999999761581,
-    -104.194,
-    62.811,
-    85.8
+    -118.5795,
+    19.0469,
+    3.55,
+    -68.5104,
+    35.289,
+    35
   ]
 }
