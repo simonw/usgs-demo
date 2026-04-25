@@ -1,224 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1776927846000,
+    "generated": 1777099799000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.3.0",
-    "count": 6
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "108 km WNW of Houma, Tonga",
-        "time": 1776925870762,
-        "updated": 1776927008040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ss90",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ss90.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000ss90",
-        "ids": ",us6000ss90,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 98,
-        "dmin": 5.957,
-        "rms": 1.13,
-        "gap": 45,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 108 km WNW of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.2603,
-          -20.7822,
-          206.451
-        ]
-      },
-      "id": "us6000ss90"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "9 km NNE of Ridgeway, Alaska",
-        "time": 1776925865648,
-        "updated": 1776925971183,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hychpd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hychpd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026hychpd",
-        "ids": ",aka2026hychpd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.7,
-        "rms": 0.6,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 9 km NNE of Ridgeway, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.036,
-          60.615,
-          63.4
-        ]
-      },
-      "id": "aka2026hychpd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "67 km WNW of Beluga, Alaska",
-        "time": 1776925700736,
-        "updated": 1776925891028,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hycffm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hycffm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026hycffm",
-        "ids": ",aka2026hycffm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 82,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 67 km WNW of Beluga, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.217,
-          61.404,
-          124.7
-        ]
-      },
-      "id": "aka2026hycffm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "92 km ESE of King Salmon, Alaska",
-        "time": 1776924828205,
-        "updated": 1776925040317,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hybsrw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hybsrw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026hybsrw",
-        "ids": ",aka2026hybsrw,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 115,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 92 km ESE of King Salmon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.261,
-          58.298,
-          2
-        ]
-      },
-      "id": "aka2026hybsrw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.47,
-        "place": "11 km NE of Julian, CA",
-        "time": 1776924450140,
-        "updated": 1776924662514,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41447000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41447000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41447000",
-        "ids": ",ci41447000,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.09567,
-        "rms": 0.19,
-        "gap": 101,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 11 km NE of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.519833333333,
-          33.1511666666667,
-          6.15
-        ]
-      },
-      "id": "ci41447000"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.6,
-        "place": "7 km W of Lindsay, Texas",
-        "time": 1776924397259,
-        "updated": 1776924660707,
+        "place": "45 km NW of Toyah, Texas",
+        "time": 1777099309417,
+        "updated": 1777099605474,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hybmls",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026hybmls.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ibucbl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ibucbl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,35 +27,435 @@
         "tsunami": 0,
         "sig": 39,
         "net": "tx",
-        "code": "2026hybmls",
-        "ids": ",tx2026hybmls,",
+        "code": "2026ibucbl",
+        "ids": ",tx2026ibucbl,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 20,
+        "nst": 29,
         "dmin": 0,
-        "rms": 0.6,
-        "gap": 76,
+        "rms": 0.4,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 7 km W of Lindsay, Texas"
+        "title": "M 1.6 - 45 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.618,
-          31.361,
-          5.7512
+          -104.115,
+          31.617,
+          3.9499
         ]
       },
-      "id": "tx2026hybmls"
+      "id": "tx2026ibucbl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.47,
+        "place": "23 km N of Ridgecrest, CA",
+        "time": 1777099004580,
+        "updated": 1777099218852,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41233991",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41233991.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "ci",
+        "code": "41233991",
+        "ids": ",ci41233991,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.05573,
+        "rms": 0.1,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 23 km N of Ridgecrest, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.664833333333,
+          35.8263333333333,
+          9.32
+        ]
+      },
+      "id": "ci41233991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "59 km N of Aleneva, Alaska",
+        "time": 1777098760580,
+        "updated": 1777098918751,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ibtusc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ibtusc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026ibtusc",
+        "ids": ",aka2026ibtusc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.2,
+        "rms": 0.1,
+        "gap": 184,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 59 km N of Aleneva, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.731,
+          58.585,
+          37.2
+        ]
+      },
+      "id": "aka2026ibtusc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.17,
+        "place": "22 km W of Petrolia, CA",
+        "time": 1777098598410,
+        "updated": 1777099040038,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75351132",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75351132.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "nc",
+        "code": "75351132",
+        "ids": ",nc75351132,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.1567,
+        "rms": 0.02,
+        "gap": 294,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 22 km W of Petrolia, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.544334411621,
+          40.3158340454102,
+          14.4700002670288
+        ]
+      },
+      "id": "nc75351132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "20 km WSW of Point Possession, Alaska",
+        "time": 1777098523868,
+        "updated": 1777098636457,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ibtrhx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ibtrhx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026ibtrhx",
+        "ids": ",aka2026ibtrhx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.5,
+        "rms": 0.5,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 20 km WSW of Point Possession, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.023,
+          60.844,
+          62.1
+        ]
+      },
+      "id": "aka2026ibtrhx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "14 km N of Meadow Lakes, Alaska",
+        "time": 1777097873627,
+        "updated": 1777097964574,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ibthze",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ibthze.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026ibthze",
+        "ids": ",aka2026ibthze,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.3,
+        "rms": 0.8,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 14 km N of Meadow Lakes, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.608,
+          61.756,
+          27.8
+        ]
+      },
+      "id": "aka2026ibthze"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.64,
+        "place": "6 km WNW of The Geysers, CA",
+        "time": 1777097785330,
+        "updated": 1777099646103,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75351127",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75351127.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 41,
+        "net": "nc",
+        "code": "75351127",
+        "ids": ",nc75351127,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.01176,
+        "rms": 0.03,
+        "gap": 71,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.6 - 6 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.819999694824,
+          38.7938346862793,
+          1.38999998569489
+        ]
+      },
+      "id": "nc75351127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.83,
+        "place": "8 km SE of Lake Henshaw, CA",
+        "time": 1777097463400,
+        "updated": 1777097671585,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41233983",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41233983.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "41233983",
+        "ids": ",ci41233983,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 36,
+        "dmin": 0.0538,
+        "rms": 0.17,
+        "gap": 57,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 8 km SE of Lake Henshaw, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.708166666667,
+          33.1821666666667,
+          16.2
+        ]
+      },
+      "id": "ci41233983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "16 km NW of Tatitlek, Alaska",
+        "time": 1777097299864,
+        "updated": 1777097380110,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ibszss",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ibszss.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026ibszss",
+        "ids": ",aka2026ibszss,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 70,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 16 km NW of Tatitlek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.914,
+          60.953,
+          22.2
+        ]
+      },
+      "id": "aka2026ibszss"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "61 km S of Whites City, New Mexico",
+        "time": 1777097268750,
+        "updated": 1777097499500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ibszhn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ibszhn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "tx",
+        "code": "2026ibszhn",
+        "ids": ",tx2026ibszhn,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 92,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 61 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.447,
+          31.628,
+          3.2934
+        ]
+      },
+      "id": "tx2026ibszhn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "41 km W of Kalifornsky, Alaska",
+        "time": 1777096950930,
+        "updated": 1777097073819,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ibsusp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ibsusp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026ibsusp",
+        "ids": ",aka2026ibsusp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.2,
+        "rms": 0.4,
+        "gap": 133,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 41 km W of Kalifornsky, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.039,
+          60.484,
+          81.8
+        ]
+      },
+      "id": "aka2026ibsusp"
     }
   ],
   "bbox": [
-    -176.2603,
-    -20.7822,
-    2,
-    -103.618,
-    61.404,
-    206.451
+    -152.731,
+    31.617,
+    1.3899999856949,
+    -104.115,
+    61.756,
+    81.8
   ]
 }
