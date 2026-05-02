@@ -1,261 +1,461 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777619738000,
+    "generated": 1777705440000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 6
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.34,
-        "place": "10 km WNW of The Geysers, CA",
-        "time": 1777619633960,
-        "updated": 1777619728146,
+        "mag": 0.84,
+        "place": "6 km SSW of Redlands, CA",
+        "time": 1777705134800,
+        "updated": 1777705347197,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75354797",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75354797.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41239367",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41239367.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 28,
-        "net": "nc",
-        "code": "75354797",
-        "ids": ",nc75354797,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.007257,
-        "rms": 0.01,
-        "gap": 91,
-        "magType": "md",
+        "sig": 11,
+        "net": "ci",
+        "code": "41239367",
+        "ids": ",ci41239367,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.06434,
+        "rms": 0.18,
+        "gap": 43,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 10 km WNW of The Geysers, CA"
+        "title": "M 0.8 - 6 km SSW of Redlands, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.852836608887,
-          38.8209991455078,
-          2.4300000667572
+          -117.212333333333,
+          34.0028333333333,
+          3.65
         ]
       },
-      "id": "nc75354797"
+      "id": "ci41239367"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.72,
-        "place": "5 km SW of Volcano, Hawaii",
-        "time": 1777619138100,
-        "updated": 1777619357140,
+        "mag": 1.99,
+        "place": "7 km SSW of Redlands, CA",
+        "time": 1777704523300,
+        "updated": 1777705152178,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74949652",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74949652.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41239359",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41239359.geojson",
+        "felt": 6,
+        "cdi": 2.8,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "ci",
+        "code": "41239359",
+        "ids": ",ci41239359,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 112,
+        "dmin": 0.0633,
+        "rms": 0.19,
+        "gap": 24,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 7 km SSW of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.213833333333,
+          34.0008333333333,
+          3.33
+        ]
+      },
+      "id": "ci41239359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.95,
+        "place": "7 km SSW of Redlands, CA",
+        "time": 1777704484150,
+        "updated": 1777704698344,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41239351",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41239351.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 46,
+        "sig": 14,
+        "net": "ci",
+        "code": "41239351",
+        "ids": ",ci41239351,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 58,
+        "dmin": 0.06444,
+        "rms": 0.19,
+        "gap": 41,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 7 km SSW of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2145,
+          34.0018333333333,
+          3.78
+        ]
+      },
+      "id": "ci41239351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.87,
+        "place": "5 km S of Pāhala, Hawaii",
+        "time": 1777704419880,
+        "updated": 1777704630940,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74950302",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74950302.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 54,
         "net": "hv",
-        "code": "74949652",
-        "ids": ",hv74949652,",
+        "code": "74950302",
+        "ids": ",hv74950302,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01433,
-        "rms": 0.200000003,
-        "gap": 109,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 5 km SW of Volcano, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.272994995117,
-          19.4048328399658,
-          -1.10000002384186
-        ]
-      },
-      "id": "hv74949652"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.05,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1777618399230,
-        "updated": 1777618498053,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75354792",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75354792.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75354792",
-        "ids": ",nc75354792,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.001635,
-        "rms": 0.02,
-        "gap": 44,
+        "nst": 25,
+        "dmin": 0.01628,
+        "rms": 0.270000011,
+        "gap": 246,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 7 km NW of The Geysers, CA"
+        "title": "M 1.9 - 5 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.811668395996,
-          38.8223342895508,
-          2.92000007629395
+          -155.47883605957,
+          19.1515007019043,
+          29.1100006103516
         ]
       },
-      "id": "nc75354792"
+      "id": "hv74950302"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.64,
-        "place": "62 km NNE of Keeler, California",
-        "time": 1777617516590,
-        "updated": 1777617743952,
+        "mag": 1.1,
+        "place": "19 km SSE of Stanton, Texas",
+        "time": 1777704410487,
+        "updated": 1777704558416,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916966",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00916966.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ioqivo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ioqivo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 41,
-        "net": "nn",
-        "code": "00916966",
-        "ids": ",nn00916966,",
-        "sources": ",nn,",
+        "sig": 19,
+        "net": "tx",
+        "code": "2026ioqivo",
+        "ids": ",tx2026ioqivo,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.123,
-        "rms": 0.3336,
-        "gap": 176,
+        "nst": 7,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 149,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 62 km NNE of Keeler, California"
+        "title": "M 1.1 - 19 km SSE of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.5172,
-          36.9726,
-          0.8728
+          -101.707,
+          31.963,
+          0.6884
         ]
       },
-      "id": "nn00916966"
+      "id": "tx2026ioqivo"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.82,
-        "place": "18 km SE of Silver Springs, Nevada",
-        "time": 1777617148383,
-        "updated": 1777617259732,
+        "mag": 1.01,
+        "place": "14 km WSW of Lake Nacimiento, CA",
+        "time": 1777703266250,
+        "updated": 1777703363895,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916964",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00916964.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75355432",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75355432.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 51,
-        "net": "nn",
-        "code": "00916964",
-        "ids": ",nn00916964,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.052,
-        "rms": 0.1579,
-        "gap": 58,
-        "magType": "ml",
+        "sig": 16,
+        "net": "nc",
+        "code": "75355432",
+        "ids": ",nc75355432,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.0977,
+        "rms": 0.01,
+        "gap": 150,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 18 km SE of Silver Springs, Nevada"
+        "title": "M 1.0 - 14 km WSW of Lake Nacimiento, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.1,
-          39.2755,
-          4.4404
+          -121.03483581543,
+          35.6959991455078,
+          9.10000038146973
         ]
       },
-      "id": "nn00916964"
+      "id": "nc75355432"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "19 km SE of Silver Springs, Nevada",
-        "time": 1777617087475,
-        "updated": 1777619371655,
+        "mag": 1.5,
+        "place": "51 km NW of Toyah, Texas",
+        "time": 1777703136847,
+        "updated": 1777703316440,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916962",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00916962.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026iopqqr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026iopqqr.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 75,
-        "net": "nn",
-        "code": "00916962",
-        "ids": ",nn00916962,",
-        "sources": ",nn,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.04,
-        "rms": 0.2977,
-        "gap": 55,
+        "sig": 35,
+        "net": "tx",
+        "code": "2026iopqqr",
+        "ids": ",tx2026iopqqr,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 116,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 19 km SE of Silver Springs, Nevada"
+        "title": "M 1.5 - 51 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0808,
-          39.2762,
-          9.5441
+          -104.169,
+          31.644,
+          3.6221
         ]
       },
-      "id": "nn00916962"
+      "id": "tx2026iopqqr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "79 km N of Calama, Chile",
+        "time": 1777702962852,
+        "updated": 1777704100040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shqp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000shqp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000shqp",
+        "ids": ",us7000shqp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.437,
+        "rms": 1.41,
+        "gap": 37,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 79 km N of Calama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7738,
+          -21.7539,
+          115.882
+        ]
+      },
+      "id": "us7000shqp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.09,
+        "place": "2 km NW of The Geysers, CA",
+        "time": 1777702880330,
+        "updated": 1777702978797,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75355427",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75355427.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75355427",
+        "ids": ",nc75355427,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.01186,
+        "rms": 0.03,
+        "gap": 93,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 2 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.767997741699,
+          38.7906684875488,
+          1.69000005722046
+        ]
+      },
+      "id": "nc75355427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.53,
+        "place": "11 km NE of Julian, CA",
+        "time": 1777702567070,
+        "updated": 1777702769366,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41239343",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41239343.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41239343",
+        "ids": ",ci41239343,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.09264,
+        "rms": 0.23,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 11 km NE of Julian, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5205,
+          33.1475,
+          8.48
+        ]
+      },
+      "id": "ci41239343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1777702373510,
+        "updated": 1777702469719,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75355422",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75355422.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "nc",
+        "code": "75355422",
+        "ids": ",nc75355422,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.00212,
+        "rms": 0,
+        "gap": 90,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.9 - 10 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.837501525879,
+          38.8371658325195,
+          1.21000003814697
+        ]
+      },
+      "id": "nc75355422"
     }
   ],
   "bbox": [
-    -155.27299499512,
-    19.404832839966,
-    -1.1000000238419,
-    -117.5172,
-    39.2762,
-    9.5441
+    -155.47883605957,
+    -21.7539,
+    0.6884,
+    -68.7738,
+    38.83716583252,
+    115.882
   ]
 }
