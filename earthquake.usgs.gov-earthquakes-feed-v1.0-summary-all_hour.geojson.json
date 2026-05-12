@@ -1,264 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778485013000,
+    "generated": 1778570464000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 8
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.78038655095786,
-        "place": "5 km S of Brawley, CA",
-        "time": 1778484872920,
-        "updated": 1778484997527,
+        "mag": 0.89,
+        "place": "11 km NNE of Sunland, CA",
+        "time": 1778570229630,
+        "updated": 1778570441806,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463712",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463712.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41464848",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41464848.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 49,
+        "sig": 12,
         "net": "ci",
-        "code": "41463712",
-        "ids": ",ci41463712,",
+        "code": "41464848",
+        "ids": ",ci41464848,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 41,
-        "dmin": 0.04333,
-        "rms": 0.25999999,
-        "gap": 78,
+        "nst": 26,
+        "dmin": 0.04775,
+        "rms": 0.14,
+        "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 5 km S of Brawley, CA"
+        "title": "M 0.9 - 11 km NNE of Sunland, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.53133392334,
-          32.9371681213379,
-          10.1700000762939
+          -118.275166666667,
+          34.3588333333333,
+          6.65
         ]
       },
-      "id": "ci41463712"
+      "id": "ci41464848"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "4 km ENE of Heber, CA",
-        "time": 1778484754620,
-        "updated": 1778484965838,
+        "mag": 1.01,
+        "place": "17 km ESE of Julian, CA",
+        "time": 1778569875370,
+        "updated": 1778570078813,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463704",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463704.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41464840",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41464840.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
+        "sig": 16,
         "net": "ci",
-        "code": "41463704",
-        "ids": ",ci41463704,",
+        "code": "41464840",
+        "ids": ",ci41464840,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.06877,
-        "rms": 0.26,
-        "gap": 52,
+        "nst": 48,
+        "dmin": 0.04906,
+        "rms": 0.17,
+        "gap": 40,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 4 km ENE of Heber, CA"
+        "title": "M 1.0 - 17 km ESE of Julian, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.486,
-          32.7448333333333,
-          12.17
+          -116.435333333333,
+          33.0281666666667,
+          8.19
         ]
       },
-      "id": "ci41463704"
+      "id": "ci41464840"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.56,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1778484587030,
-        "updated": 1778484685448,
+        "mag": 0.49,
+        "place": "3 km SSE of Lake Henshaw, CA",
+        "time": 1778569546730,
+        "updated": 1778569750889,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358646",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75358646.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 37,
-        "net": "nc",
-        "code": "75358646",
-        "ids": ",nc75358646,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.00709,
-        "rms": 0.02,
-        "gap": 43,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.814331054688,
-          38.8296661376953,
-          1.72000002861023
-        ]
-      },
-      "id": "nc75358646"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "53 km W of Petrolia, CA",
-        "time": 1778484325660,
-        "updated": 1778484741247,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75358636",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75358636.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "nc",
-        "code": "75358636",
-        "ids": ",nc75358636,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.4367,
-        "rms": 0.43,
-        "gap": 292,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 53 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.910667419434,
-          40.3334999084473,
-          8.64000034332275
-        ]
-      },
-      "id": "nc75358636"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.34,
-        "place": "4 km SSW of Brawley, CA",
-        "time": 1778484090250,
-        "updated": 1778484301608,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463696",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463696.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41463696",
-        "ids": ",ci41463696,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.04189,
-        "rms": 0.27,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 4 km SSW of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.549166666667,
-          32.9423333333333,
-          9.29
-        ]
-      },
-      "id": "ci41463696"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.09,
-        "place": "1 km S of Brawley, CA",
-        "time": 1778483470350,
-        "updated": 1778483682494,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463688",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463688.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "ci",
-        "code": "41463688",
-        "ids": ",ci41463688,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.07084,
-        "rms": 0.27,
-        "gap": 100,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 1 km S of Brawley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.529166666667,
-          32.9673333333333,
-          6.78
-        ]
-      },
-      "id": "ci41463688"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.5,
-        "place": "85 km NW of Karluk, Alaska",
-        "time": 1778483074401,
-        "updated": 1778483162045,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jgraah",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jgraah.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41464832",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41464832.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,76 +106,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 4,
-        "net": "ak",
-        "code": "a2026jgraah",
-        "ids": ",aka2026jgraah,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 74,
+        "net": "ci",
+        "code": "41464832",
+        "ids": ",ci41464832,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.01626,
+        "rms": 0.14,
+        "gap": 35,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 85 km NW of Karluk, Alaska"
+        "title": "M 0.5 - 3 km SSE of Lake Henshaw, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.372,
-          58.166,
-          5
+          -116.752666666667,
+          33.2205,
+          10.04
         ]
       },
-      "id": "aka2026jgraah"
+      "id": "ci41464832"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "14 km NE of Coso Junction, CA",
-        "time": 1778481446830,
-        "updated": 1778481650201,
+        "mag": 5.1,
+        "place": "79 km S of Hualien City, Taiwan",
+        "time": 1778568812598,
+        "updated": 1778569976040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41463680",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41463680.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx3h",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx3h.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41463680",
-        "ids": ",ci41463680,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.02305,
-        "rms": 0.11,
-        "gap": 86,
-        "magType": "ml",
+        "sig": 400,
+        "net": "us",
+        "code": "6000sx3h",
+        "ids": ",us6000sx3h,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 89,
+        "dmin": 0.219,
+        "rms": 0.7,
+        "gap": 88,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 0.7 - 14 km NE of Coso Junction, CA"
+        "title": "M 5.1 - 79 km S of Hualien City, Taiwan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.827833333333,
-          36.1248333333333,
-          2.66
+          121.4893,
+          23.2629,
+          26.329
         ]
       },
-      "id": "ci41463680"
+      "id": "us6000sx3h"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "131 km SE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1778566983205,
+        "updated": 1778568552040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx3g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx3g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000sx3g",
+        "ids": ",us6000sx3g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 115,
+        "dmin": 1.687,
+        "rms": 0.67,
+        "gap": 117,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 131 km SE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.1716,
+          52.3443,
+          10
+        ]
+      },
+      "id": "us6000sx3g"
     }
   ],
   "bbox": [
-    -155.372,
-    32.744833333333,
-    1.7200000286102,
-    -115.486,
-    58.166,
-    12.17
+    -118.27516666667,
+    23.2629,
+    6.65,
+    160.1716,
+    52.3443,
+    26.329
   ]
 }
