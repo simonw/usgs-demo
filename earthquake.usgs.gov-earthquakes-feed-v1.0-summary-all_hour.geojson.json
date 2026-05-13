@@ -1,24 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778570464000,
+    "generated": 1778657232000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 5
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.89,
-        "place": "11 km NNE of Sunland, CA",
-        "time": 1778570229630,
-        "updated": 1778570441806,
+        "mag": 1.77,
+        "place": "26 km NNW of Tehachapi, CA",
+        "time": 1778656759710,
+        "updated": 1778656965185,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41464848",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41464848.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466032",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466032.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 48,
+        "net": "ci",
+        "code": "41466032",
+        "ids": ",ci41466032,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 48,
+        "dmin": 0.1746,
+        "rms": 0.17,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 26 km NNW of Tehachapi, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.538166666667,
+          35.355,
+          3.66
+        ]
+      },
+      "id": "ci41466032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1778656551840,
+        "updated": 1778656648529,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359816",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359816.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75359816",
+        "ids": ",nc75359816,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.01037,
+        "rms": 0.01,
+        "gap": 65,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.818168640137,
+          38.8146667480469,
+          2.46000003814697
+        ]
+      },
+      "id": "nc75359816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "4 km SSE of Frazier Park, CA",
+        "time": 1778655624600,
+        "updated": 1778655829891,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466024",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466024.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,195 +107,155 @@
         "tsunami": 0,
         "sig": 12,
         "net": "ci",
-        "code": "41464848",
-        "ids": ",ci41464848,",
+        "code": "41466024",
+        "ids": ",ci41466024,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.04775,
-        "rms": 0.14,
-        "gap": 57,
+        "nst": 28,
+        "dmin": 0.03886,
+        "rms": 0.2,
+        "gap": 51,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 11 km NNE of Sunland, CA"
+        "title": "M 0.9 - 4 km SSE of Frazier Park, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.275166666667,
-          34.3588333333333,
-          6.65
+          -118.927166666667,
+          34.7926666666667,
+          13.09
         ]
       },
-      "id": "ci41464848"
+      "id": "ci41466024"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.01,
-        "place": "17 km ESE of Julian, CA",
-        "time": 1778569875370,
-        "updated": 1778570078813,
+        "mag": 1.56,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1778654698140,
+        "updated": 1778654793364,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41464840",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41464840.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359811",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359811.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
-        "net": "ci",
-        "code": "41464840",
-        "ids": ",ci41464840,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.04906,
-        "rms": 0.17,
-        "gap": 40,
-        "magType": "ml",
+        "sig": 37,
+        "net": "nc",
+        "code": "75359811",
+        "ids": ",nc75359811,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.001727,
+        "rms": 0.02,
+        "gap": 39,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 17 km ESE of Julian, CA"
+        "title": "M 1.6 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.435333333333,
-          33.0281666666667,
-          8.19
+          -122.809997558594,
+          38.8216667175293,
+          2.75999999046326
         ]
       },
-      "id": "ci41464840"
+      "id": "nc75359811"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.49,
-        "place": "3 km SSE of Lake Henshaw, CA",
-        "time": 1778569546730,
-        "updated": 1778569750889,
+        "mag": 0.78,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1778654352510,
+        "updated": 1778656941255,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41464832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41464832.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359806",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359806.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41464832",
-        "ids": ",ci41464832,",
-        "sources": ",ci,",
+        "sig": 9,
+        "net": "nc",
+        "code": "75359806",
+        "ids": ",nc75359806,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.01626,
-        "rms": 0.14,
-        "gap": 35,
-        "magType": "ml",
+        "nst": 7,
+        "dmin": 0.008514,
+        "rms": 0.05,
+        "gap": 135,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.5 - 3 km SSE of Lake Henshaw, CA"
+        "title": "M 0.8 - 6 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.752666666667,
-          33.2205,
-          10.04
+          -122.804664611816,
+          38.8123321533203,
+          9.89000034332275
         ]
       },
-      "id": "ci41464832"
+      "id": "nc75359806"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
-        "place": "79 km S of Hualien City, Taiwan",
-        "time": 1778568812598,
-        "updated": 1778569976040,
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1778654197861,
+        "updated": 1778655135040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx3h",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx3h.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxd4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxd4.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 400,
+        "sig": 385,
         "net": "us",
-        "code": "6000sx3h",
-        "ids": ",us6000sx3h,",
+        "code": "6000sxd4",
+        "ids": ",us6000sxd4,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 89,
-        "dmin": 0.219,
-        "rms": 0.7,
+        "nst": 49,
+        "dmin": 4.819,
+        "rms": 0.83,
         "gap": 88,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 79 km S of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.4893,
-          23.2629,
-          26.329
-        ]
-      },
-      "id": "us6000sx3h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "131 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1778566983205,
-        "updated": 1778568552040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sx3g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sx3g.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000sx3g",
-        "ids": ",us6000sx3g,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 115,
-        "dmin": 1.687,
-        "rms": 0.67,
-        "gap": 117,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 131 km SE of Petropavlovsk-Kamchatsky, Russia"
+        "title": "M 5.0 - South Sandwich Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.1716,
-          52.3443,
+          -28.3706,
+          -55.3734,
           10
         ]
       },
-      "id": "us6000sx3g"
+      "id": "us6000sxd4"
     }
   ],
   "bbox": [
-    -118.27516666667,
-    23.2629,
-    6.65,
-    160.1716,
-    52.3443,
-    26.329
+    -122.81816864014,
+    -55.3734,
+    2.460000038147,
+    -28.3706,
+    38.821666717529,
+    13.09
   ]
 }
