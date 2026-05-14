@@ -1,261 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778657232000,
+    "generated": 1778743479000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.77,
-        "place": "26 km NNW of Tehachapi, CA",
-        "time": 1778656759710,
-        "updated": 1778656965185,
+        "mag": 1.9,
+        "place": "48 km W of Karluk, Alaska",
+        "time": 1778743005117,
+        "updated": 1778743085943,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466032",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466032.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jmfmhv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jmfmhv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
-        "net": "ci",
-        "code": "41466032",
-        "ids": ",ci41466032,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.1746,
-        "rms": 0.17,
-        "gap": 28,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 26 km NNW of Tehachapi, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.538166666667,
-          35.355,
-          3.66
-        ]
-      },
-      "id": "ci41466032"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.07,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1778656551840,
-        "updated": 1778656648529,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359816",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359816.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75359816",
-        "ids": ",nc75359816,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.01037,
-        "rms": 0.01,
-        "gap": 65,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.818168640137,
-          38.8146667480469,
-          2.46000003814697
-        ]
-      },
-      "id": "nc75359816"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.9,
-        "place": "4 km SSE of Frazier Park, CA",
-        "time": 1778655624600,
-        "updated": 1778655829891,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466024",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466024.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "41466024",
-        "ids": ",ci41466024,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.03886,
-        "rms": 0.2,
-        "gap": 51,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 4 km SSE of Frazier Park, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.927166666667,
-          34.7926666666667,
-          13.09
-        ]
-      },
-      "id": "ci41466024"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.56,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1778654698140,
-        "updated": 1778654793364,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359811",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359811.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 37,
-        "net": "nc",
-        "code": "75359811",
-        "ids": ",nc75359811,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.001727,
-        "rms": 0.02,
-        "gap": 39,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.809997558594,
-          38.8216667175293,
-          2.75999999046326
-        ]
-      },
-      "id": "nc75359811"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.78,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1778654352510,
-        "updated": 1778656941255,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75359806",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75359806.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75359806",
-        "ids": ",nc75359806,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.008514,
-        "rms": 0.05,
-        "gap": 135,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 6 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.804664611816,
-          38.8123321533203,
-          9.89000034332275
-        ]
-      },
-      "id": "nc75359806"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "South Sandwich Islands region",
-        "time": 1778654197861,
-        "updated": 1778655135040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxd4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxd4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000sxd4",
-        "ids": ",us6000sxd4,",
-        "sources": ",us,",
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026jmfmhv",
+        "ids": ",aka2026jmfmhv,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 4.819,
-        "rms": 0.83,
-        "gap": 88,
-        "magType": "mb",
+        "nst": 21,
+        "dmin": 0.6,
+        "rms": 0.4,
+        "gap": 171,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 5.0 - South Sandwich Islands region"
+        "title": "M 1.9 - 48 km W of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -28.3706,
-          -55.3734,
-          10
+          -155.251,
+          57.49,
+          68.3
         ]
       },
-      "id": "us6000sxd4"
+      "id": "aka2026jmfmhv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.89,
+        "place": "19 km SE of Naalehu, Hawaii",
+        "time": 1778742490880,
+        "updated": 1778742786800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74959637",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74959637.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 55,
+        "net": "hv",
+        "code": "74959637",
+        "ids": ",hv74959637,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.1959,
+        "rms": 0.170000002,
+        "gap": 234,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 19 km SE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.438003540039,
+          18.9598331451416,
+          35.4000015258789
+        ]
+      },
+      "id": "hv74959637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.74,
+        "place": "22 km SE of Pāhala, Hawaii",
+        "time": 1778742373150,
+        "updated": 1778742695280,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74959622",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74959622.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "hv",
+        "code": "74959622",
+        "ids": ",hv74959622,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.1543,
+        "rms": 0.119999997,
+        "gap": 269,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 22 km SE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.35466003418,
+          19.0386657714844,
+          34.9500007629395
+        ]
+      },
+      "id": "hv74959622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.12,
+        "place": "4 km SE of Yucaipa, CA",
+        "time": 1778741938710,
+        "updated": 1778742597650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41467008",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41467008.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ci",
+        "code": "41467008",
+        "ids": ",ci41467008,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 61,
+        "dmin": 0.09085,
+        "rms": 0.16,
+        "gap": 26,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 4 km SE of Yucaipa, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.006666666667,
+          34.0121666666667,
+          14.9
+        ]
+      },
+      "id": "ci41467008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.61,
+        "place": "18 km W of Searles Valley, CA",
+        "time": 1778740717550,
+        "updated": 1778740923739,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41467000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41467000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "41467000",
+        "ids": ",ci41467000,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.04334,
+        "rms": 0.18,
+        "gap": 112,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 18 km W of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.599333333333,
+          35.7723333333333,
+          9.06
+        ]
+      },
+      "id": "ci41467000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.48,
+        "place": "16 km ESE of Anza, CA",
+        "time": 1778740687890,
+        "updated": 1778740890861,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466992",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466992.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41466992",
+        "ids": ",ci41466992,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.07537,
+        "rms": 0.16,
+        "gap": 57,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 16 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.512333333333,
+          33.5011666666667,
+          11.71
+        ]
+      },
+      "id": "ci41466992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.4,
+        "place": "16 km ESE of Anza, CA",
+        "time": 1778740674370,
+        "updated": 1778740922739,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466984",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466984.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ci",
+        "code": "41466984",
+        "ids": ",ci41466984,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.0773,
+        "rms": 0.11,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 16 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.510333333333,
+          33.5038333333333,
+          13.17
+        ]
+      },
+      "id": "ci41466984"
     }
   ],
   "bbox": [
-    -122.81816864014,
-    -55.3734,
-    2.460000038147,
-    -28.3706,
-    38.821666717529,
-    13.09
+    -155.43800354004,
+    18.959833145142,
+    9.06,
+    -116.51033333333,
+    57.49,
+    68.3
   ]
 }
