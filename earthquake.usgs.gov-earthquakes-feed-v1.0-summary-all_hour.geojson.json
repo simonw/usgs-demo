@@ -1,301 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1778743479000,
+    "generated": 1778830241000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "48 km W of Karluk, Alaska",
-        "time": 1778743005117,
-        "updated": 1778743085943,
+        "mag": 0.7,
+        "place": "91 km WNW of Karluk, Alaska",
+        "time": 1778829503605,
+        "updated": 1778829602515,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jmfmhv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jmfmhv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jobogx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jobogx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 8,
         "net": "ak",
-        "code": "a2026jmfmhv",
-        "ids": ",aka2026jmfmhv,",
+        "code": "a2026jobogx",
+        "ids": ",aka2026jobogx,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.6,
-        "rms": 0.4,
-        "gap": 171,
+        "nst": 9,
+        "dmin": 0.2,
+        "rms": 0.2,
+        "gap": 157,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 48 km W of Karluk, Alaska"
+        "title": "M 0.7 - 91 km WNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.251,
-          57.49,
-          68.3
+          -155.822,
+          57.936,
+          18.4
         ]
       },
-      "id": "aka2026jmfmhv"
+      "id": "aka2026jobogx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.89,
-        "place": "19 km SE of Naalehu, Hawaii",
-        "time": 1778742490880,
-        "updated": 1778742786800,
+        "mag": 2.55999994,
+        "place": "8 km NW of Tiptonville, Tennessee",
+        "time": 1778827915610,
+        "updated": 1778829603040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74959637",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74959637.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60621566",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nm60621566.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 101,
+        "net": "nm",
+        "code": "60621566",
+        "ids": ",us6000sxvq,nm60621566,",
+        "sources": ",us,nm,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.06526,
+        "rms": 0.100000001,
+        "gap": 53,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.6 - 8 km NW of Tiptonville, Tennessee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5361633300781,
+          36.4356651306152,
+          7.28999996185303
+        ]
+      },
+      "id": "nm60621566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.39,
+        "place": "2 km W of Brawley, CA",
+        "time": 1778827797920,
+        "updated": 1778828000143,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41467752",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41467752.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 55,
-        "net": "hv",
-        "code": "74959637",
-        "ids": ",hv74959637,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "sig": 30,
+        "net": "ci",
+        "code": "41467752",
+        "ids": ",ci41467752,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 23,
-        "dmin": 0.1959,
-        "rms": 0.170000002,
-        "gap": 234,
-        "magType": "md",
+        "dmin": 0.07554,
+        "rms": 0.2,
+        "gap": 75,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 19 km SE of Naalehu, Hawaii"
+        "title": "M 1.4 - 2 km W of Brawley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.438003540039,
-          18.9598331451416,
-          35.4000015258789
+          -115.549833333333,
+          32.9766666666667,
+          5.89
         ]
       },
-      "id": "hv74959637"
+      "id": "ci41467752"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.74,
-        "place": "22 km SE of Pāhala, Hawaii",
-        "time": 1778742373150,
-        "updated": 1778742695280,
+        "mag": 0.7,
+        "place": "79 km SE of King Salmon, Alaska",
+        "time": 1778827762336,
+        "updated": 1778827816028,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74959622",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74959622.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026joapcs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026joapcs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 47,
-        "net": "hv",
-        "code": "74959622",
-        "ids": ",hv74959622,",
-        "sources": ",hv,",
+        "sig": 8,
+        "net": "ak",
+        "code": "a2026joapcs",
+        "ids": ",aka2026joapcs,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1543,
-        "rms": 0.119999997,
-        "gap": 269,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 22 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.35466003418,
-          19.0386657714844,
-          34.9500007629395
-        ]
-      },
-      "id": "hv74959622"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.12,
-        "place": "4 km SE of Yucaipa, CA",
-        "time": 1778741938710,
-        "updated": 1778742597650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41467008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41467008.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ci",
-        "code": "41467008",
-        "ids": ",ci41467008,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 61,
-        "dmin": 0.09085,
-        "rms": 0.16,
-        "gap": 26,
+        "nst": 8,
+        "dmin": 0.1,
+        "rms": 0.1,
+        "gap": 143,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 4 km SE of Yucaipa, CA"
+        "title": "M 0.7 - 79 km SE of King Salmon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.006666666667,
-          34.0121666666667,
-          14.9
+          -155.542,
+          58.276,
+          5
         ]
       },
-      "id": "ci41467008"
+      "id": "aka2026joapcs"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.61,
-        "place": "18 km W of Searles Valley, CA",
-        "time": 1778740717550,
-        "updated": 1778740923739,
+        "mag": 2,
+        "place": "88 km W of Karluk, Alaska",
+        "time": 1778827032918,
+        "updated": 1778827143906,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41467000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41467000.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026joaeoe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026joaeoe.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41467000",
-        "ids": ",ci41467000,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.04334,
-        "rms": 0.18,
-        "gap": 112,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026joaeoe",
+        "ids": ",aka2026joaeoe,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.2,
+        "rms": 0.6,
+        "gap": 148,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 18 km W of Searles Valley, CA"
+        "title": "M 2.0 - 88 km W of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.599333333333,
-          35.7723333333333,
-          9.06
+          -155.929,
+          57.599,
+          0.1
         ]
       },
-      "id": "ci41467000"
+      "id": "aka2026joaeoe"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.48,
-        "place": "16 km ESE of Anza, CA",
-        "time": 1778740687890,
-        "updated": 1778740890861,
+        "mag": 1.32,
+        "place": "20 km ENE of Little Lake, CA",
+        "time": 1778826761970,
+        "updated": 1778826973955,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466992",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466992.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41467744",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41467744.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
+        "sig": 27,
         "net": "ci",
-        "code": "41466992",
-        "ids": ",ci41466992,",
+        "code": "41467744",
+        "ids": ",ci41467744,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.07537,
-        "rms": 0.16,
-        "gap": 57,
+        "nst": 29,
+        "dmin": 0.05711,
+        "rms": 0.15,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 16 km ESE of Anza, CA"
+        "title": "M 1.3 - 20 km ENE of Little Lake, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.512333333333,
-          33.5011666666667,
-          11.71
+          -117.690666666667,
+          35.9948333333333,
+          2.08
         ]
       },
-      "id": "ci41466992"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.4,
-        "place": "16 km ESE of Anza, CA",
-        "time": 1778740674370,
-        "updated": 1778740922739,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41466984",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41466984.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "41466984",
-        "ids": ",ci41466984,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.0773,
-        "rms": 0.11,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 16 km ESE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.510333333333,
-          33.5038333333333,
-          13.17
-        ]
-      },
-      "id": "ci41466984"
+      "id": "ci41467744"
     }
   ],
   "bbox": [
-    -155.43800354004,
-    18.959833145142,
-    9.06,
-    -116.51033333333,
-    57.49,
-    68.3
+    -155.929,
+    32.976666666667,
+    0.1,
+    -89.536163330078,
+    58.276,
+    18.4
   ]
 }
