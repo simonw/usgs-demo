@@ -1,24 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779002446000,
+    "generated": 1779090348000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 9
+    "count": 12
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.39,
-        "place": "6 km WNW of The Geysers, CA",
-        "time": 1779001361670,
-        "updated": 1779001607580,
+        "mag": 1.4,
+        "place": "17 km ESE of Eagle River, Alaska",
+        "time": 1779090235239,
+        "updated": 1779090320371,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75361646",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75361646.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jtqmcs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jtqmcs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,199 +26,159 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 30,
-        "net": "nc",
-        "code": "75361646",
-        "ids": ",nc75361646,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.0144,
-        "rms": 0.03,
-        "gap": 67,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 6 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.814163208008,
-          38.7998352050781,
-          2.61999988555908
-        ]
-      },
-      "id": "nc75361646"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "29 km ENE of Pedro Bay, Alaska",
-        "time": 1779001154940,
-        "updated": 1779001311609,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jrsywg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jrsywg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
         "net": "ak",
-        "code": "a2026jrsywg",
-        "ids": ",aka2026jrsywg,",
+        "code": "a2026jtqmcs",
+        "ids": ",aka2026jtqmcs,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 49,
+        "nst": 11,
         "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 137,
+        "rms": 0.6,
+        "gap": 118,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 29 km ENE of Pedro Bay, Alaska"
+        "title": "M 1.4 - 17 km ESE of Eagle River, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.602,
-          59.847,
-          139.3
+          -149.274,
+          61.25,
+          26.9
         ]
       },
-      "id": "aka2026jrsywg"
+      "id": "aka2026jtqmcs"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.67,
-        "place": "1 km ENE of Ridgemark, CA",
-        "time": 1779000964160,
-        "updated": 1779001059946,
+        "mag": 1.69,
+        "place": "18 km SSE of Silver Springs, Nevada",
+        "time": 1779089975135,
+        "updated": 1779090100337,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75361641",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75361641.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918820",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918820.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 43,
-        "net": "nc",
-        "code": "75361641",
-        "ids": ",nc75361641,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.0528,
-        "rms": 0.07,
-        "gap": 62,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 1 km ENE of Ridgemark, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.351165771484,
-          36.8168334960938,
-          5.30000019073486
-        ]
-      },
-      "id": "nc75361641"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "108 km SE of McCarthy, Alaska",
-        "time": 1779000670293,
-        "updated": 1779001024579,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jrsrul",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jrsrul.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026jrsrul",
-        "ids": ",aka2026jrsrul,",
-        "sources": ",ak,",
+        "sig": 44,
+        "net": "nn",
+        "code": "00918820",
+        "ids": ",nn00918820,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 164,
+        "nst": 18,
+        "dmin": 0.164,
+        "rms": 0.2332,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 108 km SE of McCarthy, Alaska"
+        "title": "M 1.7 - 18 km SSE of Silver Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.644,
-          60.682,
-          18.4
+          -119.1125,
+          39.269,
+          1.3765
         ]
       },
-      "id": "aka2026jrsrul"
+      "id": "nn00918820"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.37,
-        "place": "8 km NNW of Anza, CA",
-        "time": 1779000572750,
-        "updated": 1779000776188,
+        "mag": 1.94,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779089933320,
+        "updated": 1779090156760,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41468904",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41468904.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469320",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469320.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
+        "sig": 58,
         "net": "ci",
-        "code": "41468904",
-        "ids": ",ci41468904,",
+        "code": "41469320",
+        "ids": ",ci41469320,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.05203,
-        "rms": 0.13,
-        "gap": 50,
+        "nst": 56,
+        "dmin": 0.109,
+        "rms": 0.26,
+        "gap": 27,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 8 km NNW of Anza, CA"
+        "title": "M 1.9 - 22 km ESE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.699833333333,
-          33.6215,
-          14.89
+          -115.927666666667,
+          33.0521666666667,
+          0.54
         ]
       },
-      "id": "ci41468904"
+      "id": "ci41469320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.44,
+        "place": "20 km SSE of Silver Springs, Nevada",
+        "time": 1779089866321,
+        "updated": 1779090005968,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918818",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918818.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "nn",
+        "code": "00918818",
+        "ids": ",nn00918818,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.045,
+        "rms": 0.1935,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 20 km SSE of Silver Springs, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0967,
+          39.2637,
+          7.9306
+        ]
+      },
+      "id": "nn00918818"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.54,
-        "place": "17 km SE of Silver Springs, Nevada",
-        "time": 1779000527654,
-        "updated": 1779000663488,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779089723680,
+        "updated": 1779089940739,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918782",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918782.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469312",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469312.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,156 +186,316 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 36,
-        "net": "nn",
-        "code": "00918782",
-        "ids": ",nn00918782,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.069,
-        "rms": 0.193,
-        "gap": 64,
+        "net": "ci",
+        "code": "41469312",
+        "ids": ",ci41469312,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 46,
+        "dmin": 0.1062,
+        "rms": 0.24,
+        "gap": 28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 17 km SE of Silver Springs, Nevada"
+        "title": "M 1.5 - 22 km ESE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0688,
-          39.3171,
-          0.0276
+          -115.923333333333,
+          33.052,
+          0.33
         ]
       },
-      "id": "nn00918782"
+      "id": "ci41469312"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.56,
-        "place": "1 km NE of Ridgemark, CA",
-        "time": 1778999295290,
-        "updated": 1779001138827,
+        "mag": 1.61,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779089650740,
+        "updated": 1779089858729,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75361631",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75361631.geojson",
-        "felt": 115,
-        "cdi": 3.8,
-        "mmi": 3.88,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 239,
-        "net": "nc",
-        "code": "75361631",
-        "ids": ",nc75361631,us6000sybp,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 73,
-        "dmin": 0.0576,
-        "rms": 0.13,
-        "gap": 61,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.6 - 1 km NE of Ridgemark, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.353332519531,
-          36.8214988708496,
-          6.90999984741211
-        ]
-      },
-      "id": "nc75361631"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.55,
-        "place": "23 km NW of Grapevine, CA",
-        "time": 1778999221480,
-        "updated": 1778999431794,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41468888",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41468888.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469304",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469304.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 37,
+        "sig": 40,
         "net": "ci",
-        "code": "41468888",
-        "ids": ",ci41468888,",
+        "code": "41469304",
+        "ids": ",ci41469304,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 36,
-        "dmin": 0.04008,
+        "nst": 53,
+        "dmin": 0.1068,
+        "rms": 0.26,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 22 km ESE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.923666666667,
+          33.0513333333333,
+          0.95
+        ]
+      },
+      "id": "ci41469304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.71,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779089586970,
+        "updated": 1779089791720,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469296",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469296.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 45,
+        "net": "ci",
+        "code": "41469296",
+        "ids": ",ci41469296,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 54,
+        "dmin": 0.1075,
+        "rms": 0.26,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 22 km ESE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.924666666667,
+          33.0513333333333,
+          0.85
+        ]
+      },
+      "id": "ci41469296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.46,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779089519300,
+        "updated": 1779089729273,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469288",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469288.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 33,
+        "net": "ci",
+        "code": "41469288",
+        "ids": ",ci41469288,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.1097,
+        "rms": 0.25,
+        "gap": 34,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 22 km ESE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.927666666667,
+          33.051,
+          0.5
+        ]
+      },
+      "id": "ci41469288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779089423000,
+        "updated": 1779089638489,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469280",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469280.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "ci",
+        "code": "41469280",
+        "ids": ",ci41469280,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 70,
+        "dmin": 0.1051,
+        "rms": 0.25,
+        "gap": 22,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 22 km ESE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.923833333333,
+          33.0543333333333,
+          1.61
+        ]
+      },
+      "id": "ci41469280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.65,
+        "place": "23 km ESE of Ocotillo Wells, CA",
+        "time": 1779089341400,
+        "updated": 1779089550693,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469272",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469272.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 42,
+        "net": "ci",
+        "code": "41469272",
+        "ids": ",ci41469272,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 54,
+        "dmin": 0.09824,
         "rms": 0.23,
-        "gap": 38,
+        "gap": 28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 23 km NW of Grapevine, CA"
+        "title": "M 1.7 - 23 km ESE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.13,
-          35.0716666666667,
-          13.42
+          -115.912666666667,
+          33.0535,
+          2.46
         ]
       },
-      "id": "ci41468888"
+      "id": "ci41469272"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.93,
-        "place": "6 km NNE of Lake Henshaw, CA",
-        "time": 1778999017460,
-        "updated": 1778999224716,
+        "mag": 1.72,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1779089227280,
+        "updated": 1779089893570,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41468880",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41468880.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41469264",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41469264.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
+        "sig": 46,
         "net": "ci",
-        "code": "41468880",
-        "ids": ",ci41468880,",
+        "code": "41469264",
+        "ids": ",ci41469264,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 51,
-        "dmin": 0.05851,
-        "rms": 0.16,
-        "gap": 26,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 50,
+        "dmin": 0.1023,
+        "rms": 0.22,
+        "gap": 28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 6 km NNE of Lake Henshaw, CA"
+        "title": "M 1.7 - 22 km ESE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.742333333333,
-          33.293,
-          13.41
+          -115.917833333333,
+          33.0523333333333,
+          1.75
         ]
       },
-      "id": "ci41468880"
+      "id": "ci41469264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "25 km NE of Chase, Alaska",
+        "time": 1779089202478,
+        "updated": 1779089301954,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jtpxem",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jtpxem.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026jtpxem",
+        "ids": ",aka2026jtpxem,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.3,
+        "rms": 0.5,
+        "gap": 104,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 25 km NE of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.721,
+          62.597,
+          17.4
+        ]
+      },
+      "id": "aka2026jtpxem"
     }
   ],
   "bbox": [
-    -153.602,
-    33.293,
-    0.0276,
-    -116.69983333333,
-    60.682,
-    139.3
+    -149.721,
+    33.051,
+    0.33,
+    -115.91266666667,
+    62.597,
+    26.9
   ]
 }
