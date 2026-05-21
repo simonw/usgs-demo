@@ -1,341 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779262597000,
+    "generated": 1779349116000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 8
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.08,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1779261020700,
-        "updated": 1779261232217,
+        "mag": 1.06273248630506,
+        "place": "15 km SSE of Anza, CA",
+        "time": 1779348358390,
+        "updated": 1779348481748,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41470720",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41470720.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41471456",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41471456.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 67,
+        "sig": 17,
         "net": "ci",
-        "code": "41470720",
-        "ids": ",ci41470720,",
+        "code": "41471456",
+        "ids": ",ci41471456,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 60,
-        "dmin": 0.057,
-        "rms": 0.18,
-        "gap": 33,
+        "nst": 22,
+        "dmin": 0.06424,
+        "rms": 0.150000006,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 17 km WSW of Johannesburg, CA"
+        "title": "M 1.1 - 15 km SSE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8085,
-          35.3156666666667,
-          7.5
+          -116.615997314453,
+          33.4313316345215,
+          8.27999973297119
         ]
       },
-      "id": "ci41470720"
+      "id": "ci41471456"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.2,
-        "place": "53 km ENE of Pedro Bay, Alaska",
-        "time": 1779260183014,
-        "updated": 1779260435368,
+        "mag": 1.87,
+        "place": "18 km SE of Silver Springs, Nevada",
+        "time": 1779347207807,
+        "updated": 1779347329026,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jxgyal",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jxgyal.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918988",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918988.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "a2026jxgyal",
-        "ids": ",aka2026jxgyal,",
-        "sources": ",ak,",
+        "sig": 54,
+        "net": "nn",
+        "code": "00918988",
+        "ids": ",nn00918988,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 72,
+        "nst": 23,
+        "dmin": 0.06,
+        "rms": 0.1717,
+        "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 53 km ENE of Pedro Bay, Alaska"
+        "title": "M 1.9 - 18 km SE of Silver Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.181,
-          59.915,
-          125.4
+          -119.0695,
+          39.3069,
+          10.5805
         ]
       },
-      "id": "aka2026jxgyal"
+      "id": "nn00918988"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.44,
-        "place": "6 km SE of Pinnacles, CA",
-        "time": 1779260076730,
-        "updated": 1779262042768,
+        "mag": 1.3,
+        "place": "59 km S of Whites City, New Mexico",
+        "time": 1779346948046,
+        "updated": 1779347127943,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75366002",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75366002.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jxnrgy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026jxnrgy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 32,
+        "sig": 26,
+        "net": "tx",
+        "code": "2026jxnrgy",
+        "ids": ",tx2026jxnrgy,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0,
+        "rms": 0.7,
+        "gap": 101,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 59 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.425,
+          31.644,
+          3.9144
+        ]
+      },
+      "id": "tx2026jxnrgy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.09,
+        "place": "2 km N of The Geysers, CA",
+        "time": 1779346301090,
+        "updated": 1779348751233,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75366437",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75366437.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
         "net": "nc",
-        "code": "75366002",
-        "ids": ",nc75366002,",
+        "code": "75366437",
+        "ids": ",nc75366437,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
         "nst": 14,
-        "dmin": 0.05032,
-        "rms": 0.2,
-        "gap": 55,
+        "dmin": 0.007783,
+        "rms": 0.02,
+        "gap": 89,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 6 km SE of Pinnacles, CA"
+        "title": "M 1.1 - 2 km N of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.099166870117,
-          36.4931678771973,
-          0.819999992847443
+          -122.753829956055,
+          38.7943344116211,
+          1.19000005722046
         ]
       },
-      "id": "nc75366002"
+      "id": "nc75366437"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.77,
-        "place": "57 km ENE of Goldfield, Nevada",
-        "time": 1779259911819,
-        "updated": 1779260135135,
+        "mag": 1.7,
+        "place": "6 km N of Three Rivers, Texas",
+        "time": 1779346012940,
+        "updated": 1779346127504,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918930",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918930.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026jxndvj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026jxndvj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026jxndvj",
+        "ids": ",tx2026jxndvj,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 102,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 6 km N of Three Rivers, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.177,
+          28.522,
+          12.0213
+        ]
+      },
+      "id": "tx2026jxndvj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.24,
+        "place": "20 km ENE of Mina, Nevada",
+        "time": 1779345747188,
+        "updated": 1779346024742,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00918986",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00918986.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 77,
         "net": "nn",
-        "code": "00918930",
-        "ids": ",nn00918930,",
+        "code": "00918986",
+        "ids": ",nn00918986,",
         "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.656,
-        "rms": 0.4103,
-        "gap": 284,
+        "nst": 24,
+        "dmin": 0.422,
+        "rms": 0.2898,
+        "gap": 96,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 57 km ENE of Goldfield, Nevada"
+        "title": "M 2.2 - 20 km ENE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5971,
-          37.8315,
-          3.011
+          -117.9112,
+          38.4857,
+          6.8875
         ]
       },
-      "id": "nn00918930"
+      "id": "nn00918986"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.67,
-        "place": "9 km SSW of Borrego Springs, CA",
-        "time": 1779259797680,
-        "updated": 1779260005941,
+        "mag": 1.6,
+        "place": "45 km W of Anchor Point, Alaska",
+        "time": 1779345589785,
+        "updated": 1779345701397,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41470712",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41470712.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jzckgi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jzckgi.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41470712",
-        "ids": ",ci41470712,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.09173,
-        "rms": 0.16,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 9 km SSW of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.397833333333,
-          33.1776666666667,
-          11.7
-        ]
-      },
-      "id": "ci41470712"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "38 km N of Larsen Bay, Alaska",
-        "time": 1779259656639,
-        "updated": 1779259767807,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026jxgqkx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026jxgqkx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
+        "sig": 39,
         "net": "ak",
-        "code": "a2026jxgqkx",
-        "ids": ",aka2026jxgqkx,",
+        "code": "a2026jzckgi",
+        "ids": ",aka2026jzckgi,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.4,
-        "rms": 0.4,
-        "gap": 119,
+        "nst": 29,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 79,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 38 km N of Larsen Bay, Alaska"
+        "title": "M 1.6 - 45 km W of Anchor Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.04,
-          57.882,
-          59.5
+          -152.631,
+          59.837,
+          85.3
         ]
       },
-      "id": "aka2026jxgqkx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "7 km NW of Challis, Idaho",
-        "time": 1779259464068,
-        "updated": 1779261656040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syx9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000syx9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000syx9",
-        "ids": ",us6000syx9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.603,
-        "rms": 0.92,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 7 km NW of Challis, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.2865,
-          44.5561,
-          5
-        ]
-      },
-      "id": "us6000syx9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.71,
-        "place": "11 km NE of Pāhala, Hawaii",
-        "time": 1779259030630,
-        "updated": 1779259252820,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74964332",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74964332.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 45,
-        "net": "hv",
-        "code": "74964332",
-        "ids": ",hv74964332,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.03695,
-        "rms": 0.129999995,
-        "gap": 127,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 11 km NE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.393997192383,
-          19.2744998931885,
-          29.6399993896484
-        ]
-      },
-      "id": "hv74964332"
+      "id": "aka2026jzckgi"
     }
   ],
   "bbox": [
-    -155.39399719238,
-    19.274499893189,
-    0.81999999284744,
-    -114.2865,
-    59.915,
-    125.4
+    -152.631,
+    28.522,
+    1.1900000572205,
+    -98.177,
+    59.837,
+    85.3
   ]
 }
