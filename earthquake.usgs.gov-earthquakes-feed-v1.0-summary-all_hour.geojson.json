@@ -1,24 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1779954153000,
+    "generated": 1780040437000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 8
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "78 km NNW of Karluk, Alaska",
-        "time": 1779953839400,
-        "updated": 1779953932198,
+        "mag": 1.6,
+        "place": "62 km SSW of Whites City, New Mexico",
+        "time": 1780040083026,
+        "updated": 1780040340795,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kmcmbz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kmcmbz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kmgnwh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kmgnwh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2026kmgnwh",
+        "ids": ",tx2026kmgnwh,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 76,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 62 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.507,
+          31.622,
+          3.9289
+        ]
+      },
+      "id": "tx2026kmgnwh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.62,
+        "place": "13 km NW of The Geysers, CA",
+        "time": 1780039094000,
+        "updated": 1780039191171,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75367881",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75367881.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,316 +66,356 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 6,
-        "net": "ak",
-        "code": "a2026kmcmbz",
-        "ids": ",aka2026kmcmbz,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 127,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 78 km NNW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.027,
-          58.207,
-          28.3
-        ]
-      },
-      "id": "aka2026kmcmbz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.32,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1779952885140,
-        "updated": 1779953841013,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370272",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370272.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 27,
         "net": "nc",
-        "code": "75370272",
-        "ids": ",nc75370272,",
+        "code": "75367881",
+        "ids": ",nc75367881,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.01209,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.007492,
         "rms": 0.02,
-        "gap": 34,
+        "gap": 187,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 6 km NNW of The Geysers, CA"
+        "title": "M 0.6 - 13 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.79467010498,
-          38.8221664428711,
-          2.69000005722046
+          -122.877334594727,
+          38.8440017700195,
+          2.76999998092651
         ]
       },
-      "id": "nc75370272"
+      "id": "nc75367881"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.01,
-        "place": "20 km SW of Ocotillo Wells, CA",
-        "time": 1779952128920,
-        "updated": 1779952334754,
+        "mag": 1.2,
+        "place": "45 km NNE of Chenega, Alaska",
+        "time": 1780039074793,
+        "updated": 1780039155763,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41475864",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41475864.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026knxvuz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026knxvuz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
-        "net": "ci",
-        "code": "41475864",
-        "ids": ",ci41475864,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.07651,
-        "rms": 0.18,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 20 km SW of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.293166666667,
-          33.0308333333333,
-          7.18
-        ]
-      },
-      "id": "ci41475864"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.06,
-        "place": "15 km ENE of Pāhala, Hawaii",
-        "time": 1779951924690,
-        "updated": 1779952248170,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74970432",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74970432.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 65,
-        "net": "hv",
-        "code": "74970432",
-        "ids": ",hv74970432,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.05744,
-        "rms": 0.159999996,
-        "gap": 190,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 15 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.336837768555,
-          19.2413330078125,
-          30.8700008392334
-        ]
-      },
-      "id": "hv74970432"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.01,
-        "place": "6 km NNE of San Dimas, CA",
-        "time": 1779951680900,
-        "updated": 1779952317020,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41475856",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41475856.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ci",
-        "code": "41475856",
-        "ids": ",ci41475856,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 110,
-        "dmin": 0.0535,
-        "rms": 0.21,
-        "gap": 15,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 6 km NNE of San Dimas, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.787,
-          34.1561666666667,
-          10.35
-        ]
-      },
-      "id": "ci41475856"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.5,
-        "place": "65 km WNW of Beluga, Alaska",
-        "time": 1779951336497,
-        "updated": 1779951555707,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kmbbxj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kmbbxj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
+        "sig": 22,
         "net": "ak",
-        "code": "a2026kmbbxj",
-        "ids": ",aka2026kmbbxj,",
+        "code": "a2026knxvuz",
+        "ids": ",aka2026knxvuz,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 6,
-        "dmin": 0.1,
-        "rms": 0,
-        "gap": 206,
+        "dmin": 0.5,
+        "rms": 0.1,
+        "gap": 94,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 65 km WNW of Beluga, Alaska"
+        "title": "M 1.2 - 45 km NNE of Chenega, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.229,
-          61.349,
-          6.8
+          -147.741,
+          60.449,
+          45.1
         ]
       },
-      "id": "aka2026kmbbxj"
+      "id": "aka2026knxvuz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.42,
-        "place": "18 km W of McKinleyville, CA",
-        "time": 1779951255910,
-        "updated": 1779953842013,
+        "mag": 1.8,
+        "place": "12 km WSW of Stanton, Texas",
+        "time": 1780038038092,
+        "updated": 1780038339524,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370262",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370262.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kmfkst",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kmfkst.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 90,
-        "net": "nc",
-        "code": "75370262",
-        "ids": ",nc75370262,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.2364,
-        "rms": 0.21,
-        "gap": 208,
-        "magType": "md",
+        "sig": 50,
+        "net": "tx",
+        "code": "2026kmfkst",
+        "ids": ",tx2026kmfkst,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 78,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 34,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 18 km W of McKinleyville, CA"
+        "title": "M 1.8 - 12 km WSW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.3125,
-          40.9168319702148,
-          10.6499996185303
+          -101.917,
+          32.105,
+          4.0157
         ]
       },
-      "id": "nc75370262"
+      "id": "tx2026kmfkst"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.08,
-        "place": "31 km WNW of Rancho Tehama Reserve, CA",
-        "time": 1779951155730,
-        "updated": 1779952939920,
+        "mag": 0.9,
+        "place": "111 km S of McCarthy, Alaska",
+        "time": 1780038021159,
+        "updated": 1780038100109,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370257",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370257.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026knxgpc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026knxgpc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 67,
-        "net": "nc",
-        "code": "75370257",
-        "ids": ",nc75370257,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "sig": 12,
+        "net": "ak",
+        "code": "a2026knxgpc",
+        "ids": ",aka2026knxgpc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
         "nst": 9,
-        "dmin": 0.06425,
-        "rms": 0.11,
-        "gap": 183,
-        "magType": "md",
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 141,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 31 km WNW of Rancho Tehama Reserve, CA"
+        "title": "M 0.9 - 111 km S of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.734497070312,
-          40.1273345947266,
-          6.34999990463257
+          -143.017,
+          60.438,
+          17.9
         ]
       },
-      "id": "nc75370257"
+      "id": "aka2026knxgpc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "52 km NNE of Chase, Alaska",
+        "time": 1780037791672,
+        "updated": 1780037899771,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026knxdgu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026knxdgu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026knxdgu",
+        "ids": ",aka2026knxdgu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.5,
+        "rms": 0.5,
+        "gap": 66,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 52 km NNE of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.697,
+          62.878,
+          81.1
+        ]
+      },
+      "id": "aka2026knxdgu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "106 km SW of Turpan, China",
+        "time": 1780037752924,
+        "updated": 1780038990040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sp82",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sp82.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000sp82",
+        "ids": ",us7000sp82,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 98,
+        "dmin": 6.441,
+        "rms": 1.33,
+        "gap": 54,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 106 km SW of Turpan, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.3187,
+          42.2295,
+          10
+        ]
+      },
+      "id": "us7000sp82"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "13 km WSW of Stanton, Texas",
+        "time": 1780037135742,
+        "updated": 1780037365736,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kmexsj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kmexsj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "tx",
+        "code": "2026kmexsj",
+        "ids": ",tx2026kmexsj,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 39,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 13 km WSW of Stanton, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.924,
+          32.1,
+          5.623
+        ]
+      },
+      "id": "tx2026kmexsj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "48 km E of Pleasant Valley, Alaska",
+        "time": 1780037021666,
+        "updated": 1780037207113,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026knwsdo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026knwsdo.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ak",
+        "code": "a2026knwsdo",
+        "ids": ",aka2026knwsdo,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.3,
+        "rms": 0.3,
+        "gap": 98,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 48 km E of Pleasant Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.842,
+          64.865,
+          4.5
+        ]
+      },
+      "id": "aka2026knwsdo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "108 km S of McCarthy, Alaska",
+        "time": 1780036924540,
+        "updated": 1780037024591,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026knwqsr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026knwqsr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ak",
+        "code": "a2026knwqsr",
+        "ids": ",aka2026knwqsr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 133,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 108 km S of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.037,
+          60.458,
+          5
+        ]
+      },
+      "id": "aka2026knwqsr"
     }
   ],
   "bbox": [
-    -155.33683776856,
-    19.241333007812,
-    2.6900000572205,
-    -116.29316666667,
-    61.349,
-    30.870000839233
+    -149.697,
+    31.622,
+    2.7699999809265,
+    88.3187,
+    64.865,
+    81.1
   ]
 }
