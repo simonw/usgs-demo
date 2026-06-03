@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780387318000,
+    "generated": 1780474044000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,250 +12,250 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.71,
-        "place": "9 km NW of Imperial, CA",
-        "time": 1780386587010,
-        "updated": 1780387250860,
+        "mag": 2.3,
+        "place": "48 km N of Valdez, Alaska",
+        "time": 1780473463951,
+        "updated": 1780473562996,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41478520",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41478520.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kxfhej",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kxfhej.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 45,
-        "net": "ci",
-        "code": "41478520",
-        "ids": ",ci41478520,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.05813,
-        "rms": 0.31,
-        "gap": 54,
+        "sig": 81,
+        "net": "ak",
+        "code": "a2026kxfhej",
+        "ids": ",aka2026kxfhej,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 0.2,
+        "rms": 0.9,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 9 km NW of Imperial, CA"
+        "title": "M 2.3 - 48 km N of Valdez, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.629333333333,
-          32.9083333333333,
-          8.78
+          -146.257,
+          61.567,
+          21.1
         ]
       },
-      "id": "ci41478520"
+      "id": "aka2026kxfhej"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.05,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1780386097190,
-        "updated": 1780386194518,
+        "mag": 0.9,
+        "place": "91 km S of McCarthy, Alaska",
+        "time": 1780473324432,
+        "updated": 1780473408058,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369591",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75369591.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kxffeh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kxffeh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
+        "sig": 12,
+        "net": "ak",
+        "code": "a2026kxffeh",
+        "ids": ",aka2026kxffeh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 247,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 91 km S of McCarthy, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.234,
+          60.622,
+          20.4
+        ]
+      },
+      "id": "aka2026kxffeh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.25,
+        "place": "18 km ESE of Anza, CA",
+        "time": 1780472553020,
+        "updated": 1780472769531,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41479200",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41479200.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "ci",
+        "code": "41479200",
+        "ids": ",ci41479200,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.0912,
+        "rms": 0.1,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.3 - 18 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.493666666667,
+          33.5043333333333,
+          14.15
+        ]
+      },
+      "id": "ci41479200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.26,
+        "place": "1 km WNW of The Geysers, CA",
+        "time": 1780471734390,
+        "updated": 1780471831700,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370136",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370136.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
         "net": "nc",
-        "code": "75369591",
-        "ids": ",nc75369591,",
+        "code": "75370136",
+        "ids": ",nc75370136,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.006164,
+        "nst": 7,
+        "dmin": 0.009774,
         "rms": 0.02,
-        "gap": 77,
+        "gap": 103,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km NW of The Geysers, CA"
+        "title": "M 0.3 - 1 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.815330505371,
-          38.8279991149902,
-          2.23000001907349
+          -122.765167236328,
+          38.7804985046387,
+          4.19000005722046
         ]
       },
-      "id": "nc75369591"
+      "id": "nc75370136"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.83,
-        "place": "10 km WNW of Cobb, CA",
-        "time": 1780385866300,
-        "updated": 1780387042753,
+        "mag": 1.9,
+        "place": "48 km E of Pedro Bay, Alaska",
+        "time": 1780471162692,
+        "updated": 1780473348358,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75369586",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75369586.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kxdzyb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kxdzyb.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "nc",
-        "code": "75369586",
-        "ids": ",nc75369586,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.008734,
-        "rms": 0.06,
-        "gap": 207,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 10 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.835166931152,
-          38.8473320007324,
-          11.9099998474121
-        ]
-      },
-      "id": "nc75369586"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.55,
-        "place": "12 km S of Anza, CA",
-        "time": 1780384880100,
-        "updated": 1780385083413,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41478512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41478512.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 5,
-        "net": "ci",
-        "code": "41478512",
-        "ids": ",ci41478512,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.07042,
-        "rms": 0.19,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 12 km S of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6645,
-          33.4471666666667,
-          3.8
-        ]
-      },
-      "id": "ci41478512"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "18 km WSW of Johannesburg, CA",
-        "time": 1780384554370,
-        "updated": 1780384765657,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41478504",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41478504.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "ci",
-        "code": "41478504",
-        "ids": ",ci41478504,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.04476,
-        "rms": 0.2,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 18 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.804333333333,
-          35.2966666666667,
-          6.89
-        ]
-      },
-      "id": "ci41478504"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "13 km S of Point Possession, Alaska",
-        "time": 1780384185405,
-        "updated": 1780387284674,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kvhrah",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kvhrah.geojson",
-        "felt": 1,
-        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 62,
+        "sig": 56,
         "net": "ak",
-        "code": "a2026kvhrah",
-        "ids": ",aka2026kvhrah,",
+        "code": "a2026kxdzyb",
+        "ids": ",aka2026kxdzyb,",
         "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 78,
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 97,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 13 km S of Point Possession, Alaska"
+        "title": "M 1.9 - 48 km E of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.668,
-          60.801,
-          61.1
+          -153.244,
+          59.823,
+          131.6
         ]
       },
-      "id": "aka2026kvhrah"
+      "id": "aka2026kxdzyb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "20 km NE of Four Mile Road, Alaska",
+        "time": 1780470847190,
+        "updated": 1780473185780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kxdvjl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kxdvjl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ak",
+        "code": "a2026kxdvjl",
+        "ids": ",aka2026kxdvjl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 111,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 20 km NE of Four Mile Road, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.873,
+          64.756,
+          15
+        ]
+      },
+      "id": "aka2026kxdvjl"
     }
   ],
   "bbox": [
-    -150.668,
-    32.908333333333,
-    2.2300000190735,
-    -115.62933333333,
-    60.801,
-    61.1
+    -153.244,
+    33.504333333333,
+    4.1900000572205,
+    -116.49366666667,
+    64.756,
+    131.6
   ]
 }
