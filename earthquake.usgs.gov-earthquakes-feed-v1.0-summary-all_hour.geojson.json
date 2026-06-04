@@ -1,261 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780474044000,
+    "generated": 1780559884000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 6
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.3,
-        "place": "48 km N of Valdez, Alaska",
-        "time": 1780473463951,
-        "updated": 1780473562996,
+        "mag": 2.53,
+        "place": "11 km E of Pāhala, Hawaii",
+        "time": 1780559464410,
+        "updated": 1780559698750,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kxfhej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kxfhej.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74976077",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74976077.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026kxfhej",
-        "ids": ",aka2026kxfhej,",
-        "sources": ",ak,",
+        "sig": 98,
+        "net": "hv",
+        "code": "74976077",
+        "ids": ",hv74976077,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.2,
-        "rms": 0.9,
-        "gap": 49,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 48 km N of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.257,
-          61.567,
-          21.1
-        ]
-      },
-      "id": "aka2026kxfhej"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.9,
-        "place": "91 km S of McCarthy, Alaska",
-        "time": 1780473324432,
-        "updated": 1780473408058,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kxffeh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kxffeh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "ak",
-        "code": "a2026kxffeh",
-        "ids": ",aka2026kxffeh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 247,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 91 km S of McCarthy, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -143.234,
-          60.622,
-          20.4
-        ]
-      },
-      "id": "aka2026kxffeh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.25,
-        "place": "18 km ESE of Anza, CA",
-        "time": 1780472553020,
-        "updated": 1780472769531,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41479200",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41479200.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "ci",
-        "code": "41479200",
-        "ids": ",ci41479200,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.0912,
-        "rms": 0.1,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.3 - 18 km ESE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.493666666667,
-          33.5043333333333,
-          14.15
-        ]
-      },
-      "id": "ci41479200"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.26,
-        "place": "1 km WNW of The Geysers, CA",
-        "time": 1780471734390,
-        "updated": 1780471831700,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370136",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370136.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "nc",
-        "code": "75370136",
-        "ids": ",nc75370136,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.009774,
-        "rms": 0.02,
-        "gap": 103,
+        "nst": 50,
+        "dmin": 0.03673,
+        "rms": 0.119999997,
+        "gap": 169,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.3 - 1 km WNW of The Geysers, CA"
+        "title": "M 2.5 - 11 km E of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.765167236328,
-          38.7804985046387,
-          4.19000005722046
+          -155.373001098633,
+          19.208833694458,
+          31.0799999237061
         ]
       },
-      "id": "nc75370136"
+      "id": "hv74976077"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "48 km E of Pedro Bay, Alaska",
-        "time": 1780471162692,
-        "updated": 1780473348358,
+        "mag": 0.72,
+        "place": "8 km W of Cobb, CA",
+        "time": 1780559159910,
+        "updated": 1780559256463,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kxdzyb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kxdzyb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370646",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370646.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026kxdzyb",
-        "ids": ",aka2026kxdzyb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 97,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 48 km E of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.244,
-          59.823,
-          131.6
-        ]
-      },
-      "id": "aka2026kxdzyb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "20 km NE of Four Mile Road, Alaska",
-        "time": 1780470847190,
-        "updated": 1780473185780,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026kxdvjl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026kxdvjl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "a2026kxdvjl",
-        "ids": ",aka2026kxdvjl,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "sig": 8,
+        "net": "nc",
+        "code": "75370646",
+        "ids": ",nc75370646,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 13,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 111,
-        "magType": "ml",
+        "dmin": 0.009795,
+        "rms": 0.02,
+        "gap": 73,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 20 km NE of Four Mile Road, Alaska"
+        "title": "M 0.7 - 8 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.873,
-          64.756,
-          15
+          -122.80899810791,
+          38.8331680297852,
+          2.30999994277954
         ]
       },
-      "id": "aka2026kxdvjl"
+      "id": "nc75370646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.72,
+        "place": "12 km ENE of Cloverdale, CA",
+        "time": 1780558217650,
+        "updated": 1780558315258,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370641",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370641.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75370641",
+        "ids": ",nc75370641,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.007083,
+        "rms": 0.03,
+        "gap": 140,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 12 km ENE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.879997253418,
+          38.8316650390625,
+          1.94000005722046
+        ]
+      },
+      "id": "nc75370641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "9 km SE of Pecos, Texas",
+        "time": 1780557596250,
+        "updated": 1780557938617,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kxgkpq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kxgkpq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2026kxgkpq",
+        "ids": ",tx2026kxgkpq,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 135,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 9 km SE of Pecos, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.424,
+          31.358,
+          7.9056
+        ]
+      },
+      "id": "tx2026kxgkpq"
     }
   ],
   "bbox": [
-    -153.244,
-    33.504333333333,
-    4.1900000572205,
-    -116.49366666667,
-    64.756,
-    131.6
+    -155.37300109863,
+    19.208833694458,
+    1.9400000572205,
+    -103.424,
+    38.833168029785,
+    31.079999923706
   ]
 }
