@@ -1,144 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780559884000,
+    "generated": 1780645813000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 4
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.53,
-        "place": "11 km E of Pāhala, Hawaii",
-        "time": 1780559464410,
-        "updated": 1780559698750,
+        "mag": 1.86,
+        "place": "18 km WSW of Johannesburg, CA",
+        "time": 1780644768070,
+        "updated": 1780645398670,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74976077",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74976077.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41480712",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41480712.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 98,
-        "net": "hv",
-        "code": "74976077",
-        "ids": ",hv74976077,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.03673,
-        "rms": 0.119999997,
-        "gap": 169,
-        "magType": "md",
+        "sig": 53,
+        "net": "ci",
+        "code": "41480712",
+        "ids": ",ci41480712,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 49,
+        "dmin": 0.05146,
+        "rms": 0.18,
+        "gap": 32,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 11 km E of Pāhala, Hawaii"
+        "title": "M 1.9 - 18 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.373001098633,
-          19.208833694458,
-          31.0799999237061
+          -117.813833333333,
+          35.3118333333333,
+          7.75
         ]
       },
-      "id": "hv74976077"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.72,
-        "place": "8 km W of Cobb, CA",
-        "time": 1780559159910,
-        "updated": 1780559256463,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370646",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370646.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75370646",
-        "ids": ",nc75370646,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.009795,
-        "rms": 0.02,
-        "gap": 73,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.80899810791,
-          38.8331680297852,
-          2.30999994277954
-        ]
-      },
-      "id": "nc75370646"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.72,
-        "place": "12 km ENE of Cloverdale, CA",
-        "time": 1780558217650,
-        "updated": 1780558315258,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75370641",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75370641.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75370641",
-        "ids": ",nc75370641,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.007083,
-        "rms": 0.03,
-        "gap": 140,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 12 km ENE of Cloverdale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.879997253418,
-          38.8316650390625,
-          1.94000005722046
-        ]
-      },
-      "id": "nc75370641"
+      "id": "ci41480712"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.5,
-        "place": "9 km SE of Pecos, Texas",
-        "time": 1780557596250,
-        "updated": 1780557938617,
+        "place": "39 km NNE of Chenega, Alaska",
+        "time": 1780644717854,
+        "updated": 1780644801482,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kxgkpq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kxgkpq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lawlzd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lawlzd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026lawlzd",
+        "ids": ",aka2026lawlzd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 96,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 39 km NNE of Chenega, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.779,
+          60.399,
+          17.1
+        ]
+      },
+      "id": "aka2026lawlzd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.75,
+        "place": "22 km N of Borrego Springs, CA",
+        "time": 1780644562690,
+        "updated": 1780644766122,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41480704",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41480704.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "ci",
+        "code": "41480704",
+        "ids": ",ci41480704,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.1243,
+        "rms": 0.14,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 22 km N of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.413,
+          33.4518333333333,
+          10.91
+        ]
+      },
+      "id": "ci41480704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.28,
+        "place": "11 km NW of The Geysers, CA",
+        "time": 1780642839640,
+        "updated": 1780642937533,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75371126",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75371126.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75371126",
+        "ids": ",nc75371126,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01358,
+        "rms": 0.01,
+        "gap": 134,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.3 - 11 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.847831726074,
+          38.8481674194336,
+          1.37000000476837
+        ]
+      },
+      "id": "nc75371126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "6 km S of Toyah, Texas",
+        "time": 1780642530776,
+        "updated": 1780642748316,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026kzbimh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026kzbimh.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -147,35 +187,75 @@
         "tsunami": 0,
         "sig": 35,
         "net": "tx",
-        "code": "2026kxgkpq",
-        "ids": ",tx2026kxgkpq,",
+        "code": "2026kzbimh",
+        "ids": ",tx2026kzbimh,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.1,
+        "nst": 4,
+        "dmin": 0.3,
         "rms": 0.5,
-        "gap": 135,
+        "gap": 210,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 9 km SE of Pecos, Texas"
+        "title": "M 1.5 - 6 km S of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.424,
-          31.358,
-          7.9056
+          -103.801,
+          31.258,
+          2.9999
         ]
       },
-      "id": "tx2026kxgkpq"
+      "id": "tx2026kzbimh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "103 km NNW of Villa General Roca, Argentina",
+        "time": 1780642489152,
+        "updated": 1780643530040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sqtb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sqtb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000sqtb",
+        "ids": ",us7000sqtb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 59,
+        "dmin": 1.425,
+        "rms": 1.6,
+        "gap": 62,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 103 km NNW of Villa General Roca, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0453,
+          -31.8817,
+          135.979
+        ]
+      },
+      "id": "us7000sqtb"
     }
   ],
   "bbox": [
-    -155.37300109863,
-    19.208833694458,
-    1.9400000572205,
-    -103.424,
-    38.833168029785,
-    31.079999923706
+    -147.779,
+    -31.8817,
+    1.3700000047684,
+    -67.0453,
+    60.399,
+    135.979
   ]
 }
