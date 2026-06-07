@@ -1,101 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1780730720000,
+    "generated": 1780818161000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 2
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.35,
-        "place": "21 km ESE of Anza, CA",
-        "time": 1780728434670,
-        "updated": 1780729064250,
+        "mag": 1.3,
+        "place": "41 km NNE of Chickaloon, Alaska",
+        "time": 1780817819552,
+        "updated": 1780817893184,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481360",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41481360.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026leorlv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026leorlv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41481360",
-        "ids": ",ci41481360,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 66,
-        "dmin": 0.1603,
-        "rms": 0.2,
-        "gap": 32,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026leorlv",
+        "ids": ",aka2026leorlv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 114,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 21 km ESE of Anza, CA"
+        "title": "M 1.3 - 41 km NNE of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.455166666667,
-          33.5008333333333,
-          3.16
+          -148.22,
+          62.155,
+          17.4
         ]
       },
-      "id": "ci41481360"
+      "id": "aka2026leorlv"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.57,
-        "place": "9 km SSW of Idyllwild, CA",
-        "time": 1780728246610,
-        "updated": 1780728449291,
+        "mag": 0.85,
+        "place": "6 km WSW of Anza, CA",
+        "time": 1780815977830,
+        "updated": 1780816190233,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481352",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41481352.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481928",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41481928.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
+        "sig": 11,
         "net": "ci",
-        "code": "41481352",
-        "ids": ",ci41481352,",
+        "code": "41481928",
+        "ids": ",ci41481928,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.09207,
-        "rms": 0.11,
-        "gap": 91,
+        "nst": 40,
+        "dmin": 0.03894,
+        "rms": 0.18,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 9 km SSW of Idyllwild, CA"
+        "title": "M 0.9 - 6 km WSW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7655,
-          33.6641666666667,
-          11.09
+          -116.729833333333,
+          33.5268333333333,
+          6.43
         ]
       },
-      "id": "ci41481352"
+      "id": "ci41481928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "5 km SSW of Houston, Alaska",
+        "time": 1780815962004,
+        "updated": 1780816055210,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lenqpu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lenqpu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026lenqpu",
+        "ids": ",aka2026lenqpu,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 130,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 5 km SSW of Houston, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.87,
+          61.585,
+          53.2
+        ]
+      },
+      "id": "aka2026lenqpu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.3,
+        "place": "5 km WSW of Anza, CA",
+        "time": 1780815776280,
+        "updated": 1780815979569,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481912",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41481912.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "ci",
+        "code": "41481912",
+        "ids": ",ci41481912,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 16,
+        "dmin": 0.0358,
+        "rms": 0.11,
+        "gap": 100,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.3 - 5 km WSW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.725,
+          33.531,
+          5.65
+        ]
+      },
+      "id": "ci41481912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.69,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1780815131890,
+        "updated": 1780815348514,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481904",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41481904.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ci",
+        "code": "41481904",
+        "ids": ",ci41481904,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 48,
+        "dmin": 0.05047,
+        "rms": 0.18,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 17 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.805666666667,
+          35.3058333333333,
+          7.12
+        ]
+      },
+      "id": "ci41481904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.86,
+        "place": "20 km SW of Barstow, CA",
+        "time": 1780814747760,
+        "updated": 1780815404580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41481896",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41481896.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "ci",
+        "code": "41481896",
+        "ids": ",ci41481896,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 62,
+        "dmin": 0.07989,
+        "rms": 0.16,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 20 km SW of Barstow, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.153333333333,
+          34.7593333333333,
+          7.54
+        ]
+      },
+      "id": "ci41481896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "51 km NNE of Chickaloon, Alaska",
+        "time": 1780814577350,
+        "updated": 1780817597788,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lemwpp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lemwpp.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "a2026lemwpp",
+        "ids": ",aka2026lemwpp,us7000sr6w,",
+        "sources": ",ak,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 129,
+        "dmin": 0.4,
+        "rms": 1.3,
+        "gap": 14,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 51 km NNE of Chickaloon, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.111,
+          62.229,
+          5
+        ]
+      },
+      "id": "aka2026lemwpp"
     }
   ],
   "bbox": [
-    -116.7655,
-    33.500833333333,
-    3.16,
-    -116.45516666667,
-    33.664166666667,
-    11.09
+    -149.87,
+    33.526833333333,
+    5,
+    -116.725,
+    62.229,
+    53.2
   ]
 }
