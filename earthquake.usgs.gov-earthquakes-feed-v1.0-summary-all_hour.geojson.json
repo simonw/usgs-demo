@@ -1,221 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781077826000,
+    "generated": 1781165104000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 5
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "44 km NW of Tatitlek, Alaska",
-        "time": 1781077565000,
-        "updated": 1781077640951,
+        "mag": 1.21,
+        "place": "40 km ENE of Lucerne Valley, CA",
+        "time": 1781164685170,
+        "updated": 1781164889909,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lkdbbj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lkdbbj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484416",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484416.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026lkdbbj",
-        "ids": ",aka2026lkdbbj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.3,
-        "rms": 1.2,
-        "gap": 91,
+        "sig": 23,
+        "net": "ci",
+        "code": "41484416",
+        "ids": ",ci41484416,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.03003,
+        "rms": 0.13,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 44 km NW of Tatitlek, Alaska"
+        "title": "M 1.2 - 40 km ENE of Lucerne Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.296,
-          61.129,
-          31.9
+          -116.594333333333,
+          34.6268333333333,
+          7.72
         ]
       },
-      "id": "aka2026lkdbbj"
+      "id": "ci41484416"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "17 km SSW of Leilani Estates, Hawaii",
-        "time": 1781076682580,
-        "updated": 1781076898830,
+        "mag": 1.06,
+        "place": "23 km NNW of Borrego Springs, CA",
+        "time": 1781164159880,
+        "updated": 1781164818840,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74978927",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74978927.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484408",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484408.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "hv",
-        "code": "74978927",
-        "ids": ",hv74978927,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.1114,
-        "rms": 0.119999997,
-        "gap": 231,
-        "magType": "md",
+        "sig": 17,
+        "net": "ci",
+        "code": "41484408",
+        "ids": ",ci41484408,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 58,
+        "dmin": 0.1387,
+        "rms": 0.19,
+        "gap": 33,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 17 km SSW of Leilani Estates, Hawaii"
+        "title": "M 1.1 - 23 km NNW of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.98616027832,
-          19.3288326263428,
-          32.3400001525879
+          -116.426333333333,
+          33.4611666666667,
+          2.3
         ]
       },
-      "id": "hv74978927"
+      "id": "ci41484408"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.09,
-        "place": "9 km NW of The Geysers, CA",
-        "time": 1781076067920,
-        "updated": 1781076164633,
+        "mag": 0.73,
+        "place": "13 km ENE of Cloverdale, CA",
+        "time": 1781163553610,
+        "updated": 1781163647869,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374086",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75374086.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374676",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75374676.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
+        "sig": 8,
         "net": "nc",
-        "code": "75374086",
-        "ids": ",nc75374086,",
+        "code": "75374676",
+        "ids": ",nc75374676,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.01485,
-        "rms": 0.01,
-        "gap": 80,
+        "nst": 9,
+        "dmin": 0.005343,
+        "rms": 0.02,
+        "gap": 157,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 9 km NW of The Geysers, CA"
+        "title": "M 0.7 - 13 km ENE of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.832336425781,
-          38.837833404541,
-          1.78999996185303
+          -122.878829956055,
+          38.8421669006348,
+          2.29999995231628
         ]
       },
-      "id": "nc75374086"
+      "id": "nc75374676"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.54,
-        "place": "10 km ENE of Ocotillo Wells, CA",
-        "time": 1781075469540,
-        "updated": 1781075683150,
+        "mag": 1.02,
+        "place": "13 km ENE of Cloverdale, CA",
+        "time": 1781163532750,
+        "updated": 1781163628247,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483792",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41483792.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374671",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75374671.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41483792",
-        "ids": ",ci41483792,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 35,
-        "dmin": 0.0465,
-        "rms": 0.22,
-        "gap": 48,
-        "magType": "ml",
+        "sig": 16,
+        "net": "nc",
+        "code": "75374671",
+        "ids": ",nc75374671,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.004247,
+        "rms": 0.02,
+        "gap": 90,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.5 - 10 km ENE of Ocotillo Wells, CA"
+        "title": "M 1.0 - 13 km ENE of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.033166666667,
-          33.1748333333333,
-          5.05
+          -122.879333496094,
+          38.8409996032715,
+          2.27999997138977
         ]
       },
-      "id": "ci41483792"
+      "id": "nc75374671"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.84,
-        "place": "10 km NW of Borrego Springs, CA",
-        "time": 1781075160150,
-        "updated": 1781075367390,
+        "mag": 5.4,
+        "place": "59 km S of Sarangani, Philippines",
+        "time": 1781163203077,
+        "updated": 1781164742264,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41483784",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41483784.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss6g",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ss6g.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.087,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "7000ss6g",
+        "ids": ",us7000ss6g,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 69,
+        "dmin": 2.19,
+        "rms": 0.87,
+        "gap": 56,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 59 km S of Sarangani, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.4495,
+          4.8685,
+          72.962
+        ]
+      },
+      "id": "us7000ss6g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.09,
+        "place": "34 km NE of Ensenada, B.C., MX",
+        "time": 1781162032300,
+        "updated": 1781162649040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484400",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484400.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 11,
+        "sig": 67,
         "net": "ci",
-        "code": "41483784",
-        "ids": ",ci41483784,",
+        "code": "41484400",
+        "ids": ",ci41484400,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 48,
-        "dmin": 0.06487,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.2783,
         "rms": 0.21,
-        "gap": 29,
+        "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 10 km NW of Borrego Springs, CA"
+        "title": "M 2.1 - 34 km NE of Ensenada, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.437333333333,
-          33.331,
-          12.18
+          -116.33,
+          32.0551666666667,
+          25.21
         ]
       },
-      "id": "ci41483784"
+      "id": "ci41484400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.11,
+        "place": "1 km W of Pinnacles, CA",
+        "time": 1781161708230,
+        "updated": 1781162542444,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374666",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75374666.geojson",
+        "felt": 2,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "nc",
+        "code": "75374666",
+        "ids": ",nc75374666,",
+        "sources": ",nc,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 32,
+        "dmin": 0.04646,
+        "rms": 0.13,
+        "gap": 77,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 1 km W of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.158164978027,
+          36.5306663513184,
+          3.23000001907349
+        ]
+      },
+      "id": "nc75374666"
     }
   ],
   "bbox": [
-    -154.98616027832,
-    19.328832626343,
-    1.789999961853,
-    -116.03316666667,
-    61.129,
-    32.340000152588
+    -122.87933349609,
+    4.8685,
+    2.2799999713898,
+    125.4495,
+    38.842166900635,
+    72.962
   ]
 }
