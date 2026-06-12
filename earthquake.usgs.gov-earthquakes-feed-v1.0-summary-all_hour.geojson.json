@@ -1,301 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781165104000,
+    "generated": 1781251144000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.21,
-        "place": "40 km ENE of Lucerne Valley, CA",
-        "time": 1781164685170,
-        "updated": 1781164889909,
+        "mag": 2.1,
+        "place": "35 km W of Ivanof Bay, Alaska",
+        "time": 1781249364680,
+        "updated": 1781249458170,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484416.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lnuntc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lnuntc.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 23,
+        "sig": 68,
+        "net": "ak",
+        "code": "a2026lnuntc",
+        "ids": ",aka2026lnuntc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 326,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 35 km W of Ivanof Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.043,
+          55.892,
+          5
+        ]
+      },
+      "id": "aka2026lnuntc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.92,
+        "place": "10 km ENE of North Tustin, CA",
+        "time": 1781248756120,
+        "updated": 1781248967664,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484936",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484936.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
         "net": "ci",
-        "code": "41484416",
-        "ids": ",ci41484416,",
+        "code": "41484936",
+        "ids": ",ci41484936,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.03003,
-        "rms": 0.13,
-        "gap": 63,
+        "nst": 32,
+        "dmin": 0.07409,
+        "rms": 0.2,
+        "gap": 50,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 40 km ENE of Lucerne Valley, CA"
+        "title": "M 0.9 - 10 km ENE of North Tustin, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.594333333333,
-          34.6268333333333,
-          7.72
+          -117.697666666667,
+          33.802,
+          2.88
         ]
       },
-      "id": "ci41484416"
+      "id": "ci41484936"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.06,
-        "place": "23 km NNW of Borrego Springs, CA",
-        "time": 1781164159880,
-        "updated": 1781164818840,
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "time": 1781248693497,
+        "updated": 1781249789040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484408.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssf6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ssf6.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41484408",
-        "ids": ",ci41484408,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 58,
-        "dmin": 0.1387,
-        "rms": 0.19,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 23 km NNW of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.426333333333,
-          33.4611666666667,
-          2.3
-        ]
-      },
-      "id": "ci41484408"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.73,
-        "place": "13 km ENE of Cloverdale, CA",
-        "time": 1781163553610,
-        "updated": 1781163647869,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374676",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75374676.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75374676",
-        "ids": ",nc75374676,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.005343,
-        "rms": 0.02,
-        "gap": 157,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 13 km ENE of Cloverdale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.878829956055,
-          38.8421669006348,
-          2.29999995231628
-        ]
-      },
-      "id": "nc75374676"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.02,
-        "place": "13 km ENE of Cloverdale, CA",
-        "time": 1781163532750,
-        "updated": 1781163628247,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374671",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75374671.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 16,
-        "net": "nc",
-        "code": "75374671",
-        "ids": ",nc75374671,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.004247,
-        "rms": 0.02,
-        "gap": 90,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 13 km ENE of Cloverdale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.879333496094,
-          38.8409996032715,
-          2.27999997138977
-        ]
-      },
-      "id": "nc75374671"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "59 km S of Sarangani, Philippines",
-        "time": 1781163203077,
-        "updated": 1781164742264,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ss6g",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ss6g.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.087,
-        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 449,
+        "sig": 312,
         "net": "us",
-        "code": "7000ss6g",
-        "ids": ",us7000ss6g,",
+        "code": "7000ssf6",
+        "ids": ",us7000ssf6,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 69,
-        "dmin": 2.19,
-        "rms": 0.87,
-        "gap": 56,
-        "magType": "mww",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 5.231,
+        "rms": 0.71,
+        "gap": 82,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.4 - 59 km S of Sarangani, Philippines"
+        "title": "M 4.5 - south of the Fiji Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.4495,
-          4.8685,
-          72.962
+          179.8036,
+          -24.4028,
+          535.344
         ]
       },
-      "id": "us7000ss6g"
+      "id": "us7000ssf6"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.09,
-        "place": "34 km NE of Ensenada, B.C., MX",
-        "time": 1781162032300,
-        "updated": 1781162649040,
+        "mag": 1.9,
+        "place": "48 km SSE of Whites City, New Mexico",
+        "time": 1781248229104,
+        "updated": 1781248514420,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484400",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484400.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026llxxgw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026llxxgw.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 67,
-        "net": "ci",
-        "code": "41484400",
-        "ids": ",ci41484400,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.2783,
-        "rms": 0.21,
-        "gap": 59,
+        "sig": 56,
+        "net": "tx",
+        "code": "2026llxxgw",
+        "ids": ",tx2026llxxgw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 100,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 34 km NE of Ensenada, B.C., MX"
+        "title": "M 1.9 - 48 km SSE of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.33,
-          32.0551666666667,
-          25.21
+          -104.207,
+          31.76,
+          4.8128
         ]
       },
-      "id": "ci41484400"
+      "id": "tx2026llxxgw"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.11,
-        "place": "1 km W of Pinnacles, CA",
-        "time": 1781161708230,
-        "updated": 1781162542444,
+        "mag": 0.47,
+        "place": "7 km WSW of Idyllwild, CA",
+        "time": 1781247880670,
+        "updated": 1781248093471,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75374666",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75374666.geojson",
-        "felt": 2,
-        "cdi": 2.7,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484928",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484928.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 69,
-        "net": "nc",
-        "code": "75374666",
-        "ids": ",nc75374666,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.04646,
-        "rms": 0.13,
-        "gap": 77,
-        "magType": "md",
+        "sig": 3,
+        "net": "ci",
+        "code": "41484928",
+        "ids": ",ci41484928,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.0643,
+        "rms": 0.14,
+        "gap": 91,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 1 km W of Pinnacles, CA"
+        "title": "M 0.5 - 7 km WSW of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.158164978027,
-          36.5306663513184,
-          3.23000001907349
+          -116.788,
+          33.7246666666667,
+          15.4
         ]
       },
-      "id": "nc75374666"
+      "id": "ci41484928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "46 km E of Pedro Bay, Alaska",
+        "time": 1781247569420,
+        "updated": 1781247813797,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lntnub",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lntnub.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026lntnub",
+        "ids": ",aka2026lntnub,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 100,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 46 km E of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.288,
+          59.746,
+          133.7
+        ]
+      },
+      "id": "aka2026lntnub"
     }
   ],
   "bbox": [
-    -122.87933349609,
-    4.8685,
-    2.2799999713898,
-    125.4495,
-    38.842166900635,
-    72.962
+    -160.043,
+    -24.4028,
+    2.88,
+    179.8036,
+    59.746,
+    535.344
   ]
 }
