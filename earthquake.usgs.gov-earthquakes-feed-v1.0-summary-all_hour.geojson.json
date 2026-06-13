@@ -1,64 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781251144000,
+    "generated": 1781336286000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 6
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "35 km W of Ivanof Bay, Alaska",
-        "time": 1781249364680,
-        "updated": 1781249458170,
+        "mag": 2.3,
+        "place": "47 km SW of Skwentna, Alaska",
+        "time": 1781335724041,
+        "updated": 1781335883013,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lnuntc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lnuntc.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lpqnsz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lpqnsz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 81,
         "net": "ak",
-        "code": "a2026lnuntc",
-        "ids": ",aka2026lnuntc,",
+        "code": "a2026lpqnsz",
+        "ids": ",aka2026lpqnsz,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 326,
+        "nst": 98,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 48,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 35 km W of Ivanof Bay, Alaska"
+        "title": "M 2.3 - 47 km SW of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -160.043,
-          55.892,
-          5
+          -152.028,
+          61.686,
+          110
         ]
       },
-      "id": "aka2026lnuntc"
+      "id": "aka2026lpqnsz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.92,
-        "place": "10 km ENE of North Tustin, CA",
-        "time": 1781248756120,
-        "updated": 1781248967664,
+        "mag": 1.3,
+        "place": "14 km S of Central, Alaska",
+        "time": 1781335347814,
+        "updated": 1781335461103,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484936",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484936.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lpqihi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lpqihi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026lpqihi",
+        "ids": ",aka2026lpqihi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 153,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 14 km S of Central, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.781,
+          65.442,
+          5
+        ]
+      },
+      "id": "aka2026lpqihi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.91,
+        "place": "7 km E of Calimesa, CA",
+        "time": 1781334639550,
+        "updated": 1781334860763,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41485720",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41485720.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -67,195 +107,75 @@
         "tsunami": 0,
         "sig": 13,
         "net": "ci",
-        "code": "41484936",
-        "ids": ",ci41484936,",
+        "code": "41485720",
+        "ids": ",ci41485720,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.07409,
-        "rms": 0.2,
-        "gap": 50,
+        "nst": 43,
+        "dmin": 0.09993,
+        "rms": 0.14,
+        "gap": 40,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 10 km ENE of North Tustin, CA"
+        "title": "M 0.9 - 7 km E of Calimesa, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.697666666667,
-          33.802,
-          2.88
+          -116.975666666667,
+          33.999,
+          11.55
         ]
       },
-      "id": "ci41484936"
+      "id": "ci41485720"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "south of the Fiji Islands",
-        "time": 1781248693497,
-        "updated": 1781249789040,
+        "mag": 1.3,
+        "place": "35 km SSW of Los Ybanez, Texas",
+        "time": 1781332791825,
+        "updated": 1781333048752,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ssf6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ssf6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000ssf6",
-        "ids": ",us7000ssf6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 5.231,
-        "rms": 0.71,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          179.8036,
-          -24.4028,
-          535.344
-        ]
-      },
-      "id": "us7000ssf6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "48 km SSE of Whites City, New Mexico",
-        "time": 1781248229104,
-        "updated": 1781248514420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026llxxgw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026llxxgw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026lnsqbo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026lnsqbo.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 26,
         "net": "tx",
-        "code": "2026llxxgw",
-        "ids": ",tx2026llxxgw,",
+        "code": "2026lnsqbo",
+        "ids": ",tx2026lnsqbo,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 40,
+        "nst": 43,
         "dmin": 0,
         "rms": 0.5,
-        "gap": 100,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 48 km SSE of Whites City, New Mexico"
+        "title": "M 1.3 - 35 km SSW of Los Ybanez, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.207,
-          31.76,
-          4.8128
+          -102.107,
+          32.438,
+          3.792
         ]
       },
-      "id": "tx2026llxxgw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.47,
-        "place": "7 km WSW of Idyllwild, CA",
-        "time": 1781247880670,
-        "updated": 1781248093471,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41484928",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41484928.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41484928",
-        "ids": ",ci41484928,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.0643,
-        "rms": 0.14,
-        "gap": 91,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 7 km WSW of Idyllwild, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.788,
-          33.7246666666667,
-          15.4
-        ]
-      },
-      "id": "ci41484928"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "46 km E of Pedro Bay, Alaska",
-        "time": 1781247569420,
-        "updated": 1781247813797,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026lntnub",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026lntnub.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026lntnub",
-        "ids": ",aka2026lntnub,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 100,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 46 km E of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.288,
-          59.746,
-          133.7
-        ]
-      },
-      "id": "aka2026lntnub"
+      "id": "tx2026lnsqbo"
     }
   ],
   "bbox": [
-    -160.043,
-    -24.4028,
-    2.88,
-    179.8036,
-    59.746,
-    535.344
+    -152.028,
+    32.438,
+    3.792,
+    -102.107,
+    65.442,
+    110
   ]
 }
