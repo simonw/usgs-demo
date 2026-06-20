@@ -1,221 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1781856954000,
+    "generated": 1781941073000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 5
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.8,
-        "place": "171 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1781855577734,
-        "updated": 1781856766040,
+        "mag": 2,
+        "place": "62 km S of Whites City, New Mexico",
+        "time": 1781940784837,
+        "updated": 1781941048008,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000suii",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000suii.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026maqmbj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026maqmbj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 518,
-        "net": "us",
-        "code": "7000suii",
-        "ids": ",us7000suii,",
-        "sources": ",us,",
+        "sig": 62,
+        "net": "tx",
+        "code": "2026maqmbj",
+        "ids": ",tx2026maqmbj,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 102,
-        "dmin": 2.101,
-        "rms": 1.16,
-        "gap": 76,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - 171 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.1149,
-          52.7355,
-          10
-        ]
-      },
-      "id": "us7000suii"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "6 km SSE of Bluffdale, Utah",
-        "time": 1781854834273,
-        "updated": 1781856692252,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000suie",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000suie.geojson",
-        "felt": 43,
-        "cdi": 3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 94,
-        "net": "us",
-        "code": "7000suie",
-        "ids": ",us7000suie,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.272,
-        "rms": 0.62,
-        "gap": 39,
+        "nst": 31,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 75,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 6 km SSE of Bluffdale, Utah"
+        "title": "M 2.0 - 62 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.9106,
-          40.4328,
-          5
+          -104.462,
+          31.619,
+          4.0101
         ]
       },
-      "id": "us7000suie"
+      "id": "tx2026maqmbj"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "218 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1781853764997,
-        "updated": 1781855941040,
+        "mag": 1.7,
+        "place": "60 km S of Whites City, New Mexico",
+        "time": 1781940234081,
+        "updated": 1781940403721,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000suia",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000suia.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026maqecs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026maqecs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000suia",
-        "ids": ",us7000suia,",
-        "sources": ",us,",
+        "sig": 44,
+        "net": "tx",
+        "code": "2026maqecs",
+        "ids": ",tx2026maqecs,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 2.425,
-        "rms": 0.54,
-        "gap": 191,
-        "magType": "mb",
+        "nst": 26,
+        "dmin": 0,
+        "rms": 0.7,
+        "gap": 74,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.4 - 218 km SE of Petropavlovsk-Kamchatsky, Russia"
+        "title": "M 1.7 - 60 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.8688,
-          51.6583,
+          -104.436,
+          31.63,
+          7.6599
+        ]
+      },
+      "id": "tx2026maqecs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "64 km S of Whites City, New Mexico",
+        "time": 1781939468593,
+        "updated": 1781939691815,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026maptdw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026maptdw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 30,
+        "net": "tx",
+        "code": "2026maptdw",
+        "ids": ",tx2026maptdw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 109,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 64 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.431,
+          31.599,
+          1.6588
+        ]
+      },
+      "id": "tx2026maptdw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.95,
+        "place": "11 km WNW of Cobb, CA",
+        "time": 1781939117640,
+        "updated": 1781939215108,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75380026",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75380026.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "nc",
+        "code": "75380026",
+        "ids": ",nc75380026,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.01629,
+        "rms": 0.04,
+        "gap": 141,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 11 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.848503112793,
+          38.8513336181641,
+          1.24000000953674
+        ]
+      },
+      "id": "nc75380026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.96,
+        "place": "8 km ESE of Palomar Observatory, CA",
+        "time": 1781938911150,
+        "updated": 1781939121404,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41490992",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41490992.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "41490992",
+        "ids": ",ci41490992,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.06683,
+        "rms": 0.18,
+        "gap": 54,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 8 km ESE of Palomar Observatory, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.791333333333,
+          33.3235,
+          15.42
+        ]
+      },
+      "id": "ci41490992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "160 km NE of Georgetown, Saint Helena",
+        "time": 1781937797271,
+        "updated": 1781939486161,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000susv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000susv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.136,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000susv",
+        "ids": ",us7000susv,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 89,
+        "dmin": 1.401,
+        "rms": 0.62,
+        "gap": 60,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.5 - 160 km NE of Georgetown, Saint Helena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.2711,
+          -7.0346,
           10
         ]
       },
-      "id": "us7000suia"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.71,
-        "place": "16 km S of Honaunau-Napoopoo, Hawaii",
-        "time": 1781853724610,
-        "updated": 1781853933730,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74986207",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74986207.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 45,
-        "net": "hv",
-        "code": "74986207",
-        "ids": ",hv74986207,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1749,
-        "rms": 0.119999997,
-        "gap": 250,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 16 km S of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.856002807617,
-          19.3080005645752,
-          21.7600002288818
-        ]
-      },
-      "id": "hv74986207"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.22,
-        "place": "16 km NW of Parkfield, CA",
-        "time": 1781853626510,
-        "updated": 1781854642897,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75379521",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75379521.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "nc",
-        "code": "75379521",
-        "ids": ",nc75379521,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.022,
-        "rms": 0.06,
-        "gap": 96,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 16 km NW of Parkfield, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.561332702637,
-          36.0003318786621,
-          1.37999999523163
-        ]
-      },
-      "id": "nc75379521"
+      "id": "us7000susv"
     }
   ],
   "bbox": [
-    -155.85600280762,
-    19.308000564575,
-    1.3799999952316,
-    161.1149,
-    52.7355,
-    21.760000228882
+    -122.84850311279,
+    -7.0346,
+    1.2400000095367,
+    -13.2711,
+    38.851333618164,
+    15.42
   ]
 }
