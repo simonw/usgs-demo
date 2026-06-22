@@ -1,384 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782029040000,
+    "generated": 1782117024000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 10
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.37,
-        "place": "14 km S of Anza, CA",
-        "time": 1782027839420,
-        "updated": 1782028050437,
+        "mag": 2.14,
+        "place": "2 km SW of Pāhala, Hawaii",
+        "time": 1782116209520,
+        "updated": 1782116421900,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491656",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41491656.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74988462",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74988462.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 29,
-        "net": "ci",
-        "code": "41491656",
-        "ids": ",ci41491656,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.07138,
-        "rms": 0.09,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 14 km S of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.649,
-          33.4348333333333,
-          6.04
-        ]
-      },
-      "id": "ci41491656"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.38,
-        "place": "44 km W of Petrolia, CA",
-        "time": 1782027265380,
-        "updated": 1782028641601,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75380606",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75380606.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 87,
-        "net": "nc",
-        "code": "75380606",
-        "ids": ",nc75380606,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 6,
-        "dmin": 0.3624,
-        "rms": 0.02,
-        "gap": 272,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 44 km W of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.794166564941,
-          40.398998260498,
-          7.53000020980835
-        ]
-      },
-      "id": "nc75380606"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.31,
-        "place": "4 km E of Ojai, CA",
-        "time": 1782027041540,
-        "updated": 1782027251434,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491648",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41491648.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "ci",
-        "code": "41491648",
-        "ids": ",ci41491648,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.05209,
-        "rms": 0.27,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 4 km E of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.198666666667,
-          34.4495,
-          10.68
-        ]
-      },
-      "id": "ci41491648"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.93,
-        "place": "11 km WNW of Cobb, CA",
-        "time": 1782027001830,
-        "updated": 1782027098526,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75380601",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75380601.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "nc",
-        "code": "75380601",
-        "ids": ",nc75380601,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.01515,
-        "rms": 0.03,
-        "gap": 115,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.9 - 11 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.847503662109,
-          38.8504981994629,
-          1.35000002384186
-        ]
-      },
-      "id": "nc75380601"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.18,
-        "place": "4 km E of Ojai, CA",
-        "time": 1782026326020,
-        "updated": 1782026525932,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491640",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41491640.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 21,
-        "net": "ci",
-        "code": "41491640",
-        "ids": ",ci41491640,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.05172,
-        "rms": 0.28,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 4 km E of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.198,
-          34.4501666666667,
-          10.04
-        ]
-      },
-      "id": "ci41491640"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.15,
-        "place": "4 km NE of Ojai, CA",
-        "time": 1782026299790,
-        "updated": 1782026510271,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491632",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41491632.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 20,
-        "net": "ci",
-        "code": "41491632",
-        "ids": ",ci41491632,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.06684,
-        "rms": 0.28,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 4 km NE of Ojai, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.209166666667,
-          34.4708333333333,
-          7.64
-        ]
-      },
-      "id": "ci41491632"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.01,
-        "place": "14 km ENE of Julian, CA",
-        "time": 1782025863780,
-        "updated": 1782026535070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41491624",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41491624.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ci",
-        "code": "41491624",
-        "ids": ",ci41491624,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 84,
-        "dmin": 0.07496,
-        "rms": 0.19,
-        "gap": 26,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 14 km ENE of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.474,
-          33.1461666666667,
-          11.1
-        ]
-      },
-      "id": "ci41491624"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.23,
-        "place": "8 km WNW of Tahoe Vista, CA",
-        "time": 1782025690200,
-        "updated": 1782027744608,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75380591",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75380591.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "nc",
-        "code": "75380591",
-        "ids": ",nc75380591,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 8,
-        "dmin": 0.04785,
-        "rms": 0.06,
-        "gap": 138,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 8 km WNW of Tahoe Vista, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.140167236328,
-          39.2543334960938,
-          9.59000015258789
-        ]
-      },
-      "id": "nc75380591"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "28 km W of Ivanof Bay, Alaska",
-        "time": 1782025612548,
-        "updated": 1782025831341,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mejzjf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mejzjf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "a2026mejzjf",
-        "ids": ",aka2026mejzjf,",
-        "sources": ",ak,",
+        "sig": 70,
+        "net": "hv",
+        "code": "74988462",
+        "ids": ",hv74988462,",
+        "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 170,
-        "magType": "ml",
+        "nst": 34,
+        "dmin": 0.0642,
+        "rms": 0.119999997,
+        "gap": 197,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.2 - 28 km W of Ivanof Bay, Alaska"
+        "title": "M 2.1 - 2 km SW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -159.932,
-          55.894,
-          5.2
+          -155.494171142578,
+          19.1840000152588,
+          28.9500007629395
         ]
       },
-      "id": "aka2026mejzjf"
+      "id": "hv74988462"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.21,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1782025504940,
-        "updated": 1782025602262,
+        "mag": 0.59,
+        "place": "6 km SE of Loma Linda, CA",
+        "time": 1782116058750,
+        "updated": 1782116272705,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75380586",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75380586.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41492144",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41492144.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "ci",
+        "code": "41492144",
+        "ids": ",ci41492144,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.06893,
+        "rms": 0.19,
+        "gap": 103,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 6 km SE of Loma Linda, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.217333333333,
+          34.0056666666667,
+          7.02
+        ]
+      },
+      "id": "ci41492144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "60 km SSW of Whites City, New Mexico",
+        "time": 1782115767129,
+        "updated": 1782115972806,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mejcxb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mejcxb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2026mejcxb",
+        "ids": ",tx2026mejcxb,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 89,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 60 km SSW of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.515,
+          31.644,
+          4.0589
+        ]
+      },
+      "id": "tx2026mejcxb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.27,
+        "place": "4 km WSW of Anza, CA",
+        "time": 1782114744060,
+        "updated": 1782114946566,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41492136",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41492136.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -386,36 +146,236 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 1,
-        "net": "nc",
-        "code": "75380586",
-        "ids": ",nc75380586,",
-        "sources": ",nc,",
+        "net": "ci",
+        "code": "41492136",
+        "ids": ",ci41492136,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.001249,
-        "rms": 0.02,
-        "gap": 76,
-        "magType": "md",
+        "nst": 16,
+        "dmin": 0.03259,
+        "rms": 0.12,
+        "gap": 88,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.2 - 6 km WNW of Cobb, CA"
+        "title": "M 0.3 - 4 km WSW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.790168762207,
-          38.8371658325195,
-          1.80999994277954
+          -116.709666666667,
+          33.5423333333333,
+          5.36
         ]
       },
-      "id": "nc75380586"
+      "id": "ci41492136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.04,
+        "place": "5 km SSW of Redlands, CA",
+        "time": 1782114489840,
+        "updated": 1782115135690,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41492128",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41492128.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "ci",
+        "code": "41492128",
+        "ids": ",ci41492128,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 63,
+        "dmin": 0.07061,
+        "rms": 0.19,
+        "gap": 29,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 5 km SSW of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.204166666667,
+          34.0131666666667,
+          5.13
+        ]
+      },
+      "id": "ci41492128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1782114122520,
+        "updated": 1782114216725,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75381156",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75381156.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75381156",
+        "ids": ",nc75381156,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.006245,
+        "rms": 0.03,
+        "gap": 53,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.802169799805,
+          38.824333190918,
+          2.14000010490417
+        ]
+      },
+      "id": "nc75381156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "5 km WSW of Wickett, Texas",
+        "time": 1782114103762,
+        "updated": 1782114360237,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026meifgu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026meifgu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "tx",
+        "code": "2026meifgu",
+        "ids": ",tx2026meifgu,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.2,
+        "rms": 1,
+        "gap": 180,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 5 km WSW of Wickett, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.057,
+          31.546,
+          0.5042
+        ]
+      },
+      "id": "tx2026meifgu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "16 km SE of Coahoma, Texas",
+        "time": 1782114052705,
+        "updated": 1782115558029,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026meienq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026meienq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "tx",
+        "code": "2026meienq",
+        "ids": ",tx2026meienq,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.2,
+        "rms": 0.4,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 16 km SE of Coahoma, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.195,
+          32.182,
+          2.8491
+        ]
+      },
+      "id": "tx2026meienq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78,
+        "place": "4 km SSW of Redlands, CA",
+        "time": 1782113532430,
+        "updated": 1782113738577,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41492120",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41492120.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "ci",
+        "code": "41492120",
+        "ids": ",ci41492120,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.07647,
+        "rms": 0.2,
+        "gap": 147,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 4 km SSW of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.204,
+          34.0195,
+          5.43
+        ]
+      },
+      "id": "ci41492120"
     }
   ],
   "bbox": [
-    -159.932,
-    33.146166666667,
-    1.3500000238419,
-    -116.474,
-    55.894,
-    11.1
+    -155.49417114258,
+    19.184000015259,
+    0.5042,
+    -101.195,
+    38.824333190918,
+    28.950000762939
   ]
 }
