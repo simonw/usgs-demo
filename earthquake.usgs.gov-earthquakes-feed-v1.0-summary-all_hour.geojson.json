@@ -1,199 +1,159 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782200244000,
+    "generated": 1782286606000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 10
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.15,
-        "place": "3 km WSW of Brawley, CA",
-        "time": 1782199337340,
-        "updated": 1782199537768,
+        "mag": 0.9,
+        "place": "13 km WSW of Lake Hughes, CA",
+        "time": 1782286368450,
+        "updated": 1782286572809,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41493136",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41493136.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494192",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494192.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 20,
+        "sig": 12,
         "net": "ci",
-        "code": "41493136",
-        "ids": ",ci41493136,",
+        "code": "41494192",
+        "ids": ",ci41494192,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.06292,
-        "rms": 0.25,
-        "gap": 72,
+        "nst": 36,
+        "dmin": 0.04554,
+        "rms": 0.18,
+        "gap": 55,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 3 km WSW of Brawley, CA"
+        "title": "M 0.9 - 13 km WSW of Lake Hughes, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.557333333333,
-          32.9645,
-          9.13
+          -118.579666666667,
+          34.6368333333333,
+          9.89
         ]
       },
-      "id": "ci41493136"
+      "id": "ci41494192"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.69,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1782199249400,
-        "updated": 1782199346870,
+        "mag": 1.8,
+        "place": "72 km WNW of Happy Valley, Alaska",
+        "time": 1782285391163,
+        "updated": 1782285507421,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75381961",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75381961.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mjyjjj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mjyjjj.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75381961",
-        "ids": ",nc75381961,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.005492,
-        "rms": 0.02,
-        "gap": 117,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 6 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.783332824707,
-          38.8388328552246,
-          1.94000005722046
-        ]
-      },
-      "id": "nc75381961"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.28,
-        "place": "10 km NNE of Julian, CA",
-        "time": 1782198869070,
-        "updated": 1782199499750,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41493128",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41493128.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "ci",
-        "code": "41493128",
-        "ids": ",ci41493128,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 61,
-        "dmin": 0.07352,
-        "rms": 0.19,
-        "gap": 29,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026mjyjjj",
+        "ids": ",aka2026mjyjjj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 74,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 86,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 10 km NNE of Julian, CA"
+        "title": "M 1.8 - 72 km WNW of Happy Valley, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.568666666667,
-          33.1665,
-          15.61
+          -152.987,
+          60.123,
+          136.9
         ]
       },
-      "id": "ci41493128"
+      "id": "aka2026mjyjjj"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.4,
-        "place": "2 km N of The Geysers, CA",
-        "time": 1782198857330,
-        "updated": 1782198951962,
+        "mag": 1.4,
+        "place": "83 km W of Karluk, Alaska",
+        "time": 1782284307886,
+        "updated": 1782284389191,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75381956",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75381956.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mjxtsn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mjxtsn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "nc",
-        "code": "75381956",
-        "ids": ",nc75381956,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.008815,
-        "rms": 0.01,
-        "gap": 108,
-        "magType": "md",
+        "sig": 30,
+        "net": "ak",
+        "code": "a2026mjxtsn",
+        "ids": ",aka2026mjxtsn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.3,
+        "rms": 0.5,
+        "gap": 208,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 2 km N of The Geysers, CA"
+        "title": "M 1.4 - 83 km W of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.752502441406,
-          38.7938346862793,
-          1.35000002384186
+          -155.848,
+          57.55,
+          5
         ]
       },
-      "id": "nc75381956"
+      "id": "aka2026mjxtsn"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.3,
         "place": "13 km WSW of Stanton, Texas",
-        "time": 1782198813434,
-        "updated": 1782199098783,
+        "time": 1782283684976,
+        "updated": 1782285007856,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mgczwl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mgczwl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mhxwul",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mhxwul.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
         "sig": 26,
         "net": "tx",
-        "code": "2026mgczwl",
-        "ids": ",tx2026mgczwl,",
+        "code": "2026mhxwul",
+        "ids": ",tx2026mhxwul,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 51,
+        "nst": 47,
         "dmin": 0.1,
-        "rms": 0.4,
+        "rms": 0.2,
         "gap": 35,
         "magType": "ml",
         "type": "earthquake",
@@ -202,23 +162,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.927,
-          32.102,
-          4.0337
+          -101.928,
+          32.105,
+          8.3252
         ]
       },
-      "id": "tx2026mgczwl"
+      "id": "tx2026mhxwul"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.43,
-        "place": "18 km WSW of Johannesburg, CA",
-        "time": 1782198742170,
-        "updated": 1782198947276,
+        "mag": 1.41,
+        "place": "2 km WNW of Wrightwood, CA",
+        "time": 1782283076110,
+        "updated": 1782283695710,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41493120",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41493120.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494168",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494168.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,195 +187,35 @@
         "tsunami": 0,
         "sig": 31,
         "net": "ci",
-        "code": "41493120",
-        "ids": ",ci41493120,",
+        "code": "41494168",
+        "ids": ",ci41494168,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 44,
-        "dmin": 0.05166,
-        "rms": 0.18,
-        "gap": 65,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 56,
+        "dmin": 0.02286,
+        "rms": 0.2,
+        "gap": 33,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 18 km WSW of Johannesburg, CA"
+        "title": "M 1.4 - 2 km WNW of Wrightwood, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.818666666667,
-          35.3141666666667,
-          7.95
+          -117.6595,
+          34.3651666666667,
+          5.53
         ]
       },
-      "id": "ci41493120"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "174 km E of Hihifo, Tonga",
-        "time": 1782198674440,
-        "updated": 1782199801040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7k4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t7k4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000t7k4",
-        "ids": ",us6000t7k4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 2.288,
-        "rms": 1.07,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 174 km E of Hihifo, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -172.1796,
-          -16.1772,
-          10
-        ]
-      },
-      "id": "us6000t7k4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "39 km NNW of Toyah, Texas",
-        "time": 1782198648119,
-        "updated": 1782198975330,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mgcxmu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mgcxmu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "tx",
-        "code": "2026mgcxmu",
-        "ids": ",tx2026mgcxmu,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 39 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.006,
-          31.617,
-          6.3597
-        ]
-      },
-      "id": "tx2026mgcxmu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "32 km WSW of Tyonek, Alaska",
-        "time": 1782198459193,
-        "updated": 1782199182925,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026micbdk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026micbdk.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "a2026micbdk",
-        "ids": ",aka2026micbdk,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.2,
-        "rms": 0.9,
-        "gap": 229,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 32 km WSW of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.723,
-          61.008,
-          72.8
-        ]
-      },
-      "id": "aka2026micbdk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "184 km SE of Perryville, Alaska",
-        "time": 1782197721527,
-        "updated": 1782197876712,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mibqmw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mibqmw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026mibqmw",
-        "ids": ",aka2026mibqmw,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 1.3,
-        "rms": 0.7,
-        "gap": 241,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 184 km SE of Perryville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.992,
-          54.796,
-          5
-        ]
-      },
-      "id": "aka2026mibqmw"
+      "id": "ci41494168"
     }
   ],
   "bbox": [
-    -172.1796,
-    -16.1772,
-    1.3500000238419,
-    -101.927,
-    61.008,
-    72.8
+    -155.848,
+    32.105,
+    5,
+    -101.928,
+    60.123,
+    136.9
   ]
 }
