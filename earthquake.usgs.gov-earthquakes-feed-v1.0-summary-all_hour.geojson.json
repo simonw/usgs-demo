@@ -1,221 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782286606000,
+    "generated": 1782373007000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 5
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.9,
-        "place": "13 km WSW of Lake Hughes, CA",
-        "time": 1782286368450,
-        "updated": 1782286572809,
+        "mag": 0.82,
+        "place": "32 km N of Searles Valley, CA",
+        "time": 1782372350590,
+        "updated": 1782372553668,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494192",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494192.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494912",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494912.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
+        "sig": 10,
         "net": "ci",
-        "code": "41494192",
-        "ids": ",ci41494192,",
+        "code": "41494912",
+        "ids": ",ci41494912,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.04554,
-        "rms": 0.18,
-        "gap": 55,
+        "nst": 17,
+        "dmin": 0.1039,
+        "rms": 0.13,
+        "gap": 64,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 13 km WSW of Lake Hughes, CA"
+        "title": "M 0.8 - 32 km N of Searles Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.579666666667,
-          34.6368333333333,
-          9.89
+          -117.360833333333,
+          36.0553333333333,
+          1.87
         ]
       },
-      "id": "ci41494192"
+      "id": "ci41494912"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "72 km WNW of Happy Valley, Alaska",
-        "time": 1782285391163,
-        "updated": 1782285507421,
+        "mag": 1.5,
+        "place": "52 km S of Whites City, New Mexico",
+        "time": 1782372330242,
+        "updated": 1782372699799,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mjyjjj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mjyjjj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mjuvse",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mjuvse.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026mjyjjj",
-        "ids": ",aka2026mjyjjj,",
-        "sources": ",ak,",
+        "sig": 35,
+        "net": "tx",
+        "code": "2026mjuvse",
+        "ids": ",tx2026mjuvse,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 74,
+        "nst": 26,
         "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 86,
+        "rms": 0.3,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 72 km WNW of Happy Valley, Alaska"
+        "title": "M 1.5 - 52 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.987,
-          60.123,
-          136.9
+          -104.287,
+          31.707,
+          4.3512
         ]
       },
-      "id": "aka2026mjyjjj"
+      "id": "tx2026mjuvse"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "83 km W of Karluk, Alaska",
-        "time": 1782284307886,
-        "updated": 1782284389191,
+        "mag": 1.7,
+        "place": "15 km WSW of Ivanof Bay, Alaska",
+        "time": 1782372112191,
+        "updated": 1782372183478,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mjxtsn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mjxtsn.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mluoqf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mluoqf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
+        "sig": 44,
         "net": "ak",
-        "code": "a2026mjxtsn",
-        "ids": ",aka2026mjxtsn,",
+        "code": "a2026mluoqf",
+        "ids": ",aka2026mluoqf,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 12,
+        "nst": 10,
         "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 208,
+        "rms": 0.2,
+        "gap": 320,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 83 km W of Karluk, Alaska"
+        "title": "M 1.7 - 15 km WSW of Ivanof Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.848,
-          57.55,
+          -159.713,
+          55.851,
+          10.7
+        ]
+      },
+      "id": "aka2026mluoqf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "24 km SSW of Ivanof Bay, Alaska",
+        "time": 1782371955305,
+        "updated": 1782372040891,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mlumie",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mlumie.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026mlumie",
+        "ids": ",aka2026mlumie,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.4,
+        "rms": 0.4,
+        "gap": 329,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 24 km SSW of Ivanof Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.624,
+          55.699,
           5
         ]
       },
-      "id": "aka2026mjxtsn"
+      "id": "aka2026mlumie"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "13 km WSW of Stanton, Texas",
-        "time": 1782283684976,
-        "updated": 1782285007856,
+        "mag": 0.6,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1782371094220,
+        "updated": 1782371192791,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mhxwul",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mhxwul.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "tx",
-        "code": "2026mhxwul",
-        "ids": ",tx2026mhxwul,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 13 km WSW of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.928,
-          32.105,
-          8.3252
-        ]
-      },
-      "id": "tx2026mhxwul"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.41,
-        "place": "2 km WNW of Wrightwood, CA",
-        "time": 1782283076110,
-        "updated": 1782283695710,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494168",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494168.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75383776",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75383776.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 31,
-        "net": "ci",
-        "code": "41494168",
-        "ids": ",ci41494168,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 56,
-        "dmin": 0.02286,
-        "rms": 0.2,
-        "gap": 33,
-        "magType": "ml",
+        "sig": 6,
+        "net": "nc",
+        "code": "75383776",
+        "ids": ",nc75383776,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.007898,
+        "rms": 0.01,
+        "gap": 126,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 2 km WNW of Wrightwood, CA"
+        "title": "M 0.6 - 7 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.6595,
-          34.3651666666667,
-          5.53
+          -122.800331115723,
+          38.8371658325195,
+          2.39000010490417
         ]
       },
-      "id": "ci41494168"
+      "id": "nc75383776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "12 km ESE of Willits, CA",
+        "time": 1782369984200,
+        "updated": 1782370082824,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75383771",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75383771.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "nc",
+        "code": "75383771",
+        "ids": ",nc75383771,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.0699,
+        "rms": 0.02,
+        "gap": 127,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 12 km ESE of Willits, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.230163574219,
+          39.3699989318848,
+          7.09999990463257
+        ]
+      },
+      "id": "nc75383771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "16 km SE of Anza, CA",
+        "time": 1782369407940,
+        "updated": 1782369616094,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494904",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494904.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "ci",
+        "code": "41494904",
+        "ids": ",ci41494904,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 53,
+        "dmin": 0.06197,
+        "rms": 0.18,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 16 km SE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5495,
+          33.451,
+          10.72
+        ]
+      },
+      "id": "ci41494904"
     }
   ],
   "bbox": [
-    -155.848,
-    32.105,
-    5,
-    -101.928,
-    60.123,
-    136.9
+    -159.713,
+    31.707,
+    1.87,
+    -104.287,
+    55.851,
+    10.72
   ]
 }
