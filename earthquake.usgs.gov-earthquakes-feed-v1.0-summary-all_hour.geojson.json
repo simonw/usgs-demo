@@ -1,24 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782373007000,
+    "generated": 1782459475000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.82,
-        "place": "32 km N of Searles Valley, CA",
-        "time": 1782372350590,
-        "updated": 1782372553668,
+        "mag": 2.03,
+        "place": "11 km ESE of Willits, CA",
+        "time": 1782459368320,
+        "updated": 1782459466347,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494912",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494912.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75384561",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75384561.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "nc",
+        "code": "75384561",
+        "ids": ",nc75384561,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.08103,
+        "rms": 0.04,
+        "gap": 68,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 11 km ESE of Willits, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.232498168945,
+          39.372501373291,
+          6.21000003814697
+        ]
+      },
+      "id": "nc75384561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.01,
+        "place": "4 km W of Cobb, CA",
+        "time": 1782458352730,
+        "updated": 1782458539320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75384556",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75384556.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "nc",
+        "code": "75384556",
+        "ids": ",nc75384556,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.006669,
+        "rms": 0.05,
+        "gap": 63,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 4 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.765335083008,
+          38.8248329162598,
+          2.15000009536743
+        ]
+      },
+      "id": "nc75384556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "47 km WNW of Ninilchik, Alaska",
+        "time": 1782458335282,
+        "updated": 1782458454176,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mnqmps",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mnqmps.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026mnqmps",
+        "ids": ",aka2026mnqmps,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 47 km WNW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.505,
+          60.141,
+          100.9
+        ]
+      },
+      "id": "aka2026mnqmps"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.26,
+        "place": "15 km SSW of Maricopa, CA",
+        "time": 1782457247920,
+        "updated": 1782457878770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41495776",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41495776.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 24,
+        "net": "ci",
+        "code": "41495776",
+        "ids": ",ci41495776,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.07398,
+        "rms": 0.2,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 15 km SSW of Maricopa, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.442166666667,
+          34.9328333333333,
+          8.99
+        ]
+      },
+      "id": "ci41495776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.79,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1782456740130,
+        "updated": 1782456837320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75384551",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75384551.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "nc",
+        "code": "75384551",
+        "ids": ",nc75384551,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.006213,
+        "rms": 0.03,
+        "gap": 164,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.797836303711,
+          38.8404998779297,
+          1.05999994277954
+        ]
+      },
+      "id": "nc75384551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.79,
+        "place": "18 km NNW of Borrego Springs, CA",
+        "time": 1782456076560,
+        "updated": 1782456289057,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41495768",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41495768.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,275 +227,35 @@
         "tsunami": 0,
         "sig": 10,
         "net": "ci",
-        "code": "41494912",
-        "ids": ",ci41494912,",
+        "code": "41495768",
+        "ids": ",ci41495768,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1039,
-        "rms": 0.13,
-        "gap": 64,
+        "nst": 34,
+        "dmin": 0.09463,
+        "rms": 0.21,
+        "gap": 65,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 32 km N of Searles Valley, CA"
+        "title": "M 0.8 - 18 km NNW of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.360833333333,
-          36.0553333333333,
-          1.87
+          -116.424833333333,
+          33.4083333333333,
+          13.14
         ]
       },
-      "id": "ci41494912"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "52 km S of Whites City, New Mexico",
-        "time": 1782372330242,
-        "updated": 1782372699799,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026mjuvse",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026mjuvse.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026mjuvse",
-        "ids": ",tx2026mjuvse,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 52 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.287,
-          31.707,
-          4.3512
-        ]
-      },
-      "id": "tx2026mjuvse"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "15 km WSW of Ivanof Bay, Alaska",
-        "time": 1782372112191,
-        "updated": 1782372183478,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mluoqf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mluoqf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026mluoqf",
-        "ids": ",aka2026mluoqf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.3,
-        "rms": 0.2,
-        "gap": 320,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 15 km WSW of Ivanof Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.713,
-          55.851,
-          10.7
-        ]
-      },
-      "id": "aka2026mluoqf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "24 km SSW of Ivanof Bay, Alaska",
-        "time": 1782371955305,
-        "updated": 1782372040891,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mlumie",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mlumie.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026mlumie",
-        "ids": ",aka2026mlumie,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.4,
-        "rms": 0.4,
-        "gap": 329,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 24 km SSW of Ivanof Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.624,
-          55.699,
-          5
-        ]
-      },
-      "id": "aka2026mlumie"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.6,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1782371094220,
-        "updated": 1782371192791,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75383776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75383776.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "nc",
-        "code": "75383776",
-        "ids": ",nc75383776,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.007898,
-        "rms": 0.01,
-        "gap": 126,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.6 - 7 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.800331115723,
-          38.8371658325195,
-          2.39000010490417
-        ]
-      },
-      "id": "nc75383776"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "12 km ESE of Willits, CA",
-        "time": 1782369984200,
-        "updated": 1782370082824,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75383771",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75383771.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "nc",
-        "code": "75383771",
-        "ids": ",nc75383771,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.0699,
-        "rms": 0.02,
-        "gap": 127,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 12 km ESE of Willits, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.230163574219,
-          39.3699989318848,
-          7.09999990463257
-        ]
-      },
-      "id": "nc75383771"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.05,
-        "place": "16 km SE of Anza, CA",
-        "time": 1782369407940,
-        "updated": 1782369616094,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41494904",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41494904.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41494904",
-        "ids": ",ci41494904,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.06197,
-        "rms": 0.18,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 16 km SE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5495,
-          33.451,
-          10.72
-        ]
-      },
-      "id": "ci41494904"
+      "id": "ci41495768"
     }
   ],
   "bbox": [
-    -159.713,
-    31.707,
-    1.87,
-    -104.287,
-    55.851,
-    10.72
+    -152.505,
+    33.408333333333,
+    1.0599999427795,
+    -116.42483333333,
+    60.141,
+    100.9
   ]
 }
