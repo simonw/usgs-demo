@@ -1,261 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782459475000,
+    "generated": 1782545214000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 6
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.03,
-        "place": "11 km ESE of Willits, CA",
-        "time": 1782459368320,
-        "updated": 1782459466347,
+        "mag": 0.6,
+        "place": "9 km SW of Anza, CA",
+        "time": 1782544686230,
+        "updated": 1782544897443,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75384561",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75384561.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41496512",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41496512.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 63,
-        "net": "nc",
-        "code": "75384561",
-        "ids": ",nc75384561,",
-        "sources": ",nc,",
+        "sig": 6,
+        "net": "ci",
+        "code": "41496512",
+        "ids": ",ci41496512,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.08103,
-        "rms": 0.04,
-        "gap": 68,
-        "magType": "md",
+        "nst": 21,
+        "dmin": 0.04971,
+        "rms": 0.12,
+        "gap": 47,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 11 km ESE of Willits, CA"
+        "title": "M 0.6 - 9 km SW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.232498168945,
-          39.372501373291,
-          6.21000003814697
+          -116.749,
+          33.5061666666667,
+          17.41
         ]
       },
-      "id": "nc75384561"
+      "id": "ci41496512"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.01,
-        "place": "4 km W of Cobb, CA",
-        "time": 1782458352730,
-        "updated": 1782458539320,
+        "mag": 1.4,
+        "place": "31 km NNE of Paxson, Alaska",
+        "time": 1782543750457,
+        "updated": 1782543823988,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75384556",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75384556.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mplyyd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mplyyd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 62,
-        "net": "nc",
-        "code": "75384556",
-        "ids": ",nc75384556,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.006669,
-        "rms": 0.05,
-        "gap": 63,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 4 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.765335083008,
-          38.8248329162598,
-          2.15000009536743
-        ]
-      },
-      "id": "nc75384556"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "47 km WNW of Ninilchik, Alaska",
-        "time": 1782458335282,
-        "updated": 1782458454176,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mnqmps",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mnqmps.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 30,
         "net": "ak",
-        "code": "a2026mnqmps",
-        "ids": ",aka2026mnqmps,",
+        "code": "a2026mplyyd",
+        "ids": ",aka2026mplyyd,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 49,
+        "nst": 11,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 136,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 47 km WNW of Ninilchik, Alaska"
+        "title": "M 1.4 - 31 km NNE of Paxson, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.505,
-          60.141,
-          100.9
+          -145.272,
+          63.327,
+          5
         ]
       },
-      "id": "aka2026mnqmps"
+      "id": "aka2026mplyyd"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.26,
-        "place": "15 km SSW of Maricopa, CA",
-        "time": 1782457247920,
-        "updated": 1782457878770,
+        "mag": 4.4,
+        "place": "53 km NNE of Calama, Chile",
+        "time": 1782542187012,
+        "updated": 1782543090040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41495776",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41495776.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8m6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8m6.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000t8m6",
+        "ids": ",us6000t8m6,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 0.602,
+        "rms": 1.02,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 53 km NNE of Calama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6501,
+          -22.0423,
+          119.572
+        ]
+      },
+      "id": "us6000t8m6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.01,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1782541932690,
+        "updated": 1782542030516,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385131",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75385131.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 24,
-        "net": "ci",
-        "code": "41495776",
-        "ids": ",ci41495776,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.07398,
-        "rms": 0.2,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 15 km SSW of Maricopa, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.442166666667,
-          34.9328333333333,
-          8.99
-        ]
-      },
-      "id": "ci41495776"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.79,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1782456740130,
-        "updated": 1782456837320,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75384551",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75384551.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
+        "sig": 16,
         "net": "nc",
-        "code": "75384551",
-        "ids": ",nc75384551,",
+        "code": "75385131",
+        "ids": ",nc75385131,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.006213,
-        "rms": 0.03,
-        "gap": 164,
+        "nst": 19,
+        "dmin": 0.001149,
+        "rms": 0.05,
+        "gap": 36,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 7 km WNW of Cobb, CA"
+        "title": "M 1.0 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.797836303711,
-          38.8404998779297,
-          1.05999994277954
+          -122.809669494629,
+          38.8245010375977,
+          1.12999999523163
         ]
       },
-      "id": "nc75384551"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.79,
-        "place": "18 km NNW of Borrego Springs, CA",
-        "time": 1782456076560,
-        "updated": 1782456289057,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41495768",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41495768.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41495768",
-        "ids": ",ci41495768,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.09463,
-        "rms": 0.21,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 18 km NNW of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.424833333333,
-          33.4083333333333,
-          13.14
-        ]
-      },
-      "id": "ci41495768"
+      "id": "nc75385131"
     }
   ],
   "bbox": [
-    -152.505,
-    33.408333333333,
-    1.0599999427795,
-    -116.42483333333,
-    60.141,
-    100.9
+    -145.272,
+    -22.0423,
+    1.1299999952316,
+    -68.6501,
+    63.327,
+    119.572
   ]
 }
