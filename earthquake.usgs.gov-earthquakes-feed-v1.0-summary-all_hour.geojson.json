@@ -1,144 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782545214000,
+    "generated": 1782632391000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 4
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "9 km SW of Anza, CA",
-        "time": 1782544686230,
-        "updated": 1782544897443,
+        "mag": 1.6,
+        "place": "18 km WSW of Tatitlek, Alaska",
+        "time": 1782631481690,
+        "updated": 1782631551986,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41496512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41496512.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mrista",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mrista.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "41496512",
-        "ids": ",ci41496512,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.04971,
-        "rms": 0.12,
-        "gap": 47,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 9 km SW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.749,
-          33.5061666666667,
-          17.41
-        ]
-      },
-      "id": "ci41496512"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.4,
-        "place": "31 km NNE of Paxson, Alaska",
-        "time": 1782543750457,
-        "updated": 1782543823988,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mplyyd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mplyyd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
+        "sig": 39,
         "net": "ak",
-        "code": "a2026mplyyd",
-        "ids": ",aka2026mplyyd,",
+        "code": "a2026mrista",
+        "ids": ",aka2026mrista,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.2,
-        "rms": 0.3,
-        "gap": 136,
+        "nst": 13,
+        "dmin": 0.1,
+        "rms": 0.8,
+        "gap": 111,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 31 km NNE of Paxson, Alaska"
+        "title": "M 1.6 - 18 km WSW of Tatitlek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -145.272,
-          63.327,
-          5
+          -147,
+          60.812,
+          28.7
         ]
       },
-      "id": "aka2026mplyyd"
+      "id": "aka2026mrista"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "53 km NNE of Calama, Chile",
-        "time": 1782542187012,
-        "updated": 1782543090040,
+        "mag": 5.2,
+        "place": "45 km NE of Port-Olry, Vanuatu",
+        "time": 1782630345186,
+        "updated": 1782631325040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8m6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8m6.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8sl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8sl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 416,
         "net": "us",
-        "code": "6000t8m6",
-        "ids": ",us6000t8m6,",
+        "code": "6000t8sl",
+        "ids": ",us6000t8sl,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 0.602,
-        "rms": 1.02,
-        "gap": 57,
-        "magType": "mb",
+        "nst": 47,
+        "dmin": 6.457,
+        "rms": 0.69,
+        "gap": 75,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.4 - 53 km NNE of Calama, Chile"
+        "title": "M 5.2 - 45 km NE of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.6501,
-          -22.0423,
-          119.572
+          167.4024,
+          -14.7852,
+          160.295
         ]
       },
-      "id": "us6000t8m6"
+      "id": "us6000t8sl"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.01,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1782541932690,
-        "updated": 1782542030516,
+        "mag": 0.57,
+        "place": "18 km ESE of Anza, CA",
+        "time": 1782630300290,
+        "updated": 1782630506088,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385131",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75385131.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497008",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41497008.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "ci",
+        "code": "41497008",
+        "ids": ",ci41497008,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.09419,
+        "rms": 0.17,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 18 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.490333333333,
+          33.5063333333333,
+          12.12
+        ]
+      },
+      "id": "ci41497008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.44,
+        "place": "12 km ESE of Willits, CA",
+        "time": 1782630091680,
+        "updated": 1782630188626,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385671",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75385671.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "nc",
+        "code": "75385671",
+        "ids": ",nc75385671,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.07049,
+        "rms": 0.02,
+        "gap": 137,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 12 km ESE of Willits, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.231163024902,
+          39.3703346252441,
+          6.55999994277954
+        ]
+      },
+      "id": "nc75385671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.96,
+        "place": "2 km ENE of The Geysers, CA",
+        "time": 1782630031030,
+        "updated": 1782630128887,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385666",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75385666.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "nc",
+        "code": "75385666",
+        "ids": ",nc75385666,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.003728,
+        "rms": 0.02,
+        "gap": 149,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 2 km ENE of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.737998962402,
+          38.7868347167969,
+          0.430000007152557
+        ]
+      },
+      "id": "nc75385666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.02,
+        "place": "11 km NNE of Ocotillo Wells, CA",
+        "time": 1782629050120,
+        "updated": 1782629254528,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41497000.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,36 +226,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 16,
-        "net": "nc",
-        "code": "75385131",
-        "ids": ",nc75385131,",
-        "sources": ",nc,",
+        "net": "ci",
+        "code": "41497000",
+        "ids": ",ci41497000,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.001149,
-        "rms": 0.05,
-        "gap": 36,
-        "magType": "md",
+        "nst": 38,
+        "dmin": 0.1023,
+        "rms": 0.23,
+        "gap": 59,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 7 km NW of The Geysers, CA"
+        "title": "M 1.0 - 11 km NNE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.809669494629,
-          38.8245010375977,
-          1.12999999523163
+          -116.078166666667,
+          33.2316666666667,
+          9.68
         ]
       },
-      "id": "nc75385131"
+      "id": "ci41497000"
     }
   ],
   "bbox": [
-    -145.272,
-    -22.0423,
-    1.1299999952316,
-    -68.6501,
-    63.327,
-    119.572
+    -147,
+    -14.7852,
+    0.43000000715256,
+    167.4024,
+    60.812,
+    160.295
   ]
 }
