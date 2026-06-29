@@ -1,261 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782632391000,
+    "generated": 1782720517000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 6
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "18 km WSW of Tatitlek, Alaska",
-        "time": 1782631481690,
-        "updated": 1782631551986,
+        "mag": 0.75,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1782720005920,
+        "updated": 1782720103355,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mrista",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mrista.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386246",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386246.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026mrista",
-        "ids": ",aka2026mrista,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "sig": 9,
+        "net": "nc",
+        "code": "75386246",
+        "ids": ",nc75386246,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 13,
-        "dmin": 0.1,
-        "rms": 0.8,
-        "gap": 111,
-        "magType": "ml",
+        "dmin": 0.009529,
+        "rms": 0.02,
+        "gap": 67,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.6 - 18 km WSW of Tatitlek, Alaska"
+        "title": "M 0.8 - 6 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147,
-          60.812,
-          28.7
+          -122.801170349121,
+          38.816333770752,
+          2.48000001907349
         ]
       },
-      "id": "aka2026mrista"
+      "id": "nc75386246"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.2,
-        "place": "45 km NE of Port-Olry, Vanuatu",
-        "time": 1782630345186,
-        "updated": 1782631325040,
+        "mag": 0.7,
+        "place": "7 km WNW of Cobb, CA",
+        "time": 1782719731210,
+        "updated": 1782719828376,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8sl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8sl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386241",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386241.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75386241",
+        "ids": ",nc75386241,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.01284,
+        "rms": 0.01,
+        "gap": 60,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 7 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.806831359863,
+          38.8359985351562,
+          2.23000001907349
+        ]
+      },
+      "id": "nc75386241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "off the coast of Central America",
+        "time": 1782718707562,
+        "updated": 1782719968040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8xq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8xq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 416,
+        "sig": 400,
         "net": "us",
-        "code": "6000t8sl",
-        "ids": ",us6000t8sl,",
+        "code": "6000t8xq",
+        "ids": ",us6000t8xq,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 6.457,
-        "rms": 0.69,
-        "gap": 75,
+        "nst": 68,
+        "dmin": 6.275,
+        "rms": 0.64,
+        "gap": 77,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.2 - 45 km NE of Port-Olry, Vanuatu"
+        "title": "M 5.1 - off the coast of Central America"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          167.4024,
-          -14.7852,
-          160.295
+          -84.3832,
+          2.302,
+          10
         ]
       },
-      "id": "us6000t8sl"
+      "id": "us6000t8xq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.57,
-        "place": "18 km ESE of Anza, CA",
-        "time": 1782630300290,
-        "updated": 1782630506088,
+        "mag": 2.23,
+        "place": "18 km SE of Silver Springs, Nevada",
+        "time": 1782717799770,
+        "updated": 1782717934076,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41497008.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920893",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00920893.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
-        "net": "ci",
-        "code": "41497008",
-        "ids": ",ci41497008,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.09419,
-        "rms": 0.17,
-        "gap": 65,
+        "sig": 77,
+        "net": "nn",
+        "code": "00920893",
+        "ids": ",nn00920893,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.066,
+        "rms": 0.1721,
+        "gap": 88,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 18 km ESE of Anza, CA"
+        "title": "M 2.2 - 18 km SE of Silver Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.490333333333,
-          33.5063333333333,
-          12.12
+          -119.0585,
+          39.3155,
+          8.2061
         ]
       },
-      "id": "ci41497008"
+      "id": "nn00920893"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.44,
-        "place": "12 km ESE of Willits, CA",
-        "time": 1782630091680,
-        "updated": 1782630188626,
+        "mag": 1.87,
+        "place": "15 km SE of Silver Springs, Nevada",
+        "time": 1782717775280,
+        "updated": 1782717905082,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385671",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75385671.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920892",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00920892.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 32,
-        "net": "nc",
-        "code": "75385671",
-        "ids": ",nc75385671,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.07049,
-        "rms": 0.02,
-        "gap": 137,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 12 km ESE of Willits, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.231163024902,
-          39.3703346252441,
-          6.55999994277954
-        ]
-      },
-      "id": "nc75385671"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.96,
-        "place": "2 km ENE of The Geysers, CA",
-        "time": 1782630031030,
-        "updated": 1782630128887,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75385666",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75385666.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "nc",
-        "code": "75385666",
-        "ids": ",nc75385666,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.003728,
-        "rms": 0.02,
-        "gap": 149,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 2 km ENE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.737998962402,
-          38.7868347167969,
-          0.430000007152557
-        ]
-      },
-      "id": "nc75385666"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.02,
-        "place": "11 km NNE of Ocotillo Wells, CA",
-        "time": 1782629050120,
-        "updated": 1782629254528,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41497000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41497000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 16,
-        "net": "ci",
-        "code": "41497000",
-        "ids": ",ci41497000,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.1023,
-        "rms": 0.23,
-        "gap": 59,
+        "sig": 54,
+        "net": "nn",
+        "code": "00920892",
+        "ids": ",nn00920892,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.371,
+        "rms": 0.2787,
+        "gap": 142,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 11 km NNE of Ocotillo Wells, CA"
+        "title": "M 1.9 - 15 km SE of Silver Springs, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.078166666667,
-          33.2316666666667,
-          9.68
+          -119.0821,
+          39.335,
+          13.4187
         ]
       },
-      "id": "ci41497000"
+      "id": "nn00920892"
     }
   ],
   "bbox": [
-    -147,
-    -14.7852,
-    0.43000000715256,
-    167.4024,
-    60.812,
-    160.295
+    -122.80683135986,
+    2.302,
+    2.2300000190735,
+    -84.3832,
+    39.335,
+    13.4187
   ]
 }
