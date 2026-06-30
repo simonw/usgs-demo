@@ -1,144 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782720517000,
+    "generated": 1782805074000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 5
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1782720005920,
-        "updated": 1782720103355,
+        "mag": 0.98,
+        "place": "4 km ENE of Ojai, CA",
+        "time": 1782804071680,
+        "updated": 1782804282826,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386246",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386246.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41284047",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41284047.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75386246",
-        "ids": ",nc75386246,",
-        "sources": ",nc,",
+        "sig": 15,
+        "net": "ci",
+        "code": "41284047",
+        "ids": ",ci41284047,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.009529,
-        "rms": 0.02,
-        "gap": 67,
-        "magType": "md",
+        "nst": 14,
+        "dmin": 0.06323,
+        "rms": 0.22,
+        "gap": 78,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 6 km NW of The Geysers, CA"
+        "title": "M 1.0 - 4 km ENE of Ojai, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.801170349121,
-          38.816333770752,
-          2.48000001907349
+          -119.205166666667,
+          34.4665,
+          6.95
         ]
       },
-      "id": "nc75386246"
+      "id": "ci41284047"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1782719731210,
-        "updated": 1782719828376,
+        "mag": 1.6,
+        "place": "3 km SW of Anderson Springs, CA",
+        "time": 1782803204460,
+        "updated": 1782803424400,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386241",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386241.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386716",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386716.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
+        "sig": 39,
         "net": "nc",
-        "code": "75386241",
-        "ids": ",nc75386241,",
+        "code": "75386716",
+        "ids": ",nc75386716,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.01284,
-        "rms": 0.01,
-        "gap": 60,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.004895,
+        "rms": 0.04,
+        "gap": 51,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 7 km WNW of Cobb, CA"
+        "title": "M 1.6 - 3 km SW of Anderson Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.806831359863,
-          38.8359985351562,
-          2.23000001907349
+          -122.72216796875,
+          38.7571678161621,
+          2.67000007629395
         ]
       },
-      "id": "nc75386241"
+      "id": "nc75386716"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.1,
-        "place": "off the coast of Central America",
-        "time": 1782718707562,
-        "updated": 1782719968040,
+        "mag": 1.9,
+        "place": "136 km S of McCarthy, Alaska",
+        "time": 1782802959264,
+        "updated": 1782803039375,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8xq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t8xq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mvaatw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mvaatw.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000t8xq",
-        "ids": ",us6000t8xq,",
-        "sources": ",us,",
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026mvaatw",
+        "ids": ",aka2026mvaatw,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 6.275,
-        "rms": 0.64,
-        "gap": 77,
-        "magType": "mww",
+        "nst": 24,
+        "dmin": 0.1,
+        "rms": 1,
+        "gap": 125,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 5.1 - off the coast of Central America"
+        "title": "M 1.9 - 136 km S of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.3832,
-          2.302,
-          10
+          -143.254,
+          60.217,
+          1.9
         ]
       },
-      "id": "us6000t8xq"
+      "id": "aka2026mvaatw"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.23,
-        "place": "18 km SE of Silver Springs, Nevada",
-        "time": 1782717799770,
-        "updated": 1782717934076,
+        "mag": 2.24,
+        "place": "11 km ESE of Willits, CA",
+        "time": 1782801524110,
+        "updated": 1782803244229,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920893",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00920893.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386711",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386711.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,76 +146,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 77,
-        "net": "nn",
-        "code": "00920893",
-        "ids": ",nn00920893,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.066,
-        "rms": 0.1721,
-        "gap": 88,
-        "magType": "ml",
+        "net": "nc",
+        "code": "75386711",
+        "ids": ",nc75386711,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.07068,
+        "rms": 0.01,
+        "gap": 126,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.2 - 18 km SE of Silver Springs, Nevada"
+        "title": "M 2.2 - 11 km ESE of Willits, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.0585,
-          39.3155,
-          8.2061
+          -123.232330322266,
+          39.3701667785645,
+          6.44000005722046
         ]
       },
-      "id": "nn00920893"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.87,
-        "place": "15 km SE of Silver Springs, Nevada",
-        "time": 1782717775280,
-        "updated": 1782717905082,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920892",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00920892.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "nn",
-        "code": "00920892",
-        "ids": ",nn00920892,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.371,
-        "rms": 0.2787,
-        "gap": 142,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 15 km SE of Silver Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.0821,
-          39.335,
-          13.4187
-        ]
-      },
-      "id": "nn00920892"
+      "id": "nc75386711"
     }
   ],
   "bbox": [
-    -122.80683135986,
-    2.302,
-    2.2300000190735,
-    -84.3832,
-    39.335,
-    13.4187
+    -143.254,
+    34.4665,
+    1.9,
+    -119.20516666667,
+    60.217,
+    6.95
   ]
 }
