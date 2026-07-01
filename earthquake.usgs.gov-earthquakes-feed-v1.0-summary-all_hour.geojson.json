@@ -1,181 +1,421 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1782805074000,
+    "generated": 1782892318000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 4
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.98,
-        "place": "4 km ENE of Ojai, CA",
-        "time": 1782804071680,
-        "updated": 1782804282826,
+        "mag": 0.8,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1782892087350,
+        "updated": 1782892185976,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41284047",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41284047.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75387381",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75387381.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
+        "sig": 10,
+        "net": "nc",
+        "code": "75387381",
+        "ids": ",nc75387381,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.003586,
+        "rms": 0.02,
+        "gap": 100,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.80549621582,
+          38.8236656188965,
+          2.19000005722046
+        ]
+      },
+      "id": "nc75387381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.35,
+        "place": "17 km ESE of Little Lake, CA",
+        "time": 1782891946230,
+        "updated": 1782892155100,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41284599",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41284599.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
         "net": "ci",
-        "code": "41284047",
-        "ids": ",ci41284047,",
+        "code": "41284599",
+        "ids": ",ci41284599,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 31,
+        "dmin": 0.07861,
+        "rms": 0.14,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 17 km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.722333333333,
+          35.8951666666667,
+          7.41
+        ]
+      },
+      "id": "ci41284599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.23,
+        "place": "3 km ENE of Borrego Springs, CA",
+        "time": 1782891823870,
+        "updated": 1782892033695,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41284591",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41284591.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "ci",
+        "code": "41284591",
+        "ids": ",ci41284591,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.06323,
-        "rms": 0.22,
-        "gap": 78,
+        "nst": 17,
+        "dmin": 0.05993,
+        "rms": 0.26,
+        "gap": 179,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 4 km ENE of Ojai, CA"
+        "title": "M 0.2 - 3 km ENE of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.205166666667,
-          34.4665,
-          6.95
+          -116.346166666667,
+          33.2608333333333,
+          7.42
         ]
       },
-      "id": "ci41284047"
+      "id": "ci41284591"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "3 km SW of Anderson Springs, CA",
-        "time": 1782803204460,
-        "updated": 1782803424400,
+        "mag": 1.13,
+        "place": "5 km NNW of The Geysers, CA",
+        "time": 1782891770300,
+        "updated": 1782891866004,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386716",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386716.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75387371",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75387371.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
+        "sig": 20,
         "net": "nc",
-        "code": "75386716",
-        "ids": ",nc75386716,",
+        "code": "75387371",
+        "ids": ",nc75387371,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.004895,
-        "rms": 0.04,
-        "gap": 51,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.007236,
+        "rms": 0.06,
+        "gap": 45,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.6 - 3 km SW of Anderson Springs, CA"
+        "title": "M 1.1 - 5 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.72216796875,
-          38.7571678161621,
-          2.67000007629395
+          -122.789169311523,
+          38.8161659240723,
+          1.16999995708466
         ]
       },
-      "id": "nc75386716"
+      "id": "nc75387371"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "136 km S of McCarthy, Alaska",
-        "time": 1782802959264,
-        "updated": 1782803039375,
+        "mag": 1.52,
+        "place": "19 km SW of Moapa Town, Nevada",
+        "time": 1782891743411,
+        "updated": 1782891964984,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mvaatw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mvaatw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00920981",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00920981.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 36,
+        "net": "nn",
+        "code": "00920981",
+        "ids": ",nn00920981,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.981,
+        "rms": 0.2459,
+        "gap": 349,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 19 km SW of Moapa Town, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.7765,
+          36.5786,
+          3.1159
+        ]
+      },
+      "id": "nn00920981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1782891743071,
+        "updated": 1782892014634,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026muvttn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026muvttn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "tx",
+        "code": "2026muvttn",
+        "ids": ",tx2026muvttn,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 56 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.425,
+          31.67,
+          7.2159
+        ]
+      },
+      "id": "tx2026muvttn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.76,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1782891319160,
+        "updated": 1782891415899,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75387366",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75387366.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75387366",
+        "ids": ",nc75387366,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.007429,
+        "rms": 0.01,
+        "gap": 195,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816329956055,
+          38.8289985656738,
+          1.87000000476837
+        ]
+      },
+      "id": "nc75387366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "78 km NNE of Kobuk, Alaska",
+        "time": 1782890933892,
+        "updated": 1782891149798,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026mwwycq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026mwwycq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
         "net": "ak",
-        "code": "a2026mvaatw",
-        "ids": ",aka2026mvaatw,",
+        "code": "a2026mwwycq",
+        "ids": ",aka2026mwwycq,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.1,
-        "rms": 1,
-        "gap": 125,
+        "nst": 16,
+        "dmin": 0.4,
+        "rms": 1.4,
+        "gap": 119,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 136 km S of McCarthy, Alaska"
+        "title": "M 2.2 - 78 km NNE of Kobuk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -143.254,
-          60.217,
-          1.9
+          -156.339,
+          67.579,
+          5
         ]
       },
-      "id": "aka2026mvaatw"
+      "id": "aka2026mwwycq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.24,
-        "place": "11 km ESE of Willits, CA",
-        "time": 1782801524110,
-        "updated": 1782803244229,
+        "mag": 2.03,
+        "place": "13 km ENE of Pāhala, Hawaii",
+        "time": 1782890774140,
+        "updated": 1782890983380,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75386711",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75386711.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74994397",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74994397.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 77,
-        "net": "nc",
-        "code": "75386711",
-        "ids": ",nc75386711,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.07068,
-        "rms": 0.01,
-        "gap": 126,
+        "sig": 63,
+        "net": "hv",
+        "code": "74994397",
+        "ids": ",hv74994397,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.03781,
+        "rms": 0.159999996,
+        "gap": 147,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.2 - 11 km ESE of Willits, CA"
+        "title": "M 2.0 - 13 km ENE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.232330322266,
-          39.3701667785645,
-          6.44000005722046
+          -155.367660522461,
+          19.2628326416016,
+          33.4300003051758
         ]
       },
-      "id": "nc75386711"
+      "id": "hv74994397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.65,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1782889928750,
+        "updated": 1782890164220,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75387361",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75387361.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 42,
+        "net": "nc",
+        "code": "75387361",
+        "ids": ",nc75387361,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.004564,
+        "rms": 0.03,
+        "gap": 35,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.804664611816,
+          38.8216667175293,
+          3.3199999332428
+        ]
+      },
+      "id": "nc75387361"
     }
   ],
   "bbox": [
-    -143.254,
-    34.4665,
-    1.9,
-    -119.20516666667,
-    60.217,
-    6.95
+    -156.339,
+    19.262832641602,
+    1.1699999570847,
+    -104.425,
+    67.579,
+    33.430000305176
   ]
 }
