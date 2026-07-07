@@ -1,12 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783324563000,
+    "generated": 1783409787000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.4.0",
-    "count": 0
+    "count": 8
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "162 km NNW of Tobelo, Indonesia",
+        "time": 1783408586844,
+        "updated": 1783409662040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000talg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000talg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "net": "us",
+        "code": "6000talg",
+        "ids": ",us6000talg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 77,
+        "dmin": 4.387,
+        "rms": 1.07,
+        "gap": 38,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 162 km NNW of Tobelo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5573,
+          3.1239,
+          36.821
+        ]
+      },
+      "id": "us6000talg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.27,
+        "place": "3 km SSW of Pāhala, Hawaii",
+        "time": 1783408580350,
+        "updated": 1783408786890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74998321",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74998321.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 79,
+        "net": "hv",
+        "code": "74998321",
+        "ids": ",hv74998321,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.03566,
+        "rms": 0.230000004,
+        "gap": 96,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 3 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.49299621582,
+          19.1760005950928,
+          30.1900005340576
+        ]
+      },
+      "id": "hv74998321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "12 km SSE of Moore, Texas",
+        "time": 1783408513068,
+        "updated": 1783408643992,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nfvfqa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nfvfqa.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026nfvfqa",
+        "ids": ",tx2026nfvfqa,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 123,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 12 km SSE of Moore, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.96,
+          28.951,
+          9.2481
+        ]
+      },
+      "id": "tx2026nfvfqa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "34 km WSW of Trapper Creek, Alaska",
+        "time": 1783407968089,
+        "updated": 1783408058650,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nhyhtn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nhyhtn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "ak",
+        "code": "a2026nhyhtn",
+        "ids": ",aka2026nhyhtn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 83,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 34 km WSW of Trapper Creek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.818,
+          62.166,
+          69.5
+        ]
+      },
+      "id": "aka2026nhyhtn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.6,
+        "place": "2 km S of Redlands, CA",
+        "time": 1783407631980,
+        "updated": 1783407834912,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288383",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288383.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 6,
+        "net": "ci",
+        "code": "41288383",
+        "ids": ",ci41288383,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.05698,
+        "rms": 0.16,
+        "gap": 57,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 2 km S of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.181,
+          34.037,
+          9.91
+        ]
+      },
+      "id": "ci41288383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.84,
+        "place": "12 km SE of Naalehu, Hawaii",
+        "time": 1783407558730,
+        "updated": 1783407772970,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74998306",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74998306.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 52,
+        "net": "hv",
+        "code": "74998306",
+        "ids": ",hv74998306,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.1554,
+        "rms": 0.189999998,
+        "gap": 252,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 12 km SE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.503662109375,
+          18.9825000762939,
+          35.1100006103516
+        ]
+      },
+      "id": "hv74998306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "3 km NNW of Loma Linda, CA",
+        "time": 1783406535990,
+        "updated": 1783406749933,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41288375",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41288375.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ci",
+        "code": "41288375",
+        "ids": ",ci41288375,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 59,
+        "dmin": 0.1086,
+        "rms": 0.18,
+        "gap": 24,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 3 km NNW of Loma Linda, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.273333333333,
+          34.0723333333333,
+          16.65
+        ]
+      },
+      "id": "ci41288375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "28 km WNW of Cantwell, Alaska",
+        "time": 1783406189412,
+        "updated": 1783406317091,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nhxibe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nhxibe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026nhxibe",
+        "ids": ",aka2026nhxibe,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.3,
+        "rms": 0.8,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 28 km WNW of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.452,
+          63.518,
+          105.2
+        ]
+      },
+      "id": "aka2026nhxibe"
+    }
+  ],
+  "bbox": [
+    -155.50366210938,
+    3.1239,
+    9.2481,
+    127.5573,
+    63.518,
+    105.2
+  ]
 }
