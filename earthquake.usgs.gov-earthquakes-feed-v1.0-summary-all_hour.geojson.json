@@ -1,304 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783494785000,
+    "generated": 1783582569000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 11
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "93 km ESE of King Salmon, Alaska",
-        "time": 1783494606838,
-        "updated": 1783494670103,
+        "mag": 1.42,
+        "place": "3 km NNE of Glendale, CA",
+        "time": 1783582183100,
+        "updated": 1783582381932,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026njultf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026njultf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289703",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289703.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "ak",
-        "code": "a2026njultf",
-        "ids": ",aka2026njultf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 95,
+        "sig": 31,
+        "net": "ci",
+        "code": "41289703",
+        "ids": ",ci41289703,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 63,
+        "dmin": 0.03465,
+        "rms": 0.19,
+        "gap": 24,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 93 km ESE of King Salmon, Alaska"
+        "title": "M 1.4 - 3 km NNE of Glendale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.171,
-          58.375,
-          24.8
+          -118.236166666667,
+          34.1983333333333,
+          9.52
         ]
       },
-      "id": "aka2026njultf"
+      "id": "ci41289703"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "32 km SE of Kasilof, Alaska",
-        "time": 1783494320752,
-        "updated": 1783494412952,
+        "mag": 1.59,
+        "place": "3 km ESE of South El Monte, CA",
+        "time": 1783582179710,
+        "updated": 1783582391562,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026njuhqp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026njuhqp.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289695",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289695.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026njuhqp",
-        "ids": ",aka2026njuhqp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "sig": 39,
+        "net": "ci",
+        "code": "41289695",
+        "ids": ",ci41289695,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.1308,
+        "rms": 0.43,
+        "gap": 117,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 3 km ESE of South El Monte, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.022333333333,
+          34.0396666666667,
+          22.22
+        ]
+      },
+      "id": "ci41289695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.96,
+        "place": "6 km SSW of Redlands, CA",
+        "time": 1783580665820,
+        "updated": 1783580874234,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289687",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289687.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "41289687",
+        "ids": ",ci41289687,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.06492,
+        "rms": 0.17,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 6 km SSW of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.205,
+          34.0066666666667,
+          13.57
+        ]
+      },
+      "id": "ci41289687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.56,
+        "place": "22 km ESE of Little Lake, CA",
+        "time": 1783580510610,
+        "updated": 1783580721669,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289679",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289679.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "ci",
+        "code": "41289679",
+        "ids": ",ci41289679,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.07617,
+        "rms": 0.12,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 22 km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.679666666667,
+          35.8525,
+          8.68
+        ]
+      },
+      "id": "ci41289679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.39,
+        "place": "47 km SE of Beatty, Nevada",
+        "time": 1783580346807,
+        "updated": 1783582447354,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00921373",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00921373.geojson",
+        "felt": 1,
+        "cdi": 2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 177,
+        "net": "nn",
+        "code": "00921373",
+        "ids": ",nn00921373,",
+        "sources": ",nn,",
+        "types": ",dyfi,origin,phase-data,",
         "nst": 28,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 80,
+        "dmin": 0.032,
+        "rms": 0.0928,
+        "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 32 km SE of Kasilof, Alaska"
+        "title": "M 3.4 - 47 km SE of Beatty, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.829,
-          60.152,
-          50.7
+          -116.3314,
+          36.6602,
+          9.133
         ]
       },
-      "id": "aka2026njuhqp"
+      "id": "nn00921373"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.73,
-        "place": "14 km SE of Pāhala, Hawaii",
-        "time": 1783494015600,
-        "updated": 1783494226650,
+        "mag": 1.06,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1783580285180,
+        "updated": 1783581742950,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74998921",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74998921.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 46,
-        "net": "hv",
-        "code": "74998921",
-        "ids": ",hv74998921,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.09238,
-        "rms": 0.140000001,
-        "gap": 226,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 14 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.36833190918,
-          19.1293334960938,
-          28.1900005340576
-        ]
-      },
-      "id": "hv74998921"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "38 km NNW of Valdez, Alaska",
-        "time": 1783493199800,
-        "updated": 1783493283857,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026njtrln",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026njtrln.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026njtrln",
-        "ids": ",aka2026njtrln,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.3,
-        "rms": 0.3,
-        "gap": 122,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 38 km NNW of Valdez, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.641,
-          61.445,
-          36.6
-        ]
-      },
-      "id": "aka2026njtrln"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "65 km NNE of Van Horn, Texas",
-        "time": 1783492910549,
-        "updated": 1783494076106,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nhpvoe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nhpvoe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "tx",
-        "code": "2026nhpvoe",
-        "ids": ",tx2026nhpvoe,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 158,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 65 km NNE of Van Horn, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.54,
-          31.577,
-          2.7466
-        ]
-      },
-      "id": "tx2026nhpvoe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "16 km SSW of Honoka‘a, Hawaii",
-        "time": 1783492332030,
-        "updated": 1783492535460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74998901",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74998901.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "hv",
-        "code": "74998901",
-        "ids": ",hv74998901,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1432,
-        "rms": 0.150000006,
-        "gap": 207,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 16 km SSW of Honoka‘a, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.536666870117,
-          19.9443340301514,
-          41.4799995422363
-        ]
-      },
-      "id": "hv74998901"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.72,
-        "place": "9 km ENE of Pāhala, Hawaii",
-        "time": 1783492288910,
-        "updated": 1783492505920,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74998896",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74998896.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 46,
-        "net": "hv",
-        "code": "74998896",
-        "ids": ",hv74998896,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.0132,
-        "rms": 0.140000001,
-        "gap": 99,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 9 km ENE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.401672363281,
-          19.2501659393311,
-          28.6800003051758
-        ]
-      },
-      "id": "hv74998896"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.05,
-        "place": "18 km WSW of Johannesburg, CA",
-        "time": 1783491564880,
-        "updated": 1783491776031,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289119",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289119.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75392496",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75392496.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -306,156 +226,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 17,
-        "net": "ci",
-        "code": "41289119",
-        "ids": ",ci41289119,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.04083,
-        "rms": 0.2,
-        "gap": 91,
-        "magType": "ml",
+        "net": "nc",
+        "code": "75392496",
+        "ids": ",nc75392496,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.00552,
+        "rms": 0.02,
+        "gap": 83,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 18 km WSW of Johannesburg, CA"
+        "title": "M 1.1 - 6 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.8105,
-          35.2963333333333,
-          6.96
+          -122.804336547852,
+          38.8201675415039,
+          2.6800000667572
         ]
       },
-      "id": "ci41289119"
+      "id": "nc75392496"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.49,
-        "place": "18 km WSW of Johannesburg, CA",
-        "time": 1783491522400,
-        "updated": 1783492191660,
+        "mag": 2.99,
+        "place": "46 km ESE of Beatty, Nevada",
+        "time": 1783580059567,
+        "updated": 1783581829753,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289111",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289111.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 34,
-        "net": "ci",
-        "code": "41289111",
-        "ids": ",ci41289111,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.04147,
-        "rms": 0.17,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 18 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.806666666667,
-          35.2938333333333,
-          7.42
-        ]
-      },
-      "id": "ci41289111"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.53,
-        "place": "9 km N of Julian, CA",
-        "time": 1783491300890,
-        "updated": 1783491503232,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41289103",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41289103.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "41289103",
-        "ids": ",ci41289103,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.05023,
-        "rms": 0.21,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 9 km N of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.608166666667,
-          33.161,
-          3.62
-        ]
-      },
-      "id": "ci41289103"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "51 km NNW of Khandūd, Afghanistan",
-        "time": 1783491294818,
-        "updated": 1783492971040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tavd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tavd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00921381",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00921381.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "6000tavd",
-        "ids": ",us6000tavd,",
-        "sources": ",us,",
+        "sig": 138,
+        "net": "nn",
+        "code": "00921381",
+        "ids": ",nn00921381,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.961,
-        "rms": 0.76,
-        "gap": 80,
-        "magType": "mb",
+        "nst": 23,
+        "dmin": 0.032,
+        "rms": 0.1044,
+        "gap": 84,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 4.3 - 51 km NNW of Khandūd, Afghanistan"
+        "title": "M 3.0 - 46 km ESE of Beatty, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          72.1298,
-          37.3926,
-          216.967
+          -116.3234,
+          36.6801,
+          8.3873
         ]
       },
-      "id": "us6000tavd"
+      "id": "nn00921381"
     }
   ],
   "bbox": [
-    -155.53666687012,
-    19.129333496094,
-    2.7466,
-    72.1298,
-    61.445,
-    216.967
+    -122.80433654785,
+    34.006666666667,
+    2.6800000667572,
+    -116.3234,
+    38.820167541504,
+    22.22
   ]
 }
