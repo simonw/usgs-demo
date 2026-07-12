@@ -1,381 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783753629000,
+    "generated": 1783840474000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 9
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.93,
-        "place": "2 km NNW of Loma Linda, CA",
-        "time": 1783752804040,
-        "updated": 1783753009967,
+        "mag": 1.61,
+        "place": "4 km NW of Pinnacles, CA",
+        "time": 1783840026470,
+        "updated": 1783840122238,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291167",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41291167.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394336",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394336.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41291167",
-        "ids": ",ci41291167,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.03997,
-        "rms": 0.17,
-        "gap": 56,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 2 km NNW of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.2705,
-          34.0666666666667,
-          15.86
-        ]
-      },
-      "id": "ci41291167"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "12 km SSW of Lindsay, Texas",
-        "time": 1783752770797,
-        "updated": 1783752911934,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nndjwi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nndjwi.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2026nndjwi",
-        "ids": ",tx2026nndjwi,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 4,
-        "dmin": 0.1,
-        "rms": 1.1,
-        "gap": 147,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 12 km SSW of Lindsay, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.603,
-          31.267,
-          2.9392
-        ]
-      },
-      "id": "tx2026nndjwi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "26 km S of Susitna, Alaska",
-        "time": 1783752572960,
-        "updated": 1783752665454,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nphvqv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nphvqv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026nphvqv",
-        "ids": ",aka2026nphvqv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.2,
-        "rms": 0.7,
-        "gap": 93,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 26 km S of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.482,
-          61.305,
-          50.1
-        ]
-      },
-      "id": "aka2026nphvqv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "115 km WSW of Adak, Alaska",
-        "time": 1783752115727,
-        "updated": 1783753289040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sznb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sznb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.49,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000sznb",
-        "ids": ",us7000sznb,aka2026nphoze,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 105,
-        "dmin": 0.422,
-        "rms": 0.77,
-        "gap": 177,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 115 km WSW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1353,
-          51.4182,
-          55.234
-        ]
-      },
-      "id": "us7000sznb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "11 km E of Gardendale, Texas",
-        "time": 1783751290356,
-        "updated": 1783751482729,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nncopl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nncopl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "tx",
-        "code": "2026nncopl",
-        "ids": ",tx2026nncopl,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 11 km E of Gardendale, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.256,
-          32.036,
-          3.1801
-        ]
-      },
-      "id": "tx2026nncopl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.42,
-        "place": "9 km N of Borrego Springs, CA",
-        "time": 1783750951360,
-        "updated": 1783751153951,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291159",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41291159.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41291159",
-        "ids": ",ci41291159,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.02017,
-        "rms": 0.22,
-        "gap": 60,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 9 km N of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.3855,
-          33.3398333333333,
-          7.11
-        ]
-      },
-      "id": "ci41291159"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "33 km WSW of Ackerly, Texas",
-        "time": 1783750898047,
-        "updated": 1783751135679,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nncizz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nncizz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2026nncizz",
-        "ids": ",tx2026nncizz,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 41,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 33 km WSW of Ackerly, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.04,
-          32.401,
-          4.2461
-        ]
-      },
-      "id": "tx2026nncizz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "5 km NW of The Geysers, CA",
-        "time": 1783750616700,
-        "updated": 1783751841754,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75393736",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75393736.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
+        "sig": 40,
         "net": "nc",
-        "code": "75393736",
-        "ids": ",nc75393736,",
+        "code": "75394336",
+        "ids": ",nc75394336,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 11,
-        "dmin": 0.0008332,
-        "rms": 0.01,
-        "gap": 106,
+        "dmin": 0.1134,
+        "rms": 0.07,
+        "gap": 109,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 5 km NW of The Geysers, CA"
+        "title": "M 1.6 - 4 km NW of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.795997619629,
-          38.8073348999023,
-          3.75999999046326
+          -121.175834655762,
+          36.5498352050781,
+          0.330000013113022
         ]
       },
-      "id": "nc75393736"
+      "id": "nc75394336"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "6 km S of Grębocice, Poland",
-        "time": 1783750319654,
-        "updated": 1783753345623,
+        "mag": 1.82,
+        "place": "5 km S of Pittsburg, CA",
+        "time": 1783839489560,
+        "updated": 1783839588190,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szn3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000szn3.geojson",
-        "felt": 4,
-        "cdi": 3.4,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394331",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394331.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 371,
-        "net": "us",
-        "code": "7000szn3",
-        "ids": ",us7000szn3,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 89,
-        "dmin": 1.193,
-        "rms": 0.68,
-        "gap": 38,
-        "magType": "mb",
+        "sig": 51,
+        "net": "nc",
+        "code": "75394331",
+        "ids": ",nc75394331,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.03108,
+        "rms": 0.11,
+        "gap": 87,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.9 - 6 km S of Grębocice, Poland"
+        "title": "M 1.8 - 5 km S of Pittsburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.1635,
-          51.5376,
-          10
+          -121.876663208008,
+          37.9838333129883,
+          15.9200000762939
         ]
       },
-      "id": "us7000szn3"
+      "id": "nc75394331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.87,
+        "place": "13 km S of Volcano, Hawaii",
+        "time": 1783839451040,
+        "updated": 1783839731000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75001246",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75001246.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 54,
+        "net": "hv",
+        "code": "75001246",
+        "ids": ",hv75001246,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.04627,
+        "rms": 0.189999998,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 13 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.253326416016,
+          19.3253326416016,
+          4.19999980926514
+        ]
+      },
+      "id": "hv75001246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "14 km W of Searles Valley, CA",
+        "time": 1783838881740,
+        "updated": 1783839086263,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291751",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41291751.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41291751",
+        "ids": ",ci41291751,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.07871,
+        "rms": 0.15,
+        "gap": 86,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 14 km W of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.558166666667,
+          35.7436666666667,
+          2.35
+        ]
+      },
+      "id": "ci41291751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "41 km W of Anchor Point, Alaska",
+        "time": 1783838147833,
+        "updated": 1783838312900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nrdkht",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nrdkht.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026nrdkht",
+        "ids": ",aka2026nrdkht,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 53,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 41 km W of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.564,
+          59.795,
+          79
+        ]
+      },
+      "id": "aka2026nrdkht"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.84,
+        "place": "3 km NW of Pinnacles, CA",
+        "time": 1783838001720,
+        "updated": 1783840039877,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394326",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394326.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 52,
+        "net": "nc",
+        "code": "75394326",
+        "ids": ",nc75394326,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 30,
+        "dmin": 0.02717,
+        "rms": 0.16,
+        "gap": 51,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 3 km NW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.169166564941,
+          36.5478324890137,
+          5.82999992370605
+        ]
+      },
+      "id": "nc75394326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.02,
+        "place": "3 km SE of The Geysers, CA",
+        "time": 1783837624610,
+        "updated": 1783837721905,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394321",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394321.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75394321",
+        "ids": ",nc75394321,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.01117,
+        "rms": 0.02,
+        "gap": 153,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 3 km SE of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.731330871582,
+          38.7569999694824,
+          2.90000009536743
+        ]
+      },
+      "id": "nc75394321"
     }
   ],
   "bbox": [
-    -178.1353,
-    31.267,
-    2.9392,
-    16.1635,
-    61.305,
-    55.234
+    -155.25332641602,
+    19.325332641602,
+    0.33000001311302,
+    -117.55816666667,
+    59.795,
+    79
   ]
 }
