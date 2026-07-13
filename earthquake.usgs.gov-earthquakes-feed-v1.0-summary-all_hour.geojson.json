@@ -1,301 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1783840474000,
+    "generated": 1783927898000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 7
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.61,
-        "place": "4 km NW of Pinnacles, CA",
-        "time": 1783840026470,
-        "updated": 1783840122238,
+        "mag": 2.1,
+        "place": "56 km S of Whites City, New Mexico",
+        "time": 1783927608322,
+        "updated": 1783927874010,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394336",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394336.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nqvyfw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nqvyfw.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 40,
-        "net": "nc",
-        "code": "75394336",
-        "ids": ",nc75394336,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1134,
-        "rms": 0.07,
-        "gap": 109,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 4 km NW of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.175834655762,
-          36.5498352050781,
-          0.330000013113022
-        ]
-      },
-      "id": "nc75394336"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.82,
-        "place": "5 km S of Pittsburg, CA",
-        "time": 1783839489560,
-        "updated": 1783839588190,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394331",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394331.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 51,
-        "net": "nc",
-        "code": "75394331",
-        "ids": ",nc75394331,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.03108,
-        "rms": 0.11,
-        "gap": 87,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 5 km S of Pittsburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.876663208008,
-          37.9838333129883,
-          15.9200000762939
-        ]
-      },
-      "id": "nc75394331"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.87,
-        "place": "13 km S of Volcano, Hawaii",
-        "time": 1783839451040,
-        "updated": 1783839731000,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75001246",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75001246.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "hv",
-        "code": "75001246",
-        "ids": ",hv75001246,",
-        "sources": ",hv,",
+        "sig": 68,
+        "net": "tx",
+        "code": "2026nqvyfw",
+        "ids": ",tx2026nqvyfw,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.04627,
-        "rms": 0.189999998,
-        "gap": 82,
-        "magType": "md",
+        "nst": 27,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 65,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 13 km S of Volcano, Hawaii"
+        "title": "M 2.1 - 56 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.253326416016,
-          19.3253326416016,
-          4.19999980926514
+          -104.425,
+          31.67,
+          6.6322
         ]
       },
-      "id": "hv75001246"
+      "id": "tx2026nqvyfw"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.8,
-        "place": "14 km W of Searles Valley, CA",
-        "time": 1783838881740,
-        "updated": 1783839086263,
+        "mag": 0.56,
+        "place": "13 km SSW of Searles Valley, CA",
+        "time": 1783927555830,
+        "updated": 1783927767371,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291751",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41291751.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292431",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292431.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
+        "sig": 5,
         "net": "ci",
-        "code": "41291751",
-        "ids": ",ci41291751,",
+        "code": "41292431",
+        "ids": ",ci41292431,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.04542,
+        "rms": 0.14,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 13 km SSW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.479333333333,
+          35.6685,
+          7.15
+        ]
+      },
+      "id": "ci41292431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "54 km W of Mentone, Texas",
+        "time": 1783927262846,
+        "updated": 1783927683782,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nqvtxz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nqvtxz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "tx",
+        "code": "2026nqvtxz",
+        "ids": ",tx2026nqvtxz,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 54 km W of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.175,
+          31.702,
+          4.3469
+        ]
+      },
+      "id": "tx2026nqvtxz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.35,
+        "place": "13 km WNW of Calistoga, CA",
+        "time": 1783925581410,
+        "updated": 1783927043857,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394786",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394786.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 28,
+        "net": "nc",
+        "code": "75394786",
+        "ids": ",nc75394786,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.05463,
+        "rms": 0.08,
+        "gap": 105,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 13 km WNW of Calistoga, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.706665039062,
+          38.6353340148926,
+          6.69999980926514
+        ]
+      },
+      "id": "nc75394786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "southeast of the Loyalty Islands",
+        "time": 1783925131999,
+        "updated": 1783927202040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szzl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000szzl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000szzl",
+        "ids": ",us7000szzl,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 3.794,
+        "rms": 0.69,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - southeast of the Loyalty Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.5471,
+          -22.8646,
+          10
+        ]
+      },
+      "id": "us7000szzl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.43,
+        "place": "4 km NW of The Geysers, CA",
+        "time": 1783925112120,
+        "updated": 1783925211366,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394781",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394781.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "nc",
+        "code": "75394781",
+        "ids": ",nc75394781,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.006353,
+        "rms": 0.09,
+        "gap": 67,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.4 - 4 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.790664672852,
+          38.7991676330566,
+          8.27999973297119
+        ]
+      },
+      "id": "nc75394781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.11,
+        "place": "17 km WNW of Progreso, B.C., MX",
+        "time": 1783924886420,
+        "updated": 1783925097817,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292423",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292423.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ci",
+        "code": "41292423",
+        "ids": ",ci41292423,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 24,
-        "dmin": 0.07871,
-        "rms": 0.15,
-        "gap": 86,
+        "nst": 32,
+        "dmin": 0.03222,
+        "rms": 0.19,
+        "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 14 km W of Searles Valley, CA"
+        "title": "M 1.1 - 17 km WNW of Progreso, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.558166666667,
-          35.7436666666667,
-          2.35
+          -115.753,
+          32.6261666666667,
+          3.75
         ]
       },
-      "id": "ci41291751"
+      "id": "ci41292423"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "41 km W of Anchor Point, Alaska",
-        "time": 1783838147833,
-        "updated": 1783838312900,
+        "mag": 0.97,
+        "place": "6 km SSE of San Clemente, CA",
+        "time": 1783924693660,
+        "updated": 1783924900198,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nrdkht",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nrdkht.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292415",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41292415.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026nrdkht",
-        "ids": ",aka2026nrdkht,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 64,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 41 km W of Anchor Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.564,
-          59.795,
-          79
-        ]
-      },
-      "id": "aka2026nrdkht"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.84,
-        "place": "3 km NW of Pinnacles, CA",
-        "time": 1783838001720,
-        "updated": 1783840039877,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394326",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394326.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 52,
-        "net": "nc",
-        "code": "75394326",
-        "ids": ",nc75394326,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 30,
-        "dmin": 0.02717,
-        "rms": 0.16,
-        "gap": 51,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 3 km NW of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.169166564941,
-          36.5478324890137,
-          5.82999992370605
-        ]
-      },
-      "id": "nc75394326"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.02,
-        "place": "3 km SE of The Geysers, CA",
-        "time": 1783837624610,
-        "updated": 1783837721905,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394321",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75394321.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 16,
-        "net": "nc",
-        "code": "75394321",
-        "ids": ",nc75394321,",
-        "sources": ",nc,",
+        "sig": 14,
+        "net": "ci",
+        "code": "41292415",
+        "ids": ",ci41292415,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01117,
-        "rms": 0.02,
-        "gap": 153,
-        "magType": "md",
+        "nst": 34,
+        "dmin": 0.00794,
+        "rms": 0.15,
+        "gap": 137,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 3 km SE of The Geysers, CA"
+        "title": "M 1.0 - 6 km SSE of San Clemente, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.731330871582,
-          38.7569999694824,
-          2.90000009536743
+          -117.5795,
+          33.3796666666667,
+          14.59
         ]
       },
-      "id": "nc75394321"
+      "id": "ci41292415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "35 km SSW of Los Ybanez, Texas",
+        "time": 1783924515499,
+        "updated": 1783924839492,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nqugmb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nqugmb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026nqugmb",
+        "ids": ",tx2026nqugmb,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 35 km SSW of Los Ybanez, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.108,
+          32.44,
+          3.7347
+        ]
+      },
+      "id": "tx2026nqugmb"
     }
   ],
   "bbox": [
-    -155.25332641602,
-    19.325332641602,
-    0.33000001311302,
-    -117.55816666667,
-    59.795,
-    79
+    -122.79066467285,
+    -22.8646,
+    3.7347,
+    171.5471,
+    38.799167633057,
+    14.59
   ]
 }
