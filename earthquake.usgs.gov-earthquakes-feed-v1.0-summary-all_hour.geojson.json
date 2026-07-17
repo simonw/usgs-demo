@@ -1,64 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784185804000,
+    "generated": 1784272083000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 11
+    "count": 14
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.4,
-        "place": "11 km ENE of Borrego Springs, CA",
-        "time": 1784185458090,
-        "updated": 1784185664500,
+        "mag": 1.18,
+        "place": "10 km WNW of The Geysers, CA",
+        "time": 1784271905780,
+        "updated": 1784272000831,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40656194",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40656194.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397516",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75397516.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "40656194",
-        "ids": ",ci40656194,",
-        "sources": ",ci,",
+        "sig": 21,
+        "net": "nc",
+        "code": "75397516",
+        "ids": ",nc75397516,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.07962,
-        "rms": 0.19,
-        "gap": 98,
-        "magType": "ml",
+        "nst": 22,
+        "dmin": 0.0007123,
+        "rms": 0.03,
+        "gap": 63,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.4 - 11 km ENE of Borrego Springs, CA"
+        "title": "M 1.2 - 10 km WNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.2605,
-          33.294,
-          7.34
+          -122.856002807617,
+          38.8273315429688,
+          2.33999991416931
         ]
       },
-      "id": "ci40656194"
+      "id": "nc75397516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "6 km NNW of The Geysers, CA",
+        "time": 1784271598050,
+        "updated": 1784271696078,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397511",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75397511.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75397511",
+        "ids": ",nc75397511,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.01467,
+        "rms": 0.02,
+        "gap": 81,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 6 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.790496826172,
+          38.8221664428711,
+          1.32000005245209
+        ]
+      },
+      "id": "nc75397511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "18 km W of Ivanof Bay, Alaska",
+        "time": 1784270813466,
+        "updated": 1784270882572,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026oajwtd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026oajwtd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026oajwtd",
+        "ids": ",aka2026oajwtd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 186,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 18 km W of Ivanof Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.783,
+          55.877,
+          0.8
+        ]
+      },
+      "id": "aka2026oajwtd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.79,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1784270460680,
+        "updated": 1784270555891,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397506",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75397506.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "nc",
+        "code": "75397506",
+        "ids": ",nc75397506,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.0111,
+        "rms": 0.04,
+        "gap": 179,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 5 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.782333374023,
+          38.8325004577637,
+          6.84999990463257
+        ]
+      },
+      "id": "nc75397506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.99,
+        "place": "2 km E of Honaunau-Napoopoo, Hawaii",
+        "time": 1784270449250,
+        "updated": 1784270684870,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75003142",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75003142.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 61,
+        "net": "hv",
+        "code": "75003142",
+        "ids": ",hv75003142,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.1381,
+        "rms": 0.270000011,
+        "gap": 172,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.0 - 2 km E of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.84033203125,
+          19.4570007324219,
+          6.86999988555908
+        ]
+      },
+      "id": "hv75003142"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.6,
-        "place": "30 km ENE of Balmorhea, Texas",
-        "time": 1784184787404,
-        "updated": 1784185221125,
+        "place": "25 km SSE of Kokhanok, Alaska",
+        "time": 1784270409023,
+        "updated": 1784270493667,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nwiamy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nwiamy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026oajqxm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026oajqxm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,396 +226,356 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 39,
-        "net": "tx",
-        "code": "2026nwiamy",
-        "ids": ",tx2026nwiamy,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.2,
-        "rms": 1.1,
-        "gap": 140,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 30 km ENE of Balmorhea, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.448,
-          31.081,
-          0
-        ]
-      },
-      "id": "tx2026nwiamy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "60 km S of Whites City, New Mexico",
-        "time": 1784184768828,
-        "updated": 1784184972493,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nwhzwz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nwhzwz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "tx",
-        "code": "2026nwhzwz",
-        "ids": ",tx2026nwhzwz,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 140,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 60 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.456,
-          31.638,
-          3.6202
-        ]
-      },
-      "id": "tx2026nwhzwz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.44,
-        "place": "19 km SW of La Quinta, CA",
-        "time": 1784184609140,
-        "updated": 1784184819655,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40656186",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40656186.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "40656186",
-        "ids": ",ci40656186,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.1183,
-        "rms": 0.13,
-        "gap": 111,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 19 km SW of La Quinta, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.456,
-          33.549,
-          6.94
-        ]
-      },
-      "id": "ci40656186"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.76,
-        "place": "25 km NW of Ocotillo, CA",
-        "time": 1784184132490,
-        "updated": 1784184336400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40656178",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40656178.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "ci",
-        "code": "40656178",
-        "ids": ",ci40656178,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.1139,
-        "rms": 0.17,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 25 km NW of Ocotillo, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.201166666667,
-          32.8796666666667,
-          11.55
-        ]
-      },
-      "id": "ci40656178"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.9,
-        "place": "3 km E of Sutton-Alpine, Alaska",
-        "time": 1784183939125,
-        "updated": 1784184013866,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nynpiq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nynpiq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
         "net": "ak",
-        "code": "a2026nynpiq",
-        "ids": ",aka2026nynpiq,",
+        "code": "a2026oajqxm",
+        "ids": ",aka2026oajqxm,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1,
+        "nst": 25,
+        "dmin": 0.3,
         "rms": 0.7,
-        "gap": 173,
+        "gap": 97,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 3 km E of Sutton-Alpine, Alaska"
+        "title": "M 1.6 - 25 km SSE of Kokhanok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.691,
-          61.777,
-          13.6
+          -154.683,
+          59.219,
+          6.4
         ]
       },
-      "id": "aka2026nynpiq"
+      "id": "aka2026oajqxm"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.38,
-        "place": "2 km SW of Pāhala, Hawaii",
-        "time": 1784183394020,
-        "updated": 1784183610140,
+        "mag": 2.58,
+        "place": "20 km WSW of Petrolia, CA",
+        "time": 1784270312630,
+        "updated": 1784272040858,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75002487",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75002487.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397501",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75397501.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 87,
-        "net": "hv",
-        "code": "75002487",
-        "ids": ",hv75002487,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.06106,
-        "rms": 0.129999995,
-        "gap": 148,
-        "magType": "ml",
+        "sig": 102,
+        "net": "nc",
+        "code": "75397501",
+        "ids": ",nc75397501,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.123,
+        "rms": 0.05,
+        "gap": 263,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.4 - 2 km SW of Pāhala, Hawaii"
+        "title": "M 2.6 - 20 km WSW of Petrolia, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.498168945312,
-          19.1870002746582,
-          28.7600002288818
+          -124.481330871582,
+          40.2263336181641,
+          13.3000001907349
         ]
       },
-      "id": "hv75002487"
+      "id": "nc75397501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.59,
+        "place": "15 km N of Borrego Springs, CA",
+        "time": 1784269507320,
+        "updated": 1784269712158,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40656994",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40656994.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "ci",
+        "code": "40656994",
+        "ids": ",ci40656994,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.06731,
+        "rms": 0.18,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 15 km N of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.395666666667,
+          33.3898333333333,
+          8.73
+        ]
+      },
+      "id": "ci40656994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.97,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1784269468910,
+        "updated": 1784269561021,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397496",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75397496.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "nc",
+        "code": "75397496",
+        "ids": ",nc75397496,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.01632,
+        "rms": 0.02,
+        "gap": 62,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816497802734,
+          38.8306655883789,
+          1.75
+        ]
+      },
+      "id": "nc75397496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "46 km NW of Toyah, Texas",
+        "time": 1784269211131,
+        "updated": 1784269390422,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nycqtw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nycqtw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026nycqtw",
+        "ids": ",tx2026nycqtw,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 114,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 46 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.186,
+          31.571,
+          3.3575
+        ]
+      },
+      "id": "tx2026nycqtw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "45 km NW of Toyah, Texas",
+        "time": 1784269195182,
+        "updated": 1784271641332,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nycqgs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nycqgs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "tx",
+        "code": "2026nycqgs",
+        "ids": ",tx2026nycqgs,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 144,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 45 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.189,
+          31.553,
+          4.5975
+        ]
+      },
+      "id": "tx2026nycqgs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.72,
+        "place": "6 km SE of Valle Vista, CA",
+        "time": 1784269074760,
+        "updated": 1784269275161,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40656986",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40656986.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "40656986",
+        "ids": ",ci40656986,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 48,
+        "dmin": 0.07573,
+        "rms": 0.16,
+        "gap": 32,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 6 km SE of Valle Vista, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8405,
+          33.7173333333333,
+          14.22
+        ]
+      },
+      "id": "ci40656986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.3,
+        "place": "45 km NW of Toyah, Texas",
+        "time": 1784268631179,
+        "updated": 1784268868620,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nycfra",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nycfra.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "tx",
+        "code": "2026nycfra",
+        "ids": ",tx2026nycfra,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 45 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.129,
+          31.604,
+          2.9277
+        ]
+      },
+      "id": "tx2026nycfra"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.1,
-        "place": "23 km E of Fox River, Alaska",
-        "time": 1784183256087,
-        "updated": 1784185646598,
+        "place": "80 km W of Akhiok, Alaska",
+        "time": 1784268581560,
+        "updated": 1784268681469,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nynfmc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nynfmc.geojson",
-        "felt": 1,
-        "cdi": 1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026oaiqnz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026oaiqnz.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 68,
         "net": "ak",
-        "code": "a2026nynfmc",
-        "ids": ",aka2026nynfmc,",
+        "code": "a2026oaiqnz",
+        "ids": ",aka2026oaiqnz,",
         "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2,
-        "rms": 0.1,
-        "gap": 150,
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.7,
+        "rms": 0.4,
+        "gap": 120,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 23 km E of Fox River, Alaska"
+        "title": "M 2.1 - 80 km W of Akhiok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.539,
-          59.876,
-          16.1
+          -155.471,
+          57.078,
+          73.8
         ]
       },
-      "id": "aka2026nynfmc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1784183077120,
-        "updated": 1784183711160,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40656162",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40656162.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ci",
-        "code": "40656162",
-        "ids": ",ci40656162,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 63,
-        "dmin": 0.05917,
-        "rms": 0.18,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 17 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.810833333333,
-          35.3193333333333,
-          7.36
-        ]
-      },
-      "id": "ci40656162"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "22 km W of Willow, Alaska",
-        "time": 1784182644139,
-        "updated": 1784185698167,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nymwpv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026nymwpv.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026nymwpv",
-        "ids": ",aka2026nymwpv,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.6,
-        "rms": 0.8,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 22 km W of Willow, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.456,
-          61.743,
-          54.5
-        ]
-      },
-      "id": "aka2026nymwpv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.61,
-        "place": "31 km SE of Somes Bar, CA",
-        "time": 1784182231050,
-        "updated": 1784183842041,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75396921",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75396921.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 105,
-        "net": "nc",
-        "code": "75396921",
-        "ids": ",nc75396921,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.0536,
-        "rms": 0.08,
-        "gap": 68,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 31 km SE of Somes Bar, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.170829772949,
-          41.2205009460449,
-          39.2700004577637
-        ]
-      },
-      "id": "nc75396921"
+      "id": "aka2026oaiqnz"
     }
   ],
   "bbox": [
-    -155.49816894531,
-    19.187000274658,
-    0,
-    -103.448,
-    61.777,
-    54.5
+    -159.783,
+    19.457000732422,
+    0.8,
+    -104.129,
+    59.219,
+    73.8
   ]
 }
