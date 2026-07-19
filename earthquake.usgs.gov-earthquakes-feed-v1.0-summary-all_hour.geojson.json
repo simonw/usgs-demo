@@ -1,344 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784358186000,
+    "generated": 1784445228000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 11
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.11,
-        "place": "18 km SE of Pāhala, Hawaii",
-        "time": 1784357933030,
-        "updated": 1784358142280,
+        "mag": 0.73,
+        "place": "2 km N of The Geysers, CA",
+        "time": 1784442963380,
+        "updated": 1784443061376,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75003682",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75003682.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "hv",
-        "code": "75003682",
-        "ids": ",hv75003682,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.1256,
-        "rms": 0.159999996,
-        "gap": 245,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 18 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.362503051758,
-          19.0718326568604,
-          34.6599998474121
-        ]
-      },
-      "id": "hv75003682"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.74,
-        "place": "18 km SE of Pāhala, Hawaii",
-        "time": 1784357760550,
-        "updated": 1784357962800,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75003677",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75003677.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "hv",
-        "code": "75003677",
-        "ids": ",hv75003677,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.1162,
-        "rms": 0.159999996,
-        "gap": 239,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 18 km SE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.376663208008,
-          19.0715007781982,
-          32.8499984741211
-        ]
-      },
-      "id": "hv75003677"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.15,
-        "place": "8 km SW of Corona, CA",
-        "time": 1784357113100,
-        "updated": 1784357323741,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657450",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40657450.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 20,
-        "net": "ci",
-        "code": "40657450",
-        "ids": ",ci40657450,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.02416,
-        "rms": 0.18,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 8 km SW of Corona, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.6275,
-          33.814,
-          3.5
-        ]
-      },
-      "id": "ci40657450"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.39,
-        "place": "16 km SSW of Borrego Springs, CA",
-        "time": 1784357027940,
-        "updated": 1784357231746,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657442",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40657442.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "40657442",
-        "ids": ",ci40657442,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.04325,
-        "rms": 0.17,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 16 km SSW of Borrego Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.426333333333,
-          33.1195,
-          11.76
-        ]
-      },
-      "id": "ci40657442"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.28,
-        "place": "10 km SE of Pinnacles, CA",
-        "time": 1784356405400,
-        "updated": 1784357541455,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75398236",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75398236.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "nc",
-        "code": "75398236",
-        "ids": ",nc75398236,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.01384,
-        "rms": 0.13,
-        "gap": 79,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 10 km SE of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.074333190918,
-          36.4594993591309,
-          6.03000020980835
-        ]
-      },
-      "id": "nc75398236"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "47 km WNW of Akhiok, Alaska",
-        "time": 1784356221119,
-        "updated": 1784356327776,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ocfizs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ocfizs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026ocfizs",
-        "ids": ",aka2026ocfizs,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.5,
-        "rms": 0.5,
-        "gap": 189,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 47 km WNW of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.906,
-          57.084,
-          67.4
-        ]
-      },
-      "id": "aka2026ocfizs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.71,
-        "place": "14 km W of Malibu, CA",
-        "time": 1784356133670,
-        "updated": 1784356343051,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657434",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40657434.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 45,
-        "net": "ci",
-        "code": "40657434",
-        "ids": ",ci40657434,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 58,
-        "dmin": 0.05073,
-        "rms": 0.23,
-        "gap": 164,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 14 km W of Malibu, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.956166666667,
-          34.0178333333333,
-          15.16
-        ]
-      },
-      "id": "ci40657434"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "central Mid-Atlantic Ridge",
-        "time": 1784355968899,
-        "updated": 1784357032040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000t1jw",
-        "ids": ",us7000t1jw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 9.954,
-        "rms": 0.58,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - central Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -21.4952,
-          -0.9196,
-          10
-        ]
-      },
-      "id": "us7000t1jw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "8 km W of Calimesa, CA",
-        "time": 1784355519220,
-        "updated": 1784355723245,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657426",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40657426.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75398831",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75398831.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -346,116 +26,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 8,
-        "net": "ci",
-        "code": "40657426",
-        "ids": ",ci40657426,",
-        "sources": ",ci,",
+        "net": "nc",
+        "code": "75398831",
+        "ids": ",nc75398831,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.1203,
-        "rms": 0.18,
-        "gap": 61,
-        "magType": "ml",
+        "nst": 10,
+        "dmin": 0.009259,
+        "rms": 0.01,
+        "gap": 87,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 8 km W of Calimesa, CA"
+        "title": "M 0.7 - 2 km N of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.136666666667,
-          33.9901666666667,
-          14.26
+          -122.752670288086,
+          38.7931671142578,
+          1.26999998092651
         ]
       },
-      "id": "ci40657426"
+      "id": "nc75398831"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "73 km SW of Puerto Madero, Mexico",
-        "time": 1784355019000,
-        "updated": 1784356099040,
+        "mag": 0.79,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1784442408010,
+        "updated": 1784442507223,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000t1jt",
-        "ids": ",us7000t1jt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 3.073,
-        "rms": 0.7,
-        "gap": 161,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 73 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9244,
-          14.2694,
-          35
-        ]
-      },
-      "id": "us7000t1jt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "41 km NW of Toyah, Texas",
-        "time": 1784354943318,
-        "updated": 1784355169441,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nzyadh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026nzyadh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75398826",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75398826.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
-        "net": "tx",
-        "code": "2026nzyadh",
-        "ids": ",tx2026nzyadh,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.1,
-        "rms": 0.3,
+        "sig": 10,
+        "net": "nc",
+        "code": "75398826",
+        "ids": ",nc75398826,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.006385,
+        "rms": 0.03,
         "gap": 73,
-        "magType": "ml",
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.1 - 41 km NW of Toyah, Texas"
+        "title": "M 0.8 - 6 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.156,
-          31.526,
-          4.6653
+          -122.809997558594,
+          38.8170013427734,
+          1.35000002384186
         ]
       },
-      "id": "tx2026nzyadh"
+      "id": "nc75398826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.97,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1784442371710,
+        "updated": 1784442467402,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75398821",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75398821.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "nc",
+        "code": "75398821",
+        "ids": ",nc75398821,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.004686,
+        "rms": 0.02,
+        "gap": 81,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.808670043945,
+          38.8188323974609,
+          3.53999996185303
+        ]
+      },
+      "id": "nc75398821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.42,
+        "place": "8 km W of Holtville, CA",
+        "time": 1784442301560,
+        "updated": 1784442509799,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657874",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40657874.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "ci",
+        "code": "40657874",
+        "ids": ",ci40657874,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.0153,
+        "rms": 0.3,
+        "gap": 67,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 8 km W of Holtville, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.462166666667,
+          32.8135,
+          10.31
+        ]
+      },
+      "id": "ci40657874"
     }
   ],
   "bbox": [
-    -155.37666320801,
-    -0.9196,
-    3.5,
-    -21.4952,
-    57.084,
-    67.4
+    -122.80999755859,
+    32.8135,
+    1.2699999809265,
+    -115.46216666667,
+    38.818832397461,
+    10.31
   ]
 }
