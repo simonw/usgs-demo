@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784618174000,
+    "generated": 1784704609000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,170 +12,170 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.41,
-        "place": "3 km NW of The Geysers, CA",
-        "time": 1784617331570,
-        "updated": 1784617625700,
+        "mag": 1.79,
+        "place": "60 km ENE of Tonopah, Nevada",
+        "time": 1784703220107,
+        "updated": 1784703460013,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75402917",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75402917.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00922158",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00922158.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 31,
+        "sig": 49,
+        "net": "nn",
+        "code": "00922158",
+        "ids": ",nn00922158,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 1.145,
+        "rms": 0.302,
+        "gap": 218,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 60 km ENE of Tonopah, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.6221,
+          38.332,
+          4.3734
+        ]
+      },
+      "id": "nn00922158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.33,
+        "place": "11 km SE of Willits, CA",
+        "time": 1784702591210,
+        "updated": 1784703141395,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75403592",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75403592.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 84,
         "net": "nc",
-        "code": "75402917",
-        "ids": ",nc75402917,",
+        "code": "75403592",
+        "ids": ",nc75403592,",
         "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.009288,
-        "rms": 0.03,
-        "gap": 63,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 22,
+        "dmin": 0.06628,
+        "rms": 0.06,
+        "gap": 80,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 3 km NW of The Geysers, CA"
+        "title": "M 2.3 - 11 km SE of Willits, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.78116607666,
-          38.8008346557617,
-          3.25
+          -123.259002685547,
+          39.3508338928223,
+          4.5
         ]
       },
-      "id": "nc75402917"
+      "id": "nc75403592"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.51,
-        "place": "16 km ESE of Anza, CA",
-        "time": 1784617291870,
-        "updated": 1784617491937,
+        "mag": 1.6,
+        "place": "19 km SSE of Lindsay, Texas",
+        "time": 1784701067617,
+        "updated": 1784701284271,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40658666",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40658666.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ohhfix",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ohhfix.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
-        "net": "ci",
-        "code": "40658666",
-        "ids": ",ci40658666,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.08051,
-        "rms": 0.13,
-        "gap": 229,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 16 km ESE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.508,
-          33.5116666666667,
-          11.53
-        ]
-      },
-      "id": "ci40658666"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "18 km NNW of Stanton, Texas",
-        "time": 1784616202980,
-        "updated": 1784616415581,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ofminc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ofminc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
+        "sig": 39,
         "net": "tx",
-        "code": "2026ofminc",
-        "ids": ",tx2026ofminc,",
+        "code": "2026ohhfix",
+        "ids": ",tx2026ohhfix,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 73,
+        "nst": 24,
         "dmin": 0,
-        "rms": 0.5,
-        "gap": 30,
+        "rms": 0.6,
+        "gap": 41,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 18 km NNW of Stanton, Texas"
+        "title": "M 1.6 - 19 km SSE of Lindsay, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.879,
-          32.274,
-          3.9124
+          -103.486,
+          31.195,
+          5.174
         ]
       },
-      "id": "tx2026ofminc"
+      "id": "tx2026ohhfix"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "84 km SW of Puerto Madero, Mexico",
-        "time": 1784616195703,
-        "updated": 1784617169040,
+        "mag": 1.79,
+        "place": "7 km WSW of Gilroy, CA",
+        "time": 1784701013070,
+        "updated": 1784704042488,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t24u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t24u.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75403582",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75403582.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000t24u",
-        "ids": ",us7000t24u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 7.497,
-        "rms": 0.7,
-        "gap": 166,
-        "magType": "mb",
+        "sig": 49,
+        "net": "nc",
+        "code": "75403582",
+        "ids": ",nc75403582,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.05492,
+        "rms": 0.1,
+        "gap": 52,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 4.6 - 84 km SW of Puerto Madero, Mexico"
+        "title": "M 1.8 - 7 km WSW of Gilroy, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.0019,
-          14.2069,
-          35
+          -121.640167236328,
+          36.9845008850098,
+          3.3199999332428
         ]
       },
-      "id": "us7000t24u"
+      "id": "nc75403582"
     }
   ],
   "bbox": [
-    -122.78116607666,
-    14.2069,
-    3.25,
-    -93.0019,
-    38.800834655762,
-    35
+    -123.25900268555,
+    31.195,
+    3.3199999332428,
+    -103.486,
+    39.350833892822,
+    5.174
   ]
 }
