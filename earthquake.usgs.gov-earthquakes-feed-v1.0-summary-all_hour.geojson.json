@@ -1,104 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784704609000,
+    "generated": 1784790900000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 4
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.79,
-        "place": "60 km ENE of Tonopah, Nevada",
-        "time": 1784703220107,
-        "updated": 1784703460013,
+        "mag": 1.72,
+        "place": "8 km S of Brawley, CA",
+        "time": 1784790692450,
+        "updated": 1784790891588,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00922158",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00922158.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659714",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40659714.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 49,
-        "net": "nn",
-        "code": "00922158",
-        "ids": ",nn00922158,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 1.145,
-        "rms": 0.302,
-        "gap": 218,
+        "sig": 46,
+        "net": "ci",
+        "code": "40659714",
+        "ids": ",ci40659714,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.03312,
+        "rms": 0.28,
+        "gap": 43,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 60 km ENE of Tonopah, Nevada"
+        "title": "M 1.7 - 8 km S of Brawley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.6221,
-          38.332,
-          4.3734
+          -115.523,
+          32.911,
+          8.32
         ]
       },
-      "id": "nn00922158"
+      "id": "ci40659714"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.33,
-        "place": "11 km SE of Willits, CA",
-        "time": 1784702591210,
-        "updated": 1784703141395,
+        "mag": 1.93,
+        "place": "8 km NE of Imperial, CA",
+        "time": 1784790313890,
+        "updated": 1784790523419,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75403592",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75403592.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659706",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40659706.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 84,
-        "net": "nc",
-        "code": "75403592",
-        "ids": ",nc75403592,",
-        "sources": ",nc,",
+        "sig": 57,
+        "net": "ci",
+        "code": "40659706",
+        "ids": ",ci40659706,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": 0.06628,
-        "rms": 0.06,
-        "gap": 80,
-        "magType": "md",
+        "nst": 36,
+        "dmin": 0.03184,
+        "rms": 0.28,
+        "gap": 36,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 11 km SE of Willits, CA"
+        "title": "M 1.9 - 8 km NE of Imperial, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.259002685547,
-          39.3508338928223,
-          4.5
+          -115.523,
+          32.9041666666667,
+          10.69
         ]
       },
-      "id": "nc75403592"
+      "id": "ci40659706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.95,
+        "place": "7 km S of Brawley, CA",
+        "time": 1784790249880,
+        "updated": 1784790458412,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659698",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40659698.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 58,
+        "net": "ci",
+        "code": "40659698",
+        "ids": ",ci40659698,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 39,
+        "dmin": 0.09387,
+        "rms": 0.3,
+        "gap": 36,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 7 km S of Brawley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5285,
+          32.9145,
+          9.11
+        ]
+      },
+      "id": "ci40659698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "59 km NNE of Chase, Alaska",
+        "time": 1784789915302,
+        "updated": 1784790035137,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026olmkhz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026olmkhz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026olmkhz",
+        "ids": ",aka2026olmkhz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.6,
+        "rms": 1,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 59 km NNE of Chase, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.84,
+          62.969,
+          71.3
+        ]
+      },
+      "id": "aka2026olmkhz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.52,
+        "place": "8 km NNE of Imperial, CA",
+        "time": 1784789890420,
+        "updated": 1784790099811,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659690",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40659690.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "ci",
+        "code": "40659690",
+        "ids": ",ci40659690,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.03165,
+        "rms": 0.29,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 8 km NNE of Imperial, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.523666666667,
+          32.907,
+          10.45
+        ]
+      },
+      "id": "ci40659690"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.6,
-        "place": "19 km SSE of Lindsay, Texas",
-        "time": 1784701067617,
-        "updated": 1784701284271,
+        "place": "7 km NE of Imperial, CA",
+        "time": 1784789827990,
+        "updated": 1784790033807,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ohhfix",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026ohhfix.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659682",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40659682.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,76 +226,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 39,
-        "net": "tx",
-        "code": "2026ohhfix",
-        "ids": ",tx2026ohhfix,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 0,
-        "rms": 0.6,
-        "gap": 41,
+        "net": "ci",
+        "code": "40659682",
+        "ids": ",ci40659682,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 35,
+        "dmin": 0.03103,
+        "rms": 0.28,
+        "gap": 71,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 19 km SSE of Lindsay, Texas"
+        "title": "M 1.6 - 7 km NE of Imperial, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.486,
-          31.195,
-          5.174
+          -115.523833333333,
+          32.9008333333333,
+          10.11
         ]
       },
-      "id": "tx2026ohhfix"
+      "id": "ci40659682"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.79,
-        "place": "7 km WSW of Gilroy, CA",
-        "time": 1784701013070,
-        "updated": 1784704042488,
+        "mag": 1.48,
+        "place": "7 km E of Pinnacles, CA",
+        "time": 1784789779370,
+        "updated": 1784789874188,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75403582",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75403582.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75404102",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75404102.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 49,
+        "sig": 34,
         "net": "nc",
-        "code": "75403582",
-        "ids": ",nc75403582,",
+        "code": "75404102",
+        "ids": ",nc75404102,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 19,
-        "dmin": 0.05492,
-        "rms": 0.1,
-        "gap": 52,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.04233,
+        "rms": 0.2,
+        "gap": 64,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 7 km WSW of Gilroy, CA"
+        "title": "M 1.5 - 7 km E of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.640167236328,
-          36.9845008850098,
-          3.3199999332428
+          -121.069000244141,
+          36.5433349609375,
+          7.53999996185303
         ]
       },
-      "id": "nc75403582"
+      "id": "nc75404102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "53 km E of Port Alsworth, Alaska",
+        "time": 1784789777918,
+        "updated": 1784789854262,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026olmiij",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026olmiij.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026olmiij",
+        "ids": ",aka2026olmiij,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.2,
+        "rms": 0.6,
+        "gap": 245,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 53 km E of Port Alsworth, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.357,
+          60.236,
+          5
+        ]
+      },
+      "id": "aka2026olmiij"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.59,
+        "place": "19 km ESE of Little Lake, CA",
+        "time": 1784789770920,
+        "updated": 1784789982819,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40659674",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40659674.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "ci",
+        "code": "40659674",
+        "ids": ",ci40659674,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.07639,
+        "rms": 0.11,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 19 km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7025,
+          35.8841666666667,
+          2.58
+        ]
+      },
+      "id": "ci40659674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.67,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1784788447490,
+        "updated": 1784788544009,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75404097",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75404097.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "nc",
+        "code": "75404097",
+        "ids": ",nc75404097,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.008652,
+        "rms": 0.02,
+        "gap": 65,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.818336486816,
+          38.8291664123535,
+          1.75999999046326
+        ]
+      },
+      "id": "nc75404097"
     }
   ],
   "bbox": [
-    -123.25900268555,
-    31.195,
-    3.3199999332428,
-    -103.486,
-    39.350833892822,
-    5.174
+    -153.357,
+    32.900833333333,
+    1.7599999904633,
+    -115.523,
+    62.969,
+    71.3
   ]
 }
