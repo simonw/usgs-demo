@@ -1,101 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784877290000,
+    "generated": 1784963270000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 2
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.12,
-        "place": "6 km E of Challenge-Brownsville, CA",
-        "time": 1784874551560,
-        "updated": 1784875942902,
+        "mag": 0.39,
+        "place": "11 km W of Ocotillo Wells, CA",
+        "time": 1784962927190,
+        "updated": 1784963132029,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75404832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75404832.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661138",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661138.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 69,
-        "net": "nc",
-        "code": "75404832",
-        "ids": ",nc75404832,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 5,
-        "dmin": 0.2206,
-        "rms": 0.08,
-        "gap": 128,
-        "magType": "md",
+        "sig": 2,
+        "net": "ci",
+        "code": "40661138",
+        "ids": ",ci40661138,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.06602,
+        "rms": 0.21,
+        "gap": 133,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 6 km E of Challenge-Brownsville, CA"
+        "title": "M 0.4 - 11 km W of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.198997497559,
-          39.4584999084473,
-          5.94999980926514
+          -116.246,
+          33.1268333333333,
+          10.45
         ]
       },
-      "id": "nc75404832"
+      "id": "ci40661138"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.69,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1784874080150,
-        "updated": 1784874177677,
+        "mag": 0.77,
+        "place": "11 km WSW of Ocotillo Wells, CA",
+        "time": 1784962802920,
+        "updated": 1784963011732,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75404827",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75404827.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661130",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661130.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75404827",
-        "ids": ",nc75404827,",
-        "sources": ",nc,",
+        "sig": 9,
+        "net": "ci",
+        "code": "40661130",
+        "ids": ",ci40661130,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.001595,
-        "rms": 0.01,
-        "gap": 81,
-        "magType": "md",
+        "nst": 47,
+        "dmin": 0.07062,
+        "rms": 0.21,
+        "gap": 37,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 6 km WNW of Cobb, CA"
+        "title": "M 0.8 - 11 km WSW of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.788833618164,
-          38.8373336791992,
-          1.67999994754791
+          -116.249,
+          33.122,
+          10.37
         ]
       },
-      "id": "nc75404827"
+      "id": "ci40661130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.86,
+        "place": "23 km NE of Thermal, CA",
+        "time": 1784962723740,
+        "updated": 1784962935759,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661122",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661122.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "40661122",
+        "ids": ",ci40661122,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.1085,
+        "rms": 0.17,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 23 km NE of Thermal, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.944666666667,
+          33.7676666666667,
+          1.3
+        ]
+      },
+      "id": "ci40661122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "57 km S of Sarangani, Philippines",
+        "time": 1784961966097,
+        "updated": 1784963094040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3a4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3a4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000t3a4",
+        "ids": ",us7000t3a4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 2.178,
+        "rms": 0.95,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 57 km S of Sarangani, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.4791,
+          4.8793,
+          52.163
+        ]
+      },
+      "id": "us7000t3a4"
     }
   ],
   "bbox": [
-    -122.78883361816,
-    38.837333679199,
-    1.6799999475479,
-    -121.19899749756,
-    39.458499908447,
-    5.9499998092651
+    -116.249,
+    4.8793,
+    1.3,
+    125.4791,
+    33.767666666667,
+    52.163
   ]
 }
