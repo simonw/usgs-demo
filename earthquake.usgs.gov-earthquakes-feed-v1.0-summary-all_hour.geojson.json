@@ -1,64 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784963270000,
+    "generated": 1785050149000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 4
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.39,
-        "place": "11 km W of Ocotillo Wells, CA",
-        "time": 1784962927190,
-        "updated": 1784963132029,
+        "mag": 0.45,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1785049446360,
+        "updated": 1785049540693,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661138",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661138.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75405917",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75405917.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "40661138",
-        "ids": ",ci40661138,",
-        "sources": ",ci,",
+        "sig": 3,
+        "net": "nc",
+        "code": "75405917",
+        "ids": ",nc75405917,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.06602,
-        "rms": 0.21,
-        "gap": 133,
-        "magType": "ml",
+        "nst": 7,
+        "dmin": 0.001617,
+        "rms": 0.05,
+        "gap": 99,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.4 - 11 km W of Ocotillo Wells, CA"
+        "title": "M 0.5 - 10 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.246,
-          33.1268333333333,
-          10.45
+          -122.836502075195,
+          38.8400001525879,
+          1.45000004768372
         ]
       },
-      "id": "ci40661138"
+      "id": "nc75405917"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.77,
-        "place": "11 km WSW of Ocotillo Wells, CA",
-        "time": 1784962802920,
-        "updated": 1784963011732,
+        "mag": 4.4,
+        "place": "39 km SE of Khorugh, Tajikistan",
+        "time": 1785048514701,
+        "updated": 1785049428040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661130",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661130.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3f9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3f9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t3f9",
+        "ids": ",us7000t3f9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 1.116,
+        "rms": 0.85,
+        "gap": 59,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 39 km SE of Khorugh, Tajikistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.9239,
+          37.2873,
+          183.758
+        ]
+      },
+      "id": "us7000t3f9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.89,
+        "place": "1 km NE of Pinnacles, CA",
+        "time": 1785048457270,
+        "updated": 1785049642384,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75405912",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75405912.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 55,
+        "net": "nc",
+        "code": "75405912",
+        "ids": ",nc75405912,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.05293,
+        "rms": 0.19,
+        "gap": 51,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 1 km NE of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.137168884277,
+          36.5356674194336,
+          7.46000003814697
+        ]
+      },
+      "id": "nc75405912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.94,
+        "place": "13 km SSW of Searles Valley, CA",
+        "time": 1785048377270,
+        "updated": 1785048582174,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661450",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661450.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "40661450",
+        "ids": ",ci40661450,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.03798,
+        "rms": 0.13,
+        "gap": 93,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 13 km SSW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.470333333333,
+          35.6661666666667,
+          8.95
+        ]
+      },
+      "id": "ci40661450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.74,
+        "place": "11 km N of Aguanga, CA",
+        "time": 1785047782780,
+        "updated": 1785047992777,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661442",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661442.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "40661442",
+        "ids": ",ci40661442,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.06556,
+        "rms": 0.2,
+        "gap": 31,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 11 km N of Aguanga, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.872666666667,
+          33.541,
+          16
+        ]
+      },
+      "id": "ci40661442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.76,
+        "place": "2 km ESE of The Geysers, CA",
+        "time": 1785046992810,
+        "updated": 1785047091413,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75405902",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75405902.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,116 +226,36 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 9,
-        "net": "ci",
-        "code": "40661130",
-        "ids": ",ci40661130,",
-        "sources": ",ci,",
+        "net": "nc",
+        "code": "75405902",
+        "ids": ",nc75405902,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.07062,
-        "rms": 0.21,
-        "gap": 37,
-        "magType": "ml",
+        "nst": 7,
+        "dmin": 0.01048,
+        "rms": 0.02,
+        "gap": 71,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 11 km WSW of Ocotillo Wells, CA"
+        "title": "M 0.8 - 2 km ESE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.249,
-          33.122,
-          10.37
+          -122.738502502441,
+          38.772834777832,
+          0.980000019073486
         ]
       },
-      "id": "ci40661130"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.86,
-        "place": "23 km NE of Thermal, CA",
-        "time": 1784962723740,
-        "updated": 1784962935759,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661122",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661122.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "40661122",
-        "ids": ",ci40661122,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.1085,
-        "rms": 0.17,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 23 km NE of Thermal, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.944666666667,
-          33.7676666666667,
-          1.3
-        ]
-      },
-      "id": "ci40661122"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "57 km S of Sarangani, Philippines",
-        "time": 1784961966097,
-        "updated": 1784963094040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3a4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3a4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000t3a4",
-        "ids": ",us7000t3a4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 2.178,
-        "rms": 0.95,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 57 km S of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.4791,
-          4.8793,
-          52.163
-        ]
-      },
-      "id": "us7000t3a4"
+      "id": "nc75405902"
     }
   ],
   "bbox": [
-    -116.249,
-    4.8793,
-    1.3,
-    125.4791,
-    33.767666666667,
-    52.163
+    -122.83650207519,
+    33.541,
+    0.98000001907349,
+    71.9239,
+    38.840000152588,
+    183.758
   ]
 }
