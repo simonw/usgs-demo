@@ -1,261 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785050149000,
+    "generated": 1785137720000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.45,
-        "place": "10 km NW of The Geysers, CA",
-        "time": 1785049446360,
-        "updated": 1785049540693,
+        "mag": 1.6,
+        "place": "40 km NW of Toyah, Texas",
+        "time": 1785137542747,
+        "updated": 1785137692419,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75405917",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75405917.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026oqohrn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026oqohrn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 3,
-        "net": "nc",
-        "code": "75405917",
-        "ids": ",nc75405917,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.001617,
-        "rms": 0.05,
-        "gap": 99,
-        "magType": "md",
+        "sig": 39,
+        "net": "tx",
+        "code": "2026oqohrn",
+        "ids": ",tx2026oqohrn,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 71,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 10 km NW of The Geysers, CA"
+        "title": "M 1.6 - 40 km NW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.836502075195,
-          38.8400001525879,
-          1.45000004768372
+          -104.136,
+          31.53,
+          7.2879
         ]
       },
-      "id": "nc75405917"
+      "id": "tx2026oqohrn"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.4,
-        "place": "39 km SE of Khorugh, Tajikistan",
-        "time": 1785048514701,
-        "updated": 1785049428040,
+        "mag": 2.38,
+        "place": "6 km NW of Pinnacles, CA",
+        "time": 1785135660090,
+        "updated": 1785136646081,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3f9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3f9.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75406477",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75406477.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 87,
+        "net": "nc",
+        "code": "75406477",
+        "ids": ",nc75406477,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 58,
+        "dmin": 0.001647,
+        "rms": 0.19,
+        "gap": 28,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 6 km NW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.186996459961,
+          36.5706672668457,
+          5.36999988555908
+        ]
+      },
+      "id": "nc75406477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1785134635540,
+        "updated": 1785134732364,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75406472",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75406472.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nc",
+        "code": "75406472",
+        "ids": ",nc75406472,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.005906,
+        "rms": 0.01,
+        "gap": 70,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 6 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.807502746582,
+          38.8178329467773,
+          3.44000005722046
+        ]
+      },
+      "id": "nc75406472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "28 km NW of Petersville, Alaska",
+        "time": 1785134603460,
+        "updated": 1785134689809,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026osvzkj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026osvzkj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "a2026osvzkj",
+        "ids": ",aka2026osvzkj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 82,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 48,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 28 km NW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.207,
+          62.647,
+          89.6
+        ]
+      },
+      "id": "aka2026osvzkj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "31 km S of Segundo, Colorado",
+        "time": 1785134415693,
+        "updated": 1785135672652,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3lr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t3lr.geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": 4.754,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 298,
+        "sig": 222,
         "net": "us",
-        "code": "7000t3f9",
-        "ids": ",us7000t3f9,",
+        "code": "7000t3lr",
+        "ids": ",us7000t3lr,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 1.116,
-        "rms": 0.85,
-        "gap": 59,
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 19,
+        "dmin": 0.058,
+        "rms": 0.51,
+        "gap": 112,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.4 - 39 km SE of Khorugh, Tajikistan"
+        "title": "M 3.8 - 31 km S of Segundo, Colorado"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          71.9239,
-          37.2873,
-          183.758
+          -104.8157,
+          36.8455,
+          5
         ]
       },
-      "id": "us7000t3f9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.89,
-        "place": "1 km NE of Pinnacles, CA",
-        "time": 1785048457270,
-        "updated": 1785049642384,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75405912",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75405912.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 55,
-        "net": "nc",
-        "code": "75405912",
-        "ids": ",nc75405912,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.05293,
-        "rms": 0.19,
-        "gap": 51,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 1 km NE of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.137168884277,
-          36.5356674194336,
-          7.46000003814697
-        ]
-      },
-      "id": "nc75405912"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.94,
-        "place": "13 km SSW of Searles Valley, CA",
-        "time": 1785048377270,
-        "updated": 1785048582174,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661450",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661450.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "ci",
-        "code": "40661450",
-        "ids": ",ci40661450,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.03798,
-        "rms": 0.13,
-        "gap": 93,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 13 km SSW of Searles Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.470333333333,
-          35.6661666666667,
-          8.95
-        ]
-      },
-      "id": "ci40661450"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "11 km N of Aguanga, CA",
-        "time": 1785047782780,
-        "updated": 1785047992777,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661442",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40661442.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "40661442",
-        "ids": ",ci40661442,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.06556,
-        "rms": 0.2,
-        "gap": 31,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 11 km N of Aguanga, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.872666666667,
-          33.541,
-          16
-        ]
-      },
-      "id": "ci40661442"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.76,
-        "place": "2 km ESE of The Geysers, CA",
-        "time": 1785046992810,
-        "updated": 1785047091413,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75405902",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75405902.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75405902",
-        "ids": ",nc75405902,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01048,
-        "rms": 0.02,
-        "gap": 71,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 2 km ESE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.738502502441,
-          38.772834777832,
-          0.980000019073486
-        ]
-      },
-      "id": "nc75405902"
+      "id": "us7000t3lr"
     }
   ],
   "bbox": [
-    -122.83650207519,
-    33.541,
-    0.98000001907349,
-    71.9239,
-    38.840000152588,
-    183.758
+    -151.207,
+    31.53,
+    3.4400000572205,
+    -104.136,
+    62.647,
+    89.6
   ]
 }
