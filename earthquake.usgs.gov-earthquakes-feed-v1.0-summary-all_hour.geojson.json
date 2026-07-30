@@ -1,64 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785309637000,
+    "generated": 1785395837000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 9
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "53 km WNW of Stevens Village, Alaska",
-        "time": 1785309378200,
-        "updated": 1785309500136,
+        "mag": 0.64,
+        "place": "23 km N of Borrego Springs, CA",
+        "time": 1785395167630,
+        "updated": 1785395373958,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026owpddg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026owpddg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026owpddg",
-        "ids": ",aka2026owpddg,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.4,
-        "rms": 0.9,
-        "gap": 123,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 53 km WNW of Stevens Village, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.241,
-          66.127,
-          13.3
-        ]
-      },
-      "id": "aka2026owpddg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.6,
-        "place": "11 km SE of Livengood, Alaska",
-        "time": 1785309324392,
-        "updated": 1785309408312,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026owpchv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026owpchv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663554",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40663554.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,39 +26,159 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 6,
-        "net": "ak",
-        "code": "a2026owpchv",
-        "ids": ",aka2026owpchv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1,
-        "rms": 0.5,
-        "gap": 134,
+        "net": "ci",
+        "code": "40663554",
+        "ids": ",ci40663554,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.1288,
+        "rms": 0.13,
+        "gap": 84,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 11 km SE of Livengood, Alaska"
+        "title": "M 0.6 - 23 km N of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.359,
-          65.455,
-          16.4
+          -116.413,
+          33.458,
+          11.59
         ]
       },
-      "id": "aka2026owpchv"
+      "id": "ci40663554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "5 km WNW of The Geysers, CA",
+        "time": 1785394842740,
+        "updated": 1785394938101,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75408402",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75408402.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75408402",
+        "ids": ",nc75408402,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.009831,
+        "rms": 0.04,
+        "gap": 60,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 5 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.806167602539,
+          38.8030014038086,
+          1.33000004291534
+        ]
+      },
+      "id": "nc75408402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "14 km N of Cabazon, CA",
+        "time": 1785394750170,
+        "updated": 1785394949310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663546",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40663546.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "40663546",
+        "ids": ",ci40663546,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.0211,
+        "rms": 0.16,
+        "gap": 58,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 14 km N of Cabazon, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.782833333333,
+          34.0391666666667,
+          13.36
+        ]
+      },
+      "id": "ci40663546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "8 km WNW of La Democracia, Guatemala",
+        "time": 1785394736166,
+        "updated": 1785395734614,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgwd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tgwd.geojson",
+        "felt": 4,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 386,
+        "net": "us",
+        "code": "6000tgwd",
+        "ids": ",us6000tgwd,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 56,
+        "dmin": 1.257,
+        "rms": 0.84,
+        "gap": 142,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 8 km WNW of La Democracia, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.0265,
+          14.2453,
+          97.012
+        ]
+      },
+      "id": "us6000tgwd"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.4,
-        "place": "11 km ENE of Bear Creek, Alaska",
-        "time": 1785308846004,
-        "updated": 1785308948186,
+        "place": "3 km N of Stanton, Texas",
+        "time": 1785394618005,
+        "updated": 1785395159286,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026owovjy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026owovjy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026owagnt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026owagnt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,276 +186,236 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 30,
-        "net": "ak",
-        "code": "a2026owovjy",
-        "ids": ",aka2026owovjy,",
-        "sources": ",ak,",
+        "net": "tx",
+        "code": "2026owagnt",
+        "ids": ",tx2026owagnt,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2,
-        "rms": 1,
-        "gap": 188,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 11 km ENE of Bear Creek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.212,
-          60.22,
-          64.4
-        ]
-      },
-      "id": "aka2026owovjy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "72 km WNW of Karluk, Alaska",
-        "time": 1785308687781,
-        "updated": 1785308763684,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026owotcn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026owotcn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026owotcn",
-        "ids": ",aka2026owotcn,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.3,
+        "nst": 63,
+        "dmin": 0.1,
         "rms": 0.5,
-        "gap": 97,
+        "gap": 42,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 72 km WNW of Karluk, Alaska"
+        "title": "M 1.4 - 3 km N of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.641,
-          57.728,
-          5.2
+          -101.787,
+          32.157,
+          3.2286
         ]
       },
-      "id": "aka2026owotcn"
+      "id": "tx2026owagnt"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.47,
-        "place": "1 km ESE of The Geysers, CA",
-        "time": 1785308188940,
-        "updated": 1785308284156,
+        "mag": 0.58,
+        "place": "16 km SE of Anza, CA",
+        "time": 1785394565450,
+        "updated": 1785394767700,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75407752",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75407752.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663538",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40663538.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 33,
-        "net": "nc",
-        "code": "75407752",
-        "ids": ",nc75407752,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.01114,
-        "rms": 0.06,
-        "gap": 71,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 1 km ESE of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.743667602539,
-          38.7734985351562,
-          2.39000010490417
-        ]
-      },
-      "id": "nc75407752"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.13,
-        "place": "8 km ESE of Cloverdale, CA",
-        "time": 1785308178220,
-        "updated": 1785309447743,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75407747",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75407747.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 20,
-        "net": "nc",
-        "code": "75407747",
-        "ids": ",nc75407747,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 15,
-        "dmin": 0.06257,
-        "rms": 0.04,
-        "gap": 119,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 8 km ESE of Cloverdale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.935165405273,
-          38.7750015258789,
-          3.53999996185303
-        ]
-      },
-      "id": "nc75407747"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.56,
-        "place": "8 km ESE of Cloverdale, CA",
-        "time": 1785307787860,
-        "updated": 1785308841671,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75407742",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75407742.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 37,
-        "net": "nc",
-        "code": "75407742",
-        "ids": ",nc75407742,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.06203,
-        "rms": 0.06,
-        "gap": 60,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 8 km ESE of Cloverdale, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.934669494629,
-          38.7761650085449,
-          5.03000020980835
-        ]
-      },
-      "id": "nc75407742"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.45,
-        "place": "2 km NNE of Valle Vista, CA",
-        "time": 1785306671130,
-        "updated": 1785306877339,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40662914",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40662914.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
+        "sig": 5,
         "net": "ci",
-        "code": "40662914",
-        "ids": ",ci40662914,",
+        "code": "40663538",
+        "ids": ",ci40663538,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.08743,
-        "rms": 0.18,
-        "gap": 76,
+        "nst": 34,
+        "dmin": 0.05633,
+        "rms": 0.16,
+        "gap": 48,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 2 km NNE of Valle Vista, CA"
+        "title": "M 0.6 - 16 km SE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.8835,
-          33.768,
-          10.03
+          -116.549333333333,
+          33.4596666666667,
+          9.98
         ]
       },
-      "id": "ci40662914"
+      "id": "ci40663538"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.13,
-        "place": "8 km ESE of Cloverdale, CA",
-        "time": 1785306170090,
-        "updated": 1785307342506,
+        "mag": 0.63,
+        "place": "19 km ESE of Anza, CA",
+        "time": 1785394521190,
+        "updated": 1785394721789,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75407727",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75407727.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663530",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40663530.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 20,
-        "net": "nc",
-        "code": "75407727",
-        "ids": ",nc75407727,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.06128,
-        "rms": 0.05,
-        "gap": 118,
-        "magType": "md",
+        "sig": 6,
+        "net": "ci",
+        "code": "40663530",
+        "ids": ",ci40663530,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.09012,
+        "rms": 0.16,
+        "gap": 60,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km ESE of Cloverdale, CA"
+        "title": "M 0.6 - 19 km ESE of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.936996459961,
-          38.7763328552246,
-          3.75
+          -116.4965,
+          33.4768333333333,
+          12.72
         ]
       },
-      "id": "nc75407727"
+      "id": "ci40663530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.05,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1785394454490,
+        "updated": 1785394660887,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663522",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40663522.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "ci",
+        "code": "40663522",
+        "ids": ",ci40663522,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 37,
+        "dmin": 0.06135,
+        "rms": 0.22,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 17 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.804666666667,
+          35.3188333333333,
+          5.8
+        ]
+      },
+      "id": "ci40663522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "83 km NNW of Karluk, Alaska",
+        "time": 1785393886042,
+        "updated": 1785393952563,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026oykchv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026oykchv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ak",
+        "code": "a2026oykchv",
+        "ids": ",aka2026oykchv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 124,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 83 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.054,
+          58.248,
+          5
+        ]
+      },
+      "id": "aka2026oykchv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.76,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1785392683970,
+        "updated": 1785393311470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40663514",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40663514.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 48,
+        "net": "ci",
+        "code": "40663514",
+        "ids": ",ci40663514,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 57,
+        "dmin": 0.06154,
+        "rms": 0.21,
+        "gap": 32,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 17 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8075,
+          35.3205,
+          6.48
+        ]
+      },
+      "id": "ci40663514"
     }
   ],
   "bbox": [
-    -155.641,
-    33.768,
-    2.3900001049042,
-    -116.8835,
-    66.127,
-    64.4
+    -155.054,
+    14.2453,
+    1.3300000429153,
+    -91.0265,
+    58.248,
+    97.012
   ]
 }
