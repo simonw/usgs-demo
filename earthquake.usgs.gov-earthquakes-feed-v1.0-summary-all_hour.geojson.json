@@ -1,141 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785568419000,
+    "generated": 1785654889000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 3
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "77 km NW of Yakutat, Alaska",
-        "time": 1785567713253,
-        "updated": 1785567839063,
+        "mag": 0.97,
+        "place": "8 km N of Cabazon, CA",
+        "time": 1785653988280,
+        "updated": 1785654202235,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pccshk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pccshk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665090",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665090.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026pccshk",
-        "ids": ",aka2026pccshk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.3,
-        "rms": 1,
-        "gap": 151,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 77 km NW of Yakutat, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.788,
-          59.992,
-          7.6
-        ]
-      },
-      "id": "aka2026pccshk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "57 km W of Tyonek, Alaska",
-        "time": 1785566305854,
-        "updated": 1785566381026,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pcbxyo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pcbxyo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "ak",
-        "code": "a2026pcbxyo",
-        "ids": ",aka2026pcbxyo,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.1,
-        "rms": 0.8,
-        "gap": 184,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 57 km W of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.187,
-          61.128,
-          43.7
-        ]
-      },
-      "id": "aka2026pcbxyo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.34,
-        "place": "23 km N of Ridgecrest, CA",
-        "time": 1785565900770,
-        "updated": 1785566107336,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664538",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40664538.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
+        "sig": 14,
         "net": "ci",
-        "code": "40664538",
-        "ids": ",ci40664538,",
+        "code": "40665090",
+        "ids": ",ci40665090,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.05118,
-        "rms": 0.11,
-        "gap": 80,
+        "nst": 57,
+        "dmin": 0.05321,
+        "rms": 0.16,
+        "gap": 33,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.3 - 23 km N of Ridgecrest, CA"
+        "title": "M 1.0 - 8 km N of Cabazon, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.659,
-          35.8268333333333,
-          8.83
+          -116.770666666667,
+          33.9916666666667,
+          13.22
         ]
       },
-      "id": "ci40664538"
+      "id": "ci40665090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.97,
+        "place": "16 km SE of Anza, CA",
+        "time": 1785653959830,
+        "updated": 1785654198150,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665082",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665082.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "40665082",
+        "ids": ",ci40665082,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.05971,
+        "rms": 0.2,
+        "gap": 24,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 16 km SE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.55,
+          33.4538333333333,
+          10.64
+        ]
+      },
+      "id": "ci40665082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "20 km W of Salamatof, Alaska",
+        "time": 1785653909779,
+        "updated": 1785654543703,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pdypwo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pdypwo.geojson",
+        "felt": 3,
+        "cdi": 2,
+        "mmi": 2.172,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 189,
+        "net": "ak",
+        "code": "a2026pdypwo",
+        "ids": ",aka2026pdypwo,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 210,
+        "dmin": 0.2,
+        "rms": 1,
+        "gap": 37,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 20 km W of Salamatof, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.698,
+          60.622,
+          81.2
+        ]
+      },
+      "id": "aka2026pdypwo"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "58 km NW of Toyah, Texas",
+        "time": 1785653711092,
+        "updated": 1785653915976,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pbnkhy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pbnkhy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "tx",
+        "code": "2026pbnkhy",
+        "ids": ",tx2026pbnkhy,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 58 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.287,
+          31.627,
+          4.2017
+        ]
+      },
+      "id": "tx2026pbnkhy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.46,
+        "place": "10 km WNW of Cobb, CA",
+        "time": 1785653386130,
+        "updated": 1785653481420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75410007",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75410007.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "nc",
+        "code": "75410007",
+        "ids": ",nc75410007,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.005715,
+        "rms": 0.04,
+        "gap": 116,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.5 - 10 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.830665588379,
+          38.8548316955566,
+          0.75
+        ]
+      },
+      "id": "nc75410007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "44 km SE of Naalehu, Hawaii",
+        "time": 1785652216150,
+        "updated": 1785652427810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75011712",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75011712.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "hv",
+        "code": "75011712",
+        "ids": ",hv75011712,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.3801,
+        "rms": 0.140000001,
+        "gap": 273,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 44 km SE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.235504150391,
+          18.8398342132568,
+          9.9399995803833
+        ]
+      },
+      "id": "hv75011712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "34 km ENE of McKinney Acres, Texas",
+        "time": 1785651606232,
+        "updated": 1785651857642,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pbmgxg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pbmgxg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "tx",
+        "code": "2026pbmgxg",
+        "ids": ",tx2026pbmgxg,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 57,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 34 km ENE of McKinney Acres, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.171,
+          32.363,
+          3.6632
+        ]
+      },
+      "id": "tx2026pbmgxg"
     }
   ],
   "bbox": [
-    -152.187,
-    35.826833333333,
-    7.6,
-    -117.659,
-    61.128,
-    43.7
+    -155.23550415039,
+    18.839834213257,
+    0.75,
+    -102.171,
+    60.622,
+    81.2
   ]
 }
