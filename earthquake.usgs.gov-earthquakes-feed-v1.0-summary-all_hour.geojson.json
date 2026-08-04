@@ -1,53 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785742450000,
+    "generated": 1785827885000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 1
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.41,
-        "place": "9 km SW of Idyllwild, CA",
-        "time": 1785740406940,
-        "updated": 1785740616767,
+        "mag": 1.4,
+        "place": "38 km SSE of Nelchina, Alaska",
+        "time": 1785827162864,
+        "updated": 1785827259882,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665506",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40665506.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026phqxpm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026phqxpm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "40665506",
-        "ids": ",ci40665506,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.08753,
-        "rms": 0.11,
-        "gap": 80,
+        "sig": 30,
+        "net": "ak",
+        "code": "a2026phqxpm",
+        "ids": ",aka2026phqxpm,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.3,
+        "rms": 0.3,
+        "gap": 162,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 9 km SW of Idyllwild, CA"
+        "title": "M 1.4 - 38 km SSE of Nelchina, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.789166666667,
-          33.684,
-          15.54
+          -146.49,
+          61.677,
+          32.3
         ]
       },
-      "id": "ci40665506"
+      "id": "aka2026phqxpm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.04,
+        "place": "7 km ESE of Cloverdale, CA",
+        "time": 1785827122260,
+        "updated": 1785827218932,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411037",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411037.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75411037",
+        "ids": ",nc75411037,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.05322,
+        "rms": 0.02,
+        "gap": 120,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 7 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.946830749512,
+          38.771167755127,
+          3.29999995231628
+        ]
+      },
+      "id": "nc75411037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.28,
+        "place": "7 km SSW of Pāhala, Hawaii",
+        "time": 1785826624640,
+        "updated": 1785826835620,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75012642",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75012642.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 80,
+        "net": "hv",
+        "code": "75012642",
+        "ids": ",hv75012642,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.03912,
+        "rms": 0.150000006,
+        "gap": 218,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 7 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.496826171875,
+          19.1340007781982,
+          34.8199996948242
+        ]
+      },
+      "id": "hv75012642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "47 km NE of Whittier, Alaska",
+        "time": 1785825533788,
+        "updated": 1785825707605,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026phqabe",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026phqabe.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026phqabe",
+        "ids": ",aka2026phqabe,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1,
+        "rms": 0.8,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 47 km NE of Whittier, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.991,
+          61.027,
+          36.6
+        ]
+      },
+      "id": "aka2026phqabe"
     }
+  ],
+  "bbox": [
+    -155.49682617188,
+    19.134000778198,
+    3.2999999523163,
+    -122.94683074951,
+    61.677,
+    36.6
   ]
 }
