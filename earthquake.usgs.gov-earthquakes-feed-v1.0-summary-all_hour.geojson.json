@@ -1,24 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1785827885000,
+    "generated": 1785914270000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 4
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "38 km SSE of Nelchina, Alaska",
-        "time": 1785827162864,
-        "updated": 1785827259882,
+        "mag": 1.07,
+        "place": "2 km N of The Geysers, CA",
+        "time": 1785913803500,
+        "updated": 1785913900988,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026phqxpm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026phqxpm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411652",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411652.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75411652",
+        "ids": ",nc75411652,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.00612,
+        "rms": 0.03,
+        "gap": 72,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 2 km N of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.759498596191,
+          38.7944984436035,
+          0.759999990463257
+        ]
+      },
+      "id": "nc75411652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.38,
+        "place": "8 km ESE of Cloverdale, CA",
+        "time": 1785912958980,
+        "updated": 1785913055776,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411647",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411647.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 29,
+        "net": "nc",
+        "code": "75411647",
+        "ids": ",nc75411647,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.05672,
+        "rms": 0.06,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.4 - 8 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.942337036133,
+          38.7706680297852,
+          4.23000001907349
+        ]
+      },
+      "id": "nc75411647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.4,
+        "place": "25 km ESE of Eagle River, Alaska",
+        "time": 1785912554259,
+        "updated": 1785912611585,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pjmjpi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pjmjpi.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,155 +107,235 @@
         "tsunami": 0,
         "sig": 30,
         "net": "ak",
-        "code": "a2026phqxpm",
-        "ids": ",aka2026phqxpm,",
+        "code": "a2026pjmjpi",
+        "ids": ",aka2026pjmjpi,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 8,
+        "nst": 11,
         "dmin": 0.3,
-        "rms": 0.3,
-        "gap": 162,
+        "rms": 0.8,
+        "gap": 104,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 38 km SSE of Nelchina, Alaska"
+        "title": "M 1.4 - 25 km ESE of Eagle River, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.49,
-          61.677,
-          32.3
+          -149.145,
+          61.209,
+          25.2
         ]
       },
-      "id": "aka2026phqxpm"
+      "id": "aka2026pjmjpi"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.04,
-        "place": "7 km ESE of Cloverdale, CA",
-        "time": 1785827122260,
-        "updated": 1785827218932,
+        "mag": 1.12,
+        "place": "8 km ESE of Cloverdale, CA",
+        "time": 1785912552450,
+        "updated": 1785912651768,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411037",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411037.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411642",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411642.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
+        "sig": 19,
         "net": "nc",
-        "code": "75411037",
-        "ids": ",nc75411037,",
+        "code": "75411642",
+        "ids": ",nc75411642,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.05322,
+        "nst": 10,
+        "dmin": 0.07452,
+        "rms": 0.04,
+        "gap": 124,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 8 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.941833496094,
+          38.7686653137207,
+          3.32999992370605
+        ]
+      },
+      "id": "nc75411642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "3 km SSW of Anderson Springs, CA",
+        "time": 1785912304900,
+        "updated": 1785912401786,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411637",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411637.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nc",
+        "code": "75411637",
+        "ids": ",nc75411637,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.02332,
+        "rms": 0.01,
+        "gap": 142,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 3 km SSW of Anderson Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.700332641602,
+          38.7448348999023,
+          1.3400000333786
+        ]
+      },
+      "id": "nc75411637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "Auckland Islands, New Zealand region",
+        "time": 1785912264701,
+        "updated": 1785913760040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti85",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ti85.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000ti85",
+        "ids": ",us6000ti85,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 97,
+        "dmin": 3.759,
+        "rms": 0.96,
+        "gap": 57,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - Auckland Islands, New Zealand region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          164.0845,
+          -49.5336,
+          21.906
+        ]
+      },
+      "id": "us6000ti85"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.32,
+        "place": "10 km ENE of Cloverdale, CA",
+        "time": 1785910976620,
+        "updated": 1785911071425,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75411632",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75411632.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "nc",
+        "code": "75411632",
+        "ids": ",nc75411632,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.019,
         "rms": 0.02,
-        "gap": 120,
+        "gap": 156,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.0 - 7 km ESE of Cloverdale, CA"
+        "title": "M 0.3 - 10 km ENE of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.946830749512,
-          38.771167755127,
-          3.29999995231628
+          -122.903831481934,
+          38.8278350830078,
+          3.41000008583069
         ]
       },
-      "id": "nc75411037"
+      "id": "nc75411632"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.28,
-        "place": "7 km SSW of Pāhala, Hawaii",
-        "time": 1785826624640,
-        "updated": 1785826835620,
+        "mag": 1.4,
+        "place": "54 km S of Whites City, New Mexico",
+        "time": 1785910783444,
+        "updated": 1785913230999,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75012642",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75012642.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pgzliw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pgzliw.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 80,
-        "net": "hv",
-        "code": "75012642",
-        "ids": ",hv75012642,",
-        "sources": ",hv,",
+        "sig": 30,
+        "net": "tx",
+        "code": "2026pgzliw",
+        "ids": ",tx2026pgzliw,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.03912,
-        "rms": 0.150000006,
-        "gap": 218,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.3 - 7 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.496826171875,
-          19.1340007781982,
-          34.8199996948242
-        ]
-      },
-      "id": "hv75012642"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "47 km NE of Whittier, Alaska",
-        "time": 1785825533788,
-        "updated": 1785825707605,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026phqabe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026phqabe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "ak",
-        "code": "a2026phqabe",
-        "ids": ",aka2026phqabe,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1,
-        "rms": 0.8,
-        "gap": 80,
+        "nst": 9,
+        "dmin": 0,
+        "rms": 0.6,
+        "gap": 79,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 47 km NE of Whittier, Alaska"
+        "title": "M 1.4 - 54 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.991,
-          61.027,
-          36.6
+          -104.482,
+          31.688,
+          12.307
         ]
       },
-      "id": "aka2026phqabe"
+      "id": "tx2026pgzliw"
     }
   ],
   "bbox": [
-    -155.49682617188,
-    19.134000778198,
-    3.2999999523163,
-    -122.94683074951,
-    61.677,
-    36.6
+    -149.145,
+    -49.5336,
+    0.75999999046326,
+    164.0845,
+    61.209,
+    25.2
   ]
 }
