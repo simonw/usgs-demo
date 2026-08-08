@@ -1,301 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786085348000,
+    "generated": 1786171052000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 7
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.69,
-        "place": "9 km WNW of Cobb, CA",
-        "time": 1786085230120,
-        "updated": 1786085327155,
+        "mag": 2.1,
+        "place": "56 km WNW of Skwentna, Alaska",
+        "time": 1786169445002,
+        "updated": 1786169522857,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413152",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75413152.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pozdxv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pozdxv.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75413152",
-        "ids": ",nc75413152,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.009086,
-        "rms": 0.03,
-        "gap": 105,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 9 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.815002441406,
-          38.8610000610352,
-          2.05999994277954
-        ]
-      },
-      "id": "nc75413152"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "62 km E of Cantwell, Alaska",
-        "time": 1786084954807,
-        "updated": 1786085031871,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pneeys",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pneeys.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026pneeys",
-        "ids": ",aka2026pneeys,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.6,
-        "rms": 0.6,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 62 km E of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.719,
-          63.466,
-          5
-        ]
-      },
-      "id": "aka2026pneeys"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.08,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1786083120760,
-        "updated": 1786083215962,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413137",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75413137.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75413137",
-        "ids": ",nc75413137,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.004827,
-        "rms": 0.02,
-        "gap": 73,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 6 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.78450012207,
-          38.8368339538574,
-          2.3199999332428
-        ]
-      },
-      "id": "nc75413137"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.62,
-        "place": "23 km NE of Pine Valley, CA",
-        "time": 1786082956760,
-        "updated": 1786083166868,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40667674",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40667674.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ci",
-        "code": "40667674",
-        "ids": ",ci40667674,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.0254,
-        "rms": 0.09,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 23 km NE of Pine Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.329166666667,
-          32.9413333333333,
-          8.31
-        ]
-      },
-      "id": "ci40667674"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.11,
-        "place": "37 km WSW of Ludlow, CA",
-        "time": 1786082877190,
-        "updated": 1786083579822,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40667666",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40667666.geojson",
-        "felt": 1,
-        "cdi": 0,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
         "sig": 68,
-        "net": "ci",
-        "code": "40667666",
-        "ids": ",ci40667666,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.1146,
-        "rms": 0.15,
-        "gap": 42,
+        "net": "ak",
+        "code": "a2026pozdxv",
+        "ids": ",aka2026pozdxv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.5,
+        "rms": 0.5,
+        "gap": 102,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 37 km WSW of Ludlow, CA"
+        "title": "M 2.1 - 56 km WNW of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.518,
-          34.57,
-          3.32
+          -152.337,
+          62.241,
+          5
         ]
       },
-      "id": "ci40667666"
+      "id": "aka2026pozdxv"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.51,
-        "place": "15 km W of Alpaugh, CA",
-        "time": 1786082786910,
-        "updated": 1786082885786,
+        "mag": 1.65,
+        "place": "7 km W of San Ardo, CA",
+        "time": 1786168265750,
+        "updated": 1786168362617,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413127",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75413127.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413897",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75413897.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
+        "sig": 42,
         "net": "nc",
-        "code": "75413127",
-        "ids": ",nc75413127,",
+        "code": "75413897",
+        "ids": ",nc75413897,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.2176,
-        "rms": 0.14,
-        "gap": 143,
+        "nst": 31,
+        "dmin": 0.07418,
+        "rms": 0.1,
+        "gap": 78,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 15 km W of Alpaugh, CA"
+        "title": "M 1.7 - 7 km W of San Ardo, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.651336669922,
-          35.8856658935547,
-          17.6200008392334
+          -120.980331420898,
+          36.0321655273438,
+          11.6899995803833
         ]
       },
-      "id": "nc75413127"
+      "id": "nc75413897"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1786082777530,
-        "updated": 1786082875894,
+        "mag": 2.1,
+        "place": "57 km WNW of Skwentna, Alaska",
+        "time": 1786167958028,
+        "updated": 1786168051302,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413122",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75413122.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026poyilk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026poyilk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75413122",
-        "ids": ",nc75413122,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.01004,
-        "rms": 0.01,
-        "gap": 97,
-        "magType": "md",
+        "sig": 68,
+        "net": "ak",
+        "code": "a2026poyilk",
+        "ids": ",aka2026poyilk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.6,
+        "rms": 0.5,
+        "gap": 102,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 6 km NW of The Geysers, CA"
+        "title": "M 2.1 - 57 km WNW of Skwentna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.816833496094,
-          38.8116683959961,
-          3.26999998092651
+          -152.338,
+          62.26,
+          5
         ]
       },
-      "id": "nc75413122"
+      "id": "aka2026poyilk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "95 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1786167579927,
+        "updated": 1786168790040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj70",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tj70.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000tj70",
+        "ids": ",us6000tj70,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 96,
+        "dmin": 3.481,
+        "rms": 0.62,
+        "gap": 123,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 95 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.753,
+          49.8507,
+          82.521
+        ]
+      },
+      "id": "us6000tj70"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "55 km WNW of Skwentna, Alaska",
+        "time": 1786167573023,
+        "updated": 1786167652470,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026poycws",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026poycws.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026poycws",
+        "ids": ",aka2026poycws,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.7,
+        "rms": 0.5,
+        "gap": 51,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 55 km WNW of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.322,
+          62.245,
+          5
+        ]
+      },
+      "id": "aka2026poycws"
     }
   ],
   "bbox": [
-    -147.719,
-    32.941333333333,
-    2.0599999427795,
-    -116.32916666667,
-    63.466,
-    17.620000839233
+    -152.338,
+    36.032165527344,
+    5,
+    155.753,
+    62.26,
+    82.521
   ]
 }
