@@ -1,221 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786171052000,
+    "generated": 1786257458000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "56 km WNW of Skwentna, Alaska",
-        "time": 1786169445002,
-        "updated": 1786169522857,
+        "mag": 1.08,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1786257116990,
+        "updated": 1786257322438,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pozdxv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pozdxv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669170",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40669170.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "a2026pozdxv",
-        "ids": ",aka2026pozdxv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.5,
-        "rms": 0.5,
-        "gap": 102,
+        "sig": 18,
+        "net": "ci",
+        "code": "40669170",
+        "ids": ",ci40669170,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 40,
+        "dmin": 0.05977,
+        "rms": 0.17,
+        "gap": 54,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 56 km WNW of Skwentna, Alaska"
+        "title": "M 1.1 - 17 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.337,
-          62.241,
-          5
+          -117.811166666667,
+          35.3201666666667,
+          7.99
         ]
       },
-      "id": "aka2026pozdxv"
+      "id": "ci40669170"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.65,
-        "place": "7 km W of San Ardo, CA",
-        "time": 1786168265750,
-        "updated": 1786168362617,
+        "mag": 1.09,
+        "place": "7 km ESE of Cloverdale, CA",
+        "time": 1786256747330,
+        "updated": 1786256844614,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413897",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75413897.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414487",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75414487.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 42,
+        "sig": 18,
         "net": "nc",
-        "code": "75413897",
-        "ids": ",nc75413897,",
+        "code": "75414487",
+        "ids": ",nc75414487,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.07418,
-        "rms": 0.1,
-        "gap": 78,
+        "nst": 8,
+        "dmin": 0.05722,
+        "rms": 0.03,
+        "gap": 149,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 7 km W of San Ardo, CA"
+        "title": "M 1.1 - 7 km ESE of Cloverdale, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.980331420898,
-          36.0321655273438,
-          11.6899995803833
+          -122.94083404541,
+          38.7878341674805,
+          3.27999997138977
         ]
       },
-      "id": "nc75413897"
+      "id": "nc75414487"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.1,
-        "place": "57 km WNW of Skwentna, Alaska",
-        "time": 1786167958028,
-        "updated": 1786168051302,
+        "mag": 2.39,
+        "place": "8 km S of Kapaau, Hawaii",
+        "time": 1786255797980,
+        "updated": 1786256005490,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026poyilk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026poyilk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75015317",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75015317.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 68,
+        "sig": 88,
+        "net": "hv",
+        "code": "75015317",
+        "ids": ",hv75015317,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 0.03725,
+        "rms": 0.200000003,
+        "gap": 199,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 8 km S of Kapaau, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.789169311523,
+          20.1608333587646,
+          23.6499996185303
+        ]
+      },
+      "id": "hv75015317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "87 km SE of Ugashik, Alaska",
+        "time": 1786255433448,
+        "updated": 1786255519476,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pquynx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pquynx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
         "net": "ak",
-        "code": "a2026poyilk",
-        "ids": ",aka2026poyilk,",
+        "code": "a2026pquynx",
+        "ids": ",aka2026pquynx,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 17,
+        "nst": 52,
         "dmin": 0.6,
-        "rms": 0.5,
-        "gap": 102,
+        "rms": 0.9,
+        "gap": 75,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 57 km WNW of Skwentna, Alaska"
+        "title": "M 2.9 - 87 km SE of Ugashik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.338,
-          62.26,
-          5
+          -156.192,
+          57.07,
+          1.8
         ]
       },
-      "id": "aka2026poyilk"
+      "id": "aka2026pquynx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "95 km SSW of Severo-Kuril’sk, Russia",
-        "time": 1786167579927,
-        "updated": 1786168790040,
+        "mag": 1.43,
+        "place": "6 km WNW of Aguanga, CA",
+        "time": 1786255052600,
+        "updated": 1786255256786,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj70",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tj70.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000tj70",
-        "ids": ",us6000tj70,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 96,
-        "dmin": 3.481,
-        "rms": 0.62,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 95 km SSW of Severo-Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          155.753,
-          49.8507,
-          82.521
-        ]
-      },
-      "id": "us6000tj70"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.4,
-        "place": "55 km WNW of Skwentna, Alaska",
-        "time": 1786167573023,
-        "updated": 1786167652470,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026poycws",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026poycws.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669162",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40669162.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "a2026poycws",
-        "ids": ",aka2026poycws,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.7,
-        "rms": 0.5,
-        "gap": 51,
+        "sig": 31,
+        "net": "ci",
+        "code": "40669162",
+        "ids": ",ci40669162,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.1096,
+        "rms": 0.33,
+        "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 55 km WNW of Skwentna, Alaska"
+        "title": "M 1.4 - 6 km WNW of Aguanga, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.322,
-          62.245,
-          5
+          -116.926166666667,
+          33.455,
+          29.39
         ]
       },
-      "id": "aka2026poycws"
+      "id": "ci40669162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.06,
+        "place": "27 km E of Honaunau-Napoopoo, Hawaii",
+        "time": 1786254967370,
+        "updated": 1786255179070,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75015312",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75015312.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 65,
+        "net": "hv",
+        "code": "75015312",
+        "ids": ",hv75015312,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.04956,
+        "rms": 0.300000012,
+        "gap": 74,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 27 km E of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.606826782227,
+          19.4231662750244,
+          36.3600006103516
+        ]
+      },
+      "id": "hv75015312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "18 km SSE of Ackerly, Texas",
+        "time": 1786254369544,
+        "updated": 1786255924208,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pohfwu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pohfwu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "tx",
+        "code": "2026pohfwu",
+        "ids": ",tx2026pohfwu,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 18 km SSE of Ackerly, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.624,
+          32.379,
+          4.4939
+        ]
+      },
+      "id": "tx2026pohfwu"
     }
   ],
   "bbox": [
-    -152.338,
-    36.032165527344,
-    5,
-    155.753,
-    62.26,
-    82.521
+    -156.192,
+    19.423166275024,
+    1.8,
+    -101.624,
+    57.07,
+    36.360000610352
   ]
 }
