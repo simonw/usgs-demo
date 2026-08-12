@@ -1,421 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786430351000,
+    "generated": 1786517475000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 10
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.5,
-        "place": "85 km N of Karluk, Alaska",
-        "time": 1786429129200,
-        "updated": 1786429182647,
+        "mag": 1.32,
+        "place": "10 km WSW of Corona, CA",
+        "time": 1786517253760,
+        "updated": 1786517468037,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026punmpv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026punmpv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670954",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670954.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
-        "net": "ak",
-        "code": "a2026punmpv",
-        "ids": ",aka2026punmpv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1,
-        "rms": 0.7,
-        "gap": 194,
+        "sig": 27,
+        "net": "ci",
+        "code": "40670954",
+        "ids": ",ci40670954,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 62,
+        "dmin": 0.05189,
+        "rms": 0.2,
+        "gap": 45,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 85 km N of Karluk, Alaska"
+        "title": "M 1.3 - 10 km WSW of Corona, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.687,
-          58.329,
-          5
+          -117.664166666667,
+          33.833,
+          3.03
         ]
       },
-      "id": "aka2026punmpv"
+      "id": "ci40670954"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.69,
-        "place": "9 km SSE of Llano, CA",
-        "time": 1786428891990,
-        "updated": 1786429519540,
+        "mag": 1.55,
+        "place": "5 km N of Moreno Valley, CA",
+        "time": 1786516004670,
+        "updated": 1786516642260,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670314",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670314.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670946",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670946.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
+        "sig": 37,
         "net": "ci",
-        "code": "40670314",
-        "ids": ",ci40670314,",
+        "code": "40670946",
+        "ids": ",ci40670946,",
         "sources": ",ci,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 75,
-        "dmin": 0.0687,
-        "rms": 0.2,
-        "gap": 31,
+        "nst": 87,
+        "dmin": 0.0445,
+        "rms": 0.16,
+        "gap": 35,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 9 km SSE of Llano, CA"
+        "title": "M 1.6 - 5 km N of Moreno Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.751166666667,
-          34.415,
-          5.52
+          -117.219166666667,
+          33.9696666666667,
+          11.36
         ]
       },
-      "id": "ci40670314"
+      "id": "ci40670946"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.07,
-        "place": "7 km WNW of Cobb, CA",
-        "time": 1786428759790,
-        "updated": 1786428854103,
+        "mag": 1.89,
+        "place": "6 km NNW of Pinnacles, CA",
+        "time": 1786515811570,
+        "updated": 1786515907036,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415647",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75415647.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75416552",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75416552.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
+        "sig": 55,
         "net": "nc",
-        "code": "75415647",
-        "ids": ",nc75415647,",
+        "code": "75416552",
+        "ids": ",nc75416552,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.007475,
-        "rms": 0.01,
-        "gap": 65,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.799331665039,
-          38.8358345031738,
-          2.11999988555908
-        ]
-      },
-      "id": "nc75415647"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.25,
-        "place": "11 km NNE of Tecate, B.C., MX",
-        "time": 1786428537090,
-        "updated": 1786428739191,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670306",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670306.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 24,
-        "net": "ci",
-        "code": "40670306",
-        "ids": ",ci40670306,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.07906,
-        "rms": 0.06,
-        "gap": 162,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 11 km NNE of Tecate, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5785,
-          32.6495,
-          -0.75
-        ]
-      },
-      "id": "ci40670306"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "9 km SW of Hilo, Hawaii",
-        "time": 1786428493570,
-        "updated": 1786428704510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75017681",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75017681.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "hv",
-        "code": "75017681",
-        "ids": ",hv75017681,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.131,
-        "rms": 0.239999995,
-        "gap": 88,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 9 km SW of Hilo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.15950012207,
-          19.6673336029053,
-          9.25
-        ]
-      },
-      "id": "hv75017681"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.23,
-        "place": "12 km S of Olancha, CA",
-        "time": 1786428293040,
-        "updated": 1786428497394,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670298",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670298.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "ci",
-        "code": "40670298",
-        "ids": ",ci40670298,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1489,
-        "rms": 0.16,
-        "gap": 55,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 12 km S of Olancha, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.023833333333,
-          36.1765,
-          3.73
-        ]
-      },
-      "id": "ci40670298"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "41 km NW of Toyah, Texas",
-        "time": 1786428019972,
-        "updated": 1786428812941,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026przdtx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026przdtx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "tx",
-        "code": "2026przdtx",
-        "ids": ",tx2026przdtx,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 41 km NW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.156,
-          31.529,
-          4.4547
-        ]
-      },
-      "id": "tx2026przdtx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.82,
-        "place": "25 km NNW of Pāhala, Hawaii",
-        "time": 1786427722660,
-        "updated": 1786427938260,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75017676",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75017676.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 51,
-        "net": "hv",
-        "code": "75017676",
-        "ids": ",hv75017676,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
         "nst": 22,
-        "dmin": 0.03569,
-        "rms": 0.239999995,
-        "gap": 51,
+        "dmin": 0.00862,
+        "rms": 0.14,
+        "gap": 68,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.8 - 25 km NNW of Pāhala, Hawaii"
+        "title": "M 1.9 - 6 km NNW of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.59016418457,
-          19.4078330993652,
-          39.6500015258789
-        ]
-      },
-      "id": "hv75017676"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.4,
-        "place": "85 km NW of Karluk, Alaska",
-        "time": 1786427567971,
-        "updated": 1786427616605,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pumqbq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pumqbq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "ak",
-        "code": "a2026pumqbq",
-        "ids": ",aka2026pumqbq,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 89,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 85 km NW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.366,
-          58.168,
+          -121.176498413086,
+          36.5764999389648,
           5
         ]
       },
-      "id": "aka2026pumqbq"
+      "id": "nc75416552"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.27,
-        "place": "6 km NNE of Lake Henshaw, CA",
-        "time": 1786427011760,
-        "updated": 1786427214544,
+        "mag": 1.62,
+        "place": "10 km WSW of Corona, CA",
+        "time": 1786515570770,
+        "updated": 1786516216480,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670290",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670290.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670938",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670938.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 1,
+        "sig": 40,
         "net": "ci",
-        "code": "40670290",
-        "ids": ",ci40670290,",
+        "code": "40670938",
+        "ids": ",ci40670938,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 26,
-        "dmin": 0.05822,
-        "rms": 0.13,
-        "gap": 47,
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 85,
+        "dmin": 0.05216,
+        "rms": 0.19,
+        "gap": 30,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.3 - 6 km NNE of Lake Henshaw, CA"
+        "title": "M 1.6 - 10 km WSW of Corona, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.735,
-          33.2908333333333,
-          13.3
+          -117.664666666667,
+          33.8321666666667,
+          3.11
         ]
       },
-      "id": "ci40670290"
+      "id": "ci40670938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.71,
+        "place": "10 km WSW of Corona, CA",
+        "time": 1786515453170,
+        "updated": 1786517371448,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670930",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670930.geojson",
+        "felt": 9,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 116,
+        "net": "ci",
+        "code": "40670930",
+        "ids": ",ci40670930,",
+        "sources": ",ci,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 50,
+        "dmin": 0.05246,
+        "rms": 0.2,
+        "gap": 44,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 10 km WSW of Corona, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.662666666667,
+          33.8335,
+          2.96
+        ]
+      },
+      "id": "ci40670930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.10943572112956,
+        "place": "9 km WSW of Corona, CA",
+        "time": 1786515426410,
+        "updated": 1786517311800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670922",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40670922.geojson",
+        "felt": 275,
+        "cdi": 3.4,
+        "mmi": 3.371,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 242,
+        "net": "ci",
+        "code": "40670922",
+        "ids": ",ci40670922,",
+        "sources": ",ci,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 125,
+        "dmin": 0.05327,
+        "rms": 0.25999999,
+        "gap": 18,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 9 km WSW of Corona, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.656997680664,
+          33.8306655883789,
+          2.4300000667572
+        ]
+      },
+      "id": "ci40670922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.25,
+        "place": "45 km ESE of Naalehu, Hawaii",
+        "time": 1786514604310,
+        "updated": 1786514820190,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018371",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018371.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 78,
+        "net": "hv",
+        "code": "75018371",
+        "ids": ",hv75018371,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.371,
+        "rms": 0.239999995,
+        "gap": 262,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.3 - 45 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.196838378906,
+          18.8806667327881,
+          3.39000010490417
+        ]
+      },
+      "id": "hv75018371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.88,
+        "place": "45 km ESE of Naalehu, Hawaii",
+        "time": 1786514179540,
+        "updated": 1786514382440,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018366",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018366.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 54,
+        "net": "hv",
+        "code": "75018366",
+        "ids": ",hv75018366,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.3711,
+        "rms": 0.150000006,
+        "gap": 262,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 45 km ESE of Naalehu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.201995849609,
+          18.8761672973633,
+          7.59000015258789
+        ]
+      },
+      "id": "hv75018366"
     }
   ],
   "bbox": [
-    -155.59016418457,
-    19.407833099365,
-    -0.75,
-    -104.156,
-    58.329,
-    39.650001525879
+    -155.20199584961,
+    18.876167297363,
+    2.4300000667572,
+    -117.21916666667,
+    36.576499938965,
+    11.36
   ]
 }
