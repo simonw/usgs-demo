@@ -1,261 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786603946000,
+    "generated": 1786690286000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.41,
-        "place": "2 km E of Hayward, CA",
-        "time": 1786603485560,
-        "updated": 1786603584812,
+        "mag": 1.22759329631114,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1786690117170,
+        "updated": 1786690242176,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417357",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75417357.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672314",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40672314.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 31,
-        "net": "nc",
-        "code": "75417357",
-        "ids": ",nc75417357,",
-        "sources": ",nc,",
+        "sig": 23,
+        "net": "ci",
+        "code": "40672314",
+        "ids": ",ci40672314,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.07909,
-        "rms": 0.06,
-        "gap": 101,
+        "nst": 23,
+        "dmin": 0.05676,
+        "rms": 0.230000004,
+        "gap": 115,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 17 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.803497314453,
+          35.3125,
+          6.38000011444092
+        ]
+      },
+      "id": "ci40672314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": -0.22,
+        "place": "12 km W of Anza, CA",
+        "time": 1786689829480,
+        "updated": 1786690030524,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672306",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40672306.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 0,
+        "net": "ci",
+        "code": "40672306",
+        "ids": ",ci40672306,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.03715,
+        "rms": 0.18,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M -0.2 - 12 km W of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.802,
+          33.5741666666667,
+          6.12
+        ]
+      },
+      "id": "ci40672306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.87,
+        "place": "10 km NE of Pāhala, Hawaii",
+        "time": 1786689010690,
+        "updated": 1786689231140,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018532",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018532.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 54,
+        "net": "hv",
+        "code": "75018532",
+        "ids": ",hv75018532,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.0287,
+        "rms": 0.200000003,
+        "gap": 156,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.4 - 2 km E of Hayward, CA"
+        "title": "M 1.9 - 10 km NE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.052833557129,
-          37.6446647644043,
-          4.3899998664856
+          -155.408660888672,
+          19.2643337249756,
+          30.9899997711182
         ]
       },
-      "id": "nc75417357"
+      "id": "hv75018532"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "21 km W of Garden City, Texas",
-        "time": 1786602625884,
-        "updated": 1786602963040,
+        "mag": 0.91,
+        "place": "4 km WSW of Morongo Valley, CA",
+        "time": 1786688805710,
+        "updated": 1786689005805,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pvrppd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pvrppd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672298",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40672298.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2026pvrppd",
-        "ids": ",us6000tke5,tx2026pvrppd,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 98,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 55,
+        "sig": 13,
+        "net": "ci",
+        "code": "40672298",
+        "ids": ",ci40672298,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.02324,
+        "rms": 0.18,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 21 km W of Garden City, Texas"
+        "title": "M 0.9 - 4 km WSW of Morongo Valley, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.703,
-          31.852,
-          2.8548
+          -116.6225,
+          34.0288333333333,
+          10.43
         ]
       },
-      "id": "tx2026pvrppd"
+      "id": "ci40672298"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "43 km SE of Nelchina, Alaska",
-        "time": 1786602060298,
-        "updated": 1786602784254,
+        "mag": 2,
+        "place": "41 km NNW of Petersville, Alaska",
+        "time": 1786688633898,
+        "updated": 1786688722823,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pyfpqz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pyfpqz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qabstb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qabstb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
+        "sig": 62,
         "net": "ak",
-        "code": "a2026pyfpqz",
-        "ids": ",aka2026pyfpqz,",
+        "code": "a2026qabstb",
+        "ids": ",aka2026qabstb,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.2,
-        "rms": 0.7,
-        "gap": 88,
+        "nst": 44,
+        "dmin": 0.3,
+        "rms": 0.5,
+        "gap": 42,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 43 km SE of Nelchina, Alaska"
+        "title": "M 2.0 - 41 km NNW of Petersville, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.277,
-          61.674,
-          19.3
+          -151.107,
+          62.83,
+          106.9
         ]
       },
-      "id": "aka2026pyfpqz"
+      "id": "aka2026qabstb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.77,
+        "place": "4 km NW of Pinnacles, CA",
+        "time": 1786688512550,
+        "updated": 1786689742000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418052",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75418052.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 48,
+        "net": "nc",
+        "code": "75418052",
+        "ids": ",nc75418052,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 10,
+        "dmin": 0.1135,
+        "rms": 0.33,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 4 km NW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.177833557129,
+          36.5563316345215,
+          0.119999997317791
+        ]
+      },
+      "id": "nc75418052"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.7,
-        "place": "37 km WNW of Karluk, Alaska",
-        "time": 1786601900377,
-        "updated": 1786602673966,
+        "place": "7 km NE of Balmorhea, Texas",
+        "time": 1786687195058,
+        "updated": 1786687560022,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pyfnit",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026pyfnit.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pxmibb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pxmibb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
         "sig": 44,
+        "net": "tx",
+        "code": "2026pxmibb",
+        "ids": ",tx2026pxmibb,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.3,
+        "rms": 1.2,
+        "gap": 242,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 7 km NE of Balmorhea, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.688,
+          31.035,
+          0
+        ]
+      },
+      "id": "tx2026pxmibb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "31 km WNW of Susitna, Alaska",
+        "time": 1786686942458,
+        "updated": 1786687056392,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qaauhr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qaauhr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
         "net": "ak",
-        "code": "a2026pyfnit",
-        "ids": ",aka2026pyfnit,",
+        "code": "a2026qaauhr",
+        "ids": ",aka2026qaauhr,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.3,
-        "rms": 0.4,
-        "gap": 137,
+        "nst": 23,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 82,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 37 km WNW of Karluk, Alaska"
+        "title": "M 1.9 - 31 km WNW of Susitna, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -154.982,
-          57.758,
-          70.6
+          -151.044,
+          61.665,
+          77.7
         ]
       },
-      "id": "aka2026pyfnit"
+      "id": "aka2026qaauhr"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.16,
-        "place": "34 km SSW of Pa‘auilo, Hawaii",
-        "time": 1786601744040,
-        "updated": 1786601965390,
+        "mag": 2.31,
+        "place": "29 km SE of Waikoloa, Hawaii",
+        "time": 1786686774120,
+        "updated": 1786686991820,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018906",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018906.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018512",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018512.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 72,
+        "sig": 82,
         "net": "hv",
-        "code": "75018906",
-        "ids": ",hv75018906,",
+        "code": "75018512",
+        "ids": ",hv75018512,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.03912,
+        "nst": 49,
+        "dmin": 0.06783,
         "rms": 0.159999996,
-        "gap": 103,
+        "gap": 119,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.2 - 34 km SSW of Pa‘auilo, Hawaii"
+        "title": "M 2.3 - 29 km SE of Waikoloa, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.491333007812,
-          19.7551670074463,
-          29.3799991607666
+          -155.600830078125,
+          19.7355003356934,
+          30.2299995422363
         ]
       },
-      "id": "hv75018906"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.86,
-        "place": "20 km NNW of Pāhala, Hawaii",
-        "time": 1786600351980,
-        "updated": 1786600567460,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018901",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018901.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 53,
-        "net": "hv",
-        "code": "75018901",
-        "ids": ",hv75018901,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.03643,
-        "rms": 0.300000012,
-        "gap": 55,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 20 km NNW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.540161132812,
-          19.3759994506836,
-          0.959999978542328
-        ]
-      },
-      "id": "hv75018901"
+      "id": "hv75018512"
     }
   ],
   "bbox": [
-    -155.54016113281,
-    19.375999450684,
-    0.95999997854233,
-    -101.703,
-    61.674,
-    70.6
+    -155.60083007812,
+    19.264333724976,
+    0,
+    -103.688,
+    62.83,
+    106.9
   ]
 }
