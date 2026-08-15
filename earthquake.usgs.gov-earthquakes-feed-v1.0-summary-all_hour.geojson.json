@@ -1,381 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786690286000,
+    "generated": 1786775745000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 9
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.22759329631114,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1786690117170,
-        "updated": 1786690242176,
+        "mag": 1.41,
+        "place": "16 km ESE of Julian, CA",
+        "time": 1786774867450,
+        "updated": 1786775070682,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672314",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40672314.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673018",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40673018.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 23,
+        "sig": 31,
         "net": "ci",
-        "code": "40672314",
-        "ids": ",ci40672314,",
+        "code": "40673018",
+        "ids": ",ci40673018,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.05676,
-        "rms": 0.230000004,
-        "gap": 115,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.03173,
+        "rms": 0.15,
+        "gap": 82,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 17 km WSW of Johannesburg, CA"
+        "title": "M 1.4 - 16 km ESE of Julian, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.803497314453,
-          35.3125,
-          6.38000011444092
+          -116.437,
+          33.0455,
+          9.56
         ]
       },
-      "id": "ci40672314"
+      "id": "ci40673018"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": -0.22,
-        "place": "12 km W of Anza, CA",
-        "time": 1786689829480,
-        "updated": 1786690030524,
+        "mag": 2.58,
+        "place": "1 km NNW of Volcano, Hawaii",
+        "time": 1786774303760,
+        "updated": 1786775351340,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672306",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40672306.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75019107",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75019107.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 0,
-        "net": "ci",
-        "code": "40672306",
-        "ids": ",ci40672306,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.03715,
-        "rms": 0.18,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M -0.2 - 12 km W of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.802,
-          33.5741666666667,
-          6.12
-        ]
-      },
-      "id": "ci40672306"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.87,
-        "place": "10 km NE of Pāhala, Hawaii",
-        "time": 1786689010690,
-        "updated": 1786689231140,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018532",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018532.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
+        "sig": 102,
         "net": "hv",
-        "code": "75018532",
-        "ids": ",hv75018532,",
-        "sources": ",hv,",
+        "code": "75019107",
+        "ids": ",us6000tkwm,hv75019107,",
+        "sources": ",us,hv,",
         "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.0287,
-        "rms": 0.200000003,
-        "gap": 156,
+        "nst": 61,
+        "dmin": 0.03313,
+        "rms": 0.13,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 1 km NNW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.241,
+          19.4531666666667,
+          21.73
+        ]
+      },
+      "id": "hv75019107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.07,
+        "place": "6 km W of Cobb, CA",
+        "time": 1786773897170,
+        "updated": 1786773991129,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418627",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75418627.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75418627",
+        "ids": ",nc75418627,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.0116,
+        "rms": 0.07,
+        "gap": 139,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 10 km NE of Pāhala, Hawaii"
+        "title": "M 1.1 - 6 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.408660888672,
-          19.2643337249756,
-          30.9899997711182
+          -122.795829772949,
+          38.8266677856445,
+          3.24000000953674
         ]
       },
-      "id": "hv75018532"
+      "id": "nc75418627"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.91,
-        "place": "4 km WSW of Morongo Valley, CA",
-        "time": 1786688805710,
-        "updated": 1786689005805,
+        "mag": 2.8,
+        "place": "1 km SSW of Houston, Alaska",
+        "time": 1786773649516,
+        "updated": 1786773741942,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672298",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40672298.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qbwzhu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qbwzhu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "40672298",
-        "ids": ",ci40672298,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.02324,
-        "rms": 0.18,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 4 km WSW of Morongo Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.6225,
-          34.0288333333333,
-          10.43
-        ]
-      },
-      "id": "ci40672298"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "41 km NNW of Petersville, Alaska",
-        "time": 1786688633898,
-        "updated": 1786688722823,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qabstb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qabstb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
+        "sig": 121,
         "net": "ak",
-        "code": "a2026qabstb",
-        "ids": ",aka2026qabstb,",
+        "code": "a2026qbwzhu",
+        "ids": ",aka2026qbwzhu,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 42,
+        "nst": 78,
+        "dmin": 0.5,
+        "rms": 0.9,
+        "gap": 47,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 41 km NNW of Petersville, Alaska"
+        "title": "M 2.8 - 1 km SSW of Houston, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.107,
-          62.83,
-          106.9
+          -149.836,
+          61.617,
+          15.4
         ]
       },
-      "id": "aka2026qabstb"
+      "id": "aka2026qbwzhu"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.77,
-        "place": "4 km NW of Pinnacles, CA",
-        "time": 1786688512550,
-        "updated": 1786689742000,
+        "mag": 1,
+        "place": "18 km NW of Stanton, Texas",
+        "time": 1786773452228,
+        "updated": 1786773655057,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418052",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75418052.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pzhyoa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pzhyoa.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 48,
-        "net": "nc",
-        "code": "75418052",
-        "ids": ",nc75418052,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 10,
-        "dmin": 0.1135,
-        "rms": 0.33,
-        "gap": 82,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 4 km NW of Pinnacles, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.177833557129,
-          36.5563316345215,
-          0.119999997317791
-        ]
-      },
-      "id": "nc75418052"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "7 km NE of Balmorhea, Texas",
-        "time": 1786687195058,
-        "updated": 1786687560022,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pxmibb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026pxmibb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
+        "sig": 15,
         "net": "tx",
-        "code": "2026pxmibb",
-        "ids": ",tx2026pxmibb,",
+        "code": "2026pzhyoa",
+        "ids": ",tx2026pzhyoa,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.3,
-        "rms": 1.2,
-        "gap": 242,
+        "nst": 44,
+        "dmin": 0,
+        "rms": 0.6,
+        "gap": 28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 7 km NE of Balmorhea, Texas"
+        "title": "M 1.0 - 18 km NW of Stanton, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.688,
-          31.035,
-          0
+          -101.917,
+          32.259,
+          2.7343
         ]
       },
-      "id": "tx2026pxmibb"
+      "id": "tx2026pzhyoa"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "31 km WNW of Susitna, Alaska",
-        "time": 1786686942458,
-        "updated": 1786687056392,
+        "mag": 2.3,
+        "place": "53 km E of Egegik, Alaska",
+        "time": 1786773237175,
+        "updated": 1786773298954,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qaauhr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qaauhr.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qbwtip",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qbwtip.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 81,
         "net": "ak",
-        "code": "a2026qaauhr",
-        "ids": ",aka2026qaauhr,",
+        "code": "a2026qbwtip",
+        "ids": ",aka2026qbwtip,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.4,
+        "nst": 32,
+        "dmin": 0.3,
         "rms": 0.6,
-        "gap": 82,
+        "gap": 87,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 31 km WNW of Susitna, Alaska"
+        "title": "M 2.3 - 53 km E of Egegik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.044,
-          61.665,
-          77.7
+          -156.464,
+          58.182,
+          0.6
         ]
       },
-      "id": "aka2026qaauhr"
+      "id": "aka2026qbwtip"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.31,
-        "place": "29 km SE of Waikoloa, Hawaii",
-        "time": 1786686774120,
-        "updated": 1786686991820,
+        "mag": 5,
+        "place": "62 km NNW of Ende, Indonesia",
+        "time": 1786772708046,
+        "updated": 1786774251926,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018512",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75018512.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkwj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tkwj.geojson",
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 82,
-        "net": "hv",
-        "code": "75018512",
-        "ids": ",hv75018512,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.06783,
-        "rms": 0.159999996,
-        "gap": 119,
-        "magType": "ml",
+        "sig": 385,
+        "net": "us",
+        "code": "6000tkwj",
+        "ids": ",us6000tkwj,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 47,
+        "dmin": 3.184,
+        "rms": 1.19,
+        "gap": 75,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.3 - 29 km SE of Waikoloa, Hawaii"
+        "title": "M 5.0 - 62 km NNW of Ende, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.600830078125,
-          19.7355003356934,
-          30.2299995422363
+          121.3609,
+          -8.3681,
+          10
         ]
       },
-      "id": "hv75018512"
+      "id": "us6000tkwj"
     }
   ],
   "bbox": [
-    -155.60083007812,
-    19.264333724976,
-    0,
-    -103.688,
-    62.83,
-    106.9
+    -156.464,
+    -8.3681,
+    0.6,
+    121.3609,
+    61.617,
+    21.73
   ]
 }
