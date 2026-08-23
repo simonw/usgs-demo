@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787380537000,
+    "generated": 1787466967000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -13,12 +13,12 @@
       "type": "Feature",
       "properties": {
         "mag": 1.9,
-        "place": "13 km WSW of Stanton, Texas",
-        "time": 1787379556021,
-        "updated": 1787379901403,
+        "place": "100 km E of McCarthy, Alaska",
+        "time": 1787466784449,
+        "updated": 1787466851705,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qmethi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qmethi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqsfuw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qqsfuw.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,39 +26,159 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 56,
-        "net": "tx",
-        "code": "2026qmethi",
-        "ids": ",tx2026qmethi,",
-        "sources": ",tx,",
+        "net": "ak",
+        "code": "a2026qqsfuw",
+        "ids": ",aka2026qqsfuw,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 0.1,
+        "nst": 14,
+        "dmin": 0.4,
         "rms": 0.5,
-        "gap": 34,
+        "gap": 99,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 13 km WSW of Stanton, Texas"
+        "title": "M 1.9 - 100 km E of McCarthy, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.931,
-          32.102,
-          3.4762
+          -141.057,
+          61.559,
+          5.4
         ]
       },
-      "id": "tx2026qmethi"
+      "id": "aka2026qqsfuw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.69,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1787466427330,
+        "updated": 1787466525631,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423397",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75423397.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "nc",
+        "code": "75423397",
+        "ids": ",nc75423397,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.003743,
+        "rms": 0.02,
+        "gap": 103,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.80549621582,
+          38.8245010375977,
+          3.23000001907349
+        ]
+      },
+      "id": "nc75423397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "30 km NW of Toyah, Texas",
+        "time": 1787466158446,
+        "updated": 1787466351119,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qoankn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qoankn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "tx",
+        "code": "2026qoankn",
+        "ids": ",tx2026qoankn,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 30 km NW of Toyah, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.003,
+          31.524,
+          5.3693
+        ]
+      },
+      "id": "tx2026qoankn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "4 km S of Salcha, Alaska",
+        "time": 1787465252679,
+        "updated": 1787465319745,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqrjri",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qqrjri.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ak",
+        "code": "a2026qqrjri",
+        "ids": ",aka2026qqrjri,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 50,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 4 km S of Salcha, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.917,
+          64.485,
+          7.3
+        ]
+      },
+      "id": "aka2026qqrjri"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.7,
-        "place": "14 km W of Stanton, Texas",
-        "time": 1787379555847,
-        "updated": 1787379793168,
+        "place": "62 km W of Tyonek, Alaska",
+        "time": 1787464467562,
+        "updated": 1787464601097,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qmetup",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qmetup.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqqyhs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qqqyhs.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,236 +186,116 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 44,
-        "net": "tx",
-        "code": "2026qmetup",
-        "ids": ",tx2026qmetup,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 122,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 14 km W of Stanton, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.935,
-          32.106,
-          4.8329
-        ]
-      },
-      "id": "tx2026qmetup"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.3,
-        "place": "5 km SSE of Big Lake, Alaska",
-        "time": 1787378968244,
-        "updated": 1787379062045,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qovkoq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qovkoq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
         "net": "ak",
-        "code": "a2026qovkoq",
-        "ids": ",aka2026qovkoq,",
+        "code": "a2026qqqyhs",
+        "ids": ",aka2026qqqyhs,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.4,
-        "rms": 0.4,
-        "gap": 94,
+        "nst": 45,
+        "dmin": 0.2,
+        "rms": 0.6,
+        "gap": 28,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 5 km SSE of Big Lake, Alaska"
+        "title": "M 1.7 - 62 km W of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.93,
-          61.471,
-          59
+          -152.286,
+          61.038,
+          119.6
         ]
       },
-      "id": "aka2026qovkoq"
+      "id": "aka2026qqqyhs"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.13,
-        "place": "10 km WNW of The Geysers, CA",
-        "time": 1787378427710,
-        "updated": 1787380345155,
+        "mag": 1.7,
+        "place": "21 km ESE of Glacier View, Alaska",
+        "time": 1787464303042,
+        "updated": 1787464391520,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75422807",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75422807.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqqvym",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qqqvym.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 20,
-        "net": "nc",
-        "code": "75422807",
-        "ids": ",nc75422807,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.00595,
-        "rms": 0.02,
-        "gap": 113,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 10 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.852500915527,
-          38.8226661682129,
-          2.53999996185303
-        ]
-      },
-      "id": "nc75422807"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "68 km NE of Punta Cana, Dominican Republic",
-        "time": 1787377828657,
-        "updated": 1787380047040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmr8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmr8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000tmr8",
-        "ids": ",us6000tmr8,",
-        "sources": ",us,",
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026qqqvym",
+        "ids": ",aka2026qqqvym,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.647,
-        "rms": 0.98,
-        "gap": 182,
+        "nst": 26,
+        "dmin": 0.1,
+        "rms": 0.8,
+        "gap": 87,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 68 km NE of Punta Cana, Dominican Republic"
+        "title": "M 1.7 - 21 km ESE of Glacier View, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.9333,
-          19.0061,
-          35
+          -147.29,
+          61.715,
+          25
         ]
       },
-      "id": "us6000tmr8"
+      "id": "aka2026qqqvym"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "167 km SE of San Jose Village, Northern Mariana Islands",
-        "time": 1787377627443,
-        "updated": 1787378954040,
+        "mag": 4.6,
+        "place": "273 km E of Levuka, Fiji",
+        "time": 1787463561468,
+        "updated": 1787464500040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmra",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmra.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmww",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmww.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 326,
         "net": "us",
-        "code": "6000tmra",
-        "ids": ",us6000tmra,",
+        "code": "6000tmww",
+        "ids": ",us6000tmww,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 53,
-        "dmin": 1.605,
-        "rms": 0.78,
-        "gap": 89,
+        "dmin": 3.036,
+        "rms": 0.82,
+        "gap": 101,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 167 km SE of San Jose Village, Northern Mariana Islands"
+        "title": "M 4.6 - 273 km E of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.7194,
-          13.8954,
-          10
+          -178.1181,
+          -18.3505,
+          571.282
         ]
       },
-      "id": "us6000tmra"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "71 km NNW of Ende, Indonesia",
-        "time": 1787377511914,
-        "updated": 1787379587040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmr7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmr7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000tmr7",
-        "ids": ",us6000tmr7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 3.162,
-        "rms": 0.58,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 71 km NNW of Ende, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.4575,
-          -8.2301,
-          10
-        ]
-      },
-      "id": "us6000tmr7"
+      "id": "us6000tmww"
     }
   ],
   "bbox": [
-    -149.93,
-    -8.2301,
-    2.539999961853,
-    146.7194,
-    61.471,
-    59
+    -178.1181,
+    -18.3505,
+    3.2300000190735,
+    -104.003,
+    64.485,
+    571.282
   ]
 }
