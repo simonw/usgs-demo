@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787466967000,
+    "generated": 1787553464000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,53 +12,93 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "100 km E of McCarthy, Alaska",
-        "time": 1787466784449,
-        "updated": 1787466851705,
+        "mag": 1.0501653920005,
+        "place": "11 km ENE of Coso Junction, CA",
+        "time": 1787553324480,
+        "updated": 1787553446926,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqsfuw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qqsfuw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534848",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41534848.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026qqsfuw",
-        "ids": ",aka2026qqsfuw,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.4,
-        "rms": 0.5,
-        "gap": 99,
+        "sig": 17,
+        "net": "ci",
+        "code": "41534848",
+        "ids": ",ci41534848,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.04893,
+        "rms": 0.0700000003,
+        "gap": 110,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 100 km E of McCarthy, Alaska"
+        "title": "M 1.1 - 11 km ENE of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.057,
-          61.559,
-          5.4
+          -117.835998535156,
+          36.0709991455078,
+          2.02999997138977
         ]
       },
-      "id": "aka2026qqsfuw"
+      "id": "ci41534848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.72,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1787553221970,
+        "updated": 1787553317588,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424017",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75424017.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75424017",
+        "ids": ",nc75424017,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.005338,
+        "rms": 0.01,
+        "gap": 89,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 3 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.764831542969,
+          38.8041648864746,
+          3.42000007629395
+        ]
+      },
+      "id": "nc75424017"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.69,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1787466427330,
-        "updated": 1787466525631,
+        "place": "3 km SSE of Redlands, CA",
+        "time": 1787553076850,
+        "updated": 1787553290673,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423397",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75423397.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534840",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41534840.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,236 +106,196 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 7,
-        "net": "nc",
-        "code": "75423397",
-        "ids": ",nc75423397,",
-        "sources": ",nc,",
+        "net": "ci",
+        "code": "41534840",
+        "ids": ",ci41534840,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.003743,
-        "rms": 0.02,
-        "gap": 103,
-        "magType": "md",
+        "nst": 42,
+        "dmin": 0.04777,
+        "rms": 0.2,
+        "gap": 36,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 7 km NW of The Geysers, CA"
+        "title": "M 0.7 - 3 km SSE of Redlands, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.80549621582,
-          38.8245010375977,
-          3.23000001907349
+          -117.169833333333,
+          34.0326666666667,
+          4.39
         ]
       },
-      "id": "nc75423397"
+      "id": "ci41534840"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "30 km NW of Toyah, Texas",
-        "time": 1787466158446,
-        "updated": 1787466351119,
+        "mag": 1,
+        "place": "10 km ENE of Coso Junction, CA",
+        "time": 1787551795300,
+        "updated": 1787552008195,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qoankn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qoankn.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534824",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41534824.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026qoankn",
-        "ids": ",tx2026qoankn,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 61,
+        "sig": 15,
+        "net": "ci",
+        "code": "41534824",
+        "ids": ",ci41534824,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05635,
+        "rms": 0.14,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 30 km NW of Toyah, Texas"
+        "title": "M 1.0 - 10 km ENE of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.003,
-          31.524,
-          5.3693
+          -117.837833333333,
+          36.0628333333333,
+          2.62
         ]
       },
-      "id": "tx2026qoankn"
+      "id": "ci41534824"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.2,
-        "place": "4 km S of Salcha, Alaska",
-        "time": 1787465252679,
-        "updated": 1787465319745,
+        "mag": 0.82,
+        "place": "10 km E of Coso Junction, CA",
+        "time": 1787551220590,
+        "updated": 1787551434010,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqrjri",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qqrjri.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534816",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41534816.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026qqrjri",
-        "ids": ",aka2026qqrjri,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 50,
+        "sig": 10,
+        "net": "ci",
+        "code": "41534816",
+        "ids": ",ci41534816,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05668,
+        "rms": 0.12,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 4 km S of Salcha, Alaska"
+        "title": "M 0.8 - 10 km E of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.917,
-          64.485,
-          7.3
+          -117.837,
+          36.0626666666667,
+          2.88
         ]
       },
-      "id": "aka2026qqrjri"
+      "id": "ci41534816"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "62 km W of Tyonek, Alaska",
-        "time": 1787464467562,
-        "updated": 1787464601097,
+        "mag": 4.5,
+        "place": "104 km WNW of Houma, Tonga",
+        "time": 1787550047930,
+        "updated": 1787551731040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqqyhs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qqqyhs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026qqqyhs",
-        "ids": ",aka2026qqqyhs,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.2,
-        "rms": 0.6,
-        "gap": 28,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 62 km W of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.286,
-          61.038,
-          119.6
-        ]
-      },
-      "id": "aka2026qqqyhs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "21 km ESE of Glacier View, Alaska",
-        "time": 1787464303042,
-        "updated": 1787464391520,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqqvym",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026qqqvym.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026qqqvym",
-        "ids": ",aka2026qqqvym,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.1,
-        "rms": 0.8,
-        "gap": 87,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 21 km ESE of Glacier View, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.29,
-          61.715,
-          25
-        ]
-      },
-      "id": "aka2026qqqvym"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "273 km E of Levuka, Fiji",
-        "time": 1787463561468,
-        "updated": 1787464500040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmww",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tmww.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn2d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tn2d.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 312,
         "net": "us",
-        "code": "6000tmww",
-        "ids": ",us6000tmww,",
+        "code": "6000tn2d",
+        "ids": ",us6000tn2d,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 53,
-        "dmin": 3.036,
-        "rms": 0.82,
-        "gap": 101,
+        "nst": 62,
+        "dmin": 6.085,
+        "rms": 0.71,
+        "gap": 105,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 273 km E of Levuka, Fiji"
+        "title": "M 4.5 - 104 km WNW of Houma, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.1181,
-          -18.3505,
-          571.282
+          -176.289,
+          -20.9867,
+          209.196
         ]
       },
-      "id": "us6000tmww"
+      "id": "us6000tn2d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.5,
+        "place": "12 km SSW of Searles Valley, CA",
+        "time": 1787549922480,
+        "updated": 1787550136523,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534808",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41534808.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41534808",
+        "ids": ",ci41534808,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.01661,
+        "rms": 0.15,
+        "gap": 83,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 12 km SSW of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.443666666667,
+          35.6616666666667,
+          5.89
+        ]
+      },
+      "id": "ci41534808"
     }
   ],
   "bbox": [
-    -178.1181,
-    -18.3505,
-    3.2300000190735,
-    -104.003,
-    64.485,
-    571.282
+    -176.289,
+    -20.9867,
+    2.0299999713898,
+    -117.16983333333,
+    38.804164886475,
+    209.196
   ]
 }
