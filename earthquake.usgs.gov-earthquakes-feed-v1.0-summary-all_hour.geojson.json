@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787823098000,
+    "generated": 1787909760000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,210 +12,210 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.68,
-        "place": "17 km WNW of Morongo Valley, CA",
-        "time": 1787822390620,
-        "updated": 1787822597959,
+        "mag": 5,
+        "place": "172 km SE of Petropavlovsk-Kamchatsky, Russia",
+        "time": 1787908337255,
+        "updated": 1787909550040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41537464",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41537464.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcii",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tcii.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41537464",
-        "ids": ",ci41537464,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.0747,
-        "rms": 0.13,
-        "gap": 36,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 17 km WNW of Morongo Valley, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.759166666667,
-          34.0981666666667,
-          10.03
-        ]
-      },
-      "id": "ci41537464"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "11 km E of Gardendale, Texas",
-        "time": 1787822293743,
-        "updated": 1787822555865,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qvping",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qvping.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "tx",
-        "code": "2026qvping",
-        "ids": ",tx2026qvping,",
-        "sources": ",tx,",
+        "sig": 385,
+        "net": "us",
+        "code": "7000tcii",
+        "ids": ",us7000tcii,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 41,
-        "magType": "ml",
+        "nst": 75,
+        "dmin": 2.057,
+        "rms": 0.98,
+        "gap": 111,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.5 - 11 km E of Gardendale, Texas"
+        "title": "M 5.0 - 172 km SE of Petropavlovsk-Kamchatsky, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.258,
-          32.039,
-          3.7511
+          160.6615,
+          52.1245,
+          10
         ]
       },
-      "id": "tx2026qvping"
+      "id": "us7000tcii"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.71,
-        "place": "14 km NE of Honaunau-Napoopoo, Hawaii",
-        "time": 1787821442460,
-        "updated": 1787821657520,
+        "mag": 1.4,
+        "place": "7 km SSW of Chickaloon, Alaska",
+        "time": 1787908194406,
+        "updated": 1787908258078,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75024712",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75024712.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026radolz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026radolz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 45,
-        "net": "hv",
-        "code": "75024712",
-        "ids": ",hv75024712,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.08702,
-        "rms": 0.159999996,
-        "gap": 256,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.7 - 14 km NE of Honaunau-Napoopoo, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.779159545898,
-          19.5533332824707,
-          29.0599994659424
-        ]
-      },
-      "id": "hv75024712"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "15 km E of Balmorhea, Texas",
-        "time": 1787820901050,
-        "updated": 1787821109324,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qvoont",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026qvoont.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2026qvoont",
-        "ids": ",tx2026qvoont,",
-        "sources": ",tx,",
+        "sig": 30,
+        "net": "ak",
+        "code": "a2026radolz",
+        "ids": ",aka2026radolz,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 11,
-        "dmin": 0.3,
-        "rms": 0.9,
-        "gap": 223,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 103,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 15 km E of Balmorhea, Texas"
+        "title": "M 1.4 - 7 km SSW of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.579,
-          31,
-          0
+          -148.528,
+          61.732,
+          13.7
         ]
       },
-      "id": "tx2026qvoont"
+      "id": "aka2026radolz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.78,
-        "place": "11 km E of Coso Junction, CA",
-        "time": 1787820050040,
-        "updated": 1787820261499,
+        "mag": 1.56,
+        "place": "44 km SSE of Campo, CA",
+        "time": 1787907890310,
+        "updated": 1787908099267,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41537456",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41537456.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538016",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41538016.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
+        "sig": 37,
         "net": "ci",
-        "code": "41537456",
-        "ids": ",ci41537456,",
+        "code": "41538016",
+        "ids": ",ci41538016,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.05758,
-        "rms": 0.13,
-        "gap": 49,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 24,
+        "dmin": 0.3419,
+        "rms": 0.17,
+        "gap": 63,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 11 km E of Coso Junction, CA"
+        "title": "M 1.6 - 44 km SSE of Campo, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.829,
-          36.0638333333333,
-          2.76
+          -116.266666666667,
+          32.2506666666667,
+          17.56
         ]
       },
-      "id": "ci41537456"
+      "id": "ci41538016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "16 km WSW of Johannesburg, CA",
+        "time": 1787907848250,
+        "updated": 1787908051461,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538008",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41538008.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41538008",
+        "ids": ",ci41538008,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.07407,
+        "rms": 0.19,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 16 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8015,
+          35.3321666666667,
+          6.07
+        ]
+      },
+      "id": "ci41538008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.42,
+        "place": "17 km SW of La Quinta, CA",
+        "time": 1787906485940,
+        "updated": 1787906694478,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41538000.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "ci",
+        "code": "41538000",
+        "ids": ",ci41538000,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.1132,
+        "rms": 0.15,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 17 km SW of La Quinta, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.421,
+          33.5403333333333,
+          6.55
+        ]
+      },
+      "id": "ci41538000"
     }
   ],
   "bbox": [
-    -155.7791595459,
-    19.553333282471,
-    0,
-    -102.258,
-    36.063833333333,
-    29.059999465942
+    -148.528,
+    32.250666666667,
+    6.07,
+    160.6615,
+    61.732,
+    17.56
   ]
 }
