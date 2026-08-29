@@ -1,221 +1,461 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1787909760000,
+    "generated": 1787985442000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 11
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "172 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1787908337255,
-        "updated": 1787909550040,
+        "mag": 1.31,
+        "place": "2 km NE of The Geysers, CA",
+        "time": 1787984684670,
+        "updated": 1787984781187,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcii",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tcii.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426692",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75426692.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "nc",
+        "code": "75426692",
+        "ids": ",nc75426692,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.007104,
+        "rms": 0.05,
+        "gap": 84,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 2 km NE of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.744003295898,
+          38.7874984741211,
+          1.29999995231628
+        ]
+      },
+      "id": "nc75426692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "51 km NNE of Chenega, Alaska",
+        "time": 1787984193995,
+        "updated": 1787984259742,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rbtuxk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rbtuxk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "a2026rbtuxk",
+        "ids": ",aka2026rbtuxk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 82,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 51 km NNE of Chenega, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.788,
+          60.518,
+          18.3
+        ]
+      },
+      "id": "aka2026rbtuxk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.53,
+        "place": "3 km NNW of Larkfield-Wikiup, CA",
+        "time": 1787984087810,
+        "updated": 1787984186067,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75426687",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75426687.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "nc",
+        "code": "75426687",
+        "ids": ",nc75426687,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.06718,
+        "rms": 0.05,
+        "gap": 91,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 3 km NNW of Larkfield-Wikiup, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.764503479004,
+          38.5348320007324,
+          1.46000003814697
+        ]
+      },
+      "id": "nc75426687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.68,
+        "place": "11 km N of Borrego Springs, CA",
+        "time": 1787984040340,
+        "updated": 1787984249758,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538592",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41538592.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "ci",
+        "code": "41538592",
+        "ids": ",ci41538592,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.02689,
+        "rms": 0.19,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 11 km N of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.365833333333,
+          33.3536666666667,
+          11.89
+        ]
+      },
+      "id": "ci41538592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "68 km ENE of Port Alsworth, Alaska",
+        "time": 1787983444818,
+        "updated": 1787983481187,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rbtkbx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rbtkbx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ak",
+        "code": "a2026rbtkbx",
+        "ids": ",aka2026rbtkbx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.2,
+        "rms": 1.4,
+        "gap": 315,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 68 km ENE of Port Alsworth, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.164,
+          60.424,
+          5
+        ]
+      },
+      "id": "aka2026rbtkbx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.85,
+        "place": "17 km NNE of Pāhala, Hawaii",
+        "time": 1787982956060,
+        "updated": 1787983168480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75026147",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75026147.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 53,
+        "net": "hv",
+        "code": "75026147",
+        "ids": ",hv75026147,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.0242,
+        "rms": 0.25,
+        "gap": 46,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 17 km NNE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.436828613281,
+          19.3573341369629,
+          6.3600001335144
+        ]
+      },
+      "id": "hv75026147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.83,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "time": 1787982863540,
+        "updated": 1787983079160,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75026142",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75026142.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 52,
+        "net": "hv",
+        "code": "75026142",
+        "ids": ",hv75026142,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.03177,
+        "rms": 0.180000007,
+        "gap": 157,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 4 km SSW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.49299621582,
+          19.1679992675781,
+          29.5400009155273
+        ]
+      },
+      "id": "hv75026142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "off the coast of Oregon",
+        "time": 1787982416764,
+        "updated": 1787984522808,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcs8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tcs8.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 189,
+        "net": "us",
+        "code": "7000tcs8",
+        "ids": ",us7000tcs8,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 40,
+        "dmin": 2.684,
+        "rms": 1.09,
+        "gap": 222,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 3.5 - off the coast of Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.0391,
+          43.8957,
+          10
+        ]
+      },
+      "id": "us7000tcs8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "19 km WNW of Ester, Alaska",
+        "time": 1787982370926,
+        "updated": 1787982415583,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rbsuok",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rbsuok.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026rbsuok",
+        "ids": ",aka2026rbsuok,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 145,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 19 km WNW of Ester, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.398,
+          64.917,
+          10.2
+        ]
+      },
+      "id": "aka2026rbsuok"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "Southwest Indian Ridge",
+        "time": 1787982006207,
+        "updated": 1787983017040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcs7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tcs7.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 400,
         "net": "us",
-        "code": "7000tcii",
-        "ids": ",us7000tcii,",
+        "code": "7000tcs7",
+        "ids": ",us7000tcs7,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 75,
-        "dmin": 2.057,
-        "rms": 0.98,
-        "gap": 111,
+        "nst": 68,
+        "dmin": 10.689,
+        "rms": 0.68,
+        "gap": 49,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 172 km SE of Petropavlovsk-Kamchatsky, Russia"
+        "title": "M 5.1 - Southwest Indian Ridge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.6615,
-          52.1245,
+          56.9522,
+          -31.8483,
           10
         ]
       },
-      "id": "us7000tcii"
+      "id": "us7000tcs7"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "7 km SSW of Chickaloon, Alaska",
-        "time": 1787908194406,
-        "updated": 1787908258078,
+        "mag": 2.7,
+        "place": "20 km S of Port Graham, Alaska",
+        "time": 1787981970638,
+        "updated": 1787982031829,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026radolz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026radolz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rbsotr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rbsotr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 30,
+        "sig": 112,
         "net": "ak",
-        "code": "a2026radolz",
-        "ids": ",aka2026radolz,",
+        "code": "a2026rbsotr",
+        "ids": ",aka2026rbsotr,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 103,
+        "nst": 46,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 146,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 7 km SSW of Chickaloon, Alaska"
+        "title": "M 2.7 - 20 km S of Port Graham, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.528,
-          61.732,
-          13.7
+          -151.795,
+          59.171,
+          50.4
         ]
       },
-      "id": "aka2026radolz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.56,
-        "place": "44 km SSE of Campo, CA",
-        "time": 1787907890310,
-        "updated": 1787908099267,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538016",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41538016.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 37,
-        "net": "ci",
-        "code": "41538016",
-        "ids": ",ci41538016,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 24,
-        "dmin": 0.3419,
-        "rms": 0.17,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 44 km SSE of Campo, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.266666666667,
-          32.2506666666667,
-          17.56
-        ]
-      },
-      "id": "ci41538016"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "16 km WSW of Johannesburg, CA",
-        "time": 1787907848250,
-        "updated": 1787908051461,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538008",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41538008.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41538008",
-        "ids": ",ci41538008,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.07407,
-        "rms": 0.19,
-        "gap": 82,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 16 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.8015,
-          35.3321666666667,
-          6.07
-        ]
-      },
-      "id": "ci41538008"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.42,
-        "place": "17 km SW of La Quinta, CA",
-        "time": 1787906485940,
-        "updated": 1787906694478,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41538000",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41538000.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41538000",
-        "ids": ",ci41538000,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.1132,
-        "rms": 0.15,
-        "gap": 80,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.4 - 17 km SW of La Quinta, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.421,
-          33.5403333333333,
-          6.55
-        ]
-      },
-      "id": "ci41538000"
+      "id": "aka2026rbsotr"
     }
   ],
   "bbox": [
-    -148.528,
-    32.250666666667,
-    6.07,
-    160.6615,
-    61.732,
-    17.56
+    -155.49299621582,
+    -31.8483,
+    1.2999999523163,
+    56.9522,
+    64.917,
+    50.4
   ]
 }
