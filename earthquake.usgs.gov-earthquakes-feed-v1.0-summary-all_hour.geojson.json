@@ -1,221 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788159173000,
+    "generated": 1788245101000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.59,
-        "place": "15 km N of Indio, CA",
-        "time": 1788158854960,
-        "updated": 1788159056875,
+        "mag": 2.32,
+        "place": "4 km E of Challenge-Brownsville, CA",
+        "time": 1788243584020,
+        "updated": 1788244945057,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41539576",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41539576.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428072",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428072.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 5,
-        "net": "ci",
-        "code": "41539576",
-        "ids": ",ci41539576,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.06031,
-        "rms": 0.15,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 15 km N of Indio, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.228,
-          33.857,
-          9.26
-        ]
-      },
-      "id": "ci41539576"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.65,
-        "place": "6 km NNW of Fontana, CA",
-        "time": 1788158233320,
-        "updated": 1788158906590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41539568",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41539568.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 42,
-        "net": "ci",
-        "code": "41539568",
-        "ids": ",ci41539568,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 102,
-        "dmin": 0.04367,
-        "rms": 0.18,
-        "gap": 17,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.7 - 6 km NNW of Fontana, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.491333333333,
-          34.14,
-          12.11
-        ]
-      },
-      "id": "ci41539568"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.47,
-        "place": "17 km SE of Salton City, CA",
-        "time": 1788157010490,
-        "updated": 1788157216123,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41539560",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41539560.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 33,
-        "net": "ci",
-        "code": "41539560",
-        "ids": ",ci41539560,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.5025,
-        "rms": 0.25,
-        "gap": 326,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 17 km SE of Salton City, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.8235,
-          33.1975,
-          -0.88
-        ]
-      },
-      "id": "ci41539560"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.69,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1788156635310,
-        "updated": 1788158543422,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75427547",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75427547.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
+        "sig": 83,
         "net": "nc",
-        "code": "75427547",
-        "ids": ",nc75427547,",
+        "code": "75428072",
+        "ids": ",nc75428072,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 7,
-        "dmin": 0.001614,
+        "nst": 5,
+        "dmin": 0.2229,
         "rms": 0.01,
-        "gap": 116,
+        "gap": 172,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 6 km WNW of Cobb, CA"
+        "title": "M 2.3 - 4 km E of Challenge-Brownsville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.791664123535,
-          38.8371658325195,
-          2.25999999046326
+          -121.217666625977,
+          39.4643325805664,
+          7.07000017166138
         ]
       },
-      "id": "nc75427547"
+      "id": "nc75428072"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.79,
-        "place": "6 km NNW of Pinnacles, CA",
-        "time": 1788156512020,
-        "updated": 1788159141490,
+        "mag": 2.3,
+        "place": "25 km N of Fox River, Alaska",
+        "time": 1788243324310,
+        "updated": 1788243391916,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75427542",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75427542.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rhhvph",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rhhvph.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 49,
-        "net": "nc",
-        "code": "75427542",
-        "ids": ",nc75427542,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 14,
-        "dmin": 0.00684,
-        "rms": 0.12,
-        "gap": 104,
-        "magType": "md",
+        "sig": 81,
+        "net": "ak",
+        "code": "a2026rhhvph",
+        "ids": ",aka2026rhhvph,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 78,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 6 km NNW of Pinnacles, CA"
+        "title": "M 2.3 - 25 km N of Fox River, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.179336547852,
-          36.5764999389648,
-          3.10999989509583
+          -150.914,
+          60.084,
+          46.2
         ]
       },
-      "id": "nc75427542"
+      "id": "aka2026rhhvph"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "30 km ENE of Sterling, Alaska",
+        "time": 1788242971232,
+        "updated": 1788243172337,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rhhqmy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rhhqmy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026rhhqmy",
+        "ids": ",aka2026rhhqmy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.2,
+        "rms": 0.6,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 30 km ENE of Sterling, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.283,
+          60.668,
+          59.9
+        ]
+      },
+      "id": "aka2026rhhqmy"
     }
   ],
   "bbox": [
-    -122.79166412353,
-    33.1975,
-    -0.88,
-    -115.8235,
-    38.83716583252,
-    12.11
+    -150.914,
+    39.464332580566,
+    7.0700001716614,
+    -121.21766662598,
+    60.668,
+    59.9
   ]
 }
