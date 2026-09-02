@@ -1,141 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788245101000,
+    "generated": 1788331678000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 3
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.32,
-        "place": "4 km E of Challenge-Brownsville, CA",
-        "time": 1788243584020,
-        "updated": 1788244945057,
+        "mag": 5.3,
+        "place": "66 km NNW of Arthurs Point, New Zealand",
+        "time": 1788329613779,
+        "updated": 1788331618622,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428072",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75428072.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdj8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tdj8.geojson",
+        "felt": 12,
+        "cdi": 4.1,
+        "mmi": 5.815,
+        "alert": "green",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 83,
-        "net": "nc",
-        "code": "75428072",
-        "ids": ",nc75428072,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 5,
-        "dmin": 0.2229,
-        "rms": 0.01,
-        "gap": 172,
-        "magType": "md",
+        "sig": 437,
+        "net": "us",
+        "code": "7000tdj8",
+        "ids": ",us7000tdj8,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
+        "nst": 52,
+        "dmin": 0.354,
+        "rms": 1.04,
+        "gap": 39,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.3 - 4 km E of Challenge-Brownsville, CA"
+        "title": "M 5.3 - 66 km NNW of Arthurs Point, New Zealand"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.217666625977,
-          39.4643325805664,
-          7.07000017166138
+          168.3029,
+          -44.4431,
+          10
         ]
       },
-      "id": "nc75428072"
+      "id": "us7000tdj8"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.3,
-        "place": "25 km N of Fox River, Alaska",
-        "time": 1788243324310,
-        "updated": 1788243391916,
+        "mag": 1.6,
+        "place": "8 km E of Tilden, Texas",
+        "time": 1788329296774,
+        "updated": 1788329465372,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rhhvph",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rhhvph.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rgjkfl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026rgjkfl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026rhhvph",
-        "ids": ",aka2026rhhvph,",
-        "sources": ",ak,",
+        "sig": 39,
+        "net": "tx",
+        "code": "2026rgjkfl",
+        "ids": ",tx2026rgjkfl,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 78,
+        "nst": 6,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 246,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 25 km N of Fox River, Alaska"
+        "title": "M 1.6 - 8 km E of Tilden, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.914,
-          60.084,
-          46.2
+          -98.466,
+          28.459,
+          6.5618
         ]
       },
-      "id": "aka2026rhhvph"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "30 km ENE of Sterling, Alaska",
-        "time": 1788242971232,
-        "updated": 1788243172337,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rhhqmy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rhhqmy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026rhhqmy",
-        "ids": ",aka2026rhhqmy,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.2,
-        "rms": 0.6,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 30 km ENE of Sterling, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.283,
-          60.668,
-          59.9
-        ]
-      },
-      "id": "aka2026rhhqmy"
+      "id": "tx2026rgjkfl"
     }
   ],
   "bbox": [
-    -150.914,
-    39.464332580566,
-    7.0700001716614,
-    -121.21766662598,
-    60.668,
-    59.9
+    -98.466,
+    -44.4431,
+    6.5618,
+    168.3029,
+    28.459,
+    10
   ]
 }
