@@ -1,101 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788331678000,
+    "generated": 1788417841000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 2
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.3,
-        "place": "66 km NNW of Arthurs Point, New Zealand",
-        "time": 1788329613779,
-        "updated": 1788331618622,
+        "mag": 1.13,
+        "place": "5 km SE of Ontario, CA",
+        "time": 1788417231490,
+        "updated": 1788417442769,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdj8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tdj8.geojson",
-        "felt": 12,
-        "cdi": 4.1,
-        "mmi": 5.815,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 437,
-        "net": "us",
-        "code": "7000tdj8",
-        "ids": ",us7000tdj8,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 52,
-        "dmin": 0.354,
-        "rms": 1.04,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 66 km NNW of Arthurs Point, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.3029,
-          -44.4431,
-          10
-        ]
-      },
-      "id": "us7000tdj8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "8 km E of Tilden, Texas",
-        "time": 1788329296774,
-        "updated": 1788329465372,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rgjkfl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026rgjkfl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41541128",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41541128.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "tx",
-        "code": "2026rgjkfl",
-        "ids": ",tx2026rgjkfl,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 246,
+        "sig": 20,
+        "net": "ci",
+        "code": "41541128",
+        "ids": ",ci41541128,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.02581,
+        "rms": 0.19,
+        "gap": 27,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 8 km E of Tilden, Texas"
+        "title": "M 1.1 - 5 km SE of Ontario, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.466,
-          28.459,
-          6.5618
+          -117.590333333333,
+          34.0145,
+          6.32
         ]
       },
-      "id": "tx2026rgjkfl"
+      "id": "ci41541128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "18 km WSW of Mentone, Texas",
+        "time": 1788417167324,
+        "updated": 1788417508641,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rifyde",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026rifyde.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "tx",
+        "code": "2026rifyde",
+        "ids": ",tx2026rifyde,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.2,
+        "rms": 1.4,
+        "gap": 234,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 18 km WSW of Mentone, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.784,
+          31.643,
+          0
+        ]
+      },
+      "id": "tx2026rifyde"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "2 km W of Pāhala, Hawaii",
+        "time": 1788416578010,
+        "updated": 1788417193737,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75028557",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75028557.geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "hv",
+        "code": "75028557",
+        "ids": ",hv75028557,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 56,
+        "dmin": 0.04654,
+        "rms": 0.119999997,
+        "gap": 76,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 2 km W of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.501663208008,
+          19.2016658782959,
+          29.1700000762939
+        ]
+      },
+      "id": "hv75028557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "33 km NE of Larsen Bay, Alaska",
+        "time": 1788415994402,
+        "updated": 1788416193332,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rkzuwj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rkzuwj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026rkzuwj",
+        "ids": ",aka2026rkzuwj,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 0.5,
+        "rms": 0.5,
+        "gap": 158,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 33 km NE of Larsen Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.614,
+          57.77,
+          28.3
+        ]
+      },
+      "id": "aka2026rkzuwj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "65 km ENE of Livengood, Alaska",
+        "time": 1788415634137,
+        "updated": 1788415706328,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rkzpqx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rkzpqx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026rkzpqx",
+        "ids": ",aka2026rkzpqx,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.3,
+        "rms": 0.3,
+        "gap": 108,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 65 km ENE of Livengood, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.253,
+          65.76,
+          2.7
+        ]
+      },
+      "id": "aka2026rkzpqx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.87,
+        "place": "4 km S of Pāhala, Hawaii",
+        "time": 1788415617030,
+        "updated": 1788415841890,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75028552",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75028552.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 54,
+        "net": "hv",
+        "code": "75028552",
+        "ids": ",hv75028552,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.09014,
+        "rms": 0.180000007,
+        "gap": 213,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 4 km S of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.484329223633,
+          19.1588325500488,
+          26.8600006103516
+        ]
+      },
+      "id": "hv75028552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "42 km NW of Coquimbo, Chile",
+        "time": 1788415442572,
+        "updated": 1788417137044,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tduc.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "7000tduc",
+        "ids": ",us7000tduc,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 77,
+        "dmin": 0.439,
+        "rms": 1.09,
+        "gap": 95,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 42 km NW of Coquimbo, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6979,
+          -29.7346,
+          55.164
+        ]
+      },
+      "id": "us7000tduc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "55 km E of Pleasant Valley, Alaska",
+        "time": 1788414514855,
+        "updated": 1788414595042,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rkyzmh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rkyzmh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026rkyzmh",
+        "ids": ",aka2026rkyzmh,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 55 km E of Pleasant Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.699,
+          64.942,
+          5
+        ]
+      },
+      "id": "aka2026rkyzmh"
     }
   ],
   "bbox": [
-    -98.466,
-    -44.4431,
-    6.5618,
-    168.3029,
-    28.459,
-    10
+    -155.50166320801,
+    -29.7346,
+    0,
+    -71.6979,
+    65.76,
+    55.164
   ]
 }
