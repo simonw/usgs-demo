@@ -1,261 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1788676740000,
+    "generated": 1788764040000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.21,
-        "place": "21 km SSE of Pāhala, Hawaii",
-        "time": 1788676387570,
-        "updated": 1788676606750,
+        "mag": 2,
+        "place": "32 km SW of Covenant Life, Alaska",
+        "time": 1788763797922,
+        "updated": 1788763930277,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75029977",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75029977.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rslcyz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rslcyz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 75,
-        "net": "hv",
-        "code": "75029977",
-        "ids": ",hv75029977,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 0.1471,
-        "rms": 0.129999995,
-        "gap": 214,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 21 km SSE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.370162963867,
-          19.0361671447754,
-          32.3300018310547
-        ]
-      },
-      "id": "hv75029977"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.44,
-        "place": "20 km SSE of Pāhala, Hawaii",
-        "time": 1788676195260,
-        "updated": 1788676411210,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75029972",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75029972.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 92,
-        "net": "hv",
-        "code": "75029972",
-        "ids": ",hv75029972,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.1385,
-        "rms": 0.159999996,
-        "gap": 212,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.4 - 20 km SSE of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.380996704102,
-          19.0394992828369,
-          31.5499992370605
-        ]
-      },
-      "id": "hv75029972"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.66,
-        "place": "9 km WNW of Cobb, CA",
-        "time": 1788675146350,
-        "updated": 1788676642316,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75430507",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75430507.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75430507",
-        "ids": ",nc75430507,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.009232,
-        "rms": 0.01,
-        "gap": 87,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 9 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.823669433594,
-          38.8388328552246,
-          1.85000002384186
-        ]
-      },
-      "id": "nc75430507"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "4 km S of Tyonek, Alaska",
-        "time": 1788674208887,
-        "updated": 1788674289922,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rqniig",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rqniig.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 62,
         "net": "ak",
-        "code": "a2026rqniig",
-        "ids": ",aka2026rqniig,",
+        "code": "a2026rslcyz",
+        "ids": ",aka2026rslcyz,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 24,
+        "nst": 11,
         "dmin": 0.3,
         "rms": 0.7,
-        "gap": 80,
+        "gap": 100,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 4 km S of Tyonek, Alaska"
+        "title": "M 2.0 - 32 km SW of Covenant Life, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.124,
-          61.03,
-          75.4
+          -136.399,
+          59.194,
+          5
         ]
       },
-      "id": "aka2026rqniig"
+      "id": "aka2026rslcyz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "5 km WNW of Cobb, CA",
-        "time": 1788674121710,
-        "updated": 1788676044243,
+        "mag": 2.3,
+        "place": "59 km WNW of Nanwalek, Alaska",
+        "time": 1788763258271,
+        "updated": 1788763506454,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75430497",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75430497.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rskved",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026rskved.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "nc",
-        "code": "75430497",
-        "ids": ",nc75430497,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.005451,
-        "rms": 0.04,
-        "gap": 68,
-        "magType": "md",
+        "sig": 81,
+        "net": "ak",
+        "code": "a2026rskved",
+        "ids": ",aka2026rskved,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 75,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 5 km WNW of Cobb, CA"
+        "title": "M 2.3 - 59 km WNW of Nanwalek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.783500671387,
-          38.8373336791992,
-          1.99000000953674
+          -152.924,
+          59.497,
+          105
         ]
       },
-      "id": "nc75430497"
+      "id": "aka2026rskved"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.34,
-        "place": "8 km ESE of Cloverdale, CA",
-        "time": 1788673331880,
-        "updated": 1788675143151,
+        "mag": 0.25,
+        "place": "7 km W of Cobb, CA",
+        "time": 1788762778600,
+        "updated": 1788762872432,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75430487",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75430487.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75431012",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75431012.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 28,
+        "sig": 1,
         "net": "nc",
-        "code": "75430487",
-        "ids": ",nc75430487,",
+        "code": "75431012",
+        "ids": ",nc75431012,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.06142,
-        "rms": 0.03,
-        "gap": 81,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.009893,
+        "rms": 0.01,
+        "gap": 96,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 8 km ESE of Cloverdale, CA"
+        "title": "M 0.3 - 7 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.93399810791,
-          38.7765007019043,
-          3.83999991416931
+          -122.807998657227,
+          38.8331680297852,
+          2.21000003814697
         ]
       },
-      "id": "nc75430487"
+      "id": "nc75431012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "49 km S of Whites City, New Mexico",
+        "time": 1788761420728,
+        "updated": 1788761667039,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rpochm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026rpochm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "tx",
+        "code": "2026rpochm",
+        "ids": ",tx2026rpochm,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 108,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 49 km S of Whites City, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.338,
+          31.735,
+          4.1621
+        ]
+      },
+      "id": "tx2026rpochm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.82,
+        "place": "18 km SW of Oasis, CA",
+        "time": 1788760979490,
+        "updated": 1788761178899,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542264",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41542264.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41542264",
+        "ids": ",ci41542264,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 55,
+        "dmin": 0.1258,
+        "rms": 0.21,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 18 km SW of Oasis, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.218333333333,
+          33.344,
+          9.38
+        ]
+      },
+      "id": "ci41542264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "31 km S of Malaga, New Mexico",
+        "time": 1788760900427,
+        "updated": 1788761289032,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rpnryy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026rpnryy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "tx",
+        "code": "2026rpnryy",
+        "ids": ",tx2026rpnryy,",
+        "sources": ",tx,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 198,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 31 km S of Malaga, New Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.072,
+          31.939,
+          4.0591
+        ]
+      },
+      "id": "tx2026rpnryy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.28,
+        "place": "5 km NNE of Progreso, B.C., MX",
+        "time": 1788760783450,
+        "updated": 1788760985567,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542256",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41542256.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 80,
+        "net": "ci",
+        "code": "41542256",
+        "ids": ",ci41542256,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 44,
+        "dmin": 0.0775,
+        "rms": 0.29,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 5 km NNE of Progreso, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.569666666667,
+          32.6273333333333,
+          3.17
+        ]
+      },
+      "id": "ci41542256"
     }
   ],
   "bbox": [
-    -155.3809967041,
-    19.036167144775,
-    1.8500000238419,
-    -122.78350067139,
-    61.03,
-    75.4
+    -152.924,
+    31.735,
+    2.210000038147,
+    -104.072,
+    59.497,
+    105
   ]
 }
