@@ -1,104 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789281880000,
+    "generated": 1789368973000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.9,
-        "place": "20 km NNW of Toyah, Texas",
-        "time": 1789281333391,
-        "updated": 1789281625367,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026saphfj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026saphfj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "tx",
-        "code": "2026saphfj",
-        "ids": ",tx2026saphfj,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 97,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 20 km NNW of Toyah, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.852,
-          31.492,
-          4.93
-        ]
-      },
-      "id": "tx2026saphfj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "24 km NE of Minto, Alaska",
-        "time": 1789281209765,
-        "updated": 1789281287117,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sdmscv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sdmscv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ak",
-        "code": "a2026sdmscv",
-        "ids": ",aka2026sdmscv,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 148,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 24 km NE of Minto, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.972,
-          65.309,
-          9.5
-        ]
-      },
-      "id": "aka2026sdmscv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.5,
-        "place": "76 km NW of Ninilchik, Alaska",
-        "time": 1789281164707,
-        "updated": 1789281200747,
+        "place": "61 km S of Whites City, New Mexico",
+        "time": 1789368441073,
+        "updated": 1789368790086,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sdmrlt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sdmrlt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026sclkih",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026sclkih.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -106,116 +26,396 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 35,
-        "net": "ak",
-        "code": "a2026sdmrlt",
-        "ids": ",aka2026sdmrlt,",
-        "sources": ",ak,",
+        "net": "tx",
+        "code": "2026sclkih",
+        "ids": ",tx2026sclkih,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 6,
+        "nst": 17,
         "dmin": 0,
-        "rms": 0.6,
-        "gap": 127,
+        "rms": 0.3,
+        "gap": 107,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 76 km NW of Ninilchik, Alaska"
+        "title": "M 1.5 - 61 km S of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.777,
-          60.464,
-          5
+          -104.488,
+          31.633,
+          3.7009
         ]
       },
-      "id": "aka2026sdmrlt"
+      "id": "tx2026sclkih"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.4,
-        "place": "5 km SW of Happy Valley, Alaska",
-        "time": 1789279153365,
-        "updated": 1789279627910,
+        "mag": 2.5,
+        "place": "24 km NNW of Toyah, Texas",
+        "time": 1789368370905,
+        "updated": 1789368603072,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sdloju",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sdloju.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026scljjg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026scljjg.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "a2026sdloju",
-        "ids": ",aka2026sdloju,",
-        "sources": ",ak,",
+        "sig": 96,
+        "net": "tx",
+        "code": "2026scljjg",
+        "ids": ",tx2026scljjg,",
+        "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 93,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 5 km SW of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.811,
-          59.917,
-          75.8
-        ]
-      },
-      "id": "aka2026sdloju"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "10 km ESE of Rampart, Alaska",
-        "time": 1789278670588,
-        "updated": 1789278742466,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sdlhks",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sdlhks.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "a2026sdlhks",
-        "ids": ",aka2026sdlhks,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.4,
+        "nst": 27,
+        "dmin": 0,
         "rms": 0.4,
-        "gap": 79,
+        "gap": 95,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 10 km ESE of Rampart, Alaska"
+        "title": "M 2.5 - 24 km NNW of Toyah, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.975,
-          65.464,
-          1.7
+          -103.858,
+          31.528,
+          7.1806
         ]
       },
-      "id": "aka2026sdlhks"
+      "id": "tx2026scljjg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.86,
+        "place": "2 km WNW of Anderson Springs, CA",
+        "time": 1789367649220,
+        "updated": 1789367746813,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75435452",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75435452.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "nc",
+        "code": "75435452",
+        "ids": ",nc75435452,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.01576,
+        "rms": 0.01,
+        "gap": 200,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.9 - 2 km WNW of Anderson Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.716667175293,
+          38.781665802002,
+          2.24000000953674
+        ]
+      },
+      "id": "nc75435452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.74,
+        "place": "2 km NW of The Geysers, CA",
+        "time": 1789367202820,
+        "updated": 1789367296659,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75435447",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75435447.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75435447",
+        "ids": ",nc75435447,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.01391,
+        "rms": 0.02,
+        "gap": 79,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 2 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.767669677734,
+          38.7881660461426,
+          1.85000002384186
+        ]
+      },
+      "id": "nc75435447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "6 km ENE of Calumet, Oklahoma",
+        "time": 1789367190529,
+        "updated": 1789368217259,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thb8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000thb8.geojson",
+        "felt": 1,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "us",
+        "code": "7000thb8",
+        "ids": ",us7000thb8,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.152,
+        "rms": 0.42,
+        "gap": 52,
+        "magType": "mb_lg",
+        "type": "earthquake",
+        "title": "M 2.6 - 6 km ENE of Calumet, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0473,
+          35.6153,
+          10.797
+        ]
+      },
+      "id": "us7000thb8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "103 km N of Yakutat, Alaska",
+        "time": 1789367129671,
+        "updated": 1789368455394,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sfiltb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sfiltb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 35,
+        "net": "ak",
+        "code": "a2026sfiltb",
+        "ids": ",aka2026sfiltb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.6,
+        "rms": 0.3,
+        "gap": 184,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.5 - 103 km N of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.978,
+          60.467,
+          1.9
+        ]
+      },
+      "id": "aka2026sfiltb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "22 km ESE of Susitna North, Alaska",
+        "time": 1789366498543,
+        "updated": 1789368260883,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sficpp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sficpp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026sficpp",
+        "ids": ",aka2026sficpp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.4,
+        "rms": 0.5,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 22 km ESE of Susitna North, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.449,
+          62.092,
+          4.1
+        ]
+      },
+      "id": "aka2026sficpp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.89,
+        "place": "14 km W of Johannesburg, CA",
+        "time": 1789366039160,
+        "updated": 1789366249763,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41546936",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41546936.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ci",
+        "code": "41546936",
+        "ids": ",ci41546936,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.1081,
+        "rms": 0.14,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 14 km W of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7915,
+          35.3661666666667,
+          6.21
+        ]
+      },
+      "id": "ci41546936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.42,
+        "place": "25 km SW of Ocotillo Wells, CA",
+        "time": 1789365695730,
+        "updated": 1789365902636,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41546928",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41546928.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "ci",
+        "code": "41546928",
+        "ids": ",ci41546928,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.01536,
+        "rms": 0.15,
+        "gap": 98,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 25 km SW of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.288333333333,
+          32.9633333333333,
+          9.06
+        ]
+      },
+      "id": "ci41546928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "18 km N of Moose Pass, Alaska",
+        "time": 1789365483466,
+        "updated": 1789368786997,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sfhnyo",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sfhnyo.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026sfhnyo",
+        "ids": ",aka2026sfhnyo,",
+        "sources": ",ak,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 91,
+        "dmin": 0.5,
+        "rms": 0.8,
+        "gap": 55,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 18 km N of Moose Pass, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.406,
+          60.657,
+          7.1
+        ]
+      },
+      "id": "aka2026sfhnyo"
     }
   ],
   "bbox": [
-    -152.777,
-    31.492,
-    1.7,
-    -103.852,
-    65.464,
-    75.8
+    -149.449,
+    31.528,
+    1.8500000238419,
+    -98.0473,
+    62.092,
+    10.797
   ]
 }
