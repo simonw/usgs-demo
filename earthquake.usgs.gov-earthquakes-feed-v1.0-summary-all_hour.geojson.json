@@ -1,64 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789541133000,
+    "generated": 1789627633000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 12
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "13 km ENE of Susitna, Alaska",
-        "time": 1789540658797,
-        "updated": 1789540768386,
+        "mag": 2.2,
+        "place": "27 km N of Chickaloon, Alaska",
+        "time": 1789627379990,
+        "updated": 1789627578658,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sjaxki",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sjaxki.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026skxcpk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026skxcpk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 50,
+        "sig": 74,
         "net": "ak",
-        "code": "a2026sjaxki",
-        "ids": ",aka2026sjaxki,",
+        "code": "a2026skxcpk",
+        "ids": ",aka2026skxcpk,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.6,
-        "rms": 0.8,
-        "gap": 88,
+        "nst": 53,
+        "dmin": 0.2,
+        "rms": 0.9,
+        "gap": 36,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 13 km ENE of Susitna, Alaska"
+        "title": "M 2.2 - 27 km N of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.297,
-          61.601,
-          31.9
+          -148.39,
+          62.042,
+          21.1
         ]
       },
-      "id": "aka2026sjaxki"
+      "id": "aka2026skxcpk"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.74,
-        "place": "2 km NNE of The Geysers, CA",
-        "time": 1789540359950,
-        "updated": 1789540456204,
+        "mag": 5.2,
+        "place": "132 km E of Bitung, Indonesia",
+        "time": 1789626048508,
+        "updated": 1789627069040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75436432",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75436432.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thzp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000thzp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000thzp",
+        "ids": ",us7000thzp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 71,
+        "dmin": 17.056,
+        "rms": 0.96,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 132 km E of Bitung, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.3092,
+          1.3156,
+          10
+        ]
+      },
+      "id": "us7000thzp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.12,
+        "place": "2 km W of Indios, Puerto Rico",
+        "time": 1789625917950,
+        "updated": 1789626841220,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531998",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71531998.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "pr",
+        "code": "71531998",
+        "ids": ",pr71531998,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.04087,
+        "rms": 0.11,
+        "gap": 166,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 2 km W of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8413333333333,
+          17.9943333333333,
+          15.71
+        ]
+      },
+      "id": "pr71531998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.72,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1789624819100,
+        "updated": 1789626143737,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75437092",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75437092.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -67,435 +147,75 @@
         "tsunami": 0,
         "sig": 8,
         "net": "nc",
-        "code": "75436432",
-        "ids": ",nc75436432,",
+        "code": "75437092",
+        "ids": ",nc75437092,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.008512,
-        "rms": 0,
-        "gap": 169,
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 12,
+        "dmin": 0.004274,
+        "rms": 0.01,
+        "gap": 127,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 2 km NNE of The Geysers, CA"
+        "title": "M 0.7 - 6 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.749664306641,
-          38.7973327636719,
-          2.84999990463257
+          -122.786331176758,
+          38.8354988098145,
+          1.88999998569489
         ]
       },
-      "id": "nc75436432"
+      "id": "nc75437092"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.08,
-        "place": "20 km W of Empire, Nevada",
-        "time": 1789540055924,
-        "updated": 1789540204740,
+        "mag": 1.2,
+        "place": "34 km SSE of Midland, Texas",
+        "time": 1789624176704,
+        "updated": 1789624404260,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924501",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00924501.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026shwree",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026shwree.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 67,
-        "net": "nn",
-        "code": "00924501",
-        "ids": ",nn00924501,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.417,
-        "rms": 0.2591,
-        "gap": 139,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 20 km W of Empire, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.5783,
-          40.5705,
-          4.3034
-        ]
-      },
-      "id": "nn00924501"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "6 km S of Port Lions, Alaska",
-        "time": 1789539714240,
-        "updated": 1789539788252,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sjajtl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sjajtl.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "ak",
-        "code": "a2026sjajtl",
-        "ids": ",aka2026sjajtl,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.2,
-        "rms": 0.4,
-        "gap": 154,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 6 km S of Port Lions, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.863,
-          57.81,
-          44.8
-        ]
-      },
-      "id": "aka2026sjajtl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.26,
-        "place": "38 km WSW of Empire, Nevada",
-        "time": 1789539551266,
-        "updated": 1789539704936,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924498",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00924498.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 79,
-        "net": "nn",
-        "code": "00924498",
-        "ids": ",nn00924498,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.328,
-        "rms": 0.2656,
-        "gap": 155,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 38 km WSW of Empire, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.7899,
-          40.4954,
-          12.2556
-        ]
-      },
-      "id": "nn00924498"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "37 km W of Empire, Nevada",
-        "time": 1789538713794,
-        "updated": 1789538981007,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924497",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00924497.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "nn",
-        "code": "00924497",
-        "ids": ",nn00924497,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.918,
-        "rms": 0.1625,
-        "gap": 156,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 37 km W of Empire, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.7739,
-          40.5138,
-          15.9706
-        ]
-      },
-      "id": "nn00924497"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "18 km S of Girdwood, Alaska",
-        "time": 1789538693420,
-        "updated": 1789539863097,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sizvaj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sizvaj.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "ak",
-        "code": "a2026sizvaj",
-        "ids": ",aka2026sizvaj,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 18 km S of Girdwood, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.153,
-          60.78,
-          13.5
-        ]
-      },
-      "id": "aka2026sizvaj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.88,
-        "place": "35 km W of Empire, Nevada",
-        "time": 1789538685159,
-        "updated": 1789538837093,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924495",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00924495.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "nn",
-        "code": "00924495",
-        "ids": ",nn00924495,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.356,
-        "rms": 0.2089,
-        "gap": 186,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 35 km W of Empire, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.7532,
-          40.5261,
-          7.796
-        ]
-      },
-      "id": "nn00924495"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "61 km S of Whites City, New Mexico",
-        "time": 1789538590084,
-        "updated": 1789538945878,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026sgbkao",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026sgbkao.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
+        "sig": 22,
         "net": "tx",
-        "code": "2026sgbkao",
-        "ids": ",tx2026sgbkao,",
+        "code": "2026shwree",
+        "ids": ",tx2026shwree,",
         "sources": ",tx,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0,
+        "nst": 15,
+        "dmin": 0.1,
         "rms": 0.5,
-        "gap": 75,
+        "gap": 127,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 61 km S of Whites City, New Mexico"
+        "title": "M 1.2 - 34 km SSE of Midland, Texas"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.479,
-          31.628,
-          2.9752
+          -101.99,
+          31.7,
+          3.5373
         ]
       },
-      "id": "tx2026sgbkao"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "9 km NW of The Geysers, CA",
-        "time": 1789538519280,
-        "updated": 1789540943174,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75436422",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75436422.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75436422",
-        "ids": ",nc75436422,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 5,
-        "dmin": 0.004814,
-        "rms": 0.01,
-        "gap": 152,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 9 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.840835571289,
-          38.8214988708496,
-          1.30999994277954
-        ]
-      },
-      "id": "nc75436422"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "281 km SSE of Dunhuang, China",
-        "time": 1789537923328,
-        "updated": 1789539088040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ths9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ths9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000ths9",
-        "ids": ",us7000ths9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 6.804,
-        "rms": 0.84,
-        "gap": 91,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 281 km SSE of Dunhuang, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          95.4963,
-          37.7078,
-          10.46
-        ]
-      },
-      "id": "us7000ths9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.08,
-        "place": "10 km WNW of The Geysers, CA",
-        "time": 1789537866400,
-        "updated": 1789539140970,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75436417",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75436417.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75436417",
-        "ids": ",nc75436417,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 21,
-        "dmin": 0.006858,
-        "rms": 0.03,
-        "gap": 89,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 10 km WNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.852333068848,
-          38.8216667175293,
-          2.42000007629395
-        ]
-      },
-      "id": "nc75436417"
+      "id": "tx2026shwree"
     }
   ],
   "bbox": [
-    -152.863,
-    31.628,
-    1.3099999427795,
-    95.4963,
-    61.601,
-    44.8
+    -148.39,
+    1.3156,
+    1.8899999856949,
+    126.3092,
+    62.042,
+    21.1
   ]
 }
