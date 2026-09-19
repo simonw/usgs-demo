@@ -1,264 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789713900000,
+    "generated": 1789800066000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 8
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.8,
-        "place": "41 km ENE of Pedro Bay, Alaska",
-        "time": 1789713780657,
-        "updated": 1789713892827,
+        "mag": 1.4,
+        "place": "3 km NNW of Knik, Alaska",
+        "time": 1789799314499,
+        "updated": 1789799390156,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026smtdey",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026smtdey.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "ak",
-        "code": "a2026smtdey",
-        "ids": ",aka2026smtdey,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 121,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 41 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.379,
-          59.871,
-          141.2
-        ]
-      },
-      "id": "aka2026smtdey"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43000007,
-        "place": "5 km S of Pāhala, Hawaii",
-        "time": 1789713403000,
-        "updated": 1789713780040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75039212",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75039212.geojson",
-        "felt": 5,
-        "cdi": 4.1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 183,
-        "net": "hv",
-        "code": "75039212",
-        "ids": ",hv75039212,us7000ti80,",
-        "sources": ",hv,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 57,
-        "dmin": 0.01099,
-        "rms": 0.25999999,
-        "gap": 131,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 5 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.473663330078,
-          19.156665802002,
-          12.0500001907349
-        ]
-      },
-      "id": "hv75039212"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.53,
-        "place": "4 km NNW of The Geysers, CA",
-        "time": 1789713170710,
-        "updated": 1789713265066,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75437667",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75437667.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "nc",
-        "code": "75437667",
-        "ids": ",nc75437667,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.01337,
-        "rms": 0.02,
-        "gap": 133,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.5 - 4 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.771499633789,
-          38.8103332519531,
-          1.42999994754791
-        ]
-      },
-      "id": "nc75437667"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "40 km SSW of Sipí, Colombia",
-        "time": 1789712223598,
-        "updated": 1789713855055,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti7x",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ti7x.geojson",
-        "felt": 5,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 341,
-        "net": "us",
-        "code": "7000ti7x",
-        "ids": ",us7000ti7x,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 50,
-        "dmin": 2.243,
-        "rms": 1.05,
-        "gap": 99,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 40 km SSW of Sipí, Colombia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.7931,
-          4.3224,
-          68.374
-        ]
-      },
-      "id": "us7000ti7x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.8,
-        "place": "54 km SSW of Whites City, New Mexico",
-        "time": 1789712155105,
-        "updated": 1789712459090,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026sjtguj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026sjtguj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 50,
-        "net": "tx",
-        "code": "2026sjtguj",
-        "ids": ",tx2026sjtguj,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0,
-        "rms": 0.7,
-        "gap": 96,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 54 km SSW of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.572,
-          31.709,
-          4.0156
-        ]
-      },
-      "id": "tx2026sjtguj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.3,
-        "place": "60 km S of Whites City, New Mexico",
-        "time": 1789711893055,
-        "updated": 1789712197706,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026sjtdai",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026sjtdai.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 81,
-        "net": "tx",
-        "code": "2026sjtdai",
-        "ids": ",tx2026sjtdai,",
-        "sources": ",tx,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0,
-        "rms": 0.4,
-        "gap": 74,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 60 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.479,
-          31.635,
-          3.622
-        ]
-      },
-      "id": "tx2026sjtdai"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.39,
-        "place": "15 km ENE of Toms Place, CA",
-        "time": 1789711208490,
-        "updated": 1789712246417,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75437662",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75437662.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026soorgk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026soorgk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,76 +26,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 30,
-        "net": "nc",
-        "code": "75437662",
-        "ids": ",nc75437662,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "net": "ak",
+        "code": "a2026soorgk",
+        "ids": ",aka2026soorgk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
         "nst": 6,
-        "dmin": 0.03475,
-        "rms": 0.09,
-        "gap": 120,
-        "magType": "md",
+        "dmin": 0.3,
+        "rms": 0.9,
+        "gap": 149,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 15 km ENE of Toms Place, CA"
+        "title": "M 1.4 - 3 km NNW of Knik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.51782989502,
-          37.6028327941895,
-          8.64999961853027
+          -149.751,
+          61.484,
+          31.9
         ]
       },
-      "id": "nc75437662"
+      "id": "aka2026soorgk"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.09,
-        "place": "43 km ENE of Maneadero, B.C., MX",
-        "time": 1789710773590,
-        "updated": 1789710985616,
+        "mag": 0.7,
+        "place": "65 km ENE of Pedro Bay, Alaska",
+        "time": 1789799223790,
+        "updated": 1789799273554,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41334399",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41334399.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026soopyi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026soopyi.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 67,
-        "net": "ci",
-        "code": "41334399",
-        "ids": ",ci41334399,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 13,
-        "dmin": 0.04477,
-        "rms": 0.17,
-        "gap": 125,
+        "sig": 8,
+        "net": "ak",
+        "code": "a2026soopyi",
+        "ids": ",aka2026soopyi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 100,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 43 km ENE of Maneadero, B.C., MX"
+        "title": "M 0.7 - 65 km ENE of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.1345,
-          31.8241666666667,
-          15.56
+          -153.046,
+          60.043,
+          5
         ]
       },
-      "id": "ci41334399"
+      "id": "aka2026soopyi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.08,
+        "place": "10 km E of Yorba Linda, CA",
+        "time": 1789797943350,
+        "updated": 1789798150500,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335007",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41335007.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "ci",
+        "code": "41335007",
+        "ids": ",ci41335007,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.02473,
+        "rms": 0.15,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 10 km E of Yorba Linda, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.703,
+          33.892,
+          9.64
+        ]
+      },
+      "id": "ci41335007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.27,
+        "place": "23 km ENE of San Lucas, CA",
+        "time": 1789797003400,
+        "updated": 1789798344289,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75438217",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75438217.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 25,
+        "net": "nc",
+        "code": "75438217",
+        "ids": ",nc75438217,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.159,
+        "rms": 0.09,
+        "gap": 141,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 23 km ENE of San Lucas, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.789329528809,
+          36.2154998779297,
+          0.379999995231628
+        ]
+      },
+      "id": "nc75438217"
     }
   ],
   "bbox": [
-    -155.47366333008,
-    4.3224,
-    1.4299999475479,
-    -76.7931,
-    59.871,
-    141.2
+    -153.046,
+    33.892,
+    0.37999999523163,
+    -117.703,
+    61.484,
+    31.9
   ]
 }
