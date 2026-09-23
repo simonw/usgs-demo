@@ -1,261 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790059573000,
+    "generated": 1790145986000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.5,
-        "place": "3 km N of Frazier Park, CA",
-        "time": 1790059070750,
-        "updated": 1790059281405,
+        "mag": 2,
+        "place": "48 km SSE of Denali National Park, Alaska",
+        "time": 1790145693089,
+        "updated": 1790145819578,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41336671",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41336671.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026svzeue",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026svzeue.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 35,
-        "net": "ci",
-        "code": "41336671",
-        "ids": ",ci41336671,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 42,
-        "dmin": 0.07366,
-        "rms": 0.24,
-        "gap": 42,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.5 - 3 km N of Frazier Park, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.950333333333,
-          34.8473333333333,
-          9.96
-        ]
-      },
-      "id": "ci41336671"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "51 km N of Stevens Village, Alaska",
-        "time": 1790059036218,
-        "updated": 1790059132270,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sudamr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sudamr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
+        "sig": 62,
         "net": "ak",
-        "code": "a2026sudamr",
-        "ids": ",aka2026sudamr,",
+        "code": "a2026svzeue",
+        "ids": ",aka2026svzeue,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.6,
-        "rms": 1,
-        "gap": 86,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 51 km N of Stevens Village, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.878,
-          66.46,
-          0.8
-        ]
-      },
-      "id": "aka2026sudamr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.29,
-        "place": "11 km NE of Julian, CA",
-        "time": 1790058137690,
-        "updated": 1790058341840,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41336663",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41336663.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 1,
-        "net": "ci",
-        "code": "41336663",
-        "ids": ",ci41336663,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
         "nst": 26,
-        "dmin": 0.09852,
-        "rms": 0.22,
-        "gap": 57,
+        "dmin": 0.4,
+        "rms": 0.8,
+        "gap": 62,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.3 - 11 km NE of Julian, CA"
+        "title": "M 2.0 - 48 km SSE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.521166666667,
-          33.156,
-          6.24
+          -151.441,
+          63.123,
+          5
         ]
       },
-      "id": "ci41336663"
+      "id": "aka2026svzeue"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "Volcano Islands, Japan region",
-        "time": 1790057470037,
-        "updated": 1790058653040,
+        "mag": 0.34,
+        "place": "17 km NE of Warner Springs, CA",
+        "time": 1790145585080,
+        "updated": 1790145798064,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj3s",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tj3s.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000tj3s",
-        "ids": ",us7000tj3s,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 103,
-        "dmin": 10.51,
-        "rms": 0.61,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - Volcano Islands, Japan region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          142.3395,
-          23.003,
-          10
-        ]
-      },
-      "id": "us7000tj3s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.05,
-        "place": "13 km SW of Volcano, Hawaii",
-        "time": 1790056718190,
-        "updated": 1790057014490,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75041782",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75041782.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41337479",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41337479.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 65,
+        "sig": 2,
+        "net": "ci",
+        "code": "41337479",
+        "ids": ",ci41337479,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 18,
+        "dmin": 0.137,
+        "rms": 0.27,
+        "gap": 152,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.3 - 17 km NE of Warner Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4985,
+          33.3883333333333,
+          13.97
+        ]
+      },
+      "id": "ci41337479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.42,
+        "place": "17 km WSW of Johannesburg, CA",
+        "time": 1790145420260,
+        "updated": 1790145631722,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41337471",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41337471.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 31,
+        "net": "ci",
+        "code": "41337471",
+        "ids": ",ci41337471,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 40,
+        "dmin": 0.05777,
+        "rms": 0.17,
+        "gap": 43,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 17 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.806166666667,
+          35.3153333333333,
+          7.51
+        ]
+      },
+      "id": "ci41337471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "72 km ENE of Ouzinkie, Alaska",
+        "time": 1790145102731,
+        "updated": 1790145358756,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026svywgt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026svywgt.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026svywgt",
+        "ids": ",aka2026svywgt,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 76,
+        "dmin": 0.6,
+        "rms": 0.7,
+        "gap": 153,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 72 km ENE of Ouzinkie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.427,
+          58.233,
+          15.7
+        ]
+      },
+      "id": "aka2026svywgt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.87,
+        "place": "7 km S of Pāhala, Hawaii",
+        "time": 1790143819090,
+        "updated": 1790144036910,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75042492",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75042492.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 54,
         "net": "hv",
-        "code": "75041782",
-        "ids": ",hv75041782,",
+        "code": "75042492",
+        "ids": ",hv75042492,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.01348,
-        "rms": 0.150000006,
-        "gap": 42,
-        "magType": "ml",
+        "nst": 19,
+        "dmin": 0.1165,
+        "rms": 0.159999996,
+        "gap": 221,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.1 - 13 km SW of Volcano, Hawaii"
+        "title": "M 1.9 - 7 km S of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.310333251953,
-          19.3460006713867,
-          30.8600006103516
+          -155.489166259766,
+          19.1316661834717,
+          27.6100006103516
         ]
       },
-      "id": "hv75041782"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.04,
-        "place": "12 km WSW of Salton City, CA",
-        "time": 1790056685860,
-        "updated": 1790056894450,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41336655",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41336655.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "ci",
-        "code": "41336655",
-        "ids": ",ci41336655,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.07611,
-        "rms": 0.22,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 12 km WSW of Salton City, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.064333333333,
-          33.2416666666667,
-          3.57
-        ]
-      },
-      "id": "ci41336655"
+      "id": "hv75042492"
     }
   ],
   "bbox": [
-    -155.31033325195,
-    19.346000671387,
-    0.8,
-    142.3395,
-    66.46,
-    30.860000610352
+    -155.48916625977,
+    19.131666183472,
+    5,
+    -116.4985,
+    63.123,
+    27.610000610352
   ]
 }
