@@ -1,24 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790145986000,
+    "generated": 1790232404000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2,
-        "place": "48 km SSE of Denali National Park, Alaska",
-        "time": 1790145693089,
-        "updated": 1790145819578,
+        "mag": 0.58,
+        "place": "9 km WNW of Anza, CA",
+        "time": 1790232172850,
+        "updated": 1790232372539,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026svzeue",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026svzeue.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338279",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338279.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "ci",
+        "code": "41338279",
+        "ids": ",ci41338279,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.01304,
+        "rms": 0.17,
+        "gap": 38,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 9 km WNW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.760333333333,
+          33.581,
+          12.61
+        ]
+      },
+      "id": "ci41338279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.05,
+        "place": "5 km SSE of Leilani Estates, Hawaii",
+        "time": 1790231688760,
+        "updated": 1790231900570,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75043072",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75043072.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 65,
+        "net": "hv",
+        "code": "75043072",
+        "ids": ",hv75043072,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.03538,
+        "rms": 0.280000001,
+        "gap": 230,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 5 km SSE of Leilani Estates, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.896331787109,
+          19.4270000457764,
+          1.57000005245209
+        ]
+      },
+      "id": "hv75043072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.3,
+        "place": "16 km SSE of Susitna North, Alaska",
+        "time": 1790230490783,
+        "updated": 1790230559048,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sxuiet",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sxuiet.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026sxuiet",
+        "ids": ",aka2026sxuiet,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 131,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 16 km SSE of Susitna North, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.739,
+          62.027,
+          51.3
+        ]
+      },
+      "id": "aka2026sxuiet"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "71 km N of Aleneva, Alaska",
+        "time": 1790230107467,
+        "updated": 1790230369269,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sxuclx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026sxuclx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -27,195 +147,115 @@
         "tsunami": 0,
         "sig": 62,
         "net": "ak",
-        "code": "a2026svzeue",
-        "ids": ",aka2026svzeue,",
+        "code": "a2026sxuclx",
+        "ids": ",aka2026sxuclx,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 62,
+        "nst": 47,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.0 - 48 km SSE of Denali National Park, Alaska"
+        "title": "M 2.0 - 71 km N of Aleneva, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.441,
-          63.123,
-          5
+          -152.681,
+          58.693,
+          10
         ]
       },
-      "id": "aka2026svzeue"
+      "id": "aka2026sxuclx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.34,
-        "place": "17 km NE of Warner Springs, CA",
-        "time": 1790145585080,
-        "updated": 1790145798064,
+        "mag": 0.73,
+        "place": "9 km ENE of Borrego Springs, CA",
+        "time": 1790230083390,
+        "updated": 1790230290079,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41337479",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41337479.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338271",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338271.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
+        "sig": 8,
         "net": "ci",
-        "code": "41337479",
-        "ids": ",ci41337479,",
+        "code": "41338271",
+        "ids": ",ci41338271,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 18,
-        "dmin": 0.137,
-        "rms": 0.27,
-        "gap": 152,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.3 - 17 km NE of Warner Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.4985,
-          33.3883333333333,
-          13.97
-        ]
-      },
-      "id": "ci41337479"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.42,
-        "place": "17 km WSW of Johannesburg, CA",
-        "time": 1790145420260,
-        "updated": 1790145631722,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41337471",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41337471.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 31,
-        "net": "ci",
-        "code": "41337471",
-        "ids": ",ci41337471,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 40,
-        "dmin": 0.05777,
-        "rms": 0.17,
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 50,
+        "dmin": 0.06936,
+        "rms": 0.22,
         "gap": 43,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.4 - 17 km WSW of Johannesburg, CA"
+        "title": "M 0.7 - 9 km ENE of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.806166666667,
-          35.3153333333333,
-          7.51
+          -116.2895,
+          33.3025,
+          9.1
         ]
       },
-      "id": "ci41337471"
+      "id": "ci41338271"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "72 km ENE of Ouzinkie, Alaska",
-        "time": 1790145102731,
-        "updated": 1790145358756,
+        "mag": 2.09,
+        "place": "8 km WNW of Anza, CA",
+        "time": 1790228876160,
+        "updated": 1790229084540,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026svywgt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026svywgt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338255",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338255.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026svywgt",
-        "ids": ",aka2026svywgt,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 76,
-        "dmin": 0.6,
-        "rms": 0.7,
-        "gap": 153,
+        "sig": 67,
+        "net": "ci",
+        "code": "41338255",
+        "ids": ",ci41338255,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 21,
+        "dmin": 0.01048,
+        "rms": 0.1,
+        "gap": 47,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 72 km ENE of Ouzinkie, Alaska"
+        "title": "M 2.1 - 8 km WNW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.427,
-          58.233,
-          15.7
+          -116.757666666667,
+          33.5846666666667,
+          12.07
         ]
       },
-      "id": "aka2026svywgt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.87,
-        "place": "7 km S of Pāhala, Hawaii",
-        "time": 1790143819090,
-        "updated": 1790144036910,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75042492",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75042492.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "hv",
-        "code": "75042492",
-        "ids": ",hv75042492,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1165,
-        "rms": 0.159999996,
-        "gap": 221,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 7 km S of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.489166259766,
-          19.1316661834717,
-          27.6100006103516
-        ]
-      },
-      "id": "hv75042492"
+      "id": "ci41338255"
     }
   ],
   "bbox": [
-    -155.48916625977,
-    19.131666183472,
-    5,
-    -116.4985,
-    63.123,
-    27.610000610352
+    -154.89633178711,
+    19.427000045776,
+    1.5700000524521,
+    -116.2895,
+    62.027,
+    51.3
   ]
 }
