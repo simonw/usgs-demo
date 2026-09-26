@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790318840000,
+    "generated": 1790404970000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,250 +12,250 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.74,
-        "place": "20 km SSE of Waimea, Hawaii",
-        "time": 1790316751220,
-        "updated": 1790316964130,
+        "mag": 2.32,
+        "place": "5 km SW of Pāhala, Hawaii",
+        "time": 1790404413330,
+        "updated": 1790404626340,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75043572",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75043572.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75043862",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75043862.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 47,
+        "sig": 83,
         "net": "hv",
-        "code": "75043572",
-        "ids": ",hv75043572,",
+        "code": "75043862",
+        "ids": ",hv75043862,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.03963,
-        "rms": 0.100000001,
-        "gap": 147,
+        "nst": 24,
+        "dmin": 0.04192,
+        "rms": 0.280000001,
+        "gap": 204,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 20 km SSE of Waimea, Hawaii"
+        "title": "M 2.3 - 5 km SW of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.618499755859,
-          19.841833114624,
-          26.2299995422363
+          -155.505172729492,
+          19.1655006408691,
+          27.7199993133545
         ]
       },
-      "id": "hv75043572"
+      "id": "hv75043862"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.39,
-        "place": "9 km WNW of Anza, CA",
-        "time": 1790316494900,
-        "updated": 1790316698381,
+        "mag": 0.75,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1790403289530,
+        "updated": 1790403387335,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41338831",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41338831.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442277",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75442277.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 2,
-        "net": "ci",
-        "code": "41338831",
-        "ids": ",ci41338831,",
-        "sources": ",ci,",
+        "sig": 9,
+        "net": "nc",
+        "code": "75442277",
+        "ids": ",nc75442277,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.007457,
-        "rms": 0.14,
-        "gap": 71,
-        "magType": "ml",
+        "nst": 8,
+        "dmin": 0.007245,
+        "rms": 0.01,
+        "gap": 86,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.4 - 9 km WNW of Anza, CA"
+        "title": "M 0.8 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.7555,
-          33.5916666666667,
-          11.65
+          -122.815170288086,
+          38.8173332214355,
+          2.84999990463257
         ]
       },
-      "id": "ci41338831"
+      "id": "nc75442277"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "15 km WNW of Central, Alaska",
-        "time": 1790316444986,
-        "updated": 1790316538788,
+        "mag": 0.6,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1790402655540,
+        "updated": 1790402752172,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026szqcic",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026szqcic.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442267",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75442267.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 6,
+        "net": "nc",
+        "code": "75442267",
+        "ids": ",nc75442267,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.006474,
+        "rms": 0.01,
+        "gap": 86,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.6 - 5 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.783164978027,
+          38.8351669311523,
+          1.92999994754791
+        ]
+      },
+      "id": "nc75442267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "56 km WNW of Nikiski, Alaska",
+        "time": 1790402147175,
+        "updated": 1790402359353,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tblsvb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tblsvb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
         "net": "ak",
-        "code": "a2026szqcic",
-        "ids": ",aka2026szqcic,",
+        "code": "a2026tblsvb",
+        "ids": ",aka2026tblsvb,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 51,
+        "nst": 59,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 15 km WNW of Central, Alaska"
+        "title": "M 2.4 - 56 km WNW of Nikiski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -145.107,
-          65.64,
-          2.5
+          -152.275,
+          60.861,
+          109.8
         ]
       },
-      "id": "aka2026szqcic"
+      "id": "aka2026tblsvb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.52,
-        "place": "6 km NNW of The Geysers, CA",
-        "time": 1790316373960,
-        "updated": 1790318240636,
+        "mag": 5.1,
+        "place": "64 km ENE of Tadine, New Caledonia",
+        "time": 1790401848716,
+        "updated": 1790402920040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75441422",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75441422.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 36,
-        "net": "nc",
-        "code": "75441422",
-        "ids": ",nc75441422,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.01081,
-        "rms": 0.04,
-        "gap": 35,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.5 - 6 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.789665222168,
-          38.8214988708496,
-          0.75
-        ]
-      },
-      "id": "nc75441422"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.09,
-        "place": "5 km SSW of Pāhala, Hawaii",
-        "time": 1790316223680,
-        "updated": 1790316438880,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75043562",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75043562.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 67,
-        "net": "hv",
-        "code": "75043562",
-        "ids": ",hv75043562,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.03056,
-        "rms": 0.189999998,
-        "gap": 126,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.1 - 5 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.494171142578,
-          19.1593341827393,
-          29.5100002288818
-        ]
-      },
-      "id": "hv75043562"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "16 km NE of House, New Mexico",
-        "time": 1790315871890,
-        "updated": 1790317216040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txj1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000txj1.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txrf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000txrf.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 400,
         "net": "us",
-        "code": "6000txj1",
-        "ids": ",us6000txj1,",
+        "code": "6000txrf",
+        "ids": ",us6000txrf,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.114,
-        "rms": 0.33,
-        "gap": 65,
-        "magType": "mb_lg",
+        "nst": 62,
+        "dmin": 1.641,
+        "rms": 1.07,
+        "gap": 95,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 2.5 - 16 km NE of House, New Mexico"
+        "title": "M 5.1 - 64 km ENE of Tadine, New Caledonia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.7598,
-          34.7286,
-          9.36
+          168.4033,
+          -21.227,
+          10
         ]
       },
-      "id": "us6000txj1"
+      "id": "us6000txrf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.25,
+        "place": "3 km ENE of Fontana, CA",
+        "time": 1790401578620,
+        "updated": 1790402197990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41339311",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41339311.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 24,
+        "net": "ci",
+        "code": "41339311",
+        "ids": ",ci41339311,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 78,
+        "dmin": 0.009034,
+        "rms": 0.2,
+        "gap": 23,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 3 km ENE of Fontana, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4295,
+          34.1043333333333,
+          4.91
+        ]
+      },
+      "id": "ci41339311"
     }
   ],
   "bbox": [
-    -155.61849975586,
-    19.159334182739,
-    0.75,
-    -103.7598,
-    65.64,
-    29.510000228882
+    -155.50517272949,
+    -21.227,
+    1.9299999475479,
+    168.4033,
+    60.861,
+    109.8
   ]
 }
