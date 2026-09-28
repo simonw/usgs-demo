@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790491507000,
+    "generated": 1790578966000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,290 +12,290 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.9,
-        "place": "16 km NW of Fishhook, Alaska",
-        "time": 1790491298970,
-        "updated": 1790491479424,
+        "mag": 1.6,
+        "place": "3 km WNW of Chenega, Alaska",
+        "time": 1790578838052,
+        "updated": 1790578929004,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tdjhdl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tdjhdl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tffyee",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tffyee.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 129,
+        "sig": 39,
         "net": "ak",
-        "code": "a2026tdjhdl",
-        "ids": ",aka2026tdjhdl,",
+        "code": "a2026tffyee",
+        "ids": ",aka2026tffyee,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 91,
+        "nst": 12,
         "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 29,
+        "rms": 0.6,
+        "gap": 168,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.9 - 16 km NW of Fishhook, Alaska"
+        "title": "M 1.6 - 3 km WNW of Chenega, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.436,
-          61.854,
-          15.5
+          -148.07,
+          60.083,
+          23.3
         ]
       },
-      "id": "aka2026tdjhdl"
+      "id": "aka2026tffyee"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.68,
-        "place": "11 km NW of The Geysers, CA",
-        "time": 1790490940900,
-        "updated": 1790491036304,
+        "mag": 2,
+        "place": "18 km WSW of Point Possession, Alaska",
+        "time": 1790578318241,
+        "updated": 1790578419089,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442907",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75442907.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tffqqt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tffqqt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026tffqqt",
+        "ids": ",aka2026tffqqt,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 44,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 18 km WSW of Point Possession, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.985,
+          60.835,
+          11.4
+        ]
+      },
+      "id": "aka2026tffqqt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1790578127120,
+        "updated": 1790578225295,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443687",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75443687.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
         "net": "nc",
-        "code": "75442907",
-        "ids": ",nc75442907,",
+        "code": "75443687",
+        "ids": ",nc75443687,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.009381,
+        "rms": 0.01,
+        "gap": 51,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816497802734,
+          38.8313331604004,
+          1.67999994754791
+        ]
+      },
+      "id": "nc75443687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "2 km NNW of The Geysers, CA",
+        "time": 1790577021690,
+        "updated": 1790577120061,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443682",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75443682.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "nc",
+        "code": "75443682",
+        "ids": ",nc75443682,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 11,
-        "dmin": 0.0123,
-        "rms": 0.02,
-        "gap": 103,
+        "dmin": 0.005187,
+        "rms": 0.01,
+        "gap": 72,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.7 - 11 km NW of The Geysers, CA"
+        "title": "M 0.8 - 2 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.84700012207,
-          38.8470001220703,
-          1.1599999666214
-        ]
-      },
-      "id": "nc75442907"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.2,
-        "place": "32 km NE of Redway, CA",
-        "time": 1790490581280,
-        "updated": 1790491386538,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442902",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75442902.geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 74,
-        "net": "nc",
-        "code": "75442902",
-        "ids": ",nc75442902,",
-        "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 32,
-        "dmin": 0.01232,
-        "rms": 0.12,
-        "gap": 45,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.2 - 32 km NE of Redway, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.540496826172,
-          40.3120002746582,
-          30.6299991607666
-        ]
-      },
-      "id": "nc75442902"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.19,
-        "place": "1 km WSW of Anderson Springs, CA",
-        "time": 1790489453090,
-        "updated": 1790491341772,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442897",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75442897.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "nc",
-        "code": "75442897",
-        "ids": ",nc75442897,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 11,
-        "dmin": 0.004049,
-        "rms": 0.02,
-        "gap": 143,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.2 - 1 km WSW of Anderson Springs, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.703666687012,
-          38.7703323364258,
+          -122.764663696289,
+          38.7971649169922,
           2.42000007629395
         ]
       },
-      "id": "nc75442897"
+      "id": "nc75443682"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.01,
-        "place": "8 km SSW of Guánica, Puerto Rico",
-        "time": 1790489163380,
-        "updated": 1790491264630,
+        "mag": 2.1,
+        "place": "25 km SE of Chickaloon, Alaska",
+        "time": 1790576350710,
+        "updated": 1790576479276,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71534788",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71534788.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "pr",
-        "code": "71534788",
-        "ids": ",pr71534788,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.09695,
-        "rms": 0.24,
-        "gap": 237,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.0 - 8 km SSW of Guánica, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9518333333333,
-          17.9066666666667,
-          8.37
-        ]
-      },
-      "id": "pr71534788"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.28,
-        "place": "5 km SW of Volcano, Hawaii",
-        "time": 1790488688090,
-        "updated": 1790488893560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75044127",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75044127.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tfeofm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tfeofm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 80,
-        "net": "hv",
-        "code": "75044127",
-        "ids": ",hv75044127,",
-        "sources": ",hv,",
+        "sig": 68,
+        "net": "ak",
+        "code": "a2026tfeofm",
+        "ids": ",aka2026tfeofm,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.007795,
-        "rms": 0.150000006,
-        "gap": 54,
+        "nst": 43,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 44,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.3 - 5 km SW of Volcano, Hawaii"
+        "title": "M 2.1 - 25 km SE of Chickaloon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.266159057617,
-          19.4069995880127,
-          0.589999973773956
+          -148.136,
+          61.63,
+          0.9
         ]
       },
-      "id": "hv75044127"
+      "id": "aka2026tfeofm"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.05,
-        "place": "5 km WNW of The Geysers, CA",
-        "time": 1790488336720,
-        "updated": 1790488435009,
+        "mag": 0.81,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1790575985690,
+        "updated": 1790576079986,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442892",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75442892.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443677",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75443677.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
+        "sig": 10,
         "net": "nc",
-        "code": "75442892",
-        "ids": ",nc75442892,",
+        "code": "75443677",
+        "ids": ",nc75443677,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.00877,
-        "rms": 0.02,
-        "gap": 75,
+        "nst": 12,
+        "dmin": 0.003841,
+        "rms": 0.03,
+        "gap": 72,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 5 km WNW of The Geysers, CA"
+        "title": "M 0.8 - 3 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.810836791992,
-          38.7946662902832,
-          2.83999991416931
+          -122.764167785645,
+          38.798999786377,
+          1.98000001907349
         ]
       },
-      "id": "nc75442892"
+      "id": "nc75443677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "17 km ENE of Chickaloon, Alaska",
+        "time": 1790575918316,
+        "updated": 1790575998959,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tfehzd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tfehzd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ak",
+        "code": "a2026tfehzd",
+        "ids": ",aka2026tfehzd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 195,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 17 km ENE of Chickaloon, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.146,
+          61.852,
+          18.8
+        ]
+      },
+      "id": "aka2026tfehzd"
     }
   ],
   "bbox": [
-    -155.26615905762,
-    17.906666666667,
-    0.58999997377396,
-    -66.951833333333,
-    61.854,
-    30.629999160767
+    -150.985,
+    38.797164916992,
+    0.9,
+    -122.76416778565,
+    61.852,
+    23.3
   ]
 }
