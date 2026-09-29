@@ -1,301 +1,53 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790578966000,
+    "generated": 1790664561000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 7
+    "count": 1
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "3 km WNW of Chenega, Alaska",
-        "time": 1790578838052,
-        "updated": 1790578929004,
+        "mag": 1.67,
+        "place": "26 km SE of Mina, Nevada",
+        "time": 1790661249867,
+        "updated": 1790661403890,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tffyee",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tffyee.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925012",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00925012.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026tffyee",
-        "ids": ",aka2026tffyee,",
-        "sources": ",ak,",
+        "sig": 43,
+        "net": "nn",
+        "code": "00925012",
+        "ids": ",nn00925012,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 168,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 3 km WNW of Chenega, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.07,
-          60.083,
-          23.3
-        ]
-      },
-      "id": "aka2026tffyee"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "18 km WSW of Point Possession, Alaska",
-        "time": 1790578318241,
-        "updated": 1790578419089,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tffqqt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tffqqt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "a2026tffqqt",
-        "ids": ",aka2026tffqqt,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 18 km WSW of Point Possession, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.985,
-          60.835,
-          11.4
-        ]
-      },
-      "id": "aka2026tffqqt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1790578127120,
-        "updated": 1790578225295,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443687",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75443687.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 15,
-        "net": "nc",
-        "code": "75443687",
-        "ids": ",nc75443687,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.009381,
-        "rms": 0.01,
-        "gap": 51,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.0 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.816497802734,
-          38.8313331604004,
-          1.67999994754791
-        ]
-      },
-      "id": "nc75443687"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.8,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1790577021690,
-        "updated": 1790577120061,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443682",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75443682.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75443682",
-        "ids": ",nc75443682,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
         "nst": 11,
-        "dmin": 0.005187,
-        "rms": 0.01,
-        "gap": 72,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.764663696289,
-          38.7971649169922,
-          2.42000007629395
-        ]
-      },
-      "id": "nc75443682"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "25 km SE of Chickaloon, Alaska",
-        "time": 1790576350710,
-        "updated": 1790576479276,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tfeofm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tfeofm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "a2026tfeofm",
-        "ids": ",aka2026tfeofm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 44,
+        "dmin": 0.469,
+        "rms": 0.2394,
+        "gap": 136,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 25 km SE of Chickaloon, Alaska"
+        "title": "M 1.7 - 26 km SE of Mina, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.136,
-          61.63,
-          0.9
+          -117.91,
+          38.2147,
+          12.7353
         ]
       },
-      "id": "aka2026tfeofm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.81,
-        "place": "3 km NNW of The Geysers, CA",
-        "time": 1790575985690,
-        "updated": 1790576079986,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443677",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75443677.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "nc",
-        "code": "75443677",
-        "ids": ",nc75443677,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.003841,
-        "rms": 0.03,
-        "gap": 72,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 3 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.764167785645,
-          38.798999786377,
-          1.98000001907349
-        ]
-      },
-      "id": "nc75443677"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.9,
-        "place": "17 km ENE of Chickaloon, Alaska",
-        "time": 1790575918316,
-        "updated": 1790575998959,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tfehzd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tfehzd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "ak",
-        "code": "a2026tfehzd",
-        "ids": ",aka2026tfehzd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 195,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 17 km ENE of Chickaloon, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -148.146,
-          61.852,
-          18.8
-        ]
-      },
-      "id": "aka2026tfehzd"
+      "id": "nn00925012"
     }
-  ],
-  "bbox": [
-    -150.985,
-    38.797164916992,
-    0.9,
-    -122.76416778565,
-    61.852,
-    23.3
   ]
 }
