@@ -1,53 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790664561000,
+    "generated": 1790750979000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 1
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.67,
-        "place": "26 km SE of Mina, Nevada",
-        "time": 1790661249867,
-        "updated": 1790661403890,
+        "mag": 1.31,
+        "place": "16 km NNW of Piru, CA",
+        "time": 1790750436720,
+        "updated": 1790750641706,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925012",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00925012.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41340895",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41340895.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 43,
-        "net": "nn",
-        "code": "00925012",
-        "ids": ",nn00925012,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.469,
-        "rms": 0.2394,
-        "gap": 136,
+        "sig": 26,
+        "net": "ci",
+        "code": "41340895",
+        "ids": ",ci41340895,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.09259,
+        "rms": 0.3,
+        "gap": 38,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 26 km SE of Mina, Nevada"
+        "title": "M 1.3 - 16 km NNW of Piru, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.91,
-          38.2147,
-          12.7353
+          -118.844833333333,
+          34.5505,
+          1.26
         ]
       },
-      "id": "nn00925012"
+      "id": "ci41340895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.74,
+        "place": "14 km S of Volcano, Hawaii",
+        "time": 1790750196280,
+        "updated": 1790750405770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75045727",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75045727.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 47,
+        "net": "hv",
+        "code": "75045727",
+        "ids": ",hv75045727,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.03318,
+        "rms": 0.230000004,
+        "gap": 130,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 14 km S of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.232833862305,
+          19.3136672973633,
+          1.10000002384186
+        ]
+      },
+      "id": "hv75045727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "58 km ESE of Egegik, Alaska",
+        "time": 1790750041708,
+        "updated": 1790750140577,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tixcfs",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tixcfs.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026tixcfs",
+        "ids": ",aka2026tixcfs,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 109,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 58 km ESE of Egegik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.421,
+          58.084,
+          4.2
+        ]
+      },
+      "id": "aka2026tixcfs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.09,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1790749233780,
+        "updated": 1790749330615,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75441821",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75441821.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75441821",
+        "ids": ",nc75441821,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.004274,
+        "rms": 0.02,
+        "gap": 85,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 7 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.813667297363,
+          38.8201675415039,
+          2.72000002861023
+        ]
+      },
+      "id": "nc75441821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.29,
+        "place": "8 km W of Cobb, CA",
+        "time": 1790749127620,
+        "updated": 1790750540779,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75441816",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75441816.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "nc",
+        "code": "75441816",
+        "ids": ",nc75441816,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 20,
+        "dmin": 0.01335,
+        "rms": 0.03,
+        "gap": 63,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 8 km W of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.816329956055,
+          38.8358345031738,
+          1.88999998569489
+        ]
+      },
+      "id": "nc75441816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.78,
+        "place": "4 km WNW of Anza, CA",
+        "time": 1790748564140,
+        "updated": 1790748772946,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41340887",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41340887.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "ci",
+        "code": "41340887",
+        "ids": ",ci41340887,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.02001,
+        "rms": 0.15,
+        "gap": 34,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 4 km WNW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.716,
+          33.5745,
+          11.7
+        ]
+      },
+      "id": "ci41340887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.79,
+        "place": "5 km E of Borrego Springs, CA",
+        "time": 1790748051370,
+        "updated": 1790748259945,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41340879",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41340879.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ci",
+        "code": "41340879",
+        "ids": ",ci41340879,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.07989,
+        "rms": 0.21,
+        "gap": 31,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 5 km E of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3175,
+          33.2583333333333,
+          12.54
+        ]
+      },
+      "id": "ci41340879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.84,
+        "place": "3 km ENE of Fontana, CA",
+        "time": 1790747625520,
+        "updated": 1790747836001,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41340871",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41340871.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "ci",
+        "code": "41340871",
+        "ids": ",ci41340871,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.01007,
+        "rms": 0.19,
+        "gap": 27,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 3 km ENE of Fontana, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.428166666667,
+          34.1045,
+          5.24
+        ]
+      },
+      "id": "ci41340871"
     }
+  ],
+  "bbox": [
+    -156.421,
+    19.313667297363,
+    1.1000000238419,
+    -116.3175,
+    58.084,
+    12.54
   ]
 }
