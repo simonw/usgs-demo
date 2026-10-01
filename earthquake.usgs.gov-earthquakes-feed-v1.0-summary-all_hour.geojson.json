@@ -1,341 +1,421 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1790750979000,
+    "generated": 1790837480000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 8
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.31,
-        "place": "16 km NNW of Piru, CA",
-        "time": 1790750436720,
-        "updated": 1790750641706,
+        "mag": 2.61,
+        "place": "5 km SW of Volcano, Hawaii",
+        "time": 1790837250520,
+        "updated": 1790837469100,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41340895",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41340895.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75046687",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75046687.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "ci",
-        "code": "41340895",
-        "ids": ",ci41340895,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.09259,
-        "rms": 0.3,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 16 km NNW of Piru, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.844833333333,
-          34.5505,
-          1.26
-        ]
-      },
-      "id": "ci41340895"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.74,
-        "place": "14 km S of Volcano, Hawaii",
-        "time": 1790750196280,
-        "updated": 1790750405770,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75045727",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75045727.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
+        "sig": 105,
         "net": "hv",
-        "code": "75045727",
-        "ids": ",hv75045727,",
+        "code": "75046687",
+        "ids": ",hv75046687,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 0.03318,
-        "rms": 0.230000004,
-        "gap": 130,
-        "magType": "md",
+        "nst": 39,
+        "dmin": 0.008793,
+        "rms": 0.200000003,
+        "gap": 29,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 14 km S of Volcano, Hawaii"
+        "title": "M 2.6 - 5 km SW of Volcano, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.232833862305,
-          19.3136672973633,
-          1.10000002384186
+          -155.279159545898,
+          19.4101657867432,
+          0.259999990463257
         ]
       },
-      "id": "hv75045727"
+      "id": "hv75046687"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "58 km ESE of Egegik, Alaska",
-        "time": 1790750041708,
-        "updated": 1790750140577,
+        "mag": 1.96,
+        "place": "9 km WNW of Anza, CA",
+        "time": 1790836569060,
+        "updated": 1790837196800,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tixcfs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tixcfs.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41341503",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41341503.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 59,
+        "net": "ci",
+        "code": "41341503",
+        "ids": ",ci41341503,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 104,
+        "dmin": 0.0168,
+        "rms": 0.19,
+        "gap": 13,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 9 km WNW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.768,
+          33.5771666666667,
+          11.96
+        ]
+      },
+      "id": "ci41341503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.81,
+        "place": "5 km WSW of Volcano, Hawaii",
+        "time": 1790836260070,
+        "updated": 1790836476860,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75046647",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75046647.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "hv",
+        "code": "75046647",
+        "ids": ",hv75046647,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.004969,
+        "rms": 0.109999999,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 5 km WSW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.280334472656,
+          19.4141674041748,
+          -0.340000003576279
+        ]
+      },
+      "id": "hv75046647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.35,
+        "place": "9 km WNW of Anza, CA",
+        "time": 1790836152740,
+        "updated": 1790836357322,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41341495",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41341495.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ci",
+        "code": "41341495",
+        "ids": ",ci41341495,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.007784,
+        "rms": 0.09,
+        "gap": 99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 9 km WNW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7565,
+          33.5891666666667,
+          11.66
+        ]
+      },
+      "id": "ci41341495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "14 km ESE of Pāhala, Hawaii",
+        "time": 1790835679340,
+        "updated": 1790835890840,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75046642",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75046642.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "hv",
+        "code": "75046642",
+        "ids": ",hv75046642,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.1046,
+        "rms": 0.129999995,
+        "gap": 193,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 14 km ESE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.352661132812,
+          19.1403331756592,
+          26.7800006866455
+        ]
+      },
+      "id": "hv75046642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.77,
+        "place": "4 km NW of Santa Rosa, CA",
+        "time": 1790835198680,
+        "updated": 1790836643357,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442181",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75442181.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 48,
+        "net": "nc",
+        "code": "75442181",
+        "ids": ",nc75442181,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 41,
+        "dmin": 0.1037,
+        "rms": 0.11,
+        "gap": 45,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 4 km NW of Santa Rosa, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.742500305176,
+          38.47216796875,
+          7.34999990463257
+        ]
+      },
+      "id": "nc75442181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.5,
+        "place": "60 km W of Anchor Point, Alaska",
+        "time": 1790834935923,
+        "updated": 1790835034727,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tksgxh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tksgxh.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 35,
         "net": "ak",
-        "code": "a2026tixcfs",
-        "ids": ",aka2026tixcfs,",
+        "code": "a2026tksgxh",
+        "ids": ",aka2026tksgxh,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 109,
+        "nst": 28,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 96,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 58 km ESE of Egegik, Alaska"
+        "title": "M 1.5 - 60 km W of Anchor Point, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.421,
-          58.084,
-          4.2
+          -152.908,
+          59.752,
+          99.4
         ]
       },
-      "id": "aka2026tixcfs"
+      "id": "aka2026tksgxh"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.09,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1790749233780,
-        "updated": 1790749330615,
+        "mag": 0.93,
+        "place": "22 km ESE of Ocotillo Wells, CA",
+        "time": 1790834748860,
+        "updated": 1790834956023,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75441821",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75441821.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41341487",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41341487.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
-        "net": "nc",
-        "code": "75441821",
-        "ids": ",nc75441821,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.004274,
-        "rms": 0.02,
-        "gap": 85,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.1 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.813667297363,
-          38.8201675415039,
-          2.72000002861023
-        ]
-      },
-      "id": "nc75441821"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.29,
-        "place": "8 km W of Cobb, CA",
-        "time": 1790749127620,
-        "updated": 1790750540779,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75441816",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75441816.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 26,
-        "net": "nc",
-        "code": "75441816",
-        "ids": ",nc75441816,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.01335,
-        "rms": 0.03,
-        "gap": 63,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 8 km W of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.816329956055,
-          38.8358345031738,
-          1.88999998569489
-        ]
-      },
-      "id": "nc75441816"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.78,
-        "place": "4 km WNW of Anza, CA",
-        "time": 1790748564140,
-        "updated": 1790748772946,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41340887",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41340887.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
+        "sig": 13,
         "net": "ci",
-        "code": "41340887",
-        "ids": ",ci41340887,",
+        "code": "41341487",
+        "ids": ",ci41341487,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 49,
-        "dmin": 0.02001,
-        "rms": 0.15,
-        "gap": 34,
+        "nst": 28,
+        "dmin": 0.06497,
+        "rms": 0.39,
+        "gap": 76,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 4 km WNW of Anza, CA"
+        "title": "M 0.9 - 22 km ESE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.716,
-          33.5745,
-          11.7
+          -115.8975,
+          33.0996666666667,
+          14.56
         ]
       },
-      "id": "ci41340887"
+      "id": "ci41341487"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.79,
-        "place": "5 km E of Borrego Springs, CA",
-        "time": 1790748051370,
-        "updated": 1790748259945,
+        "mag": 1.06,
+        "place": "24 km ESE of Ocotillo Wells, CA",
+        "time": 1790834656750,
+        "updated": 1790834863957,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41340879",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41340879.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41341479",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41341479.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
+        "sig": 17,
         "net": "ci",
-        "code": "41340879",
-        "ids": ",ci41340879,",
+        "code": "41341479",
+        "ids": ",ci41341479,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 54,
-        "dmin": 0.07989,
+        "nst": 37,
+        "dmin": 0.08531,
+        "rms": 0.23,
+        "gap": 58,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 24 km ESE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.898666666667,
+          33.0596666666667,
+          3.68
+        ]
+      },
+      "id": "ci41341479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.92,
+        "place": "24 km ESE of Ocotillo Wells, CA",
+        "time": 1790834358840,
+        "updated": 1790834560817,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41341471",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41341471.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "41341471",
+        "ids": ",ci41341471,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.08594,
         "rms": 0.21,
-        "gap": 31,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 5 km E of Borrego Springs, CA"
+        "title": "M 0.9 - 24 km ESE of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3175,
-          33.2583333333333,
-          12.54
+          -115.899666666667,
+          33.0596666666667,
+          3.28
         ]
       },
-      "id": "ci41340879"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.84,
-        "place": "3 km ENE of Fontana, CA",
-        "time": 1790747625520,
-        "updated": 1790747836001,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41340871",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41340871.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "41340871",
-        "ids": ",ci41340871,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 61,
-        "dmin": 0.01007,
-        "rms": 0.19,
-        "gap": 27,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 3 km ENE of Fontana, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.428166666667,
-          34.1045,
-          5.24
-        ]
-      },
-      "id": "ci41340871"
+      "id": "ci41341471"
     }
   ],
   "bbox": [
-    -156.421,
-    19.313667297363,
-    1.1000000238419,
-    -116.3175,
-    58.084,
-    12.54
+    -155.35266113281,
+    19.140333175659,
+    -0.34000000357628,
+    -115.8975,
+    59.752,
+    99.4
   ]
 }
