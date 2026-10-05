@@ -1,64 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791102431000,
+    "generated": 1791184104000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.28672093959496,
-        "place": "27 km NNE of Montecito, CA",
-        "time": 1791102243880,
-        "updated": 1791102368417,
+        "mag": 0.75,
+        "place": "3 km NW of The Geysers, CA",
+        "time": 1791183973370,
+        "updated": 1791184069053,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41342879",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41342879.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444861",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75444861.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 25,
-        "net": "ci",
-        "code": "41342879",
-        "ids": ",ci41342879,",
-        "sources": ",ci,",
+        "sig": 9,
+        "net": "nc",
+        "code": "75444861",
+        "ids": ",nc75444861,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.1367,
-        "rms": 0.140000001,
-        "gap": 126,
-        "magType": "ml",
+        "nst": 17,
+        "dmin": 0.004186,
+        "rms": 0.02,
+        "gap": 81,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.3 - 27 km NNE of Montecito, CA"
+        "title": "M 0.8 - 3 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.538330078125,
-          34.6629981994629,
-          6.59999990463257
+          -122.782997131348,
+          38.7948341369629,
+          3.40000009536743
         ]
       },
-      "id": "ci41342879"
+      "id": "nc75444861"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "78 km WSW of Skwentna, Alaska",
-        "time": 1791102192620,
-        "updated": 1791102369252,
+        "mag": 0.7,
+        "place": "19 km ESE of Anza, CA",
+        "time": 1791183363860,
+        "updated": 1791183571281,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tqkveh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tqkveh.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343375",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343375.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "41343375",
+        "ids": ",ci41343375,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 51,
+        "dmin": 0.09186,
+        "rms": 0.19,
+        "gap": 33,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 19 km ESE of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.494833333333,
+          33.475,
+          12.96
+        ]
+      },
+      "id": "ci41343375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.59,
+        "place": "24 km ESE of Ocotillo Wells, CA",
+        "time": 1791182539730,
+        "updated": 1791183173420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343367",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343367.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,196 +106,236 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 39,
-        "net": "ak",
-        "code": "a2026tqkveh",
-        "ids": ",aka2026tqkveh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 7,
-        "dmin": 0.4,
-        "rms": 0.8,
-        "gap": 321,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 78 km WSW of Skwentna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.831,
-          61.789,
-          48
-        ]
-      },
-      "id": "aka2026tqkveh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.34930944442749,
-        "place": "4 km NW of Waterville, Washington",
-        "time": 1791101382540,
-        "updated": 1791102420018,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714115541",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw714115541.geojson",
-        "felt": 2,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 86,
-        "net": "uw",
-        "code": "714115541",
-        "ids": ",uw714115541,",
-        "sources": ",uw,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.05617,
-        "rms": 0.0599999987,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 4 km NW of Waterville, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.117500305176,
-          47.6763343811035,
-          -0.409999996423721
-        ]
-      },
-      "id": "uw714115541"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "35 km WNW of Clam Gulch, Alaska",
-        "time": 1791101289628,
-        "updated": 1791101379257,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tqkhwp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tqkhwp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026tqkhwp",
-        "ids": ",aka2026tqkhwp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.3,
-        "rms": 0.3,
-        "gap": 130,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 35 km WNW of Clam Gulch, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.004,
-          60.332,
-          87.3
-        ]
-      },
-      "id": "aka2026tqkhwp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.53,
-        "place": "12 km NE of Cabazon, CA",
-        "time": 1791101213260,
-        "updated": 1791101416554,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41342871",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41342871.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
         "net": "ci",
-        "code": "41342871",
-        "ids": ",ci41342871,",
+        "code": "41343367",
+        "ids": ",ci41343367,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 64,
+        "dmin": 0.08424,
+        "rms": 0.26,
+        "gap": 24,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 24 km ESE of Ocotillo Wells, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.893333333333,
+          33.0565,
+          5.03
+        ]
+      },
+      "id": "ci41343367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "16 km SSE of Fox River, Alaska",
+        "time": 1791181622776,
+        "updated": 1791181810061,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tsczai",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tsczai.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "ak",
+        "code": "a2026tsczai",
+        "ids": ",aka2026tsczai,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0,
+        "rms": 0.7,
+        "gap": 138,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 16 km SSE of Fox River, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.811,
+          59.735,
+          47.7
+        ]
+      },
+      "id": "aka2026tsczai"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.03,
+        "place": "5 km SE of Loma Linda, CA",
+        "time": 1791181228840,
+        "updated": 1791181430658,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343359",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343359.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "ci",
+        "code": "41343359",
+        "ids": ",ci41343359,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.05909,
-        "rms": 0.13,
-        "gap": 45,
+        "nst": 59,
+        "dmin": 0.08277,
+        "rms": 0.16,
+        "gap": 25,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 12 km NE of Cabazon, CA"
+        "title": "M 1.0 - 5 km SE of Loma Linda, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.702,
-          34,
-          11.86
+          -117.226666666667,
+          34.0171666666667,
+          16.68
         ]
       },
-      "id": "ci41342871"
+      "id": "ci41343359"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "56 km E of Denali Park, Alaska",
-        "time": 1791100441630,
-        "updated": 1791100519398,
+        "mag": 2.12,
+        "place": "4 km SE of La Parguera, Puerto Rico",
+        "time": 1791181060600,
+        "updated": 1791181668510,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tqjvwk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tqjvwk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71535818",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71535818.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "pr",
+        "code": "71535818",
+        "ids": ",pr71535818,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.03136,
+        "rms": 0.11,
+        "gap": 225,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 4 km SE of La Parguera, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0188333333333,
+          17.9493333333333,
+          4.15
+        ]
+      },
+      "id": "pr71535818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "191 km ESE of Sarangani, Philippines",
+        "time": 1791180855888,
+        "updated": 1791182440040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzmk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tzmk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000tzmk",
+        "ids": ",us6000tzmk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 2.891,
+        "rms": 0.66,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 191 km ESE of Sarangani, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9394,
+          4.4975,
+          51.291
+        ]
+      },
+      "id": "us6000tzmk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.54,
+        "place": "13 km NNE of Coso Junction, CA",
+        "time": 1791180697630,
+        "updated": 1791180913261,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343351",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343351.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026tqjvwk",
-        "ids": ",aka2026tqjvwk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 54,
+        "sig": 36,
+        "net": "ci",
+        "code": "41343351",
+        "ids": ",ci41343351,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 29,
+        "dmin": 0.07546,
+        "rms": 0.16,
+        "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 56 km E of Denali Park, Alaska"
+        "title": "M 1.5 - 13 km NNE of Coso Junction, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.776,
-          63.726,
-          0.6
+          -117.872333333333,
+          36.142,
+          1.19
         ]
       },
-      "id": "aka2026tqjvwk"
+      "id": "ci41343351"
     }
   ],
   "bbox": [
-    -152.831,
-    34,
-    -0.40999999642372,
-    -116.702,
-    63.726,
-    87.3
+    -150.811,
+    4.4975,
+    1.19,
+    126.9394,
+    59.735,
+    51.291
   ]
 }
