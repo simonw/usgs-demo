@@ -1,341 +1,261 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791184104000,
+    "generated": 1791269400000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 8
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.75,
-        "place": "3 km NW of The Geysers, CA",
-        "time": 1791183973370,
-        "updated": 1791184069053,
+        "mag": 0.8,
+        "place": "16 km N of Four Mile Road, Alaska",
+        "time": 1791269221979,
+        "updated": 1791269280365,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444861",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75444861.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ttzqxu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ttzqxu.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75444861",
-        "ids": ",nc75444861,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 17,
-        "dmin": 0.004186,
-        "rms": 0.02,
-        "gap": 81,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 3 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.782997131348,
-          38.7948341369629,
-          3.40000009536743
-        ]
-      },
-      "id": "nc75444861"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "19 km ESE of Anza, CA",
-        "time": 1791183363860,
-        "updated": 1791183571281,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343375",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343375.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41343375",
-        "ids": ",ci41343375,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.09186,
-        "rms": 0.19,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 19 km ESE of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.494833333333,
-          33.475,
-          12.96
-        ]
-      },
-      "id": "ci41343375"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.59,
-        "place": "24 km ESE of Ocotillo Wells, CA",
-        "time": 1791182539730,
-        "updated": 1791183173420,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343367",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343367.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ci",
-        "code": "41343367",
-        "ids": ",ci41343367,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 64,
-        "dmin": 0.08424,
-        "rms": 0.26,
-        "gap": 24,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 24 km ESE of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.893333333333,
-          33.0565,
-          5.03
-        ]
-      },
-      "id": "ci41343367"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "16 km SSE of Fox River, Alaska",
-        "time": 1791181622776,
-        "updated": 1791181810061,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tsczai",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tsczai.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
+        "sig": 10,
         "net": "ak",
-        "code": "a2026tsczai",
-        "ids": ",aka2026tsczai,",
+        "code": "a2026ttzqxu",
+        "ids": ",aka2026ttzqxu,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0,
-        "rms": 0.7,
-        "gap": 138,
+        "nst": 9,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 60,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.1 - 16 km SSE of Fox River, Alaska"
+        "title": "M 0.8 - 16 km N of Four Mile Road, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.811,
-          59.735,
-          47.7
+          -149.077,
+          64.746,
+          13.8
         ]
       },
-      "id": "aka2026tsczai"
+      "id": "aka2026ttzqxu"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.03,
-        "place": "5 km SE of Loma Linda, CA",
-        "time": 1791181228840,
-        "updated": 1791181430658,
+        "mag": 1.46,
+        "place": "16 km N of Laytonville, CA",
+        "time": 1791267865860,
+        "updated": 1791269250615,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343359",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343359.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75445326",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75445326.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
-        "net": "ci",
-        "code": "41343359",
-        "ids": ",ci41343359,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.08277,
-        "rms": 0.16,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 5 km SE of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.226666666667,
-          34.0171666666667,
-          16.68
-        ]
-      },
-      "id": "ci41343359"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.12,
-        "place": "4 km SE of La Parguera, Puerto Rico",
-        "time": 1791181060600,
-        "updated": 1791181668510,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71535818",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71535818.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 69,
-        "net": "pr",
-        "code": "71535818",
-        "ids": ",pr71535818,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.03136,
-        "rms": 0.11,
-        "gap": 225,
+        "sig": 33,
+        "net": "nc",
+        "code": "75445326",
+        "ids": ",nc75445326,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.02425,
+        "rms": 0.05,
+        "gap": 125,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.1 - 4 km SE of La Parguera, Puerto Rico"
+        "title": "M 1.5 - 16 km N of Laytonville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.0188333333333,
-          17.9493333333333,
-          4.15
+          -123.472503662109,
+          39.8318328857422,
+          7.28999996185303
         ]
       },
-      "id": "pr71535818"
+      "id": "nc75445326"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "191 km ESE of Sarangani, Philippines",
-        "time": 1791180855888,
-        "updated": 1791182440040,
+        "mag": 4.7,
+        "place": "36 km WNW of Ollagüe, Chile",
+        "time": 1791267393173,
+        "updated": 1791268566040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzmk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tzmk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzv6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tzv6.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 340,
         "net": "us",
-        "code": "6000tzmk",
-        "ids": ",us6000tzmk,",
+        "code": "6000tzv6",
+        "ids": ",us6000tzv6,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 2.891,
-        "rms": 0.66,
-        "gap": 85,
-        "magType": "mb",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 112,
+        "dmin": 0.834,
+        "rms": 0.69,
+        "gap": 44,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.8 - 191 km ESE of Sarangani, Philippines"
+        "title": "M 4.7 - 36 km WNW of Ollagüe, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.9394,
-          4.4975,
-          51.291
+          -68.6026,
+          -21.1586,
+          122.011
         ]
       },
-      "id": "us6000tzmk"
+      "id": "us6000tzv6"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.54,
-        "place": "13 km NNE of Coso Junction, CA",
-        "time": 1791180697630,
-        "updated": 1791180913261,
+        "mag": 0.4,
+        "place": "11 km SW of Borrego Springs, CA",
+        "time": 1791266721260,
+        "updated": 1791266927011,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343351",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343351.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343927",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343927.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 36,
+        "sig": 2,
         "net": "ci",
-        "code": "41343351",
-        "ids": ",ci41343351,",
+        "code": "41343927",
+        "ids": ",ci41343927,",
         "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 29,
-        "dmin": 0.07546,
+        "dmin": 0.08878,
         "rms": 0.16,
-        "gap": 53,
+        "gap": 61,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 13 km NNE of Coso Junction, CA"
+        "title": "M 0.4 - 11 km SW of Borrego Springs, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.872333333333,
-          36.142,
-          1.19
+          -116.4485,
+          33.1831666666667,
+          4.77
         ]
       },
-      "id": "ci41343351"
+      "id": "ci41343927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "62 km ENE of Denali Park, Alaska",
+        "time": 1791266690916,
+        "updated": 1791267561040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ttygip",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ttygip.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "a2026ttygip",
+        "ids": ",us6000tzv5,aka2026ttygip,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 90,
+        "dmin": 0.6,
+        "rms": 1.1,
+        "gap": 28,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 62 km ENE of Denali Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.67,
+          63.857,
+          1.3
+        ]
+      },
+      "id": "aka2026ttygip"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.91,
+        "place": "16 km WSW of Johannesburg, CA",
+        "time": 1791266289120,
+        "updated": 1791266489268,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343919",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41343919.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "41343919",
+        "ids": ",ci41343919,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 34,
+        "dmin": 0.05978,
+        "rms": 0.19,
+        "gap": 60,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 16 km WSW of Johannesburg, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.794,
+          35.3096666666667,
+          5.72
+        ]
+      },
+      "id": "ci41343919"
     }
   ],
   "bbox": [
-    -150.811,
-    4.4975,
-    1.19,
-    126.9394,
-    59.735,
-    51.291
+    -149.077,
+    -21.1586,
+    1.3,
+    -68.6026,
+    64.746,
+    122.011
   ]
 }
