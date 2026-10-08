@@ -1,224 +1,144 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791355811000,
+    "generated": 1791442335000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 6
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.64,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1791355606380,
-        "updated": 1791355700900,
+        "mag": 0.5,
+        "place": "73 km NW of Ninilchik, Alaska",
+        "time": 1791442258278,
+        "updated": 1791442315581,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75445841",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75445841.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026txrvma",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026txrvma.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 6,
-        "net": "nc",
-        "code": "75445841",
-        "ids": ",nc75445841,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.0109,
-        "rms": 0.03,
-        "gap": 82,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.6 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.818664550781,
-          38.8320007324219,
-          2.13000011444092
-        ]
-      },
-      "id": "nc75445841"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.65,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1791355586970,
-        "updated": 1791355680945,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75445836",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75445836.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "nc",
-        "code": "75445836",
-        "ids": ",nc75445836,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.01039,
-        "rms": 0.02,
-        "gap": 67,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 8 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.818664550781,
-          38.8313331604004,
-          1.32000005245209
-        ]
-      },
-      "id": "nc75445836"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.84,
-        "place": "2 km S of Loma Linda, CA",
-        "time": 1791355381950,
-        "updated": 1791355592696,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41344383",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41344383.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "41344383",
-        "ids": ",ci41344383,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 55,
-        "dmin": 0.07608,
-        "rms": 0.15,
-        "gap": 28,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 2 km S of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.263833333333,
-          34.0281666666667,
-          16.63
-        ]
-      },
-      "id": "ci41344383"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.36,
-        "place": "9 km WNW of Anza, CA",
-        "time": 1791354454020,
-        "updated": 1791355103370,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41344375",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41344375.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 28,
-        "net": "ci",
-        "code": "41344375",
-        "ids": ",ci41344375,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 76,
-        "dmin": 0.02978,
-        "rms": 0.22,
-        "gap": 18,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 9 km WNW of Anza, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.769666666667,
-          33.578,
-          12.3
-        ]
-      },
-      "id": "ci41344375"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "243 km SE of Chignik, Alaska",
-        "time": 1791353031815,
-        "updated": 1791353221169,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tvuggp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026tvuggp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 148,
+        "sig": 4,
         "net": "ak",
-        "code": "a2026tvuggp",
-        "ids": ",aka2026tvuggp,",
+        "code": "a2026txrvma",
+        "ids": ",aka2026txrvma,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 2.3,
-        "rms": 0.7,
-        "gap": 247,
+        "nst": 6,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 205,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.1 - 243 km SE of Chignik, Alaska"
+        "title": "M 0.5 - 73 km NW of Ninilchik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.901,
-          54.629,
+          -152.73,
+          60.453,
           5
         ]
       },
-      "id": "aka2026tvuggp"
+      "id": "aka2026txrvma"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.74,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1791352485050,
-        "updated": 1791352579528,
+        "mag": 1.9,
+        "place": "21 km SE of Lowell Point, Alaska",
+        "time": 1791440807375,
+        "updated": 1791440919915,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75445831",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75445831.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026txramv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026txramv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026txramv",
+        "ids": ",aka2026txramv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.2,
+        "rms": 0.9,
+        "gap": 174,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 21 km SE of Lowell Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.202,
+          59.916,
+          10.4
+        ]
+      },
+      "id": "aka2026txramv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.47,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1791440614330,
+        "updated": 1791440708903,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75446341",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75446341.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
+        "net": "nc",
+        "code": "75446341",
+        "ids": ",nc75446341,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.002643,
+        "rms": 0.02,
+        "gap": 125,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.5 - 6 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.78800201416,
+          38.836498260498,
+          1.85000002384186
+        ]
+      },
+      "id": "nc75446341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "85 km NNW of Karluk, Alaska",
+        "time": 1791439303619,
+        "updated": 1791439339536,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026txqetk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026txqetk.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -226,36 +146,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 8,
-        "net": "nc",
-        "code": "75445831",
-        "ids": ",nc75445831,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.02647,
-        "rms": 0.02,
-        "gap": 83,
-        "magType": "md",
+        "net": "ak",
+        "code": "a2026txqetk",
+        "ids": ",aka2026txqetk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 141,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 2 km NNW of The Geysers, CA"
+        "title": "M 0.7 - 85 km NNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.763832092285,
-          38.798168182373,
-          3.5699999332428
+          -154.965,
+          58.284,
+          5
         ]
       },
-      "id": "nc75445831"
+      "id": "aka2026txqetk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.5,
+        "place": "82 km NW of Karluk, Alaska",
+        "time": 1791439217466,
+        "updated": 1791439285526,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026txqdnq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026txqdnq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ak",
+        "code": "a2026txqdnq",
+        "ids": ",aka2026txqdnq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 85,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 82 km NW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.249,
+          58.181,
+          5
+        ]
+      },
+      "id": "aka2026txqdnq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.93,
+        "place": "2 km W of Fontana, CA",
+        "time": 1791438887630,
+        "updated": 1791439095698,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41344807",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41344807.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 13,
+        "net": "ci",
+        "code": "41344807",
+        "ids": ",ci41344807,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.03673,
+        "rms": 0.18,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 2 km W of Fontana, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.483,
+          34.1006666666667,
+          6.43
+        ]
+      },
+      "id": "ci41344807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.6,
+        "place": "62 km SE of Pope-Vannoy Landing, Alaska",
+        "time": 1791438776776,
+        "updated": 1791438880278,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026txpwdv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026txpwdv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026txpwdv",
+        "ids": ",aka2026txpwdv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.2,
+        "rms": 0.3,
+        "gap": 65,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 62 km SE of Pope-Vannoy Landing, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.631,
+          59.21,
+          111.9
+        ]
+      },
+      "id": "aka2026txpwdv"
     }
   ],
   "bbox": [
-    -155.901,
-    33.578,
-    1.3200000524521,
-    -116.76966666667,
-    54.629,
-    16.63
+    -155.249,
+    34.100666666667,
+    1.8500000238419,
+    -117.483,
+    60.453,
+    111.9
   ]
 }
