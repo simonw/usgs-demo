@@ -1,181 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791701292000,
+    "generated": 1791789020000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 4
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "40 km W of Anchor Point, Alaska",
-        "time": 1791699759125,
-        "updated": 1791700040518,
+        "mag": 2.36,
+        "place": "7 km N of Alex, Oklahoma",
+        "time": 1791788742568,
+        "updated": 1791788830191,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026udeyax",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026udeyax.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026tzkx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026tzkx.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
-        "net": "ak",
-        "code": "a2026udeyax",
-        "ids": ",aka2026udeyax,",
-        "sources": ",ak,",
+        "sig": 86,
+        "net": "ok",
+        "code": "2026tzkx",
+        "ids": ",ok2026tzkx,",
+        "sources": ",ok,",
         "types": ",origin,phase-data,",
-        "nst": 162,
-        "dmin": 0.2,
-        "rms": 0.9,
-        "gap": 75,
+        "nst": 31,
+        "dmin": 0.07613434643,
+        "rms": 0.471712328,
+        "gap": 50.78811646,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 40 km W of Anchor Point, Alaska"
+        "title": "M 2.4 - 7 km N of Alex, Oklahoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.541,
-          59.842,
-          80.3
+          -97.77102661,
+          34.98142242,
+          5.487326622
         ]
       },
-      "id": "aka2026udeyax"
+      "id": "ok2026tzkx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.48,
-        "place": "18 km NNW of Aguanga, CA",
-        "time": 1791699100760,
-        "updated": 1791699309188,
+        "mag": 0.7,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1791787073080,
+        "updated": 1791787172977,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346351",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41346351.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75448221",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75448221.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 4,
+        "sig": 8,
+        "net": "nc",
+        "code": "75448221",
+        "ids": ",nc75448221,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.01174,
+        "rms": 0.02,
+        "gap": 82,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.819831848145,
+          38.832332611084,
+          1.87999999523163
+        ]
+      },
+      "id": "nc75448221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.43,
+        "place": "3 km ESE of Wildomar, CA",
+        "time": 1791787019400,
+        "updated": 1791787218359,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346623",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41346623.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 3,
         "net": "ci",
-        "code": "41346351",
-        "ids": ",ci41346351,",
+        "code": "41346623",
+        "ids": ",ci41346623,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.1426,
-        "rms": 0.32,
-        "gap": 134,
+        "nst": 26,
+        "dmin": 0.04759,
+        "rms": 0.17,
+        "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 18 km NNW of Aguanga, CA"
+        "title": "M 0.4 - 3 km ESE of Wildomar, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.945666666667,
-          33.5883333333333,
-          12.55
+          -117.2515,
+          33.5913333333333,
+          4.16
         ]
       },
-      "id": "ci41346351"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.21,
-        "place": "10 km SE of Winchester, CA",
-        "time": 1791698908970,
-        "updated": 1791699529590,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346343",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41346343.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 23,
-        "net": "ci",
-        "code": "41346343",
-        "ids": ",ci41346343,",
-        "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
-        "nst": 64,
-        "dmin": 0.014,
-        "rms": 0.18,
-        "gap": 20,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 10 km SE of Winchester, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.018166666667,
-          33.638,
-          12.93
-        ]
-      },
-      "id": "ci41346343"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.22,
-        "place": "5 km ESE of Mogul, Nevada",
-        "time": 1791698831038,
-        "updated": 1791700814076,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925614",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00925614.geojson",
-        "felt": 7,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 78,
-        "net": "nn",
-        "code": "00925614",
-        "ids": ",nn00925614,",
-        "sources": ",nn,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.024,
-        "rms": 0.3511,
-        "gap": 38,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 5 km ESE of Mogul, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.8634,
-          39.4911,
-          14.0379
-        ]
-      },
-      "id": "nn00925614"
+      "id": "ci41346623"
     }
   ],
   "bbox": [
-    -152.541,
-    33.588333333333,
-    12.55,
-    -116.94566666667,
-    59.842,
-    80.3
+    -122.81983184815,
+    33.591333333333,
+    1.8799999952316,
+    -97.77102661,
+    38.832332611084,
+    5.487326622
   ]
 }
