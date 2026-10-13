@@ -1,141 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791789020000,
+    "generated": 1791874560000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 3
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.36,
-        "place": "7 km N of Alex, Oklahoma",
-        "time": 1791788742568,
-        "updated": 1791788830191,
+        "mag": 2.8,
+        "place": "91 km W of Akhiok, Alaska",
+        "time": 1791874292555,
+        "updated": 1791874430003,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026tzkx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026tzkx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ugxyux",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ugxyux.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 86,
-        "net": "ok",
-        "code": "2026tzkx",
-        "ids": ",ok2026tzkx,",
-        "sources": ",ok,",
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026ugxyux",
+        "ids": ",aka2026ugxyux,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.07613434643,
-        "rms": 0.471712328,
-        "gap": 50.78811646,
+        "nst": 52,
+        "dmin": 0.9,
+        "rms": 0.8,
+        "gap": 140,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 7 km N of Alex, Oklahoma"
+        "title": "M 2.8 - 91 km W of Akhiok, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.77102661,
-          34.98142242,
-          5.487326622
+          -155.658,
+          56.827,
+          1.2
         ]
       },
-      "id": "ok2026tzkx"
+      "id": "aka2026ugxyux"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.7,
-        "place": "8 km NW of The Geysers, CA",
-        "time": 1791787073080,
-        "updated": 1791787172977,
+        "mag": 0.6,
+        "place": "85 km NNW of Karluk, Alaska",
+        "time": 1791873816788,
+        "updated": 1791873851656,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75448221",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75448221.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ugxrxz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ugxrxz.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75448221",
-        "ids": ",nc75448221,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.01174,
-        "rms": 0.02,
-        "gap": 82,
-        "magType": "md",
+        "sig": 6,
+        "net": "ak",
+        "code": "a2026ugxrxz",
+        "ids": ",aka2026ugxrxz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0.1,
+        "rms": 0.3,
+        "gap": 141,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 8 km NW of The Geysers, CA"
+        "title": "M 0.6 - 85 km NNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.819831848145,
-          38.832332611084,
-          1.87999999523163
+          -154.962,
+          58.288,
+          5
         ]
       },
-      "id": "nc75448221"
+      "id": "aka2026ugxrxz"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.43,
-        "place": "3 km ESE of Wildomar, CA",
-        "time": 1791787019400,
-        "updated": 1791787218359,
+        "mag": 1.6,
+        "place": "29 km SW of Manley Hot Springs, Alaska",
+        "time": 1791873517237,
+        "updated": 1791873645711,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346623",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41346623.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ugxnpq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ugxnpq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 3,
-        "net": "ci",
-        "code": "41346623",
-        "ids": ",ci41346623,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.04759,
-        "rms": 0.17,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026ugxnpq",
+        "ids": ",aka2026ugxnpq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.2,
+        "rms": 0.7,
         "gap": 69,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 3 km ESE of Wildomar, CA"
+        "title": "M 1.6 - 29 km SW of Manley Hot Springs, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.2515,
-          33.5913333333333,
-          4.16
+          -151.142,
+          64.854,
+          3.5
         ]
       },
-      "id": "ci41346623"
+      "id": "aka2026ugxnpq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "76 km W of Karluk, Alaska",
+        "time": 1791872256462,
+        "updated": 1791872309299,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ugwvjq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ugwvjq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ak",
+        "code": "a2026ugwvjq",
+        "ids": ",aka2026ugwvjq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.3,
+        "rms": 0.2,
+        "gap": 262,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 76 km W of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.737,
+          57.521,
+          25.1
+        ]
+      },
+      "id": "aka2026ugwvjq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "55 km NW of Tatitlek, Alaska",
+        "time": 1791871882816,
+        "updated": 1791872040988,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ugwpzi",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ugwpzi.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026ugwpzi",
+        "ids": ",aka2026ugwpzi,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 23,
+        "dmin": 0.4,
+        "rms": 0.6,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 55 km NW of Tatitlek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.416,
+          61.206,
+          5
+        ]
+      },
+      "id": "aka2026ugwpzi"
     }
   ],
   "bbox": [
-    -122.81983184815,
-    33.591333333333,
-    1.8799999952316,
-    -97.77102661,
-    38.832332611084,
-    5.487326622
+    -155.737,
+    56.827,
+    1.2,
+    -147.416,
+    64.854,
+    25.1
   ]
 }
