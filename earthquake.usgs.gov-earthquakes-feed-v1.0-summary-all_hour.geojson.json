@@ -1,104 +1,24 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1791874560000,
+    "generated": 1791960420000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 5
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "91 km W of Akhiok, Alaska",
-        "time": 1791874292555,
-        "updated": 1791874430003,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ugxyux",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ugxyux.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "a2026ugxyux",
-        "ids": ",aka2026ugxyux,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.9,
-        "rms": 0.8,
-        "gap": 140,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 91 km W of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.658,
-          56.827,
-          1.2
-        ]
-      },
-      "id": "aka2026ugxyux"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.6,
-        "place": "85 km NNW of Karluk, Alaska",
-        "time": 1791873816788,
-        "updated": 1791873851656,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ugxrxz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ugxrxz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 6,
-        "net": "ak",
-        "code": "a2026ugxrxz",
-        "ids": ",aka2026ugxrxz,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1,
-        "rms": 0.3,
-        "gap": 141,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 85 km NNW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -154.962,
-          58.288,
-          5
-        ]
-      },
-      "id": "aka2026ugxrxz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 1.6,
-        "place": "29 km SW of Manley Hot Springs, Alaska",
-        "time": 1791873517237,
-        "updated": 1791873645711,
+        "place": "20 km WSW of Ivanof Bay, Alaska",
+        "time": 1791960026913,
+        "updated": 1791960219801,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ugxnpq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ugxnpq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uitpuv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uitpuv.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -107,115 +27,235 @@
         "tsunami": 0,
         "sig": 39,
         "net": "ak",
-        "code": "a2026ugxnpq",
-        "ids": ",aka2026ugxnpq,",
+        "code": "a2026uitpuv",
+        "ids": ",aka2026uitpuv,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.2,
-        "rms": 0.7,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 29 km SW of Manley Hot Springs, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.142,
-          64.854,
-          3.5
-        ]
-      },
-      "id": "aka2026ugxnpq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "76 km W of Karluk, Alaska",
-        "time": 1791872256462,
-        "updated": 1791872309299,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ugwvjq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ugwvjq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026ugwvjq",
-        "ids": ",aka2026ugwvjq,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 8,
+        "nst": 10,
         "dmin": 0.3,
-        "rms": 0.2,
-        "gap": 262,
+        "rms": 0.3,
+        "gap": 322,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 76 km W of Karluk, Alaska"
+        "title": "M 1.6 - 20 km WSW of Ivanof Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.737,
-          57.521,
-          25.1
+          -159.798,
+          55.85,
+          7.1
         ]
       },
-      "id": "aka2026ugwvjq"
+      "id": "aka2026uitpuv"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "55 km NW of Tatitlek, Alaska",
-        "time": 1791871882816,
-        "updated": 1791872040988,
+        "mag": 0.38,
+        "place": "4 km WSW of Anza, CA",
+        "time": 1791958434300,
+        "updated": 1791958642072,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ugwpzi",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ugwpzi.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347407",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41347407.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026ugwpzi",
-        "ids": ",aka2026ugwpzi,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
+        "sig": 2,
+        "net": "ci",
+        "code": "41347407",
+        "ids": ",ci41347407,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 23,
-        "dmin": 0.4,
-        "rms": 0.6,
-        "gap": 69,
+        "dmin": 0.03702,
+        "rms": 0.08,
+        "gap": 42,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.7 - 55 km NW of Tatitlek, Alaska"
+        "title": "M 0.4 - 4 km WSW of Anza, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.416,
-          61.206,
-          5
+          -116.709,
+          33.5368333333333,
+          6.33
         ]
       },
-      "id": "aka2026ugwpzi"
+      "id": "ci41347407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.02,
+        "place": "8 km SW of Volcano, Hawaii",
+        "time": 1791957919270,
+        "updated": 1791958131550,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75055917",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75055917.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 63,
+        "net": "hv",
+        "code": "75055917",
+        "ids": ",hv75055917,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.003151,
+        "rms": 0.239999995,
+        "gap": 68,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 8 km SW of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.279495239258,
+          19.3841667175293,
+          1.36000001430511
+        ]
+      },
+      "id": "hv75055917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.48,
+        "place": "10 km SSE of Idyllwild, CA",
+        "time": 1791957143700,
+        "updated": 1791957355243,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347391",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41347391.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 4,
+        "net": "ci",
+        "code": "41347391",
+        "ids": ",ci41347391,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.02773,
+        "rms": 0.12,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.5 - 10 km SSE of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.6955,
+          33.6478333333333,
+          16.56
+        ]
+      },
+      "id": "ci41347391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.04,
+        "place": "13 km SE of Livermore, CA",
+        "time": 1791957007520,
+        "updated": 1791957107679,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449216",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75449216.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 17,
+        "net": "nc",
+        "code": "75449216",
+        "ids": ",nc75449216,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.04931,
+        "rms": 0.03,
+        "gap": 135,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 13 km SE of Livermore, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.652496337891,
+          37.6123352050781,
+          7.21000003814697
+        ]
+      },
+      "id": "nc75449216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.86,
+        "place": "2 km NNW of The Geysers, CA",
+        "time": 1791956850490,
+        "updated": 1791956947667,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449211",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75449211.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 11,
+        "net": "nc",
+        "code": "75449211",
+        "ids": ",nc75449211,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.008211,
+        "rms": 0.02,
+        "gap": 107,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.9 - 2 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.761329650879,
+          38.7924995422363,
+          1.05999994277954
+        ]
+      },
+      "id": "nc75449211"
     }
   ],
   "bbox": [
-    -155.737,
-    56.827,
-    1.2,
-    -147.416,
-    64.854,
-    25.1
+    -159.798,
+    19.384166717529,
+    1.0599999427795,
+    -116.6955,
+    55.85,
+    16.56
   ]
 }
