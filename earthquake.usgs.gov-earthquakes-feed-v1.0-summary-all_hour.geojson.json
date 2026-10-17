@@ -1,181 +1,141 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792133238000,
+    "generated": 1792219372000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 4
+    "count": 3
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3,
-        "place": "77 km W of Karluk, Alaska",
-        "time": 1792133086204,
-        "updated": 1792133197468,
+        "mag": 1.9,
+        "place": "17 km S of South Van Horn, Alaska",
+        "time": 1792218415429,
+        "updated": 1792218640357,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umluqb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026umluqb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uohfsq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uohfsq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 138,
+        "sig": 56,
         "net": "ak",
-        "code": "a2026umluqb",
-        "ids": ",aka2026umluqb,",
+        "code": "a2026uohfsq",
+        "ids": ",aka2026uohfsq,",
         "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 123,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.0 - 77 km W of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.741,
-          57.657,
-          4.3
-        ]
-      },
-      "id": "aka2026umluqb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "80 km W of Karluk, Alaska",
-        "time": 1792132539710,
-        "updated": 1792132761131,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umlmsg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026umlmsg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026umlmsg",
-        "ids": ",aka2026umlmsg,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 68,
-        "dmin": 0.3,
-        "rms": 0.7,
-        "gap": 88,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 80 km W of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.79,
-          57.659,
-          3.6
-        ]
-      },
-      "id": "aka2026umlmsg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.78,
-        "place": "1 km SSE of Pāhala, Hawaii",
-        "time": 1792131674830,
-        "updated": 1792131892560,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75057572",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75057572.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 49,
-        "net": "hv",
-        "code": "75057572",
-        "ids": ",hv75057572,",
-        "sources": ",hv,",
         "types": ",origin,phase-data,",
         "nst": 28,
-        "dmin": 0.03337,
-        "rms": 0.140000001,
-        "gap": 103,
-        "magType": "md",
+        "dmin": 0,
+        "rms": 0.9,
+        "gap": 49,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 1 km SSE of Pāhala, Hawaii"
+        "title": "M 1.9 - 17 km S of South Van Horn, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.471832275391,
-          19.1876659393311,
-          28.9799995422363
+          -147.752,
+          64.651,
+          5
         ]
       },
-      "id": "hv75057572"
+      "id": "aka2026uohfsq"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.59,
-        "place": "10 km E of Gilroy, CA",
-        "time": 1792131581660,
-        "updated": 1792132945484,
+        "mag": 1.9,
+        "place": "16 km SSW of Badger, Alaska",
+        "time": 1792218259413,
+        "updated": 1792218369648,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75450366",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75450366.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uohdjn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uohdjn.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "nc",
-        "code": "75450366",
-        "ids": ",nc75450366,",
-        "sources": ",nc,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.03444,
-        "rms": 0.14,
-        "gap": 63,
-        "magType": "md",
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026uohdjn",
+        "ids": ",aka2026uohdjn,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.1,
+        "rms": 1.2,
+        "gap": 94,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.6 - 10 km E of Gilroy, CA"
+        "title": "M 1.9 - 16 km SSW of Badger, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.460334777832,
-          36.9968338012695,
-          6.59999990463257
+          -147.662,
+          64.667,
+          11.5
         ]
       },
-      "id": "nc75450366"
+      "id": "aka2026uohdjn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "23 km WNW of Petersville, Alaska",
+        "time": 1792217122930,
+        "updated": 1792217320472,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uogndb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uogndb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026uogndb",
+        "ids": ",aka2026uogndb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 86,
+        "dmin": 0.2,
+        "rms": 0.8,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 23 km WNW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.22,
+          62.54,
+          85.3
+        ]
+      },
+      "id": "aka2026uogndb"
     }
   ],
   "bbox": [
-    -155.79,
-    19.187665939331,
-    3.6,
-    -121.46033477783,
-    57.659,
-    28.979999542236
+    -151.22,
+    62.54,
+    5,
+    -147.662,
+    64.667,
+    85.3
   ]
 }
