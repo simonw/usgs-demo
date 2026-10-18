@@ -1,141 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792219372000,
+    "generated": 1792305757000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 3
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "17 km S of South Van Horn, Alaska",
-        "time": 1792218415429,
-        "updated": 1792218640357,
+        "mag": 1.3,
+        "place": "8 km NW of Four Mile Road, Alaska",
+        "time": 1792305575348,
+        "updated": 1792305664073,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uohfsq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uohfsq.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqdrhb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uqdrhb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 26,
         "net": "ak",
-        "code": "a2026uohfsq",
-        "ids": ",aka2026uohfsq,",
+        "code": "a2026uqdrhb",
+        "ids": ",aka2026uqdrhb,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0,
-        "rms": 0.9,
-        "gap": 49,
+        "nst": 15,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 66,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 17 km S of South Van Horn, Alaska"
+        "title": "M 1.3 - 8 km NW of Four Mile Road, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.752,
-          64.651,
+          -149.233,
+          64.663,
           5
         ]
       },
-      "id": "aka2026uohfsq"
+      "id": "aka2026uqdrhb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "16 km SSW of Badger, Alaska",
-        "time": 1792218259413,
-        "updated": 1792218369648,
+        "mag": 0.8,
+        "place": "67 km WNW of Tyonek, Alaska",
+        "time": 1792303656127,
+        "updated": 1792303720433,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uohdjn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uohdjn.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqcppm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uqcppm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 10,
         "net": "ak",
-        "code": "a2026uohdjn",
-        "ids": ",aka2026uohdjn,",
+        "code": "a2026uqcppm",
+        "ids": ",aka2026uqcppm,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 9,
         "dmin": 0.1,
-        "rms": 1.2,
-        "gap": 94,
+        "rms": 0.2,
+        "gap": 117,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 16 km SSW of Badger, Alaska"
+        "title": "M 0.8 - 67 km WNW of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.662,
-          64.667,
-          11.5
+          -152.292,
+          61.295,
+          46.8
         ]
       },
-      "id": "aka2026uohdjn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "23 km WNW of Petersville, Alaska",
-        "time": 1792217122930,
-        "updated": 1792217320472,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uogndb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uogndb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026uogndb",
-        "ids": ",aka2026uogndb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 86,
-        "dmin": 0.2,
-        "rms": 0.8,
-        "gap": 42,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 23 km WNW of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.22,
-          62.54,
-          85.3
-        ]
-      },
-      "id": "aka2026uogndb"
+      "id": "aka2026uqcppm"
     }
   ],
   "bbox": [
-    -151.22,
-    62.54,
+    -152.292,
+    61.295,
     5,
-    -147.662,
-    64.667,
-    85.3
+    -149.233,
+    64.663,
+    46.8
   ]
 }
