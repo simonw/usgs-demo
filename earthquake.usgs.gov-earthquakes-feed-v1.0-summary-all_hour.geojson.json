@@ -1,64 +1,224 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792305757000,
+    "generated": 1792393204000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 2
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.3,
-        "place": "8 km NW of Four Mile Road, Alaska",
-        "time": 1792305575348,
-        "updated": 1792305664073,
+        "mag": 2.5,
+        "place": "1 km E of Loma Linda, CA",
+        "time": 1792391800550,
+        "updated": 1792392476740,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqdrhb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uqdrhb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349255",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41349255.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 26,
-        "net": "ak",
-        "code": "a2026uqdrhb",
-        "ids": ",aka2026uqdrhb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 66,
+        "sig": 96,
+        "net": "ci",
+        "code": "41349255",
+        "ids": ",ci41349255,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 133,
+        "dmin": 0.06082,
+        "rms": 0.2,
+        "gap": 11,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.3 - 8 km NW of Four Mile Road, Alaska"
+        "title": "M 2.5 - 1 km E of Loma Linda, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.233,
-          64.663,
-          5
+          -117.255,
+          34.049,
+          15.45
         ]
       },
-      "id": "aka2026uqdrhb"
+      "id": "ci41349255"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.8,
-        "place": "67 km WNW of Tyonek, Alaska",
-        "time": 1792303656127,
-        "updated": 1792303720433,
+        "mag": 1.9,
+        "place": "32 km ESE of Skwentna, Alaska",
+        "time": 1792391434882,
+        "updated": 1792391549802,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqcppm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uqcppm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026urzkax",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026urzkax.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 56,
+        "net": "ak",
+        "code": "a2026urzkax",
+        "ids": ",aka2026urzkax,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.6,
+        "rms": 0.6,
+        "gap": 88,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.9 - 32 km ESE of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.835,
+          61.862,
+          6.4
+        ]
+      },
+      "id": "aka2026urzkax"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.59,
+        "place": "5 km N of Big Bear City, CA",
+        "time": 1792391407630,
+        "updated": 1792391618516,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349247",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41349247.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "ci",
+        "code": "41349247",
+        "ids": ",ci41349247,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 28,
+        "dmin": 0.03913,
+        "rms": 0.15,
+        "gap": 122,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 5 km N of Big Bear City, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.837333333333,
+          34.3096666666667,
+          0.78
+        ]
+      },
+      "id": "ci41349247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.32,
+        "place": "10 km E of Gerlach, Nevada",
+        "time": 1792391103474,
+        "updated": 1792391267597,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925943",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00925943.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 83,
+        "net": "nn",
+        "code": "00925943",
+        "ids": ",nn00925943,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.622,
+        "rms": 0.3645,
+        "gap": 128,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 10 km E of Gerlach, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2334,
+          40.6633,
+          9.0529
+        ]
+      },
+      "id": "nn00925943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "72 km NNE of Petersville, Alaska",
+        "time": 1792390820477,
+        "updated": 1792391030300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026urzbea",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026urzbea.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026urzbea",
+        "ids": ",aka2026urzbea,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 83,
+        "dmin": 0.6,
+        "rms": 0.6,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 72 km NNE of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.435,
+          63.133,
+          109.5
+        ]
+      },
+      "id": "aka2026urzbea"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.82,
+        "place": "11 km E of Ocotillo Wells, CA",
+        "time": 1792390784940,
+        "updated": 1792390997745,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349239",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41349239.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -66,36 +226,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 10,
-        "net": "ak",
-        "code": "a2026uqcppm",
-        "ids": ",aka2026uqcppm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 117,
+        "net": "ci",
+        "code": "41349239",
+        "ids": ",ci41349239,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 45,
+        "dmin": 0.03459,
+        "rms": 0.21,
+        "gap": 37,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.8 - 67 km WNW of Tyonek, Alaska"
+        "title": "M 0.8 - 11 km E of Ocotillo Wells, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.292,
-          61.295,
-          46.8
+          -116.013,
+          33.1555,
+          5.68
         ]
       },
-      "id": "aka2026uqcppm"
+      "id": "ci41349239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Banda Sea",
+        "time": 1792390513394,
+        "updated": 1792392414040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ar",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3ar.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000u3ar",
+        "ids": ",us6000u3ar,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 6.574,
+        "rms": 0.72,
+        "gap": 115,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.9289,
+          -6.3365,
+          157.774
+        ]
+      },
+      "id": "us6000u3ar"
     }
   ],
   "bbox": [
-    -152.292,
-    61.295,
-    5,
-    -149.233,
-    64.663,
-    46.8
+    -150.835,
+    -6.3365,
+    0.78,
+    129.9289,
+    63.133,
+    157.774
   ]
 }
