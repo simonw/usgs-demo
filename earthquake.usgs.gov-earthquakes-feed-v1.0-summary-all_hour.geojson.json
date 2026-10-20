@@ -1,301 +1,381 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792393204000,
+    "generated": 1792478840000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.7.0",
-    "count": 7
+    "count": 9
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "1 km E of Loma Linda, CA",
-        "time": 1792391800550,
-        "updated": 1792392476740,
+        "mag": 1.7,
+        "place": "12 km ENE of Ridgecrest, CA",
+        "time": 1792478138740,
+        "updated": 1792478801450,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349255",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41349255.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349599",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41349599.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
+        "sig": 44,
         "net": "ci",
-        "code": "41349255",
-        "ids": ",ci41349255,",
+        "code": "41349599",
+        "ids": ",ci41349599,",
         "sources": ",ci,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 133,
-        "dmin": 0.06082,
-        "rms": 0.2,
-        "gap": 11,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 1 km E of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.255,
-          34.049,
-          15.45
-        ]
-      },
-      "id": "ci41349255"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "32 km ESE of Skwentna, Alaska",
-        "time": 1792391434882,
-        "updated": 1792391549802,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026urzkax",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026urzkax.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026urzkax",
-        "ids": ",aka2026urzkax,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
         "nst": 40,
-        "dmin": 0.6,
-        "rms": 0.6,
-        "gap": 88,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 32 km ESE of Skwentna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.835,
-          61.862,
-          6.4
-        ]
-      },
-      "id": "aka2026urzkax"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.59,
-        "place": "5 km N of Big Bear City, CA",
-        "time": 1792391407630,
-        "updated": 1792391618516,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349247",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41349247.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 5,
-        "net": "ci",
-        "code": "41349247",
-        "ids": ",ci41349247,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.03913,
+        "dmin": 0.109,
         "rms": 0.15,
-        "gap": 122,
+        "gap": 33,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 5 km N of Big Bear City, CA"
+        "title": "M 1.7 - 12 km ENE of Ridgecrest, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.837333333333,
-          34.3096666666667,
-          0.78
+          -117.556833333333,
+          35.6763333333333,
+          5.56
         ]
       },
-      "id": "ci41349247"
+      "id": "ci41349599"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.32,
-        "place": "10 km E of Gerlach, Nevada",
-        "time": 1792391103474,
-        "updated": 1792391267597,
+        "mag": 5.3,
+        "place": "209 km NW of Port-Olry, Vanuatu",
+        "time": 1792477762938,
+        "updated": 1792478482040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925943",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00925943.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 83,
-        "net": "nn",
-        "code": "00925943",
-        "ids": ",nn00925943,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.622,
-        "rms": 0.3645,
-        "gap": 128,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.3 - 10 km E of Gerlach, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2334,
-          40.6633,
-          9.0529
-        ]
-      },
-      "id": "nn00925943"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.4,
-        "place": "72 km NNE of Petersville, Alaska",
-        "time": 1792390820477,
-        "updated": 1792391030300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026urzbea",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026urzbea.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 89,
-        "net": "ak",
-        "code": "a2026urzbea",
-        "ids": ",aka2026urzbea,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 83,
-        "dmin": 0.6,
-        "rms": 0.6,
-        "gap": 25,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.4 - 72 km NNE of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.435,
-          63.133,
-          109.5
-        ]
-      },
-      "id": "aka2026urzbea"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.82,
-        "place": "11 km E of Ocotillo Wells, CA",
-        "time": 1792390784940,
-        "updated": 1792390997745,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41349239",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41349239.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 10,
-        "net": "ci",
-        "code": "41349239",
-        "ids": ",ci41349239,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.03459,
-        "rms": 0.21,
-        "gap": 37,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 11 km E of Ocotillo Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.013,
-          33.1555,
-          5.68
-        ]
-      },
-      "id": "ci41349239"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Banda Sea",
-        "time": 1792390513394,
-        "updated": 1792392414040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ar",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3ar.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3k5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3k5.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 432,
         "net": "us",
-        "code": "6000u3ar",
-        "ids": ",us6000u3ar,",
+        "code": "6000u3k5",
+        "ids": ",us6000u3k5,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 6.574,
-        "rms": 0.72,
-        "gap": 115,
+        "nst": 29,
+        "dmin": 6.717,
+        "rms": 0.69,
+        "gap": 111,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - Banda Sea"
+        "title": "M 5.3 - 209 km NW of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          129.9289,
-          -6.3365,
-          157.774
+          165.5203,
+          -13.9011,
+          10
         ]
       },
-      "id": "us6000u3ar"
+      "id": "us6000u3k5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "80 km SE of Ugashik, Alaska",
+        "time": 1792477002366,
+        "updated": 1792477084071,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026utuyoy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026utuyoy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026utuyoy",
+        "ids": ",aka2026utuyoy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.6,
+        "rms": 0.4,
+        "gap": 301,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 80 km SE of Ugashik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.3,
+          57.106,
+          5
+        ]
+      },
+      "id": "aka2026utuyoy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "6 km WNW of Cobb, CA",
+        "time": 1792476785870,
+        "updated": 1792478241846,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452386",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75452386.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75452386",
+        "ids": ",nc75452386,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 11,
+        "dmin": 0.005181,
+        "rms": 0.02,
+        "gap": 67,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 6 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.785163879395,
+          38.8351669311523,
+          2.28999996185303
+        ]
+      },
+      "id": "nc75452386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.2,
+        "place": "36 km ENE of Noatak, Alaska",
+        "time": 1792476438515,
+        "updated": 1792477568040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026utuqkw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026utuqkw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "ak",
+        "code": "a2026utuqkw",
+        "ids": ",us6000u3k0,aka2026utuqkw,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 0.4,
+        "rms": 1.1,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - 36 km ENE of Noatak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.203,
+          67.73,
+          5
+        ]
+      },
+      "id": "aka2026utuqkw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "67 km ESE of Cantwell, Alaska",
+        "time": 1792476183988,
+        "updated": 1792476279783,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026utumtk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026utumtk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026utumtk",
+        "ids": ",aka2026utumtk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.2,
+        "rms": 0.2,
+        "gap": 110,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 67 km ESE of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.686,
+          63.173,
+          8.7
+        ]
+      },
+      "id": "aka2026utumtk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "14 km NNW of Nanwalek, Alaska",
+        "time": 1792476111653,
+        "updated": 1792476300023,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026utulrz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026utulrz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "a2026utulrz",
+        "ids": ",aka2026utulrz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 0.6,
+        "rms": 0.6,
+        "gap": 123,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 14 km NNW of Nanwalek, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.049,
+          59.464,
+          59.8
+        ]
+      },
+      "id": "aka2026utulrz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "60 km WNW of Happy Valley, Alaska",
+        "time": 1792475771307,
+        "updated": 1792475949468,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026utugtd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026utugtd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026utugtd",
+        "ids": ",aka2026utugtd,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 58,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 60 km WNW of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.772,
+          60.115,
+          114.3
+        ]
+      },
+      "id": "aka2026utugtd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.12,
+        "place": "7 km E of Honomu, Hawaii",
+        "time": 1792475675920,
+        "updated": 1792475879240,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75061186",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75061186.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 69,
+        "net": "hv",
+        "code": "75061186",
+        "ids": ",hv75061186,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.1758,
+        "rms": 0.109999999,
+        "gap": 224,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.1 - 7 km E of Honomu, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.04833984375,
+          19.8738327026367,
+          42.4300003051758
+        ]
+      },
+      "id": "hv75061186"
     }
   ],
   "bbox": [
-    -150.835,
-    -6.3365,
-    0.78,
-    129.9289,
-    63.133,
-    157.774
+    -162.203,
+    -13.9011,
+    2.289999961853,
+    165.5203,
+    67.73,
+    114.3
   ]
 }
