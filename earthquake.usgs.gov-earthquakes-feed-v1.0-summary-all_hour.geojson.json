@@ -1,24 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1792651700000,
+    "generated": 1792738054000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.5,
-        "place": "63 km ENE of Pedro Bay, Alaska",
-        "time": 1792651093006,
-        "updated": 1792651261204,
+        "mag": 1.3,
+        "place": "53 km WNW of Karluk, Alaska",
+        "time": 1792737735942,
+        "updated": 1792737802585,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uxnsjj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uxnsjj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uzjwle",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uzjwle.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 26,
+        "net": "ak",
+        "code": "a2026uzjwle",
+        "ids": ",aka2026uzjwle,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.3,
+        "rms": 0.2,
+        "gap": 232,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.3 - 53 km WNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.251,
+          57.794,
+          82
+        ]
+      },
+      "id": "aka2026uzjwle"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.69,
+        "place": "6 km SSW of Redlands, CA",
+        "time": 1792737528860,
+        "updated": 1792737736504,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41350911",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41350911.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 7,
+        "net": "ci",
+        "code": "41350911",
+        "ids": ",ci41350911,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.1393,
+        "rms": 0.12,
+        "gap": 234,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 6 km SSW of Redlands, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.208166666667,
+          34.0028333333333,
+          14.73
+        ]
+      },
+      "id": "ci41350911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "289 km W of Houma, Tonga",
+        "time": 1792735639764,
+        "updated": 1792737254040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ac",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u4ac.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000u4ac",
+        "ids": ",us6000u4ac,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 4.815,
+        "rms": 0.61,
+        "gap": 105,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 289 km W of Houma, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.069,
+          -20.8884,
+          463.372
+        ]
+      },
+      "id": "us6000u4ac"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "54 km SSE of Cantwell, Alaska",
+        "time": 1792735026535,
+        "updated": 1792735231996,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uzijhf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uzijhf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026uzijhf",
+        "ids": ",aka2026uzijhf,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 64,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 54 km SSE of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.597,
+          62.926,
+          0.3
+        ]
+      },
+      "id": "aka2026uzijhf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.5,
+        "place": "6 km S of Idyllwild, CA",
+        "time": 1792734700420,
+        "updated": 1792734903865,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41350903",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41350903.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -26,276 +186,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 4,
-        "net": "ak",
-        "code": "a2026uxnsjj",
-        "ids": ",aka2026uxnsjj,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0,
-        "rms": 0.7,
-        "gap": 230,
+        "net": "ci",
+        "code": "41350903",
+        "ids": ",ci41350903,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 33,
+        "dmin": 0.02651,
+        "rms": 0.14,
+        "gap": 52,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.5 - 63 km ENE of Pedro Bay, Alaska"
+        "title": "M 0.5 - 6 km S of Idyllwild, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.098,
-          60.042,
-          5
+          -116.721666666667,
+          33.6853333333333,
+          15.5
         ]
       },
-      "id": "aka2026uxnsjj"
+      "id": "ci41350903"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.76,
-        "place": "6 km NW of The Geysers, CA",
-        "time": 1792650519240,
-        "updated": 1792650614876,
+        "mag": 1.54,
+        "place": "4 km SW of Redlands, CA",
+        "time": 1792734620960,
+        "updated": 1792735287540,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453331",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453331.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41350895",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41350895.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75453331",
-        "ids": ",nc75453331,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.01053,
-        "rms": 0.01,
-        "gap": 125,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.8 - 6 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.795997619629,
-          38.8185005187988,
-          2.65000009536743
-        ]
-      },
-      "id": "nc75453331"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.64,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1792650121450,
-        "updated": 1792650219689,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453326",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453326.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 41,
-        "net": "nc",
-        "code": "75453326",
-        "ids": ",nc75453326,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.007339,
-        "rms": 0.05,
-        "gap": 71,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.6 - 2 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.767997741699,
-          38.7971649169922,
-          -0.0700000002980232
-        ]
-      },
-      "id": "nc75453326"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.28,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1792649352740,
-        "updated": 1792651646183,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453316",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453316.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 25,
-        "net": "nc",
-        "code": "75453316",
-        "ids": ",nc75453316,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 23,
-        "dmin": 0.002887,
-        "rms": 0.02,
-        "gap": 44,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.3 - 7 km NW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.81266784668,
-          38.8213348388672,
-          2.61999988555908
-        ]
-      },
-      "id": "nc75453316"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.2,
-        "place": "27 km WNW of Tatitlek, Alaska",
-        "time": 1792648793763,
-        "updated": 1792648852746,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uxmldk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026uxmldk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 22,
-        "net": "ak",
-        "code": "a2026uxmldk",
-        "ids": ",aka2026uxmldk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 92,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.2 - 27 km WNW of Tatitlek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.124,
-          60.989,
-          23.5
-        ]
-      },
-      "id": "aka2026uxmldk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.42,
-        "place": "12 km NNE of Angwin, CA",
-        "time": 1792648699250,
-        "updated": 1792650742072,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453311",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453311.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 31,
-        "net": "nc",
-        "code": "75453311",
-        "ids": ",nc75453311,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 16,
-        "dmin": 0.0379,
-        "rms": 0.25,
-        "gap": 65,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 12 km NNE of Angwin, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.38166809082,
-          38.664665222168,
-          6.82000017166138
-        ]
-      },
-      "id": "nc75453311"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.5,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1792648336370,
-        "updated": 1792650143005,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453301",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75453301.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 35,
-        "net": "nc",
-        "code": "75453301",
-        "ids": ",nc75453301,",
-        "sources": ",nc,",
+        "sig": 36,
+        "net": "ci",
+        "code": "41350895",
+        "ids": ",ci41350895,",
+        "sources": ",ci,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 31,
-        "dmin": 0.004227,
-        "rms": 0.02,
-        "gap": 39,
-        "magType": "md",
+        "nst": 90,
+        "dmin": 0.08573,
+        "rms": 0.18,
+        "gap": 13,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.5 - 7 km NW of The Geysers, CA"
+        "title": "M 1.5 - 4 km SW of Redlands, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.814163208008,
-          38.8261680603027,
-          2.11999988555908
+          -117.2155,
+          34.031,
+          3.47
         ]
       },
-      "id": "nc75453301"
+      "id": "ci41350895"
     }
   ],
   "bbox": [
-    -153.098,
-    38.664665222168,
-    -0.070000000298023,
-    -122.38166809082,
-    60.989,
-    23.5
+    -178.069,
+    -20.8884,
+    0.3,
+    -116.72166666667,
+    62.926,
+    463.372
   ]
 }
