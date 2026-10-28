@@ -1,301 +1,221 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793083798000,
+    "generated": 1793169402000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 7
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.69,
-        "place": "6 km WNW of Cobb, CA",
-        "time": 1793083550790,
-        "updated": 1793083645069,
+        "mag": 2.8,
+        "place": "66 km SE of King Salmon, Alaska",
+        "time": 1793169120686,
+        "updated": 1793169392233,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75455521",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75455521.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vipqlb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vipqlb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "nc",
-        "code": "75455521",
-        "ids": ",nc75455521,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.001823,
-        "rms": 0.02,
-        "gap": 76,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 0.7 - 6 km WNW of Cobb, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.791831970215,
-          38.8370018005371,
-          2.27999997138977
-        ]
-      },
-      "id": "nc75455521"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "80 km E of Chignik, Alaska",
-        "time": 1793083370318,
-        "updated": 1793083497500,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vgtzgj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vgtzgj.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 96,
+        "sig": 121,
         "net": "ak",
-        "code": "a2026vgtzgj",
-        "ids": ",aka2026vgtzgj,",
+        "code": "a2026vipqlb",
+        "ids": ",aka2026vipqlb,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.8,
+        "nst": 94,
+        "dmin": 0.3,
         "rms": 0.6,
-        "gap": 207,
+        "gap": 93,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 80 km E of Chignik, Alaska"
+        "title": "M 2.8 - 66 km SE of King Salmon, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -157.11,
-          56.216,
-          18.5
+          -155.973,
+          58.208,
+          160.6
         ]
       },
-      "id": "aka2026vgtzgj"
+      "id": "aka2026vipqlb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.93,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1793083283660,
-        "updated": 1793083380304,
+        "mag": 1.1,
+        "place": "19 km WNW of Happy Valley, Alaska",
+        "time": 1793168579636,
+        "updated": 1793168645086,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75455516",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75455516.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vipiov",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vipiov.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 13,
-        "net": "nc",
-        "code": "75455516",
-        "ids": ",nc75455516,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.004546,
-        "rms": 0.01,
-        "gap": 59,
-        "magType": "md",
+        "sig": 19,
+        "net": "ak",
+        "code": "a2026vipiov",
+        "ids": ",aka2026vipiov,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.3,
+        "rms": 0.2,
+        "gap": 141,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 7 km NW of The Geysers, CA"
+        "title": "M 1.1 - 19 km WNW of Happy Valley, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.813331604004,
-          38.8271675109863,
-          1.92999994754791
+          -152.075,
+          59.998,
+          73.8
         ]
       },
-      "id": "nc75455516"
+      "id": "aka2026vipiov"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.88,
-        "place": "58 km W of Hawaiian Ocean View, Hawaii",
-        "time": 1793082528400,
-        "updated": 1793082734930,
+        "mag": 1.99,
+        "place": "20 km SE of Waikoloa, Hawaii",
+        "time": 1793168121430,
+        "updated": 1793168372360,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75064276",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75064276.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75064766",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75064766.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 54,
+        "sig": 61,
         "net": "hv",
-        "code": "75064276",
-        "ids": ",hv75064276,",
+        "code": "75064766",
+        "ids": ",hv75064766,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.4896,
-        "rms": 0.239999995,
-        "gap": 306,
+        "nst": 30,
+        "dmin": 0.05409,
+        "rms": 0.119999997,
+        "gap": 118,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.9 - 58 km W of Hawaiian Ocean View, Hawaii"
+        "title": "M 2.0 - 20 km SE of Waikoloa, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.320159912109,
-          19.0214996337891,
-          13.0200004577637
+          -155.651168823242,
+          19.8028335571289,
+          37.2999992370605
         ]
       },
-      "id": "hv75064276"
+      "id": "hv75064766"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.84,
-        "place": "42 km NW of Rachel, Nevada",
-        "time": 1793081682695,
-        "updated": 1793081915562,
+        "mag": 5,
+        "place": "205 km SSE of Vilyuchinsk, Russia",
+        "time": 1793167967777,
+        "updated": 1793169303040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926293",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00926293.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttmb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ttmb.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 52,
-        "net": "nn",
-        "code": "00926293",
-        "ids": ",nn00926293,",
-        "sources": ",nn,",
+        "sig": 385,
+        "net": "us",
+        "code": "7000ttmb",
+        "ids": ",us7000ttmb,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 0.678,
-        "rms": 0.4607,
-        "gap": 259,
-        "magType": "ml",
+        "nst": 56,
+        "dmin": 2.199,
+        "rms": 1.32,
+        "gap": 152,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.8 - 42 km NW of Rachel, Nevada"
+        "title": "M 5.0 - 205 km SSE of Vilyuchinsk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.1146,
-          37.8827,
-          11.2184
+          159.5373,
+          51.2258,
+          10
         ]
       },
-      "id": "nn00926293"
+      "id": "us7000ttmb"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.9,
-        "place": "127 km SSE of McCarthy, Alaska",
-        "time": 1793081638496,
-        "updated": 1793081711888,
+        "mag": 1.7,
+        "place": "17 km WNW of Tyonek, Alaska",
+        "time": 1793166474412,
+        "updated": 1793166592161,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vgtaet",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vgtaet.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vioedw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vioedw.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
+        "sig": 44,
         "net": "ak",
-        "code": "a2026vgtaet",
-        "ids": ",aka2026vgtaet,",
+        "code": "a2026vioedw",
+        "ids": ",aka2026vioedw,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 6,
+        "nst": 46,
         "dmin": 0.3,
-        "rms": 0.4,
-        "gap": 163,
+        "rms": 0.8,
+        "gap": 47,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 127 km SSE of McCarthy, Alaska"
+        "title": "M 1.7 - 17 km WNW of Tyonek, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -142.369,
-          60.317,
-          19.9
+          -151.441,
+          61.121,
+          75.2
         ]
       },
-      "id": "aka2026vgtaet"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "40 km SSE of Denali National Park, Alaska",
-        "time": 1793080550688,
-        "updated": 1793080681963,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vgskmc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vgskmc.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "a2026vgskmc",
-        "ids": ",aka2026vgskmc,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.4,
-        "rms": 0.9,
-        "gap": 40,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 40 km SSE of Denali National Park, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.381,
-          63.213,
-          1.3
-        ]
-      },
-      "id": "aka2026vgskmc"
+      "id": "aka2026vioedw"
     }
   ],
   "bbox": [
-    -157.11,
-    19.021499633789,
-    1.3,
-    -116.1146,
-    63.213,
-    19.9
+    -155.973,
+    19.802833557129,
+    10,
+    159.5373,
+    61.121,
+    160.6
   ]
 }
