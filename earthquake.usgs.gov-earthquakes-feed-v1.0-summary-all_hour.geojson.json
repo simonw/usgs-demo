@@ -1,221 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793169402000,
+    "generated": 1793255818000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 5
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.8,
-        "place": "66 km SE of King Salmon, Alaska",
-        "time": 1793169120686,
-        "updated": 1793169392233,
+        "mag": 0.8,
+        "place": "54 km WNW of Ninilchik, Alaska",
+        "time": 1793255714677,
+        "updated": 1793255752973,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vipqlb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vipqlb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vklttt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vklttt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 121,
+        "sig": 10,
         "net": "ak",
-        "code": "a2026vipqlb",
-        "ids": ",aka2026vipqlb,",
+        "code": "a2026vklttt",
+        "ids": ",aka2026vklttt,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 94,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 93,
+        "nst": 7,
+        "dmin": 0.2,
+        "rms": 1.4,
+        "gap": 246,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - 66 km SE of King Salmon, Alaska"
+        "title": "M 0.8 - 54 km WNW of Ninilchik, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.973,
-          58.208,
-          160.6
+          -152.479,
+          60.319,
+          6.5
         ]
       },
-      "id": "aka2026vipqlb"
+      "id": "aka2026vklttt"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.1,
-        "place": "19 km WNW of Happy Valley, Alaska",
-        "time": 1793168579636,
-        "updated": 1793168645086,
+        "mag": 0.56,
+        "place": "19 km ESE of Julian, CA",
+        "time": 1793253892540,
+        "updated": 1793254104231,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vipiov",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vipiov.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41568664",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41568664.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 19,
-        "net": "ak",
-        "code": "a2026vipiov",
-        "ids": ",aka2026vipiov,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.3,
-        "rms": 0.2,
-        "gap": 141,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.1 - 19 km WNW of Happy Valley, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.075,
-          59.998,
-          73.8
-        ]
-      },
-      "id": "aka2026vipiov"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.99,
-        "place": "20 km SE of Waikoloa, Hawaii",
-        "time": 1793168121430,
-        "updated": 1793168372360,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75064766",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75064766.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 61,
-        "net": "hv",
-        "code": "75064766",
-        "ids": ",hv75064766,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
+        "sig": 5,
+        "net": "ci",
+        "code": "41568664",
+        "ids": ",ci41568664,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 30,
-        "dmin": 0.05409,
-        "rms": 0.119999997,
-        "gap": 118,
+        "dmin": 0.05293,
+        "rms": 0.17,
+        "gap": 72,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 19 km ESE of Julian, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.413333333333,
+          33.0248333333333,
+          9.2
+        ]
+      },
+      "id": "ci41568664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.75,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1793253377040,
+        "updated": 1793253473724,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459272",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75459272.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75459272",
+        "ids": ",nc75459272,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.0104,
+        "rms": 0.02,
+        "gap": 83,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.0 - 20 km SE of Waikoloa, Hawaii"
+        "title": "M 0.8 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.651168823242,
-          19.8028335571289,
-          37.2999992370605
+          -122.817001342773,
+          38.8144989013672,
+          2.78999996185303
         ]
       },
-      "id": "hv75064766"
+      "id": "nc75459272"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "205 km SSE of Vilyuchinsk, Russia",
-        "time": 1793167967777,
-        "updated": 1793169303040,
+        "mag": 0.51,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1793252450730,
+        "updated": 1793252547798,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttmb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000ttmb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000ttmb",
-        "ids": ",us7000ttmb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 56,
-        "dmin": 2.199,
-        "rms": 1.32,
-        "gap": 152,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 205 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.5373,
-          51.2258,
-          10
-        ]
-      },
-      "id": "us7000ttmb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.7,
-        "place": "17 km WNW of Tyonek, Alaska",
-        "time": 1793166474412,
-        "updated": 1793166592161,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vioedw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vioedw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459267",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75459267.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026vioedw",
-        "ids": ",aka2026vioedw,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 47,
-        "magType": "ml",
+        "sig": 4,
+        "net": "nc",
+        "code": "75459267",
+        "ids": ",nc75459267,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.0103,
+        "rms": 0.01,
+        "gap": 103,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 17 km WNW of Tyonek, Alaska"
+        "title": "M 0.5 - 8 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.441,
-          61.121,
-          75.2
+          -122.817337036133,
+          38.8320007324219,
+          1.78999996185303
         ]
       },
-      "id": "aka2026vioedw"
+      "id": "nc75459267"
     }
   ],
   "bbox": [
-    -155.973,
-    19.802833557129,
-    10,
-    159.5373,
-    61.121,
-    160.6
+    -152.479,
+    33.024833333333,
+    1.789999961853,
+    -116.41333333333,
+    60.319,
+    9.2
   ]
 }
