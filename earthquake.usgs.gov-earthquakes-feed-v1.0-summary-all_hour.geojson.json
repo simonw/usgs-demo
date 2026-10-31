@@ -1,264 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793342233000,
+    "generated": 1793428115000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 8
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.03,
-        "place": "18 km NE of Arvin, CA",
-        "time": 1793341925350,
-        "updated": 1793342137966,
+        "mag": 1.27,
+        "place": "14 km WSW of Lake Nacimiento, CA",
+        "time": 1793427834040,
+        "updated": 1793427931683,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41569448",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41569448.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460217",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75460217.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 16,
+        "sig": 25,
+        "net": "nc",
+        "code": "75460217",
+        "ids": ",nc75460217,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.1008,
+        "rms": 0.03,
+        "gap": 90,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 14 km WSW of Lake Nacimiento, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.03133392334,
+          35.6980018615723,
+          5.03999996185303
+        ]
+      },
+      "id": "nc75460217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "9 km SW of Idyllwild, CA",
+        "time": 1793425733360,
+        "updated": 1793425937267,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41570184",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41570184.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
         "net": "ci",
-        "code": "41569448",
-        "ids": ",ci41569448,",
+        "code": "41570184",
+        "ids": ",ci41570184,",
         "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 54,
+        "dmin": 0.07149,
+        "rms": 0.17,
+        "gap": 31,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 9 km SW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.791,
+          33.6793333333333,
+          17.62
+        ]
+      },
+      "id": "ci41570184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "91 km NNW of Karluk, Alaska",
+        "time": 1793425372319,
+        "updated": 1793425412939,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vocbml",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vocbml.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "ak",
+        "code": "a2026vocbml",
+        "ids": ",aka2026vocbml,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 210,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 91 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.175,
+          58.3,
+          7.5
+        ]
+      },
+      "id": "aka2026vocbml"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.89,
+        "place": "7 km NW of The Geysers, CA",
+        "time": 1793425210880,
+        "updated": 1793425307325,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460212",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75460212.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "nc",
+        "code": "75460212",
+        "ids": ",nc75460212,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 12,
-        "dmin": 0.3907,
-        "rms": 0.23,
-        "gap": 144,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.0 - 18 km NE of Arvin, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.672333333333,
-          35.3063333333333,
-          -1.1
-        ]
-      },
-      "id": "ci41569448"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.85,
-        "place": "10 km SSW of Bodfish, CA",
-        "time": 1793341709760,
-        "updated": 1793341910400,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41569440",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41569440.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "41569440",
-        "ids": ",ci41569440,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.1676,
-        "rms": 0.15,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 10 km SSW of Bodfish, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.523,
-          35.4996666666667,
-          1.77
-        ]
-      },
-      "id": "ci41569440"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.74,
-        "place": "2 km SE of Loma Linda, CA",
-        "time": 1793339921270,
-        "updated": 1793340131195,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41569424",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41569424.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ci",
-        "code": "41569424",
-        "ids": ",ci41569424,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.07933,
-        "rms": 0.18,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 2 km SE of Loma Linda, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.242,
-          34.0335,
-          3.25
-        ]
-      },
-      "id": "ci41569424"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.55,
-        "place": "11 km E of Julian, CA",
-        "time": 1793339634110,
-        "updated": 1793339844235,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41569416",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41569416.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 5,
-        "net": "ci",
-        "code": "41569416",
-        "ids": ",ci41569416,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.03868,
-        "rms": 0.18,
+        "dmin": 0.003077,
+        "rms": 0.01,
         "gap": 43,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.6 - 11 km E of Julian, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.481666666667,
-          33.0901666666667,
-          7.45
-        ]
-      },
-      "id": "ci41569416"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.32,
-        "place": "13 km NW of The Geysers, CA",
-        "time": 1793339538370,
-        "updated": 1793339636525,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459697",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75459697.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
-        "net": "nc",
-        "code": "75459697",
-        "ids": ",nc75459697,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.007662,
-        "rms": 0.03,
-        "gap": 92,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.3 - 13 km NW of The Geysers, CA"
+        "title": "M 0.9 - 7 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.876998901367,
-          38.8440017700195,
-          2.33999991416931
+          -122.807662963867,
+          38.8258323669434,
+          1.74000000953674
         ]
       },
-      "id": "nc75459697"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.75,
-        "place": "9 km ESE of Lexington Hills, CA",
-        "time": 1793339361210,
-        "updated": 1793341342580,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459692",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75459692.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 47,
-        "net": "nc",
-        "code": "75459692",
-        "ids": ",nc75459692,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.02024,
-        "rms": 0.07,
-        "gap": 120,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.8 - 9 km ESE of Lexington Hills, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.886329650879,
-          37.1203346252441,
-          2.03999996185303
-        ]
-      },
-      "id": "nc75459692"
+      "id": "nc75460212"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.64,
-        "place": "3 km SE of Loma Linda, CA",
-        "time": 1793338962160,
-        "updated": 1793339165640,
+        "place": "3 km NE of The Geysers, CA",
+        "time": 1793424865050,
+        "updated": 1793424962168,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41569408",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41569408.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460202",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75460202.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -266,76 +186,76 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 6,
-        "net": "ci",
-        "code": "41569408",
-        "ids": ",ci41569408,",
-        "sources": ",ci,",
+        "net": "nc",
+        "code": "75460202",
+        "ids": ",nc75460202,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 37,
-        "dmin": 0.08251,
-        "rms": 0.17,
-        "gap": 46,
-        "magType": "ml",
+        "nst": 7,
+        "dmin": 0.01246,
+        "rms": 0.03,
+        "gap": 102,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.6 - 3 km SE of Loma Linda, CA"
+        "title": "M 0.6 - 3 km NE of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.240666666667,
-          34.0305,
-          3.29
+          -122.735336303711,
+          38.7956657409668,
+          2.38000011444092
         ]
       },
-      "id": "ci41569408"
+      "id": "nc75460202"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "101 km NW of Yakutat, Alaska",
-        "time": 1793338905224,
-        "updated": 1793338992906,
+        "mag": 4.4,
+        "place": "35 km SE of Vilyuchinsk, Russia",
+        "time": 1793424559961,
+        "updated": 1793427736040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vmfzyx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vmfzyx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuh7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tuh7.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026vmfzyx",
-        "ids": ",aka2026vmfzyx,",
-        "sources": ",ak,",
+        "sig": 298,
+        "net": "us",
+        "code": "7000tuh7",
+        "ids": ",us7000tuh7,",
+        "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.2,
-        "rms": 0.9,
-        "gap": 155,
-        "magType": "ml",
+        "nst": 51,
+        "dmin": 0.762,
+        "rms": 0.61,
+        "gap": 129,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 1.7 - 101 km NW of Yakutat, Alaska"
+        "title": "M 4.4 - 35 km SE of Vilyuchinsk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.09,
-          60.151,
-          5
+          158.7423,
+          52.6834,
+          97.05
         ]
       },
-      "id": "aka2026vmfzyx"
+      "id": "us7000tuh7"
     }
   ],
   "bbox": [
-    -141.09,
-    33.090166666667,
-    -1.1,
-    -116.48166666667,
-    60.151,
-    7.45
+    -155.175,
+    33.679333333333,
+    1.7400000095367,
+    158.7423,
+    58.3,
+    97.05
   ]
 }
