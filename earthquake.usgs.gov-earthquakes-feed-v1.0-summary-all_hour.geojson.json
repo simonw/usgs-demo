@@ -1,181 +1,301 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793687533000,
+    "generated": 1793773933000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 4
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.07,
-        "place": "25 km ESE of Primo Tapia, B.C., MX",
-        "time": 1793684960050,
-        "updated": 1793685171480,
+        "mag": 0.89,
+        "place": "0 km SW of Beaumont, CA",
+        "time": 1793773644870,
+        "updated": 1793773857959,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41571848",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41571848.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41572352",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41572352.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 66,
+        "sig": 12,
         "net": "ci",
-        "code": "41571848",
-        "ids": ",ci41571848,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.173,
-        "rms": 0.19,
-        "gap": 121,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 25 km ESE of Primo Tapia, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.669833333333,
-          32.1396666666667,
-          16.96
-        ]
-      },
-      "id": "ci41571848"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.33,
-        "place": "23 km E of Maricopa, CA",
-        "time": 1793684538280,
-        "updated": 1793684737641,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41571840",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41571840.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 27,
-        "net": "ci",
-        "code": "41571840",
-        "ids": ",ci41571840,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 38,
-        "dmin": 0.05671,
-        "rms": 0.25,
-        "gap": 48,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.3 - 23 km E of Maricopa, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.152666666667,
-          35.0635,
-          10.83
-        ]
-      },
-      "id": "ci41571840"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.76,
-        "place": "9 km NNE of Delta, B.C., MX",
-        "time": 1793684457570,
-        "updated": 1793684670506,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41571832",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41571832.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 48,
-        "net": "ci",
-        "code": "41571832",
-        "ids": ",ci41571832,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 28,
-        "dmin": 0.03672,
-        "rms": 0.3,
-        "gap": 79,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.8 - 9 km NNE of Delta, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.1425,
-          32.4246666666667,
-          14.28
-        ]
-      },
-      "id": "ci41571832"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.92,
-        "place": "11 km SE of Borrego Springs, CA",
-        "time": 1793684291060,
-        "updated": 1793684495294,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41571824",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41571824.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 13,
-        "net": "ci",
-        "code": "41571824",
-        "ids": ",ci41571824,",
+        "code": "41572352",
+        "ids": ",ci41572352,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.04786,
-        "rms": 0.18,
-        "gap": 28,
+        "nst": 43,
+        "dmin": 0.00497,
+        "rms": 0.16,
+        "gap": 72,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 11 km SE of Borrego Springs, CA"
+        "title": "M 0.9 - 0 km SW of Beaumont, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.305,
-          33.1711666666667,
-          10.07
+          -116.979833333333,
+          33.9263333333333,
+          14.94
         ]
       },
-      "id": "ci41571824"
+      "id": "ci41572352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1,
+        "place": "55 km SSW of Cantwell, Alaska",
+        "time": 1793773538080,
+        "updated": 1793773645692,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vvnowz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vvnowz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 68,
+        "net": "ak",
+        "code": "a2026vvnowz",
+        "ids": ",aka2026vvnowz,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.5,
+        "rms": 0.6,
+        "gap": 110,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.1 - 55 km SSW of Cantwell, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.493,
+          62.963,
+          88.8
+        ]
+      },
+      "id": "aka2026vvnowz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "8 km ESE of Cloverdale, CA",
+        "time": 1793773434500,
+        "updated": 1793773533253,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462282",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75462282.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "nc",
+        "code": "75462282",
+        "ids": ",nc75462282,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.06137,
+        "rms": 0.02,
+        "gap": 174,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 8 km ESE of Cloverdale, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.936500549316,
+          38.7729988098145,
+          4.55000019073486
+        ]
+      },
+      "id": "nc75462282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.74,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1793772635390,
+        "updated": 1793772733045,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462277",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75462277.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75462277",
+        "ids": ",nc75462277,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.009606,
+        "rms": 0.02,
+        "gap": 76,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 3 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.772003173828,
+          38.8008346557617,
+          1.44000005722046
+        ]
+      },
+      "id": "nc75462277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.38,
+        "place": "27 km NNW of Pāhala, Hawaii",
+        "time": 1793772384150,
+        "updated": 1793772591100,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068371",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75068371.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 87,
+        "net": "hv",
+        "code": "75068371",
+        "ids": ",hv75068371,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.04875,
+        "rms": 0.280000001,
+        "gap": 44,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 27 km NNW of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.598159790039,
+          19.4203338623047,
+          38.2999992370605
+        ]
+      },
+      "id": "hv75068371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "59 km SSE of Beaver, Alaska",
+        "time": 1793771479066,
+        "updated": 1793771725843,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vvmlci",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vvmlci.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026vvmlci",
+        "ids": ",aka2026vvmlci,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 0.7,
+        "rms": 0.9,
+        "gap": 52,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 59 km SSE of Beaver, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.852,
+          65.871,
+          5.2
+        ]
+      },
+      "id": "aka2026vvmlci"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "23 km W of Salamatof, Alaska",
+        "time": 1793770743896,
+        "updated": 1793770888456,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vvmaod",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vvmaod.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026vvmaod",
+        "ids": ",aka2026vvmaod,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.3,
+        "rms": 0.6,
+        "gap": 77,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 23 km W of Salamatof, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.753,
+          60.618,
+          72.8
+        ]
+      },
+      "id": "aka2026vvmaod"
     }
   ],
   "bbox": [
-    -119.15266666667,
-    32.139666666667,
-    10.07,
-    -115.1425,
-    35.0635,
-    16.96
+    -155.59815979004,
+    19.420333862305,
+    1.4400000572205,
+    -116.97983333333,
+    65.871,
+    88.8
   ]
 }
