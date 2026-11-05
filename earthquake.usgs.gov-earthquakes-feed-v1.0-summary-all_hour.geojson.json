@@ -1,144 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793773933000,
+    "generated": 1793860332000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 7
+    "count": 6
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.89,
-        "place": "0 km SW of Beaumont, CA",
-        "time": 1793773644870,
-        "updated": 1793773857959,
+        "mag": 1.04,
+        "place": "8 km W of Cobb, CA",
+        "time": 1793860161460,
+        "updated": 1793860259165,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41572352",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41572352.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462662",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75462662.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 12,
-        "net": "ci",
-        "code": "41572352",
-        "ids": ",ci41572352,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 43,
-        "dmin": 0.00497,
-        "rms": 0.16,
-        "gap": 72,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 0 km SW of Beaumont, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.979833333333,
-          33.9263333333333,
-          14.94
-        ]
-      },
-      "id": "ci41572352"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.1,
-        "place": "55 km SSW of Cantwell, Alaska",
-        "time": 1793773538080,
-        "updated": 1793773645692,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vvnowz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vvnowz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 68,
-        "net": "ak",
-        "code": "a2026vvnowz",
-        "ids": ",aka2026vvnowz,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.5,
-        "rms": 0.6,
-        "gap": 110,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.1 - 55 km SSW of Cantwell, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.493,
-          62.963,
-          88.8
-        ]
-      },
-      "id": "aka2026vvnowz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.1,
-        "place": "8 km ESE of Cloverdale, CA",
-        "time": 1793773434500,
-        "updated": 1793773533253,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462282",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75462282.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 19,
+        "sig": 17,
         "net": "nc",
-        "code": "75462282",
-        "ids": ",nc75462282,",
+        "code": "75462662",
+        "ids": ",nc75462662,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 10,
-        "dmin": 0.06137,
-        "rms": 0.02,
-        "gap": 174,
+        "nst": 18,
+        "dmin": 0.01783,
+        "rms": 0.07,
+        "gap": 77,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 8 km ESE of Cloverdale, CA"
+        "title": "M 1.0 - 8 km W of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.936500549316,
-          38.7729988098145,
-          4.55000019073486
+          -122.81266784668,
+          38.8346672058105,
+          1.41999995708466
         ]
       },
-      "id": "nc75462282"
+      "id": "nc75462662"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.74,
-        "place": "3 km NNW of The Geysers, CA",
-        "time": 1793772635390,
-        "updated": 1793772733045,
+        "mag": 1.8,
+        "place": "3 km ESE of Hope, Alaska",
+        "time": 1793859946370,
+        "updated": 1793860016196,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462277",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75462277.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vxjpnl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vxjpnl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026vxjpnl",
+        "ids": ",aka2026vxjpnl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 0.2,
+        "rms": 0.6,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 3 km ESE of Hope, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.586,
+          60.901,
+          31
+        ]
+      },
+      "id": "aka2026vxjpnl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "86 km NNW of Karluk, Alaska",
+        "time": 1793859589999,
+        "updated": 1793859636302,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vxjkhp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vxjkhp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -146,156 +106,156 @@
         "status": "automatic",
         "tsunami": 0,
         "sig": 8,
-        "net": "nc",
-        "code": "75462277",
-        "ids": ",nc75462277,",
-        "sources": ",nc,",
+        "net": "ak",
+        "code": "a2026vxjkhp",
+        "ids": ",aka2026vxjkhp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 94,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 86 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.105,
+          58.264,
+          5
+        ]
+      },
+      "id": "aka2026vxjkhp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.94,
+        "place": "15 km WSW of Johannesburg, CA",
+        "time": 1793858865190,
+        "updated": 1793859074449,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41358615",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41358615.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "41358615",
+        "ids": ",ci41358615,",
+        "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 8,
-        "dmin": 0.009606,
-        "rms": 0.02,
-        "gap": 76,
-        "magType": "md",
+        "nst": 27,
+        "dmin": 0.08365,
+        "rms": 0.2,
+        "gap": 90,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 3 km NNW of The Geysers, CA"
+        "title": "M 0.9 - 15 km WSW of Johannesburg, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.772003173828,
-          38.8008346557617,
-          1.44000005722046
+          -117.7995,
+          35.3421666666667,
+          5.23
         ]
       },
-      "id": "nc75462277"
+      "id": "ci41358615"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.38,
-        "place": "27 km NNW of Pāhala, Hawaii",
-        "time": 1793772384150,
-        "updated": 1793772591100,
+        "mag": 2.21,
+        "place": "77 km S of Eureka, Nevada",
+        "time": 1793857819439,
+        "updated": 1793858082973,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068371",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75068371.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926669",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00926669.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 87,
-        "net": "hv",
-        "code": "75068371",
-        "ids": ",hv75068371,",
-        "sources": ",hv,",
+        "sig": 75,
+        "net": "nn",
+        "code": "00926669",
+        "ids": ",nn00926669,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.04875,
-        "rms": 0.280000001,
-        "gap": 44,
+        "nst": 12,
+        "dmin": 1.444,
+        "rms": 0.3928,
+        "gap": 157,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.4 - 27 km NNW of Pāhala, Hawaii"
+        "title": "M 2.2 - 77 km S of Eureka, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.598159790039,
-          19.4203338623047,
-          38.2999992370605
+          -115.9627,
+          38.8153,
+          0.0009
         ]
       },
-      "id": "hv75068371"
+      "id": "nn00926669"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.5,
-        "place": "59 km SSE of Beaver, Alaska",
-        "time": 1793771479066,
-        "updated": 1793771725843,
+        "mag": 2.15,
+        "place": "15 km S of Santa Barbara, CA",
+        "time": 1793856795170,
+        "updated": 1793857013960,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vvmlci",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vvmlci.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41358599",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41358599.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 96,
-        "net": "ak",
-        "code": "a2026vvmlci",
-        "ids": ",aka2026vvmlci,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.7,
-        "rms": 0.9,
-        "gap": 52,
+        "sig": 71,
+        "net": "ci",
+        "code": "41358599",
+        "ids": ",ci41358599,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 47,
+        "dmin": 0.152,
+        "rms": 0.25,
+        "gap": 92,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.5 - 59 km SSE of Beaver, Alaska"
+        "title": "M 2.2 - 15 km S of Santa Barbara, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.852,
-          65.871,
-          5.2
+          -119.708333333333,
+          34.2885,
+          1.39
         ]
       },
-      "id": "aka2026vvmlci"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2,
-        "place": "23 km W of Salamatof, Alaska",
-        "time": 1793770743896,
-        "updated": 1793770888456,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vvmaod",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vvmaod.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 62,
-        "net": "ak",
-        "code": "a2026vvmaod",
-        "ids": ",aka2026vvmaod,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 77,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 23 km W of Salamatof, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.753,
-          60.618,
-          72.8
-        ]
-      },
-      "id": "aka2026vvmaod"
+      "id": "ci41358599"
     }
   ],
   "bbox": [
-    -155.59815979004,
-    19.420333862305,
-    1.4400000572205,
-    -116.97983333333,
-    65.871,
-    88.8
+    -155.105,
+    34.2885,
+    0.0009,
+    -115.9627,
+    60.901,
+    31
   ]
 }
