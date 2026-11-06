@@ -1,64 +1,184 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1793860332000,
+    "generated": 1793946778000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 6
+    "count": 5
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.04,
-        "place": "8 km W of Cobb, CA",
-        "time": 1793860161460,
-        "updated": 1793860259165,
+        "mag": 2.6,
+        "place": "52 km NNW of Karluk, Alaska",
+        "time": 1793946613275,
+        "updated": 1793946746957,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462662",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75462662.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzftyy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzftyy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75462662",
-        "ids": ",nc75462662,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.01783,
-        "rms": 0.07,
-        "gap": 77,
-        "magType": "md",
+        "sig": 104,
+        "net": "ak",
+        "code": "a2026vzftyy",
+        "ids": ",aka2026vzftyy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 109,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 68,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 8 km W of Cobb, CA"
+        "title": "M 2.6 - 52 km NNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.81266784668,
-          38.8346672058105,
-          1.41999995708466
+          -154.921,
+          57.964,
+          90
         ]
       },
-      "id": "nc75462662"
+      "id": "aka2026vzftyy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.26,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1793946504080,
+        "updated": 1793946599809,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75463007",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75463007.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 1,
+        "net": "nc",
+        "code": "75463007",
+        "ids": ",nc75463007,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.002912,
+        "rms": 0.02,
+        "gap": 88,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.3 - 3 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.763000488281,
+          38.8019981384277,
+          3.85999989509583
+        ]
+      },
+      "id": "nc75463007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "82 km NNW of Karluk, Alaska",
+        "time": 1793945958235,
+        "updated": 1793946022260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzfkmq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzfkmq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026vzfkmq",
+        "ids": ",aka2026vzfkmq,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 166,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 82 km NNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.815,
+          58.283,
+          31.3
+        ]
+      },
+      "id": "aka2026vzfkmq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.67,
+        "place": "20 km N of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1793945042910,
+        "updated": 1793946547240,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538583",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71538583.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 110,
+        "net": "pr",
+        "code": "71538583",
+        "ids": ",pr71538583,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.1714,
+        "rms": 0.23,
+        "gap": 193,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 20 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.9415,
+          18.5241666666667,
+          42.38
+        ]
+      },
+      "id": "pr71538583"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.8,
-        "place": "3 km ESE of Hope, Alaska",
-        "time": 1793859946370,
-        "updated": 1793860016196,
+        "place": "58 km WNW of Anderson, Alaska",
+        "time": 1793943236245,
+        "updated": 1793943326132,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vxjpnl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vxjpnl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzdxdy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vzdxdy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -67,195 +187,35 @@
         "tsunami": 0,
         "sig": 50,
         "net": "ak",
-        "code": "a2026vxjpnl",
-        "ids": ",aka2026vxjpnl,",
+        "code": "a2026vzdxdy",
+        "ids": ",aka2026vzdxdy,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.2,
-        "rms": 0.6,
-        "gap": 80,
+        "nst": 8,
+        "dmin": 0.5,
+        "rms": 0.7,
+        "gap": 154,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 3 km ESE of Hope, Alaska"
+        "title": "M 1.8 - 58 km WNW of Anderson, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.586,
-          60.901,
-          31
+          -150.368,
+          64.468,
+          26.7
         ]
       },
-      "id": "aka2026vxjpnl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.7,
-        "place": "86 km NNW of Karluk, Alaska",
-        "time": 1793859589999,
-        "updated": 1793859636302,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vxjkhp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026vxjkhp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 8,
-        "net": "ak",
-        "code": "a2026vxjkhp",
-        "ids": ",aka2026vxjkhp,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 94,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.7 - 86 km NNW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.105,
-          58.264,
-          5
-        ]
-      },
-      "id": "aka2026vxjkhp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.94,
-        "place": "15 km WSW of Johannesburg, CA",
-        "time": 1793858865190,
-        "updated": 1793859074449,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41358615",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41358615.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 14,
-        "net": "ci",
-        "code": "41358615",
-        "ids": ",ci41358615,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.08365,
-        "rms": 0.2,
-        "gap": 90,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 15 km WSW of Johannesburg, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.7995,
-          35.3421666666667,
-          5.23
-        ]
-      },
-      "id": "ci41358615"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.21,
-        "place": "77 km S of Eureka, Nevada",
-        "time": 1793857819439,
-        "updated": 1793858082973,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926669",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00926669.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 75,
-        "net": "nn",
-        "code": "00926669",
-        "ids": ",nn00926669,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 1.444,
-        "rms": 0.3928,
-        "gap": 157,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 77 km S of Eureka, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.9627,
-          38.8153,
-          0.0009
-        ]
-      },
-      "id": "nn00926669"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.15,
-        "place": "15 km S of Santa Barbara, CA",
-        "time": 1793856795170,
-        "updated": 1793857013960,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41358599",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41358599.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 71,
-        "net": "ci",
-        "code": "41358599",
-        "ids": ",ci41358599,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 47,
-        "dmin": 0.152,
-        "rms": 0.25,
-        "gap": 92,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 15 km S of Santa Barbara, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.708333333333,
-          34.2885,
-          1.39
-        ]
-      },
-      "id": "ci41358599"
+      "id": "aka2026vzdxdy"
     }
   ],
   "bbox": [
-    -155.105,
-    34.2885,
-    0.0009,
-    -115.9627,
-    60.901,
-    31
+    -154.921,
+    18.524166666667,
+    3.8599998950958,
+    -64.9415,
+    64.468,
+    90
   ]
 }
