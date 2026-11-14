@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794551591000,
+    "generated": 1794637795000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
@@ -12,130 +12,130 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.16,
-        "place": "37 km S of Stovepipe Wells, CA",
-        "time": 1794550378710,
-        "updated": 1794550607327,
+        "mag": 0.8,
+        "place": "61 km ENE of Pedro Bay, Alaska",
+        "time": 1794637717954,
+        "updated": 1794637764776,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41361623",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41361623.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wnzxdd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wnzxdd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 72,
-        "net": "ci",
-        "code": "41361623",
-        "ids": ",ci41361623,nn00926951,",
-        "sources": ",ci,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.1183,
-        "rms": 0.19,
-        "gap": 50,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.2 - 37 km S of Stovepipe Wells, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.2125,
-          36.27667,
-          1.61
-        ]
-      },
-      "id": "ci41361623"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.4,
-        "place": "68 km WNW of Beluga, Alaska",
-        "time": 1794549502734,
-        "updated": 1794549546070,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wmcwij",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wmcwij.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 2,
+        "sig": 10,
         "net": "ak",
-        "code": "a2026wmcwij",
-        "ids": ",aka2026wmcwij,",
+        "code": "a2026wnzxdd",
+        "ids": ",aka2026wnzxdd,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
         "nst": 6,
-        "dmin": 0.1,
-        "rms": 0.4,
-        "gap": 220,
+        "dmin": 0,
+        "rms": 0.5,
+        "gap": 111,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.4 - 68 km WNW of Beluga, Alaska"
+        "title": "M 0.8 - 61 km ENE of Pedro Bay, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.237,
-          61.406,
+          -153.095,
+          60.005,
           5
         ]
       },
-      "id": "aka2026wmcwij"
+      "id": "aka2026wnzxdd"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.66,
-        "place": "14 km N of Warner Springs, CA",
-        "time": 1794548627170,
-        "updated": 1794548831532,
+        "mag": 1.6,
+        "place": "13 km ENE of Willow, Alaska",
+        "time": 1794635794821,
+        "updated": 1794635865763,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41361615",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41361615.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wnyvip",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wnyvip.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 7,
-        "net": "ci",
-        "code": "41361615",
-        "ids": ",ci41361615,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 44,
-        "dmin": 0.09068,
-        "rms": 0.21,
-        "gap": 59,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026wnyvip",
+        "ids": ",aka2026wnyvip,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 106,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 14 km N of Warner Springs, CA"
+        "title": "M 1.6 - 13 km ENE of Willow, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.6455,
-          33.41133,
-          5.85
+          -149.786,
+          61.782,
+          48.5
         ]
       },
-      "id": "ci41361615"
+      "id": "aka2026wnyvip"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.75,
+        "place": "3 km WNW of The Geysers, CA",
+        "time": 1794634785830,
+        "updated": 1794634881842,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75466287",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75466287.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "nc",
+        "code": "75466287",
+        "ids": ",nc75466287,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.004783,
+        "rms": 0.02,
+        "gap": 106,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 3 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.783996582031,
+          38.7895011901855,
+          2.67000007629395
+        ]
+      },
+      "id": "nc75466287"
     }
   ],
   "bbox": [
-    -152.237,
-    33.41133,
-    1.61,
-    -116.6455,
-    61.406,
-    5.85
+    -153.095,
+    38.789501190185,
+    2.670000076294,
+    -122.78399658203,
+    61.782,
+    48.5
   ]
 }
