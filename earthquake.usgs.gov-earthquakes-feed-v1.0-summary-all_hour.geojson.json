@@ -1,141 +1,181 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794637795000,
+    "generated": 1794724250000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 3
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.8,
-        "place": "61 km ENE of Pedro Bay, Alaska",
-        "time": 1794637717954,
-        "updated": 1794637764776,
+        "mag": 1,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1794722987840,
+        "updated": 1794723082655,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wnzxdd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wnzxdd.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75466632",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75466632.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 10,
-        "net": "ak",
-        "code": "a2026wnzxdd",
-        "ids": ",aka2026wnzxdd,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 111,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.8 - 61 km ENE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.095,
-          60.005,
-          5
-        ]
-      },
-      "id": "aka2026wnzxdd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.6,
-        "place": "13 km ENE of Willow, Alaska",
-        "time": 1794635794821,
-        "updated": 1794635865763,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wnyvip",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wnyvip.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026wnyvip",
-        "ids": ",aka2026wnyvip,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.4,
-        "rms": 0.7,
-        "gap": 106,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 13 km ENE of Willow, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.786,
-          61.782,
-          48.5
-        ]
-      },
-      "id": "aka2026wnyvip"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.75,
-        "place": "3 km WNW of The Geysers, CA",
-        "time": 1794634785830,
-        "updated": 1794634881842,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75466287",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75466287.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 9,
+        "sig": 15,
         "net": "nc",
-        "code": "75466287",
-        "ids": ",nc75466287,",
+        "code": "75466632",
+        "ids": ",nc75466632,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
         "nst": 12,
-        "dmin": 0.004783,
+        "dmin": 0.006269,
         "rms": 0.02,
-        "gap": 106,
+        "gap": 135,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 0.8 - 3 km WNW of The Geysers, CA"
+        "title": "M 1.0 - 5 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.783996582031,
-          38.7895011901855,
-          2.67000007629395
+          -122.782333374023,
+          38.8380012512207,
+          2.04999995231628
         ]
       },
-      "id": "nc75466287"
+      "id": "nc75466632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.83,
+        "place": "5 km WNW of Cobb, CA",
+        "time": 1794722920810,
+        "updated": 1794724041528,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75466627",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75466627.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 52,
+        "net": "nc",
+        "code": "75466627",
+        "ids": ",nc75466627,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 38,
+        "dmin": 0.007257,
+        "rms": 0.04,
+        "gap": 59,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 5 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.781829833984,
+          38.8354988098145,
+          1.95000004768372
+        ]
+      },
+      "id": "nc75466627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "61 km N of Petersville, Alaska",
+        "time": 1794722053361,
+        "updated": 1794722266164,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wputwc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wputwc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "a2026wputwc",
+        "ids": ",aka2026wputwc,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 0.5,
+        "rms": 0.5,
+        "gap": 49,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 61 km N of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.941,
+          63.045,
+          114.9
+        ]
+      },
+      "id": "aka2026wputwc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "70 km WNW of Ninilchik, Alaska",
+        "time": 1794721474797,
+        "updated": 1794721526496,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wpulmv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wpulmv.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ak",
+        "code": "a2026wpulmv",
+        "ids": ",aka2026wpulmv,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1,
+        "rms": 0.6,
+        "gap": 188,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 70 km WNW of Ninilchik, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.775,
+          60.36,
+          3
+        ]
+      },
+      "id": "aka2026wpulmv"
     }
   ],
   "bbox": [
-    -153.095,
-    38.789501190185,
-    2.670000076294,
-    -122.78399658203,
-    61.782,
-    48.5
+    -152.775,
+    38.835498809815,
+    1.9500000476837,
+    -122.78182983398,
+    63.045,
+    114.9
   ]
 }
