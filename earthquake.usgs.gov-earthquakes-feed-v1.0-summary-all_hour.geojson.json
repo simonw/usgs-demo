@@ -1,184 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794811767000,
+    "generated": 1794897186000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 5
+    "count": 7
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "20 km NNW of Lime Village, Alaska",
-        "time": 1794810765483,
-        "updated": 1794810985972,
+        "mag": 1.72,
+        "place": "23 km ESE of Pāhala, Hawaii",
+        "time": 1794896341530,
+        "updated": 1794896558320,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wrsbwy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wrsbwy.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75071337",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75071337.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 112,
-        "net": "ak",
-        "code": "a2026wrsbwy",
-        "ids": ",aka2026wrsbwy,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 45,
-        "dmin": 0.9,
-        "rms": 0.8,
-        "gap": 183,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 20 km NNW of Lime Village, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.573,
-          61.529,
-          0.5
-        ]
-      },
-      "id": "aka2026wrsbwy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.95,
-        "place": "17 km SE of Silver Springs, Nevada",
-        "time": 1794810644227,
-        "updated": 1794810776742,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927036",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00927036.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 58,
-        "net": "nn",
-        "code": "00927036",
-        "ids": ",nn00927036,",
-        "sources": ",nn,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.061,
-        "rms": 0.1536,
-        "gap": 92,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.0 - 17 km SE of Silver Springs, Nevada"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.077,
-          39.306,
-          8.0135
-        ]
-      },
-      "id": "nn00927036"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.44,
-        "place": "8 km S of Pāhala, Hawaii",
-        "time": 1794810492750,
-        "updated": 1794810696150,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75070987",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75070987.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 92,
+        "sig": 46,
         "net": "hv",
-        "code": "75070987",
-        "ids": ",hv75070987,",
+        "code": "75071337",
+        "ids": ",hv75071337,",
         "sources": ",hv,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0.03539,
-        "rms": 0.189999998,
-        "gap": 167,
+        "nst": 11,
+        "dmin": 0.1526,
+        "rms": 0.0700000003,
+        "gap": 255,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.4 - 8 km S of Pāhala, Hawaii"
+        "title": "M 1.7 - 23 km ESE of Pāhala, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.488662719727,
-          19.1303329467773,
-          32.1500015258789
+          -155.261169433594,
+          19.1553325653076,
+          38.4500007629395
         ]
       },
-      "id": "hv75070987"
+      "id": "hv75071337"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.21,
-        "place": "17 km SSE of Mammoth Lakes, CA",
-        "time": 1794808898810,
-        "updated": 1794810144115,
+        "mag": 0.26,
+        "place": "3 km NNW of The Geysers, CA",
+        "time": 1794895986700,
+        "updated": 1794896080363,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75466967",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75466967.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467367",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75467367.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 75,
+        "sig": 1,
         "net": "nc",
-        "code": "75466967",
-        "ids": ",nc75466967,nn00927035,",
-        "sources": ",nc,nn,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 22,
-        "dmin": null,
-        "rms": 0.12,
-        "gap": 95,
+        "code": "75467367",
+        "ids": ",nc75467367,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.01039,
+        "rms": 0,
+        "gap": 86,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.2 - 17 km SSE of Mammoth Lakes, CA"
+        "title": "M 0.3 - 3 km NNW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.872001647949,
-          37.5045013427734,
-          4.71999979019165
+          -122.773002624512,
+          38.800666809082,
+          1.89999997615814
         ]
       },
-      "id": "nc75466967"
+      "id": "nc75467367"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 0.9,
-        "place": "84 km NW of Karluk, Alaska",
-        "time": 1794808453856,
-        "updated": 1794808509710,
+        "place": "64 km WNW of Happy Valley, Alaska",
+        "time": 1794895881488,
+        "updated": 1794895985530,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wrqule",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wrqule.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wtnjnl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wtnjnl.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -187,35 +107,195 @@
         "tsunami": 0,
         "sig": 12,
         "net": "ak",
-        "code": "a2026wrqule",
-        "ids": ",aka2026wrqule,",
+        "code": "a2026wtnjnl",
+        "ids": ",aka2026wtnjnl,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 8,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 95,
+        "nst": 13,
+        "dmin": 0.1,
+        "rms": 0.2,
+        "gap": 174,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.9 - 84 km NW of Karluk, Alaska"
+        "title": "M 0.9 - 64 km WNW of Happy Valley, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -155.311,
-          58.172,
-          5
+          -152.828,
+          60.12,
+          109.4
         ]
       },
-      "id": "aka2026wrqule"
+      "id": "aka2026wtnjnl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.52,
+        "place": "5 km NW of The Geysers, CA",
+        "time": 1794895379630,
+        "updated": 1794896843781,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467357",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75467357.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "nc",
+        "code": "75467357",
+        "ids": ",nc75467357,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 19,
+        "dmin": 0.004971,
+        "rms": 0.04,
+        "gap": 45,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 5 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.787002563477,
+          38.8126678466797,
+          -0.129999995231628
+        ]
+      },
+      "id": "nc75467357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.68,
+        "place": "20 km E of Pāhala, Hawaii",
+        "time": 1794895176540,
+        "updated": 1794896460013,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75071322",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75071322.geojson",
+        "felt": 1,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 111,
+        "net": "hv",
+        "code": "75071322",
+        "ids": ",hv75071322,",
+        "sources": ",hv,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.1222,
+        "rms": 0.270000011,
+        "gap": 187,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 20 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.287506103516,
+          19.1730003356934,
+          40.6100006103516
+        ]
+      },
+      "id": "hv75071322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.29,
+        "place": "21 km E of Pāhala, Hawaii",
+        "time": 1794895139240,
+        "updated": 1794895355610,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75071317",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75071317.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 81,
+        "net": "hv",
+        "code": "75071317",
+        "ids": ",hv75071317,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.1333,
+        "rms": 0.119999997,
+        "gap": 233,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.3 - 21 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.272659301758,
+          19.1751670837402,
+          41.6399993896484
+        ]
+      },
+      "id": "hv75071317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1794895052770,
+        "updated": 1794895151361,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467352",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75467352.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nc",
+        "code": "75467352",
+        "ids": ",nc75467352,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.007549,
+        "rms": 0.02,
+        "gap": 45,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.817001342773,
+          38.8286666870117,
+          1.70000004768372
+        ]
+      },
+      "id": "nc75467352"
     }
   ],
   "bbox": [
-    -155.573,
-    19.130332946777,
-    0.5,
-    -118.87200164795,
-    61.529,
-    32.150001525879
+    -155.28750610352,
+    19.155332565308,
+    -0.12999999523163,
+    -122.77300262451,
+    60.12,
+    109.4
   ]
 }
