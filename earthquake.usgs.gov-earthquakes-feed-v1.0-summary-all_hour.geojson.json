@@ -1,144 +1,104 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1794983602000,
+    "generated": 1795070063000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 5
+    "count": 4
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.23,
-        "place": "20 km ESE of Little Lake, CA",
-        "time": 1794982860720,
-        "updated": 1794983490880,
+        "mag": 2.81,
+        "place": "6 km SSW of Primo Tapia, B.C., MX",
+        "time": 1795068166960,
+        "updated": 1795068922721,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363191",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41363191.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363583",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41363583.geojson",
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 23,
+        "sig": 122,
         "net": "ci",
-        "code": "41363191",
-        "ids": ",ci41363191,",
+        "code": "41363583",
+        "ids": ",ci41363583,",
         "sources": ",ci,",
-        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 27,
-        "dmin": 0.07166,
-        "rms": 0.15,
-        "gap": 44,
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.3557,
+        "rms": 0.26,
+        "gap": 156,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.2 - 20 km ESE of Little Lake, CA"
+        "title": "M 2.8 - 6 km SSW of Primo Tapia, B.C., MX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.7015,
-          35.8585,
-          9.18
+          -116.93483,
+          32.16817,
+          11.9
         ]
       },
-      "id": "ci41363191"
+      "id": "ci41363583"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.9,
-        "place": "85 km WNW of San Juan, Peru",
-        "time": 1794982062780,
-        "updated": 1794983506897,
+        "mag": 4.8,
+        "place": "23 km SSE of Guayaquil, Ecuador",
+        "time": 1795067366623,
+        "updated": 1795069318594,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyy8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tyy8.geojson",
-        "felt": 1,
-        "cdi": 2.5,
-        "mmi": 4.257,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 536,
-        "net": "us",
-        "code": "7000tyy8",
-        "ids": ",us7000tyy8,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 82,
-        "dmin": 3.262,
-        "rms": 0.97,
-        "gap": 131,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.9 - 85 km WNW of San Juan, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.9238,
-          -15.1438,
-          21.895
-        ]
-      },
-      "id": "us7000tyy8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.76,
-        "place": "7 km NW of The Geysers, CA",
-        "time": 1794981384950,
-        "updated": 1794981483034,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467912",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75467912.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uby4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000uby4.geojson",
+        "felt": 8,
+        "cdi": 4.3,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 9,
-        "net": "nc",
-        "code": "75467912",
-        "ids": ",nc75467912,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 13,
-        "dmin": 0.009019,
-        "rms": 0.01,
-        "gap": 58,
-        "magType": "md",
+        "sig": 358,
+        "net": "us",
+        "code": "6000uby4",
+        "ids": ",us6000uby4,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 84,
+        "dmin": 0.341,
+        "rms": 1.06,
+        "gap": 127,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 0.8 - 7 km NW of The Geysers, CA"
+        "title": "M 4.8 - 23 km SSE of Guayaquil, Ecuador"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.814834594727,
-          38.8151664733887,
-          2.94000005722046
+          -79.8204,
+          -2.4019,
+          69.493
         ]
       },
-      "id": "nc75467912"
+      "id": "us6000uby4"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 1.9,
-        "place": "24 km WNW of Fishhook, Alaska",
-        "time": 1794980670169,
-        "updated": 1794980885323,
+        "place": "33 km WNW of Salamatof, Alaska",
+        "time": 1795066726629,
+        "updated": 1795066809605,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wvincv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wvincv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wxeitm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wxeitm.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -147,75 +107,75 @@
         "tsunami": 0,
         "sig": 56,
         "net": "ak",
-        "code": "a2026wvincv",
-        "ids": ",aka2026wvincv,",
+        "code": "a2026wxeitm",
+        "ids": ",aka2026wxeitm,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 23,
+        "nst": 29,
         "dmin": 0.3,
-        "rms": 0.8,
-        "gap": 119,
+        "rms": 0.3,
+        "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 24 km WNW of Fishhook, Alaska"
+        "title": "M 1.9 - 33 km WNW of Salamatof, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.623,
-          61.862,
-          43.1
+          -151.905,
+          60.709,
+          101.7
         ]
       },
-      "id": "aka2026wvincv"
+      "id": "aka2026wxeitm"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.99,
-        "place": "7 km SSW of Devore, CA",
-        "time": 1794980209720,
-        "updated": 1794983421822,
+        "mag": 1.77,
+        "place": "7 km NE of Willits, CA",
+        "time": 1795066670550,
+        "updated": 1795069941079,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363183",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41363183.geojson",
-        "felt": 1,
-        "cdi": 2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468187",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468187.geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 61,
-        "net": "ci",
-        "code": "41363183",
-        "ids": ",ci41363183,",
-        "sources": ",ci,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 127,
-        "dmin": 0.02979,
-        "rms": 0.21,
-        "gap": 25,
-        "magType": "ml",
+        "sig": 48,
+        "net": "nc",
+        "code": "75468187",
+        "ids": ",nc75468187,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 9,
+        "dmin": 0.03293,
+        "rms": 0.05,
+        "gap": 82,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.0 - 7 km SSW of Devore, CA"
+        "title": "M 1.8 - 7 km NE of Willits, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.43217,
-          34.163,
-          6.09
+          -123.299331665039,
+          39.4543342590332,
+          6.53000020980835
         ]
       },
-      "id": "ci41363183"
+      "id": "nc75468187"
     }
   ],
   "bbox": [
-    -149.623,
-    -15.1438,
-    2.9400000572205,
-    -75.9238,
-    61.862,
-    43.1
+    -151.905,
+    -2.4019,
+    6.5300002098083,
+    -79.8204,
+    60.709,
+    101.7
   ]
 }
