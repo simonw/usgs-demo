@@ -1,181 +1,661 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795070063000,
+    "generated": 1795156393000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 4
+    "count": 16
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.81,
-        "place": "6 km SSW of Primo Tapia, B.C., MX",
-        "time": 1795068166960,
-        "updated": 1795068922721,
+        "mag": 1.07,
+        "place": "9 km WNW of The Geysers, CA",
+        "time": 1795156144680,
+        "updated": 1795156242961,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363583",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41363583.geojson",
-        "felt": 1,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468697",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468697.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 18,
+        "net": "nc",
+        "code": "75468697",
+        "ids": ",nc75468697,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.007944,
+        "rms": 0.02,
+        "gap": 77,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.1 - 9 km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.844833374023,
+          38.8209991455078,
+          2.44000005722046
+        ]
+      },
+      "id": "nc75468697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "75 km NW of Karluk, Alaska",
+        "time": 1795155891829,
+        "updated": 1795155930170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wzbxgw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wzbxgw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ak",
+        "code": "a2026wzbxgw",
+        "ids": ",aka2026wzbxgw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 188,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 75 km NW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.354,
+          58.049,
+          4.6
+        ]
+      },
+      "id": "aka2026wzbxgw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2,
+        "place": "50 km SSW of Lake Minchumina, Alaska",
+        "time": 1795155793512,
+        "updated": 1795155896177,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wzbvvp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wzbvvp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "ak",
+        "code": "a2026wzbvvp",
+        "ids": ",aka2026wzbvvp,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.4,
+        "rms": 0.7,
+        "gap": 78,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 50 km SSW of Lake Minchumina, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.853,
+          63.495,
+          0.1
+        ]
+      },
+      "id": "aka2026wzbvvp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "77 km NW of Karluk, Alaska",
+        "time": 1795155542036,
+        "updated": 1795155578260,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wzbsfk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wzbsfk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ak",
+        "code": "a2026wzbsfk",
+        "ids": ",aka2026wzbsfk,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 152,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 77 km NW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.361,
+          58.065,
+          5
+        ]
+      },
+      "id": "aka2026wzbsfk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3,
+        "place": "53 km W of Happy Valley, Alaska",
+        "time": 1795155164187,
+        "updated": 1795155405116,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wzbmul",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wzbmul.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 138,
+        "net": "ak",
+        "code": "a2026wzbmul",
+        "ids": ",aka2026wzbmul,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 129,
+        "dmin": 0.1,
+        "rms": 0.7,
+        "gap": 69,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 53 km W of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.681,
+          59.998,
+          94.9
+        ]
+      },
+      "id": "aka2026wzbmul"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.31,
+        "place": "10 km NW of Pinnacles, CA",
+        "time": 1795155130440,
+        "updated": 1795156244040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468687",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468687.geojson",
+        "felt": 5,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 170,
+        "net": "nc",
+        "code": "75468687",
+        "ids": ",nc75468687,us6000uc6s,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 78,
+        "dmin": null,
+        "rms": 0.28,
+        "gap": 29,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.3 - 10 km NW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.22233581543,
+          36.5923347473145,
+          6.42999982833862
+        ]
+      },
+      "id": "nc75468687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.39,
+        "place": "9 km NW of Pinnacles, CA",
+        "time": 1795155060410,
+        "updated": 1795156342635,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468682",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468682.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 88,
+        "net": "nc",
+        "code": "75468682",
+        "ids": ",nc75468682,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 53,
+        "dmin": 0.02835,
+        "rms": 0.28,
+        "gap": 30,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.4 - 9 km NW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.215835571289,
+          36.5859985351562,
+          5.96000003814697
+        ]
+      },
+      "id": "nc75468682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.4,
+        "place": "68 km SE of King Salmon, Alaska",
+        "time": 1795155056036,
+        "updated": 1795155285023,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wzblen",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wzblen.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 89,
+        "net": "ak",
+        "code": "a2026wzblen",
+        "ids": ",aka2026wzblen,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 0.1,
+        "rms": 0.5,
+        "gap": 98,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.4 - 68 km SE of King Salmon, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.968,
+          58.194,
+          149.6
+        ]
+      },
+      "id": "aka2026wzblen"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.54,
+        "place": "11 km NW of The Geysers, CA",
+        "time": 1795154846910,
+        "updated": 1795156341635,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468677",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468677.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "nc",
+        "code": "75468677",
+        "ids": ",nc75468677,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 23,
+        "dmin": 0.01414,
+        "rms": 0.02,
+        "gap": 107,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 11 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.848831176758,
+          38.8481674194336,
+          1.64999997615814
+        ]
+      },
+      "id": "nc75468677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "75 km NW of Karluk, Alaska",
+        "time": 1795154722330,
+        "updated": 1795154894074,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wzbgjl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wzbgjl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ak",
+        "code": "a2026wzbgjl",
+        "ids": ",aka2026wzbgjl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.1,
+        "rms": 1,
+        "gap": 241,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 75 km NW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.429,
+          58.003,
+          5
+        ]
+      },
+      "id": "aka2026wzbgjl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "75 km NW of Karluk, Alaska",
+        "time": 1795154577597,
+        "updated": 1795154619696,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wzbege",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wzbege.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "ak",
+        "code": "a2026wzbege",
+        "ids": ",aka2026wzbege,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0,
+        "rms": 0.4,
+        "gap": 209,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 75 km NW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.373,
+          58.038,
+          5
+        ]
+      },
+      "id": "aka2026wzbege"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.95,
+        "place": "10 km NW of Pinnacles, CA",
+        "time": 1795154419830,
+        "updated": 1795154518642,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468672",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468672.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "nc",
+        "code": "75468672",
+        "ids": ",nc75468672,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 7,
+        "dmin": 0.03481,
+        "rms": 0.02,
+        "gap": 145,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 10 km NW of Pinnacles, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.206832885742,
+          36.6020011901855,
+          6.51000022888184
+        ]
+      },
+      "id": "nc75468672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.7,
+        "place": "10 km S of Idyllwild, CA",
+        "time": 1795154202650,
+        "updated": 1795154409182,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363983",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41363983.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "ci",
+        "code": "41363983",
+        "ids": ",ci41363983,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.05804,
+        "rms": 0.23,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.7 - 10 km S of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.74017,
+          33.64833,
+          13.58
+        ]
+      },
+      "id": "ci41363983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.25,
+        "place": "8 km NW of The Geysers, CA",
+        "time": 1795154129230,
+        "updated": 1795154227948,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468667",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468667.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 24,
+        "net": "nc",
+        "code": "75468667",
+        "ids": ",nc75468667,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.01191,
+        "rms": 0.02,
+        "gap": 59,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.3 - 8 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.817832946777,
+          38.833667755127,
+          1.9099999666214
+        ]
+      },
+      "id": "nc75468667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.11,
+        "place": "9 km NW of Pinnacles, CA",
+        "time": 1795154003950,
+        "updated": 1795155935003,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468662",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468662.geojson",
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 122,
-        "net": "ci",
-        "code": "41363583",
-        "ids": ",ci41363583,",
-        "sources": ",ci,",
-        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 33,
-        "dmin": 0.3557,
-        "rms": 0.26,
-        "gap": 156,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 6 km SSW of Primo Tapia, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.93483,
-          32.16817,
-          11.9
-        ]
-      },
-      "id": "ci41363583"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "23 km SSE of Guayaquil, Ecuador",
-        "time": 1795067366623,
-        "updated": 1795069318594,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uby4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000uby4.geojson",
-        "felt": 8,
-        "cdi": 4.3,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 358,
-        "net": "us",
-        "code": "6000uby4",
-        "ids": ",us6000uby4,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 84,
-        "dmin": 0.341,
-        "rms": 1.06,
-        "gap": 127,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.8 - 23 km SSE of Guayaquil, Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.8204,
-          -2.4019,
-          69.493
-        ]
-      },
-      "id": "us6000uby4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.9,
-        "place": "33 km WNW of Salamatof, Alaska",
-        "time": 1795066726629,
-        "updated": 1795066809605,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wxeitm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wxeitm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 56,
-        "net": "ak",
-        "code": "a2026wxeitm",
-        "ids": ",aka2026wxeitm,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.3,
-        "rms": 0.3,
-        "gap": 58,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.9 - 33 km WNW of Salamatof, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.905,
-          60.709,
-          101.7
-        ]
-      },
-      "id": "aka2026wxeitm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.77,
-        "place": "7 km NE of Willits, CA",
-        "time": 1795066670550,
-        "updated": 1795069941079,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468187",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75468187.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 48,
+        "sig": 149,
         "net": "nc",
-        "code": "75468187",
-        "ids": ",nc75468187,",
+        "code": "75468662",
+        "ids": ",nc75468662,",
         "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 9,
-        "dmin": 0.03293,
-        "rms": 0.05,
-        "gap": 82,
-        "magType": "md",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 76,
+        "dmin": null,
+        "rms": 0.29,
+        "gap": 29,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.8 - 7 km NE of Willits, CA"
+        "title": "M 3.1 - 9 km NW of Pinnacles, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.299331665039,
-          39.4543342590332,
-          6.53000020980835
+          -121.216499328613,
+          36.5900001525879,
+          7.21000003814697
         ]
       },
-      "id": "nc75468187"
+      "id": "nc75468662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.96,
+        "place": "11 km SW of Anza, CA",
+        "time": 1795153565020,
+        "updated": 1795153775790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363975",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41363975.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "41363975",
+        "ids": ",ci41363975,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.0589,
+        "rms": 0.18,
+        "gap": 46,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 11 km SW of Anza, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.74467,
+          33.47617,
+          14.84
+        ]
+      },
+      "id": "ci41363975"
     }
   ],
   "bbox": [
-    -151.905,
-    -2.4019,
-    6.5300002098083,
-    -79.8204,
-    60.709,
-    101.7
+    -155.968,
+    33.47617,
+    0.1,
+    -116.74017,
+    63.495,
+    149.6
   ]
 }
