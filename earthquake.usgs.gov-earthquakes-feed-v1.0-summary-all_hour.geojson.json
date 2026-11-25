@@ -1,381 +1,101 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795502084000,
+    "generated": 1795588548000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 9
+    "count": 2
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.6,
-        "place": "55 km NW of Ninilchik, Alaska",
-        "time": 1795501732892,
-        "updated": 1795501826078,
+        "mag": 0.72,
+        "place": "9 km WNW of Cobb, CA",
+        "time": 1795587182550,
+        "updated": 1795587281686,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xgmdbb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xgmdbb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469011",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469011.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 39,
-        "net": "ak",
-        "code": "a2026xgmdbb",
-        "ids": ",aka2026xgmdbb,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.2,
-        "rms": 0.5,
-        "gap": 70,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.6 - 55 km NW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.356,
-          60.411,
-          98.5
-        ]
-      },
-      "id": "aka2026xgmdbb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.87,
-        "place": "2 km WSW of Pāhala, Hawaii",
-        "time": 1795501515040,
-        "updated": 1795501723410,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75075747",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75075747.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 54,
-        "net": "hv",
-        "code": "75075747",
-        "ids": ",hv75075747,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.05085,
-        "rms": 0.209999993,
-        "gap": 86,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.9 - 2 km WSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.502670288086,
-          19.1889991760254,
-          30.1700000762939
-        ]
-      },
-      "id": "hv75075747"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "16 km NNW of Runge, Texas",
-        "time": 1795501449408,
-        "updated": 1795501812040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud55",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ud55.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000ud55",
-        "ids": ",us6000ud55,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "sig": 8,
+        "net": "nc",
+        "code": "75469011",
+        "ids": ",nc75469011,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
         "nst": 14,
-        "dmin": 0.185,
-        "rms": 0.76,
-        "gap": 184,
-        "magType": "mb_lg",
-        "type": "earthquake",
-        "title": "M 2.9 - 16 km NNW of Runge, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.7566,
-          29.0267,
-          5
-        ]
-      },
-      "id": "us6000ud55"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.06,
-        "place": "2 km NNW of The Geysers, CA",
-        "time": 1795501429630,
-        "updated": 1795501523711,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75471507",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75471507.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 17,
-        "net": "nc",
-        "code": "75471507",
-        "ids": ",nc75471507,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.008793,
-        "rms": 0.02,
-        "gap": 82,
+        "dmin": 0.01418,
+        "rms": 0.01,
+        "gap": 94,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.1 - 2 km NNW of The Geysers, CA"
+        "title": "M 0.7 - 9 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.767997741699,
-          38.7946662902832,
-          3.60999989509583
+          -122.824668884277,
+          38.8404998779297,
+          2.01999998092651
         ]
       },
-      "id": "nc75471507"
+      "id": "nc75469011"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.4,
-        "place": "3 km NNW of The Geysers, CA",
-        "time": 1795500676400,
-        "updated": 1795500773777,
+        "mag": 2.91,
+        "place": "70 km N of San Juan, Puerto Rico",
+        "time": 1795585248740,
+        "updated": 1795587641300,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75471502",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75471502.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 30,
-        "net": "nc",
-        "code": "75471502",
-        "ids": ",nc75471502,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 9,
-        "dmin": 0.02154,
-        "rms": 0.12,
-        "gap": 157,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 1.4 - 3 km NNW of The Geysers, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.768333435059,
-          38.8035011291504,
-          -0.140000000596046
-        ]
-      },
-      "id": "nc75471502"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.9,
-        "place": "83 km NW of Karluk, Alaska",
-        "time": 1795500635809,
-        "updated": 1795500804533,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xglneh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xglneh.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 12,
-        "net": "ak",
-        "code": "a2026xglneh",
-        "ids": ",aka2026xglneh,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.9 - 83 km NW of Karluk, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.254,
-          58.191,
-          5
-        ]
-      },
-      "id": "aka2026xglneh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 1.43,
-        "place": "18 km WSW of Delta, B.C., MX",
-        "time": 1795500629290,
-        "updated": 1795500841370,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41579792",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41579792.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 31,
-        "net": "ci",
-        "code": "41579792",
-        "ids": ",ci41579792,",
-        "sources": ",ci,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 17,
-        "dmin": 0.1591,
-        "rms": 0.23,
-        "gap": 67,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 1.4 - 18 km WSW of Delta, B.C., MX"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.36567,
-          32.27883,
-          0.86
-        ]
-      },
-      "id": "ci41579792"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 0.5,
-        "place": "66 km NW of Ninilchik, Alaska",
-        "time": 1795499230741,
-        "updated": 1795499394685,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xgkswk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xgkswk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 4,
-        "net": "ak",
-        "code": "a2026xgkswk",
-        "ids": ",aka2026xgkswk,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1,
-        "rms": 0.2,
-        "gap": 280,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 0.5 - 66 km NW of Ninilchik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.549,
-          60.454,
-          3.1
-        ]
-      },
-      "id": "aka2026xgkswk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "5 km S of Guánica, Puerto Rico",
-        "time": 1795499158390,
-        "updated": 1795500281260,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71539868",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71539868.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71539933",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71539933.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 102,
+        "sig": 130,
         "net": "pr",
-        "code": "71539868",
-        "ids": ",pr71539868,",
+        "code": "71539933",
+        "ids": ",pr71539933,",
         "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.06113,
-        "rms": 0.11,
-        "gap": 211,
+        "nst": 16,
+        "dmin": 0.7935,
+        "rms": 0.21,
+        "gap": 258,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 5 km S of Guánica, Puerto Rico"
+        "title": "M 2.9 - 70 km N of San Juan, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.9098333333333,
-          17.921,
-          9.01
+          -66.1121666666667,
+          19.1063333333333,
+          18.26
         ]
       },
-      "id": "pr71539868"
+      "id": "pr71539933"
     }
   ],
   "bbox": [
-    -155.50267028809,
-    17.921,
-    -0.14000000059605,
-    -66.909833333333,
-    60.454,
-    98.5
+    -122.82466888428,
+    19.106333333333,
+    2.0199999809265,
+    -66.112166666667,
+    38.84049987793,
+    18.26
   ]
 }
