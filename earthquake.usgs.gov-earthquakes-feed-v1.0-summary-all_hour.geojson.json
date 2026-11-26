@@ -1,101 +1,421 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795588548000,
+    "generated": 1795674948000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 2
+    "count": 10
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.72,
-        "place": "9 km WNW of Cobb, CA",
-        "time": 1795587182550,
-        "updated": 1795587281686,
+        "mag": 1,
+        "place": "86 km NNW of Karluk, Alaska",
+        "time": 1795674452762,
+        "updated": 1795674494065,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469011",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469011.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xkeczy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xkeczy.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 8,
-        "net": "nc",
-        "code": "75469011",
-        "ids": ",nc75469011,",
-        "sources": ",nc,",
-        "types": ",nearby-cities,origin,phase-data,",
-        "nst": 14,
-        "dmin": 0.01418,
-        "rms": 0.01,
-        "gap": 94,
-        "magType": "md",
+        "sig": 15,
+        "net": "ak",
+        "code": "a2026xkeczy",
+        "ids": ",aka2026xkeczy,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 11,
+        "dmin": 0,
+        "rms": 0.3,
+        "gap": 131,
+        "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.7 - 9 km WNW of Cobb, CA"
+        "title": "M 1.0 - 86 km NNW of Karluk, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.824668884277,
-          38.8404998779297,
-          2.01999998092651
+          -154.984,
+          58.297,
+          5
         ]
       },
-      "id": "nc75469011"
+      "id": "aka2026xkeczy"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.91,
-        "place": "70 km N of San Juan, Puerto Rico",
-        "time": 1795585248740,
-        "updated": 1795587641300,
+        "mag": 1.8,
+        "place": "43 km SW of Skwentna, Alaska",
+        "time": 1795673705169,
+        "updated": 1795673814288,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71539933",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71539933.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xkdsbw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xkdsbw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "net": "ak",
+        "code": "a2026xkdsbw",
+        "ids": ",aka2026xkdsbw,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 36,
+        "dmin": 0.2,
+        "rms": 0.5,
+        "gap": 100,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.8 - 43 km SW of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.96,
+          61.699,
+          116.7
+        ]
+      },
+      "id": "aka2026xkdsbw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "27 km W of Skwentna, Alaska",
+        "time": 1795673338832,
+        "updated": 1795673414114,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xkdmxl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xkdmxl.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "a2026xkdmxl",
+        "ids": ",aka2026xkdmxl,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.2,
+        "rms": 0.1,
+        "gap": 195,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 27 km W of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.927,
+          62.002,
+          111.8
+        ]
+      },
+      "id": "aka2026xkdmxl"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.95,
+        "place": "6 km WSW of Beaumont, CA",
+        "time": 1795673198890,
+        "updated": 1795673400765,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580368",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580368.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 14,
+        "net": "ci",
+        "code": "41580368",
+        "ids": ",ci41580368,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 43,
+        "dmin": 0.04594,
+        "rms": 0.16,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 6 km WSW of Beaumont, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.034,
+          33.90967,
+          14.89
+        ]
+      },
+      "id": "ci41580368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.35,
+        "place": "11 km NW of The Geysers, CA",
+        "time": 1795672236450,
+        "updated": 1795672331120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469446",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469446.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "nc",
+        "code": "75469446",
+        "ids": ",nc75469446,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.01193,
+        "rms": 0.03,
+        "gap": 104,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.4 - 11 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.846336364746,
+          38.8470001220703,
+          1.95000004768372
+        ]
+      },
+      "id": "nc75469446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.11,
+        "place": "0 km SE of Magas Arriba, Puerto Rico",
+        "time": 1795672089480,
+        "updated": 1795673249770,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71540068",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71540068.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 130,
+        "sig": 68,
         "net": "pr",
-        "code": "71539933",
-        "ids": ",pr71539933,",
+        "code": "71540068",
+        "ids": ",pr71540068,",
         "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.7935,
-        "rms": 0.21,
-        "gap": 258,
+        "nst": 9,
+        "dmin": 0.1172,
+        "rms": 0.24,
+        "gap": 174,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.9 - 70 km N of San Juan, Puerto Rico"
+        "title": "M 2.1 - 0 km SE of Magas Arriba, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.1121666666667,
-          19.1063333333333,
-          18.26
+          -66.7621666666667,
+          18.0116666666667,
+          13.68
         ]
       },
-      "id": "pr71539933"
+      "id": "pr71540068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.16,
+        "place": "2 km NNW of Fontana, CA",
+        "time": 1795672008730,
+        "updated": 1795672209889,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580360",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580360.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 21,
+        "net": "ci",
+        "code": "41580360",
+        "ids": ",ci41580360,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 62,
+        "dmin": 0.0277,
+        "rms": 0.2,
+        "gap": 25,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 2 km NNW of Fontana, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.469,
+          34.11133,
+          6.8
+        ]
+      },
+      "id": "ci41580360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.02,
+        "place": "11 km NW of The Geysers, CA",
+        "time": 1795671632560,
+        "updated": 1795671730430,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469441",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469441.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 16,
+        "net": "nc",
+        "code": "75469441",
+        "ids": ",nc75469441,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.01246,
+        "rms": 0.02,
+        "gap": 101,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.0 - 11 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.847999572754,
+          38.8463325500488,
+          1.39999997615814
+        ]
+      },
+      "id": "nc75469441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.44,
+        "place": "10 km NE of Simi Valley, CA",
+        "time": 1795671433310,
+        "updated": 1795671635687,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580352",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580352.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "ci",
+        "code": "41580352",
+        "ids": ",ci41580352,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 26,
+        "dmin": 0.04917,
+        "rms": 0.31,
+        "gap": 146,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.4 - 10 km NE of Simi Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.67383,
+          34.34267,
+          14.11
+        ]
+      },
+      "id": "ci41580352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "70 km WSW of Skwentna, Alaska",
+        "time": 1795671391162,
+        "updated": 1795671594542,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xkckts",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xkckts.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "a2026xkckts",
+        "ids": ",aka2026xkckts,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.3,
+        "rms": 0.7,
+        "gap": 105,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 70 km WSW of Skwentna, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.559,
+          61.676,
+          5
+        ]
+      },
+      "id": "aka2026xkckts"
     }
   ],
   "bbox": [
-    -122.82466888428,
-    19.106333333333,
-    2.0199999809265,
-    -66.112166666667,
-    38.84049987793,
-    18.26
+    -154.984,
+    18.011666666667,
+    1.3999999761581,
+    -66.762166666667,
+    62.002,
+    116.7
   ]
 }
