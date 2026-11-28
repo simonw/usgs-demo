@@ -1,181 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795761308000,
+    "generated": 1795847568000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "2.8.2",
-    "count": 4
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.54,
-        "place": "5 km NNW of The Geysers, CA",
-        "time": 1795761111190,
-        "updated": 1795761207040,
+        "mag": 1.6,
+        "place": "89 km WNW of Karluk, Alaska",
+        "time": 1795847253449,
+        "updated": 1795847334467,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469886",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75469886.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xnwedr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xnwedr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 36,
+        "sig": 39,
+        "net": "ak",
+        "code": "a2026xnwedr",
+        "ids": ",aka2026xnwedr,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.2,
+        "rms": 0.7,
+        "gap": 166,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 89 km WNW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.843,
+          57.886,
+          6.1
+        ]
+      },
+      "id": "aka2026xnwedr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "10 km WSW of Point MacKenzie, Alaska",
+        "time": 1795846302401,
+        "updated": 1795847353587,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xnvqjt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xnvqjt.geojson",
+        "felt": 614,
+        "cdi": 4.1,
+        "mmi": 3.349,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 498,
+        "net": "ak",
+        "code": "a2026xnvqjt",
+        "ids": ",aka2026xnvqjt,attp77vh,us6000ue2e,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,impact-link,origin,phase-data,shakemap,",
+        "nst": 160,
+        "dmin": 0.2,
+        "rms": 0.9,
+        "gap": 20,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 10 km WSW of Point MacKenzie, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.163,
+          61.333,
+          39.5
+        ]
+      },
+      "id": "aka2026xnvqjt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.44,
+        "place": "2 km E of The Geysers, CA",
+        "time": 1795845993010,
+        "updated": 1795846090240,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470571",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75470571.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
         "net": "nc",
-        "code": "75469886",
-        "ids": ",nc75469886,",
+        "code": "75470571",
+        "ids": ",nc75470571,",
         "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,",
-        "nst": 12,
-        "dmin": 0.01397,
-        "rms": 0.01,
-        "gap": 98,
+        "nst": 17,
+        "dmin": 0.00834,
+        "rms": 0.03,
+        "gap": 66,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 1.5 - 5 km NNW of The Geysers, CA"
+        "title": "M 1.4 - 2 km E of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.782836914062,
-          38.818000793457,
-          1.50999999046326
+          -122.738502502441,
+          38.7750015258789,
+          0.889999985694885
         ]
       },
-      "id": "nc75469886"
+      "id": "nc75470571"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.6,
-        "place": "47 km NE of Pedro Bay, Alaska",
-        "time": 1795759492517,
-        "updated": 1795759664814,
+        "mag": 3.25,
+        "place": "17 km WNW of Hāwī, Hawaii",
+        "time": 1795845426990,
+        "updated": 1795847444720,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xlzjxr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xlzjxr.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75077417",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75077417.geojson",
+        "felt": 5,
+        "cdi": 2.7,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 6,
-        "net": "ak",
-        "code": "a2026xlzjxr",
-        "ids": ",aka2026xlzjxr,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.1,
-        "rms": 0.6,
-        "gap": 278,
+        "sig": 164,
+        "net": "hv",
+        "code": "75077417",
+        "ids": ",hv75077417,us6000ue2b,",
+        "sources": ",hv,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 63,
+        "dmin": 0.2758,
+        "rms": 0.15,
+        "gap": 145,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 0.6 - 47 km NE of Pedro Bay, Alaska"
+        "title": "M 3.3 - 17 km WNW of Hāwī, Hawaii"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -153.407,
-          60.03,
-          5
+          -155.980333333333,
+          20.3251666666667,
+          31.39
         ]
       },
-      "id": "aka2026xlzjxr"
+      "id": "hv75077417"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.9,
-        "place": "5 km W of Point MacKenzie, Alaska",
-        "time": 1795759023291,
-        "updated": 1795759223985,
+        "mag": 2.3,
+        "place": "57 km NNE of Chase, Alaska",
+        "time": 1795845329256,
+        "updated": 1795845535765,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xlzdcv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xlzdcv.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xnvcim",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xnvcim.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 56,
+        "sig": 81,
         "net": "ak",
-        "code": "a2026xlzdcv",
-        "ids": ",aka2026xlzdcv,",
+        "code": "a2026xnvcim",
+        "ids": ",aka2026xnvcim,",
         "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 0.3,
+        "nst": 62,
+        "dmin": 0.5,
         "rms": 0.8,
-        "gap": 46,
+        "gap": 49,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.9 - 5 km W of Point MacKenzie, Alaska"
+        "title": "M 2.3 - 57 km NNE of Chase, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.079,
-          61.351,
-          50.4
+          -149.719,
+          62.933,
+          64.2
         ]
       },
-      "id": "aka2026xlzdcv"
+      "id": "aka2026xnvcim"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.7,
-        "place": "39 km WSW of Anchor Point, Alaska",
-        "time": 1795757905458,
-        "updated": 1795757974775,
+        "mag": 1.4,
+        "place": "7 km NNE of Boonville, CA",
+        "time": 1795844998430,
+        "updated": 1795845094964,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xlymxf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026xlymxf.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470566",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75470566.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 44,
-        "net": "ak",
-        "code": "a2026xlymxf",
-        "ids": ",aka2026xlymxf,",
-        "sources": ",ak,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.3,
-        "rms": 0.5,
-        "gap": 96,
-        "magType": "ml",
+        "sig": 30,
+        "net": "nc",
+        "code": "75470566",
+        "ids": ",nc75470566,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.08059,
+        "rms": 0.04,
+        "gap": 131,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 1.7 - 39 km WSW of Anchor Point, Alaska"
+        "title": "M 1.4 - 7 km NNE of Boonville, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -152.484,
-          59.643,
-          72.6
+          -123.329002380371,
+          39.0666656494141,
+          6.8899998664856
         ]
       },
-      "id": "aka2026xlymxf"
+      "id": "nc75470566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.55,
+        "place": "12 km NE of Julian, CA",
+        "time": 1795844905600,
+        "updated": 1795845106458,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580976",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580976.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 5,
+        "net": "ci",
+        "code": "41580976",
+        "ids": ",ci41580976,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.09814,
+        "rms": 0.22,
+        "gap": 56,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.6 - 12 km NE of Julian, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.51433,
+          33.152,
+          6.63
+        ]
+      },
+      "id": "ci41580976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.22,
+        "place": "11 km SSW of Idyllwild, CA",
+        "time": 1795844612140,
+        "updated": 1795845282800,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580968",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41580968.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 23,
+        "net": "ci",
+        "code": "41580968",
+        "ids": ",ci41580968,",
+        "sources": ",ci,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 68,
+        "dmin": 0.05609,
+        "rms": 0.19,
+        "gap": 19,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 11 km SSW of Idyllwild, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.75767,
+          33.64967,
+          13.85
+        ]
+      },
+      "id": "ci41580968"
     }
   ],
   "bbox": [
-    -153.407,
-    38.818000793457,
-    1.5099999904633,
-    -122.78283691406,
-    61.351,
-    72.6
+    -155.98033333333,
+    20.325166666667,
+    0.88999998569489,
+    -116.51433,
+    62.933,
+    64.2
   ]
 }
